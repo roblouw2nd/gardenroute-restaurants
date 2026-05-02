@@ -1,0 +1,72 @@
+{
+  "id": "lulu-s-cafe-mossel-bay",
+  "name": "Lulu's Café",
+  "slug": "lulu-s-cafe-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "4 Malva Rd, Dana Bay, Mossel Bay, 6510, South Africa",
+  "coordinates": {
+    "lat": -34.1924664,
+    "lng": 22.050321699999998
+  },
+  "phone": "+27 66 068 2773",
+  "email": "",
+  "website": "https://luluscafe.co.za/",
+  "google_place_id": "ChIJw_YejHJp1h0R7gffqR9tCAA",
+  "google_rating": 4.6,
+  "google_review_count": 56,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "description_short": "Relaxed Dana Bay café serving hearty breakfasts, fresh salads, and homemade treats with coastal charm.",
+  "description_long": "Tucked away in the seaside village of Dana Bay, Lulu's Café has become a favourite local spot for those seeking good food without the fuss. The relaxed atmosphere makes it easy to linger over a lazy breakfast or catch up with friends over coffee and cake.\n\nThe menu covers all the café classics done well — think generous breakfast platters, fresh salads, burgers, and daily specials that change with what's available. Their homemade baked goods are worth the trip alone, and the coffee keeps regulars coming back. The staff are friendly and the service is unpretentious, making it the kind of place where you feel immediately at home.\n\nLocated just a short drive from Mossel Bay's main beachfront, Dana Bay offers a quieter coastal experience, and Lulu's fits right into that laid-back vibe. Whether you're stopping in for a full breakfast before exploring the Garden Route or popping by for a quick lunch, it's a solid, welcoming spot that gets the basics right.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw_YejHJp1h0R7gffqR9tCAA/photos/Ab43m-vlojqYyRJhbw-OF-SKKOBaINHeYi0IIfw3o-13ClUbdg3tepE7AwI79GpreTRP2BlNgy7jrv_S-i6cDFs1jS0gmfIFqhkCNGgEClREL_d0nFNvq6LHiLDpWLIwjofRHIYZGy6IvlRMIBLvx0FwzMJ6CU2nZFmpGdf28lN6sNVWjKhINB3KHvUcHGpc-fF_fB-1iF5jVJIwDueDx0y59-55RTo2OB-Mnb6pLeVPHr5tdbcqY0UWo_vSCvNBEOQYbmG6sPiZlUaZYwJPu6ZdCyCbmApkdeHTCt7vy8NJpebJBQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw_YejHJp1h0R7gffqR9tCAA/photos/Ab43m-vZgGrLfqg5z8GEw3I1me0XtF4DEbaU1uq9gYiUr9OB4a5NkScUUyFAXmNKN2yxIeeJGq0GT8MaLzix4FYBYzdBuc35Hf0bwlh53V5LxR5H2oPIAMruAUbTu2uufmfEl-loBIX6gRkTPFs4nSI1BeVcijJDWCr6Yo_EtHRgQQ-qrww4DM0Qtlh4izX6NbW-1vERy-SYx7445ITEki_vBjiShUvltk2NWmKfJ1KYcTYl4b2RHKhhJAOVuEptOVJdQ0-iFd6p_8sou40okW42QefOweqJ4ANRMXoGz1zinMcQBA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw_YejHJp1h0R7gffqR9tCAA/photos/Ab43m-vSrV-JA_Bv99nBR-dFYRk-wrtO6BPJBDwalCvxUwlCoBkmResMfyJNA1f2BehUMqLfFy4NOHTSIskZc4sTRRVm8NiIKfxzPs5M5SegfdksQH7nfyZwC_krfAKJvYMPyIMUKePvJQqto68y20OUeL1jrRLniTVnJF818EDhsoIjFNLLo0swqtHgTSKDMIDmOX6r1rb7wLpCW7bxZ-0zAd1uEnqEnHdIsnV8Xgtg-5WghnaqE3cTA40tcWEfI7d0rVugtu0WmIi1pBJf2jOC0iKRptmjT-_2bLSwh7IASl2tud3F-VDoEdl69SSN0cri4aUBrDcyHSZxcfDp69zUchPQj_e4L-FNZOA5veAEvZmv1eI8CJwFJag7ep8DBfzQT2r5IKU0_UKTWK8i3yGPzKOBGcxy5nJQjktv25zqrqaZiZyF/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw_YejHJp1h0R7gffqR9tCAA/photos/Ab43m-uPyRDIh-O7kjgibguDih2vBmTfpL-ryoyF2QARJKpIXhKyu4MZJ6YOeh9yCqadkkp6WpWju_wtxx1RGeKCw1udHTMVz33rlXXLRjhn59N8pQsb0j9HMa1V75jbOZNyddMF-vdRIwmRWkFM9O-bC8ffi5OokilmDE5KF914oXOSw8HZYyPiH__hU2v7RW5zsyuQcRpPJFD3UdXqKkuA1J5n10KY6BsyeAoX04EnzkIUfAsey7mp6THvOJ6yn2h75exD57JLzXF9TeU6haOEBVi-EUTHCe8K0MtqalzDF4B_IZSUZH78-l7bmMucMvkRuXQESiiKN6zcgTOEBoCF-ywbVTWIBO24imGtj82Cvef_cFn3Gsb3_fb6yJSMP1mO7aTAWlOuwBH7QTtWm2BMF0nwX-uCvlgC-147rKhSo5y79-2C/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw_YejHJp1h0R7gffqR9tCAA/photos/Ab43m-tYa5mpRhhZGbn03WPOwjfFakeLvywqSUyDevq4N6wpnTBePhww_z8trE041YD84T1cMiE9FLqEVNyOId5Spror84sPdtiEbSDL09l-Va7cdT4yE8juXGoQMhpyVWcmufY4b3wYoVTO0uv0UC3DHuzePnw0ydfJNkd43UNUmnhj8ZCi57NP3dUysM-cIsX9gnJsPlYMcCtopCOBQlAl0tBNEzjdn6pMmWyvlSCJjeDqePiFlr-jAYorSrAwtTMUJ6PqB7CS8fLtqix788W9OWsMtbX3k7uIhTc6EAbIzzqMUA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:28:51.416290+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

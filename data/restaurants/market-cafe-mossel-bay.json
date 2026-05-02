@@ -1,0 +1,71 @@
+{
+  "id": "market-cafe-mossel-bay",
+  "name": "Market Cafe",
+  "slug": "market-cafe-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "8 Market St, Mossel Bay Central, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.1800312,
+    "lng": 22.143406499999998
+  },
+  "phone": "+27 76 326 0963",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJc-58J89p1h0RVdp1tgQgttM",
+  "google_rating": 4.9,
+  "google_review_count": 52,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Bakery",
+    "Breakfast"
+  ],
+  "tags": [
+    "Takeaway",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 4:00 PM",
+    "tuesday": "8:30 AM – 4:00 PM",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "8:30 AM – 2:00 PM",
+    "sunday": "9:00 AM – 1:00 PM"
+  },
+  "description_short": "Charming deli-style cafe in central Mossel Bay serving excellent coffee, fresh pastries, and wholesome homemade meals.",
+  "description_long": "Tucked away on Market Street in the heart of Mossel Bay, Market Cafe has earned a loyal following for its relaxed, welcoming vibe and consistently good food. This cosy spot combines the best of a neighbourhood coffee shop with a proper deli, offering everything from freshly baked croissants and artisan breads to hearty breakfast bowls and well-crafted sandwiches throughout the day.\n\nThe cafe's focus on quality ingredients shines through in their daily specials and homemade treats. Whether you're stopping in for your morning flat white, grabbing a quick lunch, or picking up provisions from their deli selection, the friendly service and attention to detail make it worth seeking out. The central location makes it an easy pit stop before exploring Mossel Bay's beaches and heritage sites, and locals often pop in for their takeaway coffee fix.\n\nWith its genuine community feel and unpretentious approach to good food, Market Cafe delivers exactly what a neighbourhood cafe should — reliable quality, warm hospitality, and a menu that covers all the bases without trying too hard.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJc-58J89p1h0RVdp1tgQgttM/photos/Ab43m-sxRCpJL_vheyFI971LVO0g17BFgFVukp8Y3H_C284rW0kyiIAzPJMCBm_HYzrcpyW0I7BpGZWMr7NBubTWtoq2jhLDCljCUQ15y3LzXpC6rm69nGyXcJ3as9S2hkMR3OOGFBvp5BapIKDKJC60DFu-L7zcIuIB7MZOnXycrJvemx_Y4zFftIjdUoFS1Pje0EAV2D0zFH6U4Ex7DkDJspvNZXnt4e5El7JnMpjDVJoggFC4jhBfpZ4lBgDzxMskBvZISwKUWUwwfEN4MJJFC46DQkHEDkqe-oV8IljqWa8JYw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJc-58J89p1h0RVdp1tgQgttM/photos/Ab43m-uYBVpXYifpGCjt1-L46YWdqwaYy2Zeci35NL1A-uTNEhCzlpaRM9vB4NeRoJDXKlz9Rw5ca3ABjH83cUwkAqRY-kjSiOIQS1Q0qhK-pv8OnxPO1IZeLfvukROd_GcaSTFkrS6iBE3OdZp1Unzz_-UGPgDHpb6JP07D9zxsneaYOP1d2niioSwKp4ajBtCbY3707u9D5-zDyk7b6Gm89XSMbZvcP3LrbQIQUy-zf1x2j9TOpetTZ9xmk9wrDf4yYq3uiIuzLEsxvjviO-2muRnL5pjaAQJrm84ZJRevKTHVEg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJc-58J89p1h0RVdp1tgQgttM/photos/Ab43m-uTSI1xRYOpBSj1g5eQsHj1WYvdwB0PvZEt36TC8MygqpzmwwPwjHvVLOPAxkzu32ejOheIpOSMZqaE7z8EAqgUSGDWcabojtSFBeoYAk37hDb6rA8RqEkcGdqV5B_5gRsVWqhaMb7d3OrF1Ucm9ZxRTyKF2RfSXCJ1Les4A5cM__v1WCIcc7FHH2w14VvFKqSD2MEsRq-JqbCXW8aTweLzsBM0ECQC-b-AWAO3TPX2n4_4HvIggSoRC3Wj-hP5qGoec_fEnKvfq7lcrcV5uWNU5W2yJZT3_0vQs8wq9hDTvujawo-oA70TU4O4DWXXkK94dPSBpAmTgFqrbUrWvOdsSSsSlAYZhh3k8RNcFSZFWAufBCImJ1gWMPC077GZ2bUGZkmgvcyCkM7zbhCf8iMvZ2xAAG0UlPWeRhsngCW7gU9J6LhcCZS_UrbVpWH5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJc-58J89p1h0RVdp1tgQgttM/photos/Ab43m-sPK1clZ35NcHoCU0W_R8cohh5aLt3rArQUrOTublTELCRe_tNcH1pevHB8Z1TdoooxMxjEr8TYhqJhXck4l2JKTO2LsMEfaJ4kVWVQA0l0paHS59EMfiMTSsrigT9vd2x6wPmDBqaaSoLJu9YpAErQrM440d_ockrBS6NEwAjZBgeA6n4sc8b1TC8tJ08B5QFfTQ2ILtGH3-bkpzANXzJpNlYQiRj8apuU4pU_Q_kG-Syb91mG2MpqzwiArwyKrsO2FF8wv4CyTHDOwZT0Nm-f-ZGJExoW6J54priwUFBjmQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJc-58J89p1h0RVdp1tgQgttM/photos/Ab43m-u468T9fw5LO4mPtfKpQvihoIrTxH_Pfs8zFc-UVO1zuSZoyt5aGGm12F4PQUojbHU2vVVqBE3PbbK4zSz4TJrUwGLIbXgNELEEZNxGmb5b4sX1bRSwL80gZ_XAGJ6xQOh4cmfJ2jPJePHP5usXjZhxLMAc5EPX8Mes5pc88mFbUmzxtgYWckg5kIpHOIzL6A4SwcBTP2d4BTalNXUPJEPzy0AoaLhot1fWh83sMa8FiOwGh6pMbtX80lePGohki1J6o2SgX7URhoxlnr5xSZXBAQ0p4aEnqCLDFmOdT2DB_woNCYSxWfwq8mLa8Pb9ghUFqKde_5V3t7UKu4J2R1-2RFq3_Y4wnx0wOo28TpvTNNO-u2oJghKTMG_unf03zRYd8-BNu3M5Ds_LgZJGmGvUyNl_rZSzaRgZieJV8uX-HIrb4nNJ4hQ-TB220Z-V/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:28:27.294656+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

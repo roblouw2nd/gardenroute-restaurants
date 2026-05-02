@@ -1,0 +1,70 @@
+{
+  "id": "the-merchant-coffee-bayview-mossel-bay",
+  "name": "The Merchant Coffee (Bayview)",
+  "slug": "the-merchant-coffee-bayview-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Life Bay View Hospital, Cnr Ryk Tulbach &, Alhof Dr, Da Nova, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.1814982,
+    "lng": 22.1314089
+  },
+  "phone": "+27 66 441 2296",
+  "email": "",
+  "website": "http://www.themerchantcoffee.co.za/",
+  "google_place_id": "ChIJz5FoqQVr1h0R2ttbBOkyH_U",
+  "google_rating": 4.5,
+  "google_review_count": 42,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Bakery"
+  ],
+  "tags": [
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 8:00 PM",
+    "tuesday": "7:00 AM – 8:00 PM",
+    "wednesday": "7:00 AM – 8:00 PM",
+    "thursday": "7:00 AM – 8:00 PM",
+    "friday": "7:00 AM – 8:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Hospital-based specialty coffee shop serving excellent brews and light meals in a convenient Mossel Bay location.",
+  "description_long": "Tucked inside Life Bay View Hospital, The Merchant Coffee brings serious coffee culture to an unexpected setting. This compact café has built a loyal following among locals and hospital visitors alike, pulling expertly crafted espresso drinks and serving quality light meals throughout the day.\n\nThe menu focuses on breakfast favourites, fresh sandwiches, and homemade baked goods that pair perfectly with their specialty coffee. Despite its clinical location, the atmosphere remains warm and welcoming, with friendly baristas who know their regulars by name. It's become a genuine neighbourhood gem, proving great coffee can thrive anywhere.\n\nConveniently located in Da Nova, it's an ideal pit stop whether you're visiting someone at the hospital, working nearby, or simply craving a proper flat white. The quality remains consistently high, and the service is quick without feeling rushed—a reliable caffeine haven in Mossel Bay.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5FoqQVr1h0R2ttbBOkyH_U/photos/Ab43m-ur2IaqqlP8JOhBFqntV44Yv6XcD0eBAs7yDCqzG8Xiy-R1u_AY3Yh-g1AwsQ7n-s4cV69AngNj4vyW5KTB9LTNi9VyfiuMLSwuHw2h4FhR-BVgpvyXZcW3oX2yjxc5PyNmtm34f4qXqa2jpXaBQF2LnDNJr72wvb5ixQ1dYm9w08E389wDZJDkWrc0xXHdecl7mqBnTHll2YFOaF_53bkLSZsPq8VL9sueX4madL4Gv6mxd7sGJi0tdXd2ewUq5o0KUiYqtsmX8BtsU3X47sxX4NGSudeeIr0xiIOhJ_lcDQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5FoqQVr1h0R2ttbBOkyH_U/photos/Ab43m-sjHu7Xfa6ScZzvbDJFLppMjP9NMS3cNkEG0bk43DU8hBSAkh3SU-1BEHhVqRj0jnnk-n_R_hmq2f9yklQPn2dEFwTuZ6NPC8Hb-6Y245gYfMoTGCsFqzfD2HFe_KbPotRZRshm7I1tJMPO4oW35ZK0hCien_iXowJ7E7U87TA-lnSHRWrDf9n8O9qawUT78GDiJgNioIyJMHnQfRHLj-wadM8oWEXbA3QXevbroGooy39k0MK1gDlGXk3b24gzpubvKQoh5gZFPs3efaGRKcyCYbnH1XGZcVXpD4kl3XAPzw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5FoqQVr1h0R2ttbBOkyH_U/photos/Ab43m-skTuMSz_Lxhs37enWeoWLgB7ZqNRO4oazvr6oyyWhKVwg5Ylk-N1_T9DJLpT7Qc0H_BK-vPjhaXUNi5DgtUwXNeeijo1VLqjR_Sl7y1DLz_N_0rDRGmm4kY8u2AmkajKW4ytQhuwBnQqqm4yU4zQnKkuvC_MF-T67lVmV73B9nY6-rs0hDFFhLuF0r66CIxBhMeGhHwt9hKzK1PDlEV6AW2iE6aY-vQOrW5LRHJMzhqwzb-a66G-OR1TAT7v7AEjdMwbmU9YgZLnG15ZIWnxxtsREwH6-LDwB8pN55-Kx_S6ZtINXpMKTGAKj60LTZdiYm4phoejQm6paJGmFn1ELEoQjqQzThxR-HeCeta8MW6G8kTFgLh91C0CHBsfxqqhV3S-2MaTB9tbFWF5hOyrTJhIGg4a7wdUXGufxba_aKmWieRX95QDhAFui-6a-e/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5FoqQVr1h0R2ttbBOkyH_U/photos/Ab43m-vHL5U3r_DpGhLygeVG4qrTB0QhP0kghMyt7q4LnKMAO_J4j5bQ8Jyo5KIi3am3RnI1mSYbsFUowx_lvd1m-pbBF7Zr9hjVuimVUykKBiXVaEdS0GinP0oaW0jiBxGHxoNufQkNQ0xzlhvWYciGeeTLvvlGNDopJsSLcX6cUtqce2lAbsy_3LHTaAe3NhIo48N0G6wmjsl-rPaQ0uts1bVJoWf_KLjsrGcf34KU-ovwWqbeTb5CKL2W1TRLStH1YExbw8h8tLlvjA9nfi-AOPx0s8B16dnyj_jcZd-ZTDT04A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5FoqQVr1h0R2ttbBOkyH_U/photos/Ab43m-uJ_fJkEg_UqKZmOpOhaF8QZ9E7-tChRF-z3k9SKtL_ysG_B6J-GDWBbjU9j2WOTI13z3Ij6Y32EfKxTbccTACU8rKnE-6VZBX6RTtU1CEXff37tY6Zsu7E8SB6bkG4_8Uz8xfzdLXNCAPQpK1onRXsErvo_DWGe4qMW5oWG6LrXXFjmrbeFfZamcB43Gf1K0nvSaCXxPJLgu4LiidTIz4S6b9q0kAQ_kFm_Qx8-ivfojtda68lb0cLaETOqMHo4oQJKv2v370CNWZQ2TQFigHDe-WP_d1k0lF1XxY7tSFfLQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:29:33.425885+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "art-cafe-on-queen-knysna",
+  "name": "Art Café on Queen",
+  "slug": "art-cafe-on-queen-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "10 Queen St, Knysna Central, Knysna, 6570, South Africa",
+  "coordinates": {
+    "lat": -34.0386768,
+    "lng": 23.0503535
+  },
+  "phone": "+27 82 316 4787",
+  "email": "",
+  "website": "http://www.artonqueen.co.za/",
+  "google_place_id": "ChIJf-k7S2DqeB4REriuQcS35lA",
+  "google_rating": 4.7,
+  "google_review_count": 200,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Vegetarian"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Vegetarian",
+    "Outdoor seating",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Creative café and art gallery in central Knysna serving wholesome fare among rotating local artworks.",
+  "description_long": "Tucked into Queen Street in the heart of Knysna, Art Café on Queen blends good food with a genuine appreciation for local creativity. The walls showcase rotating exhibitions from Garden Route artists, making every visit feel a bit different, while the menu focuses on wholesome, well-prepared café classics that suit any time of day.\n\nThe atmosphere strikes a comfortable balance between gallery space and neighbourhood eatery. You'll find locals catching up over coffee and toasted sandwiches alongside visitors browsing the artworks between bites. The kitchen turns out satisfying breakfasts, light lunches, and proper coffee, with vegetarian options that get as much attention as everything else on the menu.\n\nIt's the kind of place where you might pop in for a quick bite and end up staying longer, drawn in by the relaxed vibe and the chance to actually look at art without feeling like you're in a formal gallery. The central location makes it an easy stop whether you're exploring Knysna's shops or just need a proper break from the day.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf-k7S2DqeB4REriuQcS35lA/photos/Ab43m-s1AbW98ltS7IRuCkSyDbacXKkETm2ROmoBT8ojRJZcUPHUZ1zeDskb185RG2nhCA2Y3YmCD5ey814MLy66H4o96vRees1a2Qco2nRQhRU4AocyZU6xSREnvaURznogn5oE6OEAE1QnYZ2JB6FhyukHWPeubhOmivWFLy6enNc50fylMlpIim7B6FadQmh8wrH5bZ4-oWyxtGmz2g9T3q_7BPnuP45n9IZuaeKK0G8Jv3eUWgQPllx3OGntm4FnKPEiXTbIC6SiUjE7R19qsc_yPON2AkgIdOM9ehkrYyuXsg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf-k7S2DqeB4REriuQcS35lA/photos/Ab43m-sWhMcnTC5dxfLDuq1HekL6grX2_HC-8URbsFGuRlHQGZ2VFG-VMgAQY9bxE98RAtyjCFa9DRKhf3kPcHM9G4Ge4GXs6UqqqGT6Ltt2Z_TDudi2fU5b65bdgBiS68UzW74Gzyxj99vkwabEz3YE0vQ-iRBJXsFrTkEYlFHMzG2ohFdr6IrFrROtJZSqGkKVZknY8oOyOwEDR1mKEhOqmeLlBJA79M8uMuIgOV1xg9js4P6mxxilLu-adomM5JBmYT3R9UVIjIaEHRiLZaIjYawcUWcsQ5phfF7cm-yXIkmJtA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf-k7S2DqeB4REriuQcS35lA/photos/Ab43m-vxdGHdqZgyM2Zb6_6aWI5CsLcfsnCPjaAdYj9FOSQg3RlZDrtMFarZxwbLmmxbZkQc57DDwNR6CzetYCqy3dkOO2S0fF_-_s2rTqUL8UiPmsHQHouRgNEZvTcmkQz8kn-lUD2MAZ7WLJXWywewpqJ7TBEAlxcrd-YygInSPhGGEiP171eKpTml5y7xiTKsAgoQkozL45L7aLCSegsYiQYMFrpVkNCmRzCcI3rBkfda8OBGjhKl2MDAD8vXYWA2Ljguv0KIsbuzx88YF2HdaJ94zemJI4h3zSzHYVGqKjP40A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf-k7S2DqeB4REriuQcS35lA/photos/Ab43m-s3kO3a2p4FMceE57vK3YAO-HkfpdTn1pW1o2FU1HjwrJo7pSEoh0gUsaauATEOmCpow1xaDOBq6HzVZIeMrajI6aqB_EnrMrndaXrYjGA43j26KUEJqhZJ_g8pHn77vkXW-6PbyTHbLWUeO-7kVueGtHXQr7G1TIbezbEA4jJYJJEHJyyLM3O4hYw46jqa358U-p9MXER23uDiwtOHVHi60gR9ydhFP5or41HESw9vFK7qXO2OIVII1nwDxd87IUd75zKqzAVyKfjBOPGNGAso_J4pkJpiq2VM1AzNko76AA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf-k7S2DqeB4REriuQcS35lA/photos/Ab43m-sIxV6n1dEBGXTOFTFoUGUaJbCh5Zq_95Eh0q3olvawQv5LiMC6ttnM4gDoD9OZ3_3xhdjAjEQUyM-9wcVxqq6FnZqo8AOzk_clglWJzaymfXftH3KNwTS6_Zxxtcqw4MGG3ZW-khLIY7YEO7b1vxy3rRYT7vNNwKdyvgJw5O9jo_yk4rivKyhKuV7wpkPu4oFNFDccAVPG3PM6OZOWulT7DCXrpArA5qgC0wW7TjywkGWo4T2QNVEI3ZEtML4zp5nFw4yr-VSpFvpXotlJFpW_R62jTf01SdFnylC0GluQkg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.539926+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

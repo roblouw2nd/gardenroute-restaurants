@@ -1,0 +1,74 @@
+{
+  "id": "salt-copper-mossel-bay",
+  "name": "Salt & Copper",
+  "slug": "salt-copper-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "R102, Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1133648,
+    "lng": 22.103076599999998
+  },
+  "phone": "+27 44 150 0054",
+  "email": "",
+  "website": "http://www.saltandcopper.co.za/",
+  "google_place_id": "ChIJp-b92aBv1h0RNZCko2Dvjpw",
+  "google_rating": 4.4,
+  "google_review_count": 1687,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Seafood",
+    "Grill"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Outdoor seating",
+    "Groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 9:30 PM",
+    "saturday": "8:00 AM – 9:30 PM",
+    "sunday": "8:00 AM – 4:00 PM"
+  },
+  "description_short": "Hartenbos spot serving wood-fired pizzas, grills, and seafood with a relaxed family vibe.",
+  "description_long": "Salt & Copper sits just off the R102 in Hartenbos, drawing locals and holidaymakers with its unpretentious menu of wood-fired pizzas, hearty grills, and fresh seafood. The space is casual and welcoming, with enough room for families and groups to settle in without fuss. Pizzas come out crisp from the oven, while the grills are straightforward and generous — exactly what you want after a day at the beach.\n\nThe seafood options lean on what's fresh, and the kitchen doesn't overcomplicate things. Starters are meant for sharing, and the wine list covers the basics without pretension. It's the kind of place where you can bring the kids, order a mix of dishes, and not worry about the bill spiralling. Service is friendly and unpretentious, matching the laid-back Hartenbos rhythm.\n\nWhether you're staying nearby or passing through Mossel Bay, Salt & Copper offers reliable, satisfying food without trying too hard. It's a solid neighbourhood choice that delivers on comfort and flavour.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp-b92aBv1h0RNZCko2Dvjpw/photos/Ab43m-txd6rFx1eX7bJn6Wvjce7N9Dot3Ps2kZ_xN063Bp08XU2F7uWzI--hvniCKJdiRk__yYloIym-JDN7_EFJ_9isjAd1q1k9y4Wfpt_2n2IuHhHo6QXyxSY6lYF83F0mTRr6x2I_MPsUm9H42jiBX8Wqwpr7xJi2xL9uOMIGPVrN7bPTgWJaZA7Dfxb5JvC1-U5JmOCxXbvM3AHpYLGvsE4IggZI6HhdhK9CyNgC4D4VifkEm1VYhISK1nDsdGjyMFQIhclAAnnyxr0nBRR7AQAjUy9Ype8IqMokTC6hYTxHJw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp-b92aBv1h0RNZCko2Dvjpw/photos/Ab43m-vQQ13LrY7DORUCWHYOkf1U8M7HhUt0nG1S_voN1_6dI3P0oX-3tUhe6RcBcrirFbJBBoQIVRYzmQ4h_zSu7qpRxmLqgxXEN9WJ0uhNeNIitT36iAu0L0Eg64OXcx6lIJbZ3CbHiD39-Tqp67A_FU5L-zqUJ0OJ0a08uFGRC9QOFLjT_FfqcfvLn6UD2n_p74tUVHZM8rjTWoiom0jnonEbTDAjkwstA9MPwehjC3D2LMjpfjZJiJTZw2e_IHWJWYdxdDL1S4kuOyJMrEiBbGJ1kl0LmpPA_NFoCuLYrrBiKdXekRD7dbU8uVV2F-8u8BUi55VIEO-19HociowjqXe8Yt5URoH2dRS1RKeqSxPjuX6v7nNLgR256chn7EL1lJtX6B4zOSipjgETluWvhK5KmtXFYBC8P6jToLWhbfk1hR_TRt-nyH_4i0oBb8ut/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp-b92aBv1h0RNZCko2Dvjpw/photos/Ab43m-tXDmtBJmylSheN2Ff-BRhrSKcgNdfbM22UlbdfH_WFyQDOEXWAorT1OJvv78h2QckayCrVjcB21K-hkKBJpoh0DMeVaNLHSWM9OekstOVD4MKATVENRRcKhTVbeWG_kuEqSmpOD3aQfqFjj3mLY9CkYhVnrus9JiWVwXfr3hOX61fbyjCHXv1rzXT6kG99RJeL7eT-aWdTTOc_c0XPC4i-a0amO3eYDrxcAOe5nxO77NIrbGyvvNqRK4WIJ_SJCxfiRC45LCtHq-CCNvCH6gVNg7EPscBvMA8hcM_wOuPkyg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp-b92aBv1h0RNZCko2Dvjpw/photos/Ab43m-tdjSTvTxI1ezkc9gNrdI9eMO8V2GBMG8IHe5PorBAwY2NgwqwKREqPKl1v-tYb3Ad-bahElWBKwqv_FoQnRngguONyHdAIZ76TmfdhBgCcbDq2jRJeyFu7k6VrPmPt6sNiDROTQdw3MVg6RNfCZS5Q4Gx0GOChm5aeAInXxejnO8C8oSVZsSD1MFtZ0G27h3scRbT4FRcgLcgbdYWLMzHYup54kmkQnvO2Nw3PgwUdjFJ-xNjcJx-Z89FH6dQYdoWfaSILVHNvJn_cEXtdX-O86noa7KdKF2E_ktKLVcdDX4UZ1tvuyz21abWTklWLmW3UX5-PvO1kmW2QZIsjo_B6Dzf1PF_b4iab_HarlsrSboNr_TbvXDJovpEd320AIEqWwS9R0Aw8l2O0KjY3iESr9BcNQyMx7Go7MsNEteyUOBVCilvg1X1vfNaWZw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp-b92aBv1h0RNZCko2Dvjpw/photos/Ab43m-uGXQvWJsNGL-Igiad2_L6QOpO-9XHnV3LpO0ZeXCgNkIeqd2rLfWiWRiR27AFl6UfowxS59tISdGAMO06OLNwwbMSZSl9YJeYvVyS1SzYdm7dxKCuX90PZYWLdBzRSm24ZIdNdZP8pKMBi7HQCuqXmoxOQrSdy881msbQ1adHcCbEyI3RFHM2pDj5TFJn2O4qza-k5uHdyOeCeih1LV_jZoEQcwHHcNM9Vlrqnzs0UblxR5DYSFmEtq69yLL3RWcFTqgLVPpKPG9j9WgI010aldcGz6li0MUEll84ye1ForA7kCX32DxoO5aaWT5MMnjxgVDDhIt58XdVP8NI8cIvUWqGT1oo16kHKDmwXqZNeFpPnRiNKQxKREtHtLTWUKB3azG3NPv7qqaGEr62YgETo8Fp88BDzbQNlv4v_b1DEUfblyc1J6MHKdt5FgHXu/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:26:53.339570+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

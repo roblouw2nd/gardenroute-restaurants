@@ -1,0 +1,72 @@
+{
+  "id": "anchorage-restaurant-cc-knysna",
+  "name": "Anchorage Restaurant CC",
+  "slug": "anchorage-restaurant-cc-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "11 Gray St, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.038410999999996,
+    "lng": 23.045908
+  },
+  "phone": "+27 78 803 3268",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJ_fLasovqeB4R0Hzmebk5tfo",
+  "google_rating": 4.6,
+  "google_review_count": 539,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "South African"
+  ],
+  "tags": [
+    "Waterfront",
+    "Family-friendly",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 9:30 PM",
+    "tuesday": "5:00 – 9:30 PM",
+    "wednesday": "12:00 – 9:30 PM",
+    "thursday": "5:00 – 9:30 PM",
+    "friday": "12:00 – 9:30 PM",
+    "saturday": "5:00 – 9:30 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Knysna waterfront seafood spot where fresh catches meet hearty portions and a relaxed harbour vibe.",
+  "description_long": "Tucked along Gray Street in Knysna Central, Anchorage Restaurant has built a solid reputation among locals and visitors seeking honest seafood without the fuss. The menu leans heavily on daily catches—think linefish grilled to order, calamari done properly, and prawn dishes that showcase the Garden Route's coastal bounty. The atmosphere strikes that comfortable balance between casual and considered, making it equally suited to family lunches and relaxed dinners with friends.\n\nThe harbour location means you're never far from the water, and the kitchen's approach is refreshingly straightforward: quality ingredients treated with respect rather than overworked. Portions are generous, prices sensible, and the service team knows their regulars by name. Whether you're after a proper seafood platter or simply excellent fish and chips, Anchorage delivers the kind of meal that keeps people coming back to Knysna's waterfront year after year.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_fLasovqeB4R0Hzmebk5tfo/photos/Ab43m-sgxgPj_2k8_bYboM_tT-nBCPnEa0WpuZxgzCjFIsllPCdropbvWJfzZlRaQh0p9nL6X0gOZIexrH0sNQPLdwBFThIgHtZAdkYXBr6EnyeVP0VqcTcXrN964akc8Exb54lD-LrDoupZhR8gS2uVG6kGF1WDyJeR5ixGlnXTJF90y20QfE2CjaE4gTg4vz6jd7rSaNji-J8YZs56dtqL8En0xs-t9UvL39QqM4z6dnUpnLWARBJox8UMVCIQlGmYLHIRxjlJk31fQkdxbPHUxrnX6uo-RB3DdDvExIM98aQkYA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_fLasovqeB4R0Hzmebk5tfo/photos/Ab43m-vgkqXx8IlLpMf6yl0N1XKhUZNX0h4UlykPwRbIq6UszCJjjn6FtnMY1_B0UN5VE9LA3bCkFy0mc49vPsv6d4WOEYvnk5cNroWr7C21gpiP493Naqabb-kXxwNdMeTPIiI9bVC9p9ZKHTmhjUjlmeIxFQoq39xxOY6hYUq_z5S-pkUSAM3TUiEUi1cirm51w_Uo5JIeZ8Qdxfw8RPbAkO0HEyXiOUpgzkDdX6wt3hlZU2PFH7SynTCYWtQG1FLu6Fz5DoYq0VegbTkb4ojSuxNnnv0mL3cx9H9jztFInXuEQvJPErPqEEA5MRZE5K1EuvD07T16YLWxuOznNyY8J7b-4osTQxLpf3_2FXDa1KW1-ad04rjplrKPDTDgUcdah14NDCEl2A4ZL4w4x89BbiyFJ14u3oB1VXR_A6uzk-6_KA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_fLasovqeB4R0Hzmebk5tfo/photos/Ab43m-uh5UmjGu-YwUrcnJ-A_o3KTWknxxkkNphA7gx1Tl7BWaaCQw3jQdrvvyRFF6EqTmHiFJ5p2VVh5QOsV9_kqq02qCFbWgT5VP6YMl6W-0DAtPNGDsxW33m4FATTX6U7ef9GRCoTsNs40N1BHAhaZdEfxsU2M45cC43tFVWrxx8CXjowvxiOhwrV4moxdkmbk2DqOvtoe5K6gkn1VVN2-Z6xgQ9ec_t7jW5VwONelSFW8c-u996usE5QR8wDrzeNzJGRPF45Sfb49a5jrz8taJjg_RT2wq-XslJlGIFSxcXiUASvPnht7jFruazZWO4lxvUdeIjq6Id0cWsn1DZEDnp47IZcGv5LHBAAdp-Gk012SievM4nQ5kwpNkqBgWbE3SGzQhOkogGdYWpWWP4mzE0Sbho2UAMaOzsI50-mvtmgGaIhxW4CTUdnxHAe96XV/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_fLasovqeB4R0Hzmebk5tfo/photos/Ab43m-txymH-H1qlV6CdIu8YdlVNEWZgwjUy8RzdmOmjVcEsVItk3lwq1YUIYB3XWaJeIJHAlERbrHr32SF3NCpBBo6UxQB22bmKF4-WqEclGifmEeajTaH1FqtzPVH00kkXupfz-_2twZ5jnUND5nuptxKj0v7RgqhMfdwDxRA2zsMS-iwTUWaZ60J1RfCRjnhRHMdwdOxwiLvi1nO8BVaqzGFVAw5PvMlJd9ltqmSBA6aSjMdKweb1hhpf0L1Gk51dOLycWADUhpIH2m4kYUZGMVSuaffU-7AawmBml6Sb9np8U6HhY90IpMGOignTf3pwko4MJgIUjVTN9TxwjZ-FmGrZBq1HL2JQbjOvy_fPPj-oHsNA9gQTFfP-C-0wvuJihj9ak6aDLE_3_538mJgXiHpYcoehgC8w1Dkms-9vi537sz1SeMitAotaYKLzsQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_fLasovqeB4R0Hzmebk5tfo/photos/Ab43m-tm_20mMhlyEaZjfcTwAV7oEgy_qyaGWclvfPECJI9LTTXMLxmChGhe2pkP6ZPur1uzOxoLMnIAwMkXjXl0Ik68dvJ9NPNbgjhlndgg11Pw4YjG9QR_cJ_qKtZaS1Yxs4oxu9tJ_j-oaZwIo_I7R3JmTbbjd_uUj46Gz-2xaer31Q04PSDE2jc0Nb6sfREQz6bAOuBXqGxOYh0d5VO86LQz0bj10iA_3A_v07AkOf98bP_eSEyKw3QyrH8Djt6QaN6pcWdEPfopoZ0VQv-O4FAbwnYhERoGqQr_cmcCfIfolII9_LIVKTukT8a3kSYIYOEWz4m7D9louju70WfDIqLUMQ344E4rRmf_t37q4jZvQ_n0xBrxR4K7rXacDmjHTnVjeLhdPqydbOiOSVIDG2LNaqomLT_RcGWVJKjjVG2IbNME/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.530228+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

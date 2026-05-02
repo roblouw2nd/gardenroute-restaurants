@@ -1,0 +1,80 @@
+{
+  "id": "delfinos-seaside-restaurant-mossel-bay",
+  "name": "Delfinos Seaside Restaurant",
+  "slug": "delfinos-seaside-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Point Rd, The Point, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.18297810000001,
+    "lng": 22.157282199999997
+  },
+  "phone": "+27 44 690 5247",
+  "email": "",
+  "website": "https://www.delfinos.co.za/",
+  "google_place_id": "ChIJV5bQxw9q1h0RszfSw94I6jw",
+  "google_rating": 4.1,
+  "google_review_count": 6851,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Pizza",
+    "Breakfast",
+    "Burgers",
+    "Cafe",
+    "Bar",
+    "Grill"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Waterfront",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "7:15 AM – 9:00 PM",
+    "tuesday": "7:15 AM – 9:00 PM",
+    "wednesday": "7:15 AM – 9:00 PM",
+    "thursday": "7:15 AM – 10:00 PM",
+    "friday": "7:15 AM – 10:00 PM",
+    "saturday": "7:15 AM – 10:00 PM",
+    "sunday": "7:15 AM – 9:00 PM"
+  },
+  "description_short": "Relaxed oceanfront eatery in Mossel Bay serving hearty breakfasts, fresh seafood, and wood-fired pizzas with unbeatable sea views.",
+  "description_long": "Perched right on the rocks at The Point in Mossel Bay, Delfinos has been a local favourite for decades, and it's easy to see why. The setting is spectacular – waves crash just metres from your table, and dolphins often make an appearance while you're tucking into breakfast or lunch. The menu covers all bases, from proper full English breakfasts and stacked burgers to line fish, calamari, and their popular wood-fired pizzas.\n\nThe atmosphere is casual and unpretentious, with indoor seating and a large deck that catches the sea breeze. It's the kind of place where families gather for lazy Sunday brunches, couples linger over coffee watching the ocean, and groups of friends share platters after a coastal walk. Service can be stretched during peak times given how busy it gets, but the location and generous portions keep people coming back. The coffee's decent, the steaks are reliably good, and there's a full bar if you fancy a sundowner.\n\nWhether you're stopping in for a quick bite or settling in for a few hours, Delfinos delivers straightforward seaside dining without the fuss. The views alone are worth the visit, and the food does its job honestly. It's Mossel Bay's go-to spot when you want ocean air with your meal.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJV5bQxw9q1h0RszfSw94I6jw/photos/Ab43m-vV-CM8YjsU3im-QDkRRWGY8Tn8kzRphAmUs783Nby-hmtBRnz9MBoXGNxdv6Ltar2SbtFu81XQ4CVFPrXksEqtUQ6xEMNE5YOQuWVnEYI51ABhQvl5V0ASBL3gNO8pmKGms-v3no960TMuO2ewBXoo8jAcA-tfVxuYlhzxLCY8jhQTTAEDDQ_uISJK_Ri6p0PeoRSEYHJK2wKHuymyGuCRi1O0ZTpcVAZEaPuhpSMCj8QZ9GmAWFSqVS4010NeZJdyxc3Eqs4Z9IBG9oNdpsJAvhvWen3AXFSe_mCen_85iQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJV5bQxw9q1h0RszfSw94I6jw/photos/Ab43m-tk6nyr3DCN9dmVYnSdBPyD-vBMtbx7S0zLvUfn7-Ph7Lw7vNKKMbp5qWs_-_6YAlPvW2Q_IowuiILG1UUXpvjOB1fWOts7j-tJb5Ia_SQHUIE6gFD4pAjPOnqJcd-oem_b1lUwxA04fw2nFCdW9fJjWxRSXmWFkv3fjwu3ZnMIdtSnBi8HVTMhRArnVDPYGIL7VfkIReIt2b19c4gTPVGqqRpqWu-937x6Ogr2z_Xg9Da7XVdFx1ZDER-x0p_0WUSOLBt5a3Sw4Q_iPiAo-3qyfktKlVDz1r03IqTiFBiOew/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJV5bQxw9q1h0RszfSw94I6jw/photos/Ab43m-vY3AnqowKBviZm5HVho2uw_LDzVPaYEIwKr-OLSem_tnPf3LXb2CDXJWbYGIOIBZJBkgmAQc5r8fRXrLKyPpJzvo1i3gO-jqG6BIlSCTf9fy6azq1QaugzscSPHNvmw65bv5dHhWvbiOYMVOrCGhSsFgGIoAywFXIPNfPUsqKdf_2IR3H-2fdSe51UI8Racg3DSKkhlJmRnh1dwto-0K_FBhygwPpKa8Qix3NSDpWOh4vPae7Ud_-GJNrpUxmHHHvxRVd-QAVmdaRMx-X57rlReJVO-d-KNm1EBKji3kEXKkoSdJ1y2kwD8MHwCtZP1XZuD6L_buGlF70t6es1l6Kkt8NB9zX5CcXolZb2uxmw5M7KNsU4VkKNI8yTVc2VjIntyCUKIHWis6s5998dDbosNmsuqQeVjnM8WKdCjgj2ds38btHS3Y1xhUGLckdR/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJV5bQxw9q1h0RszfSw94I6jw/photos/Ab43m-uyj4a73RnZKifnLaBMUQwbQ-jVXYbwNGJHaL04W2YtwRRJ5ddUJ_1LbqsleIhuENjiYL582QjHw75iDlrxYuU269zinufol7S9G5JILNJZTACdhgdqSE5a0rCZ2cmqZVMzyuTBYKdis4LDGvuAg8JDQEwAFnFkgqHiIjTGMLajopSfmOX8PHi5naaumM3uyb5Q1NfZzICGU8CrwmG2LXcXozZPFYKDG__3U3QZJ92bV-h7t7eBklKBbEB4FumO_Uv1aLm18wWoBgPYGMrDbfRsJfW368ooDI2CMu8bDzImwqntp6q6zLWdAX_uUZUVTgUt6z19SQFE2PkGkpCK7Va90WQsehPUt8svpR8pXXbPn0g3eulfJmv-JouzJFTFrlR_AGU4bCMKX9RBfHV7OhK3YPhf-N8tEsHX7kjkTOPtruIAJXZLJ8RluUFv-9tP/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJV5bQxw9q1h0RszfSw94I6jw/photos/Ab43m-u2MIpV9ZSOSvtfjleEEzfO-NvfnYTpKIyeGhQka2MRbQD5WTd47JKJWugrlE8pHNI9A2_Bv2ZGV0kTQ_BiyH0o2KBW87JMuKOCAiGag95VaY03ULArpEb0ZeOPwqvHP0adn7AHbxJdBwSTmnOWBdWzgE9GYiBd2mUtiitbLaW105ADBsau3IS-bahi0nn5ld_syVr6wepzdJQZOLItDBPtvPIROCqips89T1mAp9uV-GUDf5YlpOat6gLz_-Q1_wba_cbOI4KGO4n2DPSFVSW8riEZWoddP62YQieLCMggmGGa4vy_ckbtOnCgU0Sdn93f_l23RnH1IYqSaqfKo0G_ND4M9dksoU3_QkxLI5Hi-B-YySu4G61DamJSZUjpcbkyr7aQko6i9a9LPJ7Q5-vz72rKZ7uc8jJfrIMhVEXWg28K7Ai3PmtFWrvwlQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:26:13.783338+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

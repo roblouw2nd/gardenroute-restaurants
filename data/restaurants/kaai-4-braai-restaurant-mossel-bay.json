@@ -1,0 +1,75 @@
+{
+  "id": "kaai-4-braai-restaurant-mossel-bay",
+  "name": "Kaai 4 Braai Restaurant",
+  "slug": "kaai-4-braai-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Harbour, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1787688,
+    "lng": 22.1420711
+  },
+  "phone": "+27 79 980 3981",
+  "email": "",
+  "website": "http://www.kaai4.co.za/",
+  "google_place_id": "ChIJKzBO6fVp1h0RdFVGtbUkxEk",
+  "google_rating": 4.4,
+  "google_review_count": 2877,
+  "price_level": 1,
+  "cuisine_types": [
+    "Grill",
+    "Seafood",
+    "South African"
+  ],
+  "tags": [
+    "Waterfront",
+    "Ocean views",
+    "Family-friendly",
+    "Outdoor seating",
+    "Groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:00 PM",
+    "tuesday": "11:00 AM – 9:00 PM",
+    "wednesday": "11:00 AM – 9:00 PM",
+    "thursday": "11:00 AM – 9:00 PM",
+    "friday": "11:00 AM – 10:00 PM",
+    "saturday": "10:00 AM – 10:00 PM",
+    "sunday": "10:00 AM – 9:00 PM"
+  },
+  "description_short": "Harbour-side braai spot serving generous portions of grilled meat and seafood with waterfront views.",
+  "description_long": "Perched right on Mossel Bay's working harbour, Kaai 4 Braai Restaurant delivers the essential South African braai experience with a view. The location is unbeatable — watch fishing boats come and go while you tuck into flame-grilled steaks, boerewors, and fresh linefish straight off the braai. The atmosphere is relaxed and unpretentious, with wooden tables and that salty harbour air.\n\nPortions are generous and prices are honest, making this a favourite with both locals and visitors. The seafood is reliably fresh, and the grilled calamari and hake are particularly good value. It's the kind of place where families gather for Sunday lunch and friends meet for a casual meal after a day at the beach.\n\nService is straightforward and friendly. Come for the harbour setting, the proper braai flavours, and the no-fuss approach to good South African food. It gets busy during peak season, so arriving early or booking ahead is wise.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJKzBO6fVp1h0RdFVGtbUkxEk/photos/Ab43m-tVf8yTBbzesEhjuF429xkPZxJs_IiGzp420j58BHsVIS-yw8PUNpNj7LUEOQ7gHniN1uqiQXV1MLU7PxFK9a6CcCFaS_yWdrikrt3ONC6wAGRSxT-b3OB53MCs5FYm5IHj7f2IVc2_OkgSQWkOPtwDdD0ieUrEsMT5FF1tOXLlWhsBzOKGBN4jpvY_TqdQSi-MySupKs_y8Y_1Un_Ka4svNlC2tWZuflRrlSOt4yj9-h1baxBA4sWQHciOVbZEGjG4r9x4qwq4f7Fg7sESa2tgj123d9e6r9oTySu427z3eW3A0SNq3Yf0tJum0AObquk0dNqvA1jJgYa56vWYbldWhRCK_L5Y5rnrQrs9VjJc_QP85a3IPc7zzJVA6KGyzKybsZeUsTvdjUvV1wGixhDAvIqKsWVOp4kOBUNpZalGKC-Mxpfw7T46KByF9A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJKzBO6fVp1h0RdFVGtbUkxEk/photos/Ab43m-tmhXLMFExSG4NKtBQbdGCz9I_M4gQ8KfH7Sun67hkBf0DGnem6SIz_5y7BqQCykZnWXqV0Ld4zAdj6wM-rUGfKz6f1q3pxwTUj6heBxySUQlK5ANcIAQHoOZufYEMwuc2D3CjH3-yMUtGKc1f-ETWz9pdmJYm_r1H8Y1CFKY7WwMkojdNguWZwOdiO8XFmRiVllKTkCsiUeOPA2rMjOLvwZGnldKlMMe-LAvrhSoBCsatZSVs-XaxplmqyZ32wUs6Sjxj1q9qWLWsNS3DhSob4MdSkNeG30-eFDUCAy0u1cQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJKzBO6fVp1h0RdFVGtbUkxEk/photos/Ab43m-t1zL3yrXJQi9goUvf5qJodgmZgul4loDOn_U9mTD_7GvXXCr4FkWMlsmsxt_D4hjKL59fIWUZT_YIbcpgqDdS39lsxyVrwEzytkIJ4F_lpXLC3xRricNYFyaY-smxnbOkjeQegpc4UDn026yOQk-Tfq-HFUV3HEWLmRwNvxE_qevAmfMkYpJJpMQu2zdLhFqA15TC5puMYncvRKCHUmUl2Zwcl1t2ueeIu27e4bnzvP5BWAcD4vXDvlwN24dvVn3xEXixv_IBgQp5yDk-V_DJsvbulwXlRuUltb5Soskd4IsS9BjjGfOH9bX4dz55P8NvdJ4CpPth1FsCxOieKBETCW9RdO0cPgvEog7pO0zopX6IKpMh8zocIE511msLsL9L4E_nWvAzxO_jFTU3xGnLeCxkSLCTnTMhiwkehM-86J00Dn55Kf08nMZCwFQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJKzBO6fVp1h0RdFVGtbUkxEk/photos/Ab43m-vq3wcyZD57iOfKIPfYv8a7sTiB79YSOF1EsuWBmhHanbBedTTbk2gS-nXEUqabSlL0oltXJC1U5t-FjGjYvKit0et0AQ7UXwcBlVO2vrxosWFxVvpLLbF4cs0CZXRoioqlumcwtWggtqiGOaIe16TrElG61AqZlaB5ECFX4KZ6T7agnd7FRYw9hhNw1QthtW6O_1MwNhFW4z_V2JbNjttxb8jaB-orDKpiP_DHu7-BKtmmQaJqaHZ1wnu0W2ii_o4UrK34L4v6xs9nmN0f5zTWvdk9NsNtn-2jT4-QQGjD8Ptg6Sfx8BMXTjEL9wTN8LUPpZLFZ5oT53nF82NPhisfAPlTGOrvPTDZUFvgPJUjmNhcjla8LbNIzFlgXsM8604OMUjIXy7i4p8syY-7gmTVWX231fYP6mQn7UQtWkblNv2wIfJpsvch-QLCRg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJKzBO6fVp1h0RdFVGtbUkxEk/photos/Ab43m-tqC-iNwsSM1URlaOnEqJLH9KW67Ed0DehJ-YQKWJY0vHvkaU5XPbdFL2OxlJyCLbX1Mh4D9FYrLjiZNs3eenYk50P0g8EfWpQcPs3sb4swGkuincBmjS1n03sDdTjJrft1_XiEuTmFG0dgU3UxbOrCZQq9N8CubNZTpjsx1KIUYMwVCN7APFnXozH0P34lk7Wtj2duYCv1sa8F8BKKzB3wtwmUaskI28xrBlpot9_sHWsfGr4du50cHbCm7RVt0A3cfk-f-ldXcw8oXOHbIZ11TZnOGhP48ltC29QLPPP5LVY38C5qjU1sSefC7h39Na3dJTdJq1MJRaIZgAaLPVebVjm4aX9JKdw92A2V7j18PF88HsTvPdHKzCz_rUoSX16-RpXBO1pva6NjbyvDCUj1nNWN9sKgQmn_nBXOsqPrZXNXvd2Hxpm3u5TNiA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:25:06.652679+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

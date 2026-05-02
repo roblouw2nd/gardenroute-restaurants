@@ -1,0 +1,71 @@
+{
+  "id": "portobello-italian-kitchen-george",
+  "name": "Portobello Italian Kitchen",
+  "slug": "portobello-italian-kitchen-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "104 Meade St, George Central, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.961888,
+    "lng": 22.4590207
+  },
+  "phone": "+27 44 630 0401",
+  "email": "",
+  "website": "http://www.portobellokitchen.co.za/",
+  "google_place_id": "ChIJa9Of9r8F1h0Rszmp2CgPpGg",
+  "google_rating": 4.7,
+  "google_review_count": 376,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "12:00 – 9:30 PM",
+    "wednesday": "12:00 – 9:30 PM",
+    "thursday": "12:00 – 9:30 PM",
+    "friday": "12:00 – 9:30 PM",
+    "saturday": "12:00 – 9:30 PM",
+    "sunday": "12:00 – 8:00 PM"
+  },
+  "description_short": "Authentic Italian kitchen in George Central serving classic pasta, wood-fired pizza, and hearty mains in relaxed surroundings.",
+  "description_long": "Tucked into George Central on Meade Street, Portobello Italian Kitchen brings the warmth of a proper Italian trattoria to the Garden Route. The menu covers all the classics — hand-rolled pasta, wood-fired pizzas with proper blistered crusts, and generous meat and seafood mains that don't skimp on flavour. It's the kind of place where the aromas alone tell you what to expect: garlic, tomato, fresh basil, and that unmistakable char from the pizza oven.\n\nThe atmosphere is relaxed and unpretentious, making it equally suited to a midweek family dinner or a more leisurely evening out. Locals appreciate the consistent quality and honest pricing — this is Italian food done right without the fuss. Whether you're after a quick margherita or settling in for a full meal with wine, Portobello delivers the comfort and satisfaction that keeps George residents coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJa9Of9r8F1h0Rszmp2CgPpGg/photos/Ab43m-umpft5EerEunIDMswnpXWoSLYLNpUYTqRz67lN2Q1K1GcIhvY74n2y9oxDjYjHuhMc6_1uahqo8S1sQCwCo6QHGp3BYsMY-KsG6huN45CwIyXujogrTW3HIN9-gh0eBoxgQ0uFqVkORmfR__VurbYW2a5oeoCF5A2K88S6drOdiODfW5onpwNG5RmZd28QtzCjF89m1MWkoKfvqjBhk4pTokTaHMjcHzsPYfry2CrE8gTDaPZrwMzuyOtsDAWnnLvrcQsBgZICPao5sRk9xgLHiTQkTvGJdQAj-od8GurXVA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJa9Of9r8F1h0Rszmp2CgPpGg/photos/Ab43m-svYiIrmkmzhkUXrvlIbA8c9IFqjxx746Z889ufVZRngaVp4mvEPgpzykD0BJZReS9kr6u4GDzEkkKBMDAwauTBOWZMSDdJaceNIXXthX_By6QEP6e9cOskUR2uJRwPUH2cb64LFSg3STILjalOqbHa5_3MmSH7pSL9IpC4ULmzfWYGaNGX9ZO1JzDMxQ1ji_yumccwviz8qkl-SID-VIASMb1X8bVAtU92fSoRtFjNXHScifOomyVAy_EzAjBtvFXqOvt0MfVoY8dIPx1TNZJ2452Uk89MgDI7nTKhmUVTtA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJa9Of9r8F1h0Rszmp2CgPpGg/photos/Ab43m-vjxSAlsY1zZ8kXz-Hg3m1n7UZJw5CkavCTZ8ow_f1gVjNYneYlnIZX2SxwNFj2Dg7AtgLJsBBodMFzNspTtrtEK1niuEa9CYVt4NeCnLZgVrnzmoGk9tQrZ4D1oGn8XFWyFARFvS2T1XP4zuDd_pV2PFmpZAeca1K6q4g2qtkGt2iRQe0ac9Mj8fmXhBOy3JRPg0YpBapjLQv6_j2LSqmeEN5ayWPlkP0cWpvODbxuntt8L5GtW-YhRMzhi9BYD1pTDleFFDt4tgxZ808GewADaem_yujIkXT9qoYx4CuqqqGOlz6kjeba6RxHvLmdjzgWnAvr0Z2T90eqn839Y0fZ2ZArWVT6WKcsu7O7bkEzTZV2L9nZxgUUsDjODuHNYKRgFgtvOVZEisOPe7qqDVQx-y6H3wbFLyepb3RKbK85I6hTc_PjropEZe2OfWf1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJa9Of9r8F1h0Rszmp2CgPpGg/photos/Ab43m-tis-4_vPn0t636Ye9KyxZodcaNFDtLW1lBjTp0FV_ZUs7ZixEkCQYFseDAN77rnlFKoJwFodHWFs_399b_UnegcdSQH-gZ2DcF9HcEfy2EfS6LLUxal_jgx6JpX7xnbUNhLJ8nUmDrxcwvbNVnn-FMbGW9hPVzmCbOLyvSq4A-1HUyyRV9cmyHmiz2_EEVqU9q_Tayhv-o0Xtxx_hq4Td-YNN7An_LGpAf6UXtf4-iFglpNs_4IgyMuEgdpUn5KZ4xMsr-kxKzpiu_EwFv9gA2wF4weypqu9Wp-RtmLAvnWA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJa9Of9r8F1h0Rszmp2CgPpGg/photos/Ab43m-v5GF7Ocazk4OCdwCqzuZ2FyPmFEwSgs1mWqzrw8fPQDup-359MX53YVqbOYp4tum1ZQ5dr75DWAW5Z0E5n5wh-C2Ir9Fw7x9PkGpxCoBBPGlsM-Q9huGKU2OeKM-sZuAbNCeFdh1QujG4dS67cWq6zz6bUVYguWKB2c8sZCRK3BQBAwkkY1Au4ofxIe5K0QZrIzDOVSC_hQn-7T-agRK5uXgjplqUb_1XnuLGEYchxEpQBwjQc_YEbnaRJgyN4VcXN7-hnV4j_Xpxyhxg2x3XuFJWRcrpdPCGDkwNZ2murPJ0XuziLCzQWFALCWDLo6arju4Sl55FOsaaNXwtd4GCjervV1U-fTfjCOpT42t1ZlLNoD8CJS_0tl5Hevwb3aR0w94Y-cekgCPQl7qYMBt1The9GlkYP0jLblAKysfREyoUQXSEVeFqvia4nOZIm/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:31:43.841274+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

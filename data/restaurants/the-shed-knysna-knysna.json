@@ -1,0 +1,73 @@
+{
+  "id": "the-shed-knysna-knysna",
+  "name": "The Shed Knysna",
+  "slug": "the-shed-knysna-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "nr 9 Spring St, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0364004,
+    "lng": 23.049813300000004
+  },
+  "phone": "+27 72 300 0661",
+  "email": "",
+  "website": "http://www.theshedknysna.co.za/",
+  "google_place_id": "ChIJuewkAa3reB4RtWSjoEJVBc0",
+  "google_rating": 4.5,
+  "google_review_count": 95,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Grill",
+    "Breakfast"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 6:00 PM",
+    "tuesday": "8:30 AM – 6:00 PM",
+    "wednesday": "8:30 AM – 6:00 PM",
+    "thursday": "8:30 AM – 6:00 PM",
+    "friday": "8:30 AM – 6:00 PM",
+    "saturday": "8:30 AM – 6:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Relaxed family diner in Knysna Central serving generous portions of homestyle comfort food.",
+  "description_long": "Tucked away on Spring Street in the heart of Knysna, The Shed brings unpretentious comfort food to locals and visitors alike. This relaxed family diner has built a loyal following with its generous portions and homestyle cooking that doesn't try to be anything other than satisfying and good value.\n\nThe menu covers all the diner classics done well—think hearty breakfasts, juicy burgers, and proper grills that arrive sizzling at your table. It's the kind of place where kids are genuinely welcome and parents can relax over a proper meal without fuss. The casual atmosphere and friendly service make it an easy choice when you want good food without the formality.\n\nConveniently located in Knysna Central, The Shed works equally well for a family lunch, a casual dinner, or grabbing takeaways when you'd rather eat by the lagoon. It's honest cooking at honest prices, which is exactly what it sets out to be.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuewkAa3reB4RtWSjoEJVBc0/photos/Ab43m-vsW6uCCJhovv7Kvor7N1KOL5eVVCIa9_Nm_QaB0Q2og3dLZaE3J12Ey1_M3waBAL-OaHQr-I6pNVinHe7Q7X984ziSIoBi6ZA5LYzmpgU0-MOlmHR1n0SO6TwvITyOCD9oyBugwFRoHXPSS4layBHP62JPveiAHIDe44ncis3eb4sVfZTdbFwy1Beg43xEHyzlGupb0V9KvLkApG-6AmxtAbMUxgUICKbO65gDG49WNKv7xlZTUR5hA40PJjfA2yzXaSAKR0c5LMSjwH3Pmo87IGmGbDGdo2ispUFr6ybn7w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuewkAa3reB4RtWSjoEJVBc0/photos/Ab43m-ve5EXbS99rM1FQL-Fv6Z9DZxSJBnk4OyTtnJF5RZf6_kyLJvedsilputo743HppAaGybTAuo51S9_enYEnSGWT6UB2VZergroFUgSsRdMSIrAtHNuBj1ZW9w_MoNvsIt40Zkv443DAjuIohFFqq0XXkFVaCSEoI-JdlpYvNlFZdhup8kXkIEhZzaj9RJUSnAQopbd2ojUOSo3sEtTLYDFapbq3i-f0SkcSdEQLOpuk0LWFNt7-OUT2fBMf8WucpVkqeuvQMTVnrKH5gSuXPLp_HD6Nah-ywd1sRJbhAGXhVA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuewkAa3reB4RtWSjoEJVBc0/photos/Ab43m-tTxG3Xg3QLeWlSu2A5SIbC3tH4h_iwM397BbPX6IXi22c-rwBTlKYcaDwlGaadxaB0rXqapOVYkT3tNhMvEQ1T9xN38Ummm14IyWvsP1EJF_N0JXfaAF6vRT1fZfO_3IIDZJ4BQr9mGjbUElDn4_2UDL-NlmPbYYGxf2WS9o8xOUwRIzA8dB3Y85h55sbqryUsyUGFp6JMIinTfXK_XdOz-aLpsY660qYoDTQOnRZtK4vpOf9SSBh1tN3kYOclZg6MM1pz4MbvdaSoyQicRlr2jgSSSYdOtOpsgtfZcwZ0J97fo2wGToUQi7fH1pura9jenwmL7Gez9KDxBRW4yxA2vpqRRzJCZxX7-Jfo-vd2TklkeAz8a_KJ5HxqrW155orgt-n6nTf2bRZMPJX6fKZcbJn4smjZsfN15FSS9hrhuwu1GsD3pmb6-wYL6mWf/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuewkAa3reB4RtWSjoEJVBc0/photos/Ab43m-vVmQxRGbOSh0ZSeUyPgezc7nKm8TdHQj8vJDxiNirhu-wi5-L8J4f6tt2QoHQITkw_IDh_sT4XhGpNYruJEMMrXy9aAuC7TyRBX5i2jbkrNUFlMRxn1sxmLIIDfko_TJeu4UMlxFtZ26fQUL1S-XPbexYVyj_dWQ6wnRTAZbvvOyy4Xfn2FKfvOJu7riWz4kKx2YOWjIPcNxWsoTO1KzuKi_jJJT9Qu2BOxmumJ-Ofvk1gBbYzmFopqtAoxbkiSrpcy6Ki484l7NX1J4iYIBg-ov-zT9aq6vhbn0TKmK3RxSYn_Q1-TQaj_hrxHXVbVimGmwlnODtwb9HF38IXqRUhs-NE_4zZ60uGEpAn9xJQbz_xOE3SFo68gpE3ivlznw24UlXc0sl_VydmQL3jmhfAAqgXcQufB2j7HGc6owy718HQg2gQ7-BebngCL_6B/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuewkAa3reB4RtWSjoEJVBc0/photos/Ab43m-uJsfLwVM2x7QJW9b-ynxtuh8TPFoMBV3mQDgPv2b0Ao4xsUbIsqBnQNbplUlnc9rivwlv_ExLa1Pf-0Kpg6aC1xcf8_R24QVLXBJQguSqnwYNJXiUPDUHEpy3nisKpSqeZscbxeVWa7p44Kv5bHM3sMzTYR-M87VbFDmsQwiGeBlQFb5Zd3kyAiA_zcQa9G4E4y4k9Ay53ahFJYlFMB0MgQpYu35eTtv_7PEBnixOofTdyHdrcDXaLqyJP7V2VUiM6eleB-1zjObnFuBXTOgzwpx1C7bfkg-Hdo3tx5eAOWFxDEmy2uXlrX2GJ0K7LG-8EoYCco9cwgcU4JAit0f0uESdUrq9ysFfaQMzTv5_7ja7rRnKiQDBqXkkXwj7gC-cV2hG-rTQI1rWQsNaj7D3bfK7WGHYGKuzrHJBr3gDG5Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.534783+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

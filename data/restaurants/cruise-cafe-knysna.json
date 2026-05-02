@@ -1,0 +1,75 @@
+{
+  "id": "cruise-cafe-knysna",
+  "name": "Cruise Café",
+  "slug": "cruise-cafe-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Remembrance Drive, Knysna Central, Knysna, 6570, South Africa",
+  "coordinates": {
+    "lat": -34.0390916,
+    "lng": 23.0406735
+  },
+  "phone": "+27 44 382 1693",
+  "email": "",
+  "website": "http://www.knysnafeatherbed.com/",
+  "google_place_id": "ChIJcZJKSIzqeB4RNRjzmosOy-c",
+  "google_rating": 4.3,
+  "google_review_count": 623,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Seafood"
+  ],
+  "tags": [
+    "Waterfront",
+    "Ocean views",
+    "Family-friendly",
+    "Child-friendly",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 5:00 PM",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Waterfront café on Remembrance Drive serving breakfast, light meals, and harbour views.",
+  "description_long": "Cruise Café sits right on Knysna's famous waterfront along Remembrance Drive, offering front-row seats to the lagoon and Featherbed Nature Reserve beyond. The casual, breezy atmosphere makes it a reliable spot for breakfast, light lunches, and afternoon coffee while watching boats drift past. The menu covers the basics well—think tramezzinis, wraps, grills, and decent seafood options that won't break the bank.\n\nIt's part of the Featherbed Company, so you'll often find ferry passengers stopping in before or after their nature reserve trips. The location is hard to beat if you want to sit outside with a view, especially on sunny Garden Route mornings. Service is generally friendly, though it can slow down when the café fills up with tour groups. Good for families, casual meetups, or anyone wanting straightforward food in a prime waterfront position.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZJKSIzqeB4RNRjzmosOy-c/photos/Ab43m-vEHW6YdpkEeKSvO4JsK_c-RfinMm5iLqKV5Jz2DeytUITx4Rw5-VUdyOmWBRBOjohS1xZZ7UeSpU861OgxhwG-82orAwNv-8g5MURSxVLoLqMpmKodOEHVA3BedmGi5R-3fxSAiGkvL6I2CAmDzC9-YXTHwzcxMRd4rov6UhJl74tvBEvpEGLIQPACeFuwaWUMrKSH2l7gIuaeYNnVY1EMcVsFKCCKmTh1E7bFKnkuAIzeAQFEkl-eGX9PbQxK0zP97jA1bDVCxOdPvOAGfTGmWFaAzlMxgxbumPhfY0EQBAjPGcP8OsIVdJEzIETdeJnvxGWxWbYJ7MIcJKtsPPGQazObTwjyql6XzNq-Y38gVD-iP8KGRMCvtQ5nt-2trkjq6bGSC-XqPlUmA6DFnP3KpWJIY3dbQQdEOw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZJKSIzqeB4RNRjzmosOy-c/photos/Ab43m-uzlnwlUdfY9ZmnqqJiPHdNA3NzRkgVRjJxkpur2kfwTrtL0SAp65zh4M15F5pRQys_-x1RtsEwGBT7HxLgcAxb3LIA3tXG0uvw4N3ARx2QIEqr12fR0Jf9IscTsl-ZRkOPJlSbM-edkmOcSQ98gxwEHxaFaE1rD0jw5KhftqclornovNjqEDBOwnuDGVMGUdP1Ozi2pLVrziD19iuaRlYO_pQgsDp3Zdd_a14uaJoFYdhc5s5uAQllnKy7jl1Z3E5KFv8uAVQgUPDJHTn5dRDl_6m4LiRsMXrgIXWrFIc9Hg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZJKSIzqeB4RNRjzmosOy-c/photos/Ab43m-tGTsTctxlF5Ho-23J-n6QTJKrCl8qBruW9OKsP57XWnIqPNc561SEwQA8QJtpQym4xdcWOKktnpDXX6kR1SoglPjitczBsTA3XMk3No8fbHlXcukgvxKj7zZJQNaU0gwfGzN4tSwjxg6l1K_2tf6qeCP3Va6KsF_3fivWpmzXr_BjpidculMgruhTz1bJ5y9RFCXKJ5UxeaWtcEju5CBRj3xBOobGD6vfQ8reN5ljdgCbu3kFRTKVkwbM3QxTxVr9wRmm3l985It1TgwgqWxQ2lnN3h0kblTY8PWj7eOZ_XyenWG1fZpa9B3ChfRm3U1TXhpqeig67FKu5i0rIy9FyOHgk64zHj3Xk21arPTgOQi_gnqRyeYsnGq35kPf7rWKhvnth_a7azBwy0GzqkBhmlb82OplcgwpJfO_qlUYXmNE3SFHXs56MefdCTA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZJKSIzqeB4RNRjzmosOy-c/photos/Ab43m-vXDjNdIClTa8QBoX0RpCh9bT950NPVjG08qzp1btpLyYtHLvVx7u5Csoil2JjeQzmM4uUA2uO74ysN6kC_1Jj44OmFgXGL0XNCuQGJ04RmYoY84FVCJjM1hGs3h0drdj6SduN0Tm1fjVuvdC503-je057xDJpyyTfABfDysN4TTQfNFiIwW9XG0G7GHhS3J1p8gd8xjLRqKExv1HBRSH_v58X46TS4vlAkPn4P0S5neY-9W9VEXYw8Bbc_QWbkrH4T6lHxlfJPFqBR0GJrIcjEfkjyntobkRP1BKh8Y2wR5NyJLG6kRXTsneiQrPSMKlSIxAippa9A7mTC04v1zP8_zxBB_RUWSQWdupcklmyrpOE0zysr0cZwpRqh1JRQe1XIENGth-Kp6AgdyuyLHquqEdXVX4koF9vi_XrtT1qK9473oGCOX898906vv5yl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZJKSIzqeB4RNRjzmosOy-c/photos/Ab43m-tVO8dPFslecanOW1hsREF7vWc6OywT9S22OK6DAIVcerWqq8kSQ-9DslAhW6vosGJui9K-Ip83YsXA3jp1h5xmm8UdjHz00AICl7kpMrwBXdy7We456l43jkasu9pU1mEyBcrsdox7QZkm0S0x6sPwpMaZ9zKjZPjL9wSjTlbvdFj2PjoZgyb_HF66NnbqlcHaly-35zA6RUfSWaGvQ3Gs7SP12RQIK-jpG3SYjRSlh01AxxFwpKwSqKpimysSNLpOefDzWUWoXCXwMOhqn-soILqzh9o_ljMkTFaBRFl9SkdqX9WzZYpKYHMCSpYy39JOP-OauMuo6QmW3fSiTlbJI-AvEuxIJh1PLIYemaPyseCL_ZHWSKPaF6Se2yxbCdK_xRIZPnko2eOFpTRuyQsIlSGujWpZuZOjtECVXOOQuqBscZITeYuYD71IF3kv/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.532305+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "polpetta-ristorante-george-george",
+  "name": "Polpetta Ristorante (George)",
+  "slug": "polpetta-ristorante-george-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Outeniqua Lifestyle Centre Cnr Saint George’s road, and, Park Rd, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.979718399999996,
+    "lng": 22.4934682
+  },
+  "phone": "+27 73 097 0782",
+  "email": "",
+  "website": "https://polpetta.co.za/",
+  "google_place_id": "ChIJR716GxMb1h0RynUiyBGb094",
+  "google_rating": 4.8,
+  "google_review_count": 192,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:00 PM",
+    "tuesday": "11:00 AM – 9:00 PM",
+    "wednesday": "11:00 AM – 9:00 PM",
+    "thursday": "11:00 AM – 10:00 PM",
+    "friday": "11:00 AM – 10:00 PM",
+    "saturday": "8:30 AM – 10:00 PM",
+    "sunday": "8:30 AM – 8:00 PM"
+  },
+  "description_short": "Authentic Italian trattoria in George serving handmade pasta, wood-fired pizzas, and classic dishes with heart.",
+  "description_long": "Tucked into the Outeniqua Lifestyle Centre, Polpetta Ristorante brings genuine Italian warmth to George. The kitchen turns out handmade pasta daily, wood-fired pizzas with proper blistered crusts, and traditional dishes that respect the classics without fuss. The space feels relaxed and welcoming, with that easy neighbourhood trattoria vibe where families and couples alike settle in for a proper meal.\n\nThe menu covers Italian favourites done properly — think rich ragu, creamy carbonara, and pizzas that don't overdo the toppings. Portions are generous, prices are fair, and the service strikes that balance between attentive and easy-going. It's the kind of place that works equally well for a midweek dinner or a Friday night with friends.\n\nLocated at the corner of Saint George's and Park Road, Polpetta has become a local favourite for anyone craving Italian food that tastes like someone's nonna had a hand in it. The atmosphere stays unpretentious, the food stays consistent, and that's kept people coming back since they opened.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR716GxMb1h0RynUiyBGb094/photos/Ab43m-uQtEU_XiOsVLuh0IRUMYQ62qkNjgF9atTZ97ZpL0WDYBwPPcIDak1jDRPLrRdABo-CcNI_C5i5xzWmDW4SP9PjsrvQlhgXOIxZYD1IbTHw-6xiZubl1qWoIod0EI6AP9eFpEHk22HzaOEnFNCCrUfEZzyHkwsnSD3xIWuT18OBLOjW6ufcDcx8KKWwiWvhDFMi63nx3K20c14h4a4kH41ZjeS18KdvxPOIltirO58q-D03bVzTwOBc0BOh7ZRb8iYgmmzuQsYIOAjgi3opBz50y9Ue8QO2BgMjEUg0d5qKdoE1h1qN7Zm95HJExbXZO-PW6VjcqFmzIT8N_5PZoG4YJ5o1UNJbZy8vtyghCbPUIshwfWGFE3mcviyge9APKSgs5cAetGmXk6kSdqEmOzxICjrnv_KbOlbhAGAmNtvyPQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR716GxMb1h0RynUiyBGb094/photos/Ab43m-vhpOtVnQmICf53-uHqxLEawscFN3x2KTb9ZkJeXkC7Y5OzDKU5iUrQ9SvtKMnMBmGd8ufFbOVQQeGX5JRn119mjBpalXtbaewbog3KXrVT0fQj2lsKuiZ9jpGtekDoTWeYnCsA4VzbKpOBIynXuqF3IVz_1dzC4AgjxWeXnv8-oQmxR1yKwJuZ3vwhnMwshKKo3gpDoj-aC64sxLmP-SnnCN8xSPir4XZbx7-7dB67dnOlQ8VjTcR2tAot-GB4aSrZ56xHOP55vD1hRuEZjmFuXcuryIXjnEuboNWbWo0sgg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR716GxMb1h0RynUiyBGb094/photos/Ab43m-uLopQfpLvTHRfY61FiBYs6GnFmsPuLVOqam76o76O9GB8e5ORgP1Jro3U8GPWCbsbx1pcj_8G5QY54nkNW1CcSAW-r6ib-ilrZCKyrI6S8KuaDrI2I3LOzuFumPgch1jrDCTqsB1uocScU-XSNrWrkPf5ePvXc8nC_HVfXqJtuGQLpHrUKaihKv-6yXViSFZDVUnGpe7ucyxPgHWq70UDEPes9GFJmOdew0-D9gC575A9qj1WeHX-d4H5T2LGSLJDfzRV1Fr68WL-QKkvz8DmiEawU3WWMBSqx9K0XYXBCUW9hn4pR_5vCz19we3l5ucl2BVB-TS81i678VS6H33KiUAELZEVFklOZg4KlrKOz7Uc4OQfxgiORKWrOjK3GhtrmLmQV0R_H8jZOWwWA9UnSVAWg_O-OYtYQEAf-FIGuDzsYnz-fCLNZaIl9KkYO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR716GxMb1h0RynUiyBGb094/photos/Ab43m-v6uZ5xeRuATLhCYcAUS65DacVl2fmWap2h2xDcq81myHj6eJ5bJ324ArJsMpZlUgrfK_WJCJxKEs1t19toZMOeoM7fAe_c96QrwV4-gAKUTX4XPZVs6fkFedcjLa6l5PWYntu440w0FHXHuN9y8HEyhwrKl7Xs6ZdL3wiQtdaz0siEsSHCtfkAG-Wcvjn09eThypX57gGIiW1y72ziP5dglxm6uuwlEj8fp2jzGl7aBYugLiw3YSb2T3WZWnlUb_iP0xxNSanwWOeKa9n8SnXlo_0IB5s_ZyQeLd3rkV65kya3kfEVIcj7imb_8Wt7s7D_IXPcbDCx5XPZm0YafEsJcWfh0096EBEXeCYRCnB5WPf0PXEPfBCzFEzSkTFD5fw-bs6couUu025AsCghPbHbHyn1PJjDrF3KzD2MO-6lZoy_Wi94E-KqNPPJZIUL/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR716GxMb1h0RynUiyBGb094/photos/Ab43m-v6jYaS0kAWn1DwOyBhl98FzeHY8ZL0SGMxGMNonx3e7IzPD5skaN7Txwoct-IDE7daPn0OpgoN7-DfSczIJxnJHz6JhOe57YIzvJPYbXguaNj4pujDq5xNy0u0iJqer26IfAgec_hqIBtKs9Skr3NSdXciZZhLNj0w2t3S1KuuM8Hy4TqkcAHIxGFroYmXh5TSxFkCSIuXPNSKoFE5ucuJ4wmlxSHapuDEZECKcfwU9zfhgmlab_V0_Eft9emZWbHlMNtJc7cWkkIbo-kpq7ZZsU8cQ9toIA12eJNngWKEup067PKcAdhhi6qV5nsFmePSQe-6Y2aKNHbfyipFIFtLGy715bKSGhoEXAriPmDYgHq7FYYWcaY9sXPG2jfpvAY2Bq9WhVRRfsX9dZ2gVS6TIWXN1-8bMPynC52rJ8gEj8F2DaB0hS1oFmnFQQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:30:35.360544+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

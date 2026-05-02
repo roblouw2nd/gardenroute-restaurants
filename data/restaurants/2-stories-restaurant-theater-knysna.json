@@ -1,0 +1,75 @@
+{
+  "id": "2-stories-restaurant-theater-knysna",
+  "name": "2 Stories restaurant & theater",
+  "slug": "2-stories-restaurant-theater-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "5 Glen View Rd, Coney Glen Rd, The Heads, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0788146,
+    "lng": 23.0661018
+  },
+  "phone": "+27 44 384 1247",
+  "email": "",
+  "website": "https://www.mountknysna.co.za/restaurant",
+  "google_place_id": "ChIJrwiY4j7reB4RGeaIiRpR6lE",
+  "google_rating": 4.6,
+  "google_review_count": 66,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Grill",
+    "Seafood"
+  ],
+  "tags": [
+    "Ocean views",
+    "Sea views",
+    "Live music",
+    "Outdoor seating",
+    "Romantic",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "3:00 – 10:00 PM",
+    "tuesday": "3:00 – 10:00 PM",
+    "wednesday": "3:00 – 10:00 PM",
+    "thursday": "3:00 – 10:00 PM",
+    "friday": "3:00 – 11:00 PM",
+    "saturday": "3:00 – 10:00 PM",
+    "sunday": "3:00 – 9:00 PM"
+  },
+  "description_short": "Theatrical dining with lagoon views at The Heads, blending live entertainment with honest Cape cuisine.",
+  "description_long": "Perched at The Heads with sweeping views over Knysna Lagoon, 2 Stories combines restaurant and theatre in one memorable experience. The venue's dual identity means you might enjoy a sunset meal before settling in for live entertainment, or simply come for the food and the vista. The kitchen focuses on accessible Cape favourites done well – think line fish, substantial grills, and proper Sunday roasts.\n\nThe setting is relaxed rather than formal, with both indoor seating and an outdoor deck that makes the most of the position. It's the sort of place where locals bring visiting family for a reliable meal with a view, or where theatre-goers gather before a show. The combination of location, entertainment, and decent food makes it a distinctive option in Knysna, particularly if you're after something beyond the waterfront precinct.\n\nBeing part of Mount Knysna accommodation means there's a gentle guest-house feel to the service. The theatre programme adds an extra dimension – check their schedule if you fancy pairing dinner with a performance. Glen View Road is a quick drive from central Knysna, winding up towards The Heads where the lagoon meets the ocean.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrwiY4j7reB4RGeaIiRpR6lE/photos/Ab43m-tvKEG0ViRw2OkluyMlzOtIjyQSjPzU2lar_C8xwPfBRf0bQbmweQPfN2WEhZSRWfWXNxv27wXEIoLTO6Ih7PBmeLOk4H7owRT40K3XdjWpOe2xmKITmjYr5vEKlT8nLI8p3VhPJVIsY7FYwPYwHki4bG4tH3mWMHrpUFhhJxthBA-YiohYMxYC_Xe6bAsBsb9t8QN-KF2Bl52p_ni1MhSVTeuq42wSAz4qWmEWocNEOyRZVuk1_1-QxJFcs8n5VcJ-kdgyZ5y8rQ0su9KcLO77EIv3KlWsW253KjQIJxEs8g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrwiY4j7reB4RGeaIiRpR6lE/photos/Ab43m-s7Ht3emiBMB8rc-zSihCbpNBhNQe3XtbidBZA99nGQ_GfKeSzznFNYz6eZJk9RJ0SsG4tFlJ7IVEeAAe2rNc4cBPPBaEsg3XIGew67TWB4i2N-WqZyBMlcRbpuwezLjVoxuKlCN7wmX23-BFBluqr7RJS1y51ZQUOGgexvDuaxU-qIrPGapU6lOWSBSYEOD2hpk7GUbTcsBvqRaTRdPUyDfkNBIncmN6u83YggmyVZ2uA3cAxVLpisVELn-cNjTNiGxlrvywEDHRcHtTAWcWkVkNWakywQNfhc5H1_JDGtIznBH3801rZZcdfJLz9E6ZoJpvgastcp_HHChKAd4L3Jav60CgELmB3-Wybf5XaNvCqCH4aFf1wlTqHi-GbK-l-2BhMMHqZcgiias5rrfP6mUWXlQJSMtBZqQl0D79YBFp82/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrwiY4j7reB4RGeaIiRpR6lE/photos/Ab43m-uOOxFGaK2JQPAPaWIrRyHoPiEn3yFln6-b4tWUq1htdUndGd-W_G6qgFb0cWH2QprgUS1aUKpub8uomf-Hy6BGPGB_U43sFz_EoX6OtDT2gtyyXF-zQNFBZs90PVAOtO5aaw1RqlJP2EOeRDTm0vvKEvqbPiySnqbIE3n7hGkMNNgPtnGik0Dp_Fg6zvCcHQzhjmA4lP9PCNOVlpD6ScdYC_oK49R5lHOc8Z-indpzpIoeDCAMY1MzTFgDBUBv91r552-XF5EVsLS8L-f1vPFzfgUCnk3W44tEjMYO3wvkxA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrwiY4j7reB4RGeaIiRpR6lE/photos/Ab43m-vjC2YZz4u5kx0MOmiAcq8kU3_Z87ZT1kc-1dMnxyiVo8NuPCjc9cq0kBLapnLXQZ6vh0BOPR9O0BpxjmkKgDJG68roQ_SI6RJBU4SKdM_guPLtgTRq5v5Z59gKo1xcYIW2sGESH-bMNbpZFuRyi_3ATzU0FOq1T8unL459Pna3Bd_iwMZnXwQmYsEsZgJFtd1fZYw6ykcODmxqrmO0tUGgo6j12w400Z6jmvOZo8r3jWncp6X_HAI8UWuIvY8niHCs7CWc27uUSrzD4bpp66Gv8ibn1cqNK684wFukU2IKAcGSBj91kHtANUiJW392wGJkZNy0d6p57q5ZPPKZYgeI6SECcGotIUe524aOUgH1u6D4bwC1BsiTJuoDuIWtoOfTUqb30OnnZh1XBHURnoraaxUzr4UXQdgD7uBlGtPuetuwfbLKjSVUcKIub50U/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrwiY4j7reB4RGeaIiRpR6lE/photos/Ab43m-uLPUlAsY_i8Hl49-DQd8K6Iltj_B8aZj8oJmiH2-UzDFCsCIIQjdATQJn9hncSbuVmwb_U-6QgMnKjbvKLtZS5hd6YDuxGxIAB6_yUj-H1PeVJjjJTSEBEAXxlTvEISrSCujAQcos2MPh41svrFhdq65q9DBK14b1h2F3zC_vvo0-KfM4oR0cCQbDgUpxTzORbCltiIzDB_odP4n5DKWB-kKuxbEiyxqE7gQJlqATFehsLk12avleD5vLrWxi1_5GU9TlvJBQMVyPJr6IG6ddXi24oIMhbQisIDhJI1TCb1ZUtTtOfhrBOGkXWoqwGnJQuf2u0P-1SgEHJPEj5SCSps5xcyCilRVQPoyi3op2XGXrel4gUT9lxxkscZeUf5HKXv68s5nQ2VWUWON1cWF2kM2gNJL8kRJm81SAw3NowKPJTGS0_m9NWHjygCkhK/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.530883+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "east-head-cafe-knysna-knysna",
+  "name": "East Head Café Knysna",
+  "slug": "east-head-cafe-knysna-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "25 George Rex Dr, The Heads, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0766007,
+    "lng": 23.060527399999998
+  },
+  "phone": "+27 44 384 0933",
+  "email": "",
+  "website": "https://www.eastheadcafe.co.za/",
+  "google_place_id": "ChIJTfwtq7zreB4R9Hs5sXr8Zdg",
+  "google_rating": 4.6,
+  "google_review_count": 3344,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Seafood",
+    "Burgers",
+    "Breakfast"
+  ],
+  "tags": [
+    "Ocean views",
+    "Sea views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 3:00 PM",
+    "tuesday": "8:30 AM – 3:00 PM",
+    "wednesday": "8:30 AM – 3:00 PM",
+    "thursday": "8:30 AM – 3:00 PM",
+    "friday": "8:30 AM – 3:00 PM",
+    "saturday": "8:30 AM – 3:00 PM",
+    "sunday": "8:00 AM – 3:00 PM"
+  },
+  "description_short": "Seaside café at The Heads serving breakfast, burgers, and seafood with stunning Knysna lagoon views.",
+  "description_long": "Perched at the iconic Knysna Heads, East Head Café makes the most of its prime position with expansive decks overlooking the lagoon entrance and Indian Ocean. The setting alone is worth the visit—waves crashing against the cliffs, boats navigating the channel, and sunsets that linger in memory long after you've left.\n\nThe menu covers all the coastal café classics done well: generous breakfasts to fuel a morning walk, proper beef burgers, fresh linefish, and calamari that locals return for regularly. It's the kind of place where you can settle in for a lazy afternoon beer or bring the family for Sunday lunch. Service is relaxed and friendly, matching the easy atmosphere.\n\nWhether you're stopping after the hike from Featherbed or making it a destination in itself, East Head Café delivers exactly what a Knysna seaside spot should: good food, cold drinks, and views that remind you why the Garden Route lives up to its name.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTfwtq7zreB4R9Hs5sXr8Zdg/photos/Ab43m-t7Q3U79eoj2fwsbgzPREJY-aEUEkPsnx6BGAqVmjUVRGxBFxCnyvkp_1ySBIIwojAbAMu7qMnSzsr8vW7Jn3ePDQXPHHLy-7AZEjiJgiQ-30T4LHNXVu2A9znHg2rv9XbmARKLb6ykCX0LLARsBbF8_fvoQ6kn1zE13QCnVdiZVFkCYbEllZs7m9RcTVkSeRinSTr9qgdDun3p_RdQxTbiggf4i0YLrTfarUkfpicRe5XjnxoC1uSHRybYgQD2XYJ1h_H3RXiXMUxR_sXJ4LfClo9ag9cVBAdKHbPvqta6DUMmzzKx_-8IkPa6-9tJO0G3UPihn1J0j6u5hcCcA5sB_F9tQyu2J5ZLdKTL2x8_HH2bteWOXJCtcyR3TepzopEiiL-BhVxaqsuVlXZhfIEXleDZy-p_rFXHQB5eBn4GU1-Y/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTfwtq7zreB4R9Hs5sXr8Zdg/photos/Ab43m-tzPI00foHZE0DKK4adRjVUTo9P-aILHoahy6Lol3NZyUAQRhZEsa16PZ0LuAhYCQTzA3ziZIGOuoPFLNtDxIUQcOleevtRuEYuV7hywqh23pIYEOaGJHk18T52507xQlKvqfiRlyz1ijUz7KzNreuVbuSZQtJaig4d0M5AeOG2uccMOIWt4QaYyhJ9SG03WD4WfA6r2j7PIHzqAA583OYjTgV9REARiYBIjn6lIWnEo1IeP_g5vhqF2XSfkqOJmbKHtYUYpOvi44L1Ij_p0Vs-d-asjTwBQiyzMjabHvdf0H6UQEU-yCUdpHl1oWx8hcJoi3usRhPqpUVCG7bPtg3LbdifpB4wOF5VzLwU12wcxAcTyCsc4MHMQLYNCwkURC5jxVqhocMJsu3fiRxaSaTqoqtlPt8FnO5E-F6ADy_FFBmom9gUdOb9JhTqrBSr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTfwtq7zreB4R9Hs5sXr8Zdg/photos/Ab43m-s34y40dWImdzqtnl1WM-Licl4zy-usObx3k0Jj0lTxENVmC2E5t9NP1k9Rzxek4BfWXtY0U-G9l_AalC6rwOWoZei2WKKFD_vTSOgQ1haIiToikZSQQR-lSlqaS_Eeec-Az-EiSA71vdcJeXUR5BZQEhX-iTqArbT26g9UkteWSrHRv7q5lkebrlnQwZJm0NwlyImMUYB7-fCl3vvkQeULM01FujQZ0qb6ZwoMWWN_2afb6IP5BIWaJwLSgK4oxQr-aEiT2AcOS50N0XaYn-RHCn2KKIAHfcqzvNTERxkdbioGVLaQi3v90KUX8EVCrQgefQzaJShMx7lqdEOfo-33HLqd1DycRe_Y3Pk4xe02Yd0QgyCHHIW5xVWnxLkQWkem_3BOpDxmTiyCG-8egIROCHOaVw1Bk3gI1eRrEQ8t530v8ly9psHk2Yvp6d03/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTfwtq7zreB4R9Hs5sXr8Zdg/photos/Ab43m-slDk49KjEbyULhR0mVf3mIo_F6sso4SYupJbn7rM3wKNgAue9s2XTKNht_9whrUpqecVeUJcrz-pHZDfoSP700dYuS0CZkZkCRAI3LR6oBg2KodpF242TkrS5uPFqnGSNl83m1Scnev5EZ5iUbhbumTiAQimSbSRH6E2YExC0OM_gUlkXxBiLr8jtCcqzbojCX5vRBMpIPppE1gN51a0xZ7wjv0jZKJr1PzfnmmPz2C9COqUUYLLZPWHwIWR9M8sNDJUJymi6BIJ5R8Sk5zOdR5-4fQ8xlPPE2_DsJAxAP859Q9zB6_JtQ-EjX65i57DqCaz8CuV_n-aqGbk3wudIW7t8CpmLzG90pKSRS-B_xK1eEM65-R-kEfaIFeOCWpZf17Tb_NIWuyTiGhLA7-grbxyrunj06x1bpFfdzoFzrJJUOyAVKssELtTVfxhAX/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTfwtq7zreB4R9Hs5sXr8Zdg/photos/Ab43m-svGNFy9MWOHW6ojXClULSC6Rj39vu5ZhxnpMZzTSryMyaX_fY28T5T2hDErtCw1vP2F1HUU4miEpQaFPlJj7kEXc_efPBtoal0bIc3hP66FSujeJ3PVkQ704yw6mKBAc5HBkfPq7qSRKGzk0ohi6LQT2lyT2QW1Rex-o8qIuNsrYTv90YjN3A2xauIK7IkTbO9Nf7zUybzB_gKL5pUBUfFKs5ZFC2HOGlQOgzLBDdLDz7zI-MKP2GJJYyoY-PwnuthQXepl0cwa74sKhBEQk6z2ZPKIlp0YDHI8TYrKNvIA53exlz38JYgoEfGvclPUfDEKcbrdxyydCWFZbany3xcrTFx3R8tSB0zwX3UD80sVxrNl1MF7RJG0m1z3P1M09Z1uM3vditUO4c-NH5CpW6xoXhvlB6pL3O4sqB2hRcPyqHU9grmHUyE0y2JI3nZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.526541+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "oh-hey-cafe-and-bakery-mossel-bay",
+  "name": "Oh ' Hey Cafe and Bakery",
+  "slug": "oh-hey-cafe-and-bakery-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "25 Marsh St, Mossel Bay, 6560, South Africa",
+  "coordinates": {
+    "lat": -34.1826073,
+    "lng": 22.150894299999997
+  },
+  "phone": "",
+  "email": "",
+  "website": "https://www.instagram.com/ohhey.cafe.bakery?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  "google_place_id": "ChIJT8AsDrdr1h0RjV1xwWLrTzM",
+  "google_rating": 3.9,
+  "google_review_count": 108,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bakery",
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Takeaway",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 4:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Artisan bakery and café on Marsh Street serving fresh pastries, coffee, and light meals in a relaxed setting.",
+  "description_long": "Tucked away on Marsh Street in the heart of Mossel Bay, Oh' Hey Cafe and Bakery brings a friendly neighbourhood vibe to the Garden Route. The smell of freshly baked goods greets you at the door, with their display of artisan breads, pastries, and sweet treats drawing locals and visitors alike.\n\nThe café serves honest coffee and light meals throughout the day, making it a popular spot for breakfast or a midday break. Their baked goods are the real draw here – think flaky croissants, rustic loaves, and homemade cakes that change with the seasons. The relaxed atmosphere makes it easy to settle in with a cappuccino and a slice of something sweet.\n\nWhether you're grabbing a quick takeaway or sitting down for a proper breakfast, this little bakery-café offers a warm welcome and genuine hospitality. It's the kind of place that becomes part of your Mossel Bay routine.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJT8AsDrdr1h0RjV1xwWLrTzM/photos/Ab43m-uIa5S3amyklwSyl4W0_4-W_l2pbXf3n9pqyyhgMCdQOuLXnhtri40p5F1qakP1V4Dg5UChaKQYqZZl5csEICsaRrZHa_5walBhMKR9sg3LCMXIcLc9XbocdCM_YRqpHZ6Q-_fNIcIbmLeO8dzEu3km5F-gHOXkAIkeIIlZZvB2BimNG1iVW8EvhaUqLNQZmVzL7M47SQh_FXVCKYeilhg6sXTiq4gr8pi2ncoGbsWPnS8USbdvmU90uaM5blkCVq0pPNhMmDTFB7fhD_PS2ausDvQunF6eLhqWPQebi7fO8FOIkh6onXdsix1HSoWo98lfZzv0-ew-DOPQ2GyRS2r77TnKY15JhFbeYEOyFk1RbBYTIHiNHh4qH3MbAL6UWTjBNYTrCNYSlzDg55fkFcVVduDMPX0e-6NVL3xycCBrwg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJT8AsDrdr1h0RjV1xwWLrTzM/photos/Ab43m-uBAPM5sOil_XPo0dGzjj_pK0jKLH4MMVLgYbOlrD7AKuvgacdZtF7aNaFk9jexD53JHAwY3NBgAsuYUAXGRDqWKuyVnjOBrwLr7cZLKQc6rh7WlweFD7R6Agf0fKzlD047OStakQ2a5PLOnHfn3qSpu22qy-d3N9j9Cwvcm9CH39vvMVAl6clXsR2lmiZmGSq4LNykuDchH4cO7tNz1GYDz3rnmKwfX2ZJ3_1-l_0AkESL4kr6jGhVSWa8vA1N0Zb5afg-HfBTYHMhfbN87N2xtKX6TzekGbUiJycFv1EADg2f8ZGXsxEen7N4ZD8SpMhEuoqTI0wVjE25IdeKpgIg4OjMj4bTHb--KbH5d2dJBMvTHWvtQ9KSu85B4VvJU8nD8lRd0nzxxS3-jb6p9Gxpt425Geolwc61B3aWsUrbsng8_sd7fcyQM7gQ8C0b/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJT8AsDrdr1h0RjV1xwWLrTzM/photos/Ab43m-sasuvpzftXfcn-p1N4yQ4a3iRkmXgnnXQwOli_A-K-1Ep3EhfsE2Zg2YlzWu5g5RQfRZ_ZEO9ucpz1tLjvaqWSvB8XxHMc536dcTsmRzMQr7w-QBdxhBZE5rwGvvxPCjp32CIo5bDj9NpfwYxzhNgyb0_1HbaRhzA30xWB70oXhKqq60Tr88_-oxSKQe26E_9f6hzyvsf9SF9yygTZyPTPBobuwOrjuhuWNK6HOwzWL0kp3G7Cs2itUZFylC1_ICZVOGhMTecpga3y3_y_ku_rYNJH-OUScVUr92Th7Vv-_hNAKph6cxKcsVRu86tQgSTpganNgZAyKBVAnqv6lhiqB0Xg3sFaAJ6IhZGDBKePSm7_WlmQVxMAPrPNuO4VQo_hDZxoHhXYlzRWm5hIwsLj4AXLzde_TBgnOyIrk1EWQtSk/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJT8AsDrdr1h0RjV1xwWLrTzM/photos/Ab43m-sXc7DqBJmwegKMhCztjt2BSKRYGeWrkRKlhbffArgA1f0J-uCXXYrw1at4Lo4R6m_KRmRjW3wIsFmTWS3TUXtWgLs9VCJRAGZCwMVKghwlHzmrE4I65VMIRYt26_VFy8Te4aR5aH2MI7weZLRhUnAxb7K3VF_RWQVa0oM_5lhtcU27SvAkVAm_Q0Jw45T8bWxdotjLRYFOeefnVvO3hXbsxgFOmGyW4wvQTzbLjbfHjcybWbjk9F6AFXtKqa3cMp-FtgyLBI7cq4qeLjCVG7Ni_x8nq3pceWyO4gqaVMb-L8JmWSPHmujudPj-scSvocWmeq2tC0oyW-K3MPKoqfHxq7ES7c40GhB_0f3pyF6ppxyt0MjJHROWquRS161zjmwxyBgMoJyepbS5vhQqPe6EcAsrkZ07yD8PDy3K-xWsWTZm-x8gwsBtvu-f24-n/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJT8AsDrdr1h0RjV1xwWLrTzM/photos/Ab43m-tHoVqvIamUa6Yb1nMuWThutqQxFp__qHBp0NrLtimnZr9EtMyBoOYULmkQMzFjyk75pyejEs5mu3dZxuXkcXE7oSgToZZgwnDh-AoPukzbmkEoxFt4F95q6GbDxkkBWu2yRLagS9ZS0BFY_MNkVaZHbNsJ907aiDW2UJ2XE-yqvE0if6175IUyJoOt1qnpPECAUbAcLX9ezC_plsfC0h6IPrD8acfPjFKXcEJnhnE7AdWN4sFpmoNLEKrCA6rw4fUm8kI3SFdxViUDr6OcUmTPR439VkUqJ5HEQLLq-SkbnjKtiyCV8Zv7iP-bEDyOUvXzkkLe9vHq_nAr5RQtL3j8HOKovIgWBHwYxhoMaCWtLu0C9O0zulNaOKIKTu9YV7RRfaOui-wDyeNJf9JxzXdlW3ZU7IXFKcC1ZqEtZT0toA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:29:50.223258+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

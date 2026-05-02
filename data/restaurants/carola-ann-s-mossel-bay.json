@@ -1,0 +1,72 @@
+{
+  "id": "carola-ann-s-mossel-bay",
+  "name": "Carola Ann's",
+  "slug": "carola-ann-s-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "38 Marsh St, Mossel Bay Central, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1828937,
+    "lng": 22.1477777
+  },
+  "phone": "+27 64 154 6393",
+  "email": "",
+  "website": "https://m.facebook.com/carolaannfoodforlife/",
+  "google_place_id": "ChIJjyZIJ_Zp1h0Rj1djsInoFeU",
+  "google_rating": 4.7,
+  "google_review_count": 902,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Burgers"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:00 AM – 9:30 PM",
+    "wednesday": "8:00 AM – 9:30 PM",
+    "thursday": "8:00 AM – 9:30 PM",
+    "friday": "8:00 AM – 9:30 PM",
+    "saturday": "8:00 AM – 9:30 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Hearty home-style cooking and generous portions in a cosy Marsh Street spot beloved by Mossel Bay locals.",
+  "description_long": "Tucked away on Marsh Street in the heart of Mossel Bay, Carola Ann's has earned a loyal following for its honest, home-style cooking that feels like a meal at a friend's house. The atmosphere is warm and unpretentious, with a menu that focuses on comfort food done well – think generous breakfast plates, satisfying burgers, and daily specials that showcase local flavours.\n\nThe kitchen doesn't try to be fancy, and that's exactly the appeal. Portions are hearty, prices are fair, and the food arrives with the kind of care that keeps locals coming back week after week. Whether you're stopping in for a leisurely breakfast before exploring the Garden Route or grabbing lunch between beach visits, the relaxed vibe makes it easy to settle in.\n\nLocated in Mossel Bay Central, it's a convenient spot for anyone exploring the town's historic centre or heading to the waterfront. The family-run feel and consistent quality have made Carola Ann's a neighbourhood favourite that visitors quickly understand – sometimes the best meals are the simple ones done right.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjyZIJ_Zp1h0Rj1djsInoFeU/photos/Ab43m-tTN16s9uuMQvD2nbI0bIFCSMr6Lyax2iZYZ4sle9SLn1dLrar7ARHju0OBLyOS3jHERutx9ynQcbopk3d3qCWJUyD918OyucZiqnN0urA1heK9CDX2_fOH9MWk6ZFsu-Sx1hV6g8v-Nn5Te0yHNDPkZ8DgqV8pdAPRQSGwmMyMYma9JpIOheC9wvfbfNee8diRZewx6jYDy2N7TwboHR010-1ZGEfe5Gfvf65kkxQuAsItDfUM7_NqQYP5XUwhKTTP5wVt0gDpxsD3Loxs7myirLI3hSbmUJO3xovteMuaXhb1djzDMrRrDaTb8edGAVe5UarHJlJDPUJGm2zsCDDDv63fG3WCh7upa08uhrKl7XEo_-rlyNDY-s4pIhjC29ntga4-xYMY5cWVuPQs5WaJIs6akF_raqPOIJ3hsr8/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjyZIJ_Zp1h0Rj1djsInoFeU/photos/Ab43m-tTcJGzSuabFzNiE-dV7aU-ixR7xMv7ndUVGaUYW3_EwQ3Qrdcn20vtYU7t04aB1uY_rfufwe_FWvPacCnhuDMq0QKOHf1SwkwvvcSKusHNgPqVj6d8AYfYN8R7JGAdt7y4VN11OXXB_GrRZZdqGOOZCW2Wm0nYCkordaejfqVDZRdWFrVUwz4o3MsF7QbFpBFCe20DaWfWE9MKYA3O4WGJ1JuxEGemn2Ayqw6Uvgd8pTey10JgALTiuDDLFeXW2KIzGBg-2BWjonGEZ9N8Jm-m454Z-hFDdra9KG1q3tGRPl49P0_6irW8ZGbhm0VRHll0KFTJdC7SQnEQnqFjanfbJGXhwC17SpHrVQ3FaEL1g37pPI-L-f8CBpSboH4iqZNHWVY44TaQdGFfZmYCB-08x_QgnOAnd80hhhYCKYhzWK4/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjyZIJ_Zp1h0Rj1djsInoFeU/photos/Ab43m-uhfyOGSjAiyhJK7mbhwkiniQZ11jEhOi73_OY2FQNAolYucnm8LZZ8CLmZwQle03sgIlb8ctsTPsub-THPwjvWiCJa23JHc2pmYHqutCpwVSlkom54tSMrbfsEYmOdt8kK9aUYe0D4Yvo4kPIHsj6HY2hOUOv9xTMM_SIv3X84WGrpLjtRjFlXv61aS8e4maDorgvyqINIkDtKnUMgZxmYm40-sJ9MNTBJaU8UApS77jT920odSnb0tiSIg1gRztfDAzBMSUj68dqvwPWB5gu9Lyq2mCt7ftxglW9k7c8lgg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjyZIJ_Zp1h0Rj1djsInoFeU/photos/Ab43m-ukvHmSiOCS9_pel5PgY18_f5YRzMPEsCJ6AwxqX88qafwpxS_r8J14qVsOrs4rJpo5QlnN6Q-zgwktZkbpp8IXKab0bPBOeazLh2RHD3DEPzAmbUD2-x67yFRNlwBpiUKfbbBAX45vOTypOIgqJT_Ikp3ysA4CQhBndcFi-fEEY2Mhnbq2FWXoVbBFCRvXX3FQFOYmTohexFfffE65ukYCJtL-zvQtiLeVTRA7WOSgiPHaNGyQlixrpAmwsslQ9Fvd2jbT8XtiyzzW1Y06HKoeFuaX_JUqygWkCal6vhGJ9UnwSYpu5mJ_BQ55aRllSQdn61V3qY_Uc_9AxJ_o9SqHSkfpSQu43wnFX97nveqGbOktkVZLttIjL_tqiiRAVoGFht7SAaDSXAylnAt0OEvnjimolZeuCv9VXPjTEgGh5Zxosp7dowvLnJNLJOG9/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjyZIJ_Zp1h0Rj1djsInoFeU/photos/Ab43m-uZoNsX3s3OIcNOqG-_fENlMSTSJRD-og7R_RdkAEsT3UVJZjPyLs1nipEJcBTqgR8vuslUONMTqfb87H3JxMAb93Ov5mBwbOl2MRpqs2CxSVSKERpUOBLCd--HMnxW4YPmIl_zbZDF19zuxFT9O_M0up9fgGzqhGaoO6Elg0XxP9wXtqNsUffpv7FUrwBqtodigfemqz597QhbSXIu4YUddaBOPOObJR7F7bAJYzjtkVlG1m_W2oSg6gCGpNecZZDdfX1LemvSXnsdocNwkuoTkJL1ct_wGicUs4lAL86GS-BY79y3kH1m_GSTYBGs-zsfW_wQOsmWCa4BhqJ5hzzGOX_OpuF_13s9hunvRLZLk1Ta9nCKuZMyah8ZlwXdEg2y64E3G_RVwqKD1YKIQZh64-FYnFr2z327d2Tp3bK3OdQg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:26:02.339095+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

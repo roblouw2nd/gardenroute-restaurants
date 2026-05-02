@@ -1,0 +1,74 @@
+{
+  "id": "blend-country-restaurant-pub-knysna",
+  "name": "Blend Country Restaurant & Pub",
+  "slug": "blend-country-restaurant-pub-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "18 George Rex Dr, Hunters Home, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0620829,
+    "lng": 23.0716093
+  },
+  "phone": "+27 44 384 0493",
+  "email": "",
+  "website": "https://www.facebook.com/BlendKnysna/",
+  "google_place_id": "ChIJnVSAKEvqeB4R-tf3LLGjYek",
+  "google_rating": 4.5,
+  "google_review_count": 715,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub",
+    "South African",
+    "Grill"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Groups",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "3:00 – 9:00 PM",
+    "wednesday": "3:00 – 9:00 PM",
+    "thursday": "3:00 – 9:00 PM",
+    "friday": "3:00 – 9:00 PM",
+    "saturday": "3:00 – 9:00 PM",
+    "sunday": "12:00 – 6:00 PM"
+  },
+  "description_short": "Country-style pub serving generous comfort food and local favourites in a relaxed, family-friendly atmosphere.",
+  "description_long": "Tucked away in Hunters Home on George Rex Drive, Blend Country Restaurant & Pub offers the kind of honest, satisfying food that keeps locals coming back. The atmosphere strikes that perfect balance between laid-back pub and proper restaurant, with a warm country vibe that makes everyone feel welcome.\n\nThe menu focuses on hearty classics done well—think generous steaks, proper pub-style burgers, and comforting South African favourites that don't try to be anything they're not. Portions are generous without being over the top, and the prices reflect genuine value for money. The kitchen knows its audience and delivers consistently good food that hits the spot whether you're popping in for a casual lunch or settling in for dinner with friends.\n\nIt's the kind of place where families feel comfortable, the service is friendly without being fussy, and you can relax with a cold beer after a day exploring Knysna. The location in Hunters Home means you're close to the lagoon but away from the tourist hustle, giving it a proper neighbourhood feel that visitors and locals alike appreciate.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnVSAKEvqeB4R-tf3LLGjYek/photos/Ab43m-uOpEIEeYlMipjo2wksrgtTll3BINALCBmCR55F9-uaETa6bTG47N-hLo2pWInJzMDWtysEleFTGD4h97rrebIteCPPPoQbGkIPN1PtpvX-qdkUZ1s54HchYSjZHybnQGhMk_ptcfOv-IZKzi7SP5b4R6ZoyN9JonJWfFesaTq25nTUh-etGylo3UvM90X4JoMJKW2wk--KSRhZ04FLpJhYPq_K0u6EcLTC8u8zFnmbxeWE3TZUui6FIhr9QPDIGOCELL6IDdnIi4ZZCjV-rPRx3bdSkjHQXOR_VABlVlXODcUcsTzFpSQEm4V_h8r5f2OO4eTwEr9AyM2Vv30h6RLu8Hb6_Usq_uJ0gLyiU66PhX9NuHRyjmeqNP8fxuNhd5xLyOfRWhQh2lCMxtGrU2iIeB_xl-IxcOfUJzgRUsBPvFw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnVSAKEvqeB4R-tf3LLGjYek/photos/Ab43m-tgU7NGfI4esSuzbrW7piHxvNqo4nZ2QZu4zUtvmAZycc_7sspcnc2Mb6ELM-UXC2z6jO6VVAEeyjbS5UQsOQs-QhA49EHnBUPk7Fk78jnkyp8078dFjN18D3Y5iEDjBbxDFZNbWrpJ_Hca9XhXdi47CV3xdRtpIxD2hBhaLG-XiviEcI24TtQa0n2ecnU38SWGvvBJoCBCYaSYlB5kbBf7p5AagEjyKBl-pMV_xieCw-92moiwHaAgdZON4tRJjMA8LeUcIoxM7K9Jq1lOX9TO3mBrHg__zGloywBpaZtnGNGCydgpZMpmAVMwrZkrxoWm-uGU1MxCmDHDcILj5mbEjJoJT9B5GwT-iwEngADbd0zlRzwaI8esQRllSTmIe8fnPZ8daSVqWJcrkOUFHliYfR8w7n6TdcPbXJz7Vs8-E1Vn5ZiTfSns9eSVv--y/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnVSAKEvqeB4R-tf3LLGjYek/photos/Ab43m-uY3KKrkCMWBD6qrL8wWozecHrOFQT_YKjzi4QCVJYT3O2u42p996dKSJurRP55c2p6DbMioUYkClfrg0qIYjo17-jBo3zNeq0G0lGWxugC05PLIxPeSSxj7Q2Cvjw9YWa-ySvn_M9SxaoihfIxtY9yxdFzE1gMnUXLqlXR7g8sM559gBV9C6v7IyOB4YO47WMd3Y1PzEwSzS-MBik_za4pazDbp2Vu7PRPTnl8zGrmutDCRz2-iEOWyh94RbmP87bc5oRMGLSLUHcNHvFGPOuf-WSknaw29q_JSFzTsGu9--gPNHKbkWxkt7Xq1DG-ex7HEXQD_LBLgUOE7RChdc-TpaOiHBIqhhzaBIc-zxmQOe3101ekIDlQsQJXUBJ98wIeW-wOW_r-9RV8Kb2ivpg2gFiO5JT9OCJM1RNZN-RgcNWM7xFTh9W7sGWiiQjh/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnVSAKEvqeB4R-tf3LLGjYek/photos/Ab43m-upliSkVSNytS9hGf80GVzWUVkVR9qKfQ69lti6BmANO6cGi4lqSveLgexEtKl87FIl-AN36TQ164_PkI44D38-DBGf1iTvNc7Thvxx9p9uyZZg4_aVtbCQgICogkw5r35kByFjj_35rF7v-N21tvpTE66Yfb7TxToQ0-uBOajSh366yBeoFs0f7-KJW2wFtQ_IKn6effygrtv1PWNegQa3hhbf8LCRasBSqnt8TwNa-vcH7LKXEQQWvOU8riXFkrq84xKPNmzX2QzcsUi3KEkjMCMabgWfehcJGrn69lEz22K1V383Poem__J261gPKkNH7lSl_ZnJOcVIr6ZCEJILUn8VZbeaG_f5Dn55JEsOQvDs_-iYLavdqb6NBfqo-I8Eq_PDLafOh8_3exLPN1uTaWtqR2yRwLv5mbADDfFXh6c/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnVSAKEvqeB4R-tf3LLGjYek/photos/Ab43m-uuzR0CBB32E3Q6BgkbBhlAu-Dx_RJ1KUObPY3ldXb9rcGEe6S378Ckljw_vbIvYBNLHOasJNC9_-I_YmgxvDNm6NXPBRlHd0DnOjdycJgGLFSgXICZLAzrUfjrkOXTjFSFFhglbf94vVLOvVFaa6UCwCxidvpxemdLetG6nZFRahxqBaDFCHMwIFJ9ES_RKb6bS_9nB4OSndk8KKiKbMeRNqCquuOrw9YweC1xM6BuA_6yV-lAno7lhYABx5wlJjkE_GTNFJBs6uoh__5ffBhge4Du7rurZb5ngSEfWPvAy-itpGSS3W4UOX6n1YfumFEF3psiD9RhU7czrgYOVQ41r99m0-1rfZN69Ths-ZAYc7fIWMiTtEbBtxOwCHKlNad8QBuw9bwaronKltL2-lTlcD-mNY6MS98ZIPToEY6EMy45/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.528929+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

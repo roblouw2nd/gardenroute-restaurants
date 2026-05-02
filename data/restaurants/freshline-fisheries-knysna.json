@@ -1,0 +1,72 @@
+{
+  "id": "freshline-fisheries-knysna",
+  "name": "Freshline Fisheries",
+  "slug": "freshline-fisheries-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Railway Siding Dockyard Cnr Long & Waterfront Drive (Behind Tait Marine, Knysna Central, Knysna, 6570, South Africa",
+  "coordinates": {
+    "lat": -34.0413561,
+    "lng": 23.049142900000003
+  },
+  "phone": "+27 44 382 3131",
+  "email": "",
+  "website": "http://freshlinefisheries.co.za/",
+  "google_place_id": "ChIJpXGv-1_qeB4Rs5bYuOrcrUo",
+  "google_rating": 4.5,
+  "google_review_count": 1013,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Waterfront",
+    "Takeaway",
+    "Child-friendly",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "11:30 AM – 9:00 PM",
+    "tuesday": "11:30 AM – 9:00 PM",
+    "wednesday": "11:30 AM – 9:00 PM",
+    "thursday": "11:30 AM – 9:00 PM",
+    "friday": "11:30 AM – 9:00 PM",
+    "saturday": "11:30 AM – 9:00 PM",
+    "sunday": "11:30 AM – 9:00 PM"
+  },
+  "description_short": "Working fisheries and market serving fresh seafood straight from Knysna's dockyard with harbour views.",
+  "description_long": "Tucked behind Tait Marine in Knysna's working dockyard, Freshline Fisheries is where locals come for the freshest catch on the Garden Route. This is a genuine fisheries and market first, restaurant second—meaning what's on your plate was likely swimming in Knysna waters that morning. The setting is refreshingly unpretentious: industrial harbour views, working boats, and the honest smell of the sea.\n\nThe menu leans into simplicity, letting quality seafood speak for itself. Line fish, calamari, prawns, and oysters are prepared without fuss—grilled, fried, or served raw. Portions are generous and prices reflect the fact you're buying direct from the source. It's popular with families and anyone who prefers their seafood without the fine-dining markup.\n\nThe location on the Railway Siding Dockyard gives you a front-row seat to Knysna's fishing industry. It's not polished or trendy, but if you want authentic, affordable seafood in a proper working harbour, this is it.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJpXGv-1_qeB4Rs5bYuOrcrUo/photos/Ab43m-uf4yZuDZgrCdYrY1WL09IiIRPHTewQrLurxBjPtixOzVeIudYQj0IZTU_LoHhBTUUDCnHr9_h2Sjzi9BNbLwtrkHJUXnBplsNpH_Li0eyDBmxxdW1PTrS7e-AACflIv51-pFnrg7Rg2leE--En4VMv8gwY1s4XBPaH8cy-kvFzRw5ts3Lm2fHD7n2d3d7bHu7NRLdFl32reShZ5CyGsC4LKBzuyxTxAZnZ6Um_89RvcZzAvHMm2S-5HJzMowaDdyqZcvMpLcwXarleaFGucxCbUlj_5aiVwb_gV-6Gl7I/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJpXGv-1_qeB4Rs5bYuOrcrUo/photos/Ab43m-vt6K57bPWjfnMcQ3GhX8rZ1pw3Ki0LNqC6CrTzD6hFSXwO_DYLjEsz2vfPNoFm6FO-af-_k2ZYpN4gW7hObe6eDVet9VrduaDhFjPmb2b6de5LwARRahhRbcgNVYNuh4tq8uaGnx5vYibwJEx_NwGaIoxmGdq0A17dTGACO6mGg3jOUIk_6GDJvGdASKTGQ7N1DOicEKjzS84ThrP20rQGG-Dc0mIdYBYGoIiAHSSm2murO-a3rkWV02Kz-t92qvTFPFcxZ-QjXz6mrLALAEYXmJV8Fs1M_t5_YPj3iN8/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJpXGv-1_qeB4Rs5bYuOrcrUo/photos/Ab43m-sseiyFrK3ujVU5oY6RudzIzl3Y9sN5jgIW_xL-kQV920d-v7vHZSCsbWUolITZyNj6cmhHAWb8z-CFfz3wRhJdUgTng1TE0LtqPH0nPZMVzMbVnaE40P7PGQrZyTcNdOVe3jv6VC4FYyZVyMHRbe4AAN6Z2M25OJQdv96Rvb4Ss_BZJPp1SuXAThrPLVtquKykdrLcQqhmL_mrHfN9PfZ5LdwHENjBgMC2TrV1Qgop53AfUqXpPh6BDVPXN6iMU6iczxsVbokE0s30Y0vyjfqXpjpyGHKTGfCLXlFVjJ1SZmYs8TdLYK0vaxWguF07jbq1VAOQsRsp8AoqkGRsCr7DVUgnwxlBMOya3zFrDSXafZRoPoligPkxkxdv4HXkhtUnEg7MHsonccCtCI4-tQ4Vup5eIDz3u0XlqHvVd_n80egBq52OOlwQ3IJ77i6B/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJpXGv-1_qeB4Rs5bYuOrcrUo/photos/Ab43m-vUzmgu7RvU9RYLdyq465BvEiJ2p56HsX4jpaad9jPwfLfbssN23DZ3nOQCEtciLnF7pQtxd00tRh3g7Db7X6MU405vJ6sEYZdZfNytOjJmXFtZRHQ4R2JDFsY9ZUbkYJAnqUXNqvFe4EeU4dksHDuExEsEqSJICs0UOMngeKMD90eJohcK_7FZzr5gCZsqdGQ37WgVLuM1IdnKDf71YLKwBvYUySDUIMHjRq1E-69qVAiJf6eEQ0dn0sVgfiLCzWyF-XQQy062LupI7x-9zKJ1kBtASGQ8U3lVrXQ70CoBSCE9f0qHcQmPxlhMVliH3w_qlRtZMBmjL_w3U7wzv8Yfb7Kb_os1CRlJRtB2LgDw-MRXiwuOK-xFUhyl5fyvJ_GzL-1Ikpy6htvMB0WBZL129WIAIiWlNXc7HxVcSEkNf6OkH_P3bwmRBSNgwEO2/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJpXGv-1_qeB4Rs5bYuOrcrUo/photos/Ab43m-vWFJ8jivA23vZpIY_jZOdVLkY5G5O9Dv-tDoiS35BuOpKh0h4oPLR4x1dLdLbvm7CznOAWJzIeyT8lombWC7IpXYuqUrd8ezTNvjBCiEIn-Bm9aI1-rw2Ls8Dn7SKoNFjAkurfos3HN8Lhj_E51RsOoc_Accr0ffEPilyT9yf32nu8LAPtIA8hZGo2LR4H8GSkEBKC_golBBd9PZRdalDhuic6PdcnYMZcwmvTSRvnpd5Tg0UjRbCtTA_3YkTxCXP4nfEgAY8zWPC0n6kv_gsqRcuiNnUwS3J1dOVM4G9m-4L422h_5dRqX_xG5lpQ22hxkx2AhZzq49IUtxQowLgZ_xSvperw0CZ7v_JF2USvhz1odsbU36ZtS875tkZRpMpVMu4tjqBRT_QbIfuffDfjTbNyiH3ZZQjD7pvCpqfGXM_zymcNvfZw7J-z7kEG/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.529891+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

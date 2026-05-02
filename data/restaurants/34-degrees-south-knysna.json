@@ -1,0 +1,76 @@
+{
+  "id": "34-degrees-south-knysna",
+  "name": "34 Degrees South",
+  "slug": "34-degrees-south-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Shop 19 Knysna Waterfront, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.041450499999996,
+    "lng": 23.0454425
+  },
+  "phone": "+27 44 382 7331",
+  "email": "",
+  "website": "http://www.34south.biz/",
+  "google_place_id": "ChIJhTyDPYvqeB4RJhTbBImva9I",
+  "google_rating": 4.4,
+  "google_review_count": 4740,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Breakfast",
+    "Cafe"
+  ],
+  "tags": [
+    "Waterfront",
+    "Ocean views",
+    "Family-friendly",
+    "Child-friendly",
+    "Outdoor seating",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 10:00 PM",
+    "tuesday": "8:30 AM – 10:00 PM",
+    "wednesday": "8:30 AM – 10:00 PM",
+    "thursday": "8:30 AM – 10:00 PM",
+    "friday": "8:30 AM – 10:00 PM",
+    "saturday": "8:30 AM – 10:00 PM",
+    "sunday": "8:30 AM – 10:00 PM"
+  },
+  "description_short": "Waterfront restaurant and deli serving fresh seafood, hearty breakfasts, and Knysna's famous oysters with lagoon views.",
+  "description_long": "Perched on the Knysna Waterfront, 34 Degrees South combines a seafood restaurant, deli, and market in one lively space overlooking the lagoon. The menu celebrates local catches with grilled linefish, prawns, and their signature Knysna oysters served fresh or grilled with garlic butter. Beyond seafood, you'll find generous breakfasts, wood-fired pizzas, and deli platters perfect for sharing.\n\nThe atmosphere strikes a balance between casual and refined—wooden tables, nautical touches, and floor-to-ceiling windows framing views of bobbing yachts and the Heads in the distance. Families settle in for lazy Sunday lunches while couples linger over sundowners and platters. The attached deli stocks local wines, artisan goods, and picnic supplies if you're exploring the Garden Route.\n\nService is efficient and the kitchen handles crowds well, making it a reliable choice whether you're after a quick bite or a proper sit-down meal. The waterfront location means you're steps from the lagoon boardwalk and Knysna's shops, ideal for tucking in before or after exploring the town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhTyDPYvqeB4RJhTbBImva9I/photos/Ab43m-ubbBzobmTfW8f48fXOGEcR4bBBRYt2HaEyTZes_dQILfxYH0XRHe1GTrtHZQCYslP9c_234YFfHzYWebt4cbdl59CoztgkDGcaM7X4EbEIDbK_cFh24d5QdGNOTLQ4GxL0QCtrzrSyCzfAJC3tFDRHpEsr9F4sk-umLfqh1gu08A5T6FuIHANTyjePqlHakupCL2x-_gxeK8mAEO36_hpg1fWzZ5qjKt_g82dQXRIvN8Eoq3yndd4Pa_rRIntiMauztwvI2odZ2NCm31l4v6AFo00zdaN8TycGWCyuz9QJAw0GUgpn-otwU0qb1Ze1Yg2SRTGqDccgOfb6OsSAayJndy2fZP-As0y7yurrGeFMXIWfZyqjLVcku8gZwJV5zQYY0pOWDov4gfqe4bGCu47XWA_x3Fcsy3_BNx591ly_jUhz/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhTyDPYvqeB4RJhTbBImva9I/photos/Ab43m-uOIkK_l5MPCjwpj-4_1zpBiNMaNYnpIc576x3AvsPBHx0zehTvwl8ZzRyT3Bnqtvu5eFYejvVm9K4IrtyWb4MAXZup95i32l5ar-BtZy-1243yNH6R4ylcDTJwuQ6Vfc68iWDJA59BP01c02lJL0thVX71dr8j-VHaDGxjZ0-svaAtP7GAMZ-JTG3Qh1kYvRi9sOuRvkbiZ2VyiFyGrvLZr0xN8nDkWsc0RmpR0Su94vmA1DAyK-ptERvw3B5O-sU0K8Qv4DqLjqeZClbTGLvAJfhG8XC5o5ffCR07_ox-Vw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhTyDPYvqeB4RJhTbBImva9I/photos/Ab43m-v_N0i2tmPYRAY4YHgF1m3-A0qBWdmf_wrvKcyzvutO5M3CARvI_L6Rc-ZDwrHiGkpyGy7rUYjCcfdC89CcPB7JaoNlf1nvot45Mp6V9jI8aj2u_i8wEMClJzEIcYXs9473YkZ_6HDpZkY17nIV5VtMyCVsiIuvzpPLZBmENZW6Df_vWwtkCrth5R6oLH7iJBx6n72oe1md4yQQVns-GKSgz0QFQuiSFhl8MdDtqEhrG7mxU29kAulI1il7t6WzttPZaSejtni8ZfjHzEPF0zeBtODf79Q_cwlwN53wLvDroRI665xHtGp3XRV0vBaFN-2uVg7Gie4PepNKO643NUIbWwsvD-I0h4dWyBzZHiGsxBmWEGsAcPI39lKhVLdmg5MMIT1e5N3J0w_YHF3vKuBnCHZUB5mX_bVQ86V_ArQcSwJtoXoAV_FoGnTKj2no/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhTyDPYvqeB4RJhTbBImva9I/photos/Ab43m-t9jxZ0Pl3YFB3ISjjK_LVQzIMG-aF1vOP_qxRUqvsPAGNokkhRV0fnw-re80_JGj2KcSptJ5RU1_N0i0uB16K55Uck_9XQVdWejE356RnrJsjS1CqeDJp2SFKYUA_ha4IDL9OU_syH6cH3Em8TjB2LMsg-Ijn3ZlU7SDNn_mcGJSpsFWALJhm1ICYC53Sn2tH_LLCV8yYl9TLsi0XSBjFtQ4q4ofRfjhoNrG02xdnODotjQyYeCnzRJVsq195NKhPOm4WwkFNMAEgmw3mZ3tZyBGNkUcAHeYuyZ2l2tBpOlw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhTyDPYvqeB4RJhTbBImva9I/photos/Ab43m-sixbqPuS-OqeFFRk2Kko9I_K0CpFUxc_oKtPXezdHQCO14k1pcdm4G3ioeZG9UIOv6YoHbcBdIQreS8FZhYqr-L4AJSHx39Ht3ScSi3HhKEDQiFpVGc6fZfO40YQEqSIX8Jz4Nnd3HHvNJ-0d7vA2ddpe8Q53UJz0VCdYz9tQhvsOnFglaAL5R5mnmytjx_fTwtLMrG3kFX4cfKq_0dviVOGboBVohgTrVZAV4rOPYN4vOvsYp30-hmZ-F1h5cBdvIVHgGsJ_Hh8PZWKIafRB3FdF8x8HOi5iC-AWK2RJBgZ_Ljl7YSlQq-PBdmmbteMSGOJTjZU2BtgKkQJoVTTNy1aEPuBOUwDNPsa5-8SWNUrXF1QvJM6O3JSiin0oYQ2m_dQ2cgikKrZy6il2WaCIFIRwideqwBxhVMqBUeZ3xzRovaiBg0X-9_vccRg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.526129+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

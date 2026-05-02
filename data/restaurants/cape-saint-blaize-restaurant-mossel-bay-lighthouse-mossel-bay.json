@@ -1,0 +1,73 @@
+{
+  "id": "cape-saint-blaize-restaurant-mossel-bay-lighthouse-mossel-bay",
+  "name": "Cape Saint Blaize Restaurant - Mossel Bay Lighthouse",
+  "slug": "cape-saint-blaize-restaurant-mossel-bay-lighthouse-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "2 Montagu St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1860487,
+    "lng": 22.1565458
+  },
+  "phone": "+27 72 138 3911",
+  "email": "",
+  "website": "https://www.stblaize.co.za/",
+  "google_place_id": "ChIJP5mte7Zr1h0RTOerDyf01x0",
+  "google_rating": 4,
+  "google_review_count": 198,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Ocean views",
+    "Sea views",
+    "Outdoor seating",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 4:30 PM",
+    "tuesday": "8:30 AM – 4:30 PM",
+    "wednesday": "8:30 AM – 4:30 PM",
+    "thursday": "8:30 AM – 4:30 PM",
+    "friday": "8:30 AM – 4:30 PM",
+    "saturday": "8:30 AM – 4:30 PM",
+    "sunday": "8:30 AM – 4:30 PM"
+  },
+  "description_short": "Historic lighthouse café serving breakfast and lunch with sweeping ocean views over the Mossel Bay coastline.",
+  "description_long": "Perched at the iconic Cape St. Blaize Lighthouse, this charming café offers one of the most spectacular settings along the Garden Route. The location alone—overlooking the meeting point of the Indian and Atlantic oceans—makes it worth the visit, but the kitchen delivers honest café fare that complements the experience perfectly.\n\nThe menu focuses on hearty breakfasts, fresh salads, and satisfying lunch options that cater to hikers completing the St. Blaize Trail and tourists exploring the Point. Think proper toasted sandwiches, homemade baked goods, and barista coffee served with a side of uninterrupted sea views. The outdoor seating area is the main attraction here, especially on clear days when whales breach in the bay below.\n\nIt's a straightforward spot that doesn't try to be more than it is—a well-positioned café making the most of an extraordinary location. Perfect for a post-walk breakfast or a leisurely lunch break while exploring Mossel Bay's historical lighthouse precinct.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP5mte7Zr1h0RTOerDyf01x0/photos/Ab43m-uUyq29FrknF6cyEGIQR7HDJOqiKItpMc5cYt2UDV7YXUU6Kk2Kd9KsxjFSmC3tvQAs0ScpzPUGfk4P0Np-eHG8ZUz7koMjTxPiAkJ7xzJCR1-FV1LAF30VnlwFnUDDBx8RMo_3gySTZmeSh4lSSLclYizw2RRq9yQvgKZqEgD4cT5shJFWAeygge5Q_-1XYv5wj8tVBEoInG1zMemUTCAYYzlXhKM33XQ4D2b76JIvrHN5Wq_HewAlgmgdtKnR_wHLv1NmqPEMyTJ4GKtHv2kIBPn6v55TVTf5ENWbbPC8kgQmfUuaedUha7ldXjVzQ56sFjU9oCgWnI_Tmvii5a8fcZuIqCNznzt_63xqgi1qAyA6JxeK441DF7fEprNqn9YSokitgfZSsqYgEsenHHbeF3uflBYbHlHJ0UAJKeGJEKo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP5mte7Zr1h0RTOerDyf01x0/photos/Ab43m-vZzIrGtLYs_kXIl6Ntk9EwAx64vOO9QGS5tvWEKoHPNMwEyOnqUBVWNLP698KpZyyvMeI54WoENKLzFfytZSD9pFvjz4wbw_gwwH3K-V2pg_yO3pJM6X6Miq3VWDoGc0D4krQ_pfXtFr8MW7kzATpYdQJx8Awn1xeO1OxhoVcLhZL5leez66QStmxOQPXT5thkk_HMWc1LGATzCVOFuBN4mKVIwi2_v6nVOT6x-rOjWHRxpHXc_nO4miiVNk7Lk-uyTP3d8gAMYilq8JwtliyXrDm5q0HThI5CmlJ753XFSg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP5mte7Zr1h0RTOerDyf01x0/photos/Ab43m-vEfWd_gDDovoIvK9YWLoICjs3wLn9_MDTaaxw_CfS-_a3RBGOtdkpm2mqqQbqBDv0w6ttc6e3y-YlRs-ZpRzut1S-JtreY-rv0eMesljyi0JqIVHqnNnYC1nc2oiIFKV5RaZaf0R91iBrdlmzoDUBxOaQXthyx84UULbSzL8tl-lKLdD3pkhQdYNQKs21M53hGFISlDNCqG17HefWErzUpbhSHPPqzTbKb6G3bP0Lvygf5BmiZEsr7O1I7vAIDAGb7h4YHkneg3a7zWNcEK45xP61IjXcnKmMNGUWz0bQAIJEDBbbYQ-miqPTgZ0Q2JZwhuOb6GVJuxu145HktSFL6LZy9iHgB_a8cPIupucGpxEBEILHeB_cGICeTnGtPMyR3zdpYenKi2CGn34oEC0KsrdnErG8f3UxAyrFUPlRiA9LhewL3kL7zd7ZJ_7g1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP5mte7Zr1h0RTOerDyf01x0/photos/Ab43m-srmNORCz0s4VA42-7r3TJU2AMooFs04kKhKEkGl2SM5qknTyx_NTRnV5SW66ZQsFHPrxPokhqfTtf0HK3AM_JaE7TV9etSx5JVEXFgQbnxH-mXu6xm8j_G_DIzXdmsMmkd8uvqW41xOCNWlRcFy_vt8NfASUqNs_JQnsqfEHsLp__kfBFWsg4YFigfXBwgKDBNYmEVUzVc35UK_tHvMDt2Lyihmm1YY8agfUKBoN8zw6J9lYRV4jIfcEXAIHl4uaKbYNCxCgTxOBQpAYAzjYZKmLe6kr4N3VvE8y2NSm1pCg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP5mte7Zr1h0RTOerDyf01x0/photos/Ab43m-vGIrNmeobGWRwQQL4KCXS7JQvsikEoKz7QTHnobxY_S2MNiXQzOtv13sID4MP4FZw1RPBF3HA06gVMgx1BMMdFJkT0ro_zcOTfQehqg8zaRz5saOS7kCgJTadKQq3A7I-buHgshqiNQmMulw3o889W4cYIWmX4hASs0Du3AT7s7x5VoylSdx8zqqMO6_a8CEpw6JaJ4vim290Oq_wqYl36NtNPFqhpQl3U8thnuFEBuoHvvQHanJztFwHacci81F5ShWoXXacqrhWptmUlZfGMs_YGzcR_hJ3rwlKPy-oyFNL-WJu2BF7OZvEwQecTd5-GyIoHGVmQycPcwI3hFhOITVoprVTBVhx_buxdD6y2sGet_Hrts0DTDJdktoSfFSLexG7knmJARRdLUgx3BSlSNV0S9_2tVYOBEBVX98XVula6Ga-kgtG322khQnQI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:26:32.088445+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

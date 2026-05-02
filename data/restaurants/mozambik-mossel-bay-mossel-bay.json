@@ -1,0 +1,76 @@
+{
+  "id": "mozambik-mossel-bay-mossel-bay",
+  "name": "Mozambik Mossel Bay",
+  "slug": "mozambik-mossel-bay-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Quay 4, Church St, Harbour, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.179370999999996,
+    "lng": 22.1410725
+  },
+  "phone": "+27 63 984 7800",
+  "email": "",
+  "website": "https://www.mozambik.co.za/",
+  "google_place_id": "ChIJD2V_kWxr1h0RM4sFLAHKXCA",
+  "google_rating": 4.2,
+  "google_review_count": 455,
+  "price_level": 2,
+  "cuisine_types": [
+    "African",
+    "Seafood",
+    "Grill"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Groups",
+    "Ocean views",
+    "Outdoor seating",
+    "Takeaway",
+    "Waterfront"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:30 PM",
+    "tuesday": "11:00 AM – 9:30 PM",
+    "wednesday": "11:00 AM – 9:30 PM",
+    "thursday": "11:00 AM – 9:30 PM",
+    "friday": "11:00 AM – 9:30 PM",
+    "saturday": "11:00 AM – 9:30 PM",
+    "sunday": "11:00 AM – 9:30 PM"
+  },
+  "description_short": "Vibrant harbour-side spot serving flame-grilled peri-peri chicken and Mozambican-style seafood with ocean views.",
+  "description_long": "Perched on Quay 4 in Mossel Bay's working harbour, Mozambik brings bold Portuguese-African flavours to the Garden Route coastline. The open kitchen sends out generous platters of flame-grilled espetadas, prawns drenched in peri-peri butter, and their signature chicken basted in varying heat levels. Wooden tables and colourful decor create a relaxed, family-friendly vibe that works as well for a quick lunch as it does for a sundowner session.\n\nThe harbour location means you're dining with views of fishing boats and the occasional seal popping up between the quays. Their seafood platter is a solid choice for sharing, piled with line fish, calamari, and prawns, while the trinchado—cubed rump in a rich sauce—satisfies meat lovers. Service keeps pace even when the deck fills up on weekends.\n\nIt's the kind of place where you linger over a second beer, the kids are welcome, and nobody minds if things get a bit messy with the peri-peri sauce. Takeaway is available if you'd rather enjoy your meal on the nearby beach, and the location puts you within walking distance of the Point and the harbour's other attractions.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJD2V_kWxr1h0RM4sFLAHKXCA/photos/Ab43m-unxBllYelFtfZbD7_oBMVi_uNZduQnhWnCcE1998qIfDaCZCOVFJydMGf7fee9Juoc0yLb-DtR5Hq5ZJ7Ntc9oC1n1QWXUXi2xQajw5ab1XWCFyGoCsFZdAYy5mbcUV8SnGGvg4UtBmftwB8Nfe4-LkLiFylJHn5QgJHzxueTRadj-DuWw1-JrwoGRpizgHeq_qgQ0TUeuZ_FJIXvZlPy3nFBElThyawN5qnMxHx_C99uLmP5wqmhQX6Os0tWcrLYFM9cECVcmCIostJQK7hOeViEtvf9I6TyHa1okPvK9_R5L00DlRhNpbCHetHrmwbV5yeBYOQBdiI-99M1PNt50EdPn4OkY0AY14if5NxUa3rgH6X6ETXgg4HS3JB7OSWUikUBaqwP7qSxagQ56GIzpM_Jb5RHleNjNp40jYAH-eA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJD2V_kWxr1h0RM4sFLAHKXCA/photos/Ab43m-vwkbScjDY8d_A3dcOf6fdQuGq9RT9AUUASZSwNJiobiU5wJvKdKR1rcezbX21OG9Sx2hkzYVF2CXhFpJXKLsyf1z0HY0XAeLbwt4Rx_aS81naJOT5cI7STxjy7BBV7FWG2-mPmMl0qsCT0mzRjiLRjNvSK5hD3rBwLewIoy-FpGFYVt3ntyJIypmYWyo7lVXRIEqXgWymKj6Dd3jEie8sHoe-BXITwUpN5acgLydlS1jFngdilVlGTKt0wVGFEU-WXOgdJAjugQyA7kKG6qDBsnIw1gFdPiQBXl-QrIQdZSGW2JL_nfLacw1QCuXO42CMn9nQzshCx4vRetonNyhyyc93zDoSERDDQXTmK6NC5JbexAbWhQ2ZrjtuCuckzP899i09INfIdj5L-y_2UoGUt1rXhjqsdcp9nf46VyuT4xa-uXH0rN815vVUoYQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJD2V_kWxr1h0RM4sFLAHKXCA/photos/Ab43m-tWp_krT9o76xRbyO8kb-4qaxY9ufDxVOHogbathEfHDs4aO9RyNJlRfECUTWSn_NuxkDUClT4hLW1lTpt7vZCcXtnfICIeAi2Fi3Q9X2f3A2A54bKETInpOEL42DJGfgHQbWXvHFEd2uiDm2cOx-4gxiolAcyzrsH4OJobNouliQhkMnMCzfJ6iAbhh-c3GIZiO6YLzkmKVmHTTpb7BIYQH28STil_G6STcfsjcpv4lOTZEHBQKYOR8fuIILbjh2NGDnt_c1oIiaV8ic65I--lkubN-HNNyw8VlTDJCFI_6A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJD2V_kWxr1h0RM4sFLAHKXCA/photos/Ab43m-vP6TG1J4pZ4Hwp4nmRIvGUYhtZ6eAubWRf_Cy19gPHe4AMyDS984KuKVQuzvvUr0JUXLghIS5OmAECQ3rHYVcS2D7-aGF0P2Hit15gIESKDxRdcoyuB8CI9A3tH0o_l_IzOYGHZ8x_iSnxESkgStsJTFEMuNbkHoO0m_Fyow-bsAMex7xJSN_lUuR35WlzrDC_t_UulztG9UHVNl8J7fDkZSBqGxIklF9e5JQfubVz1tGspEQB29giK0K9LJO4-i8I-XR0xCPU-9EEVSp0JaLgI-TIYhVJ05Cal_X3ntGBGt6Kl8kjQ36sJnQxxA8UkeREk6A7u-UqWbzWYNMa-4b1nkri5rlW8CQ4xqNw1GJTMgMh7IkgRh4vvtDZ0Lh_MnxaESb6TMuIegKIh8LBKUi7CHkISKVRC0AmtAXsaP2gUz5TkFZ5Xuscep7PdykR/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJD2V_kWxr1h0RM4sFLAHKXCA/photos/Ab43m-tAs7aYCVTPFpRRYS2fZnaDRkQyBTXuE6b9Gjg9RKyOurI16a0zuNjVhCKhwMgTYGGZuRTwdq2pc7BU1Tde4_WwnU-n-O5n1p8PcmS6xvff1vZYbN8YGd3da4a8SKBUTrHEV3Py4pBVlwsWdUBlamA8jidzA49MXKe0dsNQjRLEDoaN0l9tb3nHM4AU7nbiBRhnyUq08LVoNvPc6pVvUV6NOr17gtjjT8bSxci-PLRkaFJLHp0Mynr1BeDz5DakGAV9RukNA5eeBnAZBVkrWLhg9Lrj66_KqtG7aGLf9rib6xAHSYfR_Pnh6g8FNZ3040TyYXeh8aWCOXX9CAvnfhjiYElwd0n3AzCtX15XR5STo0UzW_IDuv0xKbMOA96PmYSiVeiICUMDfpbASs6fGaisLGrIER7YDT7JQ4i7VVtiDTfEeD2D6x-A6asxng/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:25:37.322414+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

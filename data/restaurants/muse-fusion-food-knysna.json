@@ -1,0 +1,71 @@
+{
+  "id": "muse-fusion-food-knysna",
+  "name": "MUSE Fusion Food",
+  "slug": "muse-fusion-food-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "152A Old Cape Rd, Paradise, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0364383,
+    "lng": 23.027217399999998
+  },
+  "phone": "+27 44 382 0804",
+  "email": "",
+  "website": "http://musefood.co.za/",
+  "google_place_id": "ChIJYROYopfqeB4Rw5uOFfjcngc",
+  "google_rating": 4.6,
+  "google_review_count": 590,
+  "price_level": 2,
+  "cuisine_types": [
+    "Asian",
+    "Mediterranean"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "1:00 – 10:00 PM",
+    "wednesday": "1:00 – 10:00 PM",
+    "thursday": "1:00 – 10:00 PM",
+    "friday": "1:00 – 10:00 PM",
+    "saturday": "1:00 – 10:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Contemporary fusion cuisine blending global flavors in Knysna's Paradise, with creative dishes and relaxed atmosphere.",
+  "description_long": "MUSE Fusion Food brings creative global flavors to Knysna's Paradise area, where contemporary fusion cuisine meets warm South African hospitality. The menu showcases inventive dishes that blend Asian, Mediterranean, and local influences, all prepared with care and presented with flair.\n\nThe relaxed yet stylish atmosphere makes it equally suited for casual lunches and celebratory dinners. Standout dishes reflect the restaurant's adventurous approach to fusion cooking, while maintaining respect for quality ingredients and bold flavors. The venue's welcoming vibe draws both locals and visitors looking for something beyond traditional fare.\n\nLocated on Old Cape Road in Paradise, MUSE offers good value for creative cooking that punches above its weight. With consistently high ratings from hundreds of diners, it's become a dependable choice for those seeking interesting food without the formality of fine dining.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROYopfqeB4Rw5uOFfjcngc/photos/Ab43m-soTER66XePCmw4cSTBAVQnm-Ie1ee-ik_9Jt9rN_7m_moErnGKOqG5sgrF7WEVvt89M84ALz77ngkeymr3-2UQlQxm8h4AwgItBqIB65RStRavkDESQTctXqsUdZiz0I2UGt-4byb156q4SP7O4Y77uIDH_B7wwWh3MvHPtebQfztDkcGXNPR3UwJrME8Zttb40joQ5dwEeBleOngDNtkHuWK023HgLHbNkfAHJsLamgWYsiLmrDOx0r8cw5JdGLIGtoBpODmIlt7ufjQe1q79wWi-WAlxnyqoRcKLbreaRA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROYopfqeB4Rw5uOFfjcngc/photos/Ab43m-uhn1f-29dKI9GdeSJj9wSHjvMuvnC0iefM85MI-FBmjA-_xAWZxJQ95XIwh1ZsahATxRkshji92Lak81k9SfcKPNZvV7HIv13zjLVP-M4eM3Z9OD2AVbSlLEQ-mZ76YwsqLQe_S3ZLNskjnqqTyDj5oVFeAUsIUT_IZyP7EglgTkcfeOKFm9-vesfe4kAzd403lk8pqf5RGAFkjjHPNA7Ln5YwhkI6RUMIT_NuHhOibPGuzsxCQqzDiHzRSerJGlD2B849a6q9QE8235p0VCHD_y7V1OIUPt3Tk4S0Vn8KzQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROYopfqeB4Rw5uOFfjcngc/photos/Ab43m-tuK3po-oWairrITYUe1NoU9HtaHBdXh46iL8xxGrb_a5Va9h0Z0tJTq0xChwWnoh_5AMd3Ib1OVPtlICfhjKbUWLGwzs0guQAou2rofDKnLZfAImAND70Le6sKRZpvWHeLk-J_8TPMPEFPwLBhenHPhxelt5m01yykYLX7n22lTxqTtpTOAcNbbPgwXTaPtvaoWwA5c0p7LFIKSQM0B3FNcM4RZPKmg52eYToXUHJuHNWuLeFsmZMlGKS-EM6Ji-92zmnKyuRNJpNfG_3EaXGlrdGXKAoGZ3KtOyOFtyzhRM6bdEw5rh3Lo-kAWt98OXXhDrV4tlqw0Y4RZZMHcjCt8hRy0fMzcDl_XE2vluOg1eBNeoZBMx3jFyQa31wzFv7pDmDO75b4IbSaEHfrYG7mHYbs3XfVXlku62_V3Pg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROYopfqeB4Rw5uOFfjcngc/photos/Ab43m-tDN9IUIUIcAlFGXJhqG5wDQ9Y_ijYoZSGqXd-hwjOC4hBKdajB8Do9NO8L6mMlX2wOEqp122SER7xoUoE62dihcCUnyJg3VVJ49xGHHIHb0r2h-oBU4rYgjvEECTNtYmksGdM4Eg9C7NFr6KhL2TP8bUgy9DrjgTCvy5WOi7cHFcvoV4cU8MsThBUIs5Lmu_5e1YNQ1vOHAf7sBn86j3RsDn3_DstD-XUb00CJX_ay4foTkbsDix2Gw84iGqrW3bojl8eUxsDdUOh35KzQYAyYPb5NeAMXS19L-_lVFHFxKOUfXrbmOyu1pk3hNRZjNNlG6BCB0d7w4B96bjlaWPDfRbPE3NpnRI_ajKq1WhZaDabxEI0LS1ScUwili_AHmkAzavDprcPwke35Jcn7_fWXM6JiZpLxslgHVivmdeRekeY/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROYopfqeB4Rw5uOFfjcngc/photos/Ab43m-uTo3YkFzh5bfFz1fIg6uwfZU28_djffs2venZhzVVv88Ja7twcR8EF04okMuvO6HdjD4dhd6xnSestTf65jMx4QmCltFXPbpJuyZ8pMImShptLZO_XbbKSwjHTjVv-fuZFTxbRANtaI3sO_pQ6J_kpHozNZZLb-3rur7PO-W5xKbRFCYOU2vreq3gr9LwBGpz_I6NDEjC8A_QQLn8SYgbmBNBdbQotbGSCFOfpApzL0BI0IaatTpf8DwUKBOMQ735NQ6OrFNEcrivGs3hq50kRuzgnQ33YhivLzNNfx0zbL5fhG3qI_sA6YqJmlSA0aTM3UJ1OyF_F4Rzb5Doi47lqJF_w5hS_25kpDtVPjFn-f-oRounH1MJphqJ5qu2wSgTc1FLYggWvi4HwQ_8BzUslwp2d5SzTnBE6ZHB3wt87gQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.534227+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

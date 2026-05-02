@@ -1,0 +1,74 @@
+{
+  "id": "the-farm-knysna",
+  "name": "The Farm",
+  "slug": "the-farm-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Old Cape Rd, Simola Hill, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.014375099999995,
+    "lng": 23.0326323
+  },
+  "phone": "+27 60 528 9232",
+  "email": "",
+  "website": "https://m.facebook.com/thefarmknysna/",
+  "google_place_id": "ChIJ2WGC6iTAeB4RQlJhiP7tp9E",
+  "google_rating": 4.6,
+  "google_review_count": 356,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Bakery"
+  ],
+  "tags": [
+    "Garden seating",
+    "Outdoor seating",
+    "Takeaway",
+    "Child-friendly",
+    "Family-friendly"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:30 AM – 2:00 PM",
+    "wednesday": "8:30 AM – 2:00 PM",
+    "thursday": "8:30 AM – 2:00 PM",
+    "friday": "8:30 AM – 2:00 PM",
+    "saturday": "8:30 AM – 2:00 PM",
+    "sunday": "8:30 AM – 2:00 PM"
+  },
+  "description_short": "Farm-fresh café in Simola Hill serving wholesome breakfasts, artisan coffee, and homemade treats with garden charm.",
+  "description_long": "Tucked away on Old Cape Road in the peaceful Simola Hill area, The Farm brings genuine farm-to-table dining to Knysna. This charming café and food store has built a loyal following with its commitment to fresh, wholesome ingredients and a relaxed country atmosphere that feels worlds away from the busy town centre.\n\nThe menu focuses on hearty breakfasts and light lunches made with care – think farm-fresh eggs, homemade breads, and seasonal produce that changes with what's available. Their artisan coffee pairs perfectly with freshly baked goods, and the attached food store stocks local preserves, pantry staples, and take-home treats. It's the kind of place where locals pop in for their morning flat white and stay for a proper farm breakfast.\n\nWith its hillside setting and garden seating, The Farm offers a peaceful retreat whether you're starting your day or taking a midday break. The welcoming vibe makes it equally suited to solo visits with a good book or relaxed catch-ups with friends. A gem for those who appreciate honest, unfussy food in a beautiful setting.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2WGC6iTAeB4RQlJhiP7tp9E/photos/Ab43m-uMDLCrqOWfomA8v_FTPXEcqXXOXOseiomviHb9VnxkwSkYxhjRO5LrHAe2VEApgG4frj8bCTdtvYD6NICQ2Ties3wxoPV8hC9K72717OmLeOFsnO9gCTf68zxPAKjtWX1d6C4GZxVVXfkwEa-2j0ScQqEAZs1r2uH1KtvgCMsYQwG4q3-lORr5elfN5kwTS-F4bIMMWPNOw5ddOJtlGgk4oqTsdnchsKBrxUzPdVnujWTA1TY5A_0ssZdN1KaLYkIGh125l2NIpN9pjyiPfHEy_HzGyMsuP6xm8IF2yNZxmhniOvre8R6ZaI7sENXe3L96_gYs4OLmTfBQI743ZDk9V3zOqkRlzSmZzCFmN4s6AKRwyz0-twsPpYTbZEKb4ktC3GqcKBic5M3ucMyliiJZLa4kAynNqN8YE1adT0j2a4vhv3ZW0-IVxymMzy46/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2WGC6iTAeB4RQlJhiP7tp9E/photos/Ab43m-vOp-lP5GvaYGpJhVfwa3PCzOp37kwnksJJ5_ziRQEanPfpCwSFPjHNef4tEvRdUkbe7tw8blnTRDoZDoqNu4Eu3B32ECvUQ5W78SrhvX6ph6iMD-cgVG0-C4glrvP6y4HRbUOIUsAHIpAWsYd6romuWh2qTqiWpMAHk2uHloeTa7wkz7o5rgEgdBAtec_dt_B35MFQOQ8q1AalbKYYAoaeincLI5yOWcOZIPCNTiD7tQq4mMQ0XqV_RNVytQ0rqraunvnNiruhbbv7lrY7D_HY-z0KNoKnQUU2IsgMk2cxwQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2WGC6iTAeB4RQlJhiP7tp9E/photos/Ab43m-tpHMvCfsz7BmN-998z9__gZn2CHpZafU0IJmseb3u1zMsFBK7PURtPTgTf8b81TY3rs47GXnQGytmszoWklqrUHYjeyECqe01TOkCJrRZmR9z2JInkBzxpi9P-cHbh1o_aVnUTt7xZboQKXbiEpS3IxiBtcmcDGdm4FC0DaSexdZfbmuuUMLf2mf-ib7yIrPCD7GC8_jp5CAvm6oWtVTK-t1n5Kxn3p_1h6HfeuLgHuQKUMskUj7mAyIPj8bwAzs7xM2mEgmxrpE2XaXlw4SVyH0TkNjKJcgqtVBNZ82bXaA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2WGC6iTAeB4RQlJhiP7tp9E/photos/Ab43m-tCQuhab9A-UvF3xgUIWipt8RqE0jRZRHuVig-xNVtCYeOQj5fR87O49Zg37oK08uEfA3dkTgrzlFuwUkdjwEG0RTHlhAtxjiqE2Y1ua3j7EpQmNdCXhY8GyBUsy4nXOcLPCNbRwCLHXznF7OBbqWjCyWbWJ9UuzdHDyFXm6Ec-WXNIVOhE8Camf3K-3DvyzhDeJA_cR54gqkzHf0jmQ88HQOYlcKiJiNSc6AvPZ_fkkfE6B18HwoTajlAscn2Bgo08E6S4NtGJegFFzsy7tahp_y4CJSiKgKtWIWjzWXxFdg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2WGC6iTAeB4RQlJhiP7tp9E/photos/Ab43m-sMMCZH8TY10dnQlbF3mMmutOVMLjwEdzvlB7nHn5FH6R8_jgAbKGhx9a95x9G6rVYyCtXNBzBzO7ubmXIZlMwYA8LcC6Tu7vS8xUfOUAGE8ADjQrHtGtimEtPGa0wadkpLQagkUZZKtt4X7wUPBjZ86P0nREGb-6sEXL8RObSgwvnY3u-MDh_n1rOJjza13JYlKzUevDikYItklLpAaAHf-UmNf8bj-NgnKudbSnFLpyK15xEvGosj-aa9AE_7t8BT7IXoOz01qvcM0xww94ZKkl_EFGeox8zOwCM05twb3lpy_WVddh3EYRsxTWZvSMDfVQac48S85XwlNQ2jlPsLlZ_uiZlv8lOU1V5hz-up7L2AdpV6_WuVhqeoyt-oWB0yqTnuk5wzZSFHpkFb2VSRmcwPwd9Yb81KouL8SzH9KsCKUBzcFQEHr5DFM6C8/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.537566+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

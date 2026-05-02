@@ -1,0 +1,71 @@
+{
+  "id": "african-bean-cafe-knysna",
+  "name": "African Bean Cafe",
+  "slug": "african-bean-cafe-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "29 Main Rd, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0354183,
+    "lng": 23.0475554
+  },
+  "phone": "+27 44 382 2845",
+  "email": "",
+  "website": "https://www.facebook.com/africanbeancoffeeshop",
+  "google_place_id": "ChIJvWNdkonqeB4Rk65mN8PZNT8",
+  "google_rating": 4.6,
+  "google_review_count": 439,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Takeaway",
+    "Child-friendly",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "7:30 AM – 4:00 PM",
+    "tuesday": "7:30 AM – 4:00 PM",
+    "wednesday": "7:30 AM – 4:00 PM",
+    "thursday": "7:30 AM – 4:00 PM",
+    "friday": "7:30 AM – 4:00 PM",
+    "saturday": "8:00 AM – 2:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Cosy Main Road café serving hearty breakfasts, fresh coffee, and all-day comfort food in central Knysna.",
+  "description_long": "Tucked along Knysna's bustling Main Road, African Bean Cafe has built a loyal following for its reliably good coffee and generous breakfast plates. The atmosphere is relaxed and welcoming, with wooden tables and a neighbourhood vibe that appeals equally to locals catching up over flat whites and visitors needing fuel before exploring the lagoon.\n\nThe menu covers café classics done well—think fluffy scrambled eggs, stacked pancakes, toasted sandwiches, and decent burgers. Portions are satisfying without being excessive, and the coffee is consistently well-pulled. It's the kind of spot where you can settle in with a laptop or linger over a late breakfast without feeling rushed.\n\nConveniently located in the heart of Knysna Central, it's an easy stop whether you're staying nearby or passing through. The service is friendly and unpretentious, making it a solid everyday option when you want something wholesome without the fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJvWNdkonqeB4Rk65mN8PZNT8/photos/Ab43m-vdASe4rKwqu4cKATxuNi7Wfrp94T_X8Qo9JF-ySFZ7zwU81DJYSQFDgdPq27sB-gEphKQjgI5HMiFr0FoAOskNbvTsDEaCm7ICwiHhx6iyiMC1heuE7BaAWBaUlMRZNVrUdgG_awTnmN9_03lIn7k8iWeglEPhKmIPweYZQ1aFMwTN0Kmdd6L_eQjYuHt9kxa0MyLa3pcJhH6DoqwHrTUAIvjZ3j6bUslZ0s_dXxsoxzTozAk9ub1KVavQV3uw7hr7CpSKHuPB8-5Fmrbdi_DD7T7YFWz8diyLv2IF3TEBNw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJvWNdkonqeB4Rk65mN8PZNT8/photos/Ab43m-tiIWIFzXZP66IM5dfpa8EslzZJ_yTPB0jfB2ArPopSXcdtDuO5osF6i0fn28INnclE5RhbfYa0wIeGgZprOGEocSA3sp2LKo2cNFmjoq_Ba8-WcwswwAAR2wZ1drt5hyMK3mE_H1Uy9rUIGjKuqitB8bcftPNWzRF_wlxEScf5rumRZ5KlgyYbzNcmHUWeqO97FiPGLW8GxvN3T0zOfoBreCE11-lQ6KuSTccZ03wBi_TNssa3whkS_7zeCLw6wtUXOeYDAUDLG9r02ICKwto0muD-ruW4LD4ms9tn4cQQ0A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJvWNdkonqeB4Rk65mN8PZNT8/photos/Ab43m-s3dVzorIcnaiOABZxs9rYgUuDxrN5pR0Q1_z4QxMOcMExnblFyXypTriAofopXaLHj4GN91PLVzcRwQ4jdu0Eet-u1kfX2midQ-k8x2zDyW_j6Lx-U4Ms03X2PT6qFhabnGWr48aBnYmOJ3pvKe2N-98cP2KPW_GN0pzj2HSAINV-st1cnQv9VF2nHQGP1KwY3yBLHxxc9KjJC3zu9mBbQHSVnixgUn6X7PnxTGZxQ3u-V-XAKfpXaZYGoaJRjslLFA3KWxpToP0m7h6BFMKZczNWzUNsXcaFSaVYPHa6pi7Ow9CBpCcXv43MAo9ymAB0gLnmFGR40WlyO3rMlCn8Yxx6yVOKY8BjK1EFsumqqjGU4ipKElsygV5ZXWurEvEK36sled6xK3dXspXf-Yl12sHB0TVTPJr9xuFNl29HBDr_3pDx6lDKzrk3y4g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJvWNdkonqeB4Rk65mN8PZNT8/photos/Ab43m-v_KSDPx4gX4M0t9Vm8NnYJJXhZd3C9rMNbNLysK0lR15PpUwbZLr4NJc7rud25XtGedh8oXG4OA6MmeqPYCofkUqsio__cNfnmmNQDzDbZyjfbp3__m6Q1IRf1Ym5vOO5NO8ULqLvQ2AUtOOd4wq3-TblZlrbAL4Ba12QFS6CeOY7Doo7iMUYjf_tCFIb7Dj9DPEmdLxbTBj74kSVUHqow4Ygqwfoi89pWbRWFXTGclE_kSkGkLVLlpewld_NjRIk2nDhN7PyC4agWggqJKQQxbu_mw2X7rCFtGJ2pJVgHVw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJvWNdkonqeB4Rk65mN8PZNT8/photos/Ab43m-vuB5P9x05zyv_sJPiyZB-gynE0yOrqjUjlQLqaGFVYB0qHqbSiiimVKDEpeOVKTNGvL6I4lFjCskrupOjO3zujBwx79VqPAKn48Enjff237z8X9sRsrPcLxZ5P6ewFlrRh9YVoI-0OJmD3GTEGyURDiAteSrVIcBvvaXOkJlRUrx1woImm77cI8mm_P0gzyBUQAYIwwJ0skW1viZBPedfvi3MSvedU1nmgn5ZQpirx-zfBW7taEKvLBXBNeQ2xqnV2fPCSeH7XxQi5BSvHUK32GkuKdGtkvqt521JKkUKCebOfJcEweoK3OTaNFm7nX4_KhUg42b335pe0Rson-Zv4ckTZrxjxc2ygcyP5NWt_uqlL89MlrtpnVMs996tUaKWvHS2-v9TLu5Rmi4QJOnbPEzUO34GVCagK6M36RMsMMWaB7zy-LOzehvR5Vo9-/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.536605+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

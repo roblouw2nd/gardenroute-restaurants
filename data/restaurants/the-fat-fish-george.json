@@ -1,0 +1,72 @@
+{
+  "id": "the-fat-fish-george",
+  "name": "The Fat Fish",
+  "slug": "the-fat-fish-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "124A York St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9568119,
+    "lng": 22.459627299999998
+  },
+  "phone": "+27 44 874 7803",
+  "email": "",
+  "website": "http://www.thefatfish.co.za/",
+  "google_place_id": "ChIJi-ayyDAF1h0Rnicw3oKMEFI",
+  "google_rating": 4.5,
+  "google_review_count": 1566,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Sushi"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 9:00 PM",
+    "tuesday": "12:00 – 9:00 PM",
+    "wednesday": "12:00 – 9:00 PM",
+    "thursday": "12:00 – 9:00 PM",
+    "friday": "12:00 – 9:00 PM",
+    "saturday": "12:00 – 9:00 PM",
+    "sunday": "12:00 – 9:00 PM"
+  },
+  "description_short": "George's go-to spot for fresh seafood and generous portions in a relaxed, family-friendly setting.",
+  "description_long": "Tucked into York Street in George Central, The Fat Fish has built a loyal following over the years for doing seafood simply and well. The atmosphere is casual and welcoming, with a buzz that picks up at lunch and dinner as locals and visitors settle in for platters piled high with calamari, linefish, and prawns. There's nothing fussy here — just honest cooking that lets the seafood speak for itself.\n\nThe menu covers all the classics, from grilled hake and chips to seafood pasta and sushi platters. Portions are generous without being wasteful, and the kitchen strikes a good balance between familiar favourites and daily specials that change with what's fresh. The vibe is relaxed enough for a midweek family meal but polished enough that it doesn't feel like a canteen.\n\nLocated in the heart of George, it's an easy stop whether you're passing through or based in town. The service is friendly and efficient, and there's a comfortable energy that makes it easy to linger. If you're after dependable seafood without the coastal markup, The Fat Fish delivers exactly that.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi-ayyDAF1h0Rnicw3oKMEFI/photos/Ab43m-uizy6dqxT-irL79sOgnVFboFHaQCezPJxzjUlSoBM1Pivvp1QlJmVOALf6JouDNzuwXXMco_UkSXz0DHImHKAam59YGGe2RXVCmR9_Omu8QO7xK171nJcOnpkzZb34c11liae-ibVjmnYeqUUugQZXuxUjVwWGq5ORWZWWL3nPiGn5KOGbCg-PIRM9BRcu7V26N6R2AjAyaFZ83JQyZbkviw2NxBXAd1g7T4siAogn6Z9yEqioAH5rGSGKwMD9Q5QLpsN8N1Dev1Tksqvc1ZXY40poqS4B8a5LiZb3NopYRg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi-ayyDAF1h0Rnicw3oKMEFI/photos/Ab43m-tD0Pw9rI17pJM5lRdfFGWTgD_UUSwetS_oKGnTN_YD4zuRAA1241rOfKFxUhTe62uFoXS4iFQjLjORlUzsq1Mv365_7k2p4UuDS46HCCKLQj_w1zBSJ9jk1la4dOtBk50zrXfXEu2I3YFg7qOZmMxM15Mtaxnj7fRz0byDeJjL7YEXuT_iZomS_6CLVW-ChMCZjOuzVke226DMfNeuqK1iJjb1lK3-TeBZOOrYgeu7bPaP19sehTHpHD5BhW7_1rTPjUhZDqFRy1StDwcx2gKI889SImVzXA13GC0q-fxfEw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi-ayyDAF1h0Rnicw3oKMEFI/photos/Ab43m-srKKClTwdqd-0fh9lWIETN15XnB_XJ1TBN8zWAf9HciQrf7bzC3_sSK5CDOQbTfoIk6O_S6i0Pzbaz8obuK7JeQzp6EQABgZ560KhC-6j5Mqtdp6RVzHqAw2FhAW8lxj9PfJ7bGIN6VHIOLYcaiN4EEvmnidQFqXnOQkC1qNIRc09hmtF82PRsbTIbu6oCoIx8T21S7JtwqEkVd0fFvT2VAhQBxNzYHnBc6TiwSTIZpQcY76cKX6bU137QGbSaVv-OlM5L46v-MhsrtM69mbHAudEElCtQTpbEnnYPBO_etfHeUaIi1ckSBxvGJEu2LSrpTMP-TefwnyVVoRgic2RyThC_4eIwPsxo4yqw7Dv_aK-o9pTiQ5GhArZ17RiTjwQuDWI5dBMgmtaJfGrs1R1hird8nhXYwA2FJJNNYBNSxSZx_NDR81w2LRlBxQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi-ayyDAF1h0Rnicw3oKMEFI/photos/Ab43m-vCE3bliOArFGbXBJ-FHT7m5q2ySRk8T_tKyOqTo4-J1gNLaBpXhSubG92wU1lkiQNdFChoGPCEc4cXf2jdm33neRXRPlSGfVuGZ2DvLNdX_UcfAROxK2Ml34HDIksEnDaOi1aArhpVIV_DdZTikSRoJCkbe_bq7PVewhFuUJps0OIeV_HCJ-4dDIcUc6JLociUNv9_9wh8CpNZICqxYzYwWJL_82OYq8OXkCshQaUr8Ka-CZBaf36BQO2vDhzOfWLmy3vb0yYkXIdV2ZtsjBnSCriUL0Pe2Z4M8ts0uoRDkw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi-ayyDAF1h0Rnicw3oKMEFI/photos/Ab43m-uDPc7zrNANgTW-nZTIs9HWL5vWfH-Ag3P20x0kLu5McEOg8nvZLMHC3GWePYR9SyC75ODz1THNdsCMVhew7cvZymlebsFsuC9jWMffO7zP2zlZncuamexuBupQtkSv4SiOw6UoZp72KArgVqvM7fE_jETDA36TLX4L0cu-johMHi9kjjLaOifr_PxMqXMWTTfZzmoJ5v0JWje3ecubkDwAQ7kyYJ1kNtpmqckmMx0EkEajjH-o6m9lhcT6C-oqqnKp-QE1HPa8bR1t1iZ6n9qW_70hxj38OxS6ZBZCuPLi_MhaFp1dS2TS9pKGNknSKMWwa-45PqjdQl1Vjlat3kfqp4l0qmTMh2TkBUfu7khOo5HHgyd_Dw-dh64VC2E_xpoLmMBMH1vzFMjTsz5KGlR6oGSRlY-jzNs-9a86lk3VEygCOcFw8dH3pjLIGar9/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:30:59.279785+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

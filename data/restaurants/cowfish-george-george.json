@@ -1,0 +1,73 @@
+{
+  "id": "cowfish-george-george",
+  "name": "Cowfish George",
+  "slug": "cowfish-george-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "CNR Saint George's and Park Road, Outeniqua Shopping Centre, Outeniqua St, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.979945799999996,
+    "lng": 22.4935332
+  },
+  "phone": "+27 44 868 0336",
+  "email": "",
+  "website": "https://cow-fish.co.za/",
+  "google_place_id": "ChIJAah55gwF1h0RKb_sYSCX8tE",
+  "google_rating": 4.5,
+  "google_review_count": 185,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Grill",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 10:00 PM",
+    "tuesday": "12:00 – 10:00 PM",
+    "wednesday": "12:00 – 10:00 PM",
+    "thursday": "12:00 – 10:00 PM",
+    "friday": "12:00 – 10:00 PM",
+    "saturday": "12:00 – 10:00 PM",
+    "sunday": "12:00 – 8:00 PM"
+  },
+  "description_short": "Fresh seafood and quality steaks in a relaxed family-friendly setting at Outeniqua Shopping Centre.",
+  "description_long": "Tucked into the Outeniqua Shopping Centre, Cowfish George brings together the best of land and sea with a menu that lives up to its name. The atmosphere is casual and welcoming, making it an easy choice for families, couples, or anyone craving a proper meal without the fuss.\n\nThe seafood is consistently fresh—think grilled linefish, prawns, and calamari done simply and well—while the steaks hold their own for those who prefer something from the pasture. Portions are generous, prices are fair, and the service keeps things running smoothly. It's the kind of place where you can settle in for a relaxed lunch or dinner without overthinking it.\n\nConveniently located with ample parking, Cowfish is a solid local spot that delivers quality food in a no-nonsense environment. Whether you're a George regular or just passing through the Garden Route, it's worth a visit.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAah55gwF1h0RKb_sYSCX8tE/photos/Ab43m-tJ1UAOZ14y4bo6bn6MxaqfN4Jxt4WGVC1eU2NAOWYPPIynUYBYSvtZM1cPIR1fzFoABDbJyzFBbSTA-RvNONpo1LFwD-JafPBDLNvJ8UhIar-H_Egp8QIbtLk26AxWJpwjbB2Gr_VhzcssPjzQgkaBKRvtdIO2OKa1oXGH2KhPBqjyDlwpRuD3g4Dc0ae2d0ir0Wg_bNXQzdM6wmP7kTIDvz5xf8VzH3NggCy24WuJHYyGy7LMsfWjiqIehdcxGEEhqfEXA-BmQFSimKuyOBWu-H-I6G6VxAucWCUu5hqxCDc7EYfU-szbijfugX-577EGB1zwxqkQjZWtl4I7B3gDcRjn5FMFUdff9p4qo6sYkbrUhMDljGuanG7xy1f0k85BrqGuv6Fn6ny7PCkXZtzbBmVOg2GzDwgZota3lPxi4g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAah55gwF1h0RKb_sYSCX8tE/photos/Ab43m-sgTQ62VoiSYw7COnAIiE4O9SXcwE3NbQmj5bxIBvQ3J3xdoICZZs9uME2tpFVbAzodrbKhIwtKxRr2X35UrsV_QvbKUeupOXLePDApDQtku7wJJLq66cju_xhtaW2kcwTRr7zIwPDMfNSf842IKjgos7Bmt-mj0qWrMtP4QK3CbNbVpis4Ur0FuBpK6y8OzzGGVXI8JEjKY_3ELvV9GGv7vK3q3XtmysQDHgibT7cjcQ6puED-lJP-0TWWWJvxGxV6b5u24sLPrHSE2cos6LYz1F_tNC3JezFk_3mubpkcYxQ2A8YOch-w7w-axX2jaiNKLPConcSd9Iv6zsi1ycqT51AnFQGPogRLMi4Z1_bikWeW-gBCqR0ObMNxvL30EhU6QEt2ldqrMWRaQt04yHKOYDgjgGG0zS7QJBA8CWhKFeav/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAah55gwF1h0RKb_sYSCX8tE/photos/Ab43m-tI0sMqLakbH7-gAD2CHZc2FWyxtP5ok7VbUnqJhjnxbieWIVO_GMQtBpjexIgo2P5Q2afeTOdNy2zYN6i9cjLyJo0DUL_jcW0KRuVoddGyQ0cyNFUhg1Z2YpGMCzYfxps4oClnn0pvvg17R7dZZw9dzWEvEzonLEoAm3ouqM7ZaE_3Mzsi-1HpnUM-y9myVrXJhv8_iZwCjFpP-1IWHErZF_Yx8iLflM598SzexsA5UC-vAWV-vWldABkDNmPI8E_J6ELVv3cscGf_2aJTrWOPK7td4WPC_j5pZ9as1_qCO2YQBC6cciSGbgcTy8GhuKIwBXs-D3rEB8Nl6xGtXwp-Ce6kBaZKk9WtWotL6l31RIonFFsZhRtsQHU6ZOydr73V1OU9_6-t4g7WFSSBOtR6Vr4gM-4yP_vp-5t3B20-h8dBfbL0bKF6uk7SJPMi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAah55gwF1h0RKb_sYSCX8tE/photos/Ab43m-vL2r3xl-DeEkSljyZPlHQRe2JscRVQt-czooqht7X-CQt_MWx8M7pw1V3DeItgkahJbNmER3c_nv1c-cBpLGhaUaO9wnqEeSMSPGtzWTpWDK0YTRbjWurjtbrMJsi_NzVFdHAhmW567BGSHcJf3D3OKMHUzwhrRI1mqs8rm3-RgIPxcwyHYzNn-1WbLSRUZL5gQVWlihRMZCHlUa51Hmlw-vMXffJ7tBhHc1oRCan8gjoSDVw-1G2V0KzklWGowdCp8eRb8QZ9PpcIKohSZH8_YBmfVbcVdpYwkbDcSpnr3Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAah55gwF1h0RKb_sYSCX8tE/photos/Ab43m-sio67VN0F5VfpvXjD8mqZt7Jp5rO7niPkEolwDoOb8Z-x087lrOcifsxZy-TeH5KUpuplKPKjXOLkXRokGmjf3Gc-NF0eSfOWFI2t0Te0tYsQKjrFsvRGCRO6p68NisGrSmvuCRyMSvEUtOmoAtFD0LB3KLP3SMq6cGHPtgMoTn5NFWbLQw7T-_goZv2E3MPl6NSRuuLbaQ3wn3w0sk1pTZYeBXhVAjUqq9myp5-tWocGBfRKhI9TM-sUkNceW2dDzmDNlhBkwYd_kFhSNacrHOB328GNPZ7z9hvd6UQLPkZa6wqis_GKbLIMsydFr0izhxGTOFAEmjKloPINKZstESUI3Zl7_YesHzydiKpidMzsMzmoHM0jgyqKEDOkQZyng-QHVXnsNny9UWEfJ0E4rYyo-0GBPYVdoxHJ_pFA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:31:06.909140+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}
