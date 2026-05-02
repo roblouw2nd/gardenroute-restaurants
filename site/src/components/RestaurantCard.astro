@@ -1,0 +1,49 @@
+---
+const { restaurant, featured = false } = Astro.props;
+const { name, slug, town, cuisine_types = [], price_level, google_rating, google_review_count, photos = [], description_short } = restaurant;
+
+const photo = photos[0]?.url || `https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80`;
+const cuisine = cuisine_types[0] || 'Restaurant';
+const price = ['', 'R', 'RR', 'RRR', 'RRRR'][price_level] || 'RR';
+const fullStars = Math.floor(google_rating);
+const stars = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);
+---
+
+<a href={`/${slug}`} class="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-200 no-underline text-gray-900">
+  <!-- Photo -->
+  <div class="relative h-48 overflow-hidden bg-gray-100">
+    <img
+      src={photo}
+      alt={name}
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+      loading="lazy"
+    />
+    {featured && (
+      <span class="absolute top-3 left-3 bg-amber-400 text-amber-900 text-xs font-semibold px-2 py-1 rounded-full">
+        ✦ Editor's pick
+      </span>
+    )}
+  </div>
+
+  <!-- Info -->
+  <div class="p-4">
+    <div class="flex items-start justify-between gap-2 mb-1">
+      <h3 class="font-semibold text-base leading-tight">{name}</h3>
+      <span class="text-xs text-gray-500 whitespace-nowrap pt-0.5">{price}</span>
+    </div>
+
+    <p class="text-sm text-gray-500 mb-2">{cuisine} · {town}</p>
+
+    {description_short && (
+      <p class="text-sm text-gray-600 line-clamp-2 mb-3">{description_short}</p>
+    )}
+
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-1.5">
+        <span class="stars text-sm">{stars}</span>
+        <span class="text-sm font-medium">{google_rating}</span>
+        <span class="text-xs text-gray-400">({google_review_count})</span>
+      </div>
+    </div>
+  </div>
+</a>

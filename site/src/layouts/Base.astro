@@ -1,0 +1,91 @@
+---
+const {
+  title = 'Garden Route Restaurants — Find the Best Restaurants on the Garden Route',
+  description = 'Discover the best restaurants on the Garden Route, South Africa. Browse restaurants in Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay and more — with ratings, menus, hours and contact info.',
+  image = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80',
+  type = 'website',
+  schema = null,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const siteName = 'Garden Route Restaurants';
+const siteUrl = 'https://gardenroute-restaurants.co.za';
+---
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="author" content="Garden Route Restaurants" />
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content={type} />
+  <meta property="og:site_name" content={siteName} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={image} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:locale" content="en_ZA" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={image} />
+
+  <!-- Geo targeting — Garden Route, South Africa -->
+  <meta name="geo.region" content="ZA-WC" />
+  <meta name="geo.placename" content="Garden Route, Western Cape, South Africa" />
+  <meta name="geo.position" content="-33.9766;22.4573" />
+  <meta name="ICBM" content="-33.9766, 22.4573" />
+
+  <!-- GEO / AI search hints -->
+  <meta name="keywords" content="Garden Route restaurants, restaurants Knysna, restaurants Plettenberg Bay, restaurants Wilderness, restaurants George, restaurants Mossel Bay, Garden Route dining, South Africa restaurants, Western Cape restaurants" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Structured data (JSON-LD) -->
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+
+  <!-- Sitewide WebSite schema with SearchAction for Google Sitelinks Search -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": siteName,
+    "url": siteUrl,
+    "description": "The most complete restaurant directory for the Garden Route, South Africa.",
+    "inLanguage": "en-ZA",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${siteUrl}/browse?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  })} />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;0,9..144,900;1,9..144,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; }
+    .stars { color: #f59e0b; letter-spacing: -1px; }
+  </style>
+</head>
+<body class="bg-cream font-sans text-gray-900 antialiased">
+  <slot />
+</body>
+</html>

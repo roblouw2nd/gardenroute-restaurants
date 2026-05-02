@@ -1,0 +1,27 @@
+---
+const { dark = false } = Astro.props;
+const textClass = dark ? 'text-white' : 'text-gray-700';
+const logoClass = dark ? 'text-white' : 'text-ocean-600';
+---
+<nav class={`flex items-center justify-between px-6 py-4 ${dark ? 'absolute top-0 left-0 right-0 z-10' : 'border-b border-gray-100 bg-white'}`}>
+  <a href="/" class={`flex items-center gap-2 font-semibold text-lg no-underline ${logoClass}`}>
+    <span>🌊</span>
+    <span>gardenroute</span>
+  </a>
+
+  <div class={`hidden md:flex items-center gap-8 text-sm font-medium ${textClass}`}>
+    <a href="/browse" class="hover:text-ocean-600 transition-colors no-underline">Browse</a>
+    <a href="/towns" class="hover:text-ocean-600 transition-colors no-underline">Towns</a>
+    <a href="/about" class="hover:text-ocean-600 transition-colors no-underline">About</a>
+  </div>
+
+  <div class="flex items-center gap-3">
+    <a href="/browse" class={`hidden md:block text-sm font-medium px-4 py-2 rounded-full border transition-colors no-underline
+      ${dark ? 'border-white/40 text-white hover:bg-white/10' : 'border-gray-200 text-gray-700 hover:border-gray-300'}`}>
+      Add restaurant
+    </a>
+    <a href="/browse" class="text-sm font-medium px-4 py-2 rounded-full bg-ocean-600 text-white hover:bg-ocean-700 transition-colors no-underline">
+      Browse all
+    </a>
+  </div>
+</nav>

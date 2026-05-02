@@ -1,0 +1,182 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import { loadRestaurants, getUniqueTowns, getUniqueCuisines, priceLabel } from '../lib/restaurants.js';
+
+const restaurants = loadRestaurants();
+const towns = getUniqueTowns(restaurants);
+const cuisines = getUniqueCuisines(restaurants);
+
+// Embed data as JSON for client-side filtering
+const data = JSON.stringify(restaurants.map(r => ({
+  slug: r.slug,
+  name: r.name,
+  town: r.town,
+  cuisine_types: r.cuisine_types || [],
+  price_level: r.price_level || 2,
+  google_rating: r.google_rating || 0,
+  google_review_count: r.google_review_count || 0,
+  description_short: r.description_short || '',
+  featured: r.featured || false,
+  photos: r.photos || [],
+})));
+---
+
+<Base title="Browse Restaurants — Garden Route">
+  <Nav />
+
+  <div class="max-w-7xl mx-auto px-6 py-8">
+
+    <!-- Filter bar -->
+    <div class="flex flex-wrap items-center gap-3 mb-8 pb-6 border-b border-gray-100">
+      <!-- Town -->
+      <select id="filter-town" class="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium bg-white focus:outline-none focus:border-ocean-400 cursor-pointer">
+        <option value="">All towns</option>
+        {towns.map(t => <option value={t}>{t}</option>)}
+      </select>
+
+      <!-- Cuisine -->
+      <select id="filter-cuisine" class="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium bg-white focus:outline-none focus:border-ocean-400 cursor-pointer">
+        <option value="">All cuisines</option>
+        {cuisines.map(c => <option value={c}>{c}</option>)}
+      </select>
+
+      <!-- Price -->
+      <select id="filter-price" class="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium bg-white focus:outline-none focus:border-ocean-400 cursor-pointer">
+        <option value="">Any price</option>
+        <option value="1">R (Budget)</option>
+        <option value="2">RR (Mid-range)</option>
+        <option value="3">RRR (Upmarket)</option>
+        <option value="4">RRRR (Fine dining)</option>
+      </select>
+
+      <!-- Search -->
+      <div class="relative flex-1 min-w-48">
+        <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm">🔍</span>
+        <input
+          id="filter-search"
+          type="text"
+          placeholder="Search restaurants…"
+          class="w-full pl-9 pr-4 py-2 rounded-full border border-gray-200 text-sm focus:outline-none focus:border-ocean-400"
+        />
+      </div>
+
+      <!-- Sort -->
+      <select id="filter-sort" class="px-4 py-2 rounded-full border border-gray-200 text-sm font-medium bg-white focus:outline-none focus:border-ocean-400 cursor-pointer ml-auto">
+        <option value="rating">Top rated</option>
+        <option value="reviews">Most reviewed</option>
+        <option value="name">A–Z</option>
+      </select>
+    </div>
+
+    <!-- Count -->
+    <p id="result-count" class="text-sm text-gray-500 mb-6">
+      {restaurants.length} restaurants across the Garden Route
+    </p>
+
+    <!-- Grid -->
+    <div id="restaurant-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    </div>
+
+    <!-- Empty state -->
+    <div id="empty-state" class="hidden text-center py-20 text-gray-400">
+      <p class="text-4xl mb-4">🍽️</p>
+      <p class="font-semibold text-gray-600 mb-1">No restaurants found</p>
+      <p class="text-sm">Try adjusting your filters</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
+      © 2026 gardenroute-restaurants.co.za · Updated weekly
+    </div>
+  </footer>
+</Base>
+
+<script define:vars={{ data, initialTown: '', initialQ: '' }}>
+  const restaurants = JSON.parse(data);
+
+  const gridEl = document.getElementById('restaurant-grid');
+  const countEl = document.getElementById('result-count');
+  const emptyEl = document.getElementById('empty-state');
+
+  const townEl    = document.getElementById('filter-town');
+  const cuisineEl = document.getElementById('filter-cuisine');
+  const priceEl   = document.getElementById('filter-price');
+  const searchEl  = document.getElementById('filter-search');
+  const sortEl    = document.getElementById('filter-sort');
+
+  // Read URL params on load
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('town'))    townEl.value    = params.get('town');
+  if (params.get('cuisine')) cuisineEl.value = params.get('cuisine');
+  if (params.get('q'))       searchEl.value  = params.get('q');
+
+  function priceStr(level) {
+    return ['','R','RR','RRR','RRRR'][level] || 'RR';
+  }
+
+  function stars(rating) {
+    const full = Math.floor(rating);
+    return '★'.repeat(full) + '☆'.repeat(5 - full);
+  }
+
+  function renderCard(r) {
+    const photo = r.photos[0]?.url || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80';
+    const cuisine = r.cuisine_types[0] || 'Restaurant';
+    const fullStars = Math.floor(r.google_rating);
+    const starsStr = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);
+
+    return `
+      <a href="/${r.slug}" class="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-200 no-underline text-gray-900" style="text-decoration:none;color:inherit;">
+        <div style="position:relative;height:192px;overflow:hidden;background:#f3f4f6;">
+          <img src="${photo}" alt="${r.name}" style="width:100%;height:100%;object-fit:cover;transition:transform 0.3s;" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80'" />
+          ${r.featured ? '<span style="position:absolute;top:12px;left:12px;background:#fbbf24;color:#78350f;font-size:11px;font-weight:600;padding:3px 8px;border-radius:999px;">✦ Editor\'s pick</span>' : ''}
+        </div>
+        <div style="padding:16px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px;">
+            <strong style="font-size:15px;line-height:1.3;">${r.name}</strong>
+            <span style="font-size:12px;color:#9ca3af;white-space:nowrap;padding-top:2px;">${priceStr(r.price_level)}</span>
+          </div>
+          <p style="font-size:13px;color:#6b7280;margin:0 0 8px;">${cuisine} · ${r.town}</p>
+          ${r.description_short ? `<p style="font-size:13px;color:#6b7280;margin:0 0 12px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">${r.description_short}</p>` : ''}
+          <div style="display:flex;align-items:center;gap:6px;">
+            <span style="color:#f59e0b;font-size:13px;letter-spacing:-1px;">${starsStr}</span>
+            <span style="font-size:13px;font-weight:500;">${r.google_rating}</span>
+            <span style="font-size:12px;color:#9ca3af;">(${r.google_review_count})</span>
+          </div>
+        </div>
+      </a>
+    `;
+  }
+
+  function render() {
+    const town    = townEl.value;
+    const cuisine = cuisineEl.value;
+    const price   = priceEl.value;
+    const q       = searchEl.value.toLowerCase().trim();
+    const sort    = sortEl.value;
+
+    let filtered = restaurants.filter(r => {
+      if (town    && r.town !== town) return false;
+      if (cuisine && !r.cuisine_types.includes(cuisine)) return false;
+      if (price   && r.price_level !== parseInt(price)) return false;
+      if (q && ![r.name, r.town, ...(r.cuisine_types || []), r.description_short].join(' ').toLowerCase().includes(q)) return false;
+      return true;
+    });
+
+    if (sort === 'rating')  filtered.sort((a, b) => b.google_rating - a.google_rating);
+    if (sort === 'reviews') filtered.sort((a, b) => b.google_review_count - a.google_review_count);
+    if (sort === 'name')    filtered.sort((a, b) => a.name.localeCompare(b.name));
+
+    gridEl.innerHTML = filtered.map(renderCard).join('');
+    countEl.textContent = `${filtered.length} restaurant${filtered.length === 1 ? '' : 's'}${town ? ' in ' + town : ' across the Garden Route'}`;
+    emptyEl.classList.toggle('hidden', filtered.length > 0);
+  }
+
+  [townEl, cuisineEl, priceEl, sortEl].forEach(el => el.addEventListener('change', render));
+  searchEl.addEventListener('input', render);
+
+  render();
+</script>

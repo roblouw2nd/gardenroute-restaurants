@@ -1,0 +1,28 @@
+# Garden Route Restaurants
+> The most complete restaurant directory for the Garden Route, South Africa.
+
+## What this site is
+gardenroute-restaurants.co.za is a restaurant directory covering the Garden Route region of the Western Cape, South Africa. It lists restaurants across Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield, and Storms River.
+
+All data is sourced from Google Places and enriched with AI-written descriptions. Listings include ratings, reviews, opening hours, cuisine type, price range, contact information, and directions.
+
+## Who this is for
+Tourists visiting the Garden Route, locals looking for new dining experiences, and travellers planning road trips along the N2.
+
+## Coverage
+- Towns: Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield, Storms River
+- Region: Garden Route, Western Cape, South Africa
+- Data updated: Weekly (every Sunday)
+
+## Key pages
+- Homepage: https://gardenroute-restaurants.co.za
+- Browse all: https://gardenroute-restaurants.co.za/browse
+- By town: https://gardenroute-restaurants.co.za/towns
+- Sitemap: https://gardenroute-restaurants.co.za/sitemap.xml
+
+## Data sources
+- Google Places API (ratings, reviews, hours, contact info)
+- Claude AI (descriptions, cuisine classification, tags)
+
+## Licensing
+Restaurant information is factual and sourced from public data. Free to reference and cite.

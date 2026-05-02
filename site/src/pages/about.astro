@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+---
+
+<Base
+  title="About — Garden Route Restaurants"
+  description="About gardenroute-restaurants.co.za — the most complete restaurant directory for the Garden Route, South Africa. Updated weekly with real ratings and AI-written descriptions."
+>
+  <Nav />
+
+  <div class="max-w-3xl mx-auto px-6 py-16">
+    <nav aria-label="Breadcrumb" class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">About</li>
+      </ol>
+    </nav>
+
+    <h1 class="font-display text-4xl font-bold mb-6">About Garden Route Restaurants</h1>
+
+    <div class="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
+      <p>
+        <strong>gardenroute-restaurants.co.za</strong> is the most complete restaurant directory for the Garden Route, South Africa — covering Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield, and Storms River.
+      </p>
+
+      <h2 class="font-display text-2xl font-bold text-gray-900 mt-8 mb-3">How it works</h2>
+      <p>
+        Every listing is sourced from Google Places and enriched with AI-written descriptions that capture the atmosphere, signature dishes, and what makes each restaurant worth visiting. Data is refreshed every week — so ratings, hours, and contact information are always current.
+      </p>
+
+      <h2 class="font-display text-2xl font-bold text-gray-900 mt-8 mb-3">The Garden Route dining scene</h2>
+      <p>
+        The Garden Route is one of South Africa's premier travel destinations, stretching along the Western Cape coast between Mossel Bay and Storms River. Its restaurant scene reflects the region's diversity — you'll find everything from casual lagoon-side cafés to award-winning fine dining, farm-to-table bistros, and world-class seafood.
+      </p>
+      <p>
+        <a href="/browse?town=Knysna" class="text-ocean-600 hover:underline">Knysna</a> is the heart of the route, known for its oysters, waterfront restaurants, and buzzing café culture on Thesen Islands. <a href="/browse?town=Plettenberg+Bay" class="text-ocean-600 hover:underline">Plettenberg Bay</a> offers upmarket dining with ocean views. <a href="/browse?town=Wilderness" class="text-ocean-600 hover:underline">Wilderness</a> is beloved for its relaxed, nature-immersed restaurants. <a href="/browse?town=George" class="text-ocean-600 hover:underline">George</a> is the region's commercial hub with a wide variety of options, while <a href="/browse?town=Mossel+Bay" class="text-ocean-600 hover:underline">Mossel Bay</a> blends heritage charm with harbour-fresh seafood.
+      </p>
+
+      <h2 class="font-display text-2xl font-bold text-gray-900 mt-8 mb-3">Contact</h2>
+      <p>
+        Found an error, or want to suggest a restaurant? The directory is maintained automatically — but human feedback is always welcome.
+      </p>
+    </div>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
+      © 2026 gardenroute-restaurants.co.za
+    </div>
+  </footer>
+</Base>

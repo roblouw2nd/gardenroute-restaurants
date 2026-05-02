@@ -1,15 +1,203 @@
 ---
-// Homepage — built in Phase 5
-// Placeholder so the repo structure is correct
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import RestaurantCard from '../components/RestaurantCard.astro';
+import { loadRestaurants, avgRating, getUniqueTowns, townImage } from '../lib/restaurants.js';
+
+const restaurants = loadRestaurants();
+const towns = getUniqueTowns(restaurants);
+const rating = avgRating(restaurants);
+const featured = restaurants.filter(r => r.featured).slice(0, 5);
+const topPicks = restaurants.slice(0, 6);
 ---
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Garden Route Restaurants</title>
-  </head>
-  <body>
-    <h1>Garden Route Restaurants</h1>
-    <p>Coming soon. Site built in Phase 5.</p>
-  </body>
-</html>
+
+<Base
+  title="Garden Route Restaurants — Best Places to Eat on the Garden Route, South Africa"
+  description="Discover the best restaurants on the Garden Route. Browse 200+ restaurants across Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay and more — with ratings, hours and contact info."
+>
+  <!-- HERO -->
+  <section class="relative min-h-screen flex flex-col" style="background: #0a0a0a;">
+    <div
+      class="absolute inset-0 bg-cover bg-center"
+      style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80'); opacity: 0.55;"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
+
+    <Nav dark={true} />
+
+    <div class="relative flex-1 flex flex-col justify-center px-6 pb-32 pt-16 max-w-3xl mx-auto w-full">
+      <p class="text-white/70 text-xs font-semibold tracking-widest uppercase mb-4">Garden Route · South Africa</p>
+
+      <h1 class="font-display text-white text-5xl md:text-7xl font-bold leading-tight mb-6">
+        Find your next<br/>favourite table.
+      </h1>
+
+      <p class="text-white/80 text-lg mb-8 max-w-xl">
+        {restaurants.length}+ handpicked restaurants across {towns.length} towns — from Mossel Bay to Storms River.
+      </p>
+
+      <!-- Search -->
+      <form action="/browse" method="get" class="flex gap-2 mb-8 max-w-lg">
+        <div class="flex-1 relative">
+          <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
+          <input
+            type="text"
+            name="q"
+            placeholder="Restaurant, town, or cuisine…"
+            class="w-full pl-11 pr-4 py-3.5 rounded-full bg-white text-gray-900 text-sm shadow-lg focus:outline-none focus:ring-2 focus:ring-ocean-500"
+          />
+        </div>
+        <button type="submit" class="px-6 py-3.5 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-full text-sm transition-colors">
+          Search
+        </button>
+      </form>
+
+      <!-- Town pills -->
+      <div class="flex flex-wrap gap-2">
+        {towns.map(town => (
+          <a
+            href={`/browse?town=${encodeURIComponent(town)}`}
+            class="px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-medium transition-colors border border-white/20 no-underline"
+          >
+            {town}
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="absolute bottom-0 left-0 right-0 border-t border-white/10 bg-black/30 backdrop-blur-sm">
+      <div class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-end gap-10">
+        <div class="text-center">
+          <div class="text-white font-display text-2xl font-bold">{restaurants.length}+</div>
+          <div class="text-white/60 text-xs font-semibold tracking-wider uppercase">Restaurants</div>
+        </div>
+        <div class="text-center">
+          <div class="text-white font-display text-2xl font-bold">{towns.length}</div>
+          <div class="text-white/60 text-xs font-semibold tracking-wider uppercase">Towns</div>
+        </div>
+        <div class="text-center">
+          <div class="text-white font-display text-2xl font-bold">★ {rating}</div>
+          <div class="text-white/60 text-xs font-semibold tracking-wider uppercase">Avg Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITOR'S PICKS / TOP PICKS -->
+  <section class="py-16 px-6 bg-cream">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Handpicked for you</p>
+      <h2 class="font-display text-3xl font-bold mb-8">This week's picks</h2>
+
+      <!-- Featured large card + grid -->
+      {topPicks.length > 0 && (
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* Large card — first item */}
+          <a href={`/${topPicks[0].slug}`} class="group relative md:col-span-1 md:row-span-2 rounded-2xl overflow-hidden block no-underline min-h-64">
+            <img
+              src={topPicks[0].photos[0]?.url || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80'}
+              alt={topPicks[0].name}
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 min-h-64"
+              style="min-height: 320px;"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+            <div class="absolute bottom-0 left-0 right-0 p-5">
+              <div class="flex gap-2 mb-2">
+                <span class="text-xs font-semibold px-2 py-1 rounded-full bg-green-500 text-white">● Open now</span>
+                {topPicks[0].featured && <span class="text-xs font-semibold px-2 py-1 rounded-full bg-amber-400 text-amber-900">✦ Editor's pick</span>}
+              </div>
+              <h3 class="text-white font-display text-xl font-bold">{topPicks[0].name}</h3>
+              <p class="text-white/70 text-sm">{topPicks[0].cuisine_types?.[0]} · {topPicks[0].town} · {['','R','RR','RRR','RRRR'][topPicks[0].price_level]}</p>
+              {topPicks[0].google_rating > 0 && (
+                <p class="text-amber-400 text-sm mt-1">{'★'.repeat(Math.floor(topPicks[0].google_rating))} {topPicks[0].google_rating} ({topPicks[0].google_review_count})</p>
+              )}
+            </div>
+          </a>
+
+          {/* Smaller cards */}
+          {topPicks.slice(1, 5).map(r => (
+            <a href={`/${r.slug}`} class="group relative rounded-2xl overflow-hidden block no-underline min-h-40">
+              <img
+                src={r.photos[0]?.url || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80'}
+                alt={r.name}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                style="min-height: 160px;"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+              <div class="absolute bottom-0 left-0 right-0 p-4">
+                <h3 class="text-white font-semibold text-sm">{r.name}</h3>
+                <p class="text-white/70 text-xs">{r.cuisine_types?.[0]} · {r.town} · {['','R','RR','RRR','RRRR'][r.price_level]}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- BROWSE ALL -->
+  <section class="py-16 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-1">Explore</p>
+          <h2 class="font-display text-3xl font-bold">{restaurants.length} restaurants across the Garden Route</h2>
+        </div>
+        <a href="/browse" class="hidden md:block text-sm font-medium text-ocean-600 hover:underline no-underline">View all →</a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {restaurants.slice(0, 8).map(r => (
+          <RestaurantCard restaurant={r} />
+        ))}
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="/browse" class="inline-block px-8 py-3 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-full text-sm transition-colors no-underline">
+          Browse all restaurants →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOWNS -->
+  <section class="py-16 px-6 bg-cream">
+    <div class="max-w-6xl mx-auto">
+      <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Explore by location</p>
+      <h2 class="font-display text-3xl font-bold mb-8">Browse the route</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {towns.map(town => {
+          const count = restaurants.filter(r => r.town === town).length;
+          return (
+            <a href={`/browse?town=${encodeURIComponent(town)}`} class="group relative rounded-2xl overflow-hidden block no-underline" style="min-height: 160px;">
+              <img
+                src={townImage(town)}
+                alt={town}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                style="min-height: 160px;"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+              <div class="absolute bottom-0 left-0 right-0 p-4">
+                <h3 class="text-white font-semibold">{town}</h3>
+                <div class="flex items-center justify-between">
+                  <p class="text-white/70 text-xs">{count} restaurants</p>
+                  <span class="text-white/70 text-xs">Explore →</span>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-gray-100 bg-white py-8 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>Data updated weekly · Powered by Google Places + Claude AI</p>
+    </div>
+  </footer>
+</Base>

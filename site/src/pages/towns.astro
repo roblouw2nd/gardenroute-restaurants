@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import { loadRestaurants, getUniqueTowns, townImage } from '../lib/restaurants.js';
+
+const restaurants = loadRestaurants();
+const towns = getUniqueTowns(restaurants);
+const siteUrl = 'https://gardenroute-restaurants.co.za';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Garden Route Towns — Restaurant Guide",
+  "description": "Browse restaurants by town across the Garden Route, South Africa.",
+  "itemListElement": towns.map((town, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": `Restaurants in ${town}`,
+    "url": `${siteUrl}/browse?town=${encodeURIComponent(town)}`
+  }))
+};
+---
+
+<Base
+  title="Restaurants by Town — Garden Route, South Africa"
+  description="Browse restaurants by town across the Garden Route. Find the best places to eat in Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield and Storms River."
+  schema={schema}
+>
+  <Nav />
+
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <nav aria-label="Breadcrumb" class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">Towns</li>
+      </ol>
+    </nav>
+
+    <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Explore by location</p>
+    <h1 class="font-display text-4xl font-bold mb-4">Restaurants by town on the Garden Route</h1>
+    <p class="text-gray-500 text-lg mb-10 max-w-2xl">
+      The Garden Route stretches from Mossel Bay to Storms River, offering some of South Africa's finest dining — from beachside seafood shacks to award-winning fine dining. Browse by town to find your next favourite table.
+    </p>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {towns.map(town => {
+        const count = restaurants.filter(r => r.town === town).length;
+        return (
+          <a
+            href={`/browse?town=${encodeURIComponent(town)}`}
+            class="group relative rounded-2xl overflow-hidden block no-underline"
+            style="min-height: 200px;"
+            aria-label={`${count} restaurants in ${town}`}
+          >
+            <img
+              src={townImage(town)}
+              alt={`Restaurants in ${town}, Garden Route`}
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              style="min-height: 200px;"
+              loading="lazy"
+              width="400" height="200"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
+            <div class="absolute bottom-0 left-0 right-0 p-4">
+              <h2 class="text-white font-semibold text-lg">{town}</h2>
+              <div class="flex items-center justify-between mt-1">
+                <span class="text-white/70 text-sm">{count} restaurant{count !== 1 ? 's' : ''}</span>
+                <span class="text-white/70 text-sm">Explore →</span>
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- SEO content block -->
+    <div class="mt-16 prose prose-gray max-w-3xl">
+      <h2 class="font-display text-2xl font-bold mb-4">Dining on the Garden Route</h2>
+      <p class="text-gray-600 leading-relaxed mb-4">
+        The Garden Route is one of South Africa's most celebrated travel destinations — and its restaurant scene matches the scenery. Whether you're after a lazy breakfast overlooking Knysna's lagoon, freshly caught linefish in Wilderness, or a wine-paired tasting menu in Plettenberg Bay, the route delivers.
+      </p>
+      <p class="text-gray-600 leading-relaxed">
+        This directory covers all the major Garden Route towns: <a href="/browse?town=Knysna" class="text-ocean-600 hover:underline">Knysna</a>, <a href="/browse?town=Plettenberg%20Bay" class="text-ocean-600 hover:underline">Plettenberg Bay</a>, <a href="/browse?town=Wilderness" class="text-ocean-600 hover:underline">Wilderness</a>, <a href="/browse?town=George" class="text-ocean-600 hover:underline">George</a>, <a href="/browse?town=Mossel%20Bay" class="text-ocean-600 hover:underline">Mossel Bay</a>, <a href="/browse?town=Sedgefield" class="text-ocean-600 hover:underline">Sedgefield</a>, and <a href="/browse?town=Storms%20River" class="text-ocean-600 hover:underline">Storms River</a>. All listings are updated weekly with current ratings, hours, and contact information.
+      </p>
+    </div>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
+      © 2026 gardenroute-restaurants.co.za
+    </div>
+  </footer>
+</Base>

@@ -1,0 +1,318 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import { loadRestaurants, priceLong, priceLabel } from '../lib/restaurants.js';
+
+export async function getStaticPaths() {
+  const restaurants = loadRestaurants();
+  return restaurants.map(r => ({
+    params: { slug: r.slug },
+    props: { restaurant: r },
+  }));
+}
+
+const { restaurant: r } = Astro.props;
+const photos  = r.photos || [];
+const heroPhoto = photos[0]?.url || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80';
+const fullStars = Math.floor(r.google_rating || 0);
+const starsStr  = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);
+const price     = priceLabel(r.price_level);
+const priceFull = priceLong(r.price_level);
+const days      = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+const mapsUrl   = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' ' + r.address)}`;
+const siteUrl   = 'https://gardenroute-restaurants.co.za';
+
+// SEO title and description — keyword-rich but natural
+const seoTitle = `${r.name} — ${r.town} Restaurant | Garden Route Restaurants`;
+const seoDesc  = r.description_short
+  ? `${r.description_short} Find ${r.name} in ${r.town} on the Garden Route — ratings, hours, contact info and directions.`
+  : `${r.name} is a ${(r.cuisine_types||[]).join(', ')} restaurant in ${r.town}, Garden Route, South Africa. Rating: ${r.google_rating}/5 from ${r.google_review_count} reviews.`;
+
+// Build opening hours array for schema
+const schemaHours = days
+  .filter(d => r.opening_hours?.[d] && r.opening_hours[d] !== 'Hours not available' && r.opening_hours[d].toLowerCase() !== 'closed')
+  .map(d => {
+    const dayMap = { monday:'Mo', tuesday:'Tu', wednesday:'We', thursday:'Th', friday:'Fr', saturday:'Sa', sunday:'Su' };
+    const raw = r.opening_hours[d];
+    const parts = raw.split('–').map(s => s.trim().replace(/\s*(AM|PM)/i, m => m.trim()));
+    return `${dayMap[d]} ${parts.join('-')}`;
+  });
+
+// Price range for schema
+const priceRangeMap = { 1:'R', 2:'RR', 3:'RRR', 4:'RRRR' };
+
+// Restaurant schema.org structured data
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": r.name,
+  "description": r.description_short || seoDesc,
+  "url": `${siteUrl}/${r.slug}`,
+  "image": photos.map(p => p.url),
+  "telephone": r.phone || undefined,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": r.address,
+    "addressLocality": r.town,
+    "addressRegion": "Western Cape",
+    "addressCountry": "ZA"
+  },
+  "geo": r.coordinates?.lat ? {
+    "@type": "GeoCoordinates",
+    "latitude": r.coordinates.lat,
+    "longitude": r.coordinates.lng
+  } : undefined,
+  "servesCuisine": r.cuisine_types || [],
+  "priceRange": priceRangeMap[r.price_level] || 'RR',
+  "aggregateRating": r.google_rating > 0 ? {
+    "@type": "AggregateRating",
+    "ratingValue": r.google_rating,
+    "reviewCount": r.google_review_count,
+    "bestRating": 5,
+    "worstRating": 1
+  } : undefined,
+  "openingHours": schemaHours.length ? schemaHours : undefined,
+  "sameAs": r.website ? [r.website] : [],
+  "hasMap": mapsUrl,
+};
+
+// BreadcrumbList for Google breadcrumbs
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Browse", "item": `${siteUrl}/browse` },
+    { "@type": "ListItem", "position": 3, "name": r.town, "item": `${siteUrl}/browse?town=${encodeURIComponent(r.town)}` },
+    { "@type": "ListItem", "position": 4, "name": r.name, "item": `${siteUrl}/${r.slug}` },
+  ]
+};
+---
+
+<Base
+  title={seoTitle}
+  description={seoDesc}
+  image={heroPhoto}
+  type="restaurant"
+  schema={schema}
+>
+  <!-- Breadcrumb schema -->
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <Nav />
+
+  <!-- Photo mosaic -->
+  <div class="relative bg-gray-100" style="height: 360px;">
+    <div class="grid h-full" style={photos.length >= 3 ? 'grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr;' : ''}>
+      <img
+        src={heroPhoto}
+        alt={`${r.name} restaurant in ${r.town}, Garden Route`}
+        class="w-full h-full object-cover"
+        style={photos.length >= 3 ? 'grid-row: 1 / 3;' : 'height: 360px;'}
+        width="800" height="360"
+        fetchpriority="high"
+      />
+      {photos[1] && (
+        <img src={photos[1].url} alt={`${r.name} — photo 2`} class="w-full h-full object-cover border-l-2 border-b border-white" width="400" height="180" loading="eager" />
+      )}
+      {photos[2] && (
+        <div class="relative">
+          <img src={photos[2].url} alt={`${r.name} — photo 3`} class="w-full h-full object-cover border-l-2 border-t border-white" width="400" height="180" loading="eager" />
+          {photos.length > 3 && (
+            <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+              <span class="text-white font-semibold text-sm">⊞ +{photos.length - 3} photos</span>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="max-w-6xl mx-auto px-6 py-10">
+    <!-- Breadcrumb nav (visible + semantic) -->
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li><a href="/browse" class="hover:text-gray-600 no-underline">Browse</a></li>
+        <li>›</li>
+        <li><a href={`/browse?town=${encodeURIComponent(r.town)}`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">{r.name}</li>
+      </ol>
+    </nav>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+      <!-- Left: Details -->
+      <div class="lg:col-span-2">
+        {r.featured && (
+          <span class="inline-block bg-amber-100 text-amber-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">✦ Editor's pick</span>
+        )}
+
+        <h1 class="font-display text-4xl font-bold mb-2">{r.name}</h1>
+        <p class="text-gray-500 text-lg mb-3">
+          <span>{(r.cuisine_types || []).join(', ')}</span>
+          {' · '}
+          <a href={`/browse?town=${encodeURIComponent(r.town)}`} class="hover:text-ocean-600 no-underline">{r.town}</a>
+          {' · '}
+          <span>{price}</span>
+        </p>
+
+        <!-- Rating -->
+        {r.google_rating > 0 && (
+          <div class="flex items-center gap-2 mb-6" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+            <span class="stars text-lg" aria-label={`${r.google_rating} out of 5 stars`}>{starsStr}</span>
+            <span class="font-semibold text-lg" itemprop="ratingValue">{r.google_rating}</span>
+            <span class="text-gray-400">(<span itemprop="reviewCount">{r.google_review_count}</span> Google reviews)</span>
+          </div>
+        )}
+
+        <!-- Tags -->
+        {(r.tags || []).length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-8" aria-label="Restaurant features">
+            {r.tags.map(tag => (
+              <span class="px-3 py-1 bg-sand rounded-full text-sm text-gray-600">{tag}</span>
+            ))}
+          </div>
+        )}
+
+        <!-- Description — the main content Google indexes -->
+        {r.description_long && (
+          <div class="mb-8">
+            <h2 class="font-semibold text-lg mb-3">About {r.name}</h2>
+            {r.description_long.split('\n\n').map(para => (
+              <p class="text-gray-700 leading-relaxed mb-4">{para}</p>
+            ))}
+          </div>
+        )}
+
+        <!-- Cuisine section — keyword rich -->
+        {(r.cuisine_types || []).length > 0 && (
+          <div class="mb-8">
+            <h2 class="font-semibold text-lg mb-2">Cuisine</h2>
+            <p class="text-gray-600">
+              {r.name} serves {r.cuisine_types.join(', ')} cuisine in {r.town}, on the Garden Route.
+            </p>
+          </div>
+        )}
+
+        <!-- Opening hours — structured and readable -->
+        <div class="mb-8">
+          <h2 class="font-semibold text-lg mb-3">Opening hours</h2>
+          <div class="bg-sand rounded-xl p-4 max-w-sm">
+            {days.map(day => (
+              <div class="flex justify-between py-1.5 border-b border-white last:border-0">
+                <span class="text-gray-500 capitalize text-sm">{day}</span>
+                <span class="font-medium text-sm">
+                  {r.opening_hours?.[day] && r.opening_hours[day] !== 'Hours not available'
+                    ? r.opening_hours[day]
+                    : <span class="text-gray-400">—</span>
+                  }
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Location -->
+        <div class="mb-8">
+          <h2 class="font-semibold text-lg mb-2">Location</h2>
+          <p class="text-gray-600 mb-2">{r.address}</p>
+          <a href={mapsUrl} target="_blank" rel="noopener" class="text-sm text-ocean-600 hover:underline no-underline">
+            Open in Google Maps →
+          </a>
+        </div>
+
+        <!-- Nearby towns — internal links for SEO -->
+        <div class="mt-10 pt-8 border-t border-gray-100">
+          <h2 class="font-semibold text-base mb-3 text-gray-500">More restaurants on the Garden Route</h2>
+          <div class="flex flex-wrap gap-2">
+            {['Knysna','Plettenberg Bay','Wilderness','George','Mossel Bay','Sedgefield','Storms River']
+              .filter(t => t !== r.town)
+              .map(t => (
+                <a href={`/browse?town=${encodeURIComponent(t)}`}
+                   class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+                  {t}
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Sidebar -->
+      <div class="lg:col-span-1">
+        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sticky top-6">
+          <h2 class="font-semibold text-lg mb-4">{r.name}</h2>
+
+          {r.google_rating > 0 && (
+            <div class="flex items-center gap-1.5 mb-4">
+              <span class="stars">{starsStr}</span>
+              <span class="font-semibold">{r.google_rating}</span>
+              <span class="text-gray-400 text-sm">({r.google_review_count})</span>
+            </div>
+          )}
+
+          <div class="space-y-3 text-sm mb-6">
+            {r.address && (
+              <div class="flex gap-2">
+                <span aria-hidden>📍</span>
+                <span class="text-gray-600">{r.address}</span>
+              </div>
+            )}
+            {r.phone && (
+              <div class="flex gap-2">
+                <span aria-hidden>📞</span>
+                <a href={`tel:${r.phone}`} class="text-ocean-600 hover:underline">{r.phone}</a>
+              </div>
+            )}
+            {r.website && (
+              <div class="flex gap-2">
+                <span aria-hidden>🌐</span>
+                <a href={r.website} target="_blank" rel="noopener" class="text-ocean-600 hover:underline truncate text-xs">{r.website.replace(/^https?:\/\//, '')}</a>
+              </div>
+            )}
+          </div>
+
+          <div class="flex gap-2 mb-6">
+            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-ocean-50 text-ocean-700">{priceFull}</span>
+            {(r.cuisine_types||[]).slice(0,1).map(c => (
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-sand text-gray-600">{c}</span>
+            ))}
+          </div>
+
+          <div class="space-y-3">
+            {r.phone && (
+              <a href={`tel:${r.phone}`}
+                class="flex items-center justify-center gap-2 w-full py-3 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-xl text-sm transition-colors no-underline">
+                📞 Call to book
+              </a>
+            )}
+            <a href={mapsUrl} target="_blank" rel="noopener"
+              class="flex items-center justify-center gap-2 w-full py-3 border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold rounded-xl text-sm transition-colors no-underline">
+              🗺 Get directions
+            </a>
+            {r.website && (
+              <a href={r.website} target="_blank" rel="noopener"
+                class="flex items-center justify-center gap-2 w-full py-3 border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold rounded-xl text-sm transition-colors no-underline">
+                🌐 Visit website
+              </a>
+            )}
+          </div>
+
+          <p class="text-xs text-gray-400 text-center mt-4">
+            Updated {new Date(r.last_updated).toLocaleDateString('en-ZA', { month: 'long', year: 'numeric' })}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
+      © 2026 gardenroute-restaurants.co.za · <a href="/browse" class="hover:underline no-underline">Browse all restaurants</a>
+    </div>
+  </footer>
+</Base>
