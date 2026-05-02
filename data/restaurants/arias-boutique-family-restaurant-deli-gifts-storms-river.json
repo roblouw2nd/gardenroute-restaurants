@@ -1,0 +1,72 @@
+{
+  "id": "arias-boutique-family-restaurant-deli-gifts-storms-river",
+  "name": "Arias Boutique Family Restaurant/Deli & Gifts",
+  "slug": "arias-boutique-family-restaurant-deli-gifts-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "85 Darnell St, Stormsrivier, 6308, South Africa",
+  "coordinates": {
+    "lat": -33.9725543,
+    "lng": 23.8828154
+  },
+  "phone": "+27 79 775 9284",
+  "email": "",
+  "website": "http://www.tubenaxe.co.za/",
+  "google_place_id": "ChIJt1lO811veR4RcCrWILgfAUc",
+  "google_rating": 2.7,
+  "google_review_count": 12,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "South African",
+    "Breakfast"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Takeaway",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 5:00 PM",
+    "tuesday": "8:00 AM – 5:00 PM",
+    "wednesday": "8:00 AM – 5:00 PM",
+    "thursday": "8:00 AM – 5:00 PM",
+    "friday": "8:00 AM – 5:00 PM",
+    "saturday": "8:00 AM – 5:00 PM",
+    "sunday": "8:00 AM – 5:00 PM"
+  },
+  "description_short": "Family-run deli and restaurant in Storms River serving home-style meals, local gifts, and takeaway favourites.",
+  "description_long": "Tucked along Darnell Street in Storms River village, Arias Boutique Family Restaurant combines a casual dining space with a deli counter and gift shop. The menu covers breakfast basics, burgers, and a rotating selection of home-cooked meals that suit families stopping through the area. You'll find local preserves, craft items, and travel essentials alongside the food offering.\n\nThe relaxed setup works well for travellers needing a quick bite or takeaway before heading into Tsitsikamma. Portions are generous and the kitchen accommodates straightforward requests. It's the kind of spot where function trumps fuss—helpful when you're provisioning for a hiking trip or need a meal between adventures. Service is family-style and the vibe stays low-key, reflecting the quiet rhythm of Storms River itself.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJt1lO811veR4RcCrWILgfAUc/photos/Ab43m-vg-PrGSDPeLMOf_eo2MrJjL7MB-bBMm4uLXqSM7rLFbdRIIfaHiDXihZ-0S8gDxEDI5MUMidS3gtUiKKYOCUAnMDK8zUptJ7iSqmLqDlfCorKJr-QHg8BOqzdpUq1C6mLX_zZsRkJOHu8CHrK-jG9DFFjSYfIajGrt88ENOHhz3E6DzmdNOBx0aTzSVL0wNsSmM7bf18HVqUoef8_GcbGpWUS7W7pTArldD1NzIWdMV8ObS_Ht_Ns8FPoO65asV2OzETN5c0XPhXX7aky5fphpQx-YQ1j0m_258uQ32uwl2sMFsuZBtHa92FrWADPjPaeTJBn0Lmw3qIPS_2BEVeziY-rqImRLp2Y5K4XbyV4qUQSkhH5VrxzFxKQytawyQksPCRFgFzu1l2rbitaIYxWVVid8k0R86LhrJEPn565wUyAd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJt1lO811veR4RcCrWILgfAUc/photos/Ab43m-tulb6vhmM7B83InuTQhDlrx9SIuovwzvhazyopbACKykX5GKBfGJy7RPtQoFmrMxvz_p1k8JPL5fQe4uzxyEtZEdosq2deKv7c2y1M53hQDDHEUVDFFYjz6Rv6hbE1MZkCBGLhiYM3W0W3zR6T3vN-t1p9vUnWWtIwvc4wbxmWuMAfjrufNiHgxh0J4NTiZ4sMk-U6iCrSrrChu3NIyn0bnw5_iZo-VVA-yeyvzgq5jFOue6SLVZYxkNGxwRkGqgzcEXNuuCSpMB9lEGCWRsi4ttbotF9q7il7bH_ym1MHTrhHpOi9PEiDNjQhPqgzEOaRCVdL4idNWXdVIu3LfwCmfIoFLm7jdBDnbR1Pby8qIC3TK-p7oBQZvCcj9MQGcWDYJqbvLBRRGNwSS3nwg1IhcLF1PYVMKbvxhOkkk2Ixpbar/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJt1lO811veR4RcCrWILgfAUc/photos/Ab43m-ufHJmaHEOErLPInfDpe-G99pMKTU1lfpCXnJysUH8N9g-h-lPOYGlxyIbA28AXbuomHlgTFLKBH4tDAUyO60Yyohm6zezesEfKnd4bov74aoLdPWgfXrTdmlsS31b9SqyWPXJDwr4xCTKjB1Ecw9DYDFLf7lKE_fp0oiVJLCknM3UiC-TuFZOUD5Xy7VdG679FbpiikZZ-1CqaY1X8mjEfd_UGxn2JkRNEXCFEPWOvBVUk9FGAm9wR4ejTWwpnIKCA4SH3YC-VLfcnPt6zHl7sMIgr674bbmw0GTcpXxZ62-8Nw_xFp-pPuaJyoCLQVuCx5a5OgyKa1G80QEwJBb38tCsFkGLlyMb8Gl0yE9i2T5G4OY9v7kND40MyIwstLxZ9EWsTUr8pgzxDzYt3yLpKM7CutzFYSH_2HzXZ4D9AQw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJt1lO811veR4RcCrWILgfAUc/photos/Ab43m-vf7Rhub20K-8_mQeJ9J8pZyxCaUfelMbep7KYh1pDTQlR0YMvxEB6UEl9mJo4WDOQ6k6c-UJi3lxpQIlrO6P0PMtqH6ENl-vRfwAzauZZxMQX41_NQGZIChnhmbFrYTxnVPD6SuoLieeUgkiodetjyub7Gh1XLWOzFq4QJ4UJckluvtJRDInaTLWlaig90piXPfzdXzwnwAlL_Rr1V89nJI7fnkDK0Sc9GRTTp9uIVsE4o7WC8o3jq6DfT455E0ax4mTdZEPRAIX4ax6mEpLlUtfIA72kNeHgW9fvFruA4DI_FEKUtxe1Hf3ZI_MNpT42LfgqDNKLGIiJmzt0Akvi4VabDvhKGBaS9WtlEbVetIaoCG2FcWDAkoyUxnWt_cCRmfST-IpZmC8LtVV3-Tcki4S_vlltsL2DMDEmbbNQttw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJt1lO811veR4RcCrWILgfAUc/photos/Ab43m-t3a9lfxizvQDhfisqxL4S1BPtIBJiBmZ_aoqmspbX-APSakhxq1VzFiC3LbvCmrmeUbsnGffS4fF0z2-quCtr4IlkE7Q760IVyCtpsf9uExC9YYJCngIokzGnHgK3gWhYfioUKq9KKunIcgWDYW913h96vv07ZZ3NIfjvgiAOaPIKOlDR-8ya9L9uycMPcpSJqJkk_ga8ngXQy-9Z-AtV7XYBaWFZrj7-Gjf3skLTUC4vr6L03hlS7u8vjaPmF2wa_8LfXoLryFRUeNYLNBs1pZv9gYoEKzWMyHZlXRa1KHNAC3rI0j09miwwmiCxXbmRQjv-2GmLOi-yvNkQsxOyOEknAyb6dv0ZqqS-hFkkiT_rlTIYAp9kAFWl6A7BDfDhFXwTgEWIE2hn5SAonchC8a9TuNZlvte82adcyk3uUvg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:48:16.724456+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

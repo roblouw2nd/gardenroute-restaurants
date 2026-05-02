@@ -1,0 +1,74 @@
+{
+  "id": "sotto-mediterranean-restaurant-cocktail-lounge-plettenberg-bay",
+  "name": "Sotto Mediterranean Restaurant & Cocktail Lounge",
+  "slug": "sotto-mediterranean-restaurant-cocktail-lounge-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Shop B3 & B4, Convenience Centre, Beacon Isle Dr, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0625795,
+    "lng": 23.3717589
+  },
+  "phone": "+27 44 020 0464",
+  "email": "",
+  "website": "https://sottoplett.co.za/",
+  "google_place_id": "ChIJOXvhWADjeB4R1Fe6HIXrJyI",
+  "google_rating": 4.7,
+  "google_review_count": 156,
+  "price_level": 2,
+  "cuisine_types": [
+    "Mediterranean",
+    "Seafood",
+    "Bar"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Romantic",
+    "Groups",
+    "Wine list",
+    "Cocktails"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 11:00 PM",
+    "tuesday": "7:00 AM – 11:00 PM",
+    "wednesday": "7:00 AM – 11:00 PM",
+    "thursday": "7:00 AM – 11:00 PM",
+    "friday": "7:00 AM – 11:00 PM",
+    "saturday": "7:00 AM – 11:00 PM",
+    "sunday": "7:00 AM – 11:00 PM"
+  },
+  "description_short": "Mediterranean flavours and craft cocktails in a stylish lounge setting near Beacon Isle.",
+  "description_long": "Sotto brings a touch of Mediterranean sophistication to Plettenberg Bay's Beacon Isle area. This restaurant and cocktail lounge combines relaxed coastal elegance with bold flavours from across the Med, serving everything from mezze platters to grilled line fish and wood-fired specialties. The space strikes a balance between casual dining and date-night polish, with a bar that takes its cocktails seriously.\n\nThe menu leans into fresh, shareable plates that work well for groups, alongside heartier mains that showcase local seafood and quality cuts. Their cocktail list is a highlight, mixing classics with creative house specials that pair well with the ocean air. With its convenient Beacon Isle Drive location, Sotto makes a solid choice whether you're settling in for sundowners or a leisurely dinner after a day on the beach.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJOXvhWADjeB4R1Fe6HIXrJyI/photos/Ab43m-sLkLWeG4TTVBjKDHeM7xxPulHoSM634vAurTeWn8ayXt4lKIfYe3sl-PmmpdQCVX_craUrPUTtUyjVjEuOXy_3DDiTi6XL78XINO7SCjrUBZfXnwMTrEEl_JfgO9bqx8v1BIJW0-fsyywRAqry5E0GC64mUNJIEJyIBWj2k1SJfb7dQRZkruXeQE9i4PEsR51gs2P-3U_kedL5vaNHMS9tOvuoGRfZbexsk47JCpRsCwPZ7M8osEaGsHq4e3OBdIlbweVR5tcVauJ8g8cV6EUL8MzPoUPkIizjoWkbeiTWcw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJOXvhWADjeB4R1Fe6HIXrJyI/photos/Ab43m-t3pUFCCXVJ5lCE_T1HWVsHky0pRMc8FLoDCHXxm46PEKh-cxJMl2IPQVYguApdMYS9hS8K8HOjx6Coy-CvpcDlJFvKz8GaXE0GMYRIaNtoSh2HdAC99MxNn_sIXfKplAwOn0fengSvVTXCirMFgh45pp8UTuAAP5NqTrzsCCA-ERmDZxsOq6jSh4M_b9bbjEFy_vq-PezIzxLPnTjk8RtBVSF4EmsTiuuN9MqhDXSZJ0HVSjIHvqgMyJnaGX0FmMPHDQUou_O78HFNn7gjc5glKZz8CQVrxdIphjaDGnz_Bg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJOXvhWADjeB4R1Fe6HIXrJyI/photos/Ab43m-uoOKEHypxiYPAQ-6c8sdVxgAoKu4AMuy5fnO6MO8Zz36f-Law1Qnf7OU41l-r0KUeJRJhfDFq0ViYuFzNyY0gjk5uJYlK6LnmdXLPl9s3_ESxzXefCEe61bW8e4h4SOfW4RtH-56CaOOqeYZFxY0xBG7IDYeyaXGz8qeQsnxyVqFGeZzI02M5X1kq8pgcbwLRRE7Ot7d7rEZeNe8ac8ZZd1YsIstgRNDTvOjZy6N6f5nP9IH6g6xW8aYbU3BgigQQLkLVjIGVwo3nByEZwi93w18HfUX9QnflWey_HzJ-dm88qapzA1hliHteFraWAOl5n2lEULo2CLFpT6hXRaRDfDotwt16KxFda_P1BrPV_vt_ua4QY7cYp4PyJa7-PPBQrBmwdLlIlepi3_-nfijH6RgyNzvH2dGsBTLQAVtt57hMlzs3GO3EMn5hJ5Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJOXvhWADjeB4R1Fe6HIXrJyI/photos/Ab43m-uEoz3faseDGPW5mLyBUsB-hKwW-ojngkOk65e7rrQIjSqK77qfLIUcBniapHN2y0YSjtZCWuHTuFosVnjW5P8iR2V2J6qt9QAS2VbEGej3iJqgf6gJJsnxaOlc5LpahZAjXIsghQtLXOm-Xm5uB9Ju9sOav4NkoDPVgwpW2qAcOqLK-hEtCvbylHTU-ALqw98DLEDJXQU7Nvko9dEbkm1U6Ll5IQNROIimDeliFibV52xIqIVXHN5wdaJu3gDjjvGBcrxysBuxchqLmCuik2jmn_A4AY7O4DHhw3DNbFUJYg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJOXvhWADjeB4R1Fe6HIXrJyI/photos/Ab43m-sQ6dvf5vVb-xQqA9iX6RLUOUfGxF7PjpnDNlpIRER2L3NpeDcjJhwNyCCZMm1WY3hDdKRjRbtPdBu9IQBLeMyBA152CZ-Y2mM5Ib31G7HxYxOhwN3y_DnI9kOyvNwI_0ywMqYkVuVypw8IZUtyQ3KF6lDjVLQXw7u6PaKzbpJ3jT-1nrJLTuUxiGAU5xbSad6pCg5gKv0dQ7X64p-mdd8B3fsVWhnD2l6DLc3_PE8nOgCGn0indvun-j6WfQgOGCQROTIxK8lOh9uMCUWegZVcC5ON_6YE_PgYzAwT_KbYk_d0tdC55d_1KnGv5WQbUqT7F4ojyFdoI2X6fmCFf-7XxZ-rcTTugRwJcDw6uQfw-PD9OEToI5UctIvvMqKoQZr_PLuGHLNq1ldXbEM-4wfHZFm0ZG2Vs0krYsCvdQ16_tfBnr8FeMnmtqKLkg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:42:03.623127+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

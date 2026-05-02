@@ -1,0 +1,71 @@
+{
+  "id": "vdm-bistro-sedgefield",
+  "name": "VDM Bistro",
+  "slug": "vdm-bistro-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "52 Main Service Rd, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0166217,
+    "lng": 22.8064181
+  },
+  "phone": "+27 60 738 3693",
+  "email": "",
+  "website": "http://www.vdmbistro.com/",
+  "google_place_id": "ChIJqZEq-j2jeB4RGVn2XnFLaDM",
+  "google_rating": 4.7,
+  "google_review_count": 192,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Burgers"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "12:00 – 9:00 PM",
+    "wednesday": "12:00 – 9:00 PM",
+    "thursday": "12:00 – 9:00 PM",
+    "friday": "12:00 – 9:00 PM",
+    "saturday": "6:00 – 9:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Cosy bistro in Sedgefield serving honest comfort food with a relaxed vibe and friendly service.",
+  "description_long": "Tucked along Main Service Road in the heart of Sedgefield, VDM Bistro has earned a loyal following for its warm atmosphere and reliably good food. The space feels intimate without being cramped, with a casual bistro setting that works equally well for a quick lunch or a leisurely dinner with friends.\n\nThe menu leans into comfort food done well – think generous burgers, hearty pastas, and daily specials that showcase whatever's fresh. Portions are satisfying, prices are fair, and the kitchen doesn't try to be fancy, which is exactly what keeps locals coming back. The wine list covers the basics without pretension.\n\nWhat really sets VDM apart is the genuine hospitality. Service is attentive and friendly, the kind where staff remember your face after a couple of visits. It's the sort of neighbourhood spot Sedgefield does well – uncomplicated, welcoming, and built on doing the simple things right.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqZEq-j2jeB4RGVn2XnFLaDM/photos/Ab43m-vBUz8MaFUVTT06VfWVDDN-dL84fjEnWJT8xJ1BPMC9gBuXoq9mE-q9wiIxlkqN2INMbIr3QaH-pON7hMUCOEouRcsBA2huSCrbkBo9uY_wEM7-Y35cE67q6KV-7pPd2SQxNn5rRxlteRgLs8hYTsj1YtyN_viQN8TlPXQuOfIztn7P-fP48Qmd-FNLLVNz_HKcwvXjJYA7tr_phEe7ASR0U6yjB4zEjQNh-rNysrR38Cd6t3MoHG7XSPcDF91Zr7_dhdcWg_dxEytuTFstG5t4X7kRMlTpiPcE0eZRZog75Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqZEq-j2jeB4RGVn2XnFLaDM/photos/Ab43m-tq-Q8SUYtcxyS3xqnTVYbA0-2Gyk_J9IdcZ13EotaWo7z0LK3JYURnkPfCechoIfdAlxoEBmDgFcq6eEESPn8ac-K7nn1JbribnTdCAkeqK6q8CMkFucAwmL0o5UWqHMY1_-ZwIuL_MO4UQZ6v3948BjYitoriJfYfQdDxoH7JMPReqguTBVrF_fTij0SRGsc2Kolmiy3P4IboO6Bn-FFu8-ebQ3eg_5MJR1dJ9SZmVb9DDnDiPA_l0oZlx3HawfbW-HWlmR5QX5QfsE6NMx73FPIkONTZRXxyQTFNZEMsIA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqZEq-j2jeB4RGVn2XnFLaDM/photos/Ab43m-v8jEOLC7Y8liKv9pvRWvFg6pUjm5CNDEBpxTCptAr_twtHNC7vlDMImpGGVK5LnvZLHvwVG92giyM0zY0SlhmgMDD1Wv4Vojtabf_xWidEQJggjENh9Bene7KYcTkbRp61A3Kxpas2R-2_itY64DfhO-M4mrp4c6-nZpCxc5m3xt0CXvgln56RrL4as5hEkRvf9ZbLUO4DvFYX_-M-E7aDl9GIyktgwYcah7vmBkTkEFolGhSzOD5iKj1-Sd9sSOUPTa7JFUnB4W9c03Xr-EujJZbt1Rtmyim50-78TsCP5_WqPNOqaWWmaz3Ba5g7RdLSdyQKiXle9CfdpJbgQr2Csv9tyFFfsUlNxxuW6qPyBujrrrcO4_7v_HSaqydo0niFetJFfXWTFssD2fS4cNz8d4UvWvoHx36Qjd8Ve5awgim-/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqZEq-j2jeB4RGVn2XnFLaDM/photos/Ab43m-ur3WwsNTvl3fkqxaTdGjc8FjbEycHTkN-fFM5VyMZQL2PpKnVVOYTFvC517_Ky7XVuWRKDUr6JH-Qs6UwnFxqijnzHBHNBGx8FtsKB_RHKnijnrzzbEg_Ozb_DLRIIFN7TpeqL63MWxyeKsZuHK0-bEezLEHYMTPFwBPI78TmQd_cqjWjkz8cZ1pgCyW1mdDWjhSPnW81K-mAo8lMhw6lH0a0mKUHh0o3q68i0YzwLLFfxrLfwAJwoMGFBBZJ6GVMi7LKfJa9nuZSqHS0zK-U5y5tyVv9Cn693tT-3QSIDZw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqZEq-j2jeB4RGVn2XnFLaDM/photos/Ab43m-u28hFvkt3kHOEClTzKNLMMQ--V1zRjLdBYEEYn2KfvvWGLU2n3BRaxjzolydPaQKBWa-2FBaNtJftzZR_nycRRJve-jBrfO16he1vMC0P5SNRAb3-lQxlI9FX0zCENOwHtjaW8VvwqIKkQqaNJ-bUxdD0-5c8ctT48fiSqFZZSYaZD4chsSnuXfZNYAcvFO7V02_gXynpgtzDvjIKXQkdlsQYgTtqg7Yow-6W_ZWYjV9z29SqcC7QjBZ8MJIK_9f8Vu9CiqMQq7ZCuqZxI3EBUDTLSmfKS7Bq0et94I1lk-fk7l69XNHQRb2_OprF8yUKUN6Ao8EOum0FquvxMfd9n5R5LlmVMaYK9u9roCimtUP0OR7lJq5GRHNSNzrnWduLzYdOSwpZ1Je2iQ4ItYWuWd0557rFqCnHTzSC5NKLZ5g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:37:38.443760+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

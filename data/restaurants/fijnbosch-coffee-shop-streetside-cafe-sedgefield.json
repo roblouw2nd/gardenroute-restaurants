@@ -1,0 +1,72 @@
+{
+  "id": "fijnbosch-coffee-shop-streetside-cafe-sedgefield",
+  "name": "Fijnbosch Coffee Shop Streetside Cafe",
+  "slug": "fijnbosch-coffee-shop-streetside-cafe-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "30 Main Road, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.014206699999995,
+    "lng": 22.8012248
+  },
+  "phone": "+27 83 943 4684",
+  "email": "",
+  "website": "https://www.facebook.com/FjinboschCoffeeShop/",
+  "google_place_id": "ChIJnfECmS2jeB4RHZH0VJWNeoI",
+  "google_rating": 4.2,
+  "google_review_count": 302,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Bar"
+  ],
+  "tags": [
+    "Takeaway",
+    "Groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 2:30 PM",
+    "tuesday": "8:30 AM – 2:30 PM",
+    "wednesday": "8:30 AM – 2:30 PM",
+    "thursday": "8:30 AM – 2:30 PM",
+    "friday": "8:30 AM – 2:30 PM",
+    "saturday": "8:30 AM – 2:30 PM",
+    "sunday": "8:30 AM – 2:30 PM"
+  },
+  "description_short": "Relaxed Main Road café serving coffee, light meals, and cocktails in the heart of Sedgefield.",
+  "description_long": "Fijnbosch Coffee Shop sits along Sedgefield's Main Road, offering a welcoming spot for locals and travellers passing through the Garden Route. The café serves everything from morning coffee and breakfast to light lunches and evening cocktails, making it a versatile stop throughout the day.\n\nThe menu covers café staples with a focus on fresh, simple preparations. Whether you're after a quick takeaway coffee or settling in for a leisurely meal, the atmosphere is unpretentious and friendly. The location on Main Road makes it easy to find, and the casual vibe suits both solo visitors and groups. It's the kind of place where you can grab breakfast before exploring the lagoon or stop in for a sundowner after a day at the beach.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnfECmS2jeB4RHZH0VJWNeoI/photos/Ab43m-tWl9o_uRUSdxgkJ6wSh8pRgAxQx0mW9dWC6Rukz6jvkZKUp1B1J3O8iS_NIBTs-p_Y6kKOFmHxmQvaMjyMxuKuEPU6HzAEvZx0KHKmOVNzcZa0v6hsCfU0s3ItzV8eAYxUvdT-o_dsF_YF0XuRxpnghjzx6JwbB180zVEENOUIpYijlAenKXt4kaqcczoBCj0wGZk-mvsf_ReF-Q6_XVqI6ekz8l3B3r1FcPmEdMOINTpjRKr5ReUrA_V2xOBPTi5RD77QbRqBA_S_PkCRgvSweZWOIMeHWnL2YAYDCm9Lkw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnfECmS2jeB4RHZH0VJWNeoI/photos/Ab43m-vhPrRPulRZn-4mNnmiKBdk-W4ASDJF0pgvszjcqBwV-PjlY9pziYaGTRXakhcp-Gjima7TD_FfvKbenCaqcCvcfRuOjnhR995YBdzv09uDyBzo_V_ZHDuRJZZd7fLoM5OHiPH6gokz4ZQ5kattzE-Eo5igB3DfyjZ82s3N1_aUwtI8j4CP6afah7_7XZCH47isd_W0Nk5HcXspME_Ewq8LeccdfGVKA2q7rXPYWKUPJRSZcBLdc0hNpxBRMqeLLWRBsnfVUYrZ3k5F25bin5f_3FQ641hr1WiYmAoCGeO7hw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnfECmS2jeB4RHZH0VJWNeoI/photos/Ab43m-uMDHY16bHaeOmj2bEN6wUFGVFc4wQFXn1ElY-zSp1ha8_Px_zrAk6z3zuDt75I9LokgrRJuahcnMZe74xcDM0_AWQSeM4uLKV5nSvCH5EIlbIqxJFnGAlcveS-xYJKCYpjnrxoUCSfiDiH5uBp8WZWSjYyPe_cWW19SedFNvikH6d5TAtlSA-OXeiJ50f8huYHTEuNGnpAWsDiFj45D0rVWFDUjZv0rtx3gnHzqJrwFR3KAQCmF6b4UyKRTL0nbJsqzjvyQbqVi1r_vT4wuptlDKCZRzoFc2MPsekmVj4jvQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnfECmS2jeB4RHZH0VJWNeoI/photos/Ab43m-vCCGBopJfPp8o6yKwPRbqqjokn16idTxKpN_Aepmw7nA4uZjf4Aul5fCeI9mRjS4M52oipjFMj35R5W22otzl2RDwnKHp9YlSz9RlR4f0XMwKd7tIPS8tThCZDkc4oJ6cF-CHUTsZsew4HM_Qr19nzZFhEqn7B7ieYQ5MxsEoPRQ9_zwpqe-2dAqU36CYQS6zk05vMxxQsdSrfho58OWnbqhz9I27WcvvEeEqijATn-6KgiATXAvzuU5wakYJvJpfinWN8pPBoEf6Kf0NsCk8DpAyW4d5pTxpAJ8jH-dPsQPaP3rLmp-MG0pq0UWWOq8qAUO8tamJFl358G4iRIpodino3EAHrc6ESRKiftdk3deEsVI70-rDIVJFcXRgndMYdmi-N34RRVGhI8WcuM1Ph-JLxlhM-5ai7OQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJnfECmS2jeB4RHZH0VJWNeoI/photos/Ab43m-t86CuovEdV-wRxuCZ8SyFFkAXMLCMyFwM35yVxowoHAtct-msVPeLyHW9JzuymQGCSKVqJhnfeDOt-q-2iZHYdu_aBTCwlFtcFF2CtBjZk9gYoXHByXfq_c4vejx_JlbWUI2qkXbN651SvBd4UrCwqWiSn02LOJ7pS7bbWpzi54z3ml08YOgSkwE-S8REDGQJWHPAY-MRBoscSLr9c6mqXTZT93UPHIL_0UNyrAMkHLNuirg74gP9TJGuKQ2mAyZbVAk7ga9DazbfxVFFyzMrXDD7apKn-LoOWQqYua43Yo7ElVCk9wfygqZnPZz-w_buK6QFXG_5ZiUoS5sJkVykgibsKojKUtWRyzLo4JrgYwpgiEzai0KLoabNFFex2H_K541j-NHWmajOn2512ZgaHZ2QtLRe-ujh4rO5C1L81loi1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:39:43.295146+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

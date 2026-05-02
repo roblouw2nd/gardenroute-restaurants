@@ -1,0 +1,72 @@
+{
+  "id": "joplins-steak-bar-wilderness",
+  "name": "Joplins Steak Bar",
+  "slug": "joplins-steak-bar-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "Entrance to Pirates Creek, Wilderness, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9951124,
+    "lng": 22.594623199999997
+  },
+  "phone": "+27 73 347 8896",
+  "email": "",
+  "website": "https://m.facebook.com/joplinswilderness/",
+  "google_place_id": "ChIJiz1hnb0d1h0RVgyBQdk8gkk",
+  "google_rating": 4.7,
+  "google_review_count": 619,
+  "price_level": 2,
+  "cuisine_types": [
+    "Grill",
+    "Burgers",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Casual dining",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "5:00 – 9:00 PM",
+    "tuesday": "5:00 – 9:00 PM",
+    "wednesday": "5:00 – 9:00 PM",
+    "thursday": "5:00 – 9:00 PM",
+    "friday": "5:00 – 9:00 PM",
+    "saturday": "5:00 – 9:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Casual steakhouse in Wilderness serving quality cuts and hearty meals near Pirates Creek.",
+  "description_long": "Tucked at the entrance to Pirates Creek in Wilderness, Joplins Steak Bar delivers straightforward, satisfying meals in a relaxed setting. The focus here is on well-prepared steaks and classic grill favourites, served without fuss in a warm, welcoming atmosphere that locals and visitors alike appreciate.\n\nThe menu keeps things simple and does them well — quality cuts cooked to your liking, generous burgers, and reliable pub-style fare that hits the spot after a day exploring the Garden Route. The casual vibe makes it easy to settle in with family or friends, and the prices won't stretch your budget. It's the kind of place where you know what you're getting: honest food, friendly service, and a comfortable setting that feels just right for Wilderness.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJiz1hnb0d1h0RVgyBQdk8gkk/photos/Ab43m-uFT3dy1lyd71Dnf6rD4GFifAqWpxXnVJWIzq7RDYMqLcjKuXkNZZfZLpCkCrKTD083rA6_cEwDitEd4OW9wbvqPMi9gJcKU0wyDCdswzREcAx8S6d18gUABnZTbL2Zyv8Ayef59je-n3dubnBN4W3SosrrItFbIadO7hs-fpS4ifJEtEI0qMW1_RiEVdKitxn_tvtqN8gUAMoA74pyFuex0GWvJRHFi7VE7JxRfWhp7bdbzBojLcKvegkBbccJMDbXmeL-KaZrjmhn4movN1ro8lbnlnt3t1dRm6OUoUjy7A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJiz1hnb0d1h0RVgyBQdk8gkk/photos/Ab43m-utPY54Qqf8pzNw0R6lKZK7DhmXfX8L1qtSBBHm4eNt3JDYihQmE4f4LAD3yvfD-ezuyTA7Q6yu-btUL3YTi02uVE9VD0Y3M4cPI4ybk983goNZ7sCJwHOKX7vWpYf3XD9AyD1lZzRHNSO8bYM6sPQb7L8LgrC9rLlWlw4AsEVrO9iQxwp_Bm1yYZ36oXUXcWH5S21ssf-Lqo0dAoMNrLL8d7qlD7NMxJckK0QdXSVEu482BtCcYMRUfJPia96945L884Qc2rdhOIQQavqDKZDNPJHab_EsKC6w2jRkYYjTLTUqNIVH2GNY-CvskEcDstdY3H0kTlrwKRw1__4DI_kMm2FA-Osr4B3GdiBtnjp2PFHRtwqMrIjxukOzmIURlSBP1O5qk6D4KdR0vakSCEbglLgEtPdm-WN4p9wT2q0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJiz1hnb0d1h0RVgyBQdk8gkk/photos/Ab43m-stoAgWR4o5rZkNQK9cPIuf1ezFHmDVpgbc7HIPWFS3QNnuKSiO8YZcDSCbiO6sl7kosflw9cpZ3ZtXTqVE2LsqnvycOlSSQQyxQaxu8LbuPIx3ZntzsZ_XsBCrc7GUnO4LxAJr82bYTYe3e9sVwN52hWBs1Nq1Sk-6QLdM9Ed7L24BJ1hc1Hnuc8g5_n43dlqHgS1a0fJQoWZ6oBVuSAbuT3NzgKtTD0QPlJndm1_mTs7PrTVcOVTn6yp1APTJLovhK3qyUuyL8PLQfg8ia4iVgn4-flgOWLRaLPK0zKqM1Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJiz1hnb0d1h0RVgyBQdk8gkk/photos/Ab43m-sReMwpy22lhuXumyY9R3rVCL9Jvac3u7leUWxsjbfydXQB7MjGV9DO1y-wfO9XRTBcpMQjar-5UKe5pzgda5mtSEC4UOx_07eoXJcpxT2V_8kMOjbLA6g3cFlKacLoyZJIKYZZSXhNxcjOLZiLfcM0yBYblXRpMxIT9H0XNsbBtnRvMHuzBRrJj7jbDwC7eq5c-9QShBrQMt1BN3rsJmNG0kxDBePedJQP7QG88BVK6oZT-FITUuyeuXI14V8D6Udy3Yq2k6701lFJy1NL5fiBR0F0vwbl5_xNPP2WVOMuRUZT3QnPu-UIceuDc1TibjVIhuLN9ORlGHrVMF7borynq6qg9s5UvSmgwRPkS6S1HXYHl0r7Oawrmh_3C82RabBw4VdIrz5CqRYVCmOjdS3c9kwipGAQbjbXfBOki_YyLuU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJiz1hnb0d1h0RVgyBQdk8gkk/photos/Ab43m-tJGgSOheeqr9LiN-IiCIV9UvmmFwYvPnVM0jY8hls_4lfUm4qo7sjH96_SwroW_emApcMpYiujwk9N5MoTZjANMzhZYhWnWPZHzkOA3ypX50u2ukbnwr77AFMNrFqCmw-t6zo5aBiFRXfxcFKSJiHDzCu6KR_xko9mvwCw1gah3Tvm8hixp15GGiNZSnd9-UU2y88Pw5ldifYr4WIpjCWCPWlZbVWosNHpoj2gKwrbG2VDK50crY_rh_2QjU3fGM55rA4SuauB9XkenxtNMAE2VUZ3Fh1faf-tkzeeMBjmexTHKG8Qo9LvuO4WlngqQqRun3NQptkFCGh8Zaa3OOdJo434NkN5wzXPJorHz_F_kHzixoJQWUefuVW3cgluzULY4wydLurBK7tpLqwkabQKlwiMPt84wnO3tV2ihD-ohF3WQyVMry2PJBabJvO0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:35:04.834890+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

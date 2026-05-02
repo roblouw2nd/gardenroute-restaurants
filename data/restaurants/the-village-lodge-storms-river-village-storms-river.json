@@ -1,0 +1,74 @@
+{
+  "id": "the-village-lodge-storms-river-village-storms-river",
+  "name": "The Village Lodge - Storms River Village",
+  "slug": "the-village-lodge-storms-river-village-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "40 Darnell St, Stormsrivier, 6308, South Africa",
+  "coordinates": {
+    "lat": -33.973274499999995,
+    "lng": 23.887102799999997
+  },
+  "phone": "+27 42 281 1438",
+  "email": "",
+  "website": "https://www.stormsrivervillagelodge.com/",
+  "google_place_id": "ChIJoVMXFvRueR4RpqDu2sxo0bA",
+  "google_rating": 4.5,
+  "google_review_count": 197,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Pub",
+    "Breakfast"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Garden seating",
+    "Outdoor seating",
+    "Groups",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 8:00 PM",
+    "tuesday": "8:00 AM – 8:00 PM",
+    "wednesday": "8:00 AM – 8:00 PM",
+    "thursday": "8:00 AM – 8:00 PM",
+    "friday": "8:00 AM – 8:00 PM",
+    "saturday": "8:00 AM – 8:00 PM",
+    "sunday": "8:00 AM – 8:00 PM"
+  },
+  "description_short": "Cosy lodge in Storms River village serving hearty breakfasts and country-style meals in a relaxed garden setting.",
+  "description_long": "Tucked away in the heart of Storms River village, The Village Lodge offers more than just accommodation — their restaurant serves up honest, homestyle cooking that fuels adventures in the Tsitsikamma. The breakfast spread is generous and made to order, while their evening meals lean towards comforting pub-style fare and local favourites.\n\nThe setting is unpretentious and welcoming, with garden seating perfect for swapping hiking stories over a cold beer. It's the kind of place where travellers and locals mix easily, drawn by reliable food and a genuine small-town vibe. The location puts you within walking distance of village shops and a short drive from the forest and ocean trails that make this area special.\n\nWhether you're refuelling after the Otter Trail or just passing through the Garden Route, The Village Lodge delivers straightforward meals in a comfortable environment. Nothing fancy, just good South African hospitality and food that hits the spot when you need it most.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJoVMXFvRueR4RpqDu2sxo0bA/photos/Ab43m-v67haTWMOcv-en5XYX76403HjxBiLxjs0Mcf_yVgdPL4Afug4Sp76PcYtvAy9Fmz8RNXZk_yABHWLX5VxTWnzhg72PfsWBh672Q8a0GOZVb-BTb2_nNhf7KpCf5r9KxLDh4FbdMrRMyBRQJhP0z6Rd0O_2Z9H2uuwUYxdZ-aRpBu9k_K_KDpaWWS4fkt13QjfA1fmXqCtYaj_Pfx0WBDXMNALjpRitmYbwtlhvteCDNa1I_5hNqeo3VcyJq8JUjMIhOcMGBg85Zem7FgYeQIHjqR2gB4hl3AYeKn46mzBonQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJoVMXFvRueR4RpqDu2sxo0bA/photos/Ab43m-uyuF1UpQn3q4n2RR2G10ft3c_oh7Aa8NqSb-z0uUtpnaUvvyiwvHV65zsIeuCDt7e0evpmFI5RNtQaaUHMFz1qB4_0JOnWM1JgM13JX6u5ff7b8Yz-GGEJAOKKfmHjEHV8ChlanD6WRz17Q2WJp2gxZC2TIRavL_JJV4H4RI8SpzjYWhFpqQ1hsB-8Rm_QGhZ4TVZ2bK7cCoMLAsUwqmFSAP2LjQCz9A9MWopfolFwxSOLOqvW_mevudEjvjTigctJkgRt-ZP8uItLiQMgsr8QqNbLWkBm6bro_7tGNc5XwA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJoVMXFvRueR4RpqDu2sxo0bA/photos/Ab43m-usOHsEErhqbm2QDj4wWy-Zoidec5M_bNrlWcj2t9bdWA6pc8SH-Nzm01v-oPGWUufPEv9xKK33nn5U7ium08vN8ajdFl7o122hUfw_zE0D6wI2PzmYbbatxDAbiDERN9fvWk0QVhHEWae9Wk8d4ZIc2nxrFZ_r-NV5NniZWxm8WsrJE9JKxuhTw5gm2H1AjT-jvCNDkCZnZOx0qeL6pFxTDcn9lu5Ape18hZZSQ6yBJucF0DWK3se8ALQJpBMaWjxrSBgAFNhXOEP-2A5FO3_sBnX_IFROGd4Q-g3_5_yZ_w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJoVMXFvRueR4RpqDu2sxo0bA/photos/Ab43m-uOXHs03qm-CovG53gHRdpU-Rq1rZzdigIysUhJ3oO1Jk41c0io-oSFyNDKA2F7lkJChFbn7HJjirg4Tfr1sEnw7ZN8fjf8YzVciyGE89_Q2-aRoPxxhTOsbka4p_LrEtPjxmSk1122DXlWgPjBKSHJEMuDtWRGRSWjpwzaMdKLkfBTr2TAiihndzDAhaBkiCqyh2AiTOVEaA_TWD3Jne7BEr1-ulZ8dN-sazWMkuAxjO8TxoFJxTZYBs6C-0749M-2WTIa_hsuEZtxY1W4w049ZYben8mgJmlYuj-lLLygmg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJoVMXFvRueR4RpqDu2sxo0bA/photos/Ab43m-sZE5-YBB4NbBpeEa_F9b3TwhWTnoAYaJ65pihxc5IIP0Sjkk529D1Pl7t3UEiDgRhFXrlIi3eJXC5Ozty5ro8jd0e0k9cQzvfN81pgseD5J7avjq14gQARE9LH7ZI9aa55xOcjZS9IiBt7XjKlifUoRfT8vFu9LBRSkz2UDPVXhuPWzS6gxiHNKvDbX9q86JfChzxWOPiN4aJXS69iiBbm3pcSgw9KeEdsxiU55RKhmkKTN7ehJMFkdNgkSJBapYXVQULobC-99UFcb49NbSmCfjmjCRnPtIaaP_J9eckVxQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:48:37.038526+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

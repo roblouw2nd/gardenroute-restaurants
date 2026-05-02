@@ -1,0 +1,72 @@
+{
+  "id": "steam-whistle-stop-cafe-sedgefield",
+  "name": "Steam Whistle Stop Cafe",
+  "slug": "steam-whistle-stop-cafe-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Sedgefield, Knysna, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0132375,
+    "lng": 22.8031271
+  },
+  "phone": "+27 72 487 0395",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJUW0YmTGjeB4RySUX_DthXN0",
+  "google_rating": 4.2,
+  "google_review_count": 36,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Burgers"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 3:00 PM",
+    "tuesday": "8:00 AM – 3:00 PM",
+    "wednesday": "8:00 AM – 3:00 PM",
+    "thursday": "8:00 AM – 3:00 PM",
+    "friday": "8:00 AM – 3:00 PM",
+    "saturday": "8:00 AM – 12:00 PM",
+    "sunday": "8:00 AM – 12:00 PM"
+  },
+  "description_short": "Train-themed family café in Sedgefield serving hearty breakfasts, burgers and classic comfort food in a quirky setting.",
+  "description_long": "Steam Whistle Stop Cafe brings a touch of nostalgia to Sedgefield with its charming railway theme and relaxed atmosphere. The menu features generous breakfast spreads, proper burgers, and satisfying comfort meals that keep locals and travellers coming back.\n\nSituated in the heart of Sedgefield, this café offers a pleasant spot to refuel whether you're exploring the Garden Route or just passing through. The quirky train decor adds character, while the straightforward menu and friendly service make it an easy choice for families and casual diners. Expect honest portions at fair prices, perfect for a relaxed meal without any fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUW0YmTGjeB4RySUX_DthXN0/photos/Ab43m-vN690ia0H2lcEprTeucgJRL2iXm128PlSo4ElFLi75vi2YIpBgfFMF4YmKIPxAIe-bRLXYybB7pv0_TZbCgmUKlFxPAOZFMNuC-wq1diHXnl724zxDwRrCkmMZ6xi7SLjoJyB5wt4hDPAc8cY4VpxA-WllLhedlq64K0UigQlbBdzAIlFXKDdLJPO23RQuv63D2CZphg-Xqg_XFY92z2U_DYE8bczS8k3GUa4dLhp2X5_P9sFYqUp3F1QROkgNim-gnw5D5fpwgxE7F-5YIOUaiYOWF9mvNZkVYF9DMBRINcvatrhvbZCpTJ_p_ybAUEGhO_jQxyVXdG1fhdVOmk_H8-HP3odtBMljuPgl0DnZtcm3yu-Id6NR4CPFlo-xzT4N79aOnQayQrCt52S1s7oNHFChjyC8fLDXMsAawrdcew/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUW0YmTGjeB4RySUX_DthXN0/photos/Ab43m-uNBdVaueN1hGWCdHi4pPNQGaBcsibdFXUVcWgL9-0TgDf5uxqXzp_OVOuIWDT5E-tYZrCciO6OHSGnPskuR74uvLaTco8_8_XMxAIS03l4j0ezLSrodastyzxY_9WpObk4HO9TH5wdwGt4VSlyeawXc-y7PTvIBrMtKkKREEyjTNPkkOwrbILpkhmPAEiytVPVMuz3QlJxx2nhQkon3z3K8ECJmOJ6p-TUOvLcWFYn-wBmZyv4CH7dDyN8glZ6j6OPwRSXt2-MDWjKqCBXKbaVCszosPNvqLQkB_NErcXDOrrDNsvPepWRmrNiM5FkP_PNghlSOf1eed0HmndD9_-vSoPVn30HR2eAAe2leRPjAqd_6boP6XazSmRJVmoywRFduaKDFIKdJydLNohB_y60GR-7BRTPtYFnReg9addsla7u/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUW0YmTGjeB4RySUX_DthXN0/photos/Ab43m-uDjVEW14hlZaXLc00DEvLBARiRcjaKHHvNpObQe7Rmf8TJyh9H03V9oqFOGA7KgQtYl5NBL48Y3UNvmZfNuZuAVFXZYPCQCRiztSWo0cj_IXkE1qtxQJzizjdt11E4gSNwqanjIbJG0KbvcMUXDVnvBl81dbdwpenXxN__Ms_a87-LEZO1s1bUyLG17lYULMPD8p1N32OeBq6sqHiLttDMuIdiK4cC6VtIUXZ3swV1B7DhbJGsZZEx7B9wEq-jlkyurbg8juGWaXtXPuqss016D6Hcz6ltn00R3PRgW8gE6ohPQ7jlV1THmtCLIhSQ2GUFSkS9wwCbiSQEv7HQY_PBEetaNNDRSRZxnDQy8kWGNVRuIssW99SOs5lp3jnswLTzOMqJNA671u0MmtOjju6nfwFlTKJ13ZPf2zDu9ng/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUW0YmTGjeB4RySUX_DthXN0/photos/Ab43m-urO7nmzzB_He9p9ELI7DjTq7aXKuJigD8BgpvAcrNKS98SIxoGUyeBy47GlPv4seJ7jzxBt9JrYLVnyPVRHVBz8OoQPfsH3xRZw7kPx1qXzV2L9v6SoxrrJfhpvHln4FdwQ0n-hDMgeF_g8Js0edOl27Q3F6rES_XR1GiDAo1kNCsD1fGBJEN5bK3NdsTUa8-xP86Vu7Ooep5hm8IrMylvDU3-8JvXxxxxi1w5vNQGGDpsum0xTTozYsqoj_T-92js_hbzgIuycx6IBi8T4a_pWQLJoqtjZZc683FwPMLvR1aWo1VTUo8gD6Zl1fpQdjGbFMACqzo_lDGFD4TmxPFys35qOitNZOgsfIWJkzUekWd2Pzp62LUuHgQdunc76RBi5RFcaztRoVn6jNN9Ke18tbLLnI6sLbGTefTCrSX3ppAx/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUW0YmTGjeB4RySUX_DthXN0/photos/Ab43m-seguQd6sEI69AyiRyObHNpIEelhMFnJ9gqi9oWyxD0y-FFz0p1bCuFZ-cBa7A1fLp0uIuS4m69fTi7Y7q4hPrjqgQmv24UhLjZa5RvGGAnuR9VZK9aVk1vmc1r2fgoPMHP9K2aJ-TIcMaNiTy-kPnIVzMVDvEujTZ_gfrbklp9tTvNSzVa3AiVBewh546CUTOi-xh1RSLPRLT1fg45zbMXPOSAhW28Ds0Su882XR4kP-2-8TtWX9_-xTM5bVKK5_-C1g2fJn-HeJ2zjtl3Q1Om-DQt3wF2ZtVTZedNnifbCI6Sf4204YeoognY2MOjbKRRvT9I8xseFVVWmzjc6c69HUcIx1z1D6np7Ut1Tc56GcyeQh21VXhpoWF1isB4YQV86r_1nR8tU1zn-CVOfFPMuQuZFgRgOin0MnowwtaRR0aA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:22.809579+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

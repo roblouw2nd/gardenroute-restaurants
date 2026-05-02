@@ -1,0 +1,74 @@
+{
+  "id": "tsitsikamma-village-inn-storms-river",
+  "name": "Tsitsikamma Village Inn",
+  "slug": "tsitsikamma-village-inn-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "Darnell St, Stormsrivier, 6308, South Africa",
+  "coordinates": {
+    "lat": -33.973834,
+    "lng": 23.886559
+  },
+  "phone": "+27 42 281 1711",
+  "email": "",
+  "website": "http://www.tsitsikammavillageinn.co.za/",
+  "google_place_id": "ChIJcw5OccdueR4Rg9TeD5BzS_0",
+  "google_rating": 4.3,
+  "google_review_count": 944,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub",
+    "South African",
+    "Grill"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Groups",
+    "Outdoor seating",
+    "Garden seating"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Cosy inn restaurant serving hearty pub-style meals and local favourites in the heart of Storms River village.",
+  "description_long": "Tucked into the quiet village centre of Storms River, the Tsitsikamma Village Inn offers a warm, unpretentious dining experience that's become a favourite with locals and travellers exploring the Garden Route. The restaurant operates from within this family-run inn, serving generous portions of pub-style classics alongside South African comfort food in a relaxed, welcoming atmosphere.\n\nThe menu covers all the bases—think beef burgers, steaks, toasted sandwiches, and daily specials that showcase local ingredients when available. It's the kind of place where you can settle in after a day hiking the Tsitsikamma trails, enjoying a cold beer and a proper meal without any fuss. The setting is casual and friendly, with both indoor seating and a pleasant outdoor area when the weather plays along.\n\nStorms River village itself is small and quiet, making this one of the most convenient spots to grab a bite if you're staying in the area. The staff are helpful, the vibe is easygoing, and the portions are generous—perfect for hungry hikers or families passing through. It's honest, reliable fare in a town where dining options are limited, and the Village Inn delivers exactly what you'd hope for.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcw5OccdueR4Rg9TeD5BzS_0/photos/Ab43m-u-yUQ1LPiklzlfEPQnWSnTMAVgmnS1RduuxACNYFnL4tVUQYu_5i0obBeIMZcxXmqnu3TMNIpmH1_oM0_x6KnKNjvr928jiY1pA-QUfZe03QbTmJwcD2spK1qV6ZDAZnyOWndCETJUn7iJH3_z2Iq4cLBMQFUq2wP19_9Lg9NvSElZI84QuIXzJAoKFaThyXxiIcxXGonG63IGYXl-nSwvR0fzhtmo686boNXhTtWpZs3uFdN_D6pitk3Gm_Bgko3foEUu0nYuvd1AJGbcxjPpOxL7S9Qio6Bq2A1l1hNS1A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcw5OccdueR4Rg9TeD5BzS_0/photos/Ab43m-uPfUyTS0CZb1T8MfJ6U3CVAkY4dP17Pxr-9qcsweKi1GpVVnW39B5QTipoQ_JTWKuJ9V_J1cJRbfJm1d0laXsnI7e6sOPffjIlPHwTejoexwT6LHXr7lMTpg61xSrXJ8mUY22Teu8LeV9ms4YMsT28bYBbQCJDjXWQTd91L1yANNkUfZ1KkHdLRgGHwG1Kz7kqkSr1GiGijcFBNNlQZskijYq0QmH4p1o-AtRxQikxaC9lod7otcRyt5WMxfxQWVoAMgzXjE9w_OYUg2GNFdm7MXS2Ax0HkR1fVVjFqjM_TA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcw5OccdueR4Rg9TeD5BzS_0/photos/Ab43m-tZZbT3o2_oc_WAzeHHcEA2xBYdYl-OZLAgvie3F1Zhk4llBvbMQoIB3D8YLw7rATUaiOWo5PwWt6imU6MM8OqjneryuE0LnNjICPYytk0Wh9pH1SypoyHVy3oxNE7ePgPOrD__Y6K1oTV6R5OCMDQdAgQjSySlD9eGXriw5c3-YrjBRqNpg_NBPShiEmRfRCRgk-Z2pl1YjTDhwXtV3yKIKWdkFfm_WcOkB1ZPGPFwxhyXyq-2gKG6LIb8LhyVgKJh_LixD4S3IbFMvGixv_lssAUA2C5JKWzw_XaIkOKwS1R-JpBWOfHHBxu6qe-L_iwC7b-lKg3LpQEGl2nLtNEldmSnLsmKD4G5HHnptu1-FoIJlwxQW1uerK2Zo0P3PTmLSjtOuDJRm3ml-l2sip2Trh3AkF5Pbze_eiRPh8U/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcw5OccdueR4Rg9TeD5BzS_0/photos/Ab43m-tLZpLio_ARQ3guYSaVvpWH4-h5BynsG6-xwnh5yzmJ4Sj9EynbNBx9UYl2MC3-sh70gZMP930Df0f627E6RAiZDck7OnuVqEURBprBK5WhINVRwBsjYCfWaqiQtQfP1ZUBDKGX0TiNzu0KFZJx6TDBCJBQG5ajgMA0Nert0-6Y8gf1-vxkAIU-LDAgkPzrtLnXOv2RwKeluD9uK3ogRin4wnDuKxqra2nz7qTZ3CuXiZS1qEuqQgTcHqmu-Ec30kUruI7pb6RStcKPQzNChYkHlvMCIglHEMgYAAs3GBHAvUqiKa6XJhHSZMo0WbxLpOQ5Fdp9iwXR-VbEMoekuRztKiaCcQX6X09jPntDesi8N_zd91uTx-31I8-z1-QUkQgJOeQnL8NsKF2dFOHvCQmimJekobVLbH9G-3vrcWQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcw5OccdueR4Rg9TeD5BzS_0/photos/Ab43m-uGnar9xpHAMty22pjnYrzl--ynuPfHRFxR-khzyDRU6lqgip-jUOPaVUdxPODBz21cfDvgQXb5U0-YhUDPumkMUj4okc5zyaG24jH4dhPv2APDkdozgysF4XDupox-AdpGyRfTQqPx2iMXk7iHIVIViwD9a1KbHObOcG5-lIl6uZdWetqKnCiqCKmFDPqiXOB06UpWlwbFu4g5zp6akC3nLuGc9-My4hh5oB92pPgfe-oGMQnORuSD5RCdtfjLwKDos87D4Hvs_6ZwsUmKfLMec8tTWWD9rIpKi9kUaFc2ZQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:47:56.665878+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

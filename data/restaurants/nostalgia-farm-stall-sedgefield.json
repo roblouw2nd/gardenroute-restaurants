@@ -1,0 +1,74 @@
+{
+  "id": "nostalgia-farm-stall-sedgefield",
+  "name": "Nostalgia Farm Stall",
+  "slug": "nostalgia-farm-stall-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Karatara Rd, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -33.989151,
+    "lng": 22.805338
+  },
+  "phone": "+27 72 231 9301",
+  "email": "",
+  "website": "https://www.facebook.com/nostalgiafarmstall",
+  "google_place_id": "ChIJU97R8JWjeB4R8DWagp4Yq2A",
+  "google_rating": 4.1,
+  "google_review_count": 147,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "South African",
+    "Bakery"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:30 AM – 5:00 PM",
+    "wednesday": "8:30 AM – 5:00 PM",
+    "thursday": "8:30 AM – 5:00 PM",
+    "friday": "8:30 AM – 5:00 PM",
+    "saturday": "8:30 AM – 5:00 PM",
+    "sunday": "8:30 AM – 5:00 PM"
+  },
+  "description_short": "Charming farm stall on Karatara Road serving hearty country meals with homemade preserves and baked goods.",
+  "description_long": "Tucked along the scenic Karatara Road just outside Sedgefield, Nostalgia Farm Stall captures the essence of Garden Route country living. This rustic spot combines a well-stocked farm shop with a cosy restaurant serving generous home-style meals that locals have come to rely on. The shelves are lined with homemade preserves, local honey, and freshly baked goods that make perfect gifts or pantry staples.\n\nThe menu leans into comfort food done right — think farm breakfasts with free-range eggs, hearty tramezzinis, and daily specials that showcase seasonal produce. It's the kind of place where you'll find families stopping in after a morning at the beach and travellers stocking up on provisions before heading deeper into the forest. The relaxed country atmosphere and genuine hospitality make it feel like visiting a friend's kitchen rather than just another roadside stop.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU97R8JWjeB4R8DWagp4Yq2A/photos/Ab43m-u0gB0NANhldlThFzev3EXlOS7NRZRQwA7PSBy5IgjU4VuLdzetg8lgbwdWXVyi-ezf6EyOec69Iu4WG7_vlLkHCyWPEfQYxi6FgSX8rl60nP-JGHnDSYrJRqLb5LGksjfpNIi0L1TnUyh0_OTgIiOlN6wM3n8AjxjWbLDx9WRrzD8nuzu0srB1LMHxnHxc1_LPfi96GOBiIgNKDAudCXyvZn8hCgmR0uT7_XikNYxqorYFTQrDruV1Qi1hzm4gdRjenFAqIUeM2taq2Ge1So8lybOs985nHrAaVRKLbs7T9Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU97R8JWjeB4R8DWagp4Yq2A/photos/Ab43m-sE3m8WukHs7PxqvQzqMRVu8eWuFyjASFTq4ivPHKVoaAlDNCpJPFJsXVSjbRUKSCgH-osoMCZ2d61qkqfbN57RhBKiB6tFW1mA8aafhZxitrDuaezl_-nuFZhkzU6cmjDyTU9qo0Dpp6DfKIAK28JjW8Sin9pRznqSI24ziEhEfSDx2HyCZnFfZYxhOfUTy1qdSLnEwHdQtKwWwKrbOSm9VcoMc6SYeN49S_Z0dnKimZXEIjwKX5HyZRIriTDFdrmeiwGt-7ew8SWyNAsywBJD79ubsjcCHUfxHI4E_o5iFh6bCe5r6BOEz6DdLGOc75Q_tNoK5Bu2WJ0EQuXU0Hn1UnbxQWINweUgiHmB6R_JGKqFA_MtOIHoezvbd-Wv_I17ntXP-RTvr4_djdAhUofAmibOPoSwPgt98Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU97R8JWjeB4R8DWagp4Yq2A/photos/Ab43m-s9wec73MBqvUJCl-iUNzLBU7WJa4GsQemUPlb7JKlmUMJJV14eQmVKsZLRpqPrCfkWlmpqjapc2RI-Nhz0YGyQZtwVgMzbhxOqBYpbnlvIlq5DqMsFI_tJtUpG5GMRnKtVEpsPSurkN_gG5GFltcvB0DbWvyBqAZ8p_lG8IZz5tCTCWJYcluYSW3wad5J6paRkqURQMDUN-TsLwMS9h8a8X88oUNQeRUePeN6UWFNiSh1ozqErb7GfY8XdQb45tgSqW-a1Swuzeki4baQ_NACgLPkE5027LRASOZQXYvcZ72X5JbD54JgsRv5vV0ndm6Er9AXbnSJLNLD9MKtMU3Pej59ZwalLQA0W1q8eDSfMaR-gWF3m7pHkqQ4zwsY_tGB5Z92ygyiYHVxOhRoixY6BdtkDDw5oYHyYjdccvbKbpg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU97R8JWjeB4R8DWagp4Yq2A/photos/Ab43m-up9Tr4908ptpyr8DCSPLNeYRZ7oJ7lF5VcqZfEvOW8C67EzAq9Pz8DARiXr7q4MvXeELlkb0SsJ-8iQVw1yCISlvfgWzB4SaiPXMCV3A2lgjtKPkjymAUK8pPIJiCMdQUMz3nfaRHCN3ZHoBTbiGrYTdZBEmp1_Hll_NZYJjaTqxgZmaX-zjosbNa02WrsCD4mmc8gv_SnaASkX5ZNJoTPpus1RdnzdzveYxvaQPgGQpAMqF6cffXSN_TVCc-qmU60XcxLPYd-_fXTmufmvWhYYWFUUDGBZDE-M0KZA9T09Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU97R8JWjeB4R8DWagp4Yq2A/photos/Ab43m-vGcv2UemORgJ-YYdx74actZHym1bSkh8T_E0SyPiDQQab2Qzq9-ALUxxtowGm0DT9pVSCDVcXcgo23WDZdHJ1UcLFGWgZ3WYAI3iHwGwR_nd8RCotewuv5JzcvxTE5MFxI_WoDg2HzzeSY0uT_iQMa1G1CmzjTt55t_tk1M-OeXQv8fk_tO6jgDOR5mYzm-BKvVa_bdP9yVHkpbt3fbG3gKHsBXtmUf6Su1FtuKeEWnh54pdAIUFY3c2oPFfciwan2tIuRD8iKxnAh83wrBY6lPveEaSyFMWSOEhiV6mY155vwfNtXyrHbcbtl7vy3toMRB_UO9N2KERZX8C8AuWPV9nkj-UKpdt0zSAh1DG3Lb9RpLpMO9mckgHx4pOcvEPAqLYGYmKdPqZksxv0zqgXS5mNjJQv2lxMuurLyBlGDOWo2jLKRWM1tPgkOqqMn/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:39:27.626124+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "enrico-ristorante-plettenberg-bay",
+  "name": "Enrico Ristorante",
+  "slug": "enrico-ristorante-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "296 Main St, Keurboomstrand, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.003311599999996,
+    "lng": 23.4611442
+  },
+  "phone": "+27 44 535 9818",
+  "email": "",
+  "website": "http://www.enrico.co.za/",
+  "google_place_id": "ChIJ5bV057geeR4RWeuIaqej2Mg",
+  "google_rating": 4.6,
+  "google_review_count": 5006,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "12:00 – 9:00 PM",
+    "wednesday": "12:00 – 9:00 PM",
+    "thursday": "12:00 – 9:00 PM",
+    "friday": "12:00 – 9:00 PM",
+    "saturday": "12:00 – 9:00 PM",
+    "sunday": "12:00 – 9:00 PM"
+  },
+  "description_short": "Family-run Italian trattoria in Keurboomstrand serving authentic pasta, wood-fired pizzas, and homemade gelato since 1991.",
+  "description_long": "Tucked along Main Street in Keurboomstrand, Enrico Ristorante has been a Garden Route institution for over three decades. This family-run Italian eatery brings genuine trattoria warmth to Plettenberg Bay, with recipes passed down through generations and a kitchen that takes its pasta and pizza seriously.\n\nThe wood-fired oven turns out proper Neapolitan-style pizzas with blistered crusts, while the pasta menu ranges from classic carbonara to seafood linguine featuring Plett's fresh catch. Save room for their homemade gelato – it's become something of a local legend. The atmosphere strikes that rare balance between relaxed seaside casualness and proper Italian hospitality.\n\nWith its proximity to Keurboomstrand beach and consistent quality over the years, Enrico has earned its place as a go-to for both visiting families and locals who return season after season. The service is warm without being intrusive, and the space handles everyone from couples to larger groups with equal ease.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ5bV057geeR4RWeuIaqej2Mg/photos/Ab43m-uhQXI9UFcTdeH4fd5efuHHsmKVBkRjHMZNUSMUSiuMnBtXij2lLkOcRWljN-2BVT_uBQKZ_MnkOiDd9N7azmsFFdeB6evRgiYlhExruUrMHhVonqOV3x3FjWZJsYTf0E7IjDvowB78fOIyaiSd9l_fcqb2tRqRicqKgxwPWXAE2JiWvmZfzDtQ6twwnyUrZNBqzs4zzGU3jDVbWXHtBcJ_E5wwBwyfT2BbYaF2dKQGmX-Vm0aQQUeypfBGpmL522Y81B9toVlelgLr5QJKQumpVDp_BrNvJ_J87RcTN17mZP-LNfFVQ2gIRx0E-QeoihVu9avfsq_2AiVNsKX785BF0nxhtHhrtgrREoGrUk-OkciW1gSzkQ_siWUolM0POTPBdNJWXc94sAQoFBFwBe6ngdEA1qKNpXM88dYC4vQsUQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ5bV057geeR4RWeuIaqej2Mg/photos/Ab43m-vkY2OPUhc5vAc-xmSd-zOHi2VVoUkbghZb8xRBy0923-lmzZL2XNuu4Tbvm46PAQi19Dvt0Z_zgHQy7kx3sZzVVdiOdRj-xkUguDxthZ-VwXns65mAuvJf15xfVc1w5wyPsaGQ3kjUrWLGTQ2qgOXzL7vcu6MNWIfl0rHelg4WsHS-K3CDc5vM7L4Wf7ArkHxy80SjyayTaTq9_pvV-J1z7ZNr5YEgvC4dmsqhLNel8TqWRUTMQbwmGG5E1_PvU_xvMS9LybNn5bmlT1NpP1KgKdWcbTNFCg2CzHIhWHw1EcAyj1XzVX5l5LqcjzB2O2qOT4M2RGMTuQSH2M7S4LwBMx36QTkekKHENvgC9MtthWeUdaaQiL3jHv10ER0QIyvEMqkLdtn6TreTNYqjvDrPkmNk4jhku9LBwKIiImkNbGInjI09mqjiXEsiw_QO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ5bV057geeR4RWeuIaqej2Mg/photos/Ab43m-s3tkOAkaBSNmWbGtQhHg2axZR0txKAD-FJVdfnJvzw9K2iUyi18H8nIMC5ms1wqOXpij6BKCDF7aHSTl7dj8bEhdZ_EIudAuELW2xPiTdAT5vgCwGa53FKP_UIJzD7DjnAPkwtVZiS2sgYivZPJxPyF0yAazKcwRYfeP_CALHGQlD0-6N3CG28uWLxfIigcaECEoKivmvYys91GxGc4dXTClCcfZvmFsGkpO9yotqViDgY-ZM6IxKAE-w6lYVABDrkCHtWjIvZ6u7Wo0swZGcxzuB0A5MMNKOxpOY61uXxxtQ-5_5nTmh-6DjWhKzmw9lug32EanTDWEtd4jD9jDoH_Wm_NxRfWodHRgaZNyvncNO-SypZDJhGOx-hzV23oj7Fmx9n27M7EmSUjXnEs8vqsmEXWq6nZmtqLJydZVkXHOc-IVuW3Amw0SkSXt3_/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ5bV057geeR4RWeuIaqej2Mg/photos/Ab43m-tlxInTndpgZtCrATQllWDtMAmgBtk5jqrGw9np1dJgCi1txIYhReG58jeHG5la8VNR7vrvjL136lxVJh-9lugeNJZHrNs7m_DsNserBLSsJ_XpKY64QGG4W0CKwrczT2qdaRdwlJgl_hqu9r5TvuSE87RmMIGMHxxy188KRkpqxgn_pJ1keWIIkZo1ZBkvWm8PbqzaveXqqX9OGfs8LB6gqI2DA01ReZQ8qHzvo-XU-Re6fOI8jhPgUlBrUDP9qPniYxwb1-yBeQB_SaVFvpojK0AgwiJB-aQn5wNfg77PBQDf8SjdB5lH_1k5s8393hZk-zIn8cC681aYndEz5gkK2LGufIi2ciQtYUgSLKKof6pjUkGK8epFydTq-OXnVX4qoa-5PEzeFi-fbwJCZs7daAgWiuDKs1gork6Yi2uTTcuzuKpRHN2kMrzQL9ID/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ5bV057geeR4RWeuIaqej2Mg/photos/Ab43m-s_-9sMwmiKRZlZ044qG3YGPkYmFJwCv9NOo4WQ5KpJdEkH3-eEUcjHO12SQEIGsUTvXI1Ry0MArgGUoEqsR3spL6GFB654Vfg52T3pDRtUisyPKjmJ9z_Edhy8OxioDWmEsLO-llR2MGbtjq4ISPg1wYoGCDtOjGpVpaULuubjprl8b5xj4icLLaC3Gn3XAr627WHFSyx1XWt4KBgQqBBlMz725morUpre-kCxoWPYNBJJOH3hD4HOQlRoTwDa7ugfawa9Y1zaW5mjTw4a-jJ0wZwLcK1e9SaBYTFTnlWDNVHqdKfbfBsvHSPCZAxuSluntARoybqMWvJF3ADhRflJGa6oG_5vFT_31LcOrONfMalSDXlZ6CvgvydtFNnj4AXNo7tCG60XurKJFVRrgIRsiNV98jn5sUo0rHEFn6RDQvjPWrOyMpmKZ8MQ2MPU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:42:51.244677+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

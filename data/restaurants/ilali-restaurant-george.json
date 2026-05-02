@@ -1,0 +1,74 @@
+{
+  "id": "ilali-restaurant-george",
+  "name": "Ilali Restaurant",
+  "slug": "ilali-restaurant-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "197 George Rd, Wilderness, 6560, South Africa",
+  "coordinates": {
+    "lat": -33.9942855,
+    "lng": 22.5758953
+  },
+  "phone": "+27 44 877 0808",
+  "email": "",
+  "website": "http://www.ilalirestaurant.co.za/",
+  "google_place_id": "ChIJmUxHvCcd1h0Ry_dDziKHDlM",
+  "google_rating": 4.6,
+  "google_review_count": 1354,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Grill",
+    "Mediterranean"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Wine list",
+    "Groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:30 PM",
+    "tuesday": "11:00 AM – 9:30 PM",
+    "wednesday": "11:00 AM – 9:30 PM",
+    "thursday": "11:00 AM – 9:30 PM",
+    "friday": "11:00 AM – 9:30 PM",
+    "saturday": "9:00 AM – 9:30 PM",
+    "sunday": "9:00 AM – 9:30 PM"
+  },
+  "description_short": "Contemporary Garden Route dining in Wilderness, blending local ingredients with global flavours in a relaxed setting.",
+  "description_long": "Tucked along the George Road in Wilderness, Ilali Restaurant has built a loyal following with its approachable take on contemporary cuisine. The menu draws on fresh Garden Route produce and seafood, complemented by international influences that keep things interesting without losing sight of what works. The dining room strikes a comfortable balance between casual and refined, making it equally suited to a relaxed family dinner or a special occasion.\n\nExpect dishes that let quality ingredients speak for themselves—line fish prepared simply, hearty grills, and vegetarian options that go beyond the usual suspects. The wine list focuses on local estates, and the service is attentive without being overbearing. With Wilderness Beach just minutes away, it's a natural stop after a day exploring the area's lakes and forests, or a destination in its own right for those seeking honest, well-executed food in a welcoming atmosphere.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmUxHvCcd1h0Ry_dDziKHDlM/photos/Ab43m-tIeZO01U1F3LWPip17lklaCr9xCCS_4pDmobZ0zHpnVV7PYt9-UJxB5clbnd-bG4GDVUVyVEETxQckutk3i2B99mM4eeTl0hidDBp-TKASGpx0o4N9dN4EtX7JOQ2aiQMb_P_KoDWHSPCIrQptvaptzgYoIaBjezlkGJQOt9XopOM3X3zVptHn9Z5VxhGfyn7sytsEfrKrfbw1QCdhWiT6IY-JOeJqEi2IuM82Ln3nQUW2ZPJ7crmxittyimutlHnP62KqWKc6xqjIDW2j0wM4H_RlBOQ2MyV8leZWs04/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmUxHvCcd1h0Ry_dDziKHDlM/photos/Ab43m-ugrLDIbE4oB_6IgxRfI9d6HpgQQZm6zZQ-FcX1MkqvZ-heWLfBM9ARcMvmlKVTjOSPdpE_SLNnfwMzY1AL7vNqRaFvOOL39ycYfelLffRohBKt8fuer2QU0WtGnWWKu3-hYkLBm9ZYPU4vVfeQwfIwntHJ63xXVi3tw1aRPX7LG7nbNu8OD_Q_KLCbSNr1eM8iWKNK_5gjf_szJAiBYCFx24QWNYahXBeehHpjC3_BjhCRlM_zRUVnrZVChpKvnTKQPVrA76L7jY1TAEPUsYZScCXaA0uYB42Cy4P-W4k/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmUxHvCcd1h0Ry_dDziKHDlM/photos/Ab43m-vOwNGK14fQjkedMAZvI8u4fYKna4HQp7ogUFq6929yQi4gQVMdeRd9gvixijaWSzEiZ0b_N7XJiRmVscOL1Cv4qHRPgzid8IJHfGtpCt88loCfAVPEz17vDjJQ76jnVGOHVq8AnrnZ-G3LyJUKvi1KbIFdOeRBPRkJNUrRw-b6yGy_dslnvxJX9wkE3aQFbUgp-vQKrx6esVFYHsmKCzcmD2GTr1hNlrPIaXPt8kNAa4jtHM-L9DpRnwZFRL7E6dQLOMbQGCD-YdcVjWhta0g0nvrnLgbnxU-uDWUYa3x17OH3OUOhdBcWlkhkdAFeGgh7ENoTkYy9iNqUx4UcBShTzlXv894k-KIPeBnnJVT9MW27Ip0wGG_k-Eyj8KwInZ3wfGKaoL-navtCU1CeZK31DnRMpjGqYfOilmF_2NIdwixd_PAz03MxTZ93CA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmUxHvCcd1h0Ry_dDziKHDlM/photos/Ab43m-sZ7rrQaVd4O1ETW6CCr4anRpPUX1F3IXja1HGS0HqbsCRqpEvBGhQDuCoC4_FAxCmtLGG5AbRxbGSxIX_KPrwHSuCTlIOhIq8yved8fWzSKGIP96kAbe6kHRm32lqp8egaoJfSCrFRspDrzOdIxSmBQWulWMypaeXD7gAuMMmSOYy5HM6WCUoJ1AlrgpAUnouSvRU50LOdi-uzrxd9z-i5TZFQr4ZhmVxewcimSbFTplnuwHhO43B2x_fBsfhFOrJB8UsTn3AXJvRorsopVGgt3rzw59nCtrvg1ZWk2RwlcCSwS4QF2TzRSobcXOIK6nE0durszOnC6NKUmfA4nJ4OolMZdH9p4ZEFtPiJR5QRlT7oP8zKuI-DbF-kq8wwfVLIdQStxEM_lQ__7CCFh9nYhOIx-uugPFYPAjzzeZHX59s/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmUxHvCcd1h0Ry_dDziKHDlM/photos/Ab43m-s8GSkNGPphN4y-K5v1aTRPbFZatSD68V8oE9xGn7H2Tgk-rES9BpEg7krgWmhZSG39_joivxG0ad7Mj-Sg3t_C5j8Y1QiCce-ftWKLVsTBf9rrGFQ11TaNZ60RMu566wQhntoXcl6y66FPjJWap_b2-BZF2u5QpBdSa3-hDL6ufmvv4cYKNV2UISX6iolwLvWCBUYyTo3q1olK8eRZB8ssfimFHz8obfQTbd_DvjDombu45-eguBUQvkvIn2QDORQjW58JQYIB6IF1GX71ALfKU3rykCnEg1QJFuSX0Z6HiapF4GLwVAAfFsdIrJeV_MSCqHpXEG2SFbs9YaYMPIWo9eHqBHQ7Y3ZAC1jnDNf9rCy6pcPb-Qdkw4Bny22FptKH0ro8sIfhORRqng2Z5QnkxkDg6IhQxTSOFQiNmxHVMlVZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:34:20.957797+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

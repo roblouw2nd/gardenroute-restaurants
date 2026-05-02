@@ -1,0 +1,73 @@
+{
+  "id": "the-arms-sedgefield",
+  "name": "The Arms",
+  "slug": "the-arms-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "The Arms, Pelican Ln, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0186528,
+    "lng": 22.814049699999998
+  },
+  "phone": "+27 78 656 1802",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJIRsYNXWjeB4RoHoIQaawcFE",
+  "google_rating": 4,
+  "google_review_count": 260,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub",
+    "South African"
+  ],
+  "tags": [
+    "Garden seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Historic lodge offering hearty pub fare and garden views in the heart of Sedgefield.",
+  "description_long": "The Arms brings a touch of old-world charm to Sedgefield, housed in a character-filled lodge where locals and visitors gather for satisfying meals in a relaxed atmosphere. The menu leans towards classic pub fare with South African touches, making it a dependable choice for everything from a casual lunch to a leisurely dinner.\n\nThe garden setting provides a peaceful backdrop, especially appealing for families and those looking to unwind after exploring the Garden Route. While the kitchen keeps things straightforward rather than groundbreaking, the portions are generous and the service friendly. It's the kind of place that feels immediately comfortable, whether you're stopping in for a quick bite or settling in for the afternoon.\n\nLocated on Pelican Lane, The Arms offers convenient access to Sedgefield's village centre and the nearby lagoon. The relaxed pace and welcoming vibe make it a solid option when you want unpretentious food in pleasant surroundings.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIRsYNXWjeB4RoHoIQaawcFE/photos/Ab43m-sqQRLxtgqCiP1xKhenkX2fFFfsjc8G0aivADJCskAtAcck_BBcizVx_XdjIsbaPPMWYO7yvsjYtmzjKy09bEZKUw4hYpSsOq8oJIKeh4e7KJVZsOhAOdd9wsDdpQ2hQ79TA3WoX9Nb3PkyvMvDCFFZBh5UdclwM_y1syjdqMVxI_SloL_JoUnEXEU5Pzb1B6jS1_y8xWWFePmY5RaN2kwVlCq476PEnaBpZZU_Z_C_yvoJOsZbnDUWXWDpzHULb1VTddrEQogq0xb-oz0KOQwSgCq8v1QWYLC6_Bw-rBQ_LS_GXBLk0cPAXAYPmRmsatlHJxP-XPWFDMleCShHjotggdQ1gILVxC41jMG6Go5lC9KvEocAHzjGAQD6zZdbqBUWey0ELL5cL3P2eaLGu1jPq9NYBc11cnsihV21f68i_fg5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIRsYNXWjeB4RoHoIQaawcFE/photos/Ab43m-sWOUWCX1fEMaBkVPaTCW-I1XE4TogKUxRFLoHhZs1MI24JNY5wewhUkQ_Yq4ux7LqjGEcqhaRtdhnBkRXJRoo6X7Ncn-5HaYxyWk14CmzuTetm-2jCj517ZZBvQjjEFy55xRSEfS4LrSsEKWdlt-h7XoedqpCh7_JLJSxueALzeLbwsDd8r_YCJV6_0Xe6NsgpPtH2liuA0VdQ7xiumDfdOxixt3NICER2rQpT1lgdO92xTrZzdk6fXMKzYULxUcHVSvs8pWieSRGp4shgAPi8-DtCUe9U2oIt_-5dr14Jjfup_ZOibyM9heaRtqlhohDiMS3xV1ntxPWSkhyDt7Dpb7SbufeYmtIqOgLTEhDg1tBYiRDrisB8w-p68N6tOCkyp0m4-eWMz7Fakjt-bLmQxaRFtmgPcxUNWMSSi5wHxA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIRsYNXWjeB4RoHoIQaawcFE/photos/Ab43m-v_vEOKv2ZlTKbTtWGRfA9nPtYdQ_ZElult8sw8-1dUtLYCTn9fXRI57Yj-8wrAGBSZrO_Z0uwsHCZjkiamX92ONi4ZJl51PALYytOLNZe9opVN0IXjErYTmymEv78CzKeaZ7N2RIM8yW7M_G4aY8w77gn97DoqPgMnGULJg9DR2yKt8ICMGMJiEGNScjKWqRk_e3-DLSgk7m6BaXfbaufYgx4CjByqxjzNnVbD95-cctvLk78fT19ny022fGi6s58PW3xh2yyrFUxrpxloQFCWeQJcp5tDw1EiNfoPx0d7A_MWdp03GI_mZQSwYrz3sPcOKunhw2Bb3nJOe4f8R7_SinYwhPtpOiSrkUllKbbuZaSz90HfqJYW5jGghjqE3t84n-sv8HLc4z9ZpdbW-admh7ChIVnv0FkxhpFdRwWYdS_x/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIRsYNXWjeB4RoHoIQaawcFE/photos/Ab43m-tlAd9cPUg2Nwge0qkCr1NCtY8-js30HEwaKQ4Urx33_TACJlRrEXNyVrtDT2UEjtn8qVCyaI7vECbp1mEXkgmKdEKfeJ2lSZwEHFLLiPLocEynREatTcGwzGTsuiF3fNIAUt_8FwqZTRTv_YaEvdfspplz748L-G_-ncDRL6wcN5fR5ecWVHDmExH9eUx6qSzCPphX1dvgkfyeqjbociEw0GtZTXS0qIynK_-sE_DSkafNksu9W-hUUwVzdT1CsqlNbHv_zusAmiVXNMMLKskaWVleqbfan_MF1x9J_VXniw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIRsYNXWjeB4RoHoIQaawcFE/photos/Ab43m-urG2o6eOPkY0kC_6q11-ALX2RnkDIYOohtS8lgzMh49hmW1_DHJMfvqMhEELqB3TKQZtEGBilO5n0h6CvzZFbdrlyqC5Tlq1WeeliRo9S5uj7BWoly6hAQ_8fAk2b5cWavoTecyabxtnvmCApX63_9lSzOF1P5PxrntqVeYGAsaDXvTIuK4QAyEdjwBas5j_e1NROnTR9exmtCUPwV1RyLmgQie_XJ4G2N3YUpLsEcdiwOvUGizb1ZOJ_0alq3OmLdmW3pzNw_FmvBk90w047iDWpRGrxsesbNYBqVbRfw6TqNli2cZgEwgLK-3ZJvtVevIIDP0wawGEmQSmUcmdgM6CleaNR1RdyHPqvjaS5xA8aL5xNm6bgb0YrgXDLG-XcMYDLMp2qNPxyQvaFcOboS2DVTR7OmCIv6KDuYcuFeWg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:16.419111+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

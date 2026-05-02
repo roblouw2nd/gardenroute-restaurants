@@ -1,0 +1,70 @@
+{
+  "id": "ice-dream-land-plettenberg-bay",
+  "name": "Ice Dream Land",
+  "slug": "ice-dream-land-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "A15 Airport Road, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0830158,
+    "lng": 23.308271299999998
+  },
+  "phone": "+27 82 448 5795",
+  "email": "",
+  "website": "https://www.icedreamland.co.za/",
+  "google_place_id": "ChIJhxE_rJfjeB4RVvVMifrADmo",
+  "google_rating": 4.6,
+  "google_review_count": 960,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "10:00 AM – 5:00 PM",
+    "thursday": "10:00 AM – 5:00 PM",
+    "friday": "10:00 AM – 5:00 PM",
+    "saturday": "10:00 AM – 5:00 PM",
+    "sunday": "10:00 AM – 5:00 PM"
+  },
+  "description_short": "Italian gelato and desserts in a family-friendly setting on Airport Road in Plett.",
+  "description_long": "Ice Dream Land brings authentic Italian gelato and desserts to Plettenberg Bay, serving up creamy scoops and sweet treats in a cheerful, family-oriented space on Airport Road. The gelato selection changes regularly, featuring classic flavours alongside local-inspired creations, all made with quality ingredients. Beyond the frozen treats, you'll find a selection of confectionery and Italian-style desserts that make it a popular stop for families and anyone with a sweet tooth.\n\nThe relaxed atmosphere makes it easy to linger over a cone or cup, and the convenient location near the airport means it's often a first or last stop for visitors to the area. Whether you're cooling down after a beach day or picking up treats for the road, Ice Dream Land delivers simple pleasures done well.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhxE_rJfjeB4RVvVMifrADmo/photos/Ab43m-uM1N4VnveaItBrf-TQYi6I_PtcF8hhvdTdVmOez4pPtrk2vNoS-CU6TpIcX6zXBHC0LlFsBG__-Qv1Q_SDoj6VM_VRnkOSgMDIueQ4ud4npRDExQNLhIVRKKa4UkcMnUHEqpCiPfhp-W_OrKp89DMRKfzsPscBu9_QFMZFUoXFMhQpfJ-bbYb9atI9cdsn67Pqo7P1mlmMVLAF7fi0H3po4gXSQBNIFkfFnkLSlHKjoD6gMXCIOqaop6hIjSV6pfoh_ggw0tPBan2E2vMpIFKkpY_KTYctTaWIdLMt1DEqrHbljRtXi523flP4GS4ZmKaR208192En4H3Ixf-mVK-Hs2mwYKXD2xV3CG29Ws5iETLrIoDOM84XyxRCHK7nxvV0y_4zquj96AU5tp03vTqZchb3sR8lqwwqmpLr4sIBjw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhxE_rJfjeB4RVvVMifrADmo/photos/Ab43m-vXlu93JTIJzl1dQoUvwqSioZ5f9A6GLHeG8m4x08lQQ-BqO6ZpsSsZYdrN8HvyUyPWOlKopIp5ZhnY3LNa_O3BY1XVBwgZc1lxzYtmzYv__mMjNgn6hBCXocBngnu0LgrgEGL9AKoToN68gqAp8zps_kZgb0amuE94LBY53vJ1qXw1DNzZOKoium7XjYCmY8G00XfR-PphM660hwWrcdPmKC6Yzg_SAtZu-lIgVp736IUL-bCaUEfbK99P7KI4V5WB5eoX6NUx2QnMhP0x63EOne4D7vrwK5uaFf0kAzPQwDE6ar5s3_O-enOZWbrZ32QU5EKT9lqp4VTg8sJDeMhRu61nGb5GLShk2uQP7HnXnIKkEx5p4F49JTNb9qKK_TUoEsmCetu75kzh3qeW9SBn2Ecwml6FlHyl3CuIAI61S9-NTzXWDu-P8wYPXps7/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhxE_rJfjeB4RVvVMifrADmo/photos/Ab43m-vo7n1a5qWVUa2sBBMvhVLxbZEyKS3iATNiH41ll5MJCjhoSpOFtRylfyGcVXInkwvRGvRJIoq9dn2aYvsIS7PMVauOSvvfOKux1y1yYMV9Kg5knup5Bl-88TI0wmw3boWuTquXF7pC964t9OnCrW9711XEvjUomNMRv-g9jxZHG93JjLiE53iwRY7fzdnTq4XhBteZdRgc9dRLnFFzWUqPlcwtbgeFxlN_6YW_v3I1o5IbedE1zXhqUsN0Mfa40-wGlexr66MVEEgUZNEGDwKCRdB0GNgYdTBAdmb1RBlc37l3TS-Xc2K1c1tCadRWuDY69JVxQPpX_dunngqeqwzKgeNk0aahCf3x5BCUsziU_riYYjk-oDo7ZE4tfe8t9BlKBihTZc4mBhTA2hR7yCiJ15ofItPCoP_LpWLh4EdpMkEpwfJ8TQ1ydpqQ-ids/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhxE_rJfjeB4RVvVMifrADmo/photos/Ab43m-snQIsKKKYEf61qLcolWhHk3QJH8tjpgh7g3lxw2i-TFxcwMTG3W4j6dacejk3Mjkt9DJn_yqoGH_e-7Ga3r4oItruK7ywpQWI4wUxHEk2X-PxdgerTPd4bcrAh0F3OHqOBelhd-SfUCuRIKDgkhzxRQPs_lZgxWrJGhJS6tz0YzhYcTyJbB0h7UCsCgkr0QvG2Axzba0eCZ3-PSRAWR3ocQshp2xOX2p9GHCMSnrBhCohbkNbpX8gfxG59uc1tSZlGkPnt5aM_BqvOpJHKZZgD0MKuLsJV6E60F__pBQlvi8YqvtL28wTuusJcfWRO59rFdTa6GCDQ03zoP8msFDeRfI_MNxPa5ztdDZj5vMwbN9fOX_iAbon-CpRjsCH_vLwSmDFw0xNecFkZ5DQxoEvtn1fVckuo7VGsNnUVG26LufSi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJhxE_rJfjeB4RVvVMifrADmo/photos/Ab43m-t8p-vIuL9TTupL41XY0glpardji48SyFqanfUKqCXVAaXVI88PQd0dJUw3QpYDPgshBKoxthqOiaxWKk36hTMKGrxeS1VSmMbStChRFFKKVTXtw1S2p9adbPk17KAud_WbH3mWHgiLrUJJuVJrsSHJBkmWymd1BWIgHik968kTAoK_76q2-GWDQsWXJJjQK2eJUhfGbVv3S8IwRONo5tl9YjARSv0CogTnC-489MQrE5KEhjgD3ksDH4j3RZy8Pn-FJOv_e0zUg5fQbQOi_p4wTNKW9VLhfjGbuBb1s-YBehf9K2KYNa2FERENbpPXQN-z-HytUQaCOZhPg1V-oCgaakf5q-tCeNkkmKJLzkAaXQpfskXQWxy2ZQ7Zg8ifJ9Co4M1wpmg_zGdw33F7i4B2Q28oA9E5UrDv_TMGU7hWy49P/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:43:20.557164+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

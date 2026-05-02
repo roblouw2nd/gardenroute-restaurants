@@ -1,0 +1,71 @@
+{
+  "id": "delia-s-plettenberg-bay",
+  "name": "Delia's",
+  "slug": "delia-s-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Shop 2, Robberg Bay Shopping Centre Plettenberg Bay, Longships Dr, Whale Rock Ridge, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0849073,
+    "lng": 23.363952299999998
+  },
+  "phone": "+27 44 533 1535",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJIfZtNR3ieB4R3qp9EIVRlIM",
+  "google_rating": 4.4,
+  "google_review_count": 174,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Takeaway",
+    "Family-friendly",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 6:00 PM",
+    "tuesday": "8:00 AM – 12:00 AM",
+    "wednesday": "8:00 AM – 6:00 PM",
+    "thursday": "8:00 AM – 6:00 PM",
+    "friday": "8:00 AM – 6:00 PM",
+    "saturday": "8:00 AM – 3:00 PM",
+    "sunday": "8:00 AM – 2:00 PM"
+  },
+  "description_short": "Neighbourhood café in Robberg Bay serving fresh breakfasts, hearty lunches, and excellent coffee with a gift shop.",
+  "description_long": "Tucked into the Robberg Bay Shopping Centre, Delia's has become a reliable local favourite for residents and visitors exploring Plettenberg Bay's southern suburbs. The café serves straightforward breakfasts and satisfying lunches in a relaxed, unpretentious setting where you can settle in with a newspaper or catch up with friends.\n\nThe menu covers café classics done well—fresh salads, generously filled sandwiches, and proper coffee that keeps regulars coming back. It's the kind of place where service is friendly without fuss, and the food arrives consistently good rather than trying to be fancy. The attached gift shop adds a browsing element if you're waiting for a table or killing time before an appointment.\n\nConveniently located near Whale Rock Ridge, Delia's works equally well for a quick breakfast before heading to Robberg Nature Reserve or a leisurely lunch after morning errands. It's straightforward neighbourhood dining that does exactly what it sets out to do.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIfZtNR3ieB4R3qp9EIVRlIM/photos/Ab43m-sXN11TCGV-72zY2iSFi08EBOzqDMSm0PSMuuHMAhbYXiFDJsQfgQqLy4NiInGlyZ8R2idWqVY4dJJ5KFrUWdAVYPYLZEdlyMhjcjk4i4IqUBEaUGCxMg72rxTouoU3o7TH9dAuHYhmPWa1zU4vcgcvEuHVHEzi8EEA7YrNeLnnndq0DDXqTpzPACV5jP2-FbzZjHvQPhj7jUlo6k8AhITPa_n10S1oNwUuVxppPOWHIQqWp2AHVZSVfWDfq7PA07USBhVTxncsmKxEeGy7GHNZVsS1i5xiMgMlCDsLOF3CtkdcI7ClKKYnYbHNoo4EVgP97CwydsdHoj0Oy7MkaMKbNfPgYYeD14NYpV9ZUznPmfe3gbBSLdyeKUBacd9DD4UqWoU9b5n85ighKAjPRVmME7R6nmTq5XF9kKgN6ldmbHX-/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIfZtNR3ieB4R3qp9EIVRlIM/photos/Ab43m-tSB1kDGR_EhhaUzc3HcOHGns3QVPLZsPqxeWYdJtx4nslrC0mqwPD5Ox7kFLp93PoXBPl1Kzahq32mq8eXxacHvmVnEXO6Ele_OnN7hMByBxmstdgZ5CfgF99Cy7bSsH9MJzMlwLZ_r3EzTz0-NlxzIJrUYzGfj5qNUhbnrFs_frO6BHsAH2n8L3Al_J-mp3XP3Gkrtp-Xo30ERVV5zW21WKHudmP2V6YMe0XYQ5OJSoroOYh1MMfE9DMwZqw97FXaRI6AwtALByVZf1DT66uVXXOALXT0lLL9_InmUFRNKR2QqtZgaH9prOPHoHLnX21vLOH7qMttw_1Or-PcXvPOoB4tQnJEAFFxTDiAEA2M7x_MYR7VvBG7_Y5x5FstC7K6y9GAtIf36SJQ6FbquPKBV6r0WXEJ4nSp1dKkeuIQYg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIfZtNR3ieB4R3qp9EIVRlIM/photos/Ab43m-t4pGs-h7qHvkShdfukRxxgOj3rrabP2PKbcUkiTM57mew8epmg72Z-b0e4BaVqok299eL1V4LE_hCFlLLSyE19yWuba0ePTKN75tHt3P9n-rQb1UDHw0jfAxohuqGUL6iLrWZEAaSZpkgJnSi6PCIXSYE5NZX5IGNlmGxlhbshGMRIRXPPrQi20_PkvpNHQPWjGkyGjVykvAA_S-o5eWjpTVOHzwVg1dzKkMde57aXyNxHybm29bbHFg3xf-2u2XHMuXw0GGSLx_BrHsLH_4b7H6iaoaFw7WqJSRQPp_zORwMjTFS32Ag6l29tfZql2cEnxaUpRMnBa5Ek8iloDpvRjSqoqJtqzaTM3KTo3yx-JY7z92LcJlTdYGXHgGdu7NCPjfB3RLW6fHli-UkUxfnwdYNK8jqjP4xFTn9A2XpLzJncU1LNMUJofOl9jzMF/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIfZtNR3ieB4R3qp9EIVRlIM/photos/Ab43m-v26ueNY0Sayb5kZ1EjtaQqRo_R8u7K-g10lzWhZFA7tPPglfTqkRAVw3q0T7yIAUO6-lTSIa-gjnzf0sLWVapgHTPE3Ia4g6wFP5xDarQtEAi2cMrjIcVqzbXI-yIQphxBpX_0WSeuWTD8SpA_JIivsep_9JrVLPc5yFDn8tBnOWqWIKZsiFuzrK54gnxqL32cW7zJb7FuoBxo-JCXUmOvXLHdsRlY7E8QFE7UnnypPd1b0sIrXZ8vhnhqQF4Jv_j7hdS0KVKWOn8iTfxkNnH6u7RO6EVBA3j2EydGfML-wDHGzeechi_g_5FmvJkQiKq5GX_pfDhD8JxrxomOGTx9y2LFnXUmh2sdxb8CvIEVYUu1VXe9MNF7rJC9bq4tv_XV65HslTGFcE_BAlXyqVa7c1uvkNXEtbOWfujNHLQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJIfZtNR3ieB4R3qp9EIVRlIM/photos/Ab43m-sl2FJEwGtb0ho92CTgMPfm_WNC4273m5XBbkiPxeaRgzuibwOrjxqPL_htva3sckGmoARr5ca7lphg9SXV4cxg-KYunOSCBZQvHqJLcWcelNFQ4UCxVxOhlhNXZmPr5cIan40YDafRGGopspakjodigrCosmMk2CWM9Onh9upsjkdz8ZC4d0OCgZ1W8C4qW_JJzajyLmmo2IaqEU8KCjrjw0vq19VnHaMpFiKDpBcR_ps-d_Gjwns9tMGyXPmomwJz8oAtiFHTtERhNX8zEwTXJMVaxd3ZNXXmK20MePoVCCKqo66hU4RfdX71HTkzeHN5B3E1KG6DPWB0ame84UT-ZuHI77lKZEVLcUF3m7xpYso0JQHF7xyPlcJioM90q9759ULQHRaZyIcKV981d4auixyswFVx1S9oHCRaXyFkdv9hfMLG_wRU9KG4jM8Y/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:45:27.685934+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

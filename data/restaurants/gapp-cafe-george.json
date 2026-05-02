@@ -1,0 +1,71 @@
+{
+  "id": "gapp-cafe-george",
+  "name": "Gapp Café",
+  "slug": "gapp-cafe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Garden Route Mall, 87 Knysna Rd, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9866814,
+    "lng": 22.503103
+  },
+  "phone": "+27 44 887 0159",
+  "email": "",
+  "website": "http://www.gapp-collective.co.za/",
+  "google_place_id": "ChIJzWyxL0sb1h0RmmIPs9k4qdQ",
+  "google_rating": 4.4,
+  "google_review_count": 357,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 6:00 PM",
+    "tuesday": "8:00 AM – 6:00 PM",
+    "wednesday": "8:00 AM – 6:00 PM",
+    "thursday": "8:00 AM – 6:00 PM",
+    "friday": "8:00 AM – 6:00 PM",
+    "saturday": "8:00 AM – 5:00 PM",
+    "sunday": "8:00 AM – 4:00 PM"
+  },
+  "description_short": "Contemporary café at Garden Route Mall serving artisanal coffee, fresh breakfasts, and gourmet lunches in a relaxed setting.",
+  "description_long": "Tucked into George's Garden Route Mall, Gapp Café brings a welcome dose of urban café culture to the shopping experience. The space strikes a comfortable balance between modern design and casual warmth, making it equally suited for a quick coffee stop or a leisurely meal with friends.\n\nThe menu leans into fresh, well-executed café fare — think hearty breakfast bowls, creative sandwiches, and wholesome salads that go beyond the usual mall offerings. Their coffee program takes centre stage, with skilled baristas pulling quality espresso drinks throughout the day. It's the sort of place where you can settle in with a laptop or catch up over a proper lunch without feeling rushed.\n\nConveniently located within the mall itself, Gapp Café serves as both a shoppers' refuge and a neighbourhood meeting spot for George locals. The service is friendly without being fussy, and the consistent quality has built a loyal following among regulars who appreciate good coffee and honest food done right.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJzWyxL0sb1h0RmmIPs9k4qdQ/photos/Ab43m-tetVNJT-yhMwbHmmCTz_4EOQcJEGkJJGM2HDYhW_HycJJXShDaCsOjupT9ZYqjz0I7sktD4tJqMPsN4bealKiPhd169IM5G2YFk5-TUsyUvYjgJhEVmu160YsZ3Zh13QO_nKMJ1jAjLzpW9RaO4un9EwtnWtksH3kpultIEcXdG4pK1LhsuDKMSxiGuK6khK8sUq7grFTf8_o8W7BpxxGMcPDjsDIRByG2QY4G70jzPQD9CN4QvzTzwoZP0NNEtwbtAq73LBpX9fYxf0-L_lAJp-35WQFJs85uq6pE-dUg9Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJzWyxL0sb1h0RmmIPs9k4qdQ/photos/Ab43m-sVCm3N07ZN2x7lIoiOJih6kydk9upjrqIuewBIKhfay9mtM8vzmVsM41XoXTEXfH-Wix_6kIGfY792N9YNFkf69G89WRN0nKbevNYOUWwtWftJq94xDCu3Il6ni80kwq5Fl15sYrBT3FnLAwpP24hVHpmL3Eq_wIHOSPz6daSrPIWoDTWfoVKwmC5vl3q0qwyjKDiWA5krkklcxPLxcJpHHN5nTg6IDd1T22EDRvWpfdRE09d9BPbB2fvdIMdXS2uUDFdT8MJdPzz7RdssERwCLXdGkJlTt2buRpNZEpgVGA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJzWyxL0sb1h0RmmIPs9k4qdQ/photos/Ab43m-uhdyoO2fbvatH-HPk-beqT6lOIqEbY_Uw01USG8YGb_VZZfqpWnibSaSzeW2ea-B6lxWYEJ5OxUfTLpume0oajX9d-7PECjUEGm5pFbE3fBKLUrL_Z7EbodqmzrWeoR9ErqwJCm5FFJEhwdjv-YRH9BdmviGFckau9-ipP3o11ziwuY7_MdlYZDNafm2AN1b7sqsmGajg1fSa8wbEWKFbO6e71UwoYdluJBF3IouA0rzPdSVDhTbmKKn1KCfn7P3fTPYElGhd758ph7vhj_RYM4q4w8wsbBdyByP2rNn2pBPmNNCVEfPAtqMIUBUwK84xW1xtJsIlw2pzJx3jya-nKz8bimguaFB4l0u5W5ek9Jm5UgHZLItrXL9hRvufEPKuRvgz6-c1FHartfyavSFwPGbAwgoH_dC4Kpah5OFYsSugZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJzWyxL0sb1h0RmmIPs9k4qdQ/photos/Ab43m-vsV9VypW-m-45L2JrNSbfLTtrktnZQoYzzMnJP7pTDVrMo1NGcp9wRfrmRHAF0O_itTEe1HJEGyCUoWbw2Myzk-Lw6qul1qj2WQ5iZju90ssqwJ9fWroA9o4XswKzYRP2M5nCJKbTA3pEzTHkJo4NpDUDR2mCTMT8nr_QojkBvLKIkU0YT1v0M5aOsMkC0HkLFCLZHr3MANrVo6ZgDRrHPigFyrX4W2OX79DzityOn7d9iFtIRdVqLBDu1e2GomJSLdvUa1Tj3HarL5hOQ0XEp3l5RtKL74mwmcZYVRPCsHA4vFswpx2RFrShrjztR1vk6qZ3OY-_66pitN1JHyueP8jHp4GG44RB-5Q2LRuikOpf5j5Hja3KXXNTvoufbnqWoJpTecVLSI34fAUewizJAkpjE74fD9tjnuNo24Fg3AfNkvEv0EJc4tpTeD1hi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJzWyxL0sb1h0RmmIPs9k4qdQ/photos/Ab43m-ta9YGGe6sQwRIZrGF4EjPnFySE7Py5_JDt4f_cNYhuQnk4AwqR-wmF553grsVanKn837bvStAXeh7bwXQvbm0LxoEtjuJk7wMkfafumn8ejCFyBV8IFFlow6l1a5EEuRM7HOf1veMsVbb6X9Rjvola2yrnE6ctmnL_V2oYsxvi-1HuVMOu-NZ2Fvopwcg13KiOKhBXxaTDKHUSjRwAruv3Vh4ceNzZR4zjrqbcHHZVmHfiPwLlviKr5vSHFp5UbTxSf3ZuSf42qU7MXI7sGwS2s5mlFSzfOMUZLgGCq3-VrW8qJMQ9XzXrNO0xb0CLVDabsxxArBpFNRJi8wNjMj0X7uy9u9PUuQ0ePC4SuGEj_3rJLhGG4jB9lt-mJi3g9kuhO75dPGFd3HKf6-futGkFwB4-ECjJdk5fTNZMqIeDkU_SJIX3OPo6_Uqkt45L/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:33:44.830383+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

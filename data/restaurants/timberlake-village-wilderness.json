@@ -1,0 +1,74 @@
+{
+  "id": "timberlake-village-wilderness",
+  "name": "Timberlake Village",
+  "slug": "timberlake-village-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "N2 halfway btw Wilderness and Sedgefield, Wilderness, 6560, South Africa",
+  "coordinates": {
+    "lat": -34.00033,
+    "lng": 22.684883799999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "http://www.timberlakeorganic.co.za/",
+  "google_place_id": "ChIJH5Icrc6meB4RPM6X1XEjJAI",
+  "google_rating": 4.4,
+  "google_review_count": 1389,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bakery",
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Garden seating",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 5:00 PM",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Organic farm village with artisan bakery, deli, coffee shop and kids' play area between Wilderness and Sedgefield.",
+  "description_long": "Tucked along the N2 between Wilderness and Sedgefield, Timberlake Village is more than just a pit stop — it's a proper destination. This sprawling organic farm offers an artisan bakery turning out fresh sourdough and pastries, a well-stocked deli with local cheeses and preserves, and a laid-back coffee shop where you can refuel with proper espresso and homemade treats.\n\nFamilies love the expansive playground that keeps the kids entertained while parents browse the farm shop or settle in for a lazy coffee. The vibe is relaxed and wholesome, with garden seating under the trees and a strong focus on organic, locally sourced ingredients. Whether you're after a quick coffee, picnic supplies for the road, or a leisurely breakfast with the family, Timberlake offers a welcome break from the highway hustle.\n\nIt's also a handy spot for grabbing gifts, browsing local art, or stocking up on organic produce. The combination of good food, outdoor space, and farm-fresh shopping makes it a Garden Route favourite for locals and travellers alike.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJH5Icrc6meB4RPM6X1XEjJAI/photos/Ab43m-vj0FfNQy35V3OOFawrofk9jx1EseDjjAIS1itZcqxU7gSCCnM_A1gNclUQ9JzvQhpB0GwqBV42HbHOmcVP4FkYfz0G04DJ7jlYjTlUe2sDklY8IZjOc2F4lehcFUBxbKgRfS3fylJHzVZMGkQwnT_kFQxND3v3QIVF1Yl0qYk72X7-A6GjuBsgdR9M15VzxrLwVazwsOKOMo0dhjVyXIFditvV5rTNJVACwwLPg7zIukphCkN7UWGO1lTVl8hXj8-qxHOxKL43OW9n5N18bOSAPRCbS2B0-R6unI-x10JSpf0_1ni9Y5uWqwqKScLFErJ6g2CJqrzdfL9-LR-JheK32cfIMPbN2sT6a_uLckIXFiSzC3suHoTAdEUHTJNiXJds9rCRdgwGQPuN18GIEZHRE8voy0EpKMc0h9e37as/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJH5Icrc6meB4RPM6X1XEjJAI/photos/Ab43m-vYEM8InM3aDvGb_WF8oQh4SqH4lTejrT9ogVO8KTnuyBsF9MePiGK5QQciOusVHgbn9OrNX2sTu1cvoW6_wT9o4ajRsSzIHwf0Bi5IExPwW9dHx-h4x8i971JYfDRMyzdfWmhAi06UdMxyudA3Rng3ldN3kRnUqZq1Hw_8vkW_yk-cicKED8qEqTCzhziTcp-99q5q83dHWe609jEeSAMoEoj_BUuLZIKHZZPIHXbPc5YjWPgx30j3_th-iRLua_nIPzTMMwrcYtDUkFANyzYQFEF1_2nq9Y-dwKZOFkxOjg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJH5Icrc6meB4RPM6X1XEjJAI/photos/Ab43m-sqIFOoYVflCmJrwK2-RPShXK4VjsiTEfiFE3my8iQq9it8Jm-YleXBfpB7b1t3mYXrfiseIJ9Kzr3jaMUcwRez3g2xAl0p33gOh-a2QZaDeSqGA1tHtLMdBgw4ObCIBNEtQnVV776-u4VI8C5iVadPLafE4-wkpvvv5QNnjrPNCXi2jLNnYtO7y_aju9gkKze9vd2FaYWTKVI0RHJtRQKochRXJn9yb8faAtTQK67eoB9FLLQZEd_I6WiZ-hqMpkzgCenXoI_P4LOViILXsE7Zfew940VgO605jUI0GU2dgULB2G63vM8rsYvqU1rYOwmqjcUT3YULR9ZzbTRYJr0mXuRLUBIwr5Rvo0pc6KMUoYQ2wb70v-lLKWR7eVXR40EyKgJG3SCIuyy7YqpVkGe7UXBQzrhcBetw4BkXJNI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJH5Icrc6meB4RPM6X1XEjJAI/photos/Ab43m-uaEHEun8rbpXugtBcr15eE9tO5xQwQlqGl56_LUVQ9ChMnRHUIwPa5b5zZtxTNVB9A43ssfbjQXusthNgLZDEqqZ7ZyS4gOBXaEP8vPJ4hCcmHrzyvLpvmNFWtTau3SYFjQhpKLUX8lYsr8tqH1Ga01HEtu3VW4Qz8tHnrXkdbNXQBKIaD5HKKAcfB1LtYE5eLISQS4gU8XvMBzYhR8UnhAdbXmdRM3-DnPUXytCU84gFvYhi1Te2_-R-zcfiIHZGVHwSEeZ7-PaSN25KSHNOLdwwdaPLSui8LjoFxoARI5BE8yA9j1re6FJeKw3cudksC-xRLmqVVdGe6rVkmVwUl_IPhcIQeEPp6G9z0PtUAH0SDGJZVTO2_eJQal5ZbNVZREYN-T2YUGkPYdhug1fS0XBudtNUFyMoFwM0ngjFokg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJH5Icrc6meB4RPM6X1XEjJAI/photos/Ab43m-sw0nEP-qvsmJmUxI2Vxu8hcV1U71-fPcTwEONrosssu4fHmn9BbEE6K2A-y9Kc4SoF5NLnFVClTdxd0lOX-bbMYAr68N7rB9h3ub01cfeMVgctwesCiSvYzVfDFNs2PxJFmvUk6Pq0eIV8lXrEx3Soj2MPBko4ovZphBmUrLsgn6nS2gR1pbbQhQy0mikwW4t1w9c8ihz1QDh7L1tN5Iev39RKfhJrynseLMS69aCCWzOTbuRRxcD9C9V3Yvqz6tCURTo5XOkCezY-LbD9pwgovEDSTnIVpqXGfTlHTZE3J8CQLqkCHF4xHpPSKrd1gn4WHuOI71t38uJ2pdsEiZdQlR57KADWpnwR1Nxkjmv8S8ySaTx93w_Hgv9F60DqLTIpikbEbf7440Gf-J6gJbT0mtVrqJLHbwpN_N8JLqDT0w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:36:12.379455+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

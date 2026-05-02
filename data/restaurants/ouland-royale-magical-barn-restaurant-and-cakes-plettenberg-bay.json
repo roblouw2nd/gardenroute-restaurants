@@ -1,0 +1,75 @@
+{
+  "id": "ouland-royale-magical-barn-restaurant-and-cakes-plettenberg-bay",
+  "name": "Ouland Royale Magical Barn Restaurant and Cakes",
+  "slug": "ouland-royale-magical-barn-restaurant-and-cakes-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Greater Plettenberg Bay, opposite the Airport Road turn off, Robberg Rd, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.087118499999995,
+    "lng": 23.3363171
+  },
+  "phone": "+27 82 859 1250",
+  "email": "",
+  "website": "http://www.oulandroyale.co.za/",
+  "google_place_id": "ChIJF3i6IVXieB4R2M0SyC55vAA",
+  "google_rating": 4.6,
+  "google_review_count": 308,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bakery",
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Garden seating",
+    "Outdoor seating",
+    "Functions",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Enchanting barn restaurant serving homemade cakes and wholesome meals on the road to Robberg.",
+  "description_long": "Tucked away on Robberg Road opposite the airport turn-off, Ouland Royale occupies a charming barn that feels like stepping into a storybook. The rustic setting with its warm timber beams and country charm makes it a favourite for leisurely breakfasts, lazy lunches, and everything in between. Their bakery counter groans with freshly baked cakes, pastries, and treats that have locals making regular detours.\n\nThe menu keeps things hearty and honest – think farm-style breakfasts, generous sandwiches, and daily specials that change with what's fresh. Their homemade cakes are legendary, perfect with a pot of proper tea after a morning walk at Robberg. The gardens provide a peaceful outdoor setting, and the welcoming atmosphere works equally well for families, couples, or solo travellers needing a quiet corner.\n\nAs a popular wedding and function venue, Ouland Royale transforms beautifully for special occasions while maintaining its down-to-earth appeal. Whether you're stopping for a quick coffee and koeksister or settling in for a full meal, this magical barn delivers comfort without pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF3i6IVXieB4R2M0SyC55vAA/photos/Ab43m-vrt_OJODR5G2Zvy8KbwuiY1Rd4YI1OtLEEz86cdnrDlVbtNA-kzxoGeEYmnnD57gF4YXgC3KZVGYeBkLGN0Qz2EvysXFLRfGZOLe1PTJb56aD8Coet3MJW7fn2acLtkeH7VucG9-m2uT6PJQKlych9Rp5zWvqNEMet8aEKl1iVilRn8Cxw3xoA8Aj-J3dWIJl8cPieooqw1lyEj3O-S2CjnLBOE9z6QICw7qkQFO_Ln5drGFddaV4JCj2jgxUcXx5UbuHeQu9TCV87fuhKukrjXKWJdzTTX2ZS_ZqSUiwh5A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF3i6IVXieB4R2M0SyC55vAA/photos/Ab43m-tlBkZ8G15PFB6Oy2-4cQTil72fzcHlirahaWbPUDS5bMr2dUm913MZcq7cReYEze3IJjRnq-3V1JWYZqaAgUoClDSEtKZtTifHXtcICAmIYFu4kpA1th37fBkqUf80OjXP5R_6V8ghMVvX_S_3LNI7xr1Iuy0uWFpXL9vXZZRKQ489mWhUNw3ybegr5bxH05JnLq_WLoxaaibpHdKOrpL3rwXq9r2E5dV-VF64SJavYfwG4JkLiLnHbOEIa_W7mz4lK8g4dBmGH9nBc1oVDRGT_YXG_yGrAuQK5I6t1j-xWQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF3i6IVXieB4R2M0SyC55vAA/photos/Ab43m-sWxPO1xiUulySuQdKqeTRiEGymE9vBKDah5lYDUVbVjHMF4QBdzZsyXQncvcbZWSQxRqv-GtciG-szTnXeAjKFR7Yo_ROQCk68YxuSgjoYu22ub5kirPDvh75tlJTM-VnUcehKQaFQg9m3Mbw1MFJfOEcM1--7A_TLwDut1CbEerprOzjgw9JwfEhn4ZKvRJk_DIj8sgtv0eCUE4wa2sFMkZEXN029VIP6jYkHx5h1UdkibQNOKfdVeL-OHh2evCDxanWmkSsdGta5rP9S_pjqwnQkW2KD_XtO6BFgwpqbLPbRHOjHRTLD4u_6L8api9RWKOc7GdSyZRmWQ56Tu3_-jqeSyVrWpyYQr-k90u_-hwn5fKfd4s73mnY-QhYOf-1nCWRZVy7SW7nNcjPsjxj_RImcAJPnMcLAkUZb4R4J8ORmFoiDQ1WrnN8GXumB/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF3i6IVXieB4R2M0SyC55vAA/photos/Ab43m-sAD-lHtVEQcqdhLpZyMU1y8L9NRvycU4M98gm39cfETFj8W_tyBbv8NcL6GZYYCVnV61K5Th-edFu3BIx5jk5zHOFpnZO8oNJOqAMpXS9Bx-6XGAwmvg938ox_epVsg9yQTCkH9zr7An-vC-uWgulFWi-d9LLa3b13DMVf-8ysKC8BFOaP6uegNFjCcc3AEOwm5Oc9JiuMHRjEiuPedm5d4iAJfoWE331nxCWLT5LT6nBDnLuK8T14tF-AJkl5rNkEy6oiGkGDLLHaSIaFLNOV1kxyO7hBLBYlSmSIkwZJCw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF3i6IVXieB4R2M0SyC55vAA/photos/Ab43m-s4RFfN7PoA8jrcToBW0S0fCGhRt219sl0c9rTvtcqzHQb0XrY17FG-QNHCaNU_9fDUuqgqHX40QBglzPiLBw-UUeGILWvAqYoWWcUUJVt5XzSYPSA0bEhzfpgrXZOKtFtfQLqzvybONuBUQ4wpOvck5lt26di2ItHYo_UqIZIQziHA6ksMqnozx6PdCaey5yoLllpCKT2pvBUfPDtkpezrcV_-Y7Ex1mVaiNpfmIhYJnI5k9uHynd8NjlCJ2kXLCMvLY914WQwaTk1Pw-WAI2uUrnwDbvlMBVZM8UIT1s_jJQbj5N5H2CaNE7_M_Y0xiqz_-Rt4jameNgdMOFusPIXFsP3THWqVLb_82IbgLsXv2fjr1fwmJRuE5ZWhe1LuD-m7C8OrPJUb-Ho3fNbrg3CVRiiCJ-uFR0LmqLJ1-DpGFomEquyftculE4a5Xi1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:43:03.046976+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

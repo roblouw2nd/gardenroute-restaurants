@@ -1,0 +1,73 @@
+{
+  "id": "merchant-maiden-cafe-pizza-bar-wilderness",
+  "name": "Merchant & Maiden café pizza bar",
+  "slug": "merchant-maiden-cafe-pizza-bar-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "2 Kerk Street, Hoekwil, Wilderness, 6538, South Africa",
+  "coordinates": {
+    "lat": -33.9712552,
+    "lng": 22.6149071
+  },
+  "phone": "+27 83 463 2236",
+  "email": "",
+  "website": "https://www.instagram.com/merchantandmaiden/",
+  "google_place_id": "ChIJqepnvH4d1h0RP67mNjm6Luw",
+  "google_rating": 4.4,
+  "google_review_count": 224,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Cafe",
+    "Bakery"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Outdoor seating",
+    "Dog-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "11:00 AM – 9:00 PM",
+    "wednesday": "11:00 AM – 9:00 PM",
+    "thursday": "11:00 AM – 9:00 PM",
+    "friday": "11:00 AM – 9:00 PM",
+    "saturday": "9:30 AM – 9:00 PM",
+    "sunday": "10:00 AM – 3:00 PM"
+  },
+  "description_short": "Artisan pizza and café fare in Hoekwil's historic church building, just minutes from Wilderness beaches.",
+  "description_long": "Housed in a beautifully restored church on Hoekwil's main street, Merchant & Maiden café pizza bar brings warmth and character to this small village between George and Wilderness. The high ceilings and original architectural details create an unexpectedly charming backdrop for wood-fired pizzas, proper coffee, and all-day café classics.\n\nThe menu focuses on quality ingredients done well — think crispy-based pizzas with inventive toppings, hearty breakfast plates, and freshly baked goods. It's the kind of neighbourhood spot that works equally for a lazy Saturday brunch or casual Friday night pizza and wine. The relaxed vibe attracts locals and visitors who've discovered this gem tucked away from the N2.\n\nJust a five-minute drive from Wilderness's main beaches and lagoon, Merchant & Maiden makes an ideal stop whether you're exploring the Garden Route or simply craving honest food in a space with soul. The converted church setting adds unexpected charm to what could easily be your new favourite local.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqepnvH4d1h0RP67mNjm6Luw/photos/Ab43m-vcZRrb3YV4j6rJ4KaF30Wn8ts6hIKHHOUZ0QMM1kMR9PcQSxddWdK8wvxp6l9RR_4YlIjb4dRnMped74edAJqf56y43t8fXufNqAzZWS95CaQ3k6t1arpE5ikSdRKoB8BC9ZKH8AUYqEDAzc9pimG_Aw3A69YrBPOiShk1JQ4m_dEzLw3fmp-z4o0qSReLEEK7bsgRL9EbPtSJleBStBlSrI0_vtpaj0jJ44ZnzltFmNZQT5QjRu6xUEtZgwxKxJ3TUAyzBS1cgYThVBprUn7MPnaXyskbQcC4rLDEUslAxXfMMOIqxOHYbr1WkeEYI_zQMTyjNE6-kgyv-1AQsOMJNY5ZH6GBbJKu7PjHq7aK1NnLHhpE_cqEz8Skb2m2qYNCfFvSpJpahSRCD3T0hOP0CNHeDguCSdf3SaeJrXyo5z75/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqepnvH4d1h0RP67mNjm6Luw/photos/Ab43m-ucpaBkhZKNRQXCbqxyeScdW37XwXOf3fZIxQY_xcaLwBkW11V7K0dmqxazrAyGWzNm5NVwFp-QkXCn_YOGKzALWOhIt8czEJPHHKoEVcjblCUX66wOWmOpjJ9_NX7rAbQ1SvEFg1Ly-qI2cBgKC5LUoSHgt6E0gMP23szKKJ1H_RSdrozqrxxENDbawJqrrBTKJLdZDzAfmtadhpV-uN5qOviWt5UFvaKYAC0hp_6AojDqqZb16VfBheX_qoGzZ1zLLzo6Lu0Mg41ya2OnTqUQdXdh4OJ7bTO8FVIMQICcwg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqepnvH4d1h0RP67mNjm6Luw/photos/Ab43m-sq71gbn0ls-6M0UN5cHU1ml3LThGhmlpuj88QrR5engBsb2UyQXaxSGSugzPeG8M5o21IphRex3qAoFSBBY6tH0lq0dNtF6pwBeq7tNShZQMh8Ew3R0DU_v2ZPJeK1RD-49d9odyZlcUp4dc2W0coQ-0wTKTHX1c7cyWfxICN6C3MZJJF3vUb_AvqBRySFHUT9BQpAElIc_twjVNCDX3dDZWZ9gJ4Lhvd9sL8Nl43xQKWhJV9bwW7kv1jvVVwwvRejY_hACav8jhZGTGE6nOsUFQr13p5jQUWZz8qcELg3THqntvE3BZcNG1SqplE_TMo0S-olWwQKxhcxx09cg4PA7ZGDQ4bd4O72P8CIbKkkQmEIOUtrUew22PId5YDGRckmfcbFEsIjxpPAnO_YZHDrGr-uwzJIF_tDyrt228PhcvIx/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqepnvH4d1h0RP67mNjm6Luw/photos/Ab43m-u_VX4OUde32_2bPocs9vmgFuRHNk9fs3AuCGuZmZSF0-51vLSXzqTNosErenc4U87B5RbpDa9KeYbM3w7Wf1nLFgonDHJYbnLZS2MbjnAlG_kQfXOhEyE_IRmt2xEf2Y2A-sHM0KC-YQ2J0rFKL19Y1PoOlf25_d9qJVNbUx5Uja8QP8o_IFuCUZpOmZs2TV2WJvehMVv4Oxbn58wS3Lih4PXJIMfvnhNbw19h6MmcNz9MhWQbK7zPXAFaQjtf-M6W0u78TY1l8gm3C-UbKB4wJlpuPyVKUKyk9Xaba-ADN5twQmTnwSIeYaUpAKBPNSGkVruPg7uTvOBdwdYXaL3cxvQ0XKtlqr47e0pdCSIEBxSFVQ4GQ2-qYgmR89WsVQt2yGVhKQs_10mM3QIMmW3gUvbSbBgu-bximvNnks7_bMoaZo5QobNx9HE4FPl7/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqepnvH4d1h0RP67mNjm6Luw/photos/Ab43m-teMPSILUyIh7MhrkKMMwRCL79LgxmbexQZ4cdt5PA_AF3_xAoZmsQtmoigixVAFeWUiW6kP9O2ECMqm-oZvzggKZXNyjiVy8urT7hWNpUhZ1a9RYcKvRFPXpR4bE1ENZ-lm4jIswose18FrEkWYj47Fe6UjjU3AMf3z4Z_o4j5VRSa8LUEG6HaLITircvEIVyn0OdUSHE97q596J42o8m87on-ygI9JElrui82dndCa22UcXZ_hRM10zVhdWVYsJKGx3dZUZZyqFFG_grSUDMqKPl37i40u3CmUVAO9-hcdUMcnScKBE-pBePmqqu-cqJHCLOwRkAqiSJ2rxpUj94ODaYpFsc0ZnIDomNZkPZSvd1XVMfAZfxXtnhPNDhujTuqeH5f7ExviFb-kTMto9yjKSnRR5pOZhAQfhMevKdlTw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:36:48.857772+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

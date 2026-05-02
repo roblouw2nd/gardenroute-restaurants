@@ -1,0 +1,71 @@
+{
+  "id": "hennie-s-george-restaurant-george",
+  "name": "Hennie's George Restaurant",
+  "slug": "hennie-s-george-restaurant-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "42 York St, George South, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9663478,
+    "lng": 22.4512066
+  },
+  "phone": "+27 62 579 8350",
+  "email": "",
+  "website": "http://www.therealhennies.co.za/",
+  "google_place_id": "ChIJjStPEh8F1h0RDbbMekmD8-E",
+  "google_rating": 4.6,
+  "google_review_count": 1182,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Grill"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 10:00 PM",
+    "tuesday": "10:00 AM – 10:00 PM",
+    "wednesday": "10:00 AM – 10:30 PM",
+    "thursday": "10:00 AM – 10:30 PM",
+    "friday": "10:00 AM – 11:00 PM",
+    "saturday": "10:00 AM – 11:00 PM",
+    "sunday": "10:00 AM – 8:00 PM"
+  },
+  "description_short": "Family-run restaurant serving hearty South African comfort food in the heart of George since decades.",
+  "description_long": "Tucked into York Street in George South, Hennie's has been feeding locals and travelers proper home-style meals for years. The atmosphere is unpretentious and welcoming, with that reliable neighbourhood restaurant feel where regulars know the menu by heart and newcomers are treated like family.\n\nThe kitchen focuses on generous portions of South African comfort food done right – think tender oxtail, perfectly grilled steaks, traditional bobotie, and proper pap with all the trimmings. Their breakfast offerings draw a steady morning crowd, while lunch and dinner service keeps the tables full with honest, flavourful cooking that doesn't try to be anything other than satisfying.\n\nConveniently located in central George, it's an easy stop whether you're exploring the Garden Route or live in town. The mid-range pricing and consistent quality have earned them a loyal following, proven by over a thousand positive reviews. No frills, no fuss – just good South African food served with warmth.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjStPEh8F1h0RDbbMekmD8-E/photos/Ab43m-v4XvyH4vo10_5L4Wj4UUZ4e2URvhTU0_4DpkSjziHH8vEgffLhUsvGSmzC4e1H-_UBxrB4Ly4QFvjKzWwoVS0xVAfzjgAl4Z7TgEJKXj3Q6mosy5oG-0M49IWJk0M9j83R9xV5OObrGXS1JzXc3lgtR1XjckZ7hlL6IUXqEzrjcHfxlarb4EiGozx-8EuXQhAkJAOspxPCuCF-l5YHeUM6KuaaENeBxKKp5SBCgIiPw9rpkuQlqsbf62dcaWLNQjUTqGo78pu354GjCAtzQ59NlaEJBnjafUCmO0UJjZ4WLw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjStPEh8F1h0RDbbMekmD8-E/photos/Ab43m-u97U6z7v3-x6gHYdhtiK4LFmSZMmsYPx1p5WZ2Ec-YPsAEZShXRZtrHxQu9-3YO3fwYZmQ-kU4n063a2TOnB_slyfQI4gjZmyhYAql4ooHjTI_p7UQ5fB8LZ9RjxNdR3WSTJkX6i6TOxE9SrkNenxMpV_9gc86n96XNWjoj6fS_qmUquy-UZVg8gK67AL8yJajza201OOcoRN8J8V9e0gkLF2DikI_tk-eYceExFdGbpc8UwhOhd05ELEbnCmzSbMs4TIxLRIjn4DedpTzofHCf_a1Ah_qZpoN8djhBEjSEA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjStPEh8F1h0RDbbMekmD8-E/photos/Ab43m-ur49HtnF6lamvRsikF_l1ff1EpE1F540vAW2rxJW_x-KauqdnYV-2wd_Y3KRGPQG_eA5kkeXTv_Pm1YLdSwb2u48KUvbACEgMyYRXM4-i_ZXxXmFltoq4uXFGzd2xINexMoGUV-kY15nZTRfgW-X3PWcaLcX41okD_Jr0lLYvezAeW7C4T6QfJF4Cu5VWCy2K1LTJMmTDs1V_nNOUHOWvMtYfWU65u5rmFfEDYeCTj6IiCPQ02uoU7WjSf2Adtsc3D_m_hiyH5b7E3DeUS2cYk6y6WRPIshPOznpo4-BGinQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjStPEh8F1h0RDbbMekmD8-E/photos/Ab43m-txQb5K4OuRVhpQz8lJTZ-FtYrsK9iQN-n0Iu4MYKoh12Teb90rLoTcgwg9F4o8O3nOErq0N_nrghd6_HfsPCNI3PXbiT2YbH1l4_FfqmN-_yu2N1TWp_2ZKIA9LMNJK5QpFpJPKoFFCWKOwnmDnv_urmBD9PwuISSFH2dwdXdl1CDnDcPGyKi5hMKVuGbrtNnG0wyQRrzFsGBv-aMluzqFnMTP2DdZkFJWIRDewZIHw1QpCKGs3tQ3uezrwp5xhjDpaRvDk3CZTh6VsJWq6Kk272FKlkNQjTVV1ignoveJCYsMBW8aG75ld4rymW93exTGe3vUrRPnBctildasBznRscliHOMVdb3NwGdgRkRO_SG7_IQ2nQS1dCzuV1mUsjd-0wsGP-velMD3Fum-zGSuSmj0cSKY3rDqBkFjtb3rPUiMXJuky-XJq6_ZovwK/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjStPEh8F1h0RDbbMekmD8-E/photos/Ab43m-vjMMMDuMX_jQGKjlUo3nokr-HA4CWpA6peyDWD1pJMCL9nX2f34OpuV6yXACE_vxSGcW9BzIlrMojoi0t4Vmrqie3tOlHTkz9iPVSyEDG-5mXB6BRe81cBjqh5R5ANel0fztrZT5HhI4vUwldzeznaNzFs9UEWP9lTAm-UbjXpm45Z5PZEJEm0IN8NU8Au519coTFRWfgZPzMEYeuIFqHOU3ccvi0QHEsP_XYfMVu_WmMs5_R38tY0_dwhsCzGcDHMCGz9MIRBJPrOfxUS1TDetJvBvMG44YUzFzsNuCsrSAeH0bxlBgkAfAHbAA97l4epI4f3QMj8diNKof9PRsac_JR3xnyPUMpAczn1xLAgYHkA5tv7qtB52Mjjjl_6QKSeIpI3yNH4n3_7ftVbAJuNpsGqtifrlVeX5YON1ZkCBw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:32:51.168095+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

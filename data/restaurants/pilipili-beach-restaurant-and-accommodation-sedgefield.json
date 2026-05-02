@@ -1,0 +1,78 @@
+{
+  "id": "pilipili-beach-restaurant-and-accommodation-sedgefield",
+  "name": "PiliPili Beach Restaurant and Accommodation",
+  "slug": "pilipili-beach-restaurant-and-accommodation-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "2 Claude Urban Dr, Myoli Beach, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0334449,
+    "lng": 22.8020767
+  },
+  "phone": "+27 44 343 3087",
+  "email": "",
+  "website": "http://www.pilipili.co.za/",
+  "google_place_id": "ChIJqfk_GtGieB4RnBtBVgG6VQ8",
+  "google_rating": 4.2,
+  "google_review_count": 2376,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Grill",
+    "Pizza",
+    "Pub"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Sports bar",
+    "Takeaway",
+    "Groups",
+    "Beach access"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 10:00 PM",
+    "tuesday": "8:00 AM – 10:00 PM",
+    "wednesday": "8:00 AM – 10:00 PM",
+    "thursday": "8:00 AM – 10:00 PM",
+    "friday": "8:00 AM – 10:00 PM",
+    "saturday": "8:00 AM – 10:00 PM",
+    "sunday": "8:00 AM – 10:00 PM"
+  },
+  "description_short": "Laid-back beachfront spot at Myoli Beach serving seafood, grills, and cold drinks with ocean views.",
+  "description_long": "PiliPili sits right on Myoli Beach, where the sand meets the deck and the Indian Ocean provides the soundtrack. It's the kind of place where you kick off your shoes after a beach walk, order a basket of calamari or line fish, and settle in with a cold beer while the kids play in the sand. The vibe is relaxed and unpretentious—think wooden tables, friendly service, and that salty sea air.\n\nThe menu covers the classics: fresh seafood, flame-grilled steaks, burgers, and pizzas that satisfy after a day on the water. Portions are generous, prices are reasonable, and the setting does most of the work. With sports on the screens and accommodation on-site, it doubles as a sports bar and a convenient base for exploring Sedgefield and the Garden Route lagoons.\n\nWhether you're stopping for lunch between beach activities or claiming a table for sunset drinks, PiliPili delivers honest coastal fare without fuss. It's a local favourite that welcomes families, groups, and anyone chasing that quintessential beachside meal.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqfk_GtGieB4RnBtBVgG6VQ8/photos/Ab43m-uAoikcofjl20JdXU-DjgrhvZazNYzv4JIGbhNa45sL236b0VSmAgdTjJTFbIn_DD4iS_-8H-viy_Sa2ppC1gF7NcIv-1b0Jh3xCLagl9qEz7OHXlVeUGCEvlOE9LjDKVFAOECyP77uMC9skJrPWwhem7HxxKcB4KVWWomSduYo99LdkoEpCdPfch1cKobGMwgOC9aXZHmj9l4sUOHTEGtE6URKlWYmX6HHBVgCjEoDtSq-1LAmDFEwVW9Z5YVTsEzs6pdXJsMK_9mDgBME34aXCtMeLIriazA1zIAFhUhzA6MQrHZ10dBMlwUHs8GI1iEFLspIeh_9s1jucI1qQNI0lQAkoi0YrcNqmx2wwM-f8-fdgcnSwHNQUgtpoOxk1OkB38qJyHN1v12Jn0U8v4HIixaYtenUrDnl-ewXx0-Cllw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqfk_GtGieB4RnBtBVgG6VQ8/photos/Ab43m-sRr6lKb4KyiMhB0SfF2VTPKyk0IQmzlmvjnuVc6ZDQhpKzw1lahABesPRklkhN_3w3dRXKT6JsEViEcPOSw8-LyP_MmrOBE7IFAEaHjgJdttAf2C5tGopFh1N79JbzRmkKzu0KOg9W5Edn4z6M4OyHRdyplXWeTDP2wPi7TV9543rBonAKPG-8SphGZy7Jkaq5V9IXqUY8znKSm6MUOZx711Gj8-_-YhsZdhE6GSBSkOM9kPkHCV1e-5HoiafNLYSIwHqgbzZho7IeyTcw6ppWlv9WuXEDL1bGAe1nmGDTTg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqfk_GtGieB4RnBtBVgG6VQ8/photos/Ab43m-u2DSoyqmoiIovfa5WmBYcdDCcTB4QeecNeaqdmbhhCtXdnfdKnLBRKe4wqoHzZxhONUlOAWtKPVTk3TaBIpGb8lJQ7cSvP5j69ApxIVm3mp9jgORwpsVOi4A8Uk0vTbbyoft_SW1WnWT2YaQdSSh76yrhhgNFZN-3X4gFYGMoWMy79b6QcCZA_tIQ0J2XM-TVTqF887Nxfed2suq7E1f4gInGc6JGMZ1PdAi-JcZZtudOEkJ7PrUQJSw-nnaY9j4QacHyeCe2DMkQDqMY0kSTbnfKGJbU4CnMaHJaKR3swaSFc1sW6l2QVjspG1LBR3p4KYTYCrb7SkLkn6TsYIFWEPhMQULtfKLhqn_LtULNx0pbukOwujb3BvEbMBPYk-dHZY7Y2_81yUDztftSgB3qX4EFJzBKHFeVo-T6rbvJULTg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqfk_GtGieB4RnBtBVgG6VQ8/photos/Ab43m-vTsTkpEm87og2j_d9sD3fw-X8m9tq2uWjLRiHC8ZPSfl0iLao8pPaiyoHe0gyKvaoVeEC18XzO0l8KjZOd_7imbWgIOWMboyx5lqjkgm_31zRfwMgVt37XehwdkI-padQtMntnAuPHTHnhttd5SyB3R3jZXVgJ9ubPa6yY24o0n9eJL-2m8Cst7eebP4QSNfWb0I6c-BOO5su2rVFT0IHBggF5ufK2HPqwqVN8MqHqeLxwPM5faoAaeK3hmSogG_euf1v04N4DICI_5vLh77MWokJW2UGf_hPgJlaVhZ7bPZhwnrgtlkrPQ2PlkmB6Rbq2zglSfeQJiwelCFM2ZmkTW2gRyOamKjJLOSkYTnNK8ncoJvF-hRDzMyvwC8yEBiDBu3QHY8wyxV1uQVWwO3GkRCwPp79BNmlMjyTQgQnyzwc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqfk_GtGieB4RnBtBVgG6VQ8/photos/Ab43m-sNOKj7HdVHJwrN2ZiHF7OTL8WgYeLunosXMONf-LiW-NbA2N1Wpq5vrk5P3JXy4709MSxEa2cryJXs1-OiiTSzPPLOveBCU6LPfKnJUIJWLh2lY-0iDIItTwX8ADGAYSy5P_HqNcuh9dhdj-L09OE4uefjLIzqPAu1h8wW7BLuR79pU0cLQ4NND42D_TxdKwUMS6nTgG9jXciNBMlrn2wH9HsVpGdvFWP6cIYmt6Ut4W75cm3eZf90UisdBnYZefAaSU2JTBnHYNR5m2hzxRu6kWofecJAbGeO4lG84kNHm2uB8yO25gLJJshVpQrochapVxwnzJDpfd4pVZGcb9pDdGR_IP4SZcPGS2IxyfKqroqGepQQEggblOeuJTUsQ6xsCRc8itKla1D2KORdswImOS6wcWnt32FMV_s_WYg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:37:28.546491+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

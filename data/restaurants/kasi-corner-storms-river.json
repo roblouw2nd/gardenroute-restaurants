@@ -1,0 +1,71 @@
+{
+  "id": "kasi-corner-storms-river",
+  "name": "Kasi Corner",
+  "slug": "kasi-corner-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "Darnell St, Stormsrivier, 6308, South Africa",
+  "coordinates": {
+    "lat": -33.967703199999995,
+    "lng": 23.8744844
+  },
+  "phone": "+27 73 426 5301",
+  "email": "",
+  "website": "https://kasi-corner.co.za/",
+  "google_place_id": "ChIJMenvBgVveR4RtqbEJC4wcF4",
+  "google_rating": 4.9,
+  "google_review_count": 159,
+  "price_level": 2,
+  "cuisine_types": [
+    "African",
+    "South African"
+  ],
+  "tags": [
+    "Live music",
+    "Family-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "11:30 AM – 7:00 PM",
+    "tuesday": "Closed",
+    "wednesday": "11:30 AM – 7:00 PM",
+    "thursday": "11:30 AM – 7:00 PM",
+    "friday": "11:30 AM – 8:00 PM",
+    "saturday": "11:30 AM – 8:00 PM",
+    "sunday": "11:30 AM – 8:00 PM"
+  },
+  "description_short": "Authentic township cuisine in Storms River, serving traditional South African dishes with warm hospitality and live entertainment.",
+  "description_long": "Kasi Corner brings the vibrant flavors and spirit of township life to Storms River, offering visitors an authentic taste of South African culture. Located on Darnell Street in the heart of the local community, this welcoming restaurant serves traditional dishes like pap and vleis, chakalaka, and samp and beans, prepared with recipes passed down through generations.\n\nThe atmosphere is lively and inclusive, with occasional live music that adds to the genuine township experience. Guests can enjoy generous portions of home-cooked South African fare in a relaxed setting that celebrates local heritage. The friendly service and reasonable prices make it a refreshing alternative to more touristy establishments in the area.\n\nWhether you're exploring the Tsitsikamma region or seeking an authentic cultural experience, Kasi Corner offers a genuine connection to South African township cuisine. It's a place where travelers and locals come together over honest, flavorful food that tells the story of the community.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJMenvBgVveR4RtqbEJC4wcF4/photos/Ab43m-sazk-RGLdhrcDmJ1rzENRcmcSRctk2RIjp1YyXwOw17hp33Vbzx_w4ENcr6UESYD455b1M22XIMvIozd73j3xUeXvUV-GNedKYQWdcnR_S5tVAIAXei6MQwQ8VCVTMBBc0QQzFQzS8-Ie7vIVBZRQsqAkBxasKj4DGew_9GKGev2bkgOVf18MZ2SPyddwiXLsF1sBJMu3iCMp_EYzwyFMsMb1-jIEVP72VFyftNG7RN0So9FU7175ipqQWOcNJ2EtLV5Swaw_CT8Vz9MZSJT6BMpB_j6DH_h_baMvz3TtkcbalmUWZRV9yPF6-IS_0B-tCY14ASCVKdEXklacyOVWQhRCT38Mo4dGyxvSqqcdesRGy5xqpK9NLvCA-pn07Z8Y7i_KP7onfy-emtTcdywLT2bMXbDXf8D-wkFswCM8MMB61fAlsDfeXHvwUgg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJMenvBgVveR4RtqbEJC4wcF4/photos/Ab43m-s7dPVh4iCaeOQfV-5O2D0rpYnaaS2QWF8mDheeZkSy1LTuaY4B1ROWVfuLUHjyiCCJOjetfZgkxycq-0-7yjnX1M1zAIRuBP98ZbtOvjvX1vtElrJ_GrBFP46mUZt4TNkcd7xBD9tNsUfdH5eTKHazCUvvN0TMx5TGmI1B4mwk-neudnV4AqktkDvoFc6JrKtA-0R8nlOUi2Ti9R8qU88tmW0Fq7Uc7A7xJYJu-Hryxcr74GSRgBXiLfW_F78PiOt5KfQ6KR_59xCk5mymInwa3xFi6u_G6sqd-Q5GigHmKuOZLvD84doKfYLDIxQh8GYifEa4kIkeVc-c7NQRr7Qwo0-p92fKTrpyF3yqKoefbUt1WSr9Z7fWr8Xm-2pYUqTMXfeeSrYLS1SYh70WaWnVHWevkHeXj0Pb7kqkxlt_oRxOce21qMlRL42igGHc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJMenvBgVveR4RtqbEJC4wcF4/photos/Ab43m-t_IlgLibXXVRghGKVCNGKJijECZOUT1gSv22u67L5sKgVrC1wdlydXMQuzdgh4zaoPUOSIVqKJJ4EQTapLNoO38TIiMLXmHglbzu2k7tV05RxRveCo6Dr5JJF9qcQNZadg4Y6qZY0G3X12FlINhzbSrtxOUXR9XjtboPjlJIyUINrfp81AvozjLj_MqznV8zKZgJrV07qCnv2ebdzvPYSx59vEh6Ju_9pSnfAOdNQTO3jw-rxTIzJN0QEF83LH0c0QzE1YMt8BluH-eU6UaguXcN0uMLov1p6BswMlL9DZ670nJaGwQilmZKA96inCVdOxHaI6Md5KS2dfw2Pz8vv-v4z-HLWZUBXL5DlP8cGXiXSagBWYj1ZqG_duotRjcKDO8oINf8jXp_6WW-QCIm8tcgmsKhExYal3lh92MrhCGg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJMenvBgVveR4RtqbEJC4wcF4/photos/Ab43m-sjpxBk07Cw7LrEyzhLpvlTPxtIZQ31jb9g17jLn9HzDJEnClSKc6jh2qdXU5P5Pr383OocR7xAeRhQH8x3uWjtEnSmennPf4LmU2Yqwk5BFREW2oTTibdFPhUJySE8uoRxyDbJG-daYh92rpOJmGm12ur9erbZ75g_BUXg1aenSIlUupF5_Nc-xQo9JIJDboSn8Cv1o-s1xeTIktjKOzmnG41xXOxoYfKCzKJbRuMFDQHI3Vq8zxWDTrGTW63y1UW_Pe380o5BldB7FcBAHiSo_tOmp9Czw35kRJaPdBOCOiX9SVVZ5EQ0t5FEMWC4L-q-fDZUbCmyac4EoNxjjNdv62LOO-mynllvoH0zJhO3li4XiL-91SPbUdAFZWcjXgd2Bz1ZTvV51tV7uOydl5IF6cW1jwIWaDhmNLbJ4d0C_hDzzUkoxrMO8g1QUpdt/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJMenvBgVveR4RtqbEJC4wcF4/photos/Ab43m-uIHvykvlhixKw4Iio557wwF4Rh7G35Q01KyW_aOFR3Ug-C1u57Dz0QsQ38rVJCQp3MzP0IZV-67662u9gkjIB3hynH8n44gcZ1HmPm9yQC9pXHmIaT-i-FHJMU9kas7aowiPcZJGkG53HUj5QGQ7cibyLz3JjhtaMB3rFZO0G4Nz-HpU84NEXx_MN1Bg29PH4iPQ87y4A4QPwEYTmyl429Z7ZTHyYcYIGu7vgFXxuhyaGn_3ezr1ubqaHXaTC7nzkMIq4DVA9gq5mRWfxRVCzHlCrTopmhUiFSX3V1uTVp5kgV82bvP5PhHyy-Rz5MVYyFBVJwRIT-6L4B0WeSAbTW6uSwfR_4IuG5Ud0KLntoSVlpz9QJ-AHxCKUrtyTaeklnZ3luOzRzvmWOhNye-GuAAwA_xp_WCATe7RW2H90UadHUwltY7WsGHvHQ7wTV/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:46:36.002176+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "fynboshoek-cheese-storms-river",
+  "name": "Fynboshoek Cheese",
+  "slug": "fynboshoek-cheese-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "Fynboshoek Cheese, Tsitsikamma, Sanddrift, 6309, South Africa",
+  "coordinates": {
+    "lat": -33.9976463,
+    "lng": 24.0110089
+  },
+  "phone": "+27 72 342 0445",
+  "email": "",
+  "website": "https://fynboshoek.co.za/",
+  "google_place_id": "ChIJAQAAwFhSYh4RHdA67UlA_uw",
+  "google_rating": 4.8,
+  "google_review_count": 240,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "South African"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Dog-friendly",
+    "Family-friendly",
+    "Garden seating",
+    "Outdoor seating",
+    "Pet-friendly"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "Closed",
+    "thursday": "12:00 – 2:00 PM",
+    "friday": "12:00 – 2:00 PM",
+    "saturday": "12:00 – 2:00 PM",
+    "sunday": "12:00 – 2:00 PM"
+  },
+  "description_short": "Family-run artisan cheese farm in Tsitsikamma offering tastings, farm-fresh meals, and forest walks.",
+  "description_long": "Tucked away in the lush Tsitsikamma forests near Storms River, Fynboshoek Cheese is a working artisan cheese farm where you can taste handcrafted cheeses made on-site while surrounded by indigenous fynbos and towering trees. The farm shop and outdoor seating area serve light meals featuring their own cheeses alongside homemade bread, preserves, and locally sourced ingredients—think generous cheese platters, toasted sandwiches, and farm-style breakfasts that showcase the region's produce.\n\nThe setting is as much a drawcard as the food itself. Visitors can wander the farm's walking trails through the forest, spot resident chickens and farm animals, and watch the cheese-making process firsthand. It's a genuine farm experience where the Cronje family's passion for sustainable farming and quality produce shines through in every bite. Whether you're breaking up the Garden Route drive or making a dedicated detour, Fynboshoek offers an authentic taste of Tsitsikamma's agricultural heart without any pretence—just honest food, beautiful surroundings, and a warm welcome.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAQAAwFhSYh4RHdA67UlA_uw/photos/Ab43m-tr-sic71fcQkvbQAeyY4aMe1va4g2__SeEeZv3exrNkN6WL7bGDUmnZmaAWzikLErq407HuIpViqoeDw9iWd2xw8vqDtICRBbSEqDVB_6KHaK-ZmV4vVhPt-5slT85rdw3CFt6H1xbZmtZTyNkdZGny85XitCf_HAYVWXxRWWW21jci43j6Zg2q26wfkRIjxahvM53JHFIM_Ykj5XtGmuLaLiLABBn885-mQcdO4s-f1YDoB2p81THktxPrGCZRayrwXYuvLhRqU-UQqMC4oslmDKHXAIpnt1WRqNdruHhn9HrA2I95RgboQom7khKKFuPxST5v-JPGyTcA2poMXN4rSfi_LUXzCnleWX7t1biFEOZiMwg4-MGbKwIe6dU9L7vjtdUsyNwAtClLcsSpbNeCN8aaQJTbdGrxuGdtGGeVoPZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAQAAwFhSYh4RHdA67UlA_uw/photos/Ab43m-vLwXj5StksLP32aZg8jpaNIHYmK2hTHHi4639rJUaFHRYOHiokS5TDFPr68niTcLNhxdP_-s29OCFRGUcodVsgqzBPsaNtTzaVshckdG2gsSI6IhLza8xhfUJRz_wX2u0-m1YJZVPmZYl3hgI8qYjfrHfEeU2VAgK_nr-mvLRccFCygpoMsaxlOgo24t2gk9M67BTpJ6TFIH8HbVoy5UKFSndcKUyufRpQPXs0ZvBmJCriUIFableaFEoYaKEh4rHtSGwVPxDTAl_AiVlctYov_GpRsfCJL5W3AHue8h5TQiqCzJKWlpMG9IiWXzZCUW7ykbend8J4fSpanlVMLlpnB6IffarW56sh6bI3qe4V_PuK9Wci0a4RYuYqIKqw0nfUJDNpAAdGlE_n5XTnUVC6u2Zv4J0NtW09fnjhL991Vg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAQAAwFhSYh4RHdA67UlA_uw/photos/Ab43m-srncl9mvfeXbciHQQv3Yks1FYnmlMZ0EAuKeKZS7de-_PhrlhWObkKTG-lcWyfkR_1UKlNvmdESjqACVERzt6whfXDLe0Rt1x2h3SpbELO5keL6QyLfi2ET0XK0DTiAWrJNYPpqD14VSfv3cMsoi8khC4TdaQpCTR0K4tEggEJvUS2QH8kc24G72J3gpIENaihDKVO6j-XOyDZUmJTgDG0DFij6BEtFV3RzGbLHXIknPrNmEZA-lL83dWwMOnIii15NNPu0-RHofrtHrFXie8-5_lRBeo4Xxiq7t4ze8QkkXEC1G_3q2uoYDa_7pO_omQh-O7s8NB63vikkvLAgwqT_IJOGzRLB4EzOIAf7rdzF53AN5MHNYPc6fKSJtv1ehy4GbkRt7EMZlS4RXhnKdLLsTTHMdUA1nPyjxkL5nu6lBw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAQAAwFhSYh4RHdA67UlA_uw/photos/Ab43m-vYZhSGVGw33FqKs8_JsT9jCDMH1AcAWrfOXEAPASeQN6Y4sHJ-4l9JusaH_kve9z8oj7SOoRYFJlf3Ke5TkXPqOVlEaxijfOMyEqnTh59mfCrzjCL8H9a3Ck5mJLT02ECtTepVGSBPCks1gdXMOwZxoVcSR79ldg1sshbshB7sRXF0M-w2kEsxxnJ4Uuwryg1dPtLrWSb3Fe0wJJ6j_qpe2S8ZSzS4YZEeVikfDm1mfOtoRQaCo8aaFpKBEjRue31FNxJpC_GRIzso6nAZPhD4pOz6WJwxpTghN3I34kwLi9eEIk36cdiXsu10QYbH_MMi_r4tsL1vG0gaxWgZN-MZv7Rp1FDqlOIl1l_VBP-t5FkHuEJlcQFaY2ZO3tqhcArMvoil2hco7LTGI0ImOdl1jwIYOkaRDij3Lp22IoVGe917Njp1tRlS9Ywhfzny/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAQAAwFhSYh4RHdA67UlA_uw/photos/Ab43m-vgG1ETsLd4f1wtPmTuoYQVvCdqO_-pXxpFMFrg8NcLjjJusQoqX1C2ovMA34k9Pi6nsBX6jWiB8veiYfS5no3k_wYomLJ1JVr3y6-WAj74Pk6Fy7nZxIiioedTHWgCbTe5gWTnwAMT06VVZ9a7644857BldO64o5jwT2JhEFDuolLknZMv57vXNQiJ9hYuJv6jYGpqzyCFNuBRE1F6w8pnFiZoT1nL1cE6vYLD_VzhQZW8ykL-5SGr8RkFS1aBv9gISpUAI3FZPbn2Hfev_5TeOYfK2HGaUoPHYI-6kzYw_PL9g4fhL6o0lt5c3fG06Vek11Dvqf32VcjEhHVGOftnmHDgGW_BpF-bcCV4WGmgmp27IXM7YEQ7WeBoUpMT1A95rhhxZKYrXZPbHSoge8BlDYInt-NrNof4LSjZVtQ1uJ09KuyMt4FcgvwJ8w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:47:03.765942+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

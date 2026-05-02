@@ -1,0 +1,71 @@
+{
+  "id": "slow-roasted-coffee-shop-and-roastery-sedgefield",
+  "name": "Slow Roasted Coffee Shop and Roastery",
+  "slug": "slow-roasted-coffee-shop-and-roastery-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Mosaic Village, Paul Kruger Street, The Island, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0103965,
+    "lng": 22.780183599999997
+  },
+  "phone": "+27 82 854 1959",
+  "email": "",
+  "website": "http://www.slowroastedcoffee.co.za/",
+  "google_place_id": "ChIJ1dgMWxOjeB4R06GGXQqLvFI",
+  "google_rating": 4.6,
+  "google_review_count": 428,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Bakery"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Takeaway",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 4:00 PM",
+    "tuesday": "7:00 AM – 4:00 PM",
+    "wednesday": "7:00 AM – 4:00 PM",
+    "thursday": "7:00 AM – 4:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "7:00 AM – 2:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Artisan coffee roastery and café in Mosaic Village serving freshly roasted beans and homebaked treats.",
+  "description_long": "Tucked into Sedgefield's creative Mosaic Village, Slow Roasted Coffee Shop and Roastery is where the Garden Route's coffee culture comes alive. The aroma of freshly roasted beans fills this welcoming space, where you can watch the roasting process while sipping expertly crafted coffee made from beans roasted on-site. The café doubles as a roastery and wholesaler, supplying quality beans across the region while maintaining its relaxed neighbourhood vibe.\n\nThe menu keeps things simple and satisfying — think homebaked cakes, fresh pastries, and light breakfast options that pair beautifully with their house blends. The setting in Mosaic Village adds to the appeal, with its artisan shops and creative community feel. Whether you're a serious coffee enthusiast wanting to learn about roasting profiles or just after a proper flat white and a slice of cake, this spot delivers without pretension. It's become a favourite meeting place for locals and a must-stop for visitors exploring Sedgefield's laid-back charm.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1dgMWxOjeB4R06GGXQqLvFI/photos/Ab43m-v5gqUsKHU_NR3TUcq6nIPSo9Jc9hVOn6IBeh4Zn28zRlbqBSqdUpzyyxv5vN0ZxTEhJ95erk7wU102J89dKkLA181blZJAqfrjQtueE8GyP-JJs-ybGLMeYaEwmclZRcuuS8iV1zBaCzl6s_uFpxshEopNPD9kYAalHeBHo4hn8dulYzqQKKBIpoUAeE6oHxmKFo1G2p2s-R8Is83IKKRkj_zhN_LIewe39_sFYeb8nBBJyW3OCXv-Ao-kt5lGMgihSTgIxL52JmP9hwOHIeD7nslO3cWVub4-m18BZRIQog/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1dgMWxOjeB4R06GGXQqLvFI/photos/Ab43m-vt-2S-vAtZmTbzztCgrJOCFlpW8QbOqV3gBG9Q_9t62HCzuCpijBDacYQxo2bnJMIc_fbV7C4woxQqvldyyzlk3ISPu1mvHQHTO22VbodTcvRcwHUG-kV4BcEzCMWF5tx_gROXoWTn3vpD3cCC2Tl4nb8yNZr_i2iTdwvvNKGDynvedtphs8flE02yQRnf0SMBd5FRRbNBT0tqliNlcfXalqb7uflB_w6NAEU_aA3ZKCx6cdXk2_op7BuZZ9pXAGnQzNy2LXwp4wGbwFD_0loK3qZ6CauO5vOWQOb9JmijFD-xA_dxgechwHKOMVir5ib_aH-t0Fnvn-r7w1b9IOOs8Mfe3F3bjBMQOdMVs_GrRpqWskaI002sYF2vI6YNjF48rd-Yx4lSaNtKpjkme34_XuedVjV8T9cBMisT1h1A-Upl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1dgMWxOjeB4R06GGXQqLvFI/photos/Ab43m-sUlGz-6iY9eC4c0dBDXdbCLx9iFoYw8sCCxMM1qVlNjT2IZtouxNGzBJxmaZ_lpoGT5m-89TwujEz-mnuL3ORIXRCuSn5GRfsZV6R3KMb_U8RDG8bgVVAXmuhiyOIZ9DlOBHThlfdnMlwqkvU-AIfO3AvlVzR0ugkvbXf3fE3qG1A5sYQw1vjPo_qRE03EmxIkSpkJyxxK0XItT67YPTBHBaLlgn_0Ya-xTxdO0nPArLLQztDyVWJuvR-ghBQS2MlipUpzhe0JSOOHcRy3z1RfDn59li2H-H7ny7zm1wlNW--XgRFns_oabLUXpQxokEq_0XN5Xn53dLTnXWFln6VHI6m_kl51_s_VpVmx1AZgDB6Wxq21u89ucIT0KQzPgrUJo8ytjlQf9ZAo4E7ExEdeeY1_Zo52DYqvzs4GnBw6gXGf/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1dgMWxOjeB4R06GGXQqLvFI/photos/Ab43m-uvUS2DU0IrzqVXjGfHVf8wg3Is_WQNCTpkPiW_cxX0D8AXZmlIW69CHqJtuadFeIO0boSek49qKi3I6Y30qRZAIRE-0SkkzWplqLWHdcbsYg7gDn5xEH9L9rjIP0vQoGsfVLsR3iR4TK9fTwPv7l-_HYBW3dQxOWJqtg9RrdB4LpwndrtGMF4w8H6A0vUGcECzo39_vZTnDRUeRRxlLdJCS4gZk9nNTTFETwkX7lxQKeHThua6VIv-wTn7gH71gG3sLvE9xWgDu0mDUAT7wCxwuxnKZfqY0isSMiA4sMH9efHrMf5Va6sYBxwFpyL-y_lYRl4CWKhnLkTOyUY4Wrdou-c2LqFXh43BHvEcxQDlL0RJsH3JUdDs4okIY8LO2UUHfABmS3oNM6dQynSRorY1JkrIfQ4bIQb-NZu05zRjK510zis7xUPKYMj6qQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1dgMWxOjeB4R06GGXQqLvFI/photos/Ab43m-v2i6N5pBm5rp2iNnHkEQlWzFNgymlc4wbN5n770JAtZyiR7Uzv1W7yWvDLCFbQY0kDyfB6DusfAo8Yi_d8iiaYIH7i83OIlRApbQ_mhffpd1qMMaouEb17GF4g-UF00X3BXgI36csOcQRryoEgHV8KUIJf91FquSKtmbd0EWlDjE-Sjqnbt7512GCi0Df8Q4xBVjwTTCzTQdOM7vwUMc3p6gJfNXzIcSC-iSEbg19JDAykwoAARxgesscaVNyDJ7EX7ttWkxWW-9rJQmjaEbDHCVI62LBV3aj8qjN1-vbcp5XkXxq5YPpxur2sNapCkXpAHTNqPVMXZ1uyFLlC3qDFyMqsEIw1ORYjgJ-bQY3lVpo9772LkGSupJEqcjireYW3Eyk3as95oUJ3LbFfMP5nPuyn-m5k2wa_7VeUtZo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:39:19.889968+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

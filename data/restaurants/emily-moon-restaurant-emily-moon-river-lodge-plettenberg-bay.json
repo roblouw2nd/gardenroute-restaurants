@@ -1,0 +1,76 @@
+{
+  "id": "emily-moon-restaurant-emily-moon-river-lodge-plettenberg-bay",
+  "name": "Emily Moon Restaurant @ Emily Moon River Lodge",
+  "slug": "emily-moon-restaurant-emily-moon-river-lodge-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "6940, South Africa",
+  "coordinates": {
+    "lat": -34.010362,
+    "lng": 23.3729923
+  },
+  "phone": "+27 44 501 2500",
+  "email": "",
+  "website": "https://emilymoon.co.za/dining-at-emilys/",
+  "google_place_id": "ChIJHZDmbn3heB4RIhdn1MiYib8",
+  "google_rating": 4.5,
+  "google_review_count": 93,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Mediterranean",
+    "Fine Dining"
+  ],
+  "tags": [
+    "Romantic",
+    "Family-friendly",
+    "Garden seating",
+    "Outdoor seating",
+    "Wine list",
+    "Functions",
+    "Private dining"
+  ],
+  "opening_hours": {
+    "monday": "6:00 – 10:00 PM",
+    "tuesday": "6:00 – 10:00 PM",
+    "wednesday": "6:00 – 10:00 PM",
+    "thursday": "6:00 – 10:00 PM",
+    "friday": "6:00 – 10:00 PM",
+    "saturday": "6:00 – 10:00 PM",
+    "sunday": "6:00 – 10:00 PM"
+  },
+  "description_short": "Riverside dining with seasonal menus and stunning Bitou River views at a boutique lodge retreat.",
+  "description_long": "Tucked into the lush grounds of Emily Moon River Lodge, this restaurant offers a tranquil escape above the Bitou River. The setting alone—with sweeping views over indigenous forest and water—makes it worth the visit, but the kitchen delivers too. The seasonal menu focuses on fresh, locally sourced ingredients with dishes that range from line fish and Karoo lamb to vegetarian options that actually shine.\n\nThe atmosphere strikes a balance between relaxed and refined, making it suitable for a long lunch or a special dinner without feeling too formal. Inside, the space is warm and inviting, while the deck is where you want to be on a clear Plett day. It's a spot that works equally well for couples looking for a quiet meal or families who appreciate good food in a beautiful setting.\n\nLocated a short drive from the Plettenberg Bay buzz, Emily Moon feels like a world apart. The lodge setting means service is attentive and the pace unhurried. Whether you're staying at the property or just coming for a meal, it's one of those places that reminds you why people love the Garden Route—natural beauty, good food, and no pretence.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJHZDmbn3heB4RIhdn1MiYib8/photos/Ab43m-vAaPfDCgOQRQJpl71yrCVYlyzsIMtG_IoZeyZ2S_1sSc8gp9mGDy5phRHkhHBVtegeqAoTJncFR22jHwRXyjpDNV408P4l3SzY5FRTuTmzKXDhkmWeLoUaHG-JoE_dleIGyqx54Ix0smGgnZXxQLWdJt9O7aptFpy7w9NpcY6Fl-nHQ0ux3lKVIJM6vj7uMpRq7ByXYXq5I5E9cHNRKUaNQcdJec8XhwI8JCXRihmRKLzvqYBCpWUP82ktBABi2aFW_-DYQxSj_jQ8rjAAzDjXZDIBy2d0Km_sdjnC6hTXqfcSsbZK5nHUkKJaZ5GHb5_Fi6wrrWy04PHu7Av6XRBWgYx3wAjMgTXc9i6-YdGvjh0wQ9xcqVz7REDRbU_gaorPogdVzh5oHQYR8VcPZxdv4fmpiAm2LhHYvyb47vGBjmlG/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJHZDmbn3heB4RIhdn1MiYib8/photos/Ab43m-sFRMsu07t29gKuh3Cfy-B-hhaMDBYEhnW-L_Pbp-j39Ztjm8mjojSbV-D73HGAnDECdIM1L4eHlPBjOVTGyBWsjHsTYvPt3w9befb7bnY_vep_RG9EL2LFKeAZhyDVQsSv3WOo3h6_s_gEh6DVLfSZTjkn33_iyX-spuG2Ym1HOPxuOh9HfORyLkAKVR2UniE3aB8t1ZN4oiw1Xk6N8PLB7vdGMb39Y5iqLnR-VL9EwRr845nc_kZjqGQ6H01sKrPBplSUdPQ7KsLS_1AObKy-tGnGHIQ274BS0rdSj_YN0kvp5WA3Izb-qHLyb-Z2IFSpzIESNX18IP2RTPYcC2xfPY-j8_eMP2vpOJAhFFep5tkBee3l3ND0PVdvHVhFtG8rflqFHovXoSPZkK1574FI9ELZXRtMLZ43oxrQEh3A0DH6mRmwc5hquz2k5EU2/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJHZDmbn3heB4RIhdn1MiYib8/photos/Ab43m-sg9O4YZpWxXF018EKYZ6610YPPNQqizrcbJdEnnvRITZYXjl5kFjuRklFTAdh2uONWo8SlyFBoCYU_JnUXwqFD_CBjYPOoVV3m23FoyT5TzjeYK1QfFEo11cxBBEzs6Nn58VNKpAe6GX3hJoeGrXC84hDYZ5jyy5NC6XamB-dxj7yso76lAq6C6H7cSM4IZvmDjXR2ntoa1-th8OydlFCSzkSfZXvkwmEHp7OoovbtXqmTh1SBrQgXXafFXGe4XRTgE0DFEdRecz79iHG_OXmWRWX7rxPFP5aOhP62CqzlTvJ1vh4srXfCig5O1gZbzo8OPj9O0PQINpoyEfNGTHpWzRrZx9yztEemfTfBgEwfUr80-D5IcK1RzlS42XcqwgP470ZQerj0f30XuJABjqRWcSNJ5gPLN6D3NSdcimHKmQ8/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJHZDmbn3heB4RIhdn1MiYib8/photos/Ab43m-usd7yNq0XdyRF54FBnSp9NHq0-Uu27dSbDINPR_oNA6zgis_9D7jjGGraQryCTf98rxB0uDOvatnpur2GxZ4GIbJ4HBmb2Ndih0FuE_e10pTyS9OjrL5BM-ad_fScq-tRgVEAk7ROdRGN1MC8pj-qqMZm__rL3nqGcRUcU7iAnGE1kxPRIUGuXuIqQSDGnQbaZzm0hvefe-PStvdJobOp8utDxeS51NUOWy1Xv7RSgRos9lsDWkoa5kH_GH3GGw97LTi1yFiVkA3UPfZ7Y7Bxxp9-6pjTMHehr9-VIde0OmGZf-5-qeH3Kro_RO1dMKnQA1OgtwG2hFmixP91PcfvN5Sly3Lv7LLbHrd9hV238gcXsRJB9xRkWFHdRaTMsCz08SeuwJGEGKER8WuabZEsbcOVGYdBsMMDaSyVkCdM/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJHZDmbn3heB4RIhdn1MiYib8/photos/Ab43m-vQZo3wLYMhRGBtxw-Kfwy7q9QhmcA8rWQvB0mCEF-Khz-meFkt4nw1GNMS6yR1uSZX6dS6Cj-icem_rQBjCgfDlHuy6b_N2xGY03kW4xQhHDq1d0t8xUArvrI3ty4x32Epo0GFATTlrPD4eR9BbQIJYLXXODNuKAO4NoOObw4tmSQDzLAO5TzmasTjwJTXXZG17m3XryTXY8XZgmVR5ca87D1JpjDzW-wENxfdjTGLXy_5tpsqUXeqVd6nPv57R8W2EsqIFx564YKzb1M5g9HEK0wglHtWHnRim3WDlYPoSgs1OOxoGgC-ECPr2zG4W60KP61kdQf0-mpuliCQ_3vp0bGSol_2Xqe4ctBmBDob06zP_D2lQsZ_WmHSjoEXtjxFVOw0kqhyMoLDuWG6lxL5_GAIr3D-pZAnOboE94-3y9SrBwbB5g3SUzSNgw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:42:22.952393+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}
