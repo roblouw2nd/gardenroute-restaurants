@@ -1,0 +1,36 @@
+{
+  "id": "example-restaurant-knysna",
+  "name": "Example Restaurant",
+  "slug": "example-restaurant-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "1 Waterfront Drive, Knysna, 6571",
+  "coordinates": {
+    "lat": -34.0523,
+    "lng": 23.0471
+  },
+  "phone": "+27 44 000 0000",
+  "email": "",
+  "website": "https://www.example.com",
+  "google_place_id": "ChIJEXAMPLE",
+  "google_rating": 4.5,
+  "google_review_count": 200,
+  "price_level": 2,
+  "cuisine_types": ["South African", "Seafood", "Grill"],
+  "tags": ["Waterfront", "Family-friendly", "Outdoor seating"],
+  "opening_hours": {
+    "monday": "09:00–22:00",
+    "tuesday": "09:00–22:00",
+    "wednesday": "09:00–22:00",
+    "thursday": "09:00–22:00",
+    "friday": "09:00–23:00",
+    "saturday": "09:00–23:00",
+    "sunday": "10:00–21:00"
+  },
+  "description_short": "A waterfront gem serving fresh Garden Route seafood with sweeping lagoon views.",
+  "description_long": "Perched on the edge of Knysna's famous lagoon, Example Restaurant has been a local favourite for years. The kitchen leans heavily on the day's catch — linefish, crayfish in season, and the freshest oysters from the lagoon itself.\n\nThe atmosphere is relaxed and unhurried in true Garden Route fashion. Grab a table on the deck, order a carafe of local Sauvignon Blanc, and let the afternoon disappear. The kitchen handles meat as confidently as it does seafood, with a standout slow-braised lamb shank that draws regulars back week after week.\n\nParking is easy, the staff are genuinely friendly, and children are well catered for. A reliable choice whether you're visiting for the first time or the fiftieth.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-02T00:00:00Z",
+  "data_sources": ["google_places"]
+}
