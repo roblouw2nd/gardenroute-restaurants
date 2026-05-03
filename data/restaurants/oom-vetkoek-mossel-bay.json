@@ -68,9 +68,10 @@
       "caption": ""
     }
   ],
-  "featured": false,
-  "last_updated": "2026-05-03T02:50:57.971763+00:00",
+  "featured": true,
+  "last_updated": "2026-05-03",
   "data_sources": [
     "google_places"
-  ]
+  ],
+  "home_featured": true
 }
