@@ -1,0 +1,380 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import { loadRestaurants, getUniqueTowns, getUniqueCuisines } from '../lib/restaurants.js';
+
+const restaurants = loadRestaurants();
+const towns = getUniqueTowns(restaurants);
+const cuisines = getUniqueCuisines(restaurants);
+
+// Strip only what the map needs — keeps the inline JSON small
+const mapData = restaurants
+  .filter(r => r.coordinates?.lat && r.coordinates?.lng)
+  .map(r => ({
+    slug:     r.slug,
+    name:     r.name,
+    town:     r.town,
+    lat:      r.coordinates.lat,
+    lng:      r.coordinates.lng,
+    rating:   r.google_rating || 0,
+    reviews:  r.google_review_count || 0,
+    price:    r.price_level || 2,
+    cuisine:  (r.cuisine_types || []).slice(0, 2),
+    short:    r.description_short || '',
+    photo:    r.photos?.[0]?.url || '',
+    phone:    r.phone || '',
+    website:  r.website || '',
+  }));
+---
+
+<Base
+  title="Restaurant Map — Garden Route, South Africa"
+  description="Interactive map of all restaurants on the Garden Route. Filter by town, cuisine, price and rating."
+>
+  <!-- Skip Nav — use inline for map page so we control layout fully -->
+  <div class="flex flex-col h-screen overflow-hidden">
+
+    <!-- Top bar -->
+    <header class="flex items-center justify-between px-4 py-3 bg-white border-b border-gray-100 z-20 shrink-0">
+      <a href="/" class="flex items-center gap-2 font-semibold text-ocean-600 no-underline text-lg">
+        <span>🌊</span><span class="hidden sm:inline">gardenroute</span>
+      </a>
+      <nav class="flex items-center gap-4 text-sm font-medium text-gray-600">
+        <a href="/browse" class="hover:text-ocean-600 no-underline">Browse</a>
+        <a href="/towns" class="hover:text-ocean-600 no-underline">Towns</a>
+        <a href="/about" class="hover:text-ocean-600 no-underline">About</a>
+        <a href="/submit" class="px-3 py-1.5 rounded-full bg-ocean-600 text-white text-xs font-semibold hover:bg-ocean-700 no-underline transition-colors">Add restaurant</a>
+      </nav>
+    </header>
+
+    <!-- Main: sidebar + map -->
+    <div class="flex flex-1 overflow-hidden">
+
+      <!-- Sidebar -->
+      <aside id="sidebar" class="w-80 shrink-0 bg-white border-r border-gray-100 flex flex-col overflow-hidden z-10">
+
+        <!-- Filters -->
+        <div class="p-4 border-b border-gray-100 space-y-3">
+          <h2 class="font-semibold text-gray-800 text-sm">Filter restaurants</h2>
+
+          <!-- Search -->
+          <input
+            id="search"
+            type="text"
+            placeholder="Search by name…"
+            class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-ocean-400 focus:ring-1 focus:ring-ocean-100"
+          />
+
+          <!-- Town -->
+          <select id="filter-town" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-ocean-400">
+            <option value="">All towns</option>
+            {towns.map(t => <option value={t}>{t}</option>)}
+          </select>
+
+          <!-- Cuisine -->
+          <select id="filter-cuisine" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-ocean-400">
+            <option value="">All cuisines</option>
+            {cuisines.map(c => <option value={c}>{c}</option>)}
+          </select>
+
+          <!-- Price -->
+          <select id="filter-price" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-ocean-400">
+            <option value="">Any price</option>
+            <option value="1">R — Budget</option>
+            <option value="2">RR — Mid-range</option>
+            <option value="3">RRR — Upmarket</option>
+            <option value="4">RRRR — Fine dining</option>
+          </select>
+
+          <!-- Min rating -->
+          <div>
+            <label class="text-xs text-gray-500 font-medium">Min rating: <span id="rating-label">Any</span></label>
+            <input id="filter-rating" type="range" min="0" max="5" step="0.5" value="0"
+              class="w-full mt-1 accent-ocean-600" />
+          </div>
+
+          <!-- Reset -->
+          <button id="reset-filters"
+            class="w-full py-2 text-xs font-semibold text-gray-500 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+            Reset filters
+          </button>
+        </div>
+
+        <!-- Result count -->
+        <div class="px-4 py-2 border-b border-gray-100 text-xs text-gray-400 font-medium">
+          <span id="result-count">{mapData.length}</span> restaurants shown
+        </div>
+
+        <!-- Restaurant list -->
+        <div id="restaurant-list" class="flex-1 overflow-y-auto">
+          <!-- Populated by JS -->
+        </div>
+      </aside>
+
+      <!-- Map -->
+      <div id="map" class="flex-1 z-0"></div>
+    </div>
+  </div>
+
+  <!-- Leaflet CSS + MarkerCluster -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
+
+  <style>
+    #map { height: 100%; }
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px;
+      padding: 0;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+      max-width: 260px;
+    }
+    .leaflet-popup-content { margin: 0; width: 260px !important; }
+    .leaflet-popup-tip-container { margin-top: -1px; }
+
+    .map-popup-img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      display: block;
+      background: #f3f4f6;
+    }
+    .map-popup-body { padding: 12px 14px 14px; }
+    .map-popup-name { font-weight: 700; font-size: 14px; color: #111; margin-bottom: 2px; line-height: 1.3; }
+    .map-popup-meta { font-size: 11px; color: #6b7280; margin-bottom: 6px; }
+    .map-popup-rating { font-size: 12px; color: #f59e0b; font-weight: 600; margin-bottom: 8px; }
+    .map-popup-short { font-size: 11px; color: #374151; line-height: 1.5; margin-bottom: 10px; }
+    .map-popup-link {
+      display: block;
+      text-align: center;
+      background: #0d7ec4;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 8px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .map-popup-link:hover { background: #0b6ca8; }
+
+    /* Custom marker pin */
+    .map-pin {
+      width: 32px; height: 32px;
+      background: #0d7ec4;
+      border: 2.5px solid #fff;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(-45deg);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    }
+    .map-pin.high { background: #059669; }
+    .map-pin.mid  { background: #0d7ec4; }
+    .map-pin.low  { background: #9ca3af; }
+
+    /* Sidebar list item */
+    .list-item {
+      display: flex; align-items: center; gap-x: 10px;
+      padding: 10px 14px; border-bottom: 1px solid #f3f4f6;
+      cursor: pointer; transition: background 0.15s;
+    }
+    .list-item:hover { background: #f0f9ff; }
+    .list-item.active { background: #e0f2fe; }
+    .list-item-name { font-size: 13px; font-weight: 600; color: #111; line-height: 1.2; }
+    .list-item-meta { font-size: 11px; color: #6b7280; margin-top: 2px; }
+    .list-item-rating { font-size: 11px; color: #f59e0b; font-weight: 600; }
+
+    /* Cluster overrides */
+    .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
+      background-color: rgba(13, 126, 196, 0.2) !important;
+    }
+    .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
+      background-color: rgba(13, 126, 196, 0.85) !important;
+      color: #fff !important;
+      font-weight: 700;
+    }
+  </style>
+
+  <!-- Restaurant data injected at build time -->
+  <script type="application/json" id="restaurant-data" set:html={JSON.stringify(mapData)}></script>
+
+  <!-- Leaflet JS + MarkerCluster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+
+  <script>
+    const PRICE_LABEL = ['', 'R', 'RR', 'RRR', 'RRRR'];
+    const PRICE_LONG  = ['', 'Budget', 'Mid-range', 'Upmarket', 'Fine dining'];
+
+    // ── Data ────────────────────────────────────────────────────────────────
+    const ALL = JSON.parse(document.getElementById('restaurant-data').textContent);
+
+    // ── Map init ────────────────────────────────────────────────────────────
+    const map = L.map('map', { zoomControl: false }).setView([-33.9766, 22.8], 9);
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19,
+    }).addTo(map);
+
+    // ── Cluster group ────────────────────────────────────────────────────────
+    const cluster = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      maxClusterRadius: 50,
+      spiderfyOnMaxZoom: true,
+      zoomToBoundsOnClick: true,
+    });
+    map.addLayer(cluster);
+
+    // ── Helpers ──────────────────────────────────────────────────────────────
+    function pinIcon(rating) {
+      const cls = rating >= 4.3 ? 'high' : rating >= 3.5 ? 'mid' : 'low';
+      return L.divIcon({
+        className: '',
+        html: `<div class="map-pin ${cls}"></div>`,
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -34],
+      });
+    }
+
+    function stars(rating) {
+      const full = Math.floor(rating);
+      const half = rating % 1 >= 0.5 ? 1 : 0;
+      return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(5 - full - half);
+    }
+
+    function popupHtml(r) {
+      const imgHtml = r.photo
+        ? `<img class="map-popup-img" src="${r.photo}" alt="${r.name}" loading="lazy" />`
+        : `<div class="map-popup-img" style="background:#e5e7eb;display:flex;align-items:center;justify-content:center;color:#9ca3af;font-size:24px;">🍽</div>`;
+      return `
+        ${imgHtml}
+        <div class="map-popup-body">
+          <div class="map-popup-name">${r.name}</div>
+          <div class="map-popup-meta">${r.cuisine.join(', ')} · ${r.town} · ${PRICE_LABEL[r.price] || 'RR'}</div>
+          ${r.rating ? `<div class="map-popup-rating">${stars(r.rating)} ${r.rating} <span style="color:#9ca3af;font-weight:400">(${r.reviews})</span></div>` : ''}
+          ${r.short ? `<div class="map-popup-short">${r.short}</div>` : ''}
+          <a class="map-popup-link" href="/${r.slug}">View restaurant →</a>
+        </div>`;
+    }
+
+    // ── Build markers ────────────────────────────────────────────────────────
+    const markers = {};   // slug → L.marker
+    ALL.forEach(r => {
+      const m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating) });
+      m.bindPopup(popupHtml(r), { maxWidth: 260, minWidth: 260 });
+      m._restaurantData = r;
+      markers[r.slug] = m;
+      cluster.addLayer(m);
+    });
+
+    // ── Sidebar list ─────────────────────────────────────────────────────────
+    const listEl       = document.getElementById('restaurant-list');
+    const countEl      = document.getElementById('result-count');
+    let activeSlug     = null;
+
+    function renderList(items) {
+      countEl.textContent = items.length;
+      listEl.innerHTML = '';
+      if (!items.length) {
+        listEl.innerHTML = '<p style="padding:20px;text-align:center;color:#9ca3af;font-size:13px;">No restaurants match your filters.</p>';
+        return;
+      }
+      items.forEach(r => {
+        const div = document.createElement('div');
+        div.className = 'list-item' + (r.slug === activeSlug ? ' active' : '');
+        div.dataset.slug = r.slug;
+        div.innerHTML = `
+          <div style="flex:1;min-width:0;">
+            <div class="list-item-name">${r.name}</div>
+            <div class="list-item-meta">${r.town}${r.cuisine[0] ? ' · ' + r.cuisine[0] : ''} · ${PRICE_LABEL[r.price] || 'RR'}</div>
+            ${r.rating ? `<div class="list-item-rating">${stars(r.rating)} ${r.rating}</div>` : ''}
+          </div>`;
+        div.addEventListener('click', () => flyToRestaurant(r.slug));
+        listEl.appendChild(div);
+      });
+    }
+
+    function flyToRestaurant(slug) {
+      const r = ALL.find(x => x.slug === slug);
+      if (!r) return;
+      activeSlug = slug;
+      map.flyTo([r.lat, r.lng], 15, { duration: 0.8 });
+      setTimeout(() => {
+        const m = markers[slug];
+        if (m) { cluster.zoomToShowLayer(m, () => m.openPopup()); }
+      }, 850);
+      // Highlight in list
+      document.querySelectorAll('.list-item').forEach(el => {
+        el.classList.toggle('active', el.dataset.slug === slug);
+      });
+    }
+
+    // ── Filtering ─────────────────────────────────────────────────────────────
+    const searchEl   = document.getElementById('search');
+    const townEl     = document.getElementById('filter-town');
+    const cuisineEl  = document.getElementById('filter-cuisine');
+    const priceEl    = document.getElementById('filter-price');
+    const ratingEl   = document.getElementById('filter-rating');
+    const ratingLbl  = document.getElementById('rating-label');
+    const resetBtn   = document.getElementById('reset-filters');
+
+    function applyFilters() {
+      const q       = searchEl.value.trim().toLowerCase();
+      const town    = townEl.value;
+      const cuisine = cuisineEl.value;
+      const price   = parseInt(priceEl.value) || 0;
+      const minRat  = parseFloat(ratingEl.value) || 0;
+
+      ratingLbl.textContent = minRat > 0 ? `${minRat}+` : 'Any';
+
+      const filtered = ALL.filter(r => {
+        if (q && !r.name.toLowerCase().includes(q)) return false;
+        if (town && r.town !== town) return false;
+        if (cuisine && !r.cuisine.includes(cuisine)) return false;
+        if (price && r.price !== price) return false;
+        if (minRat && r.rating < minRat) return false;
+        return true;
+      });
+
+      // Update cluster layers
+      cluster.clearLayers();
+      filtered.forEach(r => { if (markers[r.slug]) cluster.addLayer(markers[r.slug]); });
+
+      renderList(filtered);
+    }
+
+    searchEl.addEventListener('input',  applyFilters);
+    townEl.addEventListener('change',   applyFilters);
+    cuisineEl.addEventListener('change', applyFilters);
+    priceEl.addEventListener('change',  applyFilters);
+    ratingEl.addEventListener('input',  applyFilters);
+
+    resetBtn.addEventListener('click', () => {
+      searchEl.value = '';
+      townEl.value   = '';
+      cuisineEl.value = '';
+      priceEl.value  = '';
+      ratingEl.value = 0;
+      applyFilters();
+    });
+
+    // Click on map marker → highlight list item
+    map.on('popupopen', e => {
+      const m = e.popup._source;
+      if (m && m._restaurantData) {
+        activeSlug = m._restaurantData.slug;
+        const el = listEl.querySelector(`[data-slug="${activeSlug}"]`);
+        if (el) {
+          document.querySelectorAll('.list-item').forEach(x => x.classList.remove('active'));
+          el.classList.add('active');
+          el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+    });
+
+    // ── Initial render ────────────────────────────────────────────────────────
+    renderList(ALL);
+  </script>
+</Base>

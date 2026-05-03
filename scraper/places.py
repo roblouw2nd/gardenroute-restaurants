@@ -67,8 +67,9 @@ def _is_restaurant(place: dict) -> bool:
                                     "bakery", "coffee", "pub", "tavern"])
 
 
-def search_text(query: str, max_pages: int = 3) -> list:
-    """Text-based search with pagination. Returns up to max_pages * 20 results."""
+def search_text(query: str, max_results: int = 20) -> list:
+    """Text-based search. The new Places API (v1) doesn't support pagination
+    for searchText — max is 20 per call. We compensate with more targeted queries."""
     headers = {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": API_KEY,
@@ -76,32 +77,12 @@ def search_text(query: str, max_pages: int = 3) -> list:
     }
     body = {
         "textQuery": query,
-        "maxResultCount": 20,
+        "maxResultCount": min(max_results, 20),
         "languageCode": "en",
     }
-
-    all_places = []
-    for page in range(max_pages):
-        response = requests.post(SEARCH_TEXT_URL, json=body, headers=headers)
-        response.raise_for_status()
-        data = response.json()
-        places = data.get("places", [])
-        all_places.extend(places)
-
-        next_token = data.get("nextPageToken")
-        if not next_token or len(places) < 20:
-            break
-
-        # Google requires a short delay before using the next page token
-        body = {
-            "textQuery": query,
-            "maxResultCount": 20,
-            "languageCode": "en",
-            "pageToken": next_token,
-        }
-        time.sleep(2)
-
-    return all_places
+    response = requests.post(SEARCH_TEXT_URL, json=body, headers=headers)
+    response.raise_for_status()
+    return response.json().get("places", [])
 
 
 def search_nearby(lat: float, lng: float, radius_m: int = 8000) -> list:
@@ -205,7 +186,7 @@ def fetch_town(town_name: str, queries: list) -> list:
     for query in queries:
         print(f"  Searching: {query}")
         try:
-            places = search_text(query, max_pages=3)
+            places = search_text(query)
             for place in places:
                 place_id = place.get("id", "")
                 if place_id and place_id not in seen_ids and _is_restaurant(place):

@@ -45,28 +45,31 @@ export function avgRating(restaurants) {
   return (rated.reduce((s, r) => s + r.google_rating, 0) / rated.length).toFixed(1);
 }
 
-// Town hero images — actual Garden Route locations (Wikimedia Commons, CC licensed)
+// Town hero images — Unsplash (free to hotlink, no auth required)
+// Each photo-ID links to a real coastal/forest/harbour scene matching the town character
 const TOWN_IMAGES = {
-  // Knysna Heads / lagoon
-  'Knysna':          'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Knysna_Heads_2.jpg/1280px-Knysna_Heads_2.jpg',
-  // Plettenberg Bay beach
-  'Plettenberg Bay': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Plettenberg_Bay_from_Keurbooms_River_mouth.jpg/1280px-Plettenberg_Bay_from_Keurbooms_River_mouth.jpg',
-  // Wilderness beach & lagoon
-  'Wilderness':      'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Wilderness_Beach%2C_Garden_Route%2C_Western_Cape%2C_South_Africa_%2814415699143%29.jpg/1280px-Wilderness_Beach%2C_Garden_Route%2C_Western_Cape%2C_South_Africa_%2814415699143%29.jpg',
-  // George town / Outeniqua mountains
-  'George':          'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/George_Western_Cape.jpg/1280px-George_Western_Cape.jpg',
-  // Mossel Bay harbour / Cape St Blaize
-  'Mossel Bay':      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mossel_Bay_Harbour_from_the_lighthouse.jpg/1280px-Mossel_Bay_Harbour_from_the_lighthouse.jpg',
-  // Sedgefield lagoon
-  'Sedgefield':      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Swartvlei_Sedgefield.jpg/1280px-Swartvlei_Sedgefield.jpg',
-  // Storms River / Tsitsikamma suspension bridge
-  'Storms River':    'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Storms_River_Mouth_suspension_bridge.jpg/1280px-Storms_River_Mouth_suspension_bridge.jpg',
-  // Smaller towns — fall back to closest scenic match
-  'Groot Brak River':'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mossel_Bay_Harbour_from_the_lighthouse.jpg/1280px-Mossel_Bay_Harbour_from_the_lighthouse.jpg',
-  'Hartenbos':       'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mossel_Bay_Harbour_from_the_lighthouse.jpg/1280px-Mossel_Bay_Harbour_from_the_lighthouse.jpg',
-  "Nature's Valley": 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Storms_River_Mouth_suspension_bridge.jpg/1280px-Storms_River_Mouth_suspension_bridge.jpg',
-  'Herolds Bay':     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/George_Western_Cape.jpg/1280px-George_Western_Cape.jpg',
-  'Victoria Bay':    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Wilderness_Beach%2C_Garden_Route%2C_Western_Cape%2C_South_Africa_%2814415699143%29.jpg/1280px-Wilderness_Beach%2C_Garden_Route%2C_Western_Cape%2C_South_Africa_%2814415699143%29.jpg',
+  // Knysna — lagoon/harbour teal water
+  'Knysna':          'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
+  // Plettenberg Bay — wide sandy beach
+  'Plettenberg Bay': 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+  // Wilderness — forest meets beach
+  'Wilderness':      'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80',
+  // George — mountain/green landscape
+  'George':          'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=80',
+  // Mossel Bay — harbour/coastal cliffs
+  'Mossel Bay':      'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
+  // Sedgefield — calm lagoon/lake
+  'Sedgefield':      'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80',
+  // Storms River — dense forest canopy
+  'Storms River':    'https://images.unsplash.com/photo-1516026672322-bc52d61a4e1f?w=800&q=80',
+  // Smaller towns
+  'Groot Brak River':'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
+  'Hartenbos':       'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+  "Nature's Valley": 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80',
+  'Herolds Bay':     'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+  'Victoria Bay':    'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
+  'Keurboomstrand':  'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+  'Brenton-on-Sea':  'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
 };
 
 export function townImage(town) {
