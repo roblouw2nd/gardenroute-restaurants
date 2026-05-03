@@ -1,0 +1,78 @@
+{
+  "id": "surf-cafe-plettenberg-bay",
+  "name": "Surf Cafe",
+  "slug": "surf-cafe-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "10, Beacon Isle Centre, Pharos Ave &, Beacon Isle Dr, Piesang Valley, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.062579299999996,
+    "lng": 23.3717813
+  },
+  "phone": "+27 44 533 6801",
+  "email": "",
+  "website": "https://www.surfcafeplett.com/",
+  "google_place_id": "ChIJ6SZnuXLieB4Ru4NUGVgJKVA",
+  "google_rating": 4.4,
+  "google_review_count": 682,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Seafood",
+    "Pizza",
+    "Breakfast",
+    "Bar"
+  ],
+  "tags": [
+    "Ocean views",
+    "Live music",
+    "Outdoor seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Functions",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "10:30 AM – 1:30 AM",
+    "tuesday": "10:30 AM – 1:30 AM",
+    "wednesday": "10:30 AM – 1:30 AM",
+    "thursday": "10:30 AM – 1:30 AM",
+    "friday": "10:30 AM – 1:30 AM",
+    "saturday": "10:30 AM – 1:30 AM",
+    "sunday": "10:30 AM – 1:30 AM"
+  },
+  "description_short": "Beachside cafe serving fresh seafood, wood-fired pizzas, and breakfast with live music and ocean views.",
+  "description_long": "Perched at Beacon Isle Centre with sweeping views over Robberg Beach, Surf Cafe captures the laid-back spirit of Plett's surf culture. The menu moves easily from early-morning breakfasts to wood-fired pizzas, fresh line fish, and generous burgers, with a bar that stays busy into the evening. The vibe shifts with the day—families gather for lunch on the deck, while sunset brings live music and a younger crowd.\n\nThe location puts you steps from the sand, with outdoor seating that catches the breeze and the sound of waves below. It's the kind of place where you might stop for coffee after a beach walk and end up staying for sundowners. Service is relaxed but attentive, and the kitchen handles both quick bites and proper sit-down meals with equal ease.\n\nWhether you're after a lazy breakfast, a family lunch, or drinks with music as the sun goes down, Surf Cafe delivers without pretension. It's beachside dining done right—fresh food, cold drinks, and one of Plett's best views to tie it all together.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6SZnuXLieB4Ru4NUGVgJKVA/photos/Ab43m-sAOhEpRlNVSxKj3-mZsl-KLauE4307IScfXY2Vr1LQaJGpWrZO9C1669cJ4eDwiKwo9cB8zoYKKz_kp5HAZq2ymjwcmr8kiWu22wePQzpoxZZ15VxvEeloflIVgvY-YOGJK9illJ9TgYhnwSvc5qymsYbOa-gtgpEoQC4QkD5wp7igkKoL2JhzshxvhcvrO4QxUgXVjOVl4IAPalDO3vUPzRcG83gKSNklPYoV21WSnhNTWxEwEOASAUwJWARr41kSMRuhovbkmWTAwQP0d9E_DBlQ3Y0we8VYAWKXlyUX5RFiT3aQxoQIbK3cK0eEw4EwAm2ovOFlZMg8EdrFwR00TddBklvRTmeivxw3LdQbPnw_-bi5ymE9DN5rxrLQv3JYWeH9GIk51J6FF-7qfuDBuT_T0Ab3oUtaRBdDEmmDuQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6SZnuXLieB4Ru4NUGVgJKVA/photos/Ab43m-vhbPqZ3hW1cQBY5iR4d_WSIrBkhkekiqAzfx2Jxlf2VZqvTwZBIcwa4TBpUVzEcmofiD-ToGiiygyMS9Dt19TQZfHGv74wXAC3NEd95WCT2uWGvT42Mi5qPI6TEY7BIOuXABRtg4YE0BneqE4Hgc1WRncYtv15nublj-E6dhqI4qaBUosfKlmyNR9tJIEBbK-SKU3pxG7e58UPUYaNGpwgGTJN9gHpo1kv3ryaXuQK4Jdd_zPI9u9mYhAw7xbJ2nBU1yCBtFl7RKTQ5k_xyWBQ28sKk0itvODhlkzl_3ltKwhGm3B19eobpWo-NcZ7Yex3CZRUwAfHy1LwuNkSiqKfHsHqA0LFRa2qQbdfBRPVCHgbcHJUt-ceT1kCRIeo3rvXfVuozT1fp54h6RB5vcB4UFTV8pIOCFruuJZu8HbiA4s7EbOo2nhPz1g9Bw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6SZnuXLieB4Ru4NUGVgJKVA/photos/Ab43m-uou5D1JX0C_yHYfJg2eQJWFC1oknFRLif-0S8w_BbRCXVLKsLqhASe1P6hIoVmWx3sl2gn0otOwB4QaW3voihjED4WF4gJJmOt-FUJ_DDzP7_CGmxkcBGOEsEnxy_MMI6u53RYUist1kCBKmB1S_0rgrMJWejGyzCgMwsjshdefC2e4ctLfGajjfkvX3fH1aWwgcJ45lu_QH3ori8eDsaWT9mEQTT8qgjpPVXkwYIMJ-EN64N4YlJOk6pMB3aUqmQu6z9GduTklSvLGjN75Os_z-Ui7W0eGqNM66QQWm_6Ld8OzV5fJMFh8mzVhon0x-jvFdUgwtnN_uru-HFDfSi5RgPMqYdg8lC0p5BeGp7WNgS_3v1P6bgBIebLUdZ4sVDHgi118A3J75UXrKYkUzwZ9kMmHSgG4Asx78ljYncMkw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6SZnuXLieB4Ru4NUGVgJKVA/photos/Ab43m-sU6avCPKVHPCovxrtn27coueRPN313RBvWIIE64dP4QjJD968sSN3wEpufh92-rZFAewpkRYnApSOtCfpvpTEBKN1uIgt5OHap3I--bVkl12ZbymrcFOB_ardwsSAGSRUwxUaR3X-GYUkUS6oDQ-QKlClIb40kBrnhooCr5RoRw0TNUspXkAKqNWVCi_lnfO8-QCvqW8rhuuv6qdZjmI0RoFYMrmRI06E4nUlAD2oDD_frziVHGG2WwMOXzcMz4Q-43TKdCk1GPThwd2PZG6WjOC1vNsvbj8W1bF_OU6MMYOqe3P4hlqxUX0vmaBowy7Qv85jJ-0eqb-q6Ql0KnsvvNOM0S5fHDqnqar3lv85jJwEtZtrh2o0LbrMq08ZfgB8gXtUZre6n7zWefL1hSdidvRb5Uogkx18kydro-eIK-2q9hJnADozkm2NN74jK/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6SZnuXLieB4Ru4NUGVgJKVA/photos/Ab43m-tc6ebBIzTsTqtL7y2M5v6EgXOo2AEHr7Jv0Ff_iFKK-sk063APKT6qNPy8f69uRyrsgeEaXBXNKQyOSYhPX3yeuFxTIZb_hO2t1UZzwFeS9c1gg93HrB51GKeNO7NX_JGM_nTug4vD-P6v-EivDdHhCDque_xegldajm0I1SFW1DoE7CbV1mdIVjm8ziYG1SvHZuiAotCySz2vlcJTw4jan158PEHvV5tkSvfpC2ZCxuYUsSNDXij8zd0wPo61RTVKC5EH4pG_pztWqXN9b6tvKgvETFDKgheKf5tmjFZZHURcSp1FQu83i07JEytrUquODK3shUfSb-MCtN3VS42Ov7exFkejUjvnZ_LubCchqlodsjbrNaZkl1BtCrkj5MK5LYklHsilJIPl4Nlvgk6Td8QOPvBjKw2y2phCVR986dw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:44:34.398768+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

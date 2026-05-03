@@ -1,0 +1,73 @@
+{
+  "id": "the-sea-gypsy-cafe-mossel-bay",
+  "name": "The Sea Gypsy Cafe",
+  "slug": "the-sea-gypsy-cafe-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Quay 4, Harbour, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1778105,
+    "lng": 22.143523899999998
+  },
+  "phone": "+27 44 690 5496",
+  "email": "",
+  "website": "http://www.seagypsy.co.za/",
+  "google_place_id": "ChIJp__CPxBr1h0RvcOuiazEKNY",
+  "google_rating": 4.1,
+  "google_review_count": 3080,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Seafood"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Takeaway",
+    "Waterfront"
+  ],
+  "opening_hours": {
+    "monday": "9:30 AM – 9:30 PM",
+    "tuesday": "9:30 AM – 9:30 PM",
+    "wednesday": "9:30 AM – 9:30 PM",
+    "thursday": "9:30 AM – 9:30 PM",
+    "friday": "9:30 AM – 9:30 PM",
+    "saturday": "9:30 AM – 9:30 PM",
+    "sunday": "10:00 AM – 9:30 PM"
+  },
+  "description_short": "Harbourside café serving fresh seafood and casual meals with front-row views of Mossel Bay's working waterfront.",
+  "description_long": "Perched on Quay 4 in Mossel Bay's bustling harbour, The Sea Gypsy Cafe offers a relaxed waterfront setting where you can watch fishing boats come and go while enjoying your meal. The menu focuses on fresh seafood straight from the bay, alongside classics like fish and chips, calamari, and grilled line fish that showcase the day's catch. The casual atmosphere and harbour views make it popular with families and visitors exploring the historic port.\n\nThe location is unbeatable for soaking up Mossel Bay's maritime character. Whether you're stopping in for a quick lunch between exploring the Dias Museum Complex and the famous Post Office Tree, or settling in for a sundowner with views across the bay, the cafe delivers honest seaside fare without pretension. The outdoor seating puts you right in the heart of the harbour action, where seals often pop up to say hello and the salty air reminds you why the Garden Route's seafood is so celebrated.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp__CPxBr1h0RvcOuiazEKNY/photos/Ab43m-ucU0Jtx6MCUf93BcflG2qXmrJfQCRZZXIZTN9ZJFccBcYdq0q6D_vbKWd5GU-FL8CJGLue1bepjtggbFzHgR6s8CKd5nitHE7FKAzMmjjEtv8GPHczDvTGhIxthpPxLKeB0x9i66R_9_q2ygkIYChLoM5PQqKnILncRPy-_cmE7iU8Hh7TdOlgOYc7A_lgQb5mpauZPRtoqXQlBjXdUpR84W193OcKXBUpDl91agZgS5-sX8tYEnKGEwp2tLcJtp60AYLJuaQLNJmTIgxvji-S9zvhmD0i_ALEeHCsWSmjyiLXsCaF1zzTSIg-B-oa6rn5R2meDhnqObG2oFqZNENIxVB6rNqvUNbWWD5jLbXJYstdLp9GAG7hGBTP_HQKDnv-MRrroOg1Vvqf-EZkbqLEY9Bs6_wACntGXZSwvyPG4gCYuXgc9aLG3bRJ8VZ6/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp__CPxBr1h0RvcOuiazEKNY/photos/Ab43m-u9lhWQw1Psv-ky8N-ruXdQ4ejl4Bjvy0axQ-RQG-RnMsHOY6FwtoaCY3vbdZZnWV1tPUdx24lNd7Ug8OQUyqCVSKiNNypgc_a-agIKdZj5CpCKiK5pcPOs1q0TMuFDFEHn0MkVTIlE-XhIvfA6Yz3li0Pa0hrsEMMHpwT7ZFtD-7wEbXdQhek6-froCBtdAJL1XBLDjaer0wBy9PdklYKW1A0sPhBSdTHcva2E45w8iCzK5TWGKjzm6kv8tWhWqSD8EZmFGZogxB_9Zzbz6lEmlT80-dD-DOJJhkFU1BUihpMq_Omw8oKVgwY4SiO2Bplze0HJxUuaYOQhOde6fssKfWP5cR_wGNoic0vTkqMzehVj3XIJbhDapGXkN_o_IaMqnTtP6jSccXGkzyEtxdRQL2U36zhh7M5xZaHpOgdXQQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp__CPxBr1h0RvcOuiazEKNY/photos/Ab43m-v9IVA1J0ejUnW_NzvAnFI2Vs-yRTCa1z7FsWcjYlRmjE6Dk1sgcrJcYOqiYI5tpp3_zvd-bL5fH6TsRBhkCl5NNmm39sd0fRLnhdqgGjjvborlUW3YRZdnXO1-9XaU4MmbTLfTCAP-E_O0QXOHDjKlfUzB5ZeZKMxSUPCA2wH1BJ3EoQWoHBYZwW8Ud-SalSB-ShyeuSYKOAvOjm393gDvdHaErukwpc52KCsPMJwrg_9IaWssinO7H4Npk63ZX2vagDVsaNnVIVihEPKASQ20mKrKnrPsUMwckUKMnXwsUb8xb3NgVgzm4sgRFunCU1BGpTaJA5kCBabhXbRY82pJjKx8JQ7BLvJoZzNrY6jQbP5ddV6BID0LY6sz-4SNGe5gP8LGpf_jf9v7wYE9UmzRYAljr8leskymlt75kny1wREk3w8R_lDLKK06QN9l/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp__CPxBr1h0RvcOuiazEKNY/photos/Ab43m-sp0OidkQkHH4jvoh1DTtbiGjBWGmxJRr9loGzAlIJO-1jAAHBUKzgyQ7R7xyHcnUBuyC2qz90NkBsII_t3AB_vx056ykfuQVfzhrCes3yV1XvJTota_0BwHkg8Q2pZdhDmDVYpUvZhyuHYzFjhH6k-36mr_JFwC7dbJsi-5hWExp_Gb71XaFj3Oe1lQCklTEX_aC9MRa5nAw2ZCB2EAtMwiBtULcBxMAzFzHrGgsmj8LXx4oi0rlfaDAzK9jIYHz8jUQDkrNfj2Un7tafJJ76rfQ4shi5kTDRUcp0jTTiGHPwgFrIa9GGyjyN1ymmw6JlO0yvC0zHbyML7FCsTTz_fGBhswZyY95QunlmL4Vi2PaUDYNrOnRryHR-OQAzwW9CSUpbn2EWLobDDRcjZkgJpnsDRJU7qvOCmZ_mZUE4yGUhDcghEw0SOin-OLCJR/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJp__CPxBr1h0RvcOuiazEKNY/photos/Ab43m-vRqfDuOEyLOPS4oxIs-k9AvhcvAAUbBEhG7GXutVGNGGCH43_CCWjChgveo98-G3xTVfkjYnaaIwMwsHyU-k2Vb1FaWXjrQWFz9uVrZeanNZCYGM88e9NxJ_WxUUoZTM_8FkbrIW-8eaQ4giuilajRS_rDLwYzNY9ulXCrk0WlCX_cKDTA7esDxm85EQixUEBZWhVt-PRm9cRv2PRIIRWQLheOu3NYxQIniY60E68W9pDMbiXB3QHhXHnVzU1riMcdvK0PH3HGnvv5uRnRRe0DfDxMa7TT4NxvvWSdH-6dQY0uvQhrPv5d8bVhjlhr4sTvuri5ZoPdJ8na-pNOtxySS-brqmNFWVbs1eD1n5EQ0QF6GjvUr7vEcTp__3tJwq4DYEbxvhji-Hai3iqac3onsKwoJVQPEEwWM2ebl61x84JULTYR8Fs35nFuQNfd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:25:54.028681+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

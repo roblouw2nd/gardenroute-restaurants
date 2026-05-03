@@ -1,0 +1,70 @@
+{
+  "id": "gordons-seafoods-sedgefield",
+  "name": "Gordons Seafoods",
+  "slug": "gordons-seafoods-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Gordons Seafoods, Green Valley Centrum, shop 8, Kingfisher Dr, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0150068,
+    "lng": 22.8026987
+  },
+  "phone": "+27 44 343 2577",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJy1_D5S2jeB4R96q6W9OkteQ",
+  "google_rating": 4.1,
+  "google_review_count": 68,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood"
+  ],
+  "tags": [
+    "Takeaway",
+    "Family-friendly",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 6:00 PM",
+    "tuesday": "12:00 – 6:00 PM",
+    "wednesday": "12:00 – 6:00 PM",
+    "thursday": "12:00 – 6:00 PM",
+    "friday": "12:00 – 6:00 PM",
+    "saturday": "12:00 – 6:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Fresh seafood in Sedgefield's Green Valley Centrum, serving ocean favourites in a relaxed, local atmosphere.",
+  "description_long": "Tucked into Green Valley Centrum on Kingfisher Drive, Gordons Seafoods brings honest, no-fuss seafood to Sedgefield locals and visitors alike. The menu focuses on fresh catches prepared simply—think crispy hake and chips, grilled linefish, calamari, and prawn baskets that let the quality of the seafood speak for itself.\n\nThe setting is casual and unpretentious, perfect for a quick lunch after exploring the lagoon or a relaxed family dinner. Portions are generous and prices remain reasonable, making it a solid choice when you're craving proper fish and chips or a seafood platter without the waterfront price tag. It's the kind of neighbourhood spot where you know what you're getting: fresh fish, done well, in the heart of Sedgefield.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy1_D5S2jeB4R96q6W9OkteQ/photos/Ab43m-uuqoHCgISNYx8vaxa3ksZnrXG7_Js8jIw3XFMM2WXHh30y0UpQMP4VUjDumGLJAeQdBga2Mb2dK7gMJ_leSUAFneSdOBkpNQa9TkdnZE_i2q4glc_NfIyZB_MiyA2-eTEuMZ20SvdHVnEJsuw6KJSLfKzFJy-wVdw4Vk3RbEmrNwtTXGpE8nwumyJsFmjbSrFSzoaLBgJhh5llAOMR3XHqXetDFET3Jffmne7ueyjVqYGoirkvHE_2q_ltY67eXn8WAqrSLC_86O6JYxogqSkPzKuyD9EZs4A6l0pppMAXYg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy1_D5S2jeB4R96q6W9OkteQ/photos/Ab43m-uolqTwHWIH_E4qrCZHuScJXl-v39JlN8DhAPp5pGcyFbqS_tYGgqu4QlXvGqf05Lgmmj6tWEX-4TA5x7uPh2kKGCJjPmGmOk8-J10g1PPPiqawve0jVOBpO81zpEhYn7d4XRYedXuAHk3O3YJAa52xSq3HL0rGwERltrMbKV60Z2Y79ZYnL2lVmVfZqVwhdCRriDGZH2V6cK1QiNoANl-I2eorwqGtltcD7-SkFQ0i1KPoezLjCnrTroKKlkBm8SerNozsz1wFkLPXuaJE0LmVFe3JV-M592GgKC_bI_YC6FHzIFdKQ5YcqUvXC4858I12uXZ2NnSNutXuhI00TbNvoBQPshLWe3gSPpQX5piVfSaETqAo74vxZ15LXQ4r6ioVeyBRgn8agXRF1dQN60SgnQtCYpKNbQayLt49aR0yWQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy1_D5S2jeB4R96q6W9OkteQ/photos/Ab43m-sHyBC_J0cLN4r7oIKXuGXtYL-GYiiGcyNC8sVOzmUhphpPPbSGf3jXZQglwbQynaOzC0uqWTc5jd_eRJqL2X1uKoDp-fTBt0x6kwshvTYi63u3VUdVskR8Nl5o4Y80EArUjaWVtETlgzuMzYMAANbGVJI4o9S6yrtEIYeFXuuT0gVFqY0vdblexzW5IQSvKZRSVkngbrU0TLr_E4C8VNZqjrezUmSl6ahZwZ_hrhJ8R6nn8yFH50BurybpL62g8pe5uhw2zN78htbEQP70VpONgHBl_vwpCDoDe-9BJ0pnVg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy1_D5S2jeB4R96q6W9OkteQ/photos/Ab43m-uVEVJIdPPkuEFwLajqT5fleF4TAK_d4-Qw6cQRlvpj9SXhf97iK46mGDFTbI1oqXKGWqLQc4EXebdEH3B8CHD_H5KnQkPcRnC7-l29qmlwFwJk40lyZHGIsp7qy9AcIJYnd-A0XZETgg_tJkVepZjAPvQD1G4fCcIK91aGz1K3upwp8MFmQcrWavCsec5aLoTrcBKLYiTYj3rRV2_98SBDqHhl5YiP2BWVJaODeCy5pv98m_ggo46VIw5oQzMZ0l3DfO8g1qHv7GPn4x9GfDqBHXvY-GdKoOSPCv8wkjDdlLKWon2DuAM-COjfRHsH1G55_z6IRgtL-l8aMWZ2r2JzlQPQsyHmoClIkoM4rFBcjBtbLiwrMksjrvboDhapuWL2cx4JoaE6dk_R5RXQvUbsML0iRTZFM2X1zCPPTWanU0uK/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy1_D5S2jeB4R96q6W9OkteQ/photos/Ab43m-uhS5cFPnguLmOW18oHVE6uyLRXjIjbm6_XDN1jX8M1NoCihSEH5L6mtIdCQ6Ck5TrKtPyiluQ8ME7voLtHeO03QPfWAyq7Doc6W-1DCL_9k2MGMoyrwSYe-PdYCwp4uKPGSMKqQQxEGVH_9tpo_kJ6idPA800wkY2EbnMC-nNDeaYOlL7TznLGvTAT8mt5K5mWxhIesQ3Quv319em5rTlAkSB9GrZfMsWrJHvyPwcvZIXc5YgKQPw92K6TUrVb7u_pug0uUp5AhVVg8H4RjuqOX1CC8yztcNa06ofvaBuboIlWaXvPthAPuh7Pf9askJotZQFkclL_SEbcuIMiKH7wQypmU2qeKCpFSUVqGUAU9lqj47_HO-BkrNyE4juxagAqh3ezHPu7Vf1H0DdnzVzqlQZMwZkgNXMZAhzoSfaErv_e/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:39:12.156419+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

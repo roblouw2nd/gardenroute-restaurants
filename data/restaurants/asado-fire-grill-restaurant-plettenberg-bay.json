@@ -1,0 +1,75 @@
+{
+  "id": "asado-fire-grill-restaurant-plettenberg-bay",
+  "name": "ASADO FIRE GRILL RESTAURANT",
+  "slug": "asado-fire-grill-restaurant-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Main road, Keurboomstrand, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0079825,
+    "lng": 23.4181666
+  },
+  "phone": "+27 76 851 7676",
+  "email": "",
+  "website": "https://www.facebook.com/Asadofiregrill",
+  "google_place_id": "ChIJZfM4SwMfeR4RrMszb9BmHkg",
+  "google_rating": 4.6,
+  "google_review_count": 317,
+  "price_level": 2,
+  "cuisine_types": [
+    "Grill",
+    "Burgers",
+    "Pizza",
+    "Bar"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Sports bar",
+    "Casual dining",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "12:00 – 9:00 PM",
+    "wednesday": "12:00 – 9:00 PM",
+    "thursday": "12:00 – 9:00 PM",
+    "friday": "12:00 – 9:00 PM",
+    "saturday": "12:00 – 9:00 PM",
+    "sunday": "12:00 – 5:00 PM"
+  },
+  "description_short": "Flame-grilled steaks and burgers meet sports-bar energy at this family-friendly Keurboomstrand favourite.",
+  "description_long": "Set along the main road in Keurboomstrand, ASADO Fire Grill delivers exactly what its name promises: honest flame-grilled food in a relaxed, welcoming atmosphere. The open kitchen lets you watch steaks sizzle over the fire while the sports-bar vibe keeps things lively without overwhelming families settling in for a proper meal.\n\nThe menu covers all the bases — juicy burgers, wood-fired pizzas, and proper grilled steaks that don't pretend to be more than they are. It's the kind of place where you can bring the kids for a casual Sunday lunch or meet friends for cocktails and a game on the screens. The Keurboomstrand location puts you close to the beach, making it a natural stop after a day in the sun.\n\nWhat works here is the straightforward approach: good grills, cold drinks, and a team that keeps things moving without fuss. Whether you're after a quick burger or settling in for the evening, ASADO strikes that rare balance between casual and satisfying.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZfM4SwMfeR4RrMszb9BmHkg/photos/Ab43m-s0YiLdHRvtBE48BDurqwocgSBjV5kJmrP2-8JArcsonSOzG_ckONBJ9ZR7OaUdzitEDQbVoEDqRqRN295rjtqy-h_u8-Z8j3HdG9hbAhIkNaLriv1-2ZgiNFF2kDQ9L3KzLyMIybQlGbjSn1MMVUhD55DrURKOh4ot1jzbmV14sYPh55uv0ZOOx8SXqX3wXfXdHOo1Z46-3u5WF9TlvN4GQpoLE6Oa5C6p_522C0fJFnw40L4LbnjGwiU6vHyPH1EXFYalCh-ehOB4W45ebHiBn3hstYopOU9_PPhkhw_8n14QbE5ZWZ5a1JnvrVpPVI_7Z1ad-ySOSrjcDtqeRPq-_427T0AyzvzMYE1WqMl6NNeyGByjMFtvBzZLBk3B7x_eVfVdibMbDqXzYg7N90M6RYzcw4hVVT72WzSs_LhWY99OBDCSn4Bjda_PnLP_/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZfM4SwMfeR4RrMszb9BmHkg/photos/Ab43m-ulhgfqPRkDB7qrhymp68PFaRNz4SeuwrCK0XJLQFaDBDnSGSnuZfi_lg2MfXy8Ti2kS8nwBVzrwIZyUCGQoqIP8rVZLweyhBNMgrpZJlvom6ugNWJnGDZbtucqivaAC6fI70kZ3sTiVEsEk8tj1a_I4mvVgZ-nhDo3CvI7PfCeyPv-ZUuBx-x2sCM-esU80Yq4WcXFrhYyZMQyU8oNCU7sdoV_YJ_KasqJwWH4gULY815b3pV2VfSFXYvNYrw3oWjGMK901uYLlCOU-80PUONgx32QQKpkhPxuDDA6L2cHP4CKe1GTzij1J5niONwP7i1XRn-RF2NhwR1SN9VwLJVcu2vhY_6HGvnEEuzAyx0ZB4XdXk1SkpBbcRLz6a2qj5dYEoyX_ChbHBLo1Spc7ik32UvIH0jWSaPNoL2Boi0PcqVh53JimqgqOo9uG61O/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZfM4SwMfeR4RrMszb9BmHkg/photos/Ab43m-sfzW3zgYRpL8a57p7q96QVAwYTn5pJSLvrUhv8A5RPbN9Sr9RZ8u9qATK822qJKc89blr7FH_9iSqJ8fABpAwKViw6kZW3Mw8jW-GW5EW4fFjCwCrLOGiNZg6yOcj-g_cVSHXjVGscLiKeRnnVNIY9wb575lR2jzUpOMZ9h_lzA0_Y2UvgNV8Eq7RSX4p2gW4XrW0jjMvfBOhEzW-QB-bF_1fbrhFAC7KEnJ0zN1RQRQR3CP4fCNdMSInHs2FOdOfHS97lBTHGnR00dH_PeNzvwvNputWldSE5Us6hEMn-4tNl99nMDDYybuRJc9txLjxjgvKxuQj2ROI4WIJqWv-V_oAjTyIVhx7yRt1b4FUjwzr8KC9MAwZtUy_6s1zf7pKdxz3rnxs_wFGRuuRJ9NFXP_LMjxIhru-q_bXma13rR2SkCHS6Rx23a2Vp4_Ey/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZfM4SwMfeR4RrMszb9BmHkg/photos/Ab43m-szFIrr3EQ8OwscrBPb_dlegmHkFmv1QSls5R18E2TfCMKzC1IV4IMNYWtkQQjrSrJXi_VQg-F6kxLKeGBU9ZtXyEgoMewHs3lU497mjBEvnRb4uZ-wOyadORuZiCAXUiFMmLsgtJFWqvldQ9XzEtOC1e415AZHChoGg5oTyu4t2cg6p0k76ZUNifAcDG4R5INM_vkrMRlGOwlMSlYwcvKikbLEQdgHMGgdScFWBEZss78VTXGOP-bWIfLGSLfojdNyNv_hmMt27D8gd7rPpls5cYRW6UkGRL0UioyDBfIHJ0MYdA__omMpgIGqshXwAw48FqDZYBOz91EPdmngYdSQzx_KZwVlf9gX8mzK-oB7hNQxtvk12yZcN7DRCPK2vlacluvpNJE53LpT5zNMTbtBGJ-4TpjoNh_9vY12Jd70BH8/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZfM4SwMfeR4RrMszb9BmHkg/photos/Ab43m-sGNUvhdkH6Sg0bp0GWoYALFvKjfZ5b_n7YJnO3GlI18mtQfY6YtA-mh0hd2lYj4y4GFaevZWDdIT1ErdIpkFc0feEEVYaQ-MIwhpDo8Ftaq4kWnAR70fpTfk5eP8eqrBbzKF8q7-a6UeMdmttGDH6TFnNr6WIObyseXqS33w88ZPISTiLvCVI5glfHBBOUB2vORmRSLdMkgI29tUlTHxL0jGs4H0-2CI4WkRp9dfCbUloy1xZ5Uw5wUDvmT7o2_oaheVRsseIN_Jlih-oCAlMcpnFZU3w5Cbsizq6xDi3hKXyIhXf29KIOnV73q4HN5gtTZass3QsfIX-RsozQNXr1Tno5lbZBsL_FvQTrF6ZeE6jKrkBsmqqXoRXPlK0o-twn9TGsvpnfhqzBsvVbJarJvIR86XCcBgW_qh4vcIfSsjwOKzIHdPHjdQPSUA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:43:13.015237+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

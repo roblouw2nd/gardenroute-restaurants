@@ -1,0 +1,74 @@
+{
+  "id": "zinzi-restaurant-plettenberg-bay",
+  "name": "Zinzi Restaurant",
+  "slug": "zinzi-restaurant-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Hunter's Estate, N2, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0526664,
+    "lng": 23.273367600000004
+  },
+  "phone": "+27 44 532 8226",
+  "email": "",
+  "website": "https://zinzi.hunterhotels.com/",
+  "google_place_id": "ChIJe8mw_A3ieB4R7qWmkjM6ABo",
+  "google_rating": 4.6,
+  "google_review_count": 603,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Mediterranean"
+  ],
+  "tags": [
+    "Garden seating",
+    "Outdoor seating",
+    "Family-friendly",
+    "Groups",
+    "Wine list",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "3:00 – 9:00 PM",
+    "tuesday": "3:00 – 9:00 PM",
+    "wednesday": "3:00 – 9:00 PM",
+    "thursday": "3:00 – 9:00 PM",
+    "friday": "3:00 – 9:00 PM",
+    "saturday": "3:00 – 9:00 PM",
+    "sunday": "3:00 – 9:00 PM"
+  },
+  "description_short": "Contemporary dining at Hunter's Estate with seasonal menus, scenic estate views, and welcoming Garden Route hospitality.",
+  "description_long": "Nestled within the verdant Hunter's Estate along the N2, Zinzi Restaurant offers a refined yet relaxed dining experience that captures the essence of Plettenberg Bay's natural beauty. The restaurant's spacious interior and outdoor terrace overlook the estate's lush gardens, creating an inviting atmosphere whether you're stopping for a leisurely lunch or settling in for dinner.\n\nThe menu celebrates seasonal ingredients with a contemporary South African approach, featuring fresh local seafood, expertly grilled meats, and thoughtfully prepared vegetarian options. The kitchen's commitment to quality shines through in dishes that balance familiarity with creative touches, complemented by an accessible wine list showcasing local estates.\n\nConveniently located for travellers along the Garden Route, Zinzi serves as both a destination restaurant and a welcoming pit stop. The estate setting provides a peaceful retreat from the N2, with ample space for families and groups, while the attentive service ensures a comfortable experience for all guests.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJe8mw_A3ieB4R7qWmkjM6ABo/photos/Ab43m-umaFk40pRjOJms4aLu6rYNmJHCJuN2Lu-Dm-rWmdkcAiuBH6ojyYkCTchIYpLKyKq26H3QvWq8k5KqJU3BFIA0SIdRsBs0J_tAo2zC_uZUG_c9vHrQlbsHUFtprFTZhuZUuk7bot4oljWW8vg6er6Q-PRE84CHSrgW1hUmjzHY5CoE0iDQr-ZsYLEIAJaMjXTqS8ZVpdsyBenngmXSpuTq00mtaOXUEpoQxPq5wo4rW_3vZhELCHb9DkFvnGVIcZA4t9jxuph67MJ2gfpebKTszzG-doPrIYOAZknuCtUjByEMuNl2W8G7_1XIdxmC_CkEotkZ6mJN4-XP7lU3pCpPNLQ0gIzIx8Q6Shyp1gWsEyPUwC12mc3WgDJnSaDqBaGyTe-sqkPM4yHv4GSiVTrUctD3HR-Fv9nFt8JEkbX34PoemKuDhkjFQxxvttSL/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJe8mw_A3ieB4R7qWmkjM6ABo/photos/Ab43m-uiHIvJP6c1HaewJlgA1KRl55KN9rp2cpDSuSNc-43OF4thmRCYBHsJvJfM-thuoWFukt7AdlMaZvZhy3Va4nyG6Cbr1740rwYC9x8esgjLvWTJBKk2jEpLbzowkFRCyGKk-a23C5aTd6LQIkWGh92CkeVMzsR_5k0tE9s_PByWTlCl8cJg8NKnGwTzTfdPDRz4qLTFwCP-Hik8BzzMJQmUiHjrbzUIsV0lNedZStqtezhoSwhEF5lDV9mRKGr5y_FntzL069TxIb2gs3EBHPAgBrdYjLUkozFLKEFnlktpJY7-AyJ9W6mhhO37950s1td9OQc59xFSgnH--caH_k3Y4NosK5ZcvAYiblAxJGrCwCm2EF4GHH7OQGnP-vCdRF3NVEJCmFkbpRLaYQBngY0vFqrjjGTAZHgNfj2pys0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJe8mw_A3ieB4R7qWmkjM6ABo/photos/Ab43m-tlxQ5t1nq324-cvV4P8wnXabEjvcwFPinKmOiR8M2DdwSZkB0voIDu8-0XGHAtdGuwHSxw1m6nr2M5HLA85i-eMzBusU9nnLgUxpAiPtvqMrEBDhzwFHyRY-mUCQ5kJW0UPiT1aOIcykL2n1eEBiSbQO8Y4wFAx66rcdJ62-gwvvdVVp7yTP_kL2Jc47pEnxXRBYRcVADKf0ZG1XW3WcysaYO-nGEyHchVsJzYE74Pk1R_1oYVJ3qn5zDZUwiLBIKm8j1D6UgAqEJXBvsjqp9XZA4YPKmXCF1kXAjjnksy5A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJe8mw_A3ieB4R7qWmkjM6ABo/photos/Ab43m-s9ZdUU8SV3hCpDPaK-lVS3bFnULeGoUfn5zhAOR1sFZSJVfHbKkTTEA3PqFWKCkSHrbUGOlElSdZuDqnoEPKIgmXaOVZHseS_WOveDLebpMfWs2FkbrKXOJdTFI5FcCJEIn-tA52XRUQmxYdXw4HipIUlXPqRONWudMAYBnC2tQvTlSjzXhu2bmkZQ_3oPoJre23uMTEXNyoOTOVnDjaUaBi3miaYo6kTzHzjCgjQCsPqaew-ISBU46u-IErJyRyF5Vh3-JjgPl2iCBpig5SgEiNaTV5jmU1S5TAphz5L4bOC4gUun0PQDtbIn4ko3VoYGfwzLTE6JZbz_cC63PLa7RQvNNwyWF06DLxgdOYGqVMYDmKQz6b2Atpol0Pz717soyjqTbuAfwD9bGy2JxQGuk4FU2O9wOtLcXpJ3RnGYu7ZGDQQ-uTvasPpVVgfE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJe8mw_A3ieB4R7qWmkjM6ABo/photos/Ab43m-t5B71I-EvuzarLu9bUyJFwBdeujv7HsEf_dnKW-TNPJIenJKAQqYHZ0Ikr-kEkU650Us1XCnl9rI4ennAco8uiZ5MtCn24MdZA0hx0alL9qrAdYpUp8cHyI-RZAB1lEVP1jxpKr3o42ip1PrPja2VdffEgBWOMc4ksQSYCdE_AUXC4FJC48X0B7QMuYoHQbdXoZvZ24rEcaRaEQHU9ikzs67H12ZF2LSApsH7MfOf8hR6dh82fsit0MgQTJZwiZGqjOY0xrJhouGPi0NDZVse2DHlavc47Wo8yGISBXzjhiuY44ohKtBd56Js5mOKn2-BzuS1g5tEW-rlqsykUWo2KevWwF2wEBXBZGeJKwO4W-i1aXrVRrZN3idFkIqSJrLGbtat0vcu7d6NllqDjdnXDeBk4n-IYXCbpLpJbify1AlG0rUXBOoDcWI666g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:41:47.790861+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

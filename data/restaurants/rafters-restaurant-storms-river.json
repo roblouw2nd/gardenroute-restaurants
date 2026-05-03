@@ -1,0 +1,48 @@
+{
+  "id": "rafters-restaurant-storms-river",
+  "name": "Rafters Restaurant",
+  "slug": "rafters-restaurant-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "Sarah Baartman, Stormsrivier, 6940, South Africa",
+  "coordinates": {
+    "lat": -33.9704,
+    "lng": 23.887
+  },
+  "phone": "+27 42 281 1512",
+  "email": "",
+  "website": "https://www.tsitsikamma.info/listing/rafters_restaurant",
+  "google_place_id": "ChIJcRns6gBveR4RmzJj4Qjclfs",
+  "google_rating": 4.1,
+  "google_review_count": 11,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub",
+    "Burgers",
+    "Grill",
+    "Seafood"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Groups",
+    "Takeaway",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "6:00 AM – 10:00 PM",
+    "tuesday": "6:00 AM – 10:00 PM",
+    "wednesday": "6:00 AM – 10:00 PM",
+    "thursday": "6:00 AM – 10:00 PM",
+    "friday": "6:00 AM – 10:00 PM",
+    "saturday": "6:00 AM – 10:00 PM",
+    "sunday": "6:00 AM – 10:00 PM"
+  },
+  "description_short": "Relaxed riverside dining in Storms River village with hearty pub-style fare and local atmosphere.",
+  "description_long": "Tucked away in the heart of Storms River village, Rafters Restaurant offers a laid-back stop for travellers exploring the Tsitsikamma region. The menu focuses on honest pub-style classics—think burgers, grills, and seafood platters—served in generous portions that hit the spot after a day of adventure activities or forest hikes.\n\nThe setting is casual and unpretentious, with a friendly local vibe that makes it easy to settle in for a long lunch or relaxed dinner. It's the kind of place where you can shake off the trail dust, enjoy a cold drink, and fuel up before tackling the next stretch of the Garden Route. While it won't win awards for haute cuisine, Rafters delivers solid, satisfying fare in a convenient village location that serves both locals and visitors passing through this spectacular corner of the Eastern Cape.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-02T22:47:46.446637+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

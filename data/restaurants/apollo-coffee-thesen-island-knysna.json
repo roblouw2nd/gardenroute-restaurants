@@ -1,0 +1,73 @@
+{
+  "id": "apollo-coffee-thesen-island-knysna",
+  "name": "Apollo Coffee Thesen Island",
+  "slug": "apollo-coffee-thesen-island-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Long Street Thesen Harbour Town, TH01, Thesen Island, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0465744,
+    "lng": 23.047930599999997
+  },
+  "phone": "+27 84 981 7934",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJRWNG9g3reB4R6W9U0sv4zv0",
+  "google_rating": 4.6,
+  "google_review_count": 137,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Bakery"
+  ],
+  "tags": [
+    "Waterfront",
+    "Outdoor seating",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "6:00 AM – 3:00 PM",
+    "tuesday": "6:00 AM – 3:00 PM",
+    "wednesday": "6:00 AM – 3:00 PM",
+    "thursday": "6:00 AM – 3:00 PM",
+    "friday": "6:00 AM – 3:00 PM",
+    "saturday": "6:00 AM – 3:00 PM",
+    "sunday": "6:00 AM – 3:00 PM"
+  },
+  "description_short": "Waterfront coffee shop on Thesen Island serving specialty brews and light meals with harbour views.",
+  "description_long": "Tucked into Thesen Harbour Town on Knysna's tranquil island, Apollo Coffee offers a laid-back escape with views across the working marina. The focus here is on quality coffee—expect carefully sourced beans and baristas who know their craft—but the menu extends to decent breakfast options, fresh sandwiches, and pastries that pair well with a morning cappuccino or afternoon flat white.\n\nThe setting is relaxed and unpretentious, with outdoor seating that catches the breeze and makes the most of the waterfront location. It's a popular spot for locals grabbing their morning fix or visitors taking a break from exploring Thesen Island's shops and walkways. Service is friendly, the vibe is easy-going, and it's a solid choice whether you're after a quick coffee or somewhere to linger with a laptop.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRWNG9g3reB4R6W9U0sv4zv0/photos/Ab43m-sKg4gsBQCBHMGh7xbn1EFd4YezQjWnoJmAFQPyPAqPLyD8qMQCLQpiK05qxMgQUD3hMIPuXV4trZbRd03QEjffmTnQ2IQrlOyP-thTwuLWnk7_rIdEaVg6-g12MjN2V3TiA1rBfOZ6UC8syxtAaM1vr7ELBaoiNV0ifd848OW8ajwZwEkw3LPWxbQ78M6gY_OTWs5oHMxaN8nN0L9yC2BoY7srlx-eDl7LWqknfAZGNxgqpyUfZxDCQCk_3YCOezy9TcECoRyNYISOh_vjibgL1B-gG-thnCaxOaI6raqHOA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRWNG9g3reB4R6W9U0sv4zv0/photos/Ab43m-t0faN2y2J6MZm790zoOBjAL9Bw340Uegvi_kMIOgKTp2tcJ7D8r7OAhZ8D7KX4HEdBTlEbLnqumd4dajnd_0lK3-8cOK0GWHKgzLByA5_rV56SjjRRPBeObkJTjvgbL3J-SZWhVOOOLFWZcDAM6xB8MqudaPODlEdGhODYtIC-Yfy7dqNlDumPn_v1HthB1mx2Qzlxl7ngvzj9g3Gf6FyWqX6OwlRe-6JDLPpZPfSG6ZC_CyiJfk_GUuaHZgm9X5JCCuACrrcORmxMhjnTXwFZmn8vEEpJPFgSJAxD330bPw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRWNG9g3reB4R6W9U0sv4zv0/photos/Ab43m-uvGt4cob_Ciyoqw0PYsABNZbRK-h3ErLMsOQI5XZRShPzrt0D066GQBwRdetAHcH7oMpxoVa-8fSRGNTwFhhQXi06o-ub3Q2fvuYFOCzTc2lv-Ntu_GRnvFYqLzeG-rWfcBzUw54nd_Jv6R44JtubNT_XZXiItZq8LT3CIaBil5LlB7qaW_HrAhhM7xsrUkQ5ms9-JRm2LTGCIqShKc838Zrr2wLRXTaaVtXN501e_AZaXdiuLkzNgaB1xCtrccOl8JBU4haJnqII5aapDVHZNuExpVOZhKDP_4bEm-vzOcg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRWNG9g3reB4R6W9U0sv4zv0/photos/Ab43m-u8Lr14I8mdworYxhgABF0q7KDZ2G7LTadzyOEXGjS_M3_blQSshBzFx3Vh9AOTKa5d9sywuISu0TS-qVTljrqFTNaGxVaUye5Ac2lXkWE9TJHRdlXbeco2UKGnJyPMbSzxmLRmwx7aP5G0QQxkoXLpmnZl0Ro6l0oXsLk51i87L1GFTimne7s1hITZhiyJB6C93C2dIbdmQlY2y5mNaFAMud_sz0CxCShzCuBnqiLMiNAI-z_oiq_xh9V-PvQ2xMscRzjTbF742LTSScW4RBJdOtye-hEtv2QOzqHjQC0maCPrBtxSO4HRGKHhwERVLdrY_i6nrcEWRs89ZXhNY7CYaGLdJXh8r3BLpoBYlThoiFBp8chgbcq7SWkUBJdR0-tvnJONhtUUOwfuld1iFslcYCIx68vOs4oWbB1RDjdgU-fefpo7a-iNd4GpP3tX/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRWNG9g3reB4R6W9U0sv4zv0/photos/Ab43m-uWdKZU3jmIuIUcCQ2JVvt9z4hAAxRb6su2kKAk1vEo3RYRBI8JSolkihjs56wtlafp-qtPqIJ_PbbzTjYMwrJnjjSG_JmQHtUPuPy0ZsMhCT2ybapk0TcYyqFaDAVMlel096MYoDCSbn0vG1u0iY5MItGvOg7Czuq9Cw1GIW7R8WYErNize7RQohrHw2TTNdVMptEYOKGQgBdZVzwdjS5QT8B6kAQ8d4tBI-jbuyNyRA2pOGeSZqxUjPygqtUXVmmkv1y-_usL7ECd2ZizMBYA484LCAaxDDd3w-K7q6LcjZ1RnkvmztGx1PYrYnYxP8UHoZi0nPOnvfxFfaJCKpMJ8C2NfSX2VIvd6RFLogSSKSDGmgFVzQXk7gPJVsswKMDyNFbfBvjsHgEOVSo4xWSFJhE3tjULB6jj4TrLGwV_sR3QjYnC8X94DJcLD5yx/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.537127+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "amelia-s-at-the-plettenberg-plettenberg-bay",
+  "name": "Amelia's at The Plettenberg",
+  "slug": "amelia-s-at-the-plettenberg-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "40 Church St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0539031,
+    "lng": 23.3773308
+  },
+  "phone": "+27 44 533 2030",
+  "email": "",
+  "website": "https://www.theplettenberghotel.com/restaurants-bars/amelias-at-the-plettenberg/",
+  "google_place_id": "ChIJ72JIQQnieB4RHWhRYBSFj-w",
+  "google_rating": 4.6,
+  "google_review_count": 139,
+  "price_level": 3,
+  "cuisine_types": [
+    "Seafood",
+    "Breakfast",
+    "Fine Dining"
+  ],
+  "tags": [
+    "Ocean views",
+    "Romantic",
+    "Waterfront",
+    "Wine list"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 9:30 PM",
+    "tuesday": "7:00 AM – 9:30 PM",
+    "wednesday": "7:00 AM – 9:30 PM",
+    "thursday": "7:00 AM – 9:30 PM",
+    "friday": "7:00 AM – 9:30 PM",
+    "saturday": "7:00 AM – 9:30 PM",
+    "sunday": "7:00 AM – 9:30 PM"
+  },
+  "description_short": "Elegant oceanfront dining at The Plettenberg with seafood, breakfast, and sweeping bay views.",
+  "description_long": "Perched within the iconic Plettenberg Hotel on Church Street, Amelia's offers one of the Garden Route's most spectacular dining settings. Floor-to-ceiling windows frame uninterrupted views across Plettenberg Bay, while the sophisticated yet relaxed atmosphere makes it equally suited to leisurely breakfasts and romantic evening meals.\n\nThe menu showcases fresh local seafood alongside continental favourites, with breakfast offerings that range from classic cooked options to lighter fare. Whether you're starting your day with ocean views or settling in for sundowners and dinner, the kitchen delivers consistent quality in an elegant beachfront setting.\n\nThe restaurant's position within The Plettenberg means impeccable service and attention to detail throughout. It's a reliable choice for special occasions or when you want to treat yourself to something beyond the everyday, with that rare combination of stunning location and genuinely good food.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ72JIQQnieB4RHWhRYBSFj-w/photos/Ab43m-sNEcs0soct0cy8eDabzveP-xAskJCrR3fTGIqyss4S5rBNRSuPIreifSpJ0bvgtLtWCghdyf_80HjNbEcgurx0h4OD7P2DVXplNUAjoVX4eeqoAwWG9Arg5_5xFs85xWLqA_kcR_whFEwdWnKwepp23zj7yDTIsUH163MKS6jDPYky9yhU5J_ctm6oKy0eixtxpPkr2UxEMUvZ9BKhmzJejXQOtK55LeHcPfY2Cdhxf9spnqD_c-TBQFU2KmNBk-1s054nIQW_m7f0h1HT5egsqXQ3oUBlLDcMrb9dkx9d9A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ72JIQQnieB4RHWhRYBSFj-w/photos/Ab43m-u3FgOZzxqRaIBa7VA8olX041h-4-50YHlCnF96Z-Rqk4xRKcJ12xswTg52DOkLilhUsY25LhkpcvI_BYZ6tIggyWwaTAF4yD_-Q61L5Sh92LIOW9q0EDixJbjkKBYy-OlxB6UNpV31uda7HRR2toKFTc9pCeTp68e4lFVDUgM3fzS57yNGm-KjIHpJhgd4jbAqGWFYYNYQu02UtZlqMzbHJj_BEgk_LtpCD4OltZn6iTa2UJkiO147DjSxAF84OE1zUuw4iI1HSR3BI4aLeGj4iPQiKisjYmAOTe23ysupgg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ72JIQQnieB4RHWhRYBSFj-w/photos/Ab43m-sPtsVYmG65Fkfk_Du4VifeskokUCKVqNGkN95J519eEo02ZtpIwyRdh0x_gcF4OcFQMRGhwilWjZfb4CrgBdMutJqrjihVDs4nnmHLThF43CvTfwd2M1VH4R3h3zGxQ__6KAMrnwFwHY1UjPIjj6LPMTiTd_99Q3cqtSXpRZWEaoTHQ6vM-Olt5IboetymSwqYl-P5NPNs-Lw2e0yxeHNxo5GP-Lvfko_Up2QRFYuaXF1zO647R_3k3F2qWYM83PHI-qcfYWlpXYErP7GIicX24KxqhcP2Iw1VSJptAzfTig/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ72JIQQnieB4RHWhRYBSFj-w/photos/Ab43m-vdVtHgjYUBHgbNosNEcfWS95OpipXVxil3S3EBIprEwZFCGuQrcmT_XKyvwXfdr9MGLQr_mWOq0UiBUkZIh6FWVX7FaYImzIv1nDEiFd5Ga0DPNDs7s6DYG_FZxKf2WQAdVVZKChhYSdfq22ptsbkspS633ycStRsdlFOtNwT53u5DgH-bdqVH90Gs_xJHQKlVOlA3gPOtkzUqjFRViZRGx40Yzfg93PODGFglkSSTOXgy3rKEaYz4EirHntR2qqJ95CuGgibNb3k__-ILW_X3myfAuitBu10snQI9AWbyTg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ72JIQQnieB4RHWhRYBSFj-w/photos/Ab43m-tmPBRxCIzC3Vtia9RXKZkqIDWwCtij8M50FAoJSaeRa82FRx1oASgOqqqTVXqkxbNVYFgjEuAy5WH0ejZBqpHzSbQ1L1Gjurkyp_QI93J6cHx5dZx0z7s07DX3fNblu_bln1NyOXigBJr3hrNwR7pBJp_qkrQrBIRqtsnzbCyTHzopWc6494ZWyv6MFsw4d4rbfnQVTshGMczpMN2hOjyeiHHgikJQLFxjL1ANtX-kRq3zbPWCEWMeynm62VEbSnALu4GFPeFqTRnIE6SGhXpwMTNh7qjArgNF1aDlQ5LGUQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:41:55.929209+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

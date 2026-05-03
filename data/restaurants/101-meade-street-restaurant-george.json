@@ -1,0 +1,74 @@
+{
+  "id": "101-meade-street-restaurant-george",
+  "name": "101 Meade Street Restaurant",
+  "slug": "101-meade-street-restaurant-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "101 Meade St, George Central, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9615791,
+    "lng": 22.458647799999998
+  },
+  "phone": "+27 44 874 0343",
+  "email": "",
+  "website": "http://www.101meade.co.za/",
+  "google_place_id": "ChIJdS_iDjQF1h0RS3XWWEzscZA",
+  "google_rating": 4.7,
+  "google_review_count": 2172,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast",
+    "Cafe",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Garden seating",
+    "Outdoor seating",
+    "Child-friendly",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 9:30 PM",
+    "tuesday": "8:00 AM – 9:30 PM",
+    "wednesday": "8:00 AM – 9:30 PM",
+    "thursday": "8:00 AM – 9:30 PM",
+    "friday": "8:00 AM – 9:30 PM",
+    "saturday": "8:00 AM – 9:30 PM",
+    "sunday": "9:00 AM – 9:00 PM"
+  },
+  "description_short": "Historic George restaurant serving breakfast through dinner in a charming Victorian house with garden seating.",
+  "description_long": "Housed in a beautifully restored Victorian building on George's historic Meade Street, this beloved spot has been feeding locals and visitors since it opened its doors. The atmosphere shifts throughout the day—from relaxed morning coffee and pastries to leisurely lunches and intimate dinners. The menu covers all bases with solid breakfasts, generous salads, grills, and comfort classics that never disappoint.\n\nThe garden seating under established trees is a drawcard, especially on warm Garden Route days. Inside, the old-world charm of high ceilings and period details creates a welcoming space that works equally well for business lunches or family gatherings. It's the kind of place where both tourists and George residents feel at home.\n\nWhat keeps people coming back is the consistency—reliable food, friendly service, and a menu that caters to most tastes without trying to be something it's not. Whether you're stopping for a quick coffee or settling in for a full meal, 101 Meade delivers exactly what a good neighbourhood restaurant should.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdS_iDjQF1h0RS3XWWEzscZA/photos/Ab43m-tXrybFecar5KfjLgzErLdi8DG2I4N3cGiozMH9OU3JK6qB9RVHgOeeUGO8Nj3okQ-0Xxs2XMiizcGC67PnHIdyZQBHCz7Cu-WbeWBXZ3N7Oo0MSx4KbOn_EgEI5VJ6PWoxiqsg8P9kQN-zUBGnZn_ggkEtlshePNCr2CJyEvSyL3kNG-2oBxCaHtgW5TlGBl5C0Nk4okv1NtUKTWHqTi-9UsghedI8_i-e_ctYeUaBPxpLsjj7E4TfeW63j9JZrBocizNBouYLjHfKgz84kZAI1bO0moM6CIsMONDToVCTZw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdS_iDjQF1h0RS3XWWEzscZA/photos/Ab43m-vmKej5y8E8x3Ji0hlsWHTkPqmVQaV4qOhnQBa0HFwwUrort6utknBpLvxqHGRdE_UtEYdiNQE2RRV-TqrPK8IEHzPSb4_sqqSTzqeaxRTkvFaFJdZ-jtggWHBI0B0tMoee__92OyuMrQ4LiatYr_1NfUlbBvYwFpTxLjGRqTjEqWJGpiNiQ4gsekHZx5NSm6Yq3T62MRDu5gWI4sXAM1XGSXfYRD4eXGwdYDMvGXoVpZPlU89eRYfdWjtV72e4yddJpbnLZ8WP0Jahe_rkkXERurBqfAh3D5S3l3EqQKK3Ow/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdS_iDjQF1h0RS3XWWEzscZA/photos/Ab43m-slgGGn0OEOg-iO-7ywNr8UAq4Qk03MhN7VGJniH9El_Jk0xJbbGYjUO5D1ulQoOwIwuJWst5FMnuZr8K8EmE5auIzO3MazXJcHIUKHIt4GRYWL48er7n2keeaWshTriAdd-cuMtyGYrVlG0iUzeQcIMSQcyrKDmjkMEMpmVyKcQJ8B8ApP4vWv7ffvKzCRH4HDl-PTJjzk4UCoivCo6nOlvsXRxOlPG_Hh8Ov0fD9bxxYF7L-GayCpIHKOFIS5rcYG5OR90_frwJlk7oPz08zk-kqYmc-auIy9-4SMr1b5qqqa1y9-jumqS21dhuF0HSU5XF8LywTpb8CIuSfKjx6Mqq4MjbYhnCDnoKOtnwQZiQw_snekDK6SN4NUd6-Z6r2l_PugYsad8rhAqfujXpxv1s8ZY71ZXkPmXROcr1KpgnYL5VtiSe-0CAKDSiH5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdS_iDjQF1h0RS3XWWEzscZA/photos/Ab43m-vGCZj8-13q_NrAEwwI3rB_Y7eh1oUXXZNYyT2Oze3LwrQkY4snnAMbYNO7TwhHlVT18pNITpqwcSLAIbENZWbzQxrQlAo1DoqKxD3D4SXNV-4KdPKsu8wBykldPJTRX7KNnfsZ10MH8tO4UJR2IkEwy4DWJ7wRT3Ig5c5dGYjhtmwE24H3G3zxo0n0D62RzAtgXafiFSok1TyJUt0KauMYdduTbViS6vvfs5r5BWNlfeYHgqv5SLQO_kR2bSgClr-bpOtE79ziAb0AdnCYadcXM38stJvcPLSFZAG5bXWQSQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdS_iDjQF1h0RS3XWWEzscZA/photos/Ab43m-vwxXnUv9pjHlPqXQAeaqjGG9SkEpr4_PLl76VtuSZOiOgE0KGlkVIqrJdXLUd4YcCqT71xI60dGmEio2QCSqXIWJ3uiT_hGldbU7ZbsjLI6w-yKfxNeEPZ5ZjWlTiYVjKh4h-Y91t2jU6GbCB57aJt5jtki_tL6NPpZhKoKgIT9dH7s-wQ18fUoe0n-XyaUAxmCG9DYLL1w5nfK2v-WiSYakrHIUbxHcKkn8BUXJdJnq_GFW7cOtXkkkrlRTlsj0y8_tnBD9n-oNz_PSpLZIX7iFoA3WJU60Ekx6UdGarP8CF_poLRdgrasIWB_iHQZpjBY0jpvhEAleJJ0Lgbj12A8eoYaGcr_7A0W-xz1a-B7vSAoBbVhGlJG4eQEOW2FhDlcOCKJ64WqNqT9I55dVbqwVQgf0nwQrqlDFL4bRBOs3mnlqOVJkpub4CW-Fs0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:30:13.228120+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

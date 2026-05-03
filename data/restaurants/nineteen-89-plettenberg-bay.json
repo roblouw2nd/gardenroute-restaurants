@@ -1,0 +1,73 @@
+{
+  "id": "nineteen-89-plettenberg-bay",
+  "name": "Nineteen 89",
+  "slug": "nineteen-89-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "The, Upperdeck Centre, Main St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.05653600000001,
+    "lng": 23.3719896
+  },
+  "phone": "+27 79 165 3576",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJtUZe2w3ieB4RDhBi3mukXdI",
+  "google_rating": 4.4,
+  "google_review_count": 1334,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Grill",
+    "Pub"
+  ],
+  "tags": [
+    "Casual dining",
+    "Family-friendly",
+    "Groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:00 PM",
+    "tuesday": "11:00 AM – 9:00 PM",
+    "wednesday": "11:00 AM – 9:00 PM",
+    "thursday": "11:00 AM – 9:00 PM",
+    "friday": "11:00 AM – 9:00 PM",
+    "saturday": "11:00 AM – 9:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Relaxed Main Street eatery serving generous burgers, grills and craft beers in Plett's Upperdeck Centre.",
+  "description_long": "Tucked into the Upperdeck Centre on Main Street, Nineteen 89 brings a laid-back vibe to Plettenberg Bay's dining scene. The menu focuses on hearty comfort food—think stacked burgers, flame-grilled steaks, and sharing platters that work well for groups or families passing through after a day at the beach. The relaxed atmosphere and central location make it an easy choice when you want something satisfying without the fuss.\n\nRegulars come back for the generous portions and friendly service. The bar carries a decent selection of local craft beers and wines, and the setup works equally well for a casual lunch or an evening meal with friends. It's the kind of spot where you can settle in without pretension, enjoy solid pub-style fare, and feel at home whether you're local or just visiting the Garden Route.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtUZe2w3ieB4RDhBi3mukXdI/photos/Ab43m-tes5CEbqSvyyQz74TTJ1WaREnfEyHlcaSTYyo0DbxMoDoS01-hFftNSPkoyQufKqtl_Zs2Up_JfNFPprR-O9FZMR7l_q1rl312u5F4VXlwzqgbjlnWJgnx-FcWc1KIS7y3RTrsyKymeyrX2Ia_XDinU0NBhQ1E7L84xLySV93XnoJrGyQ3RQqdT-XdL5TG8Le-2N0DrxcW5iryNhbeA06nwneSsS_jwL0oodJDUwcjnA_c2V-KjRTYBzDh3jpTOqbGGEEHRR960j63PwHg6vuS-tV6rSvaqdjxGA-QbXBKjg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtUZe2w3ieB4RDhBi3mukXdI/photos/Ab43m-vVfAbw2t3KsuUcUFXpyUcVHNhFJIUtcKs4Sc76OxmCI5x9IA2j16Mv7STvHIDmfXTUldt0AcX8-Kiys2RjgOl8GTpIoA9SUBY3JbK_Ix3tmkq960pKUj9w6p2Jbekl0RncKuTKOg-FbvNw66dxoQlhaa-7eeMR5bAGuJK19fNSWpfbpdSHIEsiF6so4U0Hf2q27oGMsb9p_UBz9KHbBoTSFGM3-DD65_qo8w7rurludywzcKi_LX-q9um6DjAEyRCx9zAX_nq5bkML89GyhVF-RgdZ3ZRMGHdG3qnsVbbI2A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtUZe2w3ieB4RDhBi3mukXdI/photos/Ab43m-sHtTFYQ5reYGEnD17GqBuuFticasInwGH9ival650lYu4rlFqCGDILYYkYmQOm--Uz-LR8vH-QTqD4kzkO6-wXXDF1-VrrsVfG9ujLo3RSt3_ZzV2hH-OfK5eqMvx04h5nw2Lzap13Jtq_GcyDerM0ovQvbtK9r3KfOF_2kW3A9e0E_h4tjsouKQ0LUVuX6_pCfDqgSsnx5JpetzC8U3Xgwv53GU8HkDqnkdNUFsg-ezdsIO8HfqE1mpe0-IJOmiwkZpAHUokFht3cKttcFKaCuomgvwMUmwkNdS2YDRAyUg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtUZe2w3ieB4RDhBi3mukXdI/photos/Ab43m-swSM5dkR97q6esHj9qPVOegKQ7uI5QxUNutaT374piISGa0yN4sGrVg8EQMHo87-TOgfBggmbOV6dokIoyCYm4f0RJeP-WwKzhJ-6ruNku-0mvDPO4B4xsV8jK_6Oo6984Lkf4_04mS3yBI1I86cAgM-VFYiQI0myvf1uhjfYZPsPKcIReSLqm9ZCelnE-4RwCHs9BT9xlz2SCdoFkhgMsL0tKETmW6zl2-5XR-KDWOdiH7YcgRPxKBs9yZeuqqrO76nIKDQD_entRB5i6bDrC3wLRXg4BJj12WFEdyS7aGaH9gGF-pQhnBePgxMLtR0GlspJtHURZRfgeI8OR6cUJmmkb0AxxgVulv1hHKT9ELEG1XKqTERtDJkgDTKDtaa8H8CUjuWnXjpZg0dzPdq_JlTtZUTH2WJ7eokftsNO7shVbAEtyloWGHiYRttcR/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtUZe2w3ieB4RDhBi3mukXdI/photos/Ab43m-sqF4AZsAbXBXPUGEZTA5pM-2GaT5_nsShg4plrxod9iX5RWXHPj16WczGMdQavj6mczMHo9WEQ3qCrZdf4V_okGdC9kQGFohsG-zUPj4UddJi2OV6sNfrbm9Zz-xGb4VUrJjoMFjIN2JvlZFBbbnTdbZLnkdlGzWfo_qI4Rh9ycLMDpmuLpg_AlZlTcfLUWqwMYOTK2uiqD40vseBkphxoCSzTWeSQgB0d7k8MJ8bDxnmUKFt4ghRn1RgB9mzFzpAYTBE7Ze63milP9KHkL5uKlaBuzyQZu4hxWoMHYgsermozGWxXHGgGZHM53nyBEyAuEBCLcUpff6ipT27bUkn0aBjrYfQlv1OzUYcuvNmRGbbFsYVxPJKfVfwe7LpTQ5Hj_xZp0yFsVB8_9jhbcL-hUBxVWsbw6YMETHmD_qKbjbi0XcTG2AtqYJu1yw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:41:00.807974+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

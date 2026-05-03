@@ -1,0 +1,71 @@
+{
+  "id": "the-blue-shed-coffee-roastery-mossel-bay",
+  "name": "The Blue Shed Coffee Roastery",
+  "slug": "the-blue-shed-coffee-roastery-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "33 Bland St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1812827,
+    "lng": 22.1502394
+  },
+  "phone": "+27 44 691 0037",
+  "email": "",
+  "website": "http://www.blueshedroasters.co.za/",
+  "google_place_id": "ChIJUQ4aFRtq1h0Rgzkd8ysHP1s",
+  "google_rating": 4.4,
+  "google_review_count": 1773,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Takeaway",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "6:30 AM – 7:00 PM",
+    "tuesday": "6:30 AM – 7:00 PM",
+    "wednesday": "6:30 AM – 7:00 PM",
+    "thursday": "6:30 AM – 7:00 PM",
+    "friday": "6:30 AM – 7:00 PM",
+    "saturday": "6:30 AM – 7:00 PM",
+    "sunday": "6:30 AM – 7:00 PM"
+  },
+  "description_short": "Award-winning coffee roastery and café serving specialty brews and hearty breakfasts in Mossel Bay's heart.",
+  "description_long": "The Blue Shed Coffee Roastery has become a beloved fixture on Bland Street, where the aroma of freshly roasted beans greets you from the pavement. This working roastery doubles as a relaxed café, offering a rotating selection of single-origin coffees alongside classic espresso drinks prepared by passionate baristas who know their craft.\n\nThe menu focuses on generous breakfasts and light lunches that complement the coffee perfectly – think fluffy scrambled eggs, proper bacon sandwiches, and homemade pastries that pair beautifully with a flat white. The industrial-chic interior features exposed brick and communal tables that encourage lingering, while the small outdoor seating area catches the morning sun.\n\nLocated in central Mossel Bay, it's a five-minute walk from the harbour and makes an ideal stop before exploring the town's beaches and historical sites. The friendly service and commitment to quality coffee have earned it a loyal local following, and bags of their house-roasted beans make excellent gifts for coffee lovers back home.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUQ4aFRtq1h0Rgzkd8ysHP1s/photos/Ab43m-vCMU0DUDRzb9aSDQynhM-qWite9MPQplnf0z0V4jY22SVMvCGcovnDm4FBzDlRLrXNEB8fNn8sFszP0O-QWuMipsVAnCy_SoRqUNEd14yOtAH8uUjstYsQFBbwW6grgKS0CCUTeUAosGd_GxJU77l4J8DQpRSCIwRtKfcEijhWaAmGI1SHZDbLQFhQ-I3sXjR-6A4rvYXGzGmXS0mBO-fa33g1SGDchXefIOp_aJKB86RM9jC107437mY9KyzkS5mfwAiL0UP14tr01b8Iz6btQDovhuTJAZK4i0Cg8tgGEODkvf5rGPjxFH3FjSD_cjFlWT_SPu6oil6T2tsC7jehXMXkokXdgEB-dH19ODEGmQzRMEemePDUkvtSFvWIU6bZotbKwq8u32-9D-iSdD0ZDBRlKas3bTvKjnb1Mc9nTTcE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUQ4aFRtq1h0Rgzkd8ysHP1s/photos/Ab43m-t9p4Bk3g2jRa04pa0RYEsCLtUP6gyD7R5RcJUnVGzOvGM3VrURXlfMjpN2xsOgmCb9s7WIyx-AGShpPfOwCzN36j4szrc0UswgMecRtPBhgZ138pwv00IZES65AXHkejwh5zAe6Y-rhI_smSagIq11BxNaxVhtc-vP47ppCdEZwGknehKUfu5JbCQc2ytu2zgcLw0v1Sl6pSw9vlhjv4td2PYslgJDfAUcokUSkHv-AP67WVngF9Jfys3sLCvd8uSLZJ7UGScRb75jRi16yrTLerLg6aIED4ewtOo0UcvMl2CiRJc4hEOlozTgSUbV_JSsPYetUuKgyKTk_UKPE1pnmoR5EAThmWjzU44R8GVXAXZ7S8zz93dxUhyku_ooNw50RtNUBbgaZYwGkf-MvD_pFwkUkQNgLwsAH8OUOhh3VrEO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUQ4aFRtq1h0Rgzkd8ysHP1s/photos/Ab43m-vTkT3oNgzrW0S2TmalMhqL4X5OxF1hiTXe1luWJvECJdfSRXR0ZvDnBYJhxYKNF2CnwPbmV2Xf4o2zCekKGTcVkqRY_dU_apZS1sakYHx7pihV88x3YzNsCJlVxfXrAyIQ3Lb4fswwrFFKYvCB5UV_2eebYsu_HFIbNPVmdM0HUGiL2WMhCaMtxucSZb-nChn1YTKUHBrPKCzhxXq9g6wyzCgb05AqeH67iNc_k8IdhENK1bRGXDIvdEL_l5zNtRuxoqygpBPf90PBN8DLCukKLOnTQbznHUNl4UU-UfbRI8fYhaJA1LLbkxM0_XnNMyRqg5ikS2BrnIUNoHI0DDbZIdM5XAdiIhpQjMuk8PBoG8WFVO8kQ6fFjyyK0l24Plqhv4ha5AhnPBA8vOcg_RL2MCGpTk7eEdYurYQITtCClQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUQ4aFRtq1h0Rgzkd8ysHP1s/photos/Ab43m-tUax_QBxYOstw_ADK_fO8AzyrioR_3NzyZ5PGlS3aMOumC6-lgBQkaE9KK56PV9M5bTAioL_Y7stwqElGrrHzj-1CHv5nf14eZlmPfNXs4Vf98wGxgFUbjY_jqkKjK7yM25ZRnMiFzW75xcmXF3sebtj2UcGSyviRAVuMs_528kZ8rJSz4xffi2UFkZux7tLY1VcgPa2JfQShCR3I0EDOyQtxVNPaqBAVGP9yRKKsMFmiJHYtg1-oGf5unbLraxD_ZkOf313zanUmRz_HTo3PPAeqiapGM_I4e7Yl5As73EzXK18tKAYkAPhiCrvUjbxEF_XBKXFH_9jAAdiBcvwhKfCnEBZufJ-OxAz9GEO-Mx2sOn-Ahbowzec9GrA98UuPry8ubNb7-QGPbiZyW19rYGiuBr7tkCkusMZenBUJ-BQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUQ4aFRtq1h0Rgzkd8ysHP1s/photos/Ab43m-smInI2-BYfB7CC3qwnQV4PvPRBUVrUvgu-qGLHRrQoufH9aw-GBvQuSvEOIg0rMOOm45P6LHCTBYHrNMHZ8-dxCQz5SN5ExB5nWew9M288fu0mWIuHBygbsUPzDCkTQ_1rWphTF5LRkVWJonwuZuErDrMHGyP7jPyLOlqmGwq8BrZYDAnBdIFk9TfenJbjznuIUU1SmsxrWYQHdfB6PR-IBlI5D4l38_iD-pxD7IHgMNiKj3tA9_-u1bHNEJb9AvWrzJDHX0cOHyUQH-5UV-jbZYi2JyOU40LL4LbeWy-rT1pnKnVZBOqMCJgziPJfK8cZL69KHef5ejmmw4xV7kr0ImxrR0pEoy8KjTCV0s9OxOvGxB5sNqYqYoR6KfDfouhQe0tvP-so33YsQxhQCj4dnOVVglXwO4_WWiIjWlihIw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:28:02.000026+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

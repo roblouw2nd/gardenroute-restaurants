@@ -1,0 +1,74 @@
+{
+  "id": "fat-fish-plettenberg-bay",
+  "name": "Fat Fish",
+  "slug": "fat-fish-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Milkwood Centre, 22 Hopwood St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.060022,
+    "lng": 23.376546599999998
+  },
+  "phone": "+27 44 533 4740",
+  "email": "",
+  "website": "http://www.thefatfish.co.za/",
+  "google_place_id": "ChIJGWeBXQvieB4RWzvn3G85Avw",
+  "google_rating": 4.4,
+  "google_review_count": 2090,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Sushi",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Takeaway",
+    "Groups",
+    "Child-friendly",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 10:00 PM",
+    "tuesday": "12:00 – 10:00 PM",
+    "wednesday": "12:00 – 10:00 PM",
+    "thursday": "12:00 – 10:00 PM",
+    "friday": "12:00 – 10:00 PM",
+    "saturday": "12:00 – 10:00 PM",
+    "sunday": "12:00 – 10:00 PM"
+  },
+  "description_short": "Relaxed seafood spot in Plett serving fresh fish, calamari, and local favourites in a laid-back coastal setting.",
+  "description_long": "Fat Fish has become a Plettenberg Bay institution for good reason. This no-fuss seafood restaurant in the Milkwood Centre delivers consistently fresh catches without the fine-dining price tag. The atmosphere is casual and welcoming, with a vibe that suits both families stopping by after the beach and locals catching up over a midweek meal.\n\nThe menu focuses on what the South African coastline does best: grilled linefish, generous portions of calamari, proper fish and chips, and seafood platters that showcase the day's catch. Their sushi selection is a popular choice too, alongside hearty burgers for those not in a seafood mood. Portions are honest and prices fair, making it easy to understand why this place stays busy year-round.\n\nLocated just off the main road through Plett, Fat Fish offers convenient access whether you're staying in town or passing through the Garden Route. The relaxed service and reliable quality make it a solid choice when you're craving fresh fish without any fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWeBXQvieB4RWzvn3G85Avw/photos/Ab43m-vF5qUAb8nSCwGacm0qlgn4TQGoTpS0LaVJHba5CvKGtdNcxQxLb-P3iUmMqvH5tpxm-GsRotKaDzPYtpDsfgXOrIIsAC_Azn0iK-XeHnjcW4PZXVVZesUrVDNiKa96JoO5DrClPBSvXVkQ-OQ32xgAl8-E2-9oYbwO1VYMLYw-wb8-r9BXae9KYu0GSMWh2oFc2eBOGBonmGtife6oJht4z_vtOcqCFzZ5WUK_1GdgRO9Br00jRl_mv1jTO4Kek8KCycbUOAL6f4279ZJ8URJN2P7ja3sz6lQMe6nBGbLAPg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWeBXQvieB4RWzvn3G85Avw/photos/Ab43m-tz_SnNhcgS7tG43Umk_Mu_47JViKKmQYqdK5_hpZOPT2Ebp8iQJhBzzjghh1_3KiQgf81wxOyHI5d2s7vNfeWTeGgD6F304xb--99oLD9mbzr7nxQXhbHQkiCMotYOqvESt0ThLI2TjQC4Q8OOJcjDinRrjI_TfVayWsrAex4oa3U_zZCD3ryV8TWkc27VY7aqTesp87Co7SIfthqcLiTG9r_68hzPI8ERBzDq3GQV5_49vh7f-s6YgmiPYGnfqO7759o7lrC7wkXWaKazsQmrKrCxz9GwCfqsZ13IhfUk45XivkYw323FjMbij187NsTMrXsCx0iIjrgiVyeM7Gt6LWm108eYZTWiI2v6gBawe6GFtvuo9H5oqjW2E2p2-lMlaC-amJ4mspgI-0JpyW4EBzT8zASEK5cTuEGI5NebqGECeJjYj3E58WTTRw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWeBXQvieB4RWzvn3G85Avw/photos/Ab43m-s8kDgu4Oi-TeXjrN3Tpxl6NTmtc6digeJWlPh89aF0U_QerK13Mc__FbD_t8O-eo2wPQnS2Pd-4-UScQLAgdLVNj34x4pgMNqPpdQ2g1UMSvw-2raNrQbbpTxQYFZlDuDYGRAx0mlgdoxXcc5ykO2Agxoh3bQoDz3gahZ1Vfp2RQeXRtVfcVjm6jakdPnUCTPXM2A3KkutAgB7ASgCqYvJo6h94aFmfGRtHc2DHnbIEDbUm4VweOoRAlT5hQgngYEOYaX3c_wNKdtOnZ49uk5-83-4dqWV0fFk1EE0nOm3ag/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWeBXQvieB4RWzvn3G85Avw/photos/Ab43m-vP5UbQOGFGd28_Xx4Kb20EH5rlaUfI5mFW7ugd_QqRSWR8P2LkYZDwDhbPjDjLzQxeTeQ7UNtmcXYLI2gHPxmnGTfngmFN9GSUpCl8HGRKBiPS2-aLHZ0wOBTyjaHenrBRMXa4y8D4KGz8TdrK1ea8FbKsR2qgaS8tUUA2MRhLlnhW0iRcbh-QoMbwMk41BQjpqvb8N7GOVQP4qEsJhSCstyfpPvKKvh0yCsNRF7NmuhDurw7Oh3Y2gBZn1RlrmpH7XAaU_OYTYgwfh80w2l7iWpec9aq8L-41HmWfIpLHXUDAHDIWf9Tzfzrlv9uGZvWEB0P-M0E0dxCOCWwpwXPcLilfgJdMicSZL7Xu3XnNZsL_t8kXUn-Pvf1yjLJnZM9HRxTxiPF8rjOkiGxSW5HTQo3yJYoirD8A_CytQtkZcpbKZ3MlFN-QMBBDpQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWeBXQvieB4RWzvn3G85Avw/photos/Ab43m-uCXS2bovTH_QMYztLI548jzTce-5vXAZAzgfTtL1zYdgTjmRvBX6LlXwPU761XbbsZKGR_QCFLkP5GfPfVEceKXuC6Sl7dyNq8ywPmSrD7Lp8eIctOFWig-8bQJA2aY8m95dP5_SnzaEwGl7bMtQg_4Mxry9zhDrzkUtYerI6stnwIluK3pQcGlas2ywKL9jSDDWGyKm7fmu4MytLIv1oBAmgXq0gyqX4A9NucZemi4BkwbdRhirtUqp3gaUsaJVm6sm5ocG8xFkF_9v8bXrJ8Pvx3PbPKM_NuBz7tiw16VXTAGaXcGqVueKcdMHTiekZ7FVJJu8Tqwde6jn4ddLdHNWDTY3SLoq2fkvN2rwhPuUKg2gxTC2mUZ3aPmD0cIIUC05NGOxIpRLbvrD9bLYnjwHrT0U-QTch0LF-2zcqWOc5fZH8eqeBHqPCw8w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:53.245828+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "the-deacon-house-george",
+  "name": "The Deacon House",
+  "slug": "the-deacon-house-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "2 Barrie Rd, Heatherlands, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.950933,
+    "lng": 22.451448
+  },
+  "phone": "+27 44 050 3752",
+  "email": "",
+  "website": "http://www.deaconhouse.co.za/",
+  "google_place_id": "ChIJ_3GXRO0F1h0RWZYzFK4R06c",
+  "google_rating": 4.6,
+  "google_review_count": 1677,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Grill",
+    "Fine Dining"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Garden seating",
+    "Romantic",
+    "Groups",
+    "Functions",
+    "Wine list"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 5:00 PM",
+    "tuesday": "8:30 AM – 5:00 PM",
+    "wednesday": "8:30 AM – 5:00 PM",
+    "thursday": "8:30 AM – 5:00 PM",
+    "friday": "8:30 AM – 5:00 PM",
+    "saturday": "8:30 AM – 5:00 PM",
+    "sunday": "8:30 AM – 5:00 PM"
+  },
+  "description_short": "Historic Victorian homestead serving modern South African fare in George's leafy Heatherlands suburb.",
+  "description_long": "Set in a beautifully restored Victorian homestead on Barrie Road, The Deacon House brings character and charm to George's dining scene. The gracious rooms and wraparound veranda create an inviting atmosphere that works equally well for leisurely lunches or intimate dinners.\n\nThe menu celebrates South African flavours with modern flair, from hearty grills to lighter seasonal dishes that showcase local ingredients. The kitchen strikes a good balance between familiar comfort food and more adventurous plates, with portions that satisfy without overwhelming. Their wine list features plenty of local estates worth exploring.\n\nLocated in the quiet Heatherlands neighbourhood, it's a short drive from George's town centre and perfectly positioned for Garden Route travellers. The setting feels relaxed rather than stuffy, with attentive service that makes everyone feel welcome. Whether you're stopping through or are a George local, it's the kind of spot that delivers consistent quality without pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_3GXRO0F1h0RWZYzFK4R06c/photos/Ab43m-uU3gFTpOM2GzEwwGQ0ocprNJSL6-0trzXcED-d3f-Pm8YY85n5VHHp3i9ix-CjUGxiSKsf3PG_RDL4aGhcqidB6lKNBOnoZ3VHDc2_OhdOi2SS-_On_1Z5Vt5d78UicavUZQ2xtOzuzZTc3wszV3VkqZ8zwHVQplSzfoQsTlv5zyhCc5T6mWvkpod81qd9J3lXmUThahroEyV8W1aemBHI3K_SzP_zcPvcEEhoMTBAs5rhAFw8vMo0V021Ly53wWX8vdMCVU8-meqFsBeW_6ZyjoiMfg6EzGjROA-ntr8rtA6amcDP0YxJ0uXMoU5pe533TI0DWoTHtPUP9sWPYwzuFb2Y34fkr3uWaxI2mqF_koqCn5X-ekGnK2l8UTrgXtP_tYIo6FmlNaMMmId-VQxUpQ3rALvHuJ0JJhBXbh_XbF2lm0uuXQRyq1daHA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_3GXRO0F1h0RWZYzFK4R06c/photos/Ab43m-u8_UmRlFxYLx3ALWvko4joBXnopfuaYIIovtg_Dj_ctxu_NcbIop4UkVVzUPUTS8s2XwMjNKf8bphLENe11QKyS_kYjCNJLlLBW_0u3kngGjKfrblX1RfOVSp6MOVRyezpsYa13zCwUnK593eERef5Zl3EoE-uFihTJM_yh91V_SdiOiiYbZabzKyd6gWiEKe-P12JSY0HW--Gp6EnPL9VG2B9FcRvliQ9P61VupASexySWpky69MV2gG8DmdDYPc2TgvQmTk7g_QgOw94FBJr8fu5LZpKH2-TPqyYHXU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_3GXRO0F1h0RWZYzFK4R06c/photos/Ab43m-udGBD5jfatQtRIBWkv2JCjOjk3JUiDyCW3Y9QvQpvRDbUtpvQZOUPIXkHuru2uJWhOnZzvIajPBvTe6piAUxrj9mT4_KcYsY6p2x9ORYhUqTIHihIbfsvZZOV6r6Mmxy8Uod4xunRaN5So2q2enpE65aididPNE8bRV4NoYS6DijkJjuiJB1zRsuPNzP7DtsXfFpyi2kTQSSt5uBBwsDynq3GXCp3XDDHn03Gx3bGRtjgOm5mA1Maiilk7CMktse2Fy7GXiBkQptMRPTzM-6tsHXg0pllIBaX6NcBWTgs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_3GXRO0F1h0RWZYzFK4R06c/photos/Ab43m-sTDyCtZV7eL6W_lePky3eY3uzUFYfcjtRRe8iS_-JIDFdcf8qLuqm9BDonc67VhSL3T2VUGK-ee-igjjISkKo0GFdv-_KUOayENtxd7mXQa2H2k3VSPmx9AiUBM_TIYMQGB8DW2NPzZ64QSkgPMaOLurJdIXldTVq9xssopzm5rikfAwWegOm4XpwA3ZRq3yWzDIxQirYU97abFldYTkBYS12BvGZ59VroMjRWkaDW29AyEfh8fLfXKOpsJoexaqG7H3_zqBHVnnyzgPfWucYXMsQ2_E4YwLkIvvr9qUI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ_3GXRO0F1h0RWZYzFK4R06c/photos/Ab43m-uJMsAsBt-6HOJJIuRa7a__2X5I13JeEv_gxlN6u7oar4Dz3vCXP4SbBvjUdzu4R6xcRG56XNua3nlnSQbkQtsRMT0Odr6sz0sm35XNqAFBMJ7gOH9c0MFVQVDub8sjJUBrKCl7K8qAUISR5chainZSVfKZIWTfUuvx0218kepL4Sv6sZtjFGO1FAn6Ah-80GDJAAZgPAZAQZ3XxzgbH8apb2Eslc_BGvKDCH68QSEF-8prCJMoKxJh8nbZneH380P7kjgma-FTC0NrskXS7bq7ZRsNgez_dHDvqMQqYZsUwLREkhlx37_QOoPX829cmZqFX2z1g2hDwUnhj65gwg_N1nXk6AHy2_dSLBPkhHXvFUZzIB0W2ZiZVWrApky3Xww46Tok2Clg3Ax-2dipvxjzBuS4gFKHBLAKQn187Jg8sKAhjOOHG4kt6rWeMfSN/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:31:15.122280+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "the-commonage-wilderness",
+  "name": "The Commonage",
+  "slug": "the-commonage-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "362 Waterside Rd, Wilderness, 6560, South Africa",
+  "coordinates": {
+    "lat": -33.992678000000005,
+    "lng": 22.578614299999998
+  },
+  "phone": "+27 79 329 2419",
+  "email": "",
+  "website": "https://thecommonage.co.za/",
+  "google_place_id": "ChIJ2czLoyMd1h0RTL_V-96gP-s",
+  "google_rating": 4.9,
+  "google_review_count": 261,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Bakery",
+    "Breakfast"
+  ],
+  "tags": [
+    "Dog-friendly",
+    "Outdoor seating",
+    "Child-friendly",
+    "Takeaway",
+    "Family-friendly"
+  ],
+  "opening_hours": {
+    "monday": "7:30 AM – 2:00 PM",
+    "tuesday": "7:30 AM – 2:00 PM",
+    "wednesday": "Closed",
+    "thursday": "7:30 AM – 2:00 PM",
+    "friday": "7:30 AM – 2:00 PM",
+    "saturday": "7:30 AM – 2:00 PM",
+    "sunday": "7:30 AM – 2:00 PM"
+  },
+  "description_short": "Community-focused café serving exceptional coffee, homemade meals, and artisan goods in the heart of Wilderness.",
+  "description_long": "Tucked along Waterside Road in Wilderness, The Commonage is more than just a café—it's a gathering place where locals and visitors connect over thoughtfully prepared food and exceptional coffee. The space feels warm and welcoming, with a relaxed atmosphere that invites you to linger over a leisurely breakfast or catch up with friends over lunch.\n\nThe menu celebrates honest, homemade cooking with daily specials, fresh salads, hearty sandwiches, and house-baked goods that change with the seasons. Their coffee is consistently excellent, roasted with care and served by baristas who know their craft. Beyond the café, you'll find a carefully curated selection of artisan products and local provisions—perfect for picking up pantry essentials or unique gifts.\n\nWhat sets The Commonage apart is its genuine community spirit. Whether you're starting your day with a flat white and pastry, enjoying a long lunch, or simply browsing their thoughtfully stocked shelves, this spot captures the essence of what makes Wilderness special—unhurried, authentic, and deeply connected to the people who call this place home.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2czLoyMd1h0RTL_V-96gP-s/photos/Ab43m-u2u4czvL2kQOGRbRx5Fe8wKsz_hGL3CoKqiWlNPjMxkW0i9hqRFuLS6ZqSY9fouSNPd_OpSWNcfSFXYcZVRDoCEV4P_rSxpd4ZR0AcEfM8IMK6EoCf_Iw7xSOANlhHU1P0MPB1AupDMsi1I6YNZS9kHZmbIkRuY8sGdR4yjDkASB8ORnJzD4D3yh2NoyxcZdllUviCFXED433yAeeO-s_mXMSo8U8ST7BNwkEBX0VbFUlqPvYTb-xzlbzvXxI5ETh5hL214eRQDTQK6jUOIWzrzFEMW6gHwlB7Qd10izs2Gw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2czLoyMd1h0RTL_V-96gP-s/photos/Ab43m-vmc9MYkBgwN0rAFyRoKcZYXx3Eowd0ZQj4egR-bGkealcM93g9W7NU-DacRdVjGqXKh-AHDSNLr_enc6nAAHzpnzclUQpv_LSOUlNvYIdGuBUJoxbHLGR8eGAvOE-r7AumhIZATkl_FkCJnIciWUQbxgsFLBdbg0aCZ5Tj-JPwnxgVZxy-_QSlndxdjidNXqvY6ip4vgGEO9dblj9c6xrh6hy58sGZyi3IWZ8APJ_TqC_9f00o6vbxGdP7H4_KRuBcjgSeDvelBNYuh60afqs66LFRj_LX05uRNQZcaPc-9w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2czLoyMd1h0RTL_V-96gP-s/photos/Ab43m-vhWhR2Ct0KI7Yj6CdvgB0N7XG7-nzNWiJGIrFEiZjGzCdyYbuPwaRS62D8IFkx6PN2B7VrsYiS2ZqyI43WoNwmkxwyA6FSrvBISpQB8ljP7tkAJnMr1SnlIhkjxS9nf1m2peixRsSQ_M5HCKxfQ27SusvH0t9aK9Ffj55pt-LoJHn45txVCRve8PCQyYo_8JrHAsgpXECabWWMsajfC47BQWR0fDIGgTozwS5Z-ujA1ID5facxu_qQvZwKk0IvqKSF4Ake1iPC3oVARaI9MIf6DL__m5DLVryx3XnzSBT0SFV9W3PZMQCeQS_crvRx32w1XOPiCtV34l5x09N6RM_HGtjxcMFMwR4wRDkjGEqU6Oc_fwHpY3r5Sb_bRsvcS-5CSZ1ACcZqy1SCsC6lFZYWpmsCFWNCg8H2NGH--DI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2czLoyMd1h0RTL_V-96gP-s/photos/Ab43m-tfo3Zc27MP0sJPiMLo1KI_JpD2efWsIF5Rd342QZrPuZhyqUyYCT-I6Xqy4PaTZvW0mUXzk3osxXjXv7JiT8ZoIA-dYRzIfCVgdqc_EIo5k745QeyHLvqoZu9OU1WrqdWKgz1FzRsbm6pqNpmrRLt2Fw8YgHsOIvDvj7x-X3zrrlctlTrDGfqNQqqSkAiDIso6wswvZMGWbPSoV4GO46LziUat3OUn12vT6jELD99i75GRZPLUv2IYo8cwhPiGD98rpjilNcB8_ztcAub8V9JysRHO_3QnOeDc-ZQDCTalxqE2tLy5CaMNFOlPDKj86hNPfT8EBcat8y4-F-kAjSo0msF7FkKqI4UEvFfJ-51RYjjbNWepdM4JnIOO6zdukS44KVooE4V_mM2rTfAFYG8ZpTzipbhJ_WZtqkeluw54WK3A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2czLoyMd1h0RTL_V-96gP-s/photos/Ab43m-tKGcnHeqgex5lD2gpVgU3oE3tNOh2VZxMg-XKY0LViFwW2e_70ABf-KqrJ9_thrqfiJRoavBF6onmkyoclmKy4laN3MmFhqMJQL-VmqScW9nHtnOpKCqcoeSR_jHkROBL52PdTk3R9hQ2fbmrs8hGJcddX3O1kJUEcNdVQ4KFaElL9zf-LixRBpCcHons0T4To9MFDSCRQ3KDkydnRuLvvoXX9WMKCTW74iH8_FW8mcxhls7QLtOnSkwefSIK58bLUXJDh0Zo5wdZjjz2CnFUdP5vvCzCQ6xZObqjs8r3dH0KFphjhd39L4oql6ZwQNqwRfm_djwd3U5zEXme1c4_qgNNCNlt5S2_ik07aMvLu518kVfBApP6qAY0Y6yHTZqRCL-AA4mYfB7AkhHqyeALQwHq7cuM4W_N5BBJM-QL1fqnRhbWnOwGzSYL5B2rq/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:36:23.625379+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

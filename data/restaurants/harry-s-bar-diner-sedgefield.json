@@ -1,0 +1,73 @@
+{
+  "id": "harry-s-bar-diner-sedgefield",
+  "name": "Harry's Bar & Diner",
+  "slug": "harry-s-bar-diner-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Woodpecker mall, 30 Main Service Rd, Sedgefield, 6572, South Africa",
+  "coordinates": {
+    "lat": -34.0145033,
+    "lng": 22.801343199999998
+  },
+  "phone": "+27 72 204 1101",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJ51iVYBe9eB4R2IMFp0puUV4",
+  "google_rating": 4.7,
+  "google_review_count": 26,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Pub",
+    "Grill"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Sports bar",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 12:00 AM",
+    "tuesday": "9:00 AM – 12:00 AM",
+    "wednesday": "9:00 AM – 12:00 AM",
+    "thursday": "9:00 AM – 12:00 AM",
+    "friday": "9:00 AM – 12:00 AM",
+    "saturday": "9:00 AM – 12:00 AM",
+    "sunday": "9:00 AM – 1:00 PM"
+  },
+  "description_short": "Classic diner fare and pub grub in Sedgefield's Woodpecker Mall with a friendly, relaxed atmosphere.",
+  "description_long": "Tucked into Woodpecker Mall on Sedgefield's main road, Harry's Bar & Diner brings classic comfort food to the Garden Route. The menu covers all the pub-and-diner essentials — hearty burgers, grills, and proper bar snacks — served in a casual, welcoming space that suits locals and visitors alike.\n\nThe atmosphere strikes that easy balance between sports bar energy and family-friendly diner, making it a solid choice whether you're watching the game with mates or grabbing a relaxed meal with the kids. Portions are generous, prices are fair, and the vibe is unpretentious. It's the kind of place where you know what you're getting, and you get it done well.\n\nConveniently located in the Woodpecker Mall, Harry's makes for an easy stop when you're exploring Sedgefield or heading between Knysna and Wilderness. The service is friendly, the food is honest, and there's always a cold beer on tap.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ51iVYBe9eB4R2IMFp0puUV4/photos/Ab43m-uS00xQkB2-u4NSq70Vxg01FXZ_IwK240aTUEzQnJkOwdc-w9GCOSXQ-G3t2RLEe6ADatSSePNc1SxumoZoCzbH8FbbMoz3LggeNb7BXu5vQclyvCGOORh38JGdlzm7BUZR-0u8cr7GKOr-zlp1L4SBhtutcXmQJc2d4k-kTDQY8vUIL58q7W9TZ5W76EWI9knfC04tTGuDcMXatuljMyJIb26HGd6OGElDoHx6Li_bPfxpBPomg3XrojDH8EiXiFIsnEg0YquPskcQtEqbR9t1_aYn8eMDLVogDkDI4rdnAw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ51iVYBe9eB4R2IMFp0puUV4/photos/Ab43m-vR37h1RbhmrwX3BjJ_W9AZvfrYgaGvG_ZW8EWsgTpwZ8qkqO3SyQ6yu0r6Fgb2eK5Z9obiM36Dv81Q9j18jne-NVv1vfeSQYRYXUbcU6ukNsxH8V1ElQ-2XnFH2nRwd6881pjXEmat8YoEH50LvZo-mAeWTrZHSS_lg8ylYutYyzomBR6b23LaFMrx5KbI9NjrgdV9NGUCzzx5-07LGpuiWtzW1qjQp-GvG1CKFhY58e6g_o7N7Qd3hHHFwHqN8aq3q2uKVvA6Ugy9n0OqRvyiLjNU94xQiamWClWh3hUw9w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ51iVYBe9eB4R2IMFp0puUV4/photos/Ab43m-uMkfo7aVosR7p97__ueJyIr9PJIE0VLg-D2CGM9mwdi0o2MoiVj8PyZQp6KjG37EyXWtr115jUp21q1zn6mSKvJpdEPeYw4btpSeEI9J7hBHwDxcFAp4IQWzBUFNICZWBAL1-JyOlXpG0azYcx_8i2KL2O4rQQLLmXkws2InzRRDhwU1NX4tLg0tjHZqOr_ZZd9xauowcm2V4hyViMO-IEP236i3P8OTamoe_di4rVeJdVLeh8X8Hw1HLclW4cQGKGFCBaNXi3glr7QKtwgpNhRWloWQ2o-EzqzbagziapfQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ51iVYBe9eB4R2IMFp0puUV4/photos/Ab43m-v3K63PqzJgVKbACv7gOY7xLho3MJN99JsvIuJU-BAM77XjBoUOm5QKwff4gMt2JwbhwUmXLVxXrLilNTTe2Bp9ge1jntmfwJxk7jhWIzYCSoEacw0DuMHJC7cWXHdF_4Y1__m7-bjk-uyEB7fA6C5iOCn0d7G3zroVSfEV-Vry-TvchOE1yV0nDVr64HI3cKm7LdHrGrMtL47lzLxzQzAnGlwNbiA3L8kKYdtjgKWDvCQcudkU2TFenysvtv5Gxc9rzikzzTqjhAQSsqs0meTvKWo9BikEI4aqwSiBoGf5nA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ51iVYBe9eB4R2IMFp0puUV4/photos/Ab43m-t-l6UrawHCZBahoKEpYhkPZYMqrgeUmhrgtONzs-wSGvIMqcPOCXA_sKRDcKTzf6iFHEe1e_OEPJUS97AgR7ne1unj02_8-Bx4ZitKCr-vHe4K7qOxpYH-mLGsnN3t0z6LM8SSUcKe_XaaeaVpqDOvP9mrnoeSb7M5LxF5Pv7SYTE-pqIoSQ8KDPH7zlhxaDtXO3LHp8CwiXAIkWoLG7J8C29KhQatO885dt5majhe4LC6r8Veysy16IqiA2a_S6BDpltXnTWEx_lFTnJhdKJd2YvAQQutdhfOlqimHi8yvw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:08.301017+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

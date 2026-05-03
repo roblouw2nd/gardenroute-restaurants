@@ -1,0 +1,76 @@
+{
+  "id": "big-blu-restaurant-mossel-bay",
+  "name": "Big Blu Restaurant",
+  "slug": "big-blu-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "The Point, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.1857592,
+    "lng": 22.159001999999997
+  },
+  "phone": "+27 44 691 2010",
+  "email": "",
+  "website": "http://www.bigblu.co.za/",
+  "google_place_id": "ChIJ04h7vw5q1h0Ruk5nCB1f8Z8",
+  "google_rating": 3.8,
+  "google_review_count": 1002,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Grill",
+    "Pub"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Groups",
+    "Waterfront",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 9:00 PM",
+    "tuesday": "10:00 AM – 9:00 PM",
+    "wednesday": "10:00 AM – 9:00 PM",
+    "thursday": "10:00 AM – 9:00 PM",
+    "friday": "10:00 AM – 11:00 PM",
+    "saturday": "10:00 AM – 11:00 PM",
+    "sunday": "10:00 AM – 9:00 PM"
+  },
+  "description_short": "Oceanfront dining at The Point with fresh seafood, grills, and sweeping views over Mossel Bay's dramatic coastline.",
+  "description_long": "Perched at The Point in Mossel Bay, Big Blu Restaurant offers front-row seats to one of the Garden Route's most spectacular coastal views. The sprawling venue combines a relaxed atmosphere with solid seafood and grill options, making it a popular stop for families, groups, and travellers exploring the harbour area. The deck seating lets you watch the waves break against the rocks while you tuck into linefish, calamari, or a hearty steak.\n\nThe menu covers the classics without fuss—think prawn dishes, fish and chips, burgers, and pasta, all served in generous portions. It's the kind of place where you can roll in after a morning at the beach, grab a cold drink, and settle in for a long lunch. Service can be hit-and-miss during peak times, but the location more than makes up for it. With its casual vibe and knockout setting, Big Blu delivers a proper seaside meal in the heart of Mossel Bay's tourism precinct.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ04h7vw5q1h0Ruk5nCB1f8Z8/photos/Ab43m-suOZUO7V3FDUC9gCfPFGkxzVX3DJgZzrGiCb8WS9-eNe_MxSFGgN7w3yHABN13jSicRIIPv-rmBldHwg5H6XIXHuvDbTDzlmmtVreX6FqRDFfhAgEMV5dwwC9rbp2WrEUlxf9Pw6Q3IS2amtaaLrJ4zj5fNp3vgAIpymeyqiEFywLprjuiq5P9CqwM_j7xV_guKH0o6-ll_mhu6j-9HUGsaAFs-wWhtQIoSI-JtTnGsg_jVUcaoZJbM2_ydxj9uvtuRWiYMgVW138R5CMtvmgPJ6m5BgNGbGU8yXGOHKQFV_MGYPCFLlHcrRtgbD3zZ0hstx-ehSJjUNpVcALc_Nt2AWGOGdUD0RaMiZV8HH5PwYciTorHw0S7R7EeSZJ9AfrdDA_lphGjEhhbB1iSJ2h386GvUbF0aIqrjK3YxPaJ3g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ04h7vw5q1h0Ruk5nCB1f8Z8/photos/Ab43m-v-RMEy6_78iFyPz01QBSCOklicSs5kU7MWTkRUfdvd5mPK8uiq84_m7XHJC3-FnsubFiVy8pFdlQbM56s7oIs61s4jNnmkSJ-CUvEaxtYitWF6cGTtZxsBNQyKp-xnaRf01whdV7iFnIA0mwuRmbu5qQzccDjjSfYa_tr5foMoeccccbJk21HeCQFVlF4BJ3A1k2WZj4MJGAM8rC59iOo4mJ_hdAAgOz2tGmwxRivvZMXg6pbauODimpw22Xc-JFCXggrt_cXBD4P4zpvhjyhUa5o6DG7YKVCGeihbjpdWtrou-AJnC4Jp0lH_bV6PuVdla8_4aWs01N4QanOPu5URSkh3i7LjOE1Z8CnZE0PsC45J65gxAzzYv_GMy94hXDJArt1A4FL_xHyfAG_5d5jBVOyxdesUMN0s2-gbRzKW0g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ04h7vw5q1h0Ruk5nCB1f8Z8/photos/Ab43m-u6K0Ef7AaDHVuAqrRKOAYrD1P2ZCjZVF-ckmrlCVz_hJkXo5BPAqkFm9KDpeLGBt_dCsT78-pbprJDaWdC6BYHvUrahf08A4mIUwD3KGek1woRZDDR7sWxh14DzlywgVMyq04PaVje2WCqoGog20-3apPUz0QB_X_InRLMhvzc6gRqEByM_u5wc9ssUS-1mFxmX00unklrhNK9JZvFFXCe6Y2i6jff-keLe4p2fgqI6n6zCUldd1fPfu7XhwIPDz5XvSTMpO-wfcr82nv7v2e58yMnemSCi_tYZD3zu6S1Rh5dF27BxMVqux2YJhPX_2zG3q0vystoc91X5qjSiAFZDe_JtMx7XQB-wCHuJ0Z-lUBg8E2j1oNY5zVA7vZZS8KcMmh6s1DnYb-natyBQx3QEhPOxPnKWLnxL514J2M09l3KaVgBlydsrUJ-Eg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ04h7vw5q1h0Ruk5nCB1f8Z8/photos/Ab43m-v0H0zOOknoPsHGU6CSCAygZ8pYRU46NaW4hvrqFal2JDZrft-pqaSnvjRf1N0y0uV3oFH2GbRAdjZB4_RFs2pYIZ_xJ4Hrov4nIFPBTpbEAg5vMx5GmfrCr5Q6oUmN6ebEvhiZvEGE5Ml_WqC7WVVUmw4sRrtekUMQQFgTt2ZffQw4aLULbjJbXmrvZnUQE6N22vaaZDO8hQCYBUrnoVomhMyL_l4L0B8l_TVOVgkOTxZG4UPvFUb5MUeJLymXarjTNlXtpQa7F7YdnM0Ne3YPJMWfK9ZArhF9a_pdsLOxZaS3EvsQp_4ZP_0tBbWAsC3xA3SZ0suJ5IpYc5mHubD4sd2Ca1O601PKsk67DEohPSYalt6id29wipZlKH1CGjtP7L3TOJnK84ae5v3AZnMSWYMGcCeYsfnQ0VpVk5y2ByeIIaRl73wwZM1lYQUa/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ04h7vw5q1h0Ruk5nCB1f8Z8/photos/Ab43m-sE9EUT4argpjKO9mS5qEO7eSf40c8W6KY_77EGsFKoSbGf7ZWepkFl0i826DRWYXnPCDNo8qSC1RCrxfp5baLYnXiPfQu9rK5zeUqNz1eELQktkloftGCcr2X3z-djilTaHsEqzU9iFfYBZxPtvCiSeBnJND4H04XYnYTroGOHuizvZhRC5tLNE3OzEdmwibLQzvBQ3BsInJgtfGLm_TmGzPpG0l9CWYwc_wunX5ypqIJmgG3mOyxAaB_foddEBj2RfvEUj-ww0TiatkDHDIQSCAHBONR5Ay_TuxALVeYfS-Bkw9hTqlR7Y28gEVhkt2GvLRO5IEehd_xrWNoicrtejpROOUB0VTM9LHllcjNiswKeVrQbYdoD3Ez8tWNXNClDvRJO2mbXjsY9AwpVmRiUrKLubgsU83anHAg5o1E1Yg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:27:02.574826+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

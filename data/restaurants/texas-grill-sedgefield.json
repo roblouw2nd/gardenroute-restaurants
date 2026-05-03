@@ -1,0 +1,74 @@
+{
+  "id": "texas-grill-sedgefield",
+  "name": "Texas Grill",
+  "slug": "texas-grill-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Texas Grill, Main Street, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.013878999999996,
+    "lng": 22.8027172
+  },
+  "phone": "+27 44 001 1938",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJU6dmWwC9eB4RTh73lYw9EWc",
+  "google_rating": 4.5,
+  "google_review_count": 168,
+  "price_level": 2,
+  "cuisine_types": [
+    "Grill",
+    "Burgers",
+    "Bar"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Groups",
+    "Sports bar",
+    "Takeaway",
+    "Late night"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 9:30 PM",
+    "tuesday": "9:00 AM – 9:30 PM",
+    "wednesday": "9:00 AM – 9:30 PM",
+    "thursday": "9:00 AM – 9:30 PM",
+    "friday": "9:00 AM – 10:00 PM",
+    "saturday": "9:00 AM – 10:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Laid-back grill house on Sedgefield's main drag serving hearty steaks, ribs, and cold beers in relaxed surrounds.",
+  "description_long": "Texas Grill brings a touch of American steakhouse charm to Sedgefield's Main Street, where the smell of wood-fired grills and the buzz of conversation spill out onto the pavement. The menu focuses on generous cuts of beef, fall-off-the-bone ribs, and flame-grilled burgers, all served without fuss in a casual bar-and-grill setting that feels equally right for families midweek or mates catching the game on weekends.\n\nThe atmosphere strikes a comfortable balance between neighbourhood local and proper grill house, with a bar that stocks local craft beers alongside the usual suspects. Portions are honest and prices won't frighten anyone, making it a reliable spot when you're craving something meaty and satisfying. Located right in the heart of Sedgefield, it's the kind of place where you drop in for a steak and end up staying for another round, especially when the kitchen's flame is doing its thing.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU6dmWwC9eB4RTh73lYw9EWc/photos/Ab43m-v5XLWiXwCb04bOR6vVSMG69Rj_N8FyIHmXpDQqjF2e4c5TrHXiq_uopmByXQ6oMwcDKYt7JtIG2nUhWRaX4uW1xbJgS9r8sKYMcpJ0NBTopsai9yO9KqocWbdnYrey7KV2OSE8hp6dZpiUx_98GhflkoxRHWGmapP6ixeKckPa55ZSb4mkp9diPmODVUlJKcuZewkWut9Dq-Ya1Gh6ehHYxNDvXyWpHuJSbu4T9wNyY7rHoXb5IU0OLEGuMc-fEPXIgupQjm1-1i6Zw6LG8KWc-ZIN_L8FwSzDoV0Jvo10gWkzCzw7iuoLYfd7nZplAqDKjsrTnYiVV4QsacEzcJOIycPRwq8J8LqLplAz0NDjrHUnU-bpNAUsHI0t0EAu9u7YwduFi9JRMT_URd64b-HjSMQIFXF-uulsLZo-ehfU6lyg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU6dmWwC9eB4RTh73lYw9EWc/photos/Ab43m-t_1cZAg5zr8ieK8aeDcbsDIpx3rEyZoUHpoFAnkxc_Tw4_Xg2JcWZ2x-QmmpdvDSak25GgAY27_6lnsUq33wHnOmIDDV_u6Hebwj8uS9d5A7ZK4LxnlYzYo54aEEMH6JA-_a688R31YbI2DdeTZBWYgyJ7s_o0a7iYbXY7mbGHmuhljBWXtcO15Xd5U0Phmat0PumPCL4xmDhVeykpNylIHvy_1gAb-HVDBgO25UZWlMkPSg5NDrqR5FV0hpyezq_2a6xoqv5T_ZZ-0UzG5qKWuhXWCF7S3GIVPI3PRS6Vlmn0CVHxPQp_A_WMN7g6UEnDzhEJRN7Giq8jynShBbMR6Js33Eot9ya6DEWMgS7zyhnOyn3Iy0K6jEhS1ZMsQKoeIChXO4kmklTx1QhxcrO4KHmb6Q9mmQz4j7r309GT5eAeRrCPIct3DZvapUjB/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU6dmWwC9eB4RTh73lYw9EWc/photos/Ab43m-vVdaP2zuMGDdPfHUgLaLO0aDAYQ4OYopsfWpMOz50ZRVQPwLDguWrZJ-3UeOO6e3FZEEkYuBlZFoiKY3IY1vyaiax2MvNj_JanVbY9R_fJH9x4tWzwMaGY1L53YddSwOLhYw4Ic8gECWl__WTFizenPJqWEV6Jz41x5c2tD363Apvz2bmMpuZHWgNd4hoduh1lwyWrv3-sQfLA-bbh4MxOFqj5AQjyXL4g56aPTBtIfYowXaw3FcrS0RAlE6LttYIQpwhYeiT8xN2RpWv34_DuE9MnnjBwvnE0T3oSsi0xy_l4z2KZbSlAmXTsWAaY_Wv1xUfVWAdPKxZqfKSXCgGo5Y3-u29dXfumuqJAVduM5Yu4DbsDRYz6COfYWpxJGjZExgGcBWLs_Qhp39BDhaRV3n3jgkK7Mj4e2vScTvc9G80mcbsCmDBo5hCw3GsQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU6dmWwC9eB4RTh73lYw9EWc/photos/Ab43m-uvgtwuZxMABcViFdyQwOhShxU6M5NRtfgzpNqBkCayPlaIHQBds8LIq9Sy-NHdulp9lFVBJ-KWS4AEdHp_pXifLew14q9LYwRJbAm_W-9uotryeAtJbEvfT87CHVTG4keeGgowmyLVldUJRzF0tvOOxv6UjpTrN1MQM7R5mYxR4GxRzqQLY497lshAMzz85Ou7yQr-QJgYCXDGOgXiE22nc_hTHlDs-vMW_ktQ20dJvdycwTRLiQrCEPIlNraB34JRWLHISvsCZ20wSIj1L3mqqdDwRCdt1eDURU-NdQ7m1hjFTlG7JJTErlFouV4ewQbUgM9nXncRiWtrjWASZ75SfrKCmwj3HOhkE8BZUhsj61_e9eujBOP_CDMCAonqe5UHp1sfttIZTTFzPLeZeIgH5FyEyhN_uJxRnxqnGu_Wd1i3/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJU6dmWwC9eB4RTh73lYw9EWc/photos/Ab43m-uxzBpi3jeBLnDEg8gFr3k4KnCgI7FajYb4FIzFQhTbNZM-X1Op-fo4m93TjVw5YmJ2Q1sBAgthC75TnrhcMDQ42fPf1QXJdtq4_c_ao_ZBGNInZ29NaNCp_aTYyrmfQJTOpr4H7lh9VqnVxCNwYTTaVCr4F8kU4H8C6WdiBZAzVpLc9mfzIh3dFhKuvJRJxbsmtpaLTa6j3sUwfNO7PRsRgyB4J16vYacaBNIM09-ZIJz53jYRuMQGeYZn8TwidOQZchCT11d0YlSp676M-lVztiIAbyAQiwd0hzTn3h2lKyYGFdVnwJkmkdwrCK4vmq1UrBIeYhD_N6ZXNLLAA6l7iLrte6jDPDSHVj3JTcGO2ZoJ4zsaml-P2cDD_huaZugTw81ck-IfgRbUOg7zx9Vkgo49AugBc5bV9CzuW6C7t6vazt1DHF5RJzQj8Vds/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:39:37.347862+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

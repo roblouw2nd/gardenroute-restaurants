@@ -1,0 +1,73 @@
+{
+  "id": "meade-cafe-george",
+  "name": "Meade Café",
+  "slug": "meade-cafe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "91 Meade St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9625182,
+    "lng": 22.4576933
+  },
+  "phone": "+27 44 873 6755",
+  "email": "",
+  "website": "http://www.meadecafe.co.za/",
+  "google_place_id": "ChIJczQTaTQF1h0ROpFFPsZd4pE",
+  "google_rating": 4.6,
+  "google_review_count": 552,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Child-friendly",
+    "Family-friendly",
+    "Functions",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Charming George café in a historic setting, serving wholesome breakfasts, lunches and artisan coffee.",
+  "description_long": "Tucked into a beautifully restored historic building on Meade Street in the heart of George, this café has become a beloved local gathering spot. The atmosphere blends old-world charm with contemporary comfort, making it equally suited for a leisurely breakfast, business lunch, or afternoon coffee with friends.\n\nThe menu focuses on fresh, quality ingredients with everything from hearty breakfasts and generous salads to satisfying sandwiches and daily specials. Their coffee is consistently excellent, and the homemade cakes and pastries are worth the visit alone. The café also houses a gift shop with carefully curated local products, and the venue doubles as a popular space for functions and intimate weddings.\n\nWith its central location, friendly service, and reliable food, Meade Café has earned its place as one of George's go-to spots. Whether you're popping in for a quick bite or settling in for a longer catch-up, it's the kind of place that feels welcoming from the moment you walk in.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJczQTaTQF1h0ROpFFPsZd4pE/photos/Ab43m-tRKeMoX_z0VxkrMlc0ktLleuKBQXtLnPNRO1nKgeHiT-aPhhPPpRlRvuhpyHnSXHBmDeOpXkUI1rSi05d5IdF6r5AM_o_2wjjKy0o3aJaePncnyEfwf_ezHLw038Y9nDGdjoYZuwO31svYzYc6hTe4AqaAdrHBeDjo8qh0dsnPQfK_lCu85VV-lJgBvnAssNq7s7LavqJUTOpV4A4zwz9HIoQRglusAlUAybodqlEt8STXCUNWcZydvHfjf-vYYka0gpadeEZIy4R2zjkCfphX7gTll80oyrRl1GWtKzshnw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJczQTaTQF1h0ROpFFPsZd4pE/photos/Ab43m-ucMCUAYL4C6stv-HJ8dhMhiboQ5k4DBEHrJXWd-i7xfplFACPoLZCJj40mcPDuLQUK8GG6nvLyiswIq4e7a6SKL5SppKIQVb4dwaIk5bghCOJutAet8Q-7VUWCZw686GOIBTscV6iEL6SjXSLdrvDsCf9TNou-UocWjw4zsCT_a4HgOHX0UZSvrLKgDFjEIN1903sdrSW98qnyVl3B0z478iWXqDupfp_7eGa6WfG6_-9kK9YObzI2F3SFH_EOAD-DV3X1r2bHqqqbDnjlB52hpBvKF5pAknak7WF-LLXvxg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJczQTaTQF1h0ROpFFPsZd4pE/photos/Ab43m-tEzXm60Qz41wXuhzD6bQO5DwXv-UZN5OiwFXkg_MQ7HWmPGRkIzi9Lk9AmkMRG0_U0UpPnhtF8IK6k5ZnCMld8QOsasf4QcxeNznqYdjmNRkHkeiRbzf07j7V6AkQbV7As4EFNMzIvuBXmQtpHYo5zIGEZ6-5SOHiD8wBxv_u9eeCDsLEo3oXNNQ7FPzSlasvp_ngNhSZE-u-iG_KL_fsFLSozGspGZ_k7dsPsvpa61Tsh5tbjSxvDB-C0P0tADVJesxQz7ykbu9eqMuxwMLqsZLcJVNU1CQMY2pmpm6oFi-G8hh6FHpYHaT6T0MopfUhtR-C-pq24PciCGiCBSZalWoEInEhTMCUEW_yjQR-2g-h9ibjifjYN7gGI9HLiUQtlT8bMld9igKYX0_wE-WdQDr05vQDSZUebePKPjukDKUQWkVxWeRQC4Xrst1BJ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJczQTaTQF1h0ROpFFPsZd4pE/photos/Ab43m-vR3jw-Eu7D15GySxRCB1hLRNiekLl8skUzBlQ4HZ2gIJw9CMw-Ngccv0If2lCLHueKb_yFZ_WwAGQFK223VSULbkrwRLi9kS4JuLbdwFBPaXlhzvhzL-kFRAmfuzeKMj63sK5ZZCUGc1lSrma52hjYJuFdXAdFobD2AwNDZO3TRPkbAo-1tIek1U6QSoghi_tnt65sGA6OY0is3SVHMmTlTsK2-iHr6PXlFDrWGCJBhaSnVP8_6ejr8a1fZ90SHcntBc-TIVsbBrMrl8EjrwqjkQcvIdYU4GFf1Noia_tr18E5Zf6kO-_AkcYbPfW-odaz5pKSQ-wKNkvyJ7A4HEB_MGEgZOesnMAtSr7H_sn1lH5qo2cZRioCdgrUwn-JKqH9s7_ijY_BgyzgA_xP2PCHzeOcIfHkeYUhOqYOmkPNlg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJczQTaTQF1h0ROpFFPsZd4pE/photos/Ab43m-sHVo544JGRtGBGUpf4aKXpX_DWOZFZhwbwuJcuaswGPk7dAL_ZlL4gWTAVBet-zumB_WpHonRDAVPx2ymtfmgttdesRmbxxAwFPTDYX6c-EV7n5wNjKNMv8fPT_EWl9Za2d5GgzTtkU1oz0j-qdEQrtdfTj3Du2LFSEGXpJGXG2lwl5O5dEICMdJQwea75gr3ymUKIotN-EI_-s2jJ_zOa_ONS1FmMEETq2sHAlXMFQksp0JU6eahjjGxLgd1RbYOYDw941PAK3kWhXv-fSeyahLdY2RVA7vjINpGIi46HLg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:33:52.647598+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

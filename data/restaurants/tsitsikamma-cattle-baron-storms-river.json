@@ -1,0 +1,71 @@
+{
+  "id": "tsitsikamma-cattle-baron-storms-river",
+  "name": "Tsitsikamma Cattle Baron",
+  "slug": "tsitsikamma-cattle-baron-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "Main Camp Tsitsikamma National Park Storms River, 6308, South Africa",
+  "coordinates": {
+    "lat": -34.0233231,
+    "lng": 23.8974828
+  },
+  "phone": "+27 42 281 1190",
+  "email": "",
+  "website": "https://www.cattlebaron.co.za/cattle-baron-tsitsikamma/",
+  "google_place_id": "ChIJq1fkLNFxeR4RopiMWCsclnM",
+  "google_rating": 3.7,
+  "google_review_count": 582,
+  "price_level": 2,
+  "cuisine_types": [
+    "Grill",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 8:00 PM",
+    "tuesday": "8:00 AM – 8:00 PM",
+    "wednesday": "8:00 AM – 8:00 PM",
+    "thursday": "8:00 AM – 8:00 PM",
+    "friday": "8:00 AM – 8:00 PM",
+    "saturday": "8:00 AM – 8:00 PM",
+    "sunday": "8:00 AM – 8:00 PM"
+  },
+  "description_short": "Hearty steaks and grills in the heart of Tsitsikamma National Park's Main Camp.",
+  "description_long": "Located within Tsitsikamma National Park's Main Camp, Cattle Baron offers a welcome refuel stop after exploring the garden route's dramatic coastal trails. The restaurant serves generous portions of flame-grilled steaks, burgers, and ribs in a casual setting that suits families and hikers alike.\n\nThe menu focuses on South African grill favourites, with various cuts of beef taking centre stage alongside chicken and seafood options. While the setting is straightforward, the location makes it a convenient choice when you're based in the park or visiting the Storms River Mouth. Service can be slower during peak times, but the relaxed atmosphere matches the national park vibe.\n\nIt's the kind of place where you come hungry after a day on the suspension bridge or otter trail, order something substantial, and refuel before your next adventure. The surrounding indigenous forest and ocean proximity add to the appeal, even if the restaurant itself keeps things simple and focused on filling plates.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq1fkLNFxeR4RopiMWCsclnM/photos/Ab43m-ubz7LdSoHt-eRF0Mg38K_y01lgZKRKMlMqHJkDdxXMUUHTR0D2KTeFGRQaY4R3gvfiIj7vvECDaTQzjdyBdcdp1tId8kSyARK0aqSot43LP4TfgKdckxIMwV2CwE52ymBZkW728lW7LUTIk40oPEgPO4Qb_f9jfdOtijjE68f48xKc8nmaqbRXTSzswNyKH4JLOkcFxJanbtGPKOpUY3ttqINlMWprmbtD6sB_yoQdNMjlK-izTllCIxx4kpCmvPa4-TqskykawRDEsMhPg_iNNdaOfu9i0cLmt0k-vdLFSg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq1fkLNFxeR4RopiMWCsclnM/photos/Ab43m-vqzXeGHMXoTX98HkAt7h1mPzu6dFBKYDTTPnzPyfpFaCqpihnVt57GVN9dqm1FO6YK4AXWx5Eu3DPSTzhNjQcoJPlovvxvC8MZLSnqJNW7QgebFM9bm9dw1AaLn01-0m2FwJq2bw1_FW62Q4KgadaxLBNBScSFF5O2TfLwFoFbxHkttLcjvSyg7grnnQS5hhXAk9A0QcJE9LY-7IVy9evCIhJE4Ng040BjOdp9gmlay1VA-qzesBBd9HeNiFOg54_76XQqZThF1h3hrINLPEE7YWYgJaBUf3Hsj4Ed84DHZA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq1fkLNFxeR4RopiMWCsclnM/photos/Ab43m-uEsE8AgKVxmyyp4Eesklla8zEmLbgy78V7ae0RG-LrEiOfzTQhpceH7JOstVItSAEiN6WkYGOzJ4HlUw6Kwkb4KNs4wxDxyvzCrQ_x7Xom1qiX9PCcv5zicEpgQ9jONz4JgCqXnOaYAzf5He9e6l6CyULS0YnSNxbKdV8r2JfFqi6gSpuPAjYQzuq93R-XNWmhfI4gGpjXnMu2EXI56EUVdSL9CkLvPeqZ2xgfeUfTVAq67i-567FygrG2kyVoLnqa8tdCe7tB1bEdGQGWilZBXB_gzbFw0U2Mod4hFuJvV4pZcf88oIeBDy7VyAjtjWrHgyd-e4_uHTlipupo2_Nhx20YyjFRuwi8C4kmLsCcyxBUkYvj-oxLK3wCxPRwhWkoUNjWJtPvRCEyRcm_zusZ3ixxLzPIhIWhbUPpUvY/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq1fkLNFxeR4RopiMWCsclnM/photos/Ab43m-vi_M6gYwYO4OcxU9Q3oGjL7ALd04nbAHXJTcawWUoRWcrCly1JysO168flQ4UhjUD_GrwTv5nO-gHhPTzhBTtfH2DwmXk9P6ciQs0GbchtEgc0oVEepTqblIB1g0XrLLcmYtEhetQ6v1baJyfMAgNrzeue1oAnmAVwHT_5VbQZ_qf-btiAHVd8r-Kxm7YtswoQPnGnCK0CuxMe1xrFOsUA2-mdxIMW26xfh7Vj3wLAMs30RNPiT1_GSMMFOWYqsq4DT6Uy-K2jLbhC8WXVAokrxiFNnbSPZ57qWvlRmgi9wmPlez7pOyR_om3mUXxToO3O_lxXg2GxEppCdFxqHOky9esjlAF_X_3rixkM8NigIsM5bo4qwZv17YCGAeXahjxKsbpNifCk2QnAa775GQdqmYzhD_0rmzTF96500aYq8vA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq1fkLNFxeR4RopiMWCsclnM/photos/Ab43m-sfDRZXl5uCxQXWHnLAYwHrYOy586Hgh0yqwowdFlg54JQ5LE_iih_HonXOWYET1J2eER5CW1hKvXcOBkb6Spnz_gejG8uv4T2nekIa6jHt4BO5K_QhzwfthFx26mecKaZjZDGpzVxZo-nlszMoRKVmh9VdpY5KlYq3QtGLkmaOuZzTsRe1GNNXRJVRJ3Mj0tlZvgyvxuzQw5wUH12QyJ3EF1kldi5o7mnQWpMwKQaETK9NNySJQnIPFHhIiSq0RIGhSH2Zj1--rwxYrMyFBKNRnvceq1PNgiEIvrr0ac9iNrWL8j9CkjMFVROmW6tNjporkqdB9gre6x65wfwIjZWOl6RZ0TBW1mEH6jrtDV5ZN3NlmNQE7k00EuvXPlA79fDW9mAh4La90KDvO_hnPj7JWg7OJvUZFv9x2yYETmY/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:46:10.191491+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

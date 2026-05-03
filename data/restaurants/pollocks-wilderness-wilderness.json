@@ -1,0 +1,74 @@
+{
+  "id": "pollocks-wilderness-wilderness",
+  "name": "Pollocks @ Wilderness",
+  "slug": "pollocks-wilderness-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "Building 8, Milkwood village, Beacon Rd, Wilderness, 6560, South Africa",
+  "coordinates": {
+    "lat": -33.9933857,
+    "lng": 22.574149
+  },
+  "phone": "+27 44 877 0481",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJm94WXIgd1h0RzAfslt0cJlE",
+  "google_rating": 4.2,
+  "google_review_count": 268,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza",
+    "Grill",
+    "Bar"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Outdoor seating",
+    "Groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 2:00 AM",
+    "tuesday": "9:00 AM – 2:00 AM",
+    "wednesday": "9:00 AM – 2:00 AM",
+    "thursday": "9:00 AM – 2:00 AM",
+    "friday": "9:00 AM – 2:00 AM",
+    "saturday": "9:00 AM – 2:00 AM",
+    "sunday": "9:00 AM – 11:00 PM"
+  },
+  "description_short": "Relaxed Italian bar and grill in Milkwood Village serving wood-fired pizzas and grills with a welcoming neighbourhood vibe.",
+  "description_long": "Tucked into Milkwood Village on Beacon Road, Pollocks brings Italian comfort food to Wilderness with a relaxed bar-and-grill atmosphere. The wood-fired pizzas are a highlight, with crispy bases and generous toppings that keep locals coming back. Beyond pizza, the menu covers grills and Italian favourites in a casual setting that works for families, friends catching up, or an easy weeknight meal.\n\nThe space has a neighbourhood feel — unpretentious, friendly, and consistently busy. Whether you're settling in for a pizza and a beer at the bar or gathering around a table with the family, Pollacks delivers straightforward food without fuss. It's the kind of spot that fits easily into Wilderness life, convenient for both visitors staying in the village and locals looking for a reliable Italian feed close to home.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm94WXIgd1h0RzAfslt0cJlE/photos/Ab43m-umwg4qe6VY81fO1PNzrKOsDNLqNskuAz4RBfBdFxkvAT_d0VRDtPDH_ncQ7lFhRmn318017Ld3iUWI_g9fu3KAuFThw2uDmA02PenLVlQbrt8vA0tbgxz92ZF8EXzkEN13qCgIQyo_YppNRYCaw0WFokKpIDKOx0p-IYrEa_aMUPfDWwz7s9fZ22VlY_klOSxY1jHIjMUYPdCHPgUgIb7bkOT17R9-2Echjs2-80EQSniJgiuIB7-7AkXsQupAdKWhpfA9uF49uyTw20QrePDDSgPcSXxO1QTaTFv2j5bq4g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm94WXIgd1h0RzAfslt0cJlE/photos/Ab43m-ukBxjDd_d4k3uI-8Le3xiqz0N9bsW-ejCKMkgT1AOJ5TgNDGI2OPxmpcQN5jxCuShXIqx71VrZZjYqAivSPFDj62oB1-df5oNTiOw63QKkKgEcVXPaiXnZAM1fulBD-UP1ATCkGvmE-hmc1kP6oAiqSxYJ9Rg33K-PIgQ6nUciCYDGNjikx-lhv3-6M7ebumEa427OtyA7XNL7hjvbT0b_nS0O2DBpbFcckUCMpQ4xfqAexApseMVSqnwAs8Km18abDprTPcstLAaQZ0ZsVNZ5kODNZj2q6WphtoSwya5ADA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm94WXIgd1h0RzAfslt0cJlE/photos/Ab43m-tQULG93JSOkZmn1tKFzdk2YyoJT4vTE5ScPkYFuUTNxDafdXHO8Ufi53EfJD1-h_gWkbH5tOzOxxmJVbynrcApLNrRXWQxmoYT_NwCDH0ywbPQ58-oSKF5GCZRLmhUq1UQfCchKhenIgkRkHSv4jQoDk7V4jjXkrkD0LOxW-UhSEFEMsffDHqMJ2r_EuaSaqSfsn71pYorMWJMTPGh6yaYS7dtm9SNC88uO4gSjy_3Yow6LoW4QuOYtDT0l7Qp001-nTSPdiNKcPtNgIzi5B7qZevR3m1fCnntiHu_hKQq9Yd7xhh9ILbNJvAipr5TT3keEKxUKBrKIPGm54fDkRNFPGnAeNzXSE3ASdbDoinZk9qMHZXRx3jtK3T3-qkH3y8KV_Qrg7r9iiwRUsBL60I3TqvgjAnNSE_EE4VT1Dez3z0dVNaULxkhKn-bzg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm94WXIgd1h0RzAfslt0cJlE/photos/Ab43m-td8Y3-mXeIHqKolig1K3qsOOknsefQr6d4KenSjYuYWnc3uu6Z74-uQ5Si2drtaf0OIlAcPfw7Y35nUoFE4Wd9sd-2vEG0rsSBh221bAMzSTdRpH4fqLDZ-WuxDeKhpRNjp8ziX0PcwjbtLFLO_wbMr6qXxnwOfYlO2iTVtP9Zs9ouEoZGeP6yt_hCgn56r-MauBsgIo1dA3BEY1YRipRC03e1qcxLwKCoCcdZrAVm0RBfGBiIzp706iOAQz_Fa3uZ97Mt4H7Hb42gm_06tNyHJT7LExBoJ4Kj3tKzxNvuzVq053vs35M7nNPGPSVfvYJXwp04e_ZFSQ6I692gSrym4KJEaCW-xd8YjtXNUD7KQHUoCRoG8mGacLkyRrArZfcjpNNiLaXDv6Ul3Pt5o2s6Hl9v1yab-0CGoMswZyA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm94WXIgd1h0RzAfslt0cJlE/photos/Ab43m-vLNqt4bk98dMvFvu81BSBjOBZQqx1VxEAavB5k5sGHAjQlgLPLYQesr-wGPA6cal9lHm67ibktVM7Bxix5Ktr5aCl_uRE1YA7PSq3j6KgNbiHubap89ti-ufzIERhMPcdY8Q3smGVSI52oTQ0qKrMaAxZKhNaB-CwZPSnu4YNz11cldPjOqBxJ-equTiuiAAUAGt5Ei7kedUJMjyQACPUC8farveF0zsPj9bA1f5Vz9aNAbLHSv8qxujKrkcS5FGNHAIIjMFX8LVSeLk3setRjfiSz5cVibU64yABqrLyyWn_3-QmElx55XPRjvXh6vlD_ZQHztYfjw3GRxifgV7mYiiKUriqoAMLAQvZjT2r15LCQr3pNFLHzQxIXP-pgnsUvC5HS8hh-r14xwkT0Zy8I4ef3ZDAV2apgFk7pG1KLlmso0nEm1a5vVe7GMGIq/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:35:12.507880+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

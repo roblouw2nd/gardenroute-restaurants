@@ -1,0 +1,72 @@
+{
+  "id": "caffe-mario-knysna-knysna",
+  "name": "Caffe Mario Knysna",
+  "slug": "caffe-mario-knysna-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "17 Hedge St, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0385738,
+    "lng": 23.0439349
+  },
+  "phone": "+27 44 382 7250",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJG2euKovqeB4RHsIvF9Iqu8g",
+  "google_rating": 4.6,
+  "google_review_count": 1506,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza",
+    "Mediterranean"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:00 PM",
+    "tuesday": "11:00 AM – 9:00 PM",
+    "wednesday": "11:00 AM – 9:00 PM",
+    "thursday": "11:00 AM – 9:00 PM",
+    "friday": "11:00 AM – 9:00 PM",
+    "saturday": "11:00 AM – 9:00 PM",
+    "sunday": "11:00 AM – 9:00 PM"
+  },
+  "description_short": "Italian family favourite in Knysna Central serving authentic pizzas, pastas and Mediterranean flavours since day one.",
+  "description_long": "Tucked into Hedge Street in the heart of Knysna Central, Caffe Mario has built a loyal following over the years with its commitment to genuine Italian cooking. The menu covers all the classics—wood-fired pizzas with proper thin crusts, hearty pasta dishes, and Mediterranean-inspired mains that keep regulars coming back. The atmosphere strikes a comfortable balance between casual and welcoming, making it equally suited to family dinners and relaxed meals with friends.\n\nThe kitchen doesn't try to reinvent the wheel, focusing instead on getting the fundamentals right with quality ingredients and consistent execution. Portions are generous without being over the top, and the service maintains that easy-going efficiency you'd expect from a well-established neighbourhood spot. With over 1,500 Google reviews and a solid 4.6 rating, it's clear the local community has embraced this Italian eatery as one of Knysna's dependable dining options.\n\nLocated within easy walking distance of Knysna's main attractions, Caffe Mario works well whether you're popping in for a quick lunch or settling in for a proper evening meal. The mid-range pricing makes it accessible for most occasions, and the relaxed vibe means you won't feel out of place in holiday casuals or something slightly smarter.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJG2euKovqeB4RHsIvF9Iqu8g/photos/Ab43m-s2fIykzCqz5JDG5mlahIbrNoN9sDBn5Uc_JgvbxAKsTkBr6M2PU7SieWmBOyXFPLYq5mrj0SWcDf13pRgII-PvjpZY5WtJJvm93Me8lc2kLc512VdKBJ72C4cgOUX-D6jHvmHiPfktZNGUkcEl49SxKpO7jb66ENNV_W-AmfoPsS5Y5HdZo5TO9FKMfoipMhISe6nQKmZyw_BAW7uIzJPXMTMVzKQblS23QM8BWymgCXRY5QtHgZgzALAyU5Js0aEHkSOm2N9hLpsCypyJpPj2tYjCX7a_G-VPeSulSMG84pIjMbUrUGctfWeTxO8blxpMtNfC-83TKrLI5fiFYkw0_wBvaFmuxruKQyFzR71jbmW937gWQYNy2tX_KtryXaCL32MZtMsj17GSGjQm-A_3R8PO-Yfg7ZOP12MU1w1Iow/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJG2euKovqeB4RHsIvF9Iqu8g/photos/Ab43m-vwftTBjX0zE1YQHb01nFYV9kWbwp79KQwy1gEem2Q8ASUZ4RXWdT2aO3yzQqHH9rG-A4iJyD24nsaFjmkjeC4NQAl0NYMklYCO1QxWdjI_Zelxfws1JZQ_eAEDHN9hlDNz00LLiGUXM1GmTw8HFZZ9VJ7aKXNW3AYOi8eKIeekAz0mOBILOZpmzoz6Nu_5Pfw7G619mvmDt2_jmJQRz7ylLBqbezEp30Wo6AYof_zh3kAhJUDbG0X1WixI3a5yc-1imNpCvnfhQlbQguTJ1kgCrMa2ShKOHI8BGVh4UrG0QpHxXt8ocUp1g9AwxDJDaKYWV4sz9v8PAmMhiAmi5hKEhviHxPbJCRLObSVhDIWTwXlGxmTed58PmQqD6K4H7YUYa-K29qX4b2Znte3HbDiHL5oYWexavbgb3ADKsmW8OkUw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJG2euKovqeB4RHsIvF9Iqu8g/photos/Ab43m-s0ioo6ONPdWifluFxagOplVZ3ZuAYyJV1e0Ec_lOEUxXSqpz_xzLS8tBFqcXt5Xy2HBem0219tnFP9oaazx0LToVHmF9I4aCOrmwsvcz8XgqmvUSvuN_YA9p5NkxRTWimdPW5dNDOiBkBlJpeu3HSiz-tgVF-JPzM7yKwYp98rZM2AZtNBz8bIT68LSfCdvw0W50LYl4b_gF8gvmUghJrB_T_a9k84bV9SoG_-1cY_3J2zAAr5rqN7w4E7v1W1kaidcKAYGsj5DCAnd5IL1QhgcZO_fx75UjzJAEvvWteRCXAyZw8AvHkA8TDmIlAQs0t8mc58jDDvJt3-Vsgl-p9hA_EDL4hI4NXAqyfD9Lrn_ZgEXsqyn8FebN5fM8uJ4TpSJ8OQ0hoGja31DSn7Flz0aU_MerByY9OFdpebXmteGRzHhpa7HLkaWa1yvu_S/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJG2euKovqeB4RHsIvF9Iqu8g/photos/Ab43m-tKi1mvnhF3Ol8yZaOc-hTGjIY72wwBh3zO-HRhM4PoXQjQDt11qRza16fHl26Wv7QXjuGr0aQ6R0Y9Nx4q8MXvZDN8PT10GFy5v-1CYL25ne6DxrOEWyH-SdGXLRG0WXlLb-PG2q2OCJkBNuZyhW2EWaCBaCg4t8ZOjfy0nVW4jrhG6EyLgydhBa8wcbBf_BOpSeGJoB2gxtSam-_Pukkz0YYKnc3zYmxUPKdTMKbETZtrKPNObtdTBs_A5xibYsSqBWyB7ZT1wlI1MIc_uR16og50HlhEVC-Yqb00_gGUmXTSkWTd3pyhkfzfEco2y-6D8O7TpbNBjhI1jMD2iiQYv3AGIWuy3phIkzGLLP48-XtK30O58GgkutvT7tAdXGzSrVSEPZwTiwZqYCk9_VpaR9I9C7Kqc0lWgwxF7fSvzQc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJG2euKovqeB4RHsIvF9Iqu8g/photos/Ab43m-ubzcyUtDM2BtJHpjBC-6GAr7gWPKiZ1g1xfTfgA8j7lXUPM_JZbhmILCpWqOhMwJu8BUKXrKmyzQgKiGz3dxU5Ed1kuy9-o2EVi7zp-gfADIPmkAKIWtLrlTqdkhlf6g08XqBj6UZ2x4qRfOh9yBGwKhtSDxlbYMt61KMPsIVdIAXl8pR-ej0VqZIeTpvoElbrN1m5xrjKLn9OAW0eVpHeSVVynGA3PaboSoFnc4C0wwDdIjIeg8cLu0hOh6nrfRa2o4w-34r6T-ZBpyQEyLxdXwJUwSmp9RtNw-bwVxDG3diC-nJ8GPXez6tGjqoYCTIO84VZfqNumlOUuNmllVb_ePmBY35pUVTVhby5jc5TvfW-_mkC-9qq6j2BDEaQ2G7gpfAj0XWUFH7SctAuq-zCrp3bnDyEN6LXR3d6P4mbJQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.528606+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

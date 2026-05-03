@@ -1,0 +1,68 @@
+{
+  "id": "cbs-cafe-mossel-bay",
+  "name": "CBS Cafe",
+  "slug": "cbs-cafe-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "38 Mayixhale St, Kwanonqaba, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1735009,
+    "lng": 22.0902727
+  },
+  "phone": "+27 87 655 2041",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJow_4WP9p1h0RboGvIHRqTzQ",
+  "google_rating": 4.4,
+  "google_review_count": 71,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe"
+  ],
+  "tags": [
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "10:30 AM – 8:00 PM",
+    "wednesday": "10:30 AM – 8:00 PM",
+    "thursday": "10:30 AM – 8:00 PM",
+    "friday": "10:30 AM – 10:00 PM",
+    "saturday": "10:30 AM – 10:00 PM",
+    "sunday": "10:30 AM – 8:00 PM"
+  },
+  "description_short": "Township café in Kwanonqaba serving honest comfort food and community vibes.",
+  "description_long": "Tucked away in Kwanonqaba township, CBS Cafe is where locals gather for generous portions and genuine hospitality. The menu covers café classics and satisfying plates that draw a steady crowd of regulars who appreciate the relaxed atmosphere and fair prices.\n\nThe café's strength lies in its no-fuss approach to good food and its role as a neighbourhood meeting spot. Whether you're after a hearty breakfast, a quick lunch, or just a decent cup of coffee, CBS delivers without pretension. It's a taste of authentic Mossel Bay life, away from the tourist trail, where the welcome is warm and the food hits the spot.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJow_4WP9p1h0RboGvIHRqTzQ/photos/Ab43m-uZkbn77nu38UmIjo3wN1d0LjyHTc5hzfniBiiLN2YfINNU4rJcNDXyfVknb8LzD0d7MUqDzs12ejKoQFV2Vz70jP8QF1LBmJM5m_8mphpAlz-fyNtiVsBx14w6JZdA46_JTwjtglcsNAQ6h_z0Hhk6PKFJsg9_2bmIYEDDiKOYaE4om6w9MglfIaI9M23pZMuZNxybNnt_HDN54tR9-PFI-7ogoy7h4x08lCQwEKGw5p1kJCM8HP0p-XlBNN7qT5dVncQodYp_L7w7_TOmmn8_VsL4mA2t6s47bEYwcHG3nc3Kw-JJg2LOiU9x-ok5x-CCZiOhXt1TVOsriPdhdpm3khkFj5fHQt3OQ26r3xNzgJ0VTc9v-tgWJ4eGK8WoAGd0Ey41oHEdmjrorQajShrbwwRHgQNJIu_1q6HRUrg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJow_4WP9p1h0RboGvIHRqTzQ/photos/Ab43m-tQzDCGqkqUP7VyPOke8bkwutNLd-88MR7WHdw60fZay6BmvtTwAzYahDyL7az7_m0VXNTSIkauPfpuBxLWAR7bma3P7lLcb4qiBxO0HbQvWTw47AUNP7oGuHz6Az63hFvL8PmMNPdapQrAY_yKuXDgC7EqcFOFxjEdJlxqd29WBagOuZdX99vmtX5GMZI0D-gRreeha6RO_blHyPwgTmwFM8z47yadHHIhdiB4sRJJv2uV-Ut9f1fIUZjdx6X9kK7wgETamjHZpbzSV4t7Bio9HdMforLITjIa_9hRN5QMcw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJow_4WP9p1h0RboGvIHRqTzQ/photos/Ab43m-topycLb5mR98YQKaLg94kYnVqE6QZK5SE1jStJttMBp_2JiLjda6vuDXgV7ApJF5wmWF6QW2lwn-WXvvSCT9c8whYefyNrOLEXGWtpg_9QQbiDDzva4wbspR82OYjVf4-wagE901SYJCQkvcyqHPLhrt2B4nVhXeO-hi2wyxadFNaHGEUromvuFdZUFXQz1ruJMYUyHvfXbwgLzGeMiSZTw_IbB_yTHR75a_fgJVjOMIfO7S_n6IjFlAcSJG18Z2dbdhX4EQXHatcrE6T-ur_zsCJWS5hZa3H0FPBo478nrThDUKcdSq26DTwn4OJF4KArCZ0SoiIKiJWMWwePnhviKvkz3miEaP_VVt9OfHm9PHLEwAU8dBQf14EYCgG9qi15ZD3rIyJx44NHL5vqyRnLoNHMxGLGcvxQ6Byh2b1llg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJow_4WP9p1h0RboGvIHRqTzQ/photos/Ab43m-ttUw94p9Wt6yyYr3mjhixpKt8GQa1qOvCmQbwP7PSsE7ZMkd8L727RM_q1taDzIuwaHWm2PkGECG5nR2G95gOKXVw5k6vh4z2fFaM1k8nWzVxdZ9rLbYt26_BZdEi0nADuahK2fCuuxVGspotzHfCwmXzFaplF0UeGmoCSQO8iBHXTJUXiK9_WjMeYDsA_JZWT0ZCMVRc19Pw0nGRKKusNz_XuTjjpG9fk1TkWoCdGaS_ddbpMGiTdPJ1XvkP4OuxpjPKBP5xwBQOl90vg7EU-TX_ayJl2hDOQrW2HWq_b9UNAjs6Dqs2jnGgI6nEu96RxElVgpup_KHh8CgU4IUV-5x2xu6AYBTljultyzFVljz5Etsf6n8BbjhEkDomKdZ81nq8qawW6rdija4dZt4LQVobqCqb1bv2nvXqYf0ylWw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJow_4WP9p1h0RboGvIHRqTzQ/photos/Ab43m-sH_PMMQvfd5WR_zzL1EU1XegfEBbDXu0yyibiXKJnykLzsYYRoyKnJR-Z520j_ZX5_k4ywVt-FllNAOWHj5zNoVgTAOxPmUlLwF2TK2R9-RewbvbWrVQ497AOv7a8F4YMHaOt9LEwMEU844759IBPxRX8fJywAIg144iRPkuqVcg8xc8zJqYZjfmwnlyPy7XYUkcR7AtNgAVW5_usYShznHOZvRG-snY1AIfi_b7JycZmV_tCcrXG1jnpr7vjxkz8IGfR-XjaKXV52zfPm9Stx2b8yQeHSm2OV0zyS5MgZ7kwb6YSrewlx4rHwMNXety8nZew7eq4N4V8Su88-UwQVI-02tt1c8BViq5PBk5bIAEdroNdQxFJnVFkinxo7-NwfT35KoPR3I977_pogPY1sa7PwvaZt8eNGdMRWpDU-7Jpk/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:29:56.808011+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

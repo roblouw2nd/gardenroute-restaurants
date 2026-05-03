@@ -1,0 +1,76 @@
+{
+  "id": "barrington-s-plettenberg-bay-plettenberg-bay",
+  "name": "Barrington's Plettenberg Bay",
+  "slug": "barrington-s-plettenberg-bay-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Erf 2104 Piesang Valley Rd, Piesang Valley, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.062516599999995,
+    "lng": 23.364638799999998
+  },
+  "phone": "+27 44 050 3767",
+  "email": "",
+  "website": "http://www.barringtonsplett.co.za/",
+  "google_place_id": "ChIJbXzqG13jeB4RXc9bXgcgzDA",
+  "google_rating": 4.6,
+  "google_review_count": 885,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub",
+    "Pizza",
+    "Burgers"
+  ],
+  "tags": [
+    "Garden seating",
+    "Dog-friendly",
+    "Pet-friendly",
+    "Child-friendly",
+    "Family-friendly",
+    "Groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 10:00 PM",
+    "tuesday": "8:00 AM – 10:00 PM",
+    "wednesday": "8:00 AM – 10:00 PM",
+    "thursday": "8:00 AM – 10:00 PM",
+    "friday": "8:00 AM – 10:00 PM",
+    "saturday": "8:00 AM – 10:00 PM",
+    "sunday": "8:00 AM – 10:00 PM"
+  },
+  "description_short": "Craft brewery and brewpub in Piesang Valley serving wood-fired pizzas, burgers, and house-brewed beers in a relaxed garden setting.",
+  "description_long": "Tucked into the lush Piesang Valley just outside Plettenberg Bay's town center, Barrington's is where locals and visitors gather for craft beer brewed on-site and honest pub food done well. The sprawling garden setting makes it ideal for lazy afternoons, with plenty of space for kids to roam while parents sample the rotating selection of house-brewed lagers, ales, and seasonal specials.\n\nThe menu keeps things simple and satisfying—wood-fired pizzas with proper blistered crusts, juicy burgers, and hearty platters that pair perfectly with a cold pint. It's the kind of place where you pop in for one beer and end up staying for three, especially when the sun's out and the mountain views are doing their thing. The atmosphere is relaxed and unpretentious, with a mix of families, couples, and groups sprawled across picnic tables under the trees.\n\nBarrington's has carved out a reputation as Plett's go-to spot for craft beer enthusiasts and anyone seeking a laid-back meal without the waterfront crowds. The brewery tours offer a peek behind the scenes, and the garden's dog-friendly policy means your four-legged friends are welcome too. It's a proper Garden Route brewpub—no fuss, just good beer and solid food in a setting that encourages you to slow down and stay awhile.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJbXzqG13jeB4RXc9bXgcgzDA/photos/Ab43m-txdci7qcbxwWvTN3_AV5HG8ccR9SIpVUMRZ9TAQRlMHgk-Y0YNugXXVBoHiyGMwG3WQqnpBVNDCzxWh_QTybk20OBjiAprSEyHb9NbVX8p3eVLpTKkByRyl1FL3ZmUzdhTudDs_qyfi6l1-eh6emWLssf_PL-W2U-f_bx0Cl3kmuKhFy8y7w6qfZc-WU7MYdGQgAXsXj2lt6vbuIbWyRfhu6J479aQo5_SGVrW1xwucbGrNXQmAVXEBEVwewAxGJYAs9_hyKxgM54-JpEdVEB7eOIK3nB_rEG4ntRhIKYWCw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJbXzqG13jeB4RXc9bXgcgzDA/photos/Ab43m-s27rxh7zvkWSPM9ejOIr5NG-H-laehoDfLNepQCOGLB6lpVgI0JYI09zd1ngSmguBnAEZw2Y3kCalaCwIABVAEjhBPJA6YBRlfz-DG3lJFCrX31_BkPcFXhZbKogolzvVj4xDULXSSWx1Tja_WPoPv2f4U0B5_XupsRUbnRFR_-moGeJVZjfnqQZE8pc7kK5acu2F58f4jvJQFidC0Jmqc4E4n69htDoBpSJbhm6fm2VpcalXpfRpMoCCvD32TJC3exKr3YGuwfnJvYFmqfcYwbhy0cYMt8E2Wft7XpR00sg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJbXzqG13jeB4RXc9bXgcgzDA/photos/Ab43m-uKViR1d9wyP3gPqStcQSaCM6wBEAX0B6bRBqVbrEPcmcafyxv7_ARCpJVAxcmCdV-ZE40UuM3623BQG-kioot1fAJsihkgXWcFQXq6WGfH-PYNKpHRBneA0IBpH0k8-NFDnIv808o0OAawh7gevmAdbP7Haq-IoKkijn0P6DDFk2D-Cf5pH18tucsrGOcJef36HzrGM55Gi7_C0tuDAfitwEYvNTuVqNUWL0yQ9AeGFhYapmD_eBO8v9pqS1R5Ek7UfrXyTURuKuVHPkyqp8pGqEsOzVdewsDfDYN7nzfitA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJbXzqG13jeB4RXc9bXgcgzDA/photos/Ab43m-tzcQb_7ceYNXkPNy4gw3ZZJmmujyEo3SZ5LHhS9xqxYlrU5edfnm6RFcScqo8ZRwE9IzqiAXq1PEEgS0qZrlz-93F7da1lE70gZ3UptDMlRT75eJuVGGpts-H3VA919zygt5dU_XiJgCoWuks67NSlqUTTyxQc3p4Gi0A7PfLNf59V9YBTYETJnxR9-nqYjqqszkiiUSxJGT_SfFamQHwHlEyjhwqbbUTtupO0-3DIrxbN9yi0SU3T1-6yq_RZRiHEsk-0A60kvtJ_EvJwk1qQqzZXAKOeqGrwrhchpaHF9ciycWRb9WsF31_N5hpGd0CQ-VX8Vxwq2QqNnBK0MfzwmzDtYnKxMYuUuE8WC8rkWysfViWcimKHtIcSqcoI6Oz8VLBSQ-TsuoYwp5PJHHPKhdrtZhULcWisNot8CRZfLQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJbXzqG13jeB4RXc9bXgcgzDA/photos/Ab43m-u3nwhwlxasWxcAFMWzTaUwHE5KVRRO2wnjBciwsH8maJGzrTcqVbqkC10gmfDi6VoNhi2vP6lgexqomWQPeaav2SAeSibWS2IBPwkzWPD4lBZYqOdnYMzo4Ljtka288bZLNQU_AxXfTHgQXGwlFuL6HwIrZG-G0A7DOUTvOuv9moBTRQn2xjuCX-X9px3EejObNRbbd-BXVyk2Ki5ly8J6KY60YOWTp2m8zilbYa6qhfpfGBNbl6kf-KzUXOc8tRU6JRc47sspj3gCmXwUJKl8o1k2vPmkTP_uvdOcJR0K3A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:41:10.953360+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

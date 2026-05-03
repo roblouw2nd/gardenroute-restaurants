@@ -1,0 +1,77 @@
+{
+  "id": "de-vette-mossel-grootbrak-beach-seafood-restaurant-experience-mossel-bay",
+  "name": "De Vette Mossel Grootbrak | Beach Seafood Restaurant Experience",
+  "slug": "de-vette-mossel-grootbrak-beach-seafood-restaurant-experience-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Souwesia Beach, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0625419,
+    "lng": 22.2151368
+  },
+  "phone": "+27 79 339 0170",
+  "email": "",
+  "website": "https://devettemossel.co.za/grootbrak/",
+  "google_place_id": "ChIJ0XR-gt1s1h0RC0w3ZxIIo1I",
+  "google_rating": 4.6,
+  "google_review_count": 1527,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "South African",
+    "Pub"
+  ],
+  "tags": [
+    "Beach",
+    "Ocean views",
+    "Child-friendly",
+    "Family-friendly",
+    "Dog-friendly",
+    "Outdoor seating",
+    "Functions",
+    "Waterfront"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "Closed",
+    "thursday": "Closed",
+    "friday": "Closed",
+    "saturday": "6:00 – 10:00 PM",
+    "sunday": "12:00 – 4:00 PM"
+  },
+  "description_short": "Beachfront seafood haven in Great Brak River serving fresh linefish, calamari, and prawns with ocean views.",
+  "description_long": "Perched right on Souwesia Beach in Great Brak River, De Vette Mossel Grootbrak delivers what every coastal eatery should: honest seafood, cold drinks, and sand between your toes. The setting is unbeatable — wooden decking stretches toward the Indian Ocean, where you can watch the waves roll in while tucking into grilled linefish, perfectly battered hake, or their popular seafood platters piled high with calamari, mussels, and prawns.\n\nThe vibe is relaxed and unfussy, equally suited to families building sandcastles nearby and couples settling in for a long lunch. Their menu covers the coastal classics without trying to reinvent them, which is exactly what regulars come back for. Beyond the daily catch, you'll find pub-style favourites like burgers and steaks for anyone not in a seafood mood. The venue also hosts functions and weddings, taking full advantage of that beachfront real estate.\n\nLocated between Mossel Bay and George, this is the kind of spot where you linger longer than planned, ordering another round as the afternoon sun softens over the water. It's proper Garden Route seaside eating — no frills, just good food and a view that does the heavy lifting.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0XR-gt1s1h0RC0w3ZxIIo1I/photos/Ab43m-s8ieR1F07z7qKW6nhC8EDNhs8ycMyNLL8WShp5TtltwaY_aqHunimWJ6rgcRgjqpWdJ7-iH7cylaMGshAq74CzNU_R9Ng78TqI-PzaLU7hHDr3OmhZLCkx1H_V65FAHN5gJrt6sG_UZZ9Rg5kVD6_RXvtaCPUKCvPUomovGxja1ER1aDCvjYAf-JWQsX_HyR_lJkgkosxuARLqwftAISZ0P9a1WZ5E4PrZ2XSWfPrayK64QguNydB-FoYIt9Fl472BsnmiONULVH0EEAv0TaVAc7rUvhdND6S6v7RlK8-uMTPYJs2WP20Qfw2yfWFNVoZsMuBWNqbEaioCAz1aXMzboj-NdFiG_OuWM6QNplFzBtQlOXq_C5SRefImtLm-EIkIkFUUaEoG108_rdDyLJaTnWCGOkKN3q1MqB1b1DvcAMCSbPMGxRkyiGkCyA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0XR-gt1s1h0RC0w3ZxIIo1I/photos/Ab43m-tvqvkvt7AooOLrJQ0CBeJ8lXyePfl3W-6wVVvtwZ4Nwn-7X9BZ04vtPOQrvjmD_d0vX_KFQp1zNmkHnCKaqsWQY3ylZrbCe2GyqOgEX3U92R-usd96VUSsq4tAIDj9cr-CPymkp9SJH0yt-PK_tNRBxvF6NVxIPFYRKegO0kiuOI8AbVNdC-XMK-69RdowdBK7Zdxi6LFBj9F9IGJPdfOljC0P1G4zHs2jUGncUAa9aW89V53wgmSiHDCKturfjF5HXNxFgvWGoRyebgHDcKC6jQIjk1l0P8wMs9YHorl3vCKTBKR6voOeFq9KhwQTfm8IMin1K_h8Nh1f9iI8MmE9rr8PQeBzegu9bYWsoT6lhO244Wjov7UvPY4qbAbH5-EKSz5NI9BNcXw6RxzBN_IxQeDifGPLgbGaEShePmS1oxM/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0XR-gt1s1h0RC0w3ZxIIo1I/photos/Ab43m-t602j4s_hZKJolvC8g8ZRFkmzssatEN2HEkNg7nN5T8plyZ_plIZJVqIZds6kzhd791OPMd8-b2o0gC66YbBLQVSu3BWj9i4BqQfFWs0w2Ioq48ecdnz1ibSMrneB83A5C0rL6pMkdsCVBcthrgQ6v-4XpG-z0PqHKZpbmoF8A-w-OwdpQn5G2hTVc7WSVtButaa-oIW28pquS-EQHMFUEkMsBOVC_DMUZvEIEseP5jq0frCKuICxYFbQ2JQfXWIWspIPqrIllterI5Kpb6ubpkeyVUflSs8F31VBeu2_zRXBaHyzZpvLcmVRfgIYoQbbJJxUkkd75V85fk4B9s0nu6zz20LBJKfsWXo0G-I-Ef7wYsFvptYDWTd5SLKV2PFdNQ2fwEPMLMmXElKZjFri99BkOgeqmBo-BUZrxBZHWug-3nbKIRMu917AixG8q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0XR-gt1s1h0RC0w3ZxIIo1I/photos/Ab43m-up4c61jk2IvywY55Oui1MHtoprYraL0QJKtFNIzPtfeZW5YbvMDeq807PddBcib59rnFqF9275blBsA9cS-1Z4Il84D2bcv3A4yH4eOPZQZEkZGQl1oXJtYmMWfX1EPGgP8zO5o9_QwngPbIyi5hagiajEDI4kkubHV-wWEUeHkD-iz-KOJcntaXsSq6HvBzIlTR_XAcVU8JIKH8eujhSreBSoyaTO9beraHQkzgPF0eqcj_AUll2-OI4hbmlbcvgflHaRjUJEbukYTPb4tAu2J26IEoriKcdOi99fjXNEylKkUhxjrAY-9f1Af98DJd6MfwZLcf3Ndq5UcHfCqtW7GCz_pwx3nnNPrgjtMjHvpkJVNmXrjkrkOFwYdX3MPF17tfdxaToQfBjENjTS30yHLzUHGgkt8YFEaPUJLYz4vtG8tXhi1ePF-CaWsrCW/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0XR-gt1s1h0RC0w3ZxIIo1I/photos/Ab43m-sTo9lDqBvNLEdKbLox6li7GxFpp1VMkTJKtZpolE2he6gwNQdfYYjhWSGmaNel1UhpyIabudCw87ehm4tpN9-dfZAf8MjXqbBcP8CfNhXfczzx_PrfTXywjX9ty5IsoEuqkuxtXvA7H41SB0iIvwGClCv0lGk13Lz5p8LyuXZUxYa0PKpOOf1pAQGND4LekjLMqv-rPaxxzwPHyAuDpdkh84-KS6MyNq3aQcAzCnbZItNXHiu6lI-_3uPH5eTnqGyURGhjya03mxDnJzDyyPULQw2_DMl9POlsWtrBaRpHrwtAHs8iAIDbJiDH7MOfvo_WwFQLs-uR5f4xRxSD99FrxZyEOhvM7UpVTk2orUkGsKjjzJcA09gLi-C5RGKOMX5NI3qFGCY1E-h9IanMAJ63bn6tMBU2AoadPedXCVB5-4Kvpa1sooJ7_ocI0A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:27:37.978612+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

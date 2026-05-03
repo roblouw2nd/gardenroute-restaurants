@@ -1,0 +1,75 @@
+{
+  "id": "views-restaurant-wilderness",
+  "name": "Views Restaurant",
+  "slug": "views-restaurant-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "Wilderness, George, 6560, South Africa",
+  "coordinates": {
+    "lat": -33.9994732,
+    "lng": 22.6145639
+  },
+  "phone": "+27 44 877 8000",
+  "email": "",
+  "website": "https://www.viewshotel.co.za/dining/",
+  "google_place_id": "ChIJZWLtXtgd1h0RrzraytHczMo",
+  "google_rating": 4,
+  "google_review_count": 149,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Seafood",
+    "Grill"
+  ],
+  "tags": [
+    "Ocean views",
+    "Sea views",
+    "Family-friendly",
+    "Functions",
+    "Romantic",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "6:00 AM – 10:00 PM",
+    "tuesday": "6:00 AM – 10:00 PM",
+    "wednesday": "6:00 AM – 10:00 PM",
+    "thursday": "6:00 AM – 10:00 PM",
+    "friday": "6:00 AM – 10:00 PM",
+    "saturday": "6:00 AM – 10:00 PM",
+    "sunday": "6:00 AM – 10:00 PM"
+  },
+  "description_short": "Elevated hotel dining with sweeping ocean views and classic comfort dishes in Wilderness.",
+  "description_long": "Perched above Wilderness Beach, Views Restaurant delivers exactly what its name promises — spectacular panoramas of the Indian Ocean paired with generous, well-executed meals. The dining room strikes a balance between smart hotel restaurant and relaxed coastal eatery, making it equally suited to sundowners, family dinners, or special occasions.\n\nThe menu leans toward accessible favourites done properly: fresh linefish, steaks, pastas, and breakfast spreads that fuel beach walks along the nearby Wilderness lagoon. While the food is solid rather than ground-breaking, it's the location that earns its keep. Large windows frame the coastline, and on clear days you can watch whales breach from your table.\n\nService is attentive without being stuffy, and the atmosphere remains pleasantly unhurried even during peak tourist season. Whether you're staying at the hotel or just passing through the Garden Route, it's a reliable spot for a meal with a view that reminds you why people come to Wilderness in the first place.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZWLtXtgd1h0RrzraytHczMo/photos/Ab43m-u2CCCCGzYCIaxa1IQD8GinQv1CgbSaUN_-BOuo374pDH3xHGnxR5Hb_uA3iTL1sbA-RK-0_vr4qIuW3fY-tTc0-JrL1DruVZwr1693peDMvUMrbV8seZi9OwJEp7vTly9YWpmanNBuMeDqkTYdZikEuiE_8Rhg679qqhJ7H2t8Bb_MV_TEMoHeI3-9f0PpIC8D43QkPd2XDWjxn8PaYJIrEe-lwYzuVvhqMSt5Elk5Tl7k0pW_VKLEN9ZIkbMsbuTAKZjmvTfL0q7TeKJSeB5NojZ3lQ8AfUyyWvpekXr96vw5SbsoG1UssX9WRaUW5VMb7C6T_Ez86G7QCn1iVKTWGcSlgfe-7dgBCtpYVUOWCUhwntnCAVzEHj2h8R-CrnaWl8gsGNmS_oBzUMKA8_RbGTvUQfK7-ADbLhRVL4FjwNtXGH7M8GPNS7B_nqi4/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZWLtXtgd1h0RrzraytHczMo/photos/Ab43m-s4jeUI2j0uTctYh90aHGlhCnxor8Sv9UFzK75DYEddeOj5xz42xpj9GeAD_kTdrp8E38qsC0i36Wv7E2WP1OlZhZg-d6Grr0joV2SGT6NU5LY7rKD1BproRWCcFwZnlstcXIRA0bY8imP3PpVmfXCeJe62sdoBRjBKrgVkEhp69hvREHwphLRhNEjGbzvhCA74-6ImGO3iP8h6gElycqsr_nQ_GC7PBIQ5l_I3WyghilRrOq8zd5z3SnFxDVXHt5PKfYmGQ_InjkPpFh4mIDHbeJSMCrAswiwmFfaM1BaKwTgQcEJvKkpJnRN7_Eqc0dJmdVUFLudqBRT0x89T7o1UMfabVT-zF5RCvNOEOo7v2C_0cQ7MvxYytGNp5GsGW8cJvVCiAFWuOUTTo1jZoX2Uw9SvHMDFd8GI9ZqvMG1osy7k/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZWLtXtgd1h0RrzraytHczMo/photos/Ab43m-vN4gLujcDXRnluFtkD6xGIYFZx-sy4u_MpDah2C-NUYTZ26jxnZOxExVB3y2Vav8Gf_st89tzpyeRg3Ntyl4EV8x80I_HqY-eOCZGKXwi_T6sNLWZxb_AgWBcjLcGmjFCfQNU4BIfEB72-wZdyPsPVYDh8YszBybSbtcaTrTGX5zHBsVsAuiQYvnKg3zgjivPWBzPTbU0w0jXQEe76eCGu_iwjheqic4CoF1muUVSbLzjy2MyM0aM3BG2MnNA6hkevwxdkZdOxJjqH2SUTM_xI147H9Oekbh56cpYRUE5DhVWvA7giz0Q4VHuAA9I3htJXvTSN65y9clb6in8KeNAzcOmB0J8H6rLrihXfoTenBaDxYKwV3ayRAYMWQMKjRKL3kEJU2odPb-BCbe97HIqLiK4dtAtsSC-qb9tlNZECZ0E06J6u9woengG_g19V/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZWLtXtgd1h0RrzraytHczMo/photos/Ab43m-svj0j3iL7yE9-fPes7GhXVYzfvnDYzfMVj5QMO-7OZK93TDv0tDCFWjGJf8imD8gi2S_JF1E5g5dancMd4uBx-KRZJThEwGwNfUQCJqR-a_OXTkm49VsP_vkgI4RntUpQ5_qihg6JSXIed_Oddk8OdVZcjRLI57EQyeDpDQdN8qOYQuxzBvN2YKhCK_Cq3RLLAWLrToMhSK1_UtB2rCXTt54-xnCNe1yyGzTbRSWRyKPgaMhLReCLVNA92pC3fir_ESVrDk0KlHw8akuemQOXYYi5Mh-5xJaHIrE_OjRfX48xlU9YFoY5lFk-45Vb_Ehksp9Vr5AhUYHRDTSI8FYFCNszc7ab-dxlT7YEo3dWbSLeCkIhR8LJW5UQFBeYE_10Gt25XxTHnVndHxGlRpOGMNA5K4xYw1s0gUTBXl_OC3Tg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZWLtXtgd1h0RrzraytHczMo/photos/Ab43m-tGmcQn8rjCErido4OEGRmawt0NV7SB3PZtIQlu3PEVFLiUrk71uoV_a3jMCfLnSeZFC3F_K23Eseg_RL_aXE1iUWrUdDyoCUCOi9XC5gett0le4xAPzU_BZWY2f-dnmKX5donN2-0patrqvAkVgdQfdtJf5SI1yGstiSog2vJZmIDwwsoudFpe0zC5YPtJ6DGphk2A0RfIgCLnO2u5-OJJhTnZBPkPztZDbrxgqKfhtTRO3v0NQT9lxpxS6eAC2H1V49l3JHfJiZxqgCVRHDToawOoZetiU0ZUznCV1VpWsxI9DmA2VuiC-XWLw5JNsDye1ueINvl8kwaGqHH-wPnVVuczxuNMcJTGZsmpjAJE8wTAXTBRjREZPS1EDhvySbiWEao8V5ts_vCvDnZDSOgOIUKMXwiRB7E-eOUdS0q4wtzq2ft21HJ4TYYwpPlL/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:36:33.058613+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

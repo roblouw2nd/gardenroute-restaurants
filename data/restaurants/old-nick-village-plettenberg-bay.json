@@ -1,0 +1,74 @@
+{
+  "id": "old-nick-village-plettenberg-bay",
+  "name": "Old Nick Village",
+  "slug": "old-nick-village-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "N2, 3km east of Plett, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.034599299999996,
+    "lng": 23.3725719
+  },
+  "phone": "+27 44 533 1395",
+  "email": "",
+  "website": "http://oldnickvillage.co.za/",
+  "google_place_id": "ChIJZ3LXlvnheB4RiRxXv8HV828",
+  "google_rating": 4.4,
+  "google_review_count": 2738,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast",
+    "Cafe",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Outdoor seating",
+    "Garden seating",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 5:00 PM",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Roadside village offering hearty breakfasts, local goods, and Garden Route charm just outside Plettenberg Bay.",
+  "description_long": "Old Nick Village sits 3km east of Plettenberg Bay along the N2, a welcoming roadside stop that's become a Garden Route institution. The breakfast menu delivers generous portions of classics—think fluffy scrambled eggs, crispy bacon, and proper coffee—served in a relaxed country atmosphere that captures the unhurried spirit of the region.\n\nBeyond the restaurant, the village complex houses local craft shops and artisan goods, making it both a meal destination and a browsing experience. The setting combines rustic charm with practical convenience, popular with families breaking their journey and locals meeting for leisurely weekend breakfasts. It's the kind of place where you'll find wooden tables, friendly service, and that distinctive Plett warmth.\n\nWhether you're fueling up before hitting the beaches or simply want a proper country breakfast away from town, Old Nick Village offers honest food in a setting that feels authentically Garden Route. The combination of good value, generous portions, and easygoing vibe keeps both travelers and regulars coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZ3LXlvnheB4RiRxXv8HV828/photos/Ab43m-saSvNHxERRW8UhsZB8amzDe-7--PT9klCz4Qmx3ZTG3hY0oZgM-YPMImWkyrDug5ATvWbcvPdJOr4yxZGa5zoBKxhoreJ2ZFfIDToUfT9tnSH9DCfD-TjMCasMaE2pgpeEsSYZZApk0BlImyWhVL6LMYowIcM-nd82vIhpSVRRK59yHOzpI_ql3iinJEcwDLrkxM6xceXmJ7o_9nMB4mSdxQ9RrFKFx8s0Xjrzy3ha1PUoZxTwzfOlXPh4Ky-9SF8U4MuDj7vLm3JOuQW_Q029sC0KcWmxY2ujlhKXdbTKBgUGxcU5pDoknE2uz8oGPX9KQJNRxroVfBcmQSpoFCMkWiTfHr5awQw4-LvaIhYUzA2_PbrBfkpN-E8qiWTfbIqZR4j_m-xv6uHULbUHTfUv3dQpP9AXWjTEbUmcYrBGILDZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZ3LXlvnheB4RiRxXv8HV828/photos/Ab43m-velwVippwMgIhEH-pGRSidHwVl8nl5ETri2czGyoJLCvb2bQ7IEMNx8cu3N-_xGNh16GKFXH_hZPnee2K075rC7hlBFLTVpqVGfWju-vLVQDo901YxlBQmVqTbeRpb3-k1I45xqV80-4_VJSykXIE7KuXP1TNE_46qzukAz1g8Q2D_GNiPP-iXNYlEOVs2M-VOQwzjIiN7P3x53yGnl7BsjoelcYnXpDgqfX04dS7wdGRCETr15yjusZzlQHTo7sh9l5qH1OYXSqtIUujipFwcBqG1RX8tKByl0UwtVPqZyg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZ3LXlvnheB4RiRxXv8HV828/photos/Ab43m-s1NdVLY8MW5YzJlws9_8NgWkhGt51wO8yV1OF549STV34WkbV9VwAnoHkfoOcmYbR6amRB66HTV20xkK2iYbfyyOJspbmNwYC2bMHIIC-BM9RLKtMHezsNwiDxXJkfGIOnZP2vM1xS77cj3g-W9WQMhlnntRKAwGkriMNbo3b2pEWCoojlnWyrZCexHOSF_I-j0WW3JVpcJ2q0FLsVhAbY1BFwWhnJrfP1bEXrIAccwsMC4OZzDQImFGrZRqDtR2EH_BwdLwpEfvoeCNGHjfRUDS2vjH5_B9mo7b5tuohJHXVgDMdUlXwLg93z08vbHhfGlFl9e-HUBtBCA0A7tK4EksUK3xIrfgbiCnUNvdX7KaPckC1lLCmt6pbfVwGIcmPocxYJfug2qDnf3O_l9VWNP08T5TU97o2g67w30upQkxxP3dxsay-4KPK15BFQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZ3LXlvnheB4RiRxXv8HV828/photos/Ab43m-t33BAZh4n-cbOy7xHS2XOM_TO2WzCETsyfX8CQqEBIgKtu4HDI0vGHvtYCrsowLfTXIP1sNg8fFcW34tRGefNx75o3BN2f7GSemTMyiqdFv0ylhwq5bhdXSy5iZpSA4ymo0OTTxHAd6enOwcpAH7cDI6aFWocKg6jgLqGt0HbbXFOL8Nm6iwDyqRdUh6pxpOup5iF8znq-JrcYtetKzgRXVvfYmjvmLT34csJQkCvMSYq26BMYevCS6zXvMY1v9jh0BHSQwWWAOzw_DbB9wQayvTgSAG0KLQggTblCbod4iGLY0RXaVQLe2y70n0I-2OWINmnqHh4iP-Ia-tU521YaUhFPziluWTguBSEjOAGNifbdXt6gG-evfFuTf4BLanm2VnfJ2RL4iVfXoYqBHX3fSjqlj06c1LnfYkbxPWset0LT/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJZ3LXlvnheB4RiRxXv8HV828/photos/Ab43m-vvl1fqh6Z66nmtGXLmcFbUU_Sb982PcwXu5A7mpyG7rXkHCux1Q6PN6ygBTDlNJXJoxX3c3tROwxhBVUQCAZm_ojDPQCWe35NHjLptt3UqnrZFdkrYq-QvC65gMmXIPwoI672O5S6_1gTPwlpzVpmyfw_E99q83ih1D6U1EzlfjGOKRPSrFv-v5tyl3XLJeGVdIrjW39mOETr_rob6H_N0jP4yoWveiUirNRB9WyW3QP27mzVPx0YmXl4uCoktE8keFT1PPGfTudY5Jn1c8-VeKcv02GZiw1Rm75azvHZkvc_HlpGaLCuGlii3RjJq_zwdFn19pskZaI1LcuwGZvP8riTfVbryjneKxcARo9FuCt6KcvYa9yC_2UDVHbx3ybZZfj8Woe-kBJJnpYoV9MyXRXUdGVAsfNW0jiDU3BA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:43:31.240560+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

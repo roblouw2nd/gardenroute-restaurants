@@ -1,0 +1,72 @@
+{
+  "id": "bayleaf-cafe-george",
+  "name": "Bayleaf Café",
+  "slug": "bayleaf-cafe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "24 Cathedral St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.961196099999995,
+    "lng": 22.466180899999998
+  },
+  "phone": "+27 44 873 4422",
+  "email": "",
+  "website": "https://m.facebook.com/thebayleafcafeandcatering/",
+  "google_place_id": "ChIJs6PHmS0F1h0R_2CI0xHETR0",
+  "google_rating": 4.7,
+  "google_review_count": 806,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast",
+    "Cafe",
+    "Bistro"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 4:00 PM",
+    "tuesday": "8:30 AM – 4:00 PM",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "8:30 AM – 2:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Bustling George bistro serving hearty breakfasts and comfort food in a warm, central location.",
+  "description_long": "Tucked into Cathedral Street in the heart of George, Bayleaf Café has built a loyal following with its generous breakfast spreads and honest bistro fare. The menu leans into comfort classics done well — think fluffy omelettes, stacked burgers, and daily specials that change with what's fresh. The space itself is unpretentious and welcoming, with a buzz that picks up during the breakfast and lunch rush.\n\nRegulars swear by the eggs Benedict and the homemade baked goods that appear throughout the day. The coffee is reliably good, and the staff strike that balance between efficient and friendly. It's the kind of place where you can linger over a second cup or grab a quick bite before heading out to explore the Garden Route.\n\nWith a solid Google rating reflecting hundreds of satisfied visits, Bayleaf has become a dependable stop for both locals and visitors passing through George. Whether you're after a proper breakfast to start your day or a relaxed lunch in town, this Cathedral Street spot delivers without fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs6PHmS0F1h0R_2CI0xHETR0/photos/Ab43m-usb0eRoqyyXErm_uI_pYXWZeb-xZwogmf7fSjAgK1NLb-z6UrROQBnyNXzOYms-8TEwWlFMlsF414qy8Gej9MAZMIRpcgtmmF14l5C3CiIzkq48oBwmrU2hl4riyTBBrvaBLXfAmFOeAoaatFrl0uW9ZegLrcOeNlOmzeL92TkasNrmequmWPYsBN7lT7m_yXxzIXOKHAhgFSKiXjg0RyX-6Xkyz42L_UU6_uSS8JTR6Xz4DMxb0xI086Q6tOiuZCsp5fkTKof9438TnCi_f_LHpUZzidsmvxEqQO2TMHylDkMeLyY3vPEwDnILpO33j1p4pEZ3mM7OvSx6EC7OfMkyakxX52Sjlvbcb934cZaN9SZ1lnNtRY_lcaUYEgrL3Rom7i5ON3PU-VJKObv5vsLZpfAKeVyBsyywNAmosL80hE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs6PHmS0F1h0R_2CI0xHETR0/photos/Ab43m-uz1dj9ht7IaLyXBvo2-Zw_1mFigA27QC1qME5W_lkzyWHJ95i3U1vOoLdS7CfXk6FpngAhN_bn-CFx4f_RtEO97FgO85gM5vrkBlLvMzM0LE9R8XwdozNEybbysbNmJLAWjdty21J7Nelttv77HamSjuQ6YEVee0ojFff6TJRoTNg9TCE6hVPlAGcbe1giax4j6Ix20iNYq8NcDOskOtO-XuNotE723K6Yzf2zwBTEUX4Mip8GFwnCGOJVBILyjLhYoR8HvicSmfXEx66aKUJ7tCbEG3MIned_kmOVNFm8kKYClcjxx5yUr5vNhEvEXWxj2mjxaUEGdc68g2in3VKnO-TeuCPlyTwlyD368eviFj9FOykif6FDdiY_id3Eq4e6ZS9GHFOOqpdvb26qVfbR3ItzXyfF4bmmImGpqH9HlWQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs6PHmS0F1h0R_2CI0xHETR0/photos/Ab43m-tU71zcgYAneVE3NblRWwqQMOoETbiYK2Oj6ENDupE3wrwIk2Liczv0XeAtiGSHcWR03eyMGORgyp4c0-X4CQA3sITuQ1iucRg0uL14Txnw8ilC5YutRlTyz6qTWEW8RgdPdlz9EGSHXh4Ye1Hewgkbhag986k0E8zlYB_htoqYGrLuEHqvG__Y3YO9bjERlMPY8o1an3DkNNrxCNRnLqB06EoCptEAyLfStmcZ4XUmrKG3aNl5opp2LHIFRiM_Bp9L5zz7kStNl0oZSS6J05DpmTbKgluU6a6KEkyr1p4_vL35e4PlVZLHzvnAUAKKjp0Yc6iDTIa9jBke_4RM9BLjyfptrD-03nthq8_n67ISWCzFyKMHk6zNlRgkmNOnl1mCsqGytQmB9XXrSXHg8V2kV-J-7MnxBx-QZvxwhzXrfX2stoH3RoJ43sMh_Gjs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs6PHmS0F1h0R_2CI0xHETR0/photos/Ab43m-tEZgSMGpCTEHiVj2Kdzybj-ALii9dS6lhprT8j6HE1gYenfZr0V_G-vad8LfgXHxWH4XyQ9DdppzPUOn48WFOs2TcBW7KoWpMQ4TRe3uNNtclo5DxYB2vwQAFL526zid_h_k-GqpVC-oM8C1vQQx4yAWvNK7nPf4zPY_FWWrJMGlmiRn00u_8L8lE41UdCh8iKE7wfxeU3N34bheVkAPL8Iua_DQ9Ps0verRegwupbolOe6vWPLzspaGEMWBMNUzvPAtS3u1aMIQEBPEvoI9irzff1apALLFEYsxIxM6J-hJO5ekfAOlAW1zJP7yIinC8LgrGq3-QmET88Wxm828T6RKRWEQa2k7ciI_iiQ2rElls-HqpeMbbowCCsNF09xJ3vCMRH-z-kdmCGEi3j9NqSAP-dcHuPRjwpwyeAlxZDyA-ZmYR9ZKoMkUUNNHED/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs6PHmS0F1h0R_2CI0xHETR0/photos/Ab43m-uYpJYAx7scEWCg1QBRG5GXwMqjgDh0Fb7Lyortji5dMbRgNg5BcUtH8oz_-Nplc45TtrqvRR0_thnq01MvdleCorNR3YUtYNdw7wRB-I2dCXWfnU6xyHnQ5Hc2yz8JCqmOcLxam1yoBX1Fi5WGNhKcTyy1zYyp9zSfg_KC0rtyyjR43_lMjw_eR-5enUYgF-J-QfgAce1rQ_fjcCGVasX_4blPXHoR9K0P_ICQvEBe5kcJlCHaLtie0_-68_zNDyTaEBQ2H7JBJGBVYpodYJxLSUE8Z8iBns4r6KNLpQWkmqOUcZWN5wBcx0w9D9kRQLVQrRiO4tvfEGh2mJz8dhdXA92b4JfU4p366KAHFl7RBoY-yrByMW7ckk6bIIGU4j0ttpzTt_RAS79j0hb8VuNvgTEu1-4exfl0rtFA4PrOwPs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:32:01.045097+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

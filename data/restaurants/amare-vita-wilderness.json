@@ -1,0 +1,72 @@
+{
+  "id": "amare-vita-wilderness",
+  "name": "Amare Vita",
+  "slug": "amare-vita-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "2J42+7H, 1 Dumbleton Cres, Wilderness, 6560, South Africa",
+  "coordinates": {
+    "lat": -33.994152299999996,
+    "lng": 22.6013897
+  },
+  "phone": "+27 44 250 0300",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJXZSWVGod1h0RslbFu1EZ-jg",
+  "google_rating": 4.4,
+  "google_review_count": 34,
+  "price_level": 2,
+  "cuisine_types": [
+    "Family-friendly",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "7:00 – 10:00 AM, 12:00 – 8:00 PM",
+    "tuesday": "7:00 – 10:00 AM, 12:00 – 8:00 PM",
+    "wednesday": "7:00 – 10:00 AM, 12:00 – 8:00 PM",
+    "thursday": "7:00 – 10:00 AM, 12:00 – 8:00 PM",
+    "friday": "7:00 – 10:00 AM, 12:00 – 2:00 PM",
+    "saturday": "7:00 – 10:00 AM, 12:00 – 8:00 PM",
+    "sunday": "7:00 – 10:00 AM, 12:00 – 2:00 PM"
+  },
+  "description_short": "Family-friendly Wilderness restaurant serving hearty meals with a welcoming atmosphere near the lagoon.",
+  "description_long": "Tucked away on Dumbleton Crescent in Wilderness, Amare Vita offers a relaxed dining experience that feels like visiting friends for a good meal. The restaurant has built a loyal following among locals and visitors who appreciate honest, well-prepared food without pretension.\n\nThe menu covers all the bases with generous portions that won't leave anyone hungry. Whether you're after a leisurely breakfast before exploring the Garden Route, a casual lunch, or a family dinner, the kitchen delivers reliable favourites in a comfortable setting. The location puts you close to Wilderness's stunning lagoon and beaches, making it a convenient stop after a day outdoors.\n\nWhat sets Amare Vita apart is its genuine warmth and family-friendly approach. The staff create a welcoming atmosphere where groups of all sizes feel at home, and the reasonable prices mean you can bring the whole family without breaking the bank.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXZSWVGod1h0RslbFu1EZ-jg/photos/Ab43m-tjpX5e0OkbGy7R4w8UXVhoaqwFlQGA3Rs29ZAgI1KtD2OZw-UDZQ5xNADqt_9AqPSteUeE5Er4lYTrAdQnvoi9zW9du_8AqhdYJIrJL1H9pDLbFzwOOZcXfxBQAtJleMFcW3OvLOYir3Mu_WmPBMwjwEhtPzI5butvK7d9wycDkvRrh6QDN8qQ8dKRFMXhpIcl-ZaE-wEKKL9eDY79cjjvbACk95yg0MAcZ2cGZljLsocWm8Un3-VD9GW-radZrckgSk6BOzgQ_4rrIslPhTyYxeNuHzpm340lbVUiKRh-qNfQ2TF2FQeuBE1vAtvjaqMy5DELC2zNYNnhgemS_Lf7OCQBGZkwQbSiI-S0xpPKQXlcz2cWwuRFRmBmbYsS025oxwj1DQ3ojJ9q-JxSlBqHF2s4aSlvwgbgaWjnG9dxFw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXZSWVGod1h0RslbFu1EZ-jg/photos/Ab43m-tTuD23wtK3OvjN8mnZGgf_p1r0JyiR9nyxe__ouw3tGabypEmKwDcrIW6wO-R8Yaufb-9d9WxZT7Jqv00KNFIZW10aB6yTd8UBGnL9EEx_hFcEgq3EqGnZXix693BszbyKooYALxNCN3HnUlXTrocqNw11jjAfJ-Zl3ZSHUtIBDvBcwVl0zLQyJfb1Gu3SdX_etBq-J127b4GG2UndTxg4s6V20fIbZlw0PBbfIZKba0QIz22U9c7GKVaxTOt0wfp6wTFW253IACYV8K_0Bwvw0Jfv6BgJADNkA6KjNfsFSw2vd6cbHKkVSAACh4BAg_PBnicR6BYL91sxqSPMsLNi2K4vk63O69WHh0e7rSC-3f2kDYtO2UtFSbA0NThzZU9Ub1Mhmioh5iMe8cFTPHXjzbRlXFAFLS6kfzCkZuctfQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXZSWVGod1h0RslbFu1EZ-jg/photos/Ab43m-ub4aWJXUKY_AUZsnIto_9or1cc92FjVd4Sj53TOOCTUKcxMes8PXggG4MXnD-nR2lhbQgiBN2GQiK6zh6CSZYUHowyPtjeHYpifwPU6k8MFRbFAxPYKAFs57UI30xagqXA0KlQjVG2U_NraxJM8LVrvu4CJ3dx8fepv5LPqhH4vOKq_F4SKyj7Yj0MPdcgXhrG2wxMxSx6F0d_vNoY5C1Kl88ZIEwiJT2vdi4wNIZTZbYImZXdFnrCze7zmfcMhv87uyzrWMLU39UOyc2Cy1XqehD8YJVfm3OV36pe6cbBEB2GNg_ij-iIO-9Gqq-4SaDfXBDDS2MUFc9ppk-UEQ7VUOaZESyknuWwo-nvC6I8IwvzAYMg11lH1AYgDfk7sk35cRvuSa6JuUG_ry_jWAaXY0vmkGY6o3nGAjCAO8jaqFw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXZSWVGod1h0RslbFu1EZ-jg/photos/Ab43m-tgqCUO-5g92hLkwnVdO3_ZZW68ukl3N8dqzV-VzGwBPhofQFdO1b2DLjqHMWdq36S2RYkPA-ORJ2JiOQ5hFNqM9HjJ8TScDJH7ZJVSUyewiqeE2oBvN5VKa9uhWnOeDC6d2dJrEIcwZrjdaQ78-zKyghiGKISN86gn47Vv4vODQP6F-ffLktpf5XDPrfvix-KIrBAcHJLdI_F9bKeyanuLhiDlj-v2X7gna8XkddAMpTSs6ksgz7zQByNH77x8CwE0c2VFFuCM-7SDWGzBIWVihZF9CHtWfUH28H-Fjw6CL6A99B04o0hnYJ2clUjHMBaz4YMeIyRt99bz_rEgEWhLaIebGlh_m7wn60tkf0qV9mMiaZrq52i0zkXfIwRHcAu2fOks1bbLVmmSIdniC4WCiO1yPPGIJzuiVnIw6GKiCw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXZSWVGod1h0RslbFu1EZ-jg/photos/Ab43m-sCuF_-6JV6w3nHpwSZFeXZGfli2sA3wxIc5mpw_y1ZAguj35Gtw7M9w9bN0yZEdWsTPELoV9VRtepwkt8e0qBAbHLtrXOYI9R4Tzjd7rdKrVL47oPxHts9nwgZHLStmlZ_f8UqCXLL9AKyV6T1CKIR9vMCYQNmsMXUDPey0p2Qnx1KgLXBKDThcJjHg-5m2csab4KAb0QSO2IH-nVu9uHMh9HGybouu0bMx9ab4KhsZVUihYgxtHZ7pG4INdtoA5q-klbGKyXeIfP91N0Z_PsJBJluWekFM6YLHas33qJRE6iJ-jwlN_757_dFF162yM5nGqljwH-zjlvWlsCitHqH3VCYqcs8h3CA9W0BUyk310HC3A6jrS-cdh2llD7-czZso88yMeQnFkzBtFwfhGBH3Hstzapq5j9qha6LZWLq-RU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:35:53.988165+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

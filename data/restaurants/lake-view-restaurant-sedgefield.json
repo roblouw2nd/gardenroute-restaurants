@@ -1,0 +1,75 @@
+{
+  "id": "lake-view-restaurant-sedgefield",
+  "name": "Lake View Restaurant",
+  "slug": "lake-view-restaurant-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Groenvlei Rd, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0273934,
+    "lng": 22.8376092
+  },
+  "phone": "+27 67 239 9976",
+  "email": "",
+  "website": "http://www.lakepleasanthotel.co.za/",
+  "google_place_id": "ChIJYROBb5m9eB4RxBcFT9iPp8I",
+  "google_rating": 4.4,
+  "google_review_count": 49,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub",
+    "Seafood",
+    "Breakfast"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Functions",
+    "Groups",
+    "Outdoor seating",
+    "Garden seating"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:00 AM – 8:30 PM",
+    "wednesday": "8:00 AM – 8:30 PM",
+    "thursday": "8:00 AM – 8:30 PM",
+    "friday": "8:00 AM – 8:30 PM",
+    "saturday": "8:00 AM – 8:30 PM",
+    "sunday": "8:00 AM – 7:00 PM"
+  },
+  "description_short": "Lakeside pub-style dining at Groenvlei with hearty breakfasts, seafood, and those peaceful water views.",
+  "description_long": "Perched on the edge of Groenvlei, Lake View Restaurant offers exactly what its name promises: uninterrupted views across one of Sedgefield's quieter lakes. Part of the Lake Pleasant Hotel, this relaxed spot works equally well for a full English breakfast, a midday seafood platter, or sundowners at the bar while watching the light change over the water.\n\nThe menu covers the bases without fuss—think grills, pub classics, and fresh linefish alongside family favourites that keep the kids happy. It's the kind of place where you linger longer than planned, whether you're nursing a coffee on the deck or settling in for a proper meal. The atmosphere is easygoing and unpretentious, with a pub-style warmth that suits both locals catching up and visitors exploring the Garden Route lakes.\n\nGroenvlei Road puts you slightly off the main N2 route, which means you're trading highway convenience for genuine tranquility. The lakeside setting makes it popular for functions and gatherings, and there's enough space to accommodate groups without feeling cramped. If you're exploring Sedgefield's waterways or need a break from the beach crowds, this spot offers a different pace entirely.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROBb5m9eB4RxBcFT9iPp8I/photos/Ab43m-vVM4cO1DxTNcYl726gQSwB0WqEXMf-h65HPjiSmVfIKt5rorvhQQpmH9gFaar44kjYrSBc2PDPdu-k4E0ZQSg2JQLEp-yu13tsJkBspaOQTVR7yTs37Lnw9LTnpEmoVjfwvZK8u8c1MYZfXz9hiQz-2A5lWNdd-kmJkiB34UPuuxdmsN-eJMfnUiDZPVeYQxDiaG2zQS3mrSwXc4KlG3HS4cYiL2bMRSJEBmIsM7sgCYQvMH9IDGYqqVapwAFU6Y5H8xOceXly9-HCg5baeyQ_ugBmJMz0csYvojeRFIXmBg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROBb5m9eB4RxBcFT9iPp8I/photos/Ab43m-skmT2_a8SDA2dRLI18u8-hUx7fs1GfeIRmfcjflfLOaWbVyJK0iAck4lY2D7HHoRIGnur9hsv1jXJMHpixYYCRP2bQZ9B_Xn9NOpHvz3qHQ5iEFvgyazJUZPwEVAaw4Crex_msDDW7sFT4s22TdUk1LPeoJzj1NJgdlJJKjDQgHq-nV2D8twCyUnvD5gbDTKlPRhYHrXcorG8qgphR_cbN6TIm4monjFOS4Ht1Q-HZf65RQSPFUDpBA52F47MU2w_p8l04WwEvOVud11SRRp7Uvo8oqt9Ygn82Ufm4Ov7UoA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROBb5m9eB4RxBcFT9iPp8I/photos/Ab43m-sE__TNtTm8AWZG-TkW-2NQCep-4Npm183w1nJBa4aCEnXFI1MKUNP3MhgoZnGiu7obb91sdjQIJXg4qt8YONhQDMDSALTaa7uPQThb7XsvCWGUc9TCOs7lpw1L9CsLcMfgmYSyPGrlW0cLeXl1p65t0ppLxqvjXfPLDsHVS1I_mquOJl26yJFcactvOx5UkZdU2FF2QxMmGpiV8dxy7UTkzRHTGpIyAh5KKxF6OBwmcxTwHsPleycHbQGJVqN_3iKQDmekzdwMDgCs_CY8kC-EhUHPVyjEEmbR3MpONvK65S5aWQ_3vXtqAlSQkDrFRZQ3EIWqM72w2GC8kU89AxuXp0zBLfF-v0DDcsyfq8ofEVlHvsvCv17eDm3zbwerI0RL9AlLyBzbpcM0IBXYTodScZ-jY6tF8gNwDq1DmkIUwLxtr4lNHu416FRPmg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROBb5m9eB4RxBcFT9iPp8I/photos/Ab43m-vXodADtZyHTIGHxSjJ9c7kHqLi8rXVBAeiPGwWe-XO2V36i3jKcP3wir3gNzMqMXK4kFshrEbYDgkhUgNLnNmOlJcuQBx-bGAt8yvgjZ_3-KKnnpmmFOrNzDNfRBCa3bN_RZydJy6URuRlllehxdh8lW-BqQ_1E605tlraOlV88LCHd828eygjRuQpknaes0sTuBTns5fYPMlcmHMDaI1j8BfQ-0Uh2LbJekIVtR9eOOtz6e11uCrvs6ozj6u-UxG8YhAvBVmLWbamcaz3HoBuOQXQlWLrukcsJOyOv6Y4YA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYROBb5m9eB4RxBcFT9iPp8I/photos/Ab43m-vzQiu1zG4bc9owQKoit76B9n8EpFphaFsH7TbHIBshO8LdnZQ5Jhph8NcwRAy3rwHDV0FuuMJlZVPzmdqx5yQcPN4moaFG6p0bY3cN0iUWqHp2bynwKtQph-5WR8XxYK1-PF2hJA4i4kefbCAmYYUBskSRUzRuIjJcC5uXea91WPAtBlxyNMaXVJKaUdpMArjtiujWy9DviAae5ocfLV7bvn4Ar8fAZaqu_eKlR5141rsCN8D9WMROv9eEzlhbYvReegtwkUeoZ-ZBKAdGAWlgzYJoC0UzGHaZqJz-BMpA5g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:38:20.329722+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

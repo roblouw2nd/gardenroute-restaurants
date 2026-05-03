@@ -1,0 +1,73 @@
+{
+  "id": "the-palms-plett-plettenberg-bay",
+  "name": "The Palms Plett",
+  "slug": "the-palms-plett-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "31 Main St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0522358,
+    "lng": 23.372225699999998
+  },
+  "phone": "+27 72 927 2304",
+  "email": "",
+  "website": "https://thepalmsplett.com/",
+  "google_place_id": "ChIJacZdB5bjeB4RBMGzId3DaKg",
+  "google_rating": 4.5,
+  "google_review_count": 314,
+  "price_level": 2,
+  "cuisine_types": [
+    "Mediterranean",
+    "Breakfast",
+    "Bar"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Groups",
+    "Family-friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 9:00 PM",
+    "tuesday": "8:00 AM – 9:00 PM",
+    "wednesday": "8:00 AM – 9:00 PM",
+    "thursday": "8:00 AM – 9:00 PM",
+    "friday": "8:00 AM – 10:00 PM",
+    "saturday": "8:00 AM – 10:00 PM",
+    "sunday": "8:00 AM – 9:00 PM"
+  },
+  "description_short": "Mediterranean flavours meet laid-back Plett vibes at this Main Street favourite for brunch, cocktails and relaxed dining.",
+  "description_long": "Tucked along Plettenberg Bay's Main Street, The Palms strikes that perfect balance between casual and considered. The Mediterranean-inspired menu draws from coastal flavours—think fresh seafood, generous salads, and wood-fired pizzas—while the cocktail bar keeps things lively without overdoing it. It's the sort of place where you can settle in for a long brunch with friends or drop by for sundowners after a beach day.\n\nThe atmosphere leans relaxed rather than formal, with an indoor-outdoor flow that suits Plett's easy rhythm. Whether you're after a leisurely breakfast, a midday bite, or evening drinks with something substantial to eat, the kitchen delivers honest, flavourful food without unnecessary fuss. The location makes it an easy stop before or after exploring the town's beaches and nature reserves.\n\nService is friendly and unpretentious, and the setting feels equally suited to families, couples, or groups of mates catching up. It's become a reliable Main Street anchor—the kind of spot locals return to regularly and visitors remember fondly.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJacZdB5bjeB4RBMGzId3DaKg/photos/Ab43m-vB6BTTc8sTLL2mRdGMyYMzy4rAQTBKowC3yOPSk9aZTbEIwWdqWI7ZCfPjZcczsXOalS9GlmcVSNz4sMjzXk0opjfm89blzLoJUUKTk4VnFpZ6qBIHBf2ZZ5aQXP9Ry1OnUJAlgoY2Jd8YwUoYVZHzkz9clpaiGzJbsIyBMuI9jFnzGXctnCB4wyzrry0pVDxniHk5yoQEpne_pfE_kYwxyxKWlw4MDHcvnQHLWUwI1uOFFKdP7y0COIK5-OetGpch_lL1zV-tAYdDLy4HwWf4QDqqqHCXPXqboPEyqMKRTg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJacZdB5bjeB4RBMGzId3DaKg/photos/Ab43m-tuRQGVFRN4PqrwJaD7Wwpxtrb9kOA9q830ZflONTogba6ZSMv4dwRB7rPD1oHGGuzEn3ZEY-XTKpMh-3n6cSlIA7iOGn1pvY5rQxIkKTQpBa23sAEqNzToImP4Zvzo3NnoKOKTx5cBNQr7QOuJ88aYn2OzITQuu-dkzygp141pJaoHjvalv-qUtljJRkr3PzTknu-Tz3Wr34bXcWNhxikhoVgmpuajRLMuhIc8DXwSxK9uHxg50fNSMEzm9hneIx8HmGB9eaFVtMKd0s0wWVcPd1CNeqnlIgbS1su5fsl43vjSrOUbp5kC0EVyN770fDVSaNlh7rLXtw57AsgiSIEJ7jh_Okq5UJGAtijSu1YktsjzpCrgXbxhVqKl26LRkvJASkTiasdqHbAz8rFfQhll3NKBhdfU5s0lH6o3YfV_5vWZBI8AOnx0LJ2lAtl_/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJacZdB5bjeB4RBMGzId3DaKg/photos/Ab43m-t5bD5yTPlo1iwPlpCMWg-Tfb6auaMaPo60_qffPojuhmUq-Eq-MkRcPY4Aj6fGap7JwZazZnlnancUC26Fg-vDtiOdHeVuCdFH5YxzAYmO236gKzhDU9DIHJiWd1ezzgVEn2VBWsacdxm_NQLh8gQgNYPd-83w5NbL-etc_jMbxo1VqkJ_KOVpyt1Dy_VyvhiDdXH8PYLkTL3__qK-6HuwZwWhYt2qFfhZOPKOflwuJTc5YFB1py-3pMu_F_I9N2Ra-oSkGTvuwY_nHV6xeZz9J8In2t2aYKKnBDYP7byCCw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJacZdB5bjeB4RBMGzId3DaKg/photos/Ab43m-vNJbog5Ymfg3-laHnzi6k_KqXQHoCOxuSkq7dAG2WPdcsJbC2Y3xitvqcUCjyTrcZydxbCtLON4Oq1GJPHVDdSIuUa-z6RUOh-hiTHyaAK9pPxi_5Lis8gwIDtMekhVGbMj02v3dcbJnqW0_8Jg9xFXOidt57LFQKtIgfoBc1N-oceisM0BFliKKg9XauUb7--UThG0b2BAXuc8IXwbMTAGH1kPs6gjckiZ9kcyfmfMf6vhGijPrsCDQKDiz5bJBsErGVWp2c85sTfxeCvQFwu_69Zn4AldigX9Bx3cz2Jhz5r8w3JxVG4FaD2sfs9fyuGka92yBRNpWZo1nMWX7Eu-BFf6rzn0x7n0hgo4Q5HQjh6M5wvgbgOnMy8xsmWEAy25JSFos3kLAGorkwQwV-iOb6dKLzGEs9jMfk8s0oaOo-jhfTI4uzagpgYOA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJacZdB5bjeB4RBMGzId3DaKg/photos/Ab43m-vJckUBG6OJ08Yy8RLG7693EMGjlmjTl5fK7hWL5la6q50C3HJTMEJ-wmyx11-9Fu4bwxTxZ5D0U5TNhRns8JkibjMiUl-Dt_lG3Xz_4jt6rhH1oQpgjJE9JQkgtYOBG0d6beGESa_BZgEMyQiosu3wqCEhxn05fmimP24xpti2rNoHLofYz7wmRya_ZytDOz5PBBUyGU78pM76_rTamUQHkMq1a8_gvnuYZ9XfH0DFaswz-e8pxRi_pzp9iXbnP7P8lczSKKzM5-3vHBN60xj2hjFHCu8DCwbkyp4hqDPHQdyp5T2UtkefeTCG9z-I0az_W9LsUTj1fOQ3wf95SxTSMY4fKJcJhgp1ZquNftAvat2zSianif7q6BZwPUogHux6qiX87_bgVITfV-tfdldoD2WUEZ3tZoal1ImLE_MoOfK4sATAGgDOusoHbw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:41:21.313740+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

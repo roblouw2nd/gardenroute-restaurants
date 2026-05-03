@@ -1,0 +1,75 @@
+{
+  "id": "knysna-social-eatery-knysna",
+  "name": "Knysna Social Eatery",
+  "slug": "knysna-social-eatery-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "5 Welbedacht Ln, Kanonkop, Knysna, 6570, South Africa",
+  "coordinates": {
+    "lat": -34.0355607,
+    "lng": 23.017205399999998
+  },
+  "phone": "+27 44 382 5401",
+  "email": "",
+  "website": "https://www.knysnahollow.co.za/restaurant/",
+  "google_place_id": "ChIJrUZ2iPDreB4R1rjsUB-1Dig",
+  "google_rating": 4.6,
+  "google_review_count": 247,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Pizza",
+    "Pub",
+    "Bar"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Groups",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 10:00 PM",
+    "tuesday": "7:00 AM – 10:00 PM",
+    "wednesday": "7:00 AM – 10:00 PM",
+    "thursday": "7:00 AM – 10:00 PM",
+    "friday": "7:00 AM – 10:00 PM",
+    "saturday": "7:00 AM – 10:00 PM",
+    "sunday": "7:00 AM – 10:00 PM"
+  },
+  "description_short": "Relaxed neighbourhood eatery in Kanonkop serving comfort food, craft beers, and good vibes in a welcoming space.",
+  "description_long": "Tucked away in Kanonkop, Knysna Social Eatery lives up to its name as a warm, unpretentious spot where locals and visitors gather over honest food and cold drinks. The menu leans into comfort classics—think hearty burgers, wood-fired pizzas, and plates designed for sharing—all served in a relaxed indoor-outdoor setting that feels more like a friend's place than a formal restaurant.\n\nThe vibe is easygoing and inclusive, with families, couples, and groups all finding their groove here. The bar stocks a decent selection of craft beers and wines, perfect for lingering over lunch or settling in for a lazy afternoon. Located slightly off the main tourist trail, it's a favourite with Knysna residents who appreciate the no-fuss atmosphere and consistent quality.\n\nWhether you're after a casual bite before exploring the Heads or a laid-back dinner spot that won't break the bank, Knysna Social Eatery delivers exactly what it promises—good company, good food, and a genuinely social experience.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrUZ2iPDreB4R1rjsUB-1Dig/photos/Ab43m-vcRE3kYZXuZIDXieZVs3KgfDM_aakerSo0yaFjOodzTXWRq1wDAyx1rqNt-utKrwbxttHDkh9fSjXxounZcWBb92Fb-p4HGZiUniPKzO7tR27s3zhvXgEjvqnRlIXxN1CBJmFj8H6sZ7EDzsvpopVZNdKQQPMWfh8ILcpEh3lK7i5h_77Z5q0ayV-wvlpoLquBPjx-Xc9GN4XC55u_SIpyrHW6IRnoYzlrx2rDS63aULF63t5Ph9jWZL6rd9Rap_p4PaOe4TKm0yQRSljjQ1tR11Saoc2ymEI2kf96SJtYhA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrUZ2iPDreB4R1rjsUB-1Dig/photos/Ab43m-u5qWLljAZDHAri2Vkmu65oMZ4QcbqpnTI7z-fhxNvUoWSb59ub7w7YOsigBL8lcFGkIM-tY0FLqOAll0Cto0A7UPqEtxJdtlIEJd2Lwhi6SvxrEH7DrUjJW3ja7iQrdbd0kBYt49dqQCqcvj0gUDnlJ7ZhJfDRd7bWtwXHnkT_5d9RH2_d2IDKUV8vpXIrASCp-GhQrXNlrvCbEVw-zqfc92Pd3iWbxia8S-VYU4fUc357F8w4tHtroxLY0mWLBnYkDGnfId0ebnRVfviLYtdIcWipfek9vERWfyrvUuhvoQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrUZ2iPDreB4R1rjsUB-1Dig/photos/Ab43m-uYH6pFI_tYrSu72wt99I0FpYqMiT6MDOH9nkHwhc77Lr__B3IR48G1Sxrp_yieT5Th5TZ6TT9eHXoYUN4EZbLrh2Dg-JFUIPC0jhgyNHwGpBjz9NsEY_wmpkiMuWgRKwqcG1r7nPW9AD-YyMty8y8jVsROHQky-uWNaMaSx2DgK87bHJSxoBy_zC-l4FYY1ySrQ7DaWQRqg7eu28e9nFLW7f4vI4Wreto5TGE3o-7RYN0uvQ3TX61IFA5KFHWoQ_JMZPHUgNRsiDgPOdG4WDM8LALLicM-66Dg1mDbLsMp7vZzF28N1xwcFIj4LpRX1rZ452Lar-XnmEgl2wpKIUyAQbeOT2LLdL8x6Wel4_-HTMOxfDlHa-0gtE0I68ydSMS0j6W97ZVllLsB3d-0iIHa8w0tnYDrc7vgzpu9VY0FOzW-7QQ4ArXb0y2UOwtb/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrUZ2iPDreB4R1rjsUB-1Dig/photos/Ab43m-vkNvysjhZtIFXM9CjLlA3w3Y0Zp9jIwxE5d4s_R1eAC-vw83y8muUW4y7eJ5POQgvAm4lvWglBwTMbcB530YL2mlvS2hgFYp31ZRDcMCj_MEPYIbx9h4Ft_v6UN3YuEz8cfjxcWGNQDLF_Ee97Tr2bqqZ4YtN6eXh1z0xaTSYe5CwbN2z1r8Kwe4M7z8XXtlOuZlIu9564cbbA4qpN2EOcVIj6fJdtAlh6fKyHZNXafsTZ_Smh6B8WKPK9ZhHyZQXoT_jaPmIsYC5AOQQGiEm102nF_2JzYn8HaD113HjeCvulNZYi47h6EesTEtBcEcnb_FTVc8q8dLaPq0t4Mw-V2q4DQy0UFzZsa-pQEHxBAybp01ns3g8B7WQ0NyoWOa4rBTepWWlWJ8RP-sa75WbDDVdIhrBLpcW74JX3_D8uEkYuzOA8DhmTq5G_YuGS/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrUZ2iPDreB4R1rjsUB-1Dig/photos/Ab43m-vgybK_iyUTCFaMYfkZezW1lzdPHwcMKZr-mANvxYnu97NhWMLU8i8yBs2pTLAS4MTYvoMloxuJUBryAkbHAu_7El3fg6Jq_MC8zWqsPPXeHwyKBWIAuODiNi7sFwjrp9K5xImFITlgtGIlPVS8Y_ZDBkk2mkdzaOF_C4U68YYNoUM-2S46gNbF7Yflhci0Z-A4WzZOX4_3KaKyoyx8KQ42ElxdnZAjbzm4r-hAlqbj5Ij1_UXMewsQzEPzF7av8HeQ4x5fQxTX11My95gKdlkxeH28xD9P38Qf_YGcbdVywE3wECQsNjlsxgDYmwIAxfkxTxP_VuzFMRHK4E9Hlj8yywM3DSunMGxe4yndY5gN3beTIqzFxOx3bQfehvn57oFLejYsG_2_XnL2BzDqIClzz2SkjW1nancb8af6Pb0Pwg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.529267+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

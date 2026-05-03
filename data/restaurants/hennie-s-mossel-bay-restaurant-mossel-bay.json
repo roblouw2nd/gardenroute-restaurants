@@ -1,0 +1,73 @@
+{
+  "id": "hennie-s-mossel-bay-restaurant-mossel-bay",
+  "name": "Hennie's Mossel Bay Restaurant",
+  "slug": "hennie-s-mossel-bay-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Shop No.20 Bay View Shopping Centre, co Alhof Drive &, Da Gama St, Da Nova, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1806246,
+    "lng": 22.1326812
+  },
+  "phone": "+27 68 031 4065",
+  "email": "",
+  "website": "http://www.therealhennies.co.za/",
+  "google_place_id": "ChIJK8oa4F5p1h0RDtaZv6xLJZ8",
+  "google_rating": 4.6,
+  "google_review_count": 2019,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Breakfast",
+    "Grill"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 10:00 PM",
+    "tuesday": "9:00 AM – 10:00 PM",
+    "wednesday": "9:00 AM – 10:00 PM",
+    "thursday": "9:00 AM – 10:00 PM",
+    "friday": "9:00 AM – 10:00 PM",
+    "saturday": "9:00 AM – 10:00 PM",
+    "sunday": "9:00 AM – 9:00 PM"
+  },
+  "description_short": "Family-run restaurant serving generous portions of traditional South African comfort food in a relaxed setting.",
+  "description_long": "Hennie's has built a loyal following in Mossel Bay with honest, home-style cooking that keeps locals and visitors coming back. The menu celebrates South African favourites done well – think hearty breakfasts, proper steaks, and traditional dishes served with generous portions and a smile. The atmosphere is unpretentious and welcoming, the kind of place where families feel at home and solo travellers strike up conversations at neighbouring tables.\n\nLocated in the Bay View Shopping Centre just off Da Gama Street, Hennie's offers convenient access whether you're exploring the Garden Route or based in Mossel Bay. The consistent quality and fair pricing have earned it a strong reputation, with regulars praising everything from the friendly service to the reliable kitchen. It's the sort of neighbourhood restaurant every town needs – no fuss, just good food served with genuine warmth.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK8oa4F5p1h0RDtaZv6xLJZ8/photos/Ab43m-vafrMjC88cXIfPmP96PiJlC0oNWBpYQzG8CcFUf2TIeVQPzdB8lIuWnWqmx9LQIwV4iMAMf9guyMCPFqEkdRDKWH9O9CxC7p6Q-0kOZi1RAkE-_kufGhwRN0NxggsgHImjNe7yiaHvT8wjslV_vtHuiCiVErfZPJBuCDlGWwvSg3eeL8F_0eFkuJRQzETTEOrLF1PUlsl2pRYA6d0DtrXFyDaTKgTuLd0NLfRlH6K68yj9IGXPwSHvDim0wl2qovb5k8ZRh3QGcKqZ4HFS_pmGQFoN_FyQ4_jjpunSAuVAWA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK8oa4F5p1h0RDtaZv6xLJZ8/photos/Ab43m-scHpMtOXMEd3c74E2w57hIBTpCW8JCFfRuiF25_D-f6VhyIklPONfSq4JkOGHbA1mi8tcxHGFgQWXFPBJ_-aLoG0_mQKL0xF8rYaCfuCXZCY7EBxHwRELUEEYIJSRCptpso4HH9TsxsC96r_Z4A3ZGGckOaFhGuUtR4QZ6qDa-ZtA9yucOJLH6-jj-gP0ByAzWp1CY64gFtFGvJUDZFW-DJ2nyJ_VQWqrH0TRS9PU2Yy3vWSf9ibVnqz_hygkZrfNEHS9X7xiSlt1BRyr7cKFc9YI7KU7U5VxMHVmVTuHzFg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK8oa4F5p1h0RDtaZv6xLJZ8/photos/Ab43m-slEeDCjHEFUVki4kutgCXD7K12-MB8BZ9dbaR5P66eLOSra_Ah_TGwPYKFkS-NpBQMiCJixzzjtMiYbAC-d99u0HsfOzrWMd_DixLC21TED40xAti0Rr68dBcEmgeGFAOrWnoW5tXWrNeAKKNUBNi0S9hSIqyt3gN7S0OSkYJ1fcsqu6JV7ApdvIgFmj3UhifqDahZGypnmg88ig0uOXzYq8IpwIbv_BMtqICtCVnWX8pc7wYp7PG9XICgmKhiLYvJtEisxI9r1l5x3wp998v81wYCqbbM3BoD2_m7Dah9elJjDSQyWUorf4V0OJZulbH7I4ZBRLFWmY58bgTZXbC7Ukogj_XVvG5Fr_URfAwu5ycNVyoN8TZcO4izcf4OqKFT_FcTszbotcza4GbaE-lQ1cpggK0VtFp6MpGA-Gg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK8oa4F5p1h0RDtaZv6xLJZ8/photos/Ab43m-sCFdzN7WdNOB4g6ve65r-fvCO8Xmf7yv7gkrIDMNsEZEHdOrruuH5Hgdpej17b-5_vzKeAlrw2oDy1j27piIJXqzlNDVPtN_5zmxBp77FSsBWG-mnbsDj2v5v7uZuoiZCMrJnZ4xy7SS1F6r-vMdubnhRSqdlhSceu1U9ZflX8Cu8NcLN-dXxIgz0oBFpJWo6DrRtzHFihXYaR-7vIIqZ4u2z76ObvMiS_sS4MOEQxtK34Fjz6uOGtfMqb3EQO65M3SPkICbfxu2eA_sGmtcG1Oe-mqPfjaBFtx2mBt1s57rQa69Ny5rLosP6Wrmy6wXXYcwfV7uNrz4dYLA5xGm88jDJvUhwHUQWwn1GahzCNgOQDSIWa3vXjWJ9XM1DvvLWzaoqcq--dW_PIbCSsGDLXyf1EebKrdls7W4Mxgh3FOrHDLq3it3WW9nnVHzwE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK8oa4F5p1h0RDtaZv6xLJZ8/photos/Ab43m-uFgYfqzRQyS1_V7OpnHHV_RLttdEFDdQjWADLh_Z8nw9OPwLWGUrEu6Z8QjxWEtU3wHkw1qxX9-GGJBW5d9n7_PGDt5wkFO186CEbrURrACYeaIas4EUoMrOdzYaGCPzue7SLQOgWbgTA-myQU2CIXJT6doKlYF7OujErGdGPCjK3S7_vd3WlZ4QDh3tUbOl3-lhuha5jm7OQPDhqgenyc7ZcDLYIBEFObWL_IDU-MGDtCmdHFkeDx9CutdQvnit74eh8zEQP1o0UYKmHwjgUXTZEVvoVSDe7uKnFG__e0DICGjHHWCxvJAi1Ta7XGzlNZWdcnhKjCFh8v7K6irv3cYndL6pyJAXvNdq0nucFRycpmCBWwS_mBHeO3RV6m5Z1xMSRZD-_RS5_a-DSNq26JhhUp-x50nVAoWclfJe4xk5Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:24:57.791125+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

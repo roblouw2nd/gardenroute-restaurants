@@ -1,0 +1,73 @@
+{
+  "id": "la-capannina-mediterranean-restaurant-george",
+  "name": "La Capannina Mediterranean Restaurant",
+  "slug": "la-capannina-mediterranean-restaurant-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "122 York St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9567774,
+    "lng": 22.4590179
+  },
+  "phone": "+27 44 874 5313",
+  "email": "",
+  "website": "http://www.lacapanninageorge.co.za/",
+  "google_place_id": "ChIJgVtxzDAF1h0RRRqgPkKc7AE",
+  "google_rating": 4.5,
+  "google_review_count": 825,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Mediterranean",
+    "Pizza"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Groups",
+    "Child-friendly",
+    "Wine list"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 9:00 PM",
+    "tuesday": "12:00 – 9:00 PM",
+    "wednesday": "12:00 – 9:00 PM",
+    "thursday": "12:00 – 9:00 PM",
+    "friday": "12:00 – 9:00 PM",
+    "saturday": "4:00 – 9:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Family-run Italian trattoria in George's heart, serving traditional Mediterranean fare since 1994.",
+  "description_long": "La Capannina has been a George institution for nearly three decades, tucked into York Street's bustle with the warmth of a genuine family kitchen. The Ferreira family runs this place with the kind of attention that keeps locals coming back—checkered tablecloths, proper espresso, and pasta made the way it should be.\n\nThe menu leans heavily Italian with Mediterranean touches: wood-fired pizzas with properly charred crusts, hearty lasagne, and seafood dishes that change with the catch. Their veal scaloppine and prawn linguine are long-standing favourites. It's the kind of place where portions are generous, the wine list is thoughtfully chosen, and nobody rushes you through your meal.\n\nThe dining room fills up quickly on weekends with families, couples, and groups who've been coming here for years. It's not trying to be anything other than what it is—honest, well-priced Italian cooking in the heart of the Garden Route's commercial hub. Book ahead if you're coming Friday or Saturday night.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgVtxzDAF1h0RRRqgPkKc7AE/photos/Ab43m-tLsszRYTV6sfam4lJ38lBDUnAFJV3p8-jbONZA2Csu7iqxscD3r_gf86BEDn_Ps2gH6QshISXAh7WlynUJd56AmlB64sCdZ72dc7h5KinMDOpWZtD2LsnZQnc0yRhsshBbN0ONtelmj4Oi-S97y9EDaYFLlNTUtsXm3dDo2cdeGbPIbLAJUpbQk0PJVybm5PThgzKGYGG6YLHXUmpPgERag5EY9i4cY4ptqeM6U_TkmRdAv7Ub8qu5TOvKRplMRKmZSsW0onJFdYXoD5DRRQwSPvnkF5EFSn8nC3veq39wpg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgVtxzDAF1h0RRRqgPkKc7AE/photos/Ab43m-tJsdyr6K62_fYXy8_sVPiC2B2tgc0MDV4F77lzXFLSWfroH__LZpM6POX4Ml8sghtor6K78MYlpZXj7T8Aw5aNdZJzrQZnfVc0But8i1Ra99XlrCIrDTxn7YsadDhp5fbaYPkmgctCejZ4T-N84K5GvYXGwExUIfqE0sKxlxMWW_3u04OSelRmAAdQVvrN4fQgR6bI1gYhOWRS0XyDz7Jagy7hBMesHQ0rir_X0nrIBXhGazltsW61NBKw5uU-DCMorDTF5FJZu9ZgHV2m8IMstTMeI6HsE2hBfiyOCZIEWw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgVtxzDAF1h0RRRqgPkKc7AE/photos/Ab43m-vVw4X4Wfmcv7JL6Gn_Ejq3ESzplA31gnaW7sGbslg94Kbt2nn7vVWnflyd7hIRXMVBHQmCLaTWw2SX2aQ2RfwRukDfoTpO5dJKCjwxVyvSFj0jJyJP8GK8nlPanle5kUxLZflkNGD2RR610rhXSzmtThXV7DZ-bWBv5i-25ASFuuO5E9SuuQYXqnPqvmuluDO372kpzvae-e34FyBViOfvDfBSfASZHY42oli7mL-sx5VNK9aIjmwtTddSF-Hl7OFR1ilO8v39wiEU3StpW7K5Oq2MURUbto_M-l1leA_mkQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgVtxzDAF1h0RRRqgPkKc7AE/photos/Ab43m-uPhN5joWurrM8V3spiK-4sgxdKjqQikdZnf6-NomajxMBTyJJ1WZDuTpUnJkxgqlQdyptSuWH_eDn7ilg_tALSOOVEyZ_SxSIG01U46sWoaCQ_lQkyxIdoepFqd7n5LRgfn2M4_IRi1A4SdywKILk2lD8znZaekgkYeHbscFcxf4O4ZorstHGK-7X8W-9jvbeXBmkOEMvFt_EDv33Z6zZ9uvmw3nhwIa89mIsbn79GbA10buQ0jS3SCEVeHTb2orB0zGoKS7_jjnXPO3rwn00qKUal0cOCiw550yK2xbmiYQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgVtxzDAF1h0RRRqgPkKc7AE/photos/Ab43m-s7MBvyGny7mHYQFXE_3C-bEdLQOJc7Oe1R9iwVwChnoDmg87pLTWrfSSWAznNq3rQnhLWUN7WDtTmFNbLw7yoWRynOfJVwPH8Beb0TIUMR6ZTLwGEXPJt_1lD3NJdQLfFL3vxsiFj4s-7vc3VfSkibj6zaRpWYtvimzelamR82Sqij6RVGH--nqZFItRc3pijPMQKnJ8auDwvvs_wxxAGkiVXH_KsFzzTae2Oj_lgZNicT4qUjE4PRJg0D9jMN99vBda9uiZD3UhcQEyBDGIV4sQ21Uy_MRdPayz55KZXTzQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:31:26.806955+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

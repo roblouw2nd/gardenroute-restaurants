@@ -1,0 +1,72 @@
+{
+  "id": "mojo-cafe-sedgefield-sedgefield",
+  "name": "Mojo Café Sedgefield",
+  "slug": "mojo-cafe-sedgefield-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Scarab Arts and Craft Village Next to N2, The Island, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.009931099999996,
+    "lng": 22.7813601
+  },
+  "phone": "+27 79 804 2198",
+  "email": "",
+  "website": "https://www.mojomalt.co.za/",
+  "google_place_id": "ChIJlbipuNqjeB4RcnmZUuIZaGw",
+  "google_rating": 4.9,
+  "google_review_count": 64,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Bakery"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Dog-friendly",
+    "Garden seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 4:00 PM",
+    "tuesday": "8:30 AM – 4:00 PM",
+    "wednesday": "11:00 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "8:00 AM – 2:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Artisan café in Scarab Village serving craft coffee, local beers, and homemade treats with laid-back Garden Route charm.",
+  "description_long": "Tucked into the creative heart of Scarab Arts and Craft Village, Mojo Café brings a bohemian vibe to Sedgefield's café scene. This relaxed spot has become a local favourite for its carefully crafted coffee, selection of craft beers, and homemade bakes that pair perfectly with a lazy afternoon browse through the village's artisan studios.\n\nThe menu keeps things simple and honest—think hearty breakfasts, fresh sandwiches, and daily specials that showcase local produce. The atmosphere is wonderfully unpretentious, with seating that spills onto shaded stoep areas where you can watch the world go by. It's the kind of place where conversation flows easily and time slows down.\n\nConveniently located just off the N2, Mojo makes an ideal pit stop for travellers exploring the Garden Route, while locals return regularly for the genuine hospitality and community feel. Whether you're after a morning coffee before hitting the beach or a late lunch among the art and crafts, this little gem captures the creative, unhurried spirit that makes Sedgefield special.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJlbipuNqjeB4RcnmZUuIZaGw/photos/Ab43m-tOYNf1dpHxEKNrRVJ7krHblYo2VOJBO1aZ1w025jBnKHkTwiuGwinaeXtUzYTTAwh54EXQagR6Qx0nXpq4L3-nIIEukdprTdNSPqDDvSt1LrIxAAyJmdabWVbTT_TngNXZCYX-hjI5gNCLFHXJUiNK6kVhdQxPEEiH1OmyzSj4PIQSx-RGVPilRpwKF3ZyzvPPKaVyTizPZ7hB0jMRwW0qasEwv3iT99valye_gxpQXkt_4I9r04nW9qFptH4BFlcuq5F60pMrdDb-zX9T9dyKeB2zNCK58ArSd7KKIDiF9w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJlbipuNqjeB4RcnmZUuIZaGw/photos/Ab43m-vcBGyqWPAfsJVR4yV4hAkxkJAAawnMSRNLK_86C7gY9Pxg7NuB5y9YhUI6pRLJea59qNcWi84y304q0_4d-VYaIGaHM2GknfOidocLuMBERY3sxkbgjyQ87fhwrRY-9YVf1e5dpwYCGUY3F25bnX5PdsolswkZZmV1Aw-bQGJYZ-aCX3Z5QwuSYGQYTLw5wdSA1vEkGCGN80muxON7RplhnwPJVY-6MBs_rKrYIhZJxsqgdkhKFzoQCuzTzHj3AzXeS2FpDDsnKB_KE0zt7m_6iBkxE1d3O7bJ_cKqK2IiEA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJlbipuNqjeB4RcnmZUuIZaGw/photos/Ab43m-sdDVRMgdbfLdpZcHxcAv3IacjWA3R0R87wD8rqqREzsD7mCXdEhJRIfBoRxE8DP2HS3Zu_XpKK_5w4YkcIfEwPo3HcY1DrdYayYTZnvKtSeQkddO3XiohgSbqiBT6rEO4_n2fOoaU08mXUZG78ynXCZT982Mi-dswX2VMDhnwRAs7Rbm5ZA819Yvz9x5HyPZJyN5hvBPlg909RBrx-SWsBJksm2-NkeXq-VdVKSFComgwIGiZ1JNbHYx4V0Eifm7YOOFdAhfAb_YVRE5YXdtG0ykKO6ee02_zoJre2TN9FOw94zXUZTHd9LsqkInXDUy-c_4UTkNwN0AJyxGkYYVsBmABuUgORlifooifpKAinBJ2LrscbbIK5uQS8GxJL09HNeiWKo5jBnKc60I1rWvzhUJoE4kdXdOUY5Fs1WITg7WdjDD_CoBI4Ad-BKBMw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJlbipuNqjeB4RcnmZUuIZaGw/photos/Ab43m-stqqZXUcuAtwtFRytYUBlb8-8cD-JoubrAAUnyu32gIIGbiYiAY9IqUBNh6Qs1UGcATAAL4F9Kftj9ZaqSXP3FRnqFwFbJV20boEle7zDZzS_jn2KhWG-78skYUx5SKDjZjTsymemGvQIUhQVXLui2knJI-FxikMD7WO5NP7Eis_FqCU5uAsZtileRb4MrXyNxLz6lmSUgx7FpT4qsf6fqz6mvTQ8T1F4YXmaCwJ0JZZ67SS7iU2Z-Zlp_tdxz3yONbEIrMow54NfAC1MQu6Ik8IKi9r5GP3AGb6In9qyiDhYwRJLPSGDbLXjuFU_hOCMyF4LhjdHwZJKQuNHsSZZPL1VY-RX764TaBCn-mZiDYR9XaTIughB25fkcJbcISPqBzWWXN9PdoKuVg5682CXjvcmdAkHu5xxPZNHVobfHtNVdsZmrEejNIXYbxx2E/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJlbipuNqjeB4RcnmZUuIZaGw/photos/Ab43m-twdOANYuCifz8TRZjkOtXAWY9yJFRnWQtLexXkh13pvfhguH1-P2zJ76ZQHNxPv8RP9zv9X6jzNRfnYqEC1taJnJRqWynvTDfOkNsXKVL2TFSnkKNNYOhrK7GAKb_xZ6UfZhYy_1pt85mEGF02NsbF_kkdUgpShM-nyr5kZ7n4GDJI0f545NhHlmSa460oEXge8bO7q2JxDwgTpevExGbba979KLaWl6MzNGcKLtSyFpxnha55ChI0hVvGO2HS8-nSW78TIX-5SFSVnkJKnNmsLxNSKlomfLnzOQIEFOYK3xyJ1zL4n2sCLBCs84hvGVXDZrVR5e6D5__CFrSyg6YfiDfS4wzkbFXhRGYye-pWBoy--jPPGMGZsrVWUm-a5t9HI2aTfNy4pO3TAl83FkCsdxXM_UKN6jSsN4ngSgf-t4o6p9DH3HthUBm6Uw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:38:47.412555+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

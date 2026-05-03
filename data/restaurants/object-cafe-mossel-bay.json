@@ -1,0 +1,71 @@
+{
+  "id": "object-cafe-mossel-bay",
+  "name": "Object Cafe",
+  "slug": "object-cafe-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "48 Marsh St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1828313,
+    "lng": 22.1466894
+  },
+  "phone": "+27 44 333 0124",
+  "email": "",
+  "website": "https://www.instagram.com/object_cafe?igsh=c2xub2hrZWF6enI4",
+  "google_place_id": "ChIJAXp19Rtp1h0RKzAz2nd_zCM",
+  "google_rating": 4.6,
+  "google_review_count": 195,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast",
+    "Bakery"
+  ],
+  "tags": [
+    "Takeaway",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 4:00 PM",
+    "tuesday": "7:00 AM – 4:00 PM",
+    "wednesday": "7:00 AM – 4:00 PM",
+    "thursday": "7:00 AM – 4:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "Closed",
+    "sunday": "8:00 AM – 2:00 PM"
+  },
+  "description_short": "Trendy Marsh Street coffee shop serving quality brews, fresh pastries, and light meals in Mossel Bay's creative quarter.",
+  "description_long": "Tucked into Marsh Street's vibrant creative hub, Object Cafe has become a local favourite for its serious approach to coffee and relaxed, welcoming atmosphere. The space balances industrial-chic aesthetics with warm touches, making it equally suited for remote workers nursing flat whites or friends catching up over weekend brunch.\n\nThe menu keeps things straightforward with freshly baked pastries, hearty breakfast options, and light lunches that change with the seasons. Their baristas know their craft, pulling consistently excellent espresso while the kitchen turns out genuine homemade fare without pretension. The vibe is distinctly Mossel Bay — unpretentious, creative, and genuinely friendly.\n\nWhether you're grabbing takeaway before exploring the Garden Route or settling in with your laptop for the afternoon, Object Cafe delivers quality without fuss. It's the kind of neighbourhood spot that quickly becomes part of your daily routine.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAXp19Rtp1h0RKzAz2nd_zCM/photos/Ab43m-s6WlNOtnYTrGvWitGTTbEuvt9ROrBgSwLBz7MGewcrYXm3CvDVUQaMwqYh9aKkn998xS7tYy2D2_NM2dhoeGQB9UDurLfG26cTs-qNJpr2jevw6zlvz85vcnjoU2ifVh9O_yo3zqXy5y07bm1yfsZnQIrFLh_CUWtbLeUWJClt6MoshQr8caJyAtQsNFKze72zmzYiI2G_WkURk0sl4EAYYIqD9s_td8GeT_CeUvvut7yFl4zBkmuu-d3FlvFf-2RrragSkWRK8t_NqUBnx8cDoby376LnvQyeVK0cMfTgJrGzRaD7EvSJ-YmkwbcTEsfoMXhDr2IqmFnI5oL4JwkpeWdLKjSk6W3g7Fy3yyijwYpxhKoghP-ByzjMxykerNc7EnWDgL-Doz3E17KabJZWso1pMXf4AQ9gKG99hkcM0MdKwooZi-vgfjaqrsop/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAXp19Rtp1h0RKzAz2nd_zCM/photos/Ab43m-tpqL2FlajHbPe056S_IuKLX9G25Ssae5z1ORQm69ZFSBqSzZ7dckTvIVmZ_adFCnv8kiG4zG8zADesqZvmMe58jQvU0hzzCsOqLhXIfema1q1OnvsQoDGxiKnmpwwsI1L0B37EUYzj4bujHQKJ8IgkK6HLkwVrRTd3l0qlKoKwR15JjoHDQQVtOsCJdG-U7RN7EuvAxhSdRbMWH7aDz8hRKiL0bkm7_MnfewNYWLS1xLvmHNMswYCIbdsYKb0oV1J2kAWmABNXCKeZkLyGH9ILU97gbbN2eWcRcxQlQGIJdBdFtFiPASVkQQIbPrclRshOBwvq7dYIH5WCqyuozf6wGKia20bE_OolpZXF3a9AlFYO_eyyYOPmxDMttR6b1gQMiMX7oLb3xzBBtg1eLGhOyfOFKLgd2z2RIAvkmZ3Ey9Oa/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAXp19Rtp1h0RKzAz2nd_zCM/photos/Ab43m-v-C6VWPv2s2Ymvry1nYTEY9e6CWKiUTZPgDiFhTw1ivjRUBJhlCAlxnpguIVDtShWHnRYAUKWmubmk1juXyljgepmOW_x9Hxhr71c-eeNj44nUXUgrc9JjshaywZOzosLYBWyKR1VYCOxsBbQK2le51K0AEHtJoV3oGxzJAD3uex7ZCXqfbkhv34H8vuJDw-EdO0Tg7aFiBMhoMQ-sLpUyeSkrQ-553l-Kewdg3HTJM-1-rMisnj1bWQM-hex3vLVk0YNjP0fjdLcgn9RcRjrrW7cJfYAVGA4hy7hE7HEJPvIF7c_yAtdeBwptAVma-ILc1UsYchZE-W0b4n1EX72IciijgD3yXVy-XX5OzsyyGDTv1-mIaoeYt1oejPjtb5HIBxWElmn-8Srrlc8GGeknZkn7wntanxrbuO8xQJe0rA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAXp19Rtp1h0RKzAz2nd_zCM/photos/Ab43m-tTIaNRk6pe98LbbQ0LgxiYRLSjY_T-6YcNIYJUflaHRXn8c083HOv02Qvdu_P2OYTWCryE3Nbl2WvZIP_bxBu-_ljPFEf9PnfqChEi_OhNuCQyYqbzVNG5j7Z8QQQizSwykNuQcUjdPYiXrQDx3hyaR8eiNkexW4ysYnpAcyZKdPiSpjfBJZMlHtxDeWpmnkZg6FzblhNxWlr1tcmR8Y4NgjXIUAYE-OmsS9lkwWdK9S1pUhEmfkSiwyOo97qaQZ4eOsd9-bvKGcDQpeWcPEEnKnl2-9jXvcfdhoHu0V4kLJzW7tCVjyRU8dMvfDfCJCWCCMW8m1vImd8zqcGMldFMxsr-FIykRXZkbzf6mkUcV0ulsStK8cxUo71bvabxsJP0xKWU1N2K4JYXXjv7rP22P2vxXGcpl1GO77xzPV6KsyVpMJSXKkqGdBNnXA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAXp19Rtp1h0RKzAz2nd_zCM/photos/Ab43m-sLe1pEVdiwRdDFwXFHiQNea8FocMqz0-7Ndm1sX7VPvwIC0jsxIsv6Ppis9-sTa_FdEo-DYmvOB5sSu7eZl0AhJT1jXAewRyXe4IQYmYrBBoyQZLd5koVHKe2ZrZyupdAQglMnW268N_mHkrP8JoxukJ-3ySS25qHYQ0zQ5ydNy5T1SnQgjKk-GUXnqGfQapbzb848fpOE8z8j_F0YpgzNcURnqdLQtBHXxSBS-1a6wikiQJKYw6MULCLPg4TQTpHL_F47_z4AX7Mk_G9Zu4zqFdQ8Z_Z92Dns8lPQxgeAeAdlPaN3IaAOxsHjcHSOv46P3B5JQWdpOAt_3q7ICd2jPimKWOUvrU6hJPLwZL7YcVPigYm_tSGqHPoC50g27ycIon6VzOihwYxB2cFnY6YhA1tSslkE7iCJOA3rzJf96IuScjgqo74f8XRA4lMd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:28:35.431244+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

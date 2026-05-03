@@ -1,0 +1,71 @@
+{
+  "id": "kafe-serefe-george",
+  "name": "Kafe Serefe",
+  "slug": "kafe-serefe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "60 Courtenay St, Bodorp, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.956110599999995,
+    "lng": 22.4615363
+  },
+  "phone": "+27 44 884 1012",
+  "email": "",
+  "website": "http://www.kafeserefe.co.za/",
+  "google_place_id": "ChIJYzNMijAF1h0RYzbF8qzA1f4",
+  "google_rating": 4.6,
+  "google_review_count": 542,
+  "price_level": 2,
+  "cuisine_types": [
+    "Mediterranean",
+    "Asian"
+  ],
+  "tags": [
+    "Takeaway",
+    "Family-friendly",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 10:00 PM",
+    "tuesday": "10:00 AM – 10:00 PM",
+    "wednesday": "10:00 AM – 10:00 PM",
+    "thursday": "10:00 AM – 10:00 PM",
+    "friday": "10:00 AM – 10:00 PM",
+    "saturday": "10:00 AM – 10:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Authentic Turkish kitchen in George's Bodorp, serving fresh kebabs, mezze platters, and traditional sweets.",
+  "description_long": "Tucked away in Bodorp, Kafe Serefe brings a genuine taste of Turkey to George. The aroma of slow-roasted meats and freshly baked pide greets you at the door, while the open kitchen lets you watch skilled hands prepare everything from scratch. Beyond the restaurant, there's an on-site butchery and deli stocked with imported Turkish ingredients, fresh halal meats, and house-made delicacies.\n\nThe menu runs deep with Turkish classics: succulent lamb doner, char-grilled Adana kebabs, creamy hummus, and golden börek pastries. Portions are generous without being wasteful, and the baklava here is worth the trip alone. Whether you're grabbing a quick gözleme for lunch or settling in for a full mezze spread with friends, the atmosphere stays relaxed and welcoming.\n\nThis is honest, home-style Turkish cooking served by people who know it well. The location on Courtenay Street makes it an easy stop whether you're passing through George or live locally. Come hungry, leave with leftovers, and maybe pick up some Turkish delight on your way out.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYzNMijAF1h0RYzbF8qzA1f4/photos/Ab43m-tiWeohvIgqk_Pr6ruIaVDoh17DAgCusCyykWVR7fFjwMo5AhzmriKf4MaStzvAoYhV9XJYA9WHSWA8rfP8-tEHIyS2Uy7RLulcQHnidwwqO1FbEKQIPKLb6OSlnrHcLjiGReHYGSkhOX2Sl0aXmU_UgsQRvUaialNk7IIGiKO0hV4un0bIdt9UaCzbwTMj5ihA28qHbE9vGbfc-LcQ-34kXARpUp3C62tZXm15YRiaFUjGMpy3fPQYkL8i5G-Deb18sMB5oiNvek10tG7YVXtyPM0heYk6h9YckiIcSUEa-w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYzNMijAF1h0RYzbF8qzA1f4/photos/Ab43m-uMM_LHtZig5g1EXx8st2W2GLDbE58fYVY1jMMrUsxMGIT1FIQdkcRtGTqGfa2EpQeorV6wNVMN3u8GptY4ilo0Rqq_wXZ5FaHvBlNKdsychHMWVu61Fcda4OT6L1h3xCqG19uAlEF8r-wnFGigxi_xYG5zdEJix8QXLaz2bztOZQfj9IW_rgaFt0Hu9qrEeFVjeTXrfdMRS_aQS87VYMmUMxpHssL8zfsi5XFbJkcVDo9nh3jBCS9fDP92A0m_M0bABcUL7tSgf_h9CcXl94ywADlEEc_bU72Rdm58NOCyeg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYzNMijAF1h0RYzbF8qzA1f4/photos/Ab43m-sUn6nrUh5N1I2DfSU7RlLjlV2TdJh2OOwdVwk7l5g8OpkjLlZZmzSi6Q5fJkZsqzUA5VpaNUYAwlFawlAQL1AeM58zYhlE3qeAy2Fh48kDSPERRGQAcTKj5sQCk7mSgZdUCasB_QUns2-3fBjxCm3bv2nbDkgwOjqnxTdYRoqDUiQELsj9O1fuBQKD6L9P8vlGfIelxfpTEuYZzXwmNqKys_9qj87rtJd1E85rP8o_PaZBTPipZdakxJ-Vm4tLhW48VeVJuFphHpSp3RzvKeu0-b4qBL9wMwhJD5hIQShBxw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYzNMijAF1h0RYzbF8qzA1f4/photos/Ab43m-sleJ8R-PBcXjEtsJ1UwFKcMFWzJvgIchQ1-XYqU7JxXIvoFCYRfVv9-WKSDohZEtjyH23xiTg7BZSADv8L9LgePHT_RcZkvhNtoIze_mRryChH4Er23sts2Gja4dqVGENr7DjPyS5owk94_VMXqLnSDfS4cNUsD5SUCFQzFBfMs1YcQh2k8t3zwvoMnfbra7lNWUZp-se34dNN3_uWnkkn_riWGgAzCU0oVwhA6CBm3FFpmaA3MLVrtMlaEtrjNuy9uSKi1ZQ14uTWXBUI8WRtXVfvv_Z4k_iW7R5iib3XMQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYzNMijAF1h0RYzbF8qzA1f4/photos/Ab43m-sCVVoJt30ogKPaFJ_Cu3AVNUZTTK1OYgbSeUu-8qCC4IUBqKPkNhHe28Ye5LhreF53RkGwKqo7W6P3m72rl7aBayubpUKIKCuk50wahS2Ckvz6ruTAlWkAB6ZYebQI-0gtDwDFNfukEhbbsTbv-LMtg3glUZ8Oi7x3bmK0sJwDO2EYR7aGbGUmkMwQnwKz45MnItqlkWUtG8wfgwiza0nbKtTgB5HxpckXBxwr7JZbFpyJsblYFcJPA7-uwG9iP3T92m34Oev7C93LOx6WWv-aFuxAkW7POLduUwTJkMT-JA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:33:17.685616+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

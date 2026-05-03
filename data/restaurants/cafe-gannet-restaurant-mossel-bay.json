@@ -1,0 +1,75 @@
+{
+  "id": "cafe-gannet-restaurant-mossel-bay",
+  "name": "Cafe Gannet Restaurant",
+  "slug": "cafe-gannet-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "1 Market St, Mossel Bay Central, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1800528,
+    "lng": 22.1424506
+  },
+  "phone": "+27 44 691 1885",
+  "email": "",
+  "website": "http://www.cafegannet.co.za/",
+  "google_place_id": "ChIJWRBI8R1q1h0RYX5N34GYOmU",
+  "google_rating": 4.5,
+  "google_review_count": 2409,
+  "price_level": 3,
+  "cuisine_types": [
+    "Seafood",
+    "South African",
+    "Grill"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Groups",
+    "Wheelchair accessible",
+    "Waterfront"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 10:00 PM",
+    "tuesday": "7:00 AM – 10:00 PM",
+    "wednesday": "7:00 AM – 10:00 PM",
+    "thursday": "7:00 AM – 10:00 PM",
+    "friday": "7:00 AM – 10:00 PM",
+    "saturday": "7:00 AM – 10:00 PM",
+    "sunday": "7:00 AM – 10:00 PM"
+  },
+  "description_short": "Harbourside Mossel Bay seafood spot serving fresh linefish and classic dishes with expansive ocean views.",
+  "description_long": "Perched right on Mossel Bay's working harbour, Cafe Gannet delivers what coastal dining should be: honest seafood, generous portions, and views that stretch across the bay. The menu leans heavily on whatever's fresh off the boats—grilled linefish, calamari, prawns—alongside steaks and pub classics for those who prefer turf over surf. It's the kind of place where locals bring visiting family and tourists stumble upon happily.\n\nThe setting does half the work here. Whether you're on the deck watching seals bob between fishing boats or tucked inside when the southeaster howls, you're never far from the water. Service is friendly without fuss, and portions err on the side of generous. The hake and chips is a reliable choice, though the seafood platter showcases the kitchen's range.\n\nIt's not fancy, and it doesn't try to be. What Cafe Gannet does well is deliver solid seafood in a prime location without the pretension that often comes with harbour views. Perfect for a relaxed lunch after exploring the historical town or an early dinner before sunset over the Indian Ocean.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJWRBI8R1q1h0RYX5N34GYOmU/photos/Ab43m-spHVwWyfCkqUAPRDecRhXHmT_KWTj2O5Q-F4KR150yo5v4Cst3j10JiQFgE8FHtXO9MWP7BhBSOrdY8hvHxzxq-CaKFnFDCt0sPDsnFAs-uf8ILC5qOJAbmmGpVsKkFkPmuwhqiJLo5s2lZq1JIKPaAG6-2Pzrde0w3wtAv-mKYjzNFLBuITHOE00dm148qDpPpNwSTy9zjH0FbuyBwd3sLWobYSsXvFhMagXEdqyoIH-LKYgyCww6HYhG3rRktEWLNrI-e-lPkc0fxDpzTh5K9fWM7WsFTGnD2BhDEvpyjQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJWRBI8R1q1h0RYX5N34GYOmU/photos/Ab43m-tpGld5VEoot1SbYmpazmZY-Z52rcsP2ZGhLENoppK7bFhhDoJvEkRtRfulvDU_8yPXelnXDHcTjwJX-q8LK6fUz1NrP33a5NwfgZGvUjM9o2kwo9vhP4lj1eJOWcMepyHsnM5Q_-oeri1EKravmnNASMp16IeIL1jDixDS2NsghQT4SXx_aHW3VBD_eUxw3us-qA2FfuI9Jqjg1kRVmtee0xcRE1BPsYeHzou9Y9pVa3dBVqgdCSRnELAY9flk2ClUgV3qLRV5aXNjnS5LdhbJQhxazXKnN2uKXhwgevsnkgHjZqjRZyUARNkwI7RUvvxmtc9AEB-T35vPU2d0FKINd0HXmEb-y0AdKZfMbm8IP--eW23cN4Go2dotyTc53_uFCHU0HQf3TINQAf6fPN5dYzp1NF8qIXlesgm2xLWVMh0JwLLe1QqNOVGAVQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJWRBI8R1q1h0RYX5N34GYOmU/photos/Ab43m-s-n6zw1eaWR8CtNeemU1bS4YFuic4lzBvbSBh2DgBjPRklYBm-XlSu919hg2HLaaBXUw2XFgFvg1t5RFHDTbBW9vZ7yaMob7RyuW1J0lnHrTnDvd1xB-eCkbd1gB48xaAsb_p5SXVtOUdpVJh9536RUfb-x35Za0o5fFkeD1puaZXFmwWG75NaU-CBBEKbB6vCc3RfyjPraFIolLn390sFIzZSw_uZNgnglscZO-N9EVEF8Rldu8BG0PWF1vvHtHIJjmK7PQQaWobPfLH-1pHJ1IeBco1kExGObFapnAMaCg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJWRBI8R1q1h0RYX5N34GYOmU/photos/Ab43m-uIXpGoPpwgOu7RwwIuwym2g0YOU-y3jpHppTV6Fi6iN-Rjx9MLy2GJXMCKudSQWVDd30YYCXLU-4lJyeiFNtD06SHk3LB9q2BSERwssUciIyaRJoA1tN8-WxJObxdEQctWA7KVnUF-0vyqfsS2iXNF2TZUF9DcN90fhvfTSGAKELrOcxwbAOLceklw7sYYudp6no7rj7pCDm9meF4n6e9IT8Pmo37HPxZ4L-ixmxFgsBXF_gL92gQQRBEyyaEj4ph8AxiOMwKCgcMSF3tqCeWyrNB-DzYyScPhuxWz44BhExX8-wo5OLhtbl-iLrDM1z-6n6e6ps2s_ImKgD9WDbYvzDCeAcDCCEHcYwAprvwvt1G9FtgTI6bgtYOEwOEgmF1UESp2xawusDijmPvZoyKc6WSsUkJoKt0WJMbALVhzLAVeGbj0z27ozk2f4zAo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJWRBI8R1q1h0RYX5N34GYOmU/photos/Ab43m-suOW3b3wlkIR9qTWqOEXLOG9dgs9mYEFReYzjcEqD17c3S2vFzJ4Vmss1Id9XLdICoHzcot1MoG6RSzaCan-r4ujZ5g94VZVP3faHA2oFH_Y_Eibn25WyLR74XRZsAkIB544NwncXDeW-n5LojhbedBmNAvFIYr8KZEuzQJThOWmT0FRoHhcDUR1neonu60tFsYUcd2_laxVZX8b7eSyFqrdS_IVEpBd0WwUMkIZLKLPtQ8LiKxJeaig41fvakXFbe_wg3MkfBmbDJ-4pAMR45ULmR2eVcZcnGvVIJZc9fTj0ZTjj2QaUU19iO9dt1z3n8fJFbBAUFnQAhOuFNdjqyKvsDmwEo6ZpbA1xrbV6lYY2dP8Kf0jRW-FWjNORTcThE2c83r774qEU7elnWt5qdZ-e5I59iuYDedPxlZBIDe0zR0ZP7f4hOtppBQQHX/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:25:16.811891+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

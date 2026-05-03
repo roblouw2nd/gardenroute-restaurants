@@ -1,0 +1,75 @@
+{
+  "id": "butterfly-blu-restaurant-knysna",
+  "name": "Butterfly Blu Restaurant",
+  "slug": "butterfly-blu-restaurant-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "198 State President C R Swart Rd, Brenton-on-Sea, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0729919,
+    "lng": 23.0198552
+  },
+  "phone": "+27 44 630 0601",
+  "email": "",
+  "website": "http://butterflyblu.co.za/",
+  "google_place_id": "ChIJP1_tWSHreB4RGfPWo_qHXIg",
+  "google_rating": 4.3,
+  "google_review_count": 1260,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "South African",
+    "Grill"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Child-friendly",
+    "Family-friendly",
+    "Waterfront",
+    "Sea views"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 9:00 PM",
+    "tuesday": "8:00 AM – 9:00 PM",
+    "wednesday": "8:00 AM – 9:00 PM",
+    "thursday": "8:00 AM – 9:00 PM",
+    "friday": "8:00 AM – 9:00 PM",
+    "saturday": "8:00 AM – 9:00 PM",
+    "sunday": "8:00 AM – 9:00 PM"
+  },
+  "description_short": "Beachfront dining in Brenton-on-Sea with ocean views, fresh seafood, and relaxed coastal vibes.",
+  "description_long": "Perched along the scenic coastline of Brenton-on-Sea, Butterfly Blu captures the essence of relaxed coastal dining with sweeping ocean views and the sound of waves as your soundtrack. The menu leans into fresh seafood and local flavours, with linefish, calamari, and prawns featuring prominently alongside steaks, burgers, and vegetarian options that cater to most tastes.\n\nThe atmosphere strikes a balance between casual and polished — it's the kind of place where you can pop in for a lazy lunch after a beach walk or settle in for sundowners and dinner as the sky turns pink over the Indian Ocean. The outdoor deck is a drawcard, especially on warmer days, and families appreciate the space and child-friendly menu. Service is generally friendly, and while it can get busy during peak season, the setting more than makes up for any wait.\n\nWhether you're a Knysna local or passing through the Garden Route, Butterfly Blu offers a honest seaside meal with a view that's hard to beat.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP1_tWSHreB4RGfPWo_qHXIg/photos/Ab43m-vFrwXMFmzOEyCGaP8lrJJAlINLmBf-nteBdDP9sYBo4FIoLb_fW6Rf6nLcs4lwV1v9Mn_s8qvFrLfrIqXGqaq5kRBS0nR-RZv6UgZwHcs4FEHd9PUx54fUvgrK8ylQuetoTCE-Q6M0vUCI6IL5eZFSfXjRsi3zoqdXgdbN1Oiayx5mhJ7R0T-Tz2BOKg8exsqJz5HUJ87rFHXCP3zp7bLqRxlm5mvjV170EuCzHlU5PN-bo4vs0AAccs469bs1mvyN0KbeY8WS4AmeVdfasjDFD_3FmlrWN71BYhA49595dw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP1_tWSHreB4RGfPWo_qHXIg/photos/Ab43m-vZJXCUulRwNUP5VlnMFYjWkmHvHJSNCVVmwJ98gkb4h-LQt27qU_fKGaWSNO6vYxIr1ZNaKaw9oxJzucj64f9VbfTvrCyxflpLkzKXp0fBmIK7KrRTVf6Cligr0OP1aQbGniUZwe9nzUNJvRp6wVdbWMclwHhGy_pZOB_Z9N614EEBzTr3HpIyezoaP-6TLZt6HLUuuCtmA-R7ubuKhxuMC6BXreHvHw3sJ9cobs4R70I298ygWgNshRGviIPE4StvnKS3xqNrXQaYiV7fYRWXodojU9CCveNflz8qKqOsdg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP1_tWSHreB4RGfPWo_qHXIg/photos/Ab43m-uIGKfwTM_GuEMCucXR6gzxernwb-UqRnlvsoHs93J8NriLbFgFLdqTCZFFsUqEbM4vcIP-A9HpUXfU08ejf29QeqQwKhRnmm1muqBRgnjVqADIMLtLf0ZakIIVkP63RtzNpSvlzK01V4XuTrWXF5jYzGCH9c1gbhnCUkzOwJLdlDyKS3Nf8TNbShRyEwONWPu4FgloYnoYHwPsnutqudf43n0xz6c8FbPWL2eiHYy0V-7AJjWrjovYEmAG1D5bAAODgnb1fr908tac6SkdDiHSqVtkcHd6tlZjeTOBEzoxKS3-gW6pFQAnwAvQ2i1KGV2Ur0L5uGJYO1SOvrIU4iPIXwKiinkTjRnQsJPehANJk96v_Rn4de9KrZXQWIjw3KK2WCpFASUdQro3Ggs3Hi_n2QptHpjITo0Nwmv216XxCnvogAt6CuwWvz7ijVBJ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP1_tWSHreB4RGfPWo_qHXIg/photos/Ab43m-vcC2H0wLSgbM6XyoghmHA9LclbWjiwemabCWZnqDmZ514HaJ6rhIYfowZejtMUk29AQkeCKcyg-TzUzuVlQwkvW5G5JvjD6mlYUBG9sZpa0bL2oiADKTUTLnQgQ29ugAezVJsK6u1Z79bS-2-R9BtX2RAXzrgexi6KGA727J7L7eSeYYeRA5NOSPXCrsrJ9w_pSagSaxqXMiu063ao9-QKLtAzSfcS3n-qAAEHMZFER_uV4JEqcuPKlnyYBZsswrat9OfB11TSusjAdDaMJB8W6i4z79cFoMda9fd6DvL8i5Sgnv_dNyJsCP04UREbqixehd_cIc8FpwpA0lY3BCJH1uiVuC2-0axqDwIRfrsCI2Dmva6GddB4cWxMBVjmAu_Z5p6aPLIVNppXfqU5udbl1OUAc6EYqRU8HpM7AmE3_c5WZAkSWt90ynMDRnIH/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJP1_tWSHreB4RGfPWo_qHXIg/photos/Ab43m-tB3ta2bP6TyqRXLrAVfMmfdWtSiMRMCzspiiEsB9MwOPRdxnFr-Q9NbsEleKswKrBNW77bUyV457D4i97vdR6lizcE9jQzDdh4vM1a6W6svHtgEnTOg0eLJPD1RUjgIj9C_aUhbPn6NIC8v_CSHcDUEOmG0c9QVd5Xr7U_ZfeKffyinm8ecLIEjqajoVoTqs3SF56WVtCquCGyDpxXFo0R_H9YW2B-WCmZFVOc-Io3YDOFroG5YcNvzykHznEs699KPfpqLaMtGP8HKeirSK8wkFWtw7I_Hijc3dNORl1du3Y1o-XCk-io-yX5sqLhVgGlrfRdDBmMZGTJvGjw-1el7ZD8G27DIDuSVPqwh5zQ-vMAhDNAo4fxCHiG81RCx6Efhua1-WDf5xPH0kb_oja2NDAGfO8FzJV6GD-gqG-uPqgYYAlGO4hliTx-JA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.528297+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

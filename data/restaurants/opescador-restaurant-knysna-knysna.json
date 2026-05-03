@@ -1,0 +1,74 @@
+{
+  "id": "opescador-restaurant-knysna-knysna",
+  "name": "OPescador Restaurant Knysna",
+  "slug": "opescador-restaurant-knysna-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Shop no 20 Upper level Waterfront, Waterfront Dr, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0415241,
+    "lng": 23.0451886
+  },
+  "phone": "+27 44 382 3476",
+  "email": "",
+  "website": "https://www.opescador.co.za/",
+  "google_place_id": "ChIJVVVVFefqeB4RgXzQ1RfbNUM",
+  "google_rating": 4.5,
+  "google_review_count": 1175,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "African"
+  ],
+  "tags": [
+    "Waterfront",
+    "Family-friendly",
+    "Child-friendly",
+    "Ocean views",
+    "Outdoor seating",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 9:00 PM",
+    "tuesday": "11:00 AM – 9:00 PM",
+    "wednesday": "11:00 AM – 9:00 PM",
+    "thursday": "11:00 AM – 9:00 PM",
+    "friday": "11:00 AM – 9:00 PM",
+    "saturday": "11:00 AM – 9:00 PM",
+    "sunday": "11:00 AM – 9:00 PM"
+  },
+  "description_short": "Portuguese seafood and flame-grilled peri-peri chicken on Knysna Waterfront with lagoon views.",
+  "description_long": "OPescador brings authentic Portuguese flavours to the upper level of Knysna Waterfront, where tables overlook the working harbour and lagoon. The menu centres on flame-grilled peri-peri chicken and fresh seafood, prepared with traditional Portuguese spices and techniques that have made this spot a local favourite for over two decades.\n\nThe prawns mozambique and espetadas are standouts, while the chicken livers and calamari starters set the tone for generous portions. The casual atmosphere works for families during the day and couples in the evening, with both indoor seating and a covered deck catching the breeze off the water. Service is friendly and efficient, even when the restaurant fills up during peak season.\n\nLocated in the heart of Knysna's tourism hub, OPescador offers solid value and reliable cooking in a prime waterfront position. It's the kind of place where you can settle in for a long lunch watching boats come and go, or grab a quick bite before exploring the town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVFefqeB4RgXzQ1RfbNUM/photos/Ab43m-vrOeq5Ap6suRnZy027QHM2ycTKFx0hq0gTJzKeSkKZF7wyDLexwh5Dv9TLXlCZmABf8vavPOYwdSwTscp-CuLkkwiZE3dT6_Xnkr34j9oZexX-3bJfCv1FQNCwqn9E7kpWiMc7uJfiz5_2NwKSuT2vnzvbtxRhm1pXBGFuPvdjw_V6UdjkCLg8tkG2aOQP7HWNzmB_s_lIrYZNYiYaype4KL_E3w0F2IZGW1TCO2-WXf-zrOW7PhZQKMfMnS8TV01rKy0VTfT1ccFnjwTbzgIV2SHb9iD4f4WsADLWQd7ZBA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVFefqeB4RgXzQ1RfbNUM/photos/Ab43m-uouIj1fyfWLWNlcTFTXYFd5v41EJeamOlw0wsYp2slBlqvsKiahr2BgdoiYDyTvOL8lfIiQKEvKOsbFVQ_Hw4_pckSd4YQX-DgWqZtOv-R3-wSzpAbVPS05ScAM8iFouF5koW_B7IYTAgcGcfZsQbIzKXt7fA3MpixtpDPe0L3QYSKTPZGO4IRmwdyJ_jTYm1xFbkqZSng3pv0v2IaEDGol9fTwYnVcNaLaygxpPcTz5kqWVRwep0dfUhhzIC-aHFWiT68yYiSMxnS_OTnZqVwK-X26-ori2zODqsAgi7Yvg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVFefqeB4RgXzQ1RfbNUM/photos/Ab43m-s58DDyujOaWl0WdQGY2eTAHWt5vMNEuKlAgxv24m7cXsZX7VwegRRg20XXERI_DSo-40eglCkh1mcxqQtqE1m6CM4uS2iQ8DzLGRmIFadF7ivCRT4-koledkotbow9YQHQVhBWXykS078GEEbNmj5Kv_6EzDNEdjhEF2BD3C8t_k4yDxdporl2JCfisywgQNvjd359jKwLTpUJ_prifue-Mq13xrXblhwaXO43i8xTXYkS0VXHl7MmXrWM5oMDH5IhtBIxQc1ywnopojGayBFlUIcz78zRKG1W86MQGhtIqu-g59r50cj9xrvPF6ALGCO3FUKRnGZapmUH8erQE6YMkbaXcxuJUa_pZ7r9Fr4T_lxduvWF2hl2Zifhu617gQtESNh5PYzHY7euoS41u8llb2mOF277PJqFLmu_5_I0lS__-QLQ0HiZuEBfG7d0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVFefqeB4RgXzQ1RfbNUM/photos/Ab43m-vlnGG0Tak9JE6GooP_OtKGyGLPZTYy5LHYm19pHf7xUXQtLwysP9xwojiHODbVAuu1E5z9cP4mYQp-OpZshv5DcK2tMJM9HcDaqgVYbSixTCldhXPJeLkLd2-iSGm2c09vI2FKsHmt-Do2xQrR05i7zq_lxY0VGw6vPMvVqmI6swx0JBW4l4PekPp5C8C-cOFtEQ4ejGPZIubD4u3JKops22-scJSd2O12NNCq399WbRaOS1rg9BYJJJdOHK97goiv9hBdV9Ux9oHyXazoMaqz1DHb0KhkcM0Ngf_Oz2pQ5-o1jfiS71YOg37pTWoJ_i7kjHr5KKjMsgz5iAz4tsrcO7bfgSXMEyyNDB4kYYOI-XzLt1vRkoTAlF63wvHee3frr8YJqegKIRzpJjh4_ZMRly8QG4kcWQRpGEO2SClXWg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVFefqeB4RgXzQ1RfbNUM/photos/Ab43m-vtw_vAaN6tIHG5eSFZ8ixhVdrF4SVGJbO_kpf9xFtgTlpGPI9EsVcIN7KCNhl1RFvQ2LXEF7nCYfclXXrHbKJtWkMyOpW5WZWvV8zxgiQeCfXqtDSnymXy3UVTMKAHvF3aNi9AZcltg8AKgeGhnWJtHvt4dLW0yvuuN6k6WyVUMiez7b0Dwfyu9dbWRkBQcTzlC-UVRM0KwWCOatnt4djyuYCPnKOmTgs8CaLM11d4zrg6MATdbehaHvnflEEvNujKoyfF79A3N4cKLQqw7ru-2i8jdZnvGvAcscgRMusZ8w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.525441+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

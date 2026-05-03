@@ -1,0 +1,71 @@
+{
+  "id": "the-coffee-club-mossel-bay",
+  "name": "The Coffee Club",
+  "slug": "the-coffee-club-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "13 Marsh St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.182787,
+    "lng": 22.152371
+  },
+  "phone": "+27 44 690 5555",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJeapd0xpq1h0RL2aEzQdYzpk",
+  "google_rating": 4.3,
+  "google_review_count": 195,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Takeaway",
+    "Child-friendly",
+    "Family-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:30 PM",
+    "tuesday": "8:00 AM – 4:30 PM",
+    "wednesday": "8:00 AM – 4:30 PM",
+    "thursday": "8:00 AM – 4:30 PM",
+    "friday": "8:00 AM – 4:30 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Relaxed café on Marsh Street serving all-day breakfasts, fresh salads, and quality coffee in Mossel Bay's town centre.",
+  "description_long": "The Coffee Club sits comfortably on Marsh Street in the heart of Mossel Bay, offering a reliable spot for breakfast meetings, casual lunches, or afternoon coffee breaks. The menu covers familiar café territory—think generous breakfast platters, wraps, burgers, and fresh salads—all executed with consistency that keeps locals coming back.\n\nThe atmosphere strikes a balance between functional and welcoming, with indoor seating that works equally well for solo laptop sessions or catching up with friends. Their coffee is properly made, and the kitchen doesn't try to overcomplicate things, which suits the steady stream of regulars just fine. Service is generally friendly and efficient, making it an easy choice when you need something decent without fuss.\n\nLocated centrally in Mossel Bay, it's a straightforward option before exploring the harbour or after a morning beach walk. While it won't change your life, The Coffee Club does what good neighbourhood cafés do—provides solid food and coffee in a space where you feel comfortable settling in for a while.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeapd0xpq1h0RL2aEzQdYzpk/photos/Ab43m-tKyhAhRdQ_moWCvCdRO-gl00AboDf8fB6vTZ3egPR2LX5FZpmuJcxoV_6fcbsxiZkOlsMgQPWB019VZ_U9BukmSWbJIc8g4a9EG-DCs9s6qQWSzZRueAZwkS4UD7qA9a3Qfy4d5ILo8IdiCkIk3aK4gTcTaDyHMBhb0VusKkOp7LSZDC79JeVF0QjMd8AVDvF_URmYfRWrJw5tiapY_RZUbANqBe9Jd6A6-jCiHOssOK2i9Z9d8hYtkv5l6ffKxSnaKDRo8upIiXKvBsaDDh-rTQJLNiswvSja6W7ivZIFHfvi7WQ7hiVouREBVfGb19MY4d5otoFQYRiAZbLhvrRXUYOzTjYqmagjcpGI3fhkPntnX5TWFgs-yQL0kCjNF_THee6KEzbEZsH9R_73ZNQZw6hAD7gPubaWToGDGXWOAw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeapd0xpq1h0RL2aEzQdYzpk/photos/Ab43m-uiWr0fAgCMHJPbDZN9E2911YZQ-KyGGMumDWzIdilN1Ha1bPp5PqBkcgbvbPM_P45QpgWiXVvWIU-c-HU0XIJ1JLKikAQg2BKGTmi_iVCJlWbKfLSnk2cE2bHQV9fDlKO76MTTW2X1Fl8GtrpKsWjkbNrxDfFARyJsIT5fL6Sp1f8Oz2SJW2_-ss3CNmOR8jyAXx-8yAsjzBj8VNVq033AGrMtjKU0VVPf6Pt9uWR5d0miES8KXn0xKlea22jfo5opPHvGfMJPt8sYnXje4qbnNTMpzv1-28eXWu0w1XHHEjfLVQHQPWLxjlmOrYcQcEjVr-TCdDrJmI5bY8_b4U3Gnp8nnByFSPjNup1e47NIWo_i8o-e9R0zfk2RYq0CWO5LQooWzUO0LwDl3v8XqTS4SpMrimQTiyCGu_q26WTraFcI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeapd0xpq1h0RL2aEzQdYzpk/photos/Ab43m-tpwT7kVSlenjtHjisFmNA6mwIy4gJaLrNqR5CVgxIXhHKSmF89LLyss9-amvO2Uo8kiV-4Fjm1pFaDGwRbL08-2rvVAPYNF1fnfHKwo9kXck199kTcQRa5RCvUgTqrKxPxJSWS6GsWcMVo6fYOQuQgXYQ_eRVTumRuRVFr1lnoz-BHVtC1Qc9LgaBDyAC2reb3IfQslkI2bgOvBI9_ivP5lTutYGCjthVIQVtjFK2YRMbYnub4HdgY6WwYyaP4hqdkXajf2lmTHlSVIbWOybAwbM3KBxi9EE1gFDZLYPZBcbf6MyuNHVMjIU8YOYJseXVXYucv3sRogihzexX52vzgWwt0k-9HjfGIDFUwfC7Uka7WbcWmoZxAQ3cUYhUWPwCmpr34YV6rpAbGS3KED4j830T4Q6jr3RWNhKbuuSJfNg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeapd0xpq1h0RL2aEzQdYzpk/photos/Ab43m-t_gzV2JA033pzpzmadFNu4I8xdg8i5XDBb-Clm46VAmsqfagttS3f7C_Fz7ri0z-CNG9FPhsjuT8eh_QQs64Pop1yxfBr6qajnyUms7FKDXR9i_n0snfetUCWWZKhkI4COUt0NX7nZN1nllCHWM5i5e4_dvEfS22Qd32vK1AcXqEeOuVhMZL6Pl57P_Wp5P4XCeyQFNdjmbObzTkSLEbIGoRWmxbIYSFMSi2rtQajdfrd3pV3il3533VObp3Hpx0Jd3aZHItV27Iws9dib2xRMhhUNBEjE6og6lBiZkZzxtNdg4pgbisG05KVYfYg6Sh3SxWUVGL_Q3ZSNKl-QpLiAgg4HOBgFzy61VvzmIM-1KSbFqmwK-wXVe0ELvplb13QqKtmd0lanyGbyY2X5xomPzdbSdYCd0FSuhp202MjHy_QL/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeapd0xpq1h0RL2aEzQdYzpk/photos/Ab43m-tI1yoNwRxSjqPbUM7z3YkhVd0nIolQlCW1pBvhtzhUvSA7xZGhEBqKQyFyIfcCGRPjQN1gHV3_HVZ1PsV4s75SibauJfRuQFFoGF_oXCFHcZw77vRc3upDyeNxOJkOdzaMHW8rL3TDlFCYZgUkM-dCTan_JMC8bBd5fzNE-J2-yuLo3vCGPchfaK_jqhxRWHfk29yh1TC-rj2RnRxDOdCCHWEsRhRJscRP58vW3pBv0XyEajFAJ3KNQ9j5yXeRNc2OEbzLaJVS5T3Q2ZVB_KKR3RvRLImMo6fGLjko8HZCwYDJ_2hNM8rZFKOIH2U-AuGKt2bBlmiFaQONKr4JwVHd2uvvxfhEkQ1jZvbsPxg_WMR0VccG-r3kDq-9B8h9B-IgzwpZVhU0uBl-L2y4mfJRBk_faMpO3UZwA3BTeXUK4-fu/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:29:25.809681+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

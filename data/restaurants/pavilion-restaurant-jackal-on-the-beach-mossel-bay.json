@@ -1,0 +1,75 @@
+{
+  "id": "pavilion-restaurant-jackal-on-the-beach-mossel-bay",
+  "name": "Pavilion Restaurant / Jackal on the Beach",
+  "slug": "pavilion-restaurant-jackal-on-the-beach-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "43 George Rd, Santos Bay, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1765926,
+    "lng": 22.136265599999998
+  },
+  "phone": "+27 44 690 4567",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJ58a0QvNp1h0RzcYJXN6yaRs",
+  "google_rating": 3.9,
+  "google_review_count": 961,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Pub",
+    "Burgers"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family-friendly",
+    "Child-friendly",
+    "Takeaway",
+    "Sea views"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 6:00 PM",
+    "tuesday": "10:00 AM – 6:00 PM",
+    "wednesday": "10:00 AM – 6:00 PM",
+    "thursday": "10:00 AM – 6:00 PM",
+    "friday": "10:00 AM – 6:00 PM",
+    "saturday": "10:00 AM – 6:00 PM",
+    "sunday": "10:00 AM – 6:00 PM"
+  },
+  "description_short": "Beachfront dining in Santos Bay with ocean views, casual atmosphere, and fresh seafood alongside pub favourites.",
+  "description_long": "Perched right on Santos Bay beach in Mossel Bay, Pavilion Restaurant (also known as Jackal on the Beach) offers the kind of relaxed coastal dining that makes the Garden Route special. The location is the main draw here – you're practically on the sand, with waves rolling in just metres away and uninterrupted views across the bay. It's the sort of place where you can kick off your shoes after a beach walk and settle in for a leisurely meal.\n\nThe menu covers the bases you'd expect from a beachfront spot: fresh line fish, calamari, and prawns feature prominently, alongside burgers, steaks, and proper pub grub. Nothing too fancy, just honest coastal cooking that pairs well with a cold beer and the sound of the ocean. The atmosphere is laid-back and family-friendly, with both indoor and outdoor seating to make the most of the setting.\n\nWhile service can be hit-and-miss during busy periods and the food isn't always consistent, the unbeatable beachfront position and relaxed vibe keep locals and visitors coming back. Best visited for sunset drinks and a casual meal when you want your toes in the sand and salt in the air.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58a0QvNp1h0RzcYJXN6yaRs/photos/Ab43m-sinFtyYFpYb6_JZhj1czJ6to_MNs5mKtZinS36_0x3ayCy4z4chEnrYg1pMc_2SXkXgWmjefJGDn3UzDeQvMy1yFNsYgvVzzVwhlg3Ty1psIFx2GBiGPiNZ4KmTYv1S_-FfdEKBnpm_7EwdbU89c42Eg3nGyxvpOFU6KptjufNvS2WiKWOFm87BU9tG329jTnJs4YZXjfXPj9gn_1_AmRnL40uqLo7cpunsgeKCBiA2QEEgoQwRQU_kN8QL_pSQU38s2TWSw4gnM3COpKL-PuaDbgFbMDGIRFiEWp02ogXXg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58a0QvNp1h0RzcYJXN6yaRs/photos/Ab43m-vZEeyOnP6f2j0HzTSs6C_OV1t-ag3HZEvmvmpMRdV2162_IG8OS_v74u7NsfB0YLbv6dd2GMyNT_6ilKxCL48EGIbc7Vejg8DaeOMFC67Zb5BmJ8jXsARCSBu4MZ8GGe3iNc-lzaew1znh2uydrDwtxBZL4AeGnN0udy1BUsafVn_Ly3d5gWu2x5gU1EtU5PpikEs0t9DYKSlKiiOlZpfvZEo28NX6XxYBxHCtP-b_wyEj-cTCDrFls_87j1MHpxCiUgq8CLXGxY8Uto21GyPs0sciw8kr4mvd9HiNHgAurQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58a0QvNp1h0RzcYJXN6yaRs/photos/Ab43m-s7SwyDRDuo7P5ZIsk776gT-aUgqHyybCSBYBh7BJeBxXt9-H4iyR6RmpuUTa_7NcUA8AEegSt384Rcf5wg0MXVCP6fZsNy1X8m82SJXhNoeD7nUqED-hrd8pmUHJEX6UQpG9jnfJ1TjtU_aby2yI7UBKE2cQJECF47utBP357Nh6fHnp8foW0p1NPuVln_iQdoiqcqoKtX0j4BbqjhPYDzEQwQbPpvtO3HHF8oQdnBmR4wUvCv19gP2ULeR22n9EyWq6k6vPAd-I4pAdq90BRapOmk4NYVsFbC6II3uAybZg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58a0QvNp1h0RzcYJXN6yaRs/photos/Ab43m-uecRWTXhGWvLIZkyZNa3He2_36iakio9twEfFjgDDXVGSMRWGsVdYYzKYD2g96qLkKTmqIYeHy6g85nNRiPp7PliNiQdv2aictoWPqWyD2zmQuum02Es7xSoz4hh4aKqSu7lCrW3p22Tu_fcJwrfsLqLAQDYvZfyDqG7YV9Iof6roPcGf7h2PVf_gTnpbeVK6jBdqALgbifc3Q3TGSjMCt1L_XMaMgn17WTeGUHDnl_LhCY9SjIbV8OBvrTyCXjGrZVyYyrrS5T333gFa7m-J4lXSnXBZzIqd16ZvU4tSw7hVipBDiFHepEB0wrR7ppjZum7JGLIUqeOF1PtXqPJf0duBV97zct6KzSGOihbiBcM75Pmdt6hKWFcxv8pBp76YOUig9RryO2OkIKY_NuQefeauZGFZ8G-HpuTjJzwu_WQynP9cH5JoKnsVKVQO9/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58a0QvNp1h0RzcYJXN6yaRs/photos/Ab43m-uK0QpcFY7STfPDfxmC8RrpxfCxUogjRnWIaee3SX4FN8jqrDkJJGP-d-v_f7ArKdCmLgdxDL5Ru2gYSOLBRZKsHGaIUIwvmdJz1zvk4sohoZygX2k7OgVreYvRwBIgLl-e060ux0BwcSrp8MTavyniLwzkL36WmziQCoBq6g9FC4EuBC12-AXpuxWk3V-kz5dLtS5V-S35Ry1IwkrfWpfwUKkzy77TOun2sSCwIKSh9VvKmSBkppTW93HEYM1YW_BMhoHUWmA86kY327pCsxjVWnxCSIEvxTlcoiCAYuk8WNuXg7gr_PJp2WL5p7LdHR5QI9YxvyG-lhUdoCOXwHNPCRIOFh9P5ZfKVbTtfDyxXk_pppLQtkuYR5jgE73iTFktAmciAxdr7Eb88V9lxu7Hn7No5ZkYkA6-wS0jhTejOg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:26:43.140479+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

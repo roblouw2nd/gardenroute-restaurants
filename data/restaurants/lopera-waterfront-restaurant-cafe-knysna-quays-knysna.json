@@ -1,0 +1,74 @@
+{
+  "id": "lopera-waterfront-restaurant-cafe-knysna-quays-knysna",
+  "name": "L’Opera – Waterfront Restaurant & Café | Knysna Quays",
+  "slug": "lopera-waterfront-restaurant-cafe-knysna-quays-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Shop 6, Waterfront Dr, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.041459599999996,
+    "lng": 23.045394299999998
+  },
+  "phone": "+27 44 011 5020",
+  "email": "",
+  "website": "https://m.facebook.com/loperaknysna",
+  "google_place_id": "ChIJ41O2n4nqeB4RM1DPMM6E0vk",
+  "google_rating": 4.2,
+  "google_review_count": 237,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Cafe",
+    "Breakfast"
+  ],
+  "tags": [
+    "Waterfront",
+    "Outdoor seating",
+    "Takeaway",
+    "Ocean views",
+    "Child-friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 5:00 PM",
+    "tuesday": "8:30 AM – 5:00 PM",
+    "wednesday": "8:30 AM – 5:00 PM",
+    "thursday": "8:30 AM – 5:00 PM",
+    "friday": "8:30 AM – 5:00 PM",
+    "saturday": "8:30 AM – 5:00 PM",
+    "sunday": "8:30 AM – 3:00 PM"
+  },
+  "description_short": "Italian-inspired waterfront café serving fresh pasta, artisan coffee, and light meals with lagoon views.",
+  "description_long": "Tucked along the Knysna Waterfront, L'Opera brings Italian café culture to the water's edge with a relaxed, all-day menu that spans breakfast pastries and cappuccinos through to evening pasta and wine. The setting is casual and unpretentious—perfect for watching boats drift by while you tuck into a carbonara or a wood-fired pizza. Their coffee is consistently good, and the deli counter stocks Italian imports if you want to take home some dried pasta or olive oil.\n\nThe lagoon views are a big drawcard, especially if you snag a table on the outdoor terrace. It's equally suited to a solo morning coffee, a light lunch with friends, or a casual dinner after browsing the Waterfront shops. The vibe is easygoing, and the kitchen keeps things simple and unfussy—fresh ingredients, classic preparations, nothing overcomplicated. A reliable spot when you want something tasty without the fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ41O2n4nqeB4RM1DPMM6E0vk/photos/Ab43m-vD4BuXO56MqxRNfn2XZB8x2V0x3i_5McY3WiegylSSX4KWMx3P00P1Kf723A5DPk6rNhJiOYMb8Xsv63S9YUjxJVzajWaVzjDQd5BNUsZt5B8J4fMIYBSQKwYXRf3f1cuem1b8vXDymc5MPWPLAbaknsvE4015FmoUSW7FH_Eho8RXoSo9STp--B2rpWz-8bMPIdkeaayTW9STpolOTZcDMHQdIAFG2mcx2G5pfuNkS-esEJghpTHYDa5jX3RADXgTIahFcwwvxgL4NWron7r9SLo63DRSc1Mh32vTelwTIQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ41O2n4nqeB4RM1DPMM6E0vk/photos/Ab43m-vpHQJ3Px5t1O9r9sRfJ0nKJKfmAZwpu74sZmAL1xz8QmQEOs460LTgaas430lGtFHsuVgWOqPKkd4xdYW1PMS2IrvPHL1bV1tZxqf1L0A8hJIE3x8goe-o42TF980z7nAlm1g_--o9RIF2k0zuV5OgC6y0rDl7Gx66hysGcY05aF2xKEenaybYSl_fK_UycEIfmlkVzg6A-2VPpkalj7hUsUnKVrSXpUiBeMyhVtqBdnz1qcEX3TKDWzmhzh5Fi-hHLYP87voTYXy8Or1NEY_jrCnBRX04L44bDrXALAn3oQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ41O2n4nqeB4RM1DPMM6E0vk/photos/Ab43m-u4TA10a5znBVQEv1tWiY816MAAF93SHjZ6w6yqLOtUXC295IeqsvPIm9O7Dj-Xq3L8vx7WGYJ5boHKHOTGYWQtaeE-c7UGkFjq8PCfIT8JAkKTvbnMWrUTX43RTyVxo-yRhd38S7y-n3BLAMUjhVHfxGBljnDnoBnbVpZEYu-RST4PVvIL3UeYV1EGtgYAiK4hOjRs-WjGl0XrwWcIAgkYZSbIXP-DtdKNjc3ksgV2N_PzhQNMqOuv2l4InMbblScVHowY7yXTVFka93dibRVk4DVcBwh77J-g2LOabJcQxPGayDJhBrxnJqF-MYE8GiSDOqMemI9G7S4PGMl92lJrhuF6_37MpsgY9cuK1M7E65-DqnSD-hJLZbvkKLHR8MU4KOKH4Sc4YgB9WSfAhGdEQyH6pKSa-Lq7v1ZaLbXfSG3lCWE3rcWlkyfXjZR8/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ41O2n4nqeB4RM1DPMM6E0vk/photos/Ab43m-vvmTzz4DShOhCb2IDcPZKBp10tgNbrouDioAKDOHf2T6s2JqBhxh8Hko5RG-h5MUhM7Wxu3oVudIwj8dCgXI0_h_XraJGj9Wdub9Z3pajNkF3TwvO1nSnPD9Epo6tRajl2BeZl2rV5NK-Ih8ai8U3BkaIl_HgGL3G3gYtU4jjEztvsDhAIOCwqHRkLvuvEC_MNBO-g7v5jsf_Uold0scIroDHJVfKkugQyEMeRDsH9M18K_xyb7ek8PBmzFScS11CFMm49NHTTwwbmVtKTKoHsH2h4KHvffWUA6_2-1pK_gwjUgoTtMTuxZvtU-_JhoLpBLW9sZ2-xAliTnWrQ2oh3Ws8XZGw_HSSOr1U-G5KKA71ms0_SeMLaex2MEGRaZJNJqkJbIpU0GUBswcP8a4iAWrGo9LVWec9fGI-iR4nRvQx4Bx7Kag2H7xIwuw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ41O2n4nqeB4RM1DPMM6E0vk/photos/Ab43m-se0YeUIVETL_wbOcoLSu8fKm0zfjM2ZEduNQzIAUCBKGYwhCTGIMlw6QYswLzX_ACGkY39cQe3w2k0Eu6lVJcGN5QL5ITMwVAI4ER4o_LTBgwyl6DcOhHb9CtbgL1C6d5VCrp2jkzvQfT7pa0GDsntKvFVuLe_Im8LdH6YvbK2yVwmHu1gbbpIzKTeMAAevi8QQrssPkIt_fVIyteE6xYBmZ83LZtO3OZOSeXNUi-qJSTLQi9Lnx3q2Q_rApQoFbgjdXf9MDCtjieISHmnnmP4EqD8tCJyA5pnC-Al7ExhJg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:40:28.538928+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

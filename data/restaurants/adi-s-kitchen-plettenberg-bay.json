@@ -1,0 +1,71 @@
+{
+  "id": "adi-s-kitchen-plettenberg-bay",
+  "name": "Adi's Kitchen",
+  "slug": "adi-s-kitchen-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Corner of Main &, Gibb St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.053082499999995,
+    "lng": 23.3722498
+  },
+  "phone": "+27 44 533 1961",
+  "email": "",
+  "website": "https://www.adiskitchen.co.za/",
+  "google_place_id": "ChIJ-_-UNEzjeB4R9xxYEYdJWmE",
+  "google_rating": 4.6,
+  "google_review_count": 403,
+  "price_level": 2,
+  "cuisine_types": [
+    "Indian",
+    "South African"
+  ],
+  "tags": [
+    "Family-friendly",
+    "Takeaway",
+    "Groups"
+  ],
+  "opening_hours": {
+    "monday": "7:30 AM – 9:00 PM",
+    "tuesday": "7:30 AM – 9:00 PM",
+    "wednesday": "7:30 AM – 9:00 PM",
+    "thursday": "7:30 AM – 9:00 PM",
+    "friday": "7:30 AM – 9:00 PM",
+    "saturday": "7:30 AM – 9:00 PM",
+    "sunday": "7:30 AM – 9:00 PM"
+  },
+  "description_short": "Family-run kitchen in Plett's heart serving authentic Indian curries and South African favourites with genuine warmth.",
+  "description_long": "Tucked into the corner of Main and Gibb Street, Adi's Kitchen brings the warmth of a family home to central Plettenberg Bay. The menu moves comfortably between fragrant Indian curries and local South African dishes, with everything made fresh to order. Regulars return for the butter chicken and bunny chow, though the daily specials often steal the show.\n\nThe atmosphere is relaxed and welcoming, with that genuine hospitality that keeps locals coming back week after week. Whether you're grabbing a quick lunch between beach visits or settling in for a proper dinner, the service is friendly without fuss. The central location makes it an easy stop when you're exploring Plett's shops and galleries.\n\nPrices sit comfortably in the mid-range, and portions are generous enough to share. It's the kind of neighbourhood spot that does the basics well—good food, fair prices, and staff who remember your face.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ-_-UNEzjeB4R9xxYEYdJWmE/photos/Ab43m-tCWkn-YLAcr8cwRWxgC2TMjAxSszoxwq2FEZY24I_iYBFQfg86yZ8BiL4JzdrS3TzRKX2SaAjFYbECC7VpF0iAJ81KvJ56Dwr1UEFmHwW8NcwF91gsMVjVrOKNcIuRkRWtMEfx8zTyECkI9mevloZeI5QoWbfvCuz00EzOzdXS3Dpt49jUXs8VXv4V0eziBDXQSUpnV7ws5-v3ecyja-kMes2FTaf2VYNH0axOkxT2VrNghyqCosw0wRN37Idxf8UyM3O78C2QxqjCp-m4fl2urlD0b4GyALOAoX02dxMcag/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ-_-UNEzjeB4R9xxYEYdJWmE/photos/Ab43m-sBiM4DgtUjDGIZQXmTbAbT8fwSPcxti4bK1w9X3B3mlYp-lw71_Oy72lqy7hQ0f53da-XGd_bpgzSz9NXAmW13MUpphNpwJjFjpNn6rtoKY488JYxk_A2LxqYm5VfZ5Y3VvC-fXAiTVyAHyiqanQ7IMtznJC0dPAzLDr17_9cBGB6bZdu9DyKyuqpAIm3bfoISF8THS32GijtJUk8bETHh3nJpLeFneohwG_U2nF_YKjgXQQbQyL99lH_f4mnGgBN6aSYAtGb3Vrh_C5y4hnDz-pEwpq2xxuPUFx0znKn0Aw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ-_-UNEzjeB4R9xxYEYdJWmE/photos/Ab43m-soUHeRuy6NMJBTcs8553_YnW71bdFh3o_01pszD2KJlRNOI8jSKeFb5Tjr6Kku78IhRMARsEcwlgXnmChkGr0lUUNgw8B2nqa9kL2H2yePGfdv1mJ_F9Edp9UXu25AnCS-jL6y9bxG9VBAVM9R4db5C4rCxAF20knzKrb1pq8OstAlbcoImu5lq8ZaclK2pxdnbJ4wwz8Q8D-l4Y__THYyMwsZxGP-1CzUlvi6th3hMvuUbqtX84Yk_2cdpzz2H8iHGqdrSgeevfQwO0E7LFDXsmJlIuPGY2-xQc4Ro_IkfmAPEu7TehiEcGGLPLWVh_i-X5KFlvhB5Db8P1A0RJiQ6KsfhGuXudp1juQ5E0RqzloDXzrBlyP4nK4TcilvIn6V3f_i9_s8_rN4v0nazGCOf0YXnZAWYfFHEs9atav15ucVRe_vde7nYWxy-gBi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ-_-UNEzjeB4R9xxYEYdJWmE/photos/Ab43m-vuf_3jDncjHmu0IfjHccfGmAHcVMZnKpF8mtPLoEWHhH8jZoQ7B8SPqPPORGRURA72SGT1F4ZTo-tBAaGRt5FQ63ew5tXmRkpv6EiCR3j3foboXcUko0ql-Gp9uV35rG_L9SUX-SI9Ks5qDZSNy9AWFSztFrABhuGwC-v9rvnZv2NX9jENorHTQGHPn_hDjJjO_DzZdiAxABCZ7H6YA1_MR8qBrlCozmqGp-RyStZ4R621wRjJlJtlpCnQDaYviYR-GPY7szPOPwzmdS5H7nLuH68Y69QaDUoNb-23e-PbTMTNxFsLDMsJVuD-Ie31ZNYILK2E0zlrdDyQ1iQVdI9qO3E6M3lnSMDRZaAN-W3O47RZVzcMnyhx3oFrBmvAt-ZjlSbqQnz7Cgclc5Jt8gR7biZxYXr_VnnhB4McUH-sPs8GxaZ4hrM_xxUOngCZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ-_-UNEzjeB4R9xxYEYdJWmE/photos/Ab43m-sI5sbunsgnRzqsJzMZRmXX3nCNA_Aasl5DK4RgfZbS19VtfJnLeak4ziMBxlCfLcYHxNuItchplXljspn2h6YpO0Fu0C4tZC6qDwnPkXn6RsiDKPT8gXMFswgxn72r5MWz-Gwe0tA8TZtcVbh06_ZuwwKTgUx9qK-nhvmYbTw2KxUfh9M53ASYD73ctbuvAFmVkyLG9YD6meZFKqXDmhM94PnlAcM2KarEB83wBLMkdjw3LzT0s18w4LuOG9vhX2fv3L2Z0WWSwEbWe9tTwb8tUEVhwojEAKTOI009IXcUo6lFaQBm4fjg45Gbyh-uCM9YiT0xNa-UhzmgSkIpl_GMyPpRLxrSnXReRaLHGnclAEMDV9F91IsIKnLWo_mYu8Mnwb5ldAdgS7a9A2E2_YONo04qRG9l5Aj1ozH2cVP-9irsi2FhClN8WLDN5Wgu/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-02T22:42:40.816682+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}
