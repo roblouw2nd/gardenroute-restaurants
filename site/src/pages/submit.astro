@@ -1,0 +1,175 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+---
+
+<Base
+  title="Add a Restaurant — Garden Route Restaurants"
+  description="Know a great restaurant on the Garden Route that isn't listed? Submit it here and we'll review it for inclusion."
+>
+  <Nav />
+
+  <div class="max-w-2xl mx-auto px-6 py-16">
+    <nav aria-label="Breadcrumb" class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">Add a restaurant</li>
+      </ol>
+    </nav>
+
+    <h1 class="font-display text-4xl font-bold mb-3">Add a restaurant</h1>
+    <p class="text-gray-500 text-lg mb-10">Know a great spot that isn't listed yet? Fill in the details below and we'll review it for inclusion.</p>
+
+    <!-- Success message (shown after Netlify form submit) -->
+    <div id="success-msg" class="hidden bg-green-50 border border-green-200 rounded-xl p-6 text-center mb-8">
+      <p class="text-green-800 font-semibold text-lg mb-1">Thanks! We've received your submission.</p>
+      <p class="text-green-700 text-sm">We'll review it and add the listing within a few days. If we need more info we'll be in touch.</p>
+    </div>
+
+    <form
+      name="add-restaurant"
+      method="POST"
+      action="/submit?success=true"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      id="submit-form"
+      class="space-y-6"
+    >
+      <!-- Netlify honeypot -->
+      <p class="hidden">
+        <label>Don't fill this out: <input name="bot-field" /></label>
+      </p>
+      <input type="hidden" name="form-name" value="add-restaurant" />
+
+      <!-- Restaurant name -->
+      <div>
+        <label for="name" class="block text-sm font-semibold text-gray-700 mb-1.5">
+          Restaurant name <span class="text-red-500">*</span>
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="e.g. The Lookout Deck"
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition"
+        />
+      </div>
+
+      <!-- Town -->
+      <div>
+        <label for="town" class="block text-sm font-semibold text-gray-700 mb-1.5">
+          Town <span class="text-red-500">*</span>
+        </label>
+        <select
+          id="town"
+          name="town"
+          required
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 bg-white transition"
+        >
+          <option value="" disabled selected>Select a town…</option>
+          <option>Knysna</option>
+          <option>Plettenberg Bay</option>
+          <option>Wilderness</option>
+          <option>George</option>
+          <option>Mossel Bay</option>
+          <option>Sedgefield</option>
+          <option>Storms River</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!-- Address -->
+      <div>
+        <label for="address" class="block text-sm font-semibold text-gray-700 mb-1.5">Street address</label>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="e.g. Thesen Island, Knysna"
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition"
+        />
+      </div>
+
+      <!-- Website -->
+      <div>
+        <label for="website" class="block text-sm font-semibold text-gray-700 mb-1.5">Website</label>
+        <input
+          type="url"
+          id="website"
+          name="website"
+          placeholder="https://"
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition"
+        />
+      </div>
+
+      <!-- Restaurant email (for future contact/monetisation) -->
+      <div>
+        <label for="restaurant_email" class="block text-sm font-semibold text-gray-700 mb-1.5">Restaurant contact email</label>
+        <p class="text-xs text-gray-400 mb-1.5">Optional — we may use this to send listing updates or partnership opportunities.</p>
+        <input
+          type="email"
+          id="restaurant_email"
+          name="restaurant_email"
+          placeholder="hello@yourrestaurant.co.za"
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition"
+        />
+      </div>
+
+      <!-- Extra notes -->
+      <div>
+        <label for="notes" class="block text-sm font-semibold text-gray-700 mb-1.5">Anything else we should know?</label>
+        <textarea
+          id="notes"
+          name="notes"
+          rows="3"
+          placeholder="Cuisine type, what makes it special, best time to visit…"
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition resize-none"
+        ></textarea>
+      </div>
+
+      <!-- Your contact email -->
+      <div>
+        <label for="submitter_email" class="block text-sm font-semibold text-gray-700 mb-1.5">Your email (optional)</label>
+        <p class="text-xs text-gray-400 mb-1.5">So we can let you know once the listing is live.</p>
+        <input
+          type="email"
+          id="submitter_email"
+          name="submitter_email"
+          placeholder="you@example.com"
+          class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition"
+        />
+      </div>
+
+      <button
+        type="submit"
+        class="w-full py-4 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-xl text-sm transition-colors"
+      >
+        Submit restaurant
+      </button>
+
+      <p class="text-xs text-gray-400 text-center">
+        Prefer to email? Reach us at
+        <a href="mailto:info@gardenroute-restaurants.co.za" class="text-ocean-600 hover:underline">info@gardenroute-restaurants.co.za</a>
+      </p>
+    </form>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
+      © 2026 gardenroute-restaurants.co.za · <a href="/browse" class="hover:underline no-underline">Browse all restaurants</a>
+    </div>
+  </footer>
+</Base>
+
+<script>
+  // Show success banner if redirected back with ?success=true
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('success') === 'true') {
+    const msg = document.getElementById('success-msg');
+    const form = document.getElementById('submit-form');
+    if (msg) msg.classList.remove('hidden');
+    if (form) form.classList.add('hidden');
+  }
+</script>

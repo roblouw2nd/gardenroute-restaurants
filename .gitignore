@@ -1,0 +1,34 @@
+# Environment / secrets — never commit these
+scraper/.env
+.env
+.env.*
+*.env
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+scraper/__pycache__/
+scraper/*.egg-info/
+scraper/.venv/
+venv/
+.venv/
+
+# Node / Astro
+node_modules/
+site/node_modules/
+site/dist/
+site/.astro/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/

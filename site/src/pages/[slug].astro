@@ -102,13 +102,13 @@ const breadcrumbSchema = {
   <Nav />
 
   <!-- Photo mosaic -->
-  <div class="relative bg-gray-100" style="height: 360px;">
+  <div class="relative bg-gray-100 overflow-hidden" style="height: 360px;">
     <div class="grid h-full" style={photos.length >= 3 ? 'grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr;' : ''}>
       <img
         src={heroPhoto}
         alt={`${r.name} restaurant in ${r.town}, Garden Route`}
-        class="w-full h-full object-cover"
-        style={photos.length >= 3 ? 'grid-row: 1 / 3;' : 'height: 360px;'}
+        class="w-full h-full object-cover block"
+        style={photos.length >= 3 ? 'grid-row: 1 / 3;' : ''}
         width="800" height="360"
         fetchpriority="high"
       />
@@ -129,7 +129,7 @@ const breadcrumbSchema = {
   </div>
 
   <!-- Main content -->
-  <div class="max-w-6xl mx-auto px-6 py-10">
+  <div class="relative max-w-6xl mx-auto px-6 py-10" style="z-index: 1;">
     <!-- Breadcrumb nav (visible + semantic) -->
     <nav aria-label="Breadcrumb" class="mb-6">
       <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
