@@ -1,0 +1,78 @@
+{
+  "id": "ilmazzo-mossel-bay",
+  "name": "Ilmazzo",
+  "slug": "ilmazzo-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Shop31 Hartenbos seefront c/o kaap de goede hoop &, Paardekraal Ave, Hartenbos, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.127030999999995,
+    "lng": 22.1172462
+  },
+  "phone": "+27 68 655 3108",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJQRt05tlp1h0RSZV0vfwj3XQ",
+  "google_rating": 5,
+  "google_review_count": 23,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza",
+    "Mediterranean"
+  ],
+  "tags": [
+    "Ocean views",
+    "Beachfront",
+    "Waterfront",
+    "Outdoor seating",
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 9:00 PM",
+    "tuesday": "10:00 AM – 9:00 PM",
+    "wednesday": "10:00 AM – 9:00 PM",
+    "thursday": "10:00 AM – 9:00 PM",
+    "friday": "10:00 AM – 9:00 PM",
+    "saturday": "10:00 AM – 9:00 PM",
+    "sunday": "10:00 AM – 9:00 PM"
+  },
+  "description_short": "Beachfront Italian dining in Hartenbos with authentic flavours and spectacular ocean views.",
+  "description_long": "Perched right on the Hartenbos seafront, Ilmazzo brings genuine Italian warmth to the Garden Route coastline. The setting is unbeatable – ocean breezes, the sound of waves, and views that stretch across the bay while you tuck into proper Italian fare.\n\nThe kitchen keeps things authentic and generous, with hand-crafted pizzas emerging from the oven alongside classic pasta dishes that speak to both tradition and local tastes. Whether you're settling in for a leisurely lunch after a beach morning or watching the sun set over the water with a glass of wine, the relaxed atmosphere makes lingering easy.\n\nLocated at the Hartenbos seefront complex, it's the kind of neighbourhood spot that draws both locals and visitors who appreciate straightforward good food in a prime location. The combination of beachside convenience, honest Italian cooking, and that uninterrupted ocean outlook makes it worth the short drive from Mossel Bay centre.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJQRt05tlp1h0RSZV0vfwj3XQ/photos/Ab43m-tym97ZXQtLlqM32RmsggDWBzJpHa-r834pQ82Q3UbGpZAqjIGeDBa5TBOlK0yPTpBO-vMJ6FQa85N8AsXlaMOwcU7w51qGrbhxOSRSw8uxp9KFaQe2SFtVMh53k9wEeEGNbJuAnQMcRlNdh7qlc4hoOANBfaSS-m0vMi2goIltNyRaS_pYvPmhwC8u7JrxlMrrBMn8Kxd_fdtcubCWq4SWjCwLPrhwI9o-Qj7b5rq7kHON7OpP1U780a4E7BebYDlzaKcWJs-kE7rODwtdpmXHfQ_nDn2qgIWtZtAVWYhDd7sNLOPFl5LNhdWp9LQs0CpWEtRT_7W4FoDt2mV3a5oPZaCGGUFTQsU0OxjQApNg_Wi2olfnTszFXBMm6j4qE3KlVVwnkh4z0XowrH-NozA1R0xud0IHK75y3RyEXG050bUhbaVy5DeoxqLeA4pw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJQRt05tlp1h0RSZV0vfwj3XQ/photos/Ab43m-vuFkz07HKfKsLG58Y04qI3rhMZcKZhzYtDeXQYBYzX2cVybmlwBc0XlzY-lJiqjPywDw-YvBPwVCVBz8bLMKiM1vSq4Kph8CKVWg0o_pe4IcAXol5kH6PWI42GGQ4RNNENj8PCr4mKVNysHtw3DSeUfl7vbIlzynm7ywXNJ5AnL8HCqZE2Wn5cgZm37C85j8nPgFIr9AvCX83EbCeHns3FdcuK2XtQKfe75V7ch-_fE7iMhPW7KSKQ6ijO3eog-fnU3peMhAbU0jIla94kQv_O88PDtVR_fvd2WYcaWULYT3B-0s6dxMMgaCneygS7DrqKDQptnYM-Oxa6of4x6n7yWxsWGsc_G0saCilhLgGk9pJFlKRVa4XzNgj8LwSaW4OFhstdeef4gvRVaNSOD0VhXNJ1nj6Qf8uaG1TiRvKZkazCrMSIwQdK2HhEAy8W/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJQRt05tlp1h0RSZV0vfwj3XQ/photos/Ab43m-sZ2X3KxWBkCWfARyTidVj9qIco4kgG0cwZadPllTX3FxJ_WkiWz0QUcWIb9h6dcWF2tfXZLNswtxiL6T8zaRwPsVhPmCKS0wn5tlPlgIXkU4_PkrWS6khk5KmZswCfm1iC6iqbshruCxO2yMpDZYii6edDHN0nGeJp-S6adKQSnTdW8fWwgh83-_EFOz-8ai_EXkmfbHWMzJFtSL3Tpi8uVLo4johXYnUll2kcAYL8IM1p6Flq_BN93bnC6HFKCREz3O53LjgVZorD98ANLRFNdPOznHzB2Ix6QDOVq5F_VOITLqG1wKoIwf_guzLiBLGQcaDP_RNBsfSoZF2mH4U6INIaoFJXl9PiMAnEdQphoAZpU3-ehSmczExTUdAlw8U6x0HxN2jhROm6srVVKuUnHctvoEfrItudc5aZ6awdZwwyplEBj0yNyfgSFzUT/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJQRt05tlp1h0RSZV0vfwj3XQ/photos/Ab43m-vxKjgLysW1C5l9Nps0-hA_8q90gFCEtqWEK3j777Wiv6FonhqX-K-Lt6jy9GcmRq9cNGUN6fLLy4Py16VjtgnWhWN-NcGVFToU84cp4-F0gjCIdQnr-KMcbRkGLA741tb1kjZeJUFdsa9dD36ZEasJ-4966_3WyNaxU0uCl3OD1rdW42lg0M90-OxvjLThZyVPjxaPP2lw37LOdtEYwgA07x0yec0X2BfaTOjlZLBwKlzL8lAxR7tPayhzs5HvlAJoDV7GldiouassZ3h4QArBSTsC0s96Ctlkuk0KduIK8CFk69fgZVuJnZVRZGreEAlE8cEPjbjhktrt3ayau-mT3A4gQ6XFS_nl3XA8JkXhwJ71MX-KQSxyI3CmiJWVTBOwd-MSTRBsghMKGLqosKAm1Oypp6nFKpWef170AE7cJcr0TdVnQEfw67aEuwFK/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJQRt05tlp1h0RSZV0vfwj3XQ/photos/Ab43m-voY-N4KKbyIgKNgRhIkORP4cFTQPhhcWna_BRoJSgzYI0avV3PTZuc0mdLcYKXE1Ar0WyYjPhAJfZGccwa01ZVAvzv-jt4nJhK1J1oWJ8HGWMU7eK4QZF8ZxvB3USOowJdthjDpu_S1IULRJWFGbpfetkjdCP6-Oqw4660QUTu8pwcDBXtWLpoTTj4aZcz6PCQvtzLmITjoCRshpQ_MvAXc5PhflimFBWWJHE8_rtRPyuTwdFWH7PVbbgyHRNhhndALCko_62vGES1ZEP39qkNcKVFwfZjFd6Nwib4y9N0yN-4oyFkBoi-xIeo6ox38BH2lPIy3a7guhg9EazjLKiu4TxjS2wMSthUoLBjtE98CM10pU5FeGP-sBv0qeWtUJcuncPiSQjfbcAhgHYfyC24K4FgjuhP5JrOLd2WQhAFpaNIJ1EbaAjoNdtBvhdm/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:47.519409+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

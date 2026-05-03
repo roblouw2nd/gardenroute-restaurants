@@ -1,0 +1,80 @@
+{
+  "id": "salty-river-beer-house-glentana",
+  "name": "Salty River Beer House",
+  "slug": "salty-river-beer-house-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "Klipheuwel Farm Kleinbrak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.07943350000001,
+    "lng": 22.1401917
+  },
+  "phone": "+27 44 110 0211",
+  "email": "",
+  "website": "http://www.saltyriver.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJd7wTK51u1h0RxlXgZtBe_sc",
+  "google_rating": 4.3,
+  "google_review_count": 162,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Pub & Grill",
+    "Bar"
+  ],
+  "tags": [
+    "Dog friendly",
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Outdoor seating",
+    "Garden setting",
+    "Wood-fired",
+    "Farm stall",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "10:30 AM – 6:00 PM",
+    "wednesday": "10:30 AM – 8:00 PM",
+    "thursday": "10:30 AM – 8:00 PM",
+    "friday": "10:30 AM – 8:00 PM",
+    "saturday": "10:30 AM – 7:00 PM",
+    "sunday": "10:30 AM – 6:00 PM"
+  },
+  "description_short": "Craft beer and wood-fired pizza on a working farm between Kleinbrak River and the coast.",
+  "description_long": "Tucked away on Klipheuwel Farm near Kleinbrak River, Salty River Beer House combines craft brewing with honest farm hospitality. The rustic setting feels worlds away from the N2, yet you're just minutes from both the river and the sea. Wood-fired pizzas are the main draw here, with generous toppings and crispy bases that pair perfectly with their house-brewed beers.\n\nThe outdoor seating under established trees makes this a natural gathering spot for families and groups, especially on sunny Garden Route afternoons. Kids can roam safely while adults sample the beer range and tuck into pizzas loaded with local ingredients. The relaxed farm atmosphere means muddy boots are welcome, dogs are too, and there's no rush to leave once you've settled in.\n\nIt's the kind of place locals bring visiting friends to show them a different side of the Garden Route — less polished than the coastal restaurants, more authentic, and refreshingly unpretentious. The combination of farm air, cold craft beer, and proper pizza makes it worth the detour off the main route.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd7wTK51u1h0RxlXgZtBe_sc/photos/Ab43m-v4bLbLQ6RlU_PigjE3trhDdwNU1CLCRBdisKAHmkcJedj-Ly_CAv0qldG6IGpccuc6AEGiRLgZATOb-cJrb1alDyZ8fS3Y7sHAQpxOC6TrzT3tcTX8xggnHr5Et2o5aEHw43OwyUp2WB0iojAkhEr0vxAoCVwXNDeFF0LobVpT3_CEEkS7hQzOLNzAKABg_qCWMRGz8y2DcL8mlLlBpNp8DfEjBS88bIIaXoZ26BRz5SZ3BHGA3o9BP55_ClKKRKYunQRz8-eC-bMLEEDMFH7EQHZEQhyyhoImzSTt6BQ_Eg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd7wTK51u1h0RxlXgZtBe_sc/photos/Ab43m-ujoakBmt-vkHL9AmS4pBBTX9Ht17Ikk20sQZ6hPHMGpIsgQO2btGsbglRm32sKIX7Si3iKV7cz18IuFMkuZJyDbi2BsJcFPstri4nPpQNJqnQDv46_p-ZUPElLfCvgBXpBY_zVNcihTywmshZU1PehglGQxGfV8aWyG8nXHNCUz3CdyAg9cB6z1yx1ESL1fp3XgM5OrRDmRGhBVV4TvfogUPe9tHFYgDnqQrcv27cv_0im1jX0cCDruNr6IZsk7mxxzc8Qdq2zsBt4jp9exEGJ6op3EYN4noAJWMjpDzQ5rw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd7wTK51u1h0RxlXgZtBe_sc/photos/Ab43m-t5qto70I5TG5VnwQfJu7FEXihJZ_SBFeB-ApuMJEu5kOX_6At1MUFsCuAFezuCNYJIJ2hM1C3bF-YhQ65ZPuzB2Sk1hTLnZAooijlxwo03ItPLMo0GI_xUDr3G7kjZDy55h6mmt5IPU7AT-7M2tvajOEUsG2sY0vtaX8cgggKi7adw9gnV6Y8OVOeTn6PPxqOfqINUi-tdsxHZT6GXPuZw6hBzOuiN0fE8dHz-Zl940A61_s0xJf1ygGCtT45MSzO6oyN8Ltcz4_xwl_KOiR30kKDxKDZgD5WediV4Guh8Mg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd7wTK51u1h0RxlXgZtBe_sc/photos/Ab43m-tNyVh_m0axuTWXuPMmW5lLaIXEagDI6vyrtEygTVCybYU8uuzBs66VmEJvqmLcuBEUL4QBnE8P28fNFKYhIUxgaTxvy9jLMJK5YduC8LnBi4ALD2ks75LdKfJFjhojpFs_jG3u9_lG1eMJTotzfgq-ZAZ4fywifTYdeOtESfFuOBOIfW8JUBUGZLbKmBUMxfnGnLehNHl0E8OsvIm1nHUulDCfJQgo_cv5XnKdoXTnvYNAz8SDPam3AoxNcouue0nrrf0-PJa3ZLWdhfTZ2kjCzKWiSfygVygrjBP9IZL_Dw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd7wTK51u1h0RxlXgZtBe_sc/photos/Ab43m-sdW9BSYqxci_B63W0OsMm0GUfxW5GqDE6HmzyC_x70Huo80ew4TwgQzdH3A_hCuNXexmWda0Wpv62KJ9tOIyQ-YEEwG1iBkuZ6obUzKIk1Or6FK-FY7u8WBAcx_CCQkLGbgor46NSg6-BhTSK5iZ_lcRPzMlcsQBK7dybPyoQp5lsH5RQYpjiSARe2GJqBeSh1iahRKMNAZ-zX-LFK-Xy_7yUdGUBCDP7H-Aqdav8xZTvTJ4pGcRSRR6tLFr3s5SViojUGWvsbEv2TmfrP3P8PuGlQm4Dva7oo7dE6YHrV9g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:24.373373+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

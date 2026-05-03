@@ -1,0 +1,76 @@
+{
+  "id": "sedge-bakery-sedgefield",
+  "name": "Sedge Bakery",
+  "slug": "sedge-bakery-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Shop 2, 3 Sysie Ave, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.014934499999995,
+    "lng": 22.8050782
+  },
+  "phone": "+27 79 967 1291",
+  "email": "",
+  "website": "https://www.sedgebakery.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJYeK_BjKjeB4RCrnEKcFO2u0",
+  "google_rating": 4.5,
+  "google_review_count": 181,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bakery",
+    "Cafe",
+    "Deli",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Takeaway",
+    "Local produce",
+    "Casual",
+    "Family friendly",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 5:00 PM",
+    "tuesday": "7:00 AM – 5:00 PM",
+    "wednesday": "7:00 AM – 5:00 PM",
+    "thursday": "7:00 AM – 5:00 PM",
+    "friday": "7:00 AM – 5:00 PM",
+    "saturday": "7:00 AM – 2:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Artisan bakery and deli serving fresh breads, pastries, and wholesome meals in the heart of Sedgefield.",
+  "description_long": "Sedge Bakery has become a beloved fixture on Sysie Avenue, where the scent of freshly baked bread draws locals and visitors alike. This artisan bakery and deli focuses on quality ingredients and traditional baking methods, turning out everything from crusty sourdough loaves to flaky croissants and hearty savoury tarts.\n\nBeyond the baked goods, you'll find a thoughtfully curated deli selection featuring local cheeses, cured meats, and pantry staples. The cafe counter serves proper coffee and light meals throughout the day, making it an ideal spot for breakfast or a quick lunch. The warm, unpretentious atmosphere reflects Sedgefield's relaxed village vibe.\n\nWhether you're picking up fresh bread for the weekend, grabbing a pastry with your morning coffee, or assembling a picnic from the deli counter, Sedge Bakery delivers honest, well-made food without fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYeK_BjKjeB4RCrnEKcFO2u0/photos/Ab43m-shRlc5vx26PaSqwKOwnmOfSedujtHrbuoBWHZHIlKXMboL3SL3W5XHJAsMx6hL9sCjgrhw0BPoTEdoH_Euz6DlkGEEKgiBhnbeRWRvlzn9V9ceQrSQLoG3Ul5_rRGRXdFOV3gWG2xzqjnHHfRYI84XFZwpfSqZIuhMlf2TBMijJrW_VCLEBxrJvbXqlUsFX4nR1k1mys-5P0gY3uZy1KotobclDKag8pVWufsdZQ9RfF4eAOFrpFSWjNuLQVMHU5wPLXQ25lxZz6Z9ZPTd7nBydMgwNYRSoBVuVYcmo2VjXQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYeK_BjKjeB4RCrnEKcFO2u0/photos/Ab43m-uzDepMYBFNKp31dTzA4gKgKrRTiet0l6U3rZeVEKzEaNy_JC-0T3oBsqo8_JpNTXnizEd1kX6VwaOVoCG5-oErWQd9IYnIacz0gj4Ufr31I7ebyc_P6Os5HOi99QcnkAL15m6B07inWPkbFqOPyo6rmPsfe8jEegTzVSHHueciFWA6QgPGjzj43fHQDgQur6DxGMjWtj9ubvwSGtwu33LpRQOAMoC6Y07FsdPcUmSJbMPMYKJ9pa7JZ5J841DVUGLOx29WsNCeYQqfFugxnOSuEUV7WhvVU-6rByJvlnukwg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYeK_BjKjeB4RCrnEKcFO2u0/photos/Ab43m-s09R1WxE4p80r-hvHAGEELqKNA8zb539rWBkfOuMQPHXlsVaYk2LaDUhSj6wzqdg9kUBZODRwTSiZjxUeba848E_5AYmF5BQ7E9xaZuK1xONE9qcQgeOWQu9utZROKNuXBiyoDv8s59IfjWCEDnkkMn9cwuXc8vVUx7ptOLeQwyMXml0MlaKCICJDZncj3P8ctCGhXW3WAen9OBZkRk7d2jruV1nx7i9ytPqylwIwWCtlWSzElcImwk6xynshDxB1vtZeIgIMy2dnqhqjmb1KDbSd3ck56TKd0vI2CKuZC5RprhN42LqtUWI8l4aw3Wl60MIzGdcT58CCaZ7fHsu-llAcqXuoC3pRGx-Cvei1WErW_95Oq6BXKy-ImAPmQHR4h_0fIDbB8oCts1IxYnB02mPzRTS9G5cInaJaxN5o/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYeK_BjKjeB4RCrnEKcFO2u0/photos/Ab43m-terHIEdPYqchc-y2MGdsTA6OhM4cziq5Zqc_BsFXO-bYhtx5Zd9GNJP8AmeOgnj5ZTcZ1TTPOEpM8HiZAZCnEGcINoE7KF-zjbe8K3VnrW1x_3tM3mbYdlLkZQJPZR4GY7itZO3nslU2a7BGIDMeXkT0Yd9KTy2ABBBNc_AAnphumM4K0370iO5c9ZANHmGTyP8niWloJXDxlb4gezQpZ8mJOsTQ6arqkc8GK838O5-xdml-bb-1CdZM2WNCPbxW48pNhrF_ZwC7YklPVQU3cFm2jpTPKksMu9pzxv46KtwXjz_npdmHa488xwfAPaQIHxvtmRoTTvbdsJJUF2T0YZkKmmg5BA0nD4ObvVHqGkg2PPwZyUlojSEfsZBBsRJmmDgJwNMBA_rCSoU3-QfrYv0OkYy05kgCxhwgurKpnI-A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYeK_BjKjeB4RCrnEKcFO2u0/photos/Ab43m-vXD9TAyLNw9ItynfAo-upEjesc8kmC1OJLnLrFmNC-rQcxyrQqwzcVCde_Y3NhQrsaQuixM7TktFRopoMoYpoDAWedLqEBaeYiYMBSn3fDa_yHhsiNBvgIzrD17O5ONQJM6yIBb3CNub_eZtDiZdAQP5i3o-0y2U1qcK7qQpG2OmpJQfP_3uuxM79XjD6O_aCzETbOBA5Fv07jUXNOtO7EcXo1B2T1KFO6svOXdNNsNuxecxciBr-d_Jq_h5EdEYuzggUJabDXfa7LEW6buwFIN4aneHgacAYIz7g-QBZZF05ea6qOoyWudxMfXdy63bv3RTYnpH7rZAfNE_j2Rvpm64zUT8mJht6g8kzODYtAK4fyf2U2mtsdWu-Dm3wH6kL2wF7b6LS9blHrkfArCgXvoZcvFyZJEYlVpzHofbHvBQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:49:44.749120+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

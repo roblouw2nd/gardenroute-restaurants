@@ -1,0 +1,74 @@
+{
+  "id": "holy-dough-pizza-george-george",
+  "name": "Holy Dough Pizza George",
+  "slug": "holy-dough-pizza-george-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "13 Montagu St, Blanco, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9491632,
+    "lng": 22.407885099999998
+  },
+  "phone": "+27 61 658 1330",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJSQhc0ZkP1h0RlnlYKjnW2bU",
+  "google_rating": 4.6,
+  "google_review_count": 22,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Italian"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Wood-fired",
+    "Family friendly",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 7:00 PM",
+    "tuesday": "12:00 – 7:00 PM",
+    "wednesday": "12:00 – 8:00 PM",
+    "thursday": "12:00 – 7:00 PM",
+    "friday": "12:00 – 8:00 PM",
+    "saturday": "12:00 – 7:00 PM",
+    "sunday": "12:00 – 7:00 PM"
+  },
+  "description_short": "Wood-fired Neapolitan pizzas with crispy bases and quality toppings in the heart of George.",
+  "description_long": "Holy Dough Pizza brings authentic Neapolitan-style pizza to George's Blanco neighbourhood. Their wood-fired oven produces pizzas with that perfect balance of crispy base and chewy crust, topped with quality ingredients that don't skimp on flavour. The menu keeps things focused, letting the pizza do the talking.\n\nLocated on Montagu Street, it's a casual spot that works equally well for a quick takeaway or a relaxed meal. The atmosphere is laid-back and unpretentious – just good pizza made properly. Whether you're after a classic Margherita or something more adventurous, the consistent quality and honest pricing make it a solid choice for pizza lovers in George.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSQhc0ZkP1h0RlnlYKjnW2bU/photos/Ab43m-vBBGq4vnbp6pGrHhLjxJlJYZeX0befNjze0vAQih2LgU-vC2HPDqhlWp3A4c1KOFLpolqLsxKH5WajFqUVhfCYLuLjjmk70AYuW24XJzvuIi8i4n40WWn60DMhD4Fuf5aerZIXh-JrSHM2c-sYMBFrfjisRD7vBhApJFdiRTcVlzoay-12q5DPkr1ro0X1zY41SAuUQT539sub1weClO3BMo5VRcRlkcUbJfu5WAQ97AiuVbDPtmg4rtfqG2wT8vwZ_lj7MZ2xOm_oOum_uKfK8eygDuiOVczv2aaQgahtSA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSQhc0ZkP1h0RlnlYKjnW2bU/photos/Ab43m-uXnGn7avgCANy5o92Eqff9kkHdX2olX33BtGJv9XwFwC7w0AV7MYj6wIqgFScVkbb6LNUc9Ps3m3H8eXgrqq4rl5bwf7FiUl1T5i0INHvDoFPpOQxSLh_mboqtBOkSDpMJ6HQqGdcNoy5aAUbY8evNyfLfLbNAjc6jY1zy-rp1HQH42ZdvVAssYrCNmBxVIOqr_QfT4IifmiCDGLFuF9fyuj78WwGHjNGyKEIEuPesNfp5JVT02CKaR64rp2nEHryzXHtJFQCHHO7tEimpUMz8D8FI4M9ui5OOu5lAZ71AnA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSQhc0ZkP1h0RlnlYKjnW2bU/photos/Ab43m-ugJO0E-SakIE4yItitFFIx8e0nSrsoXo6D9ssYRI743ZxtJKeRkaeNIDyJq7k-jwX7jSygYWmx57Rcr91fp6fvgtcYIctJWYW4CcX4OCsYtxsNK6nw0c_srvN4dfLUM2uLsp0J1m2Qi02UiI2JkxaNOIiWxsxLdLVKAnCDzStpjAGvZElJEgDp4_4ikTebpWdUX_udwb5yx4HcF9cb1exYhiIffilVfctWd7Xw5x5tCi6ieTKM4-Gqb2h-1dTxKOl9U9ZmXPvW9xmfk4IOgR8mxT1vFXt5hNwXrzX9J2oDnFc0cM1hgpwCkEzJdK1muY6etcr6ayHWf1KbHTfqrT2qHZuC4Q9dZqG1J2FTPIbgNthHcVRa6T9dRZ6oNVS7j6WjwJaBriz0XD7EnEc8Di-ZBrZnyE9WfhQ2n08hs_xvJop0FmotZJKGLYqsowFn/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSQhc0ZkP1h0RlnlYKjnW2bU/photos/Ab43m-tYzJNQFdHXIvahtwGMfZ6RzIbDlvO9Zz5TdjLP650pjACAP8NbxB-onk7jrkAc-1vV22iDIh1Q4XByOuP7SK-dSFL3LGRgfxsaGNrGN_vhD1vENBnhIjrwYSs0_8mBkgTPJew69EsLNt0BXfXbopoH5nh5wZUbbHOz2DJMa2PCbtpzic6Pssm1us07GHRYu_GPn79eIDaxK58KZ1DhKhauYTXkcEBMEt0pcgft9nMaycpbPwjHBTNqqHC22TzCcvyDos-bksclNMzPRQcC-M8WL64j2jzM8sQgj81aR7s4Yg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSQhc0ZkP1h0RlnlYKjnW2bU/photos/Ab43m-uw_RyFCXv-3YVa_RepT3HRrVdQIs9EZTJUk6QCDAfQ4W926cArrmbCf8LMk7qaYhOSoAr8E6W8vQ_JjgX8snyoUap0orDOJ0nWlfZeuY5bo13II2wksR-4jiLkYHVDhIZ_X1xsc8C2aP5XSWNnMaDoj0vPMSvG6TF7VI8sgYyxasAYr_9OhsXp0r6bqjcYob85PiHPeFphz0euH1Esf8eBZGEuH3sZYVH9NsutmaCJNEYW84FgqW_jxhjsA7CE79m_hWH_HhyMu2OeTknLDaMdy4SAfKlZmtgt_JU31SffnrGGEh-k6QqJ_LME_Tdp7Gz4jQNYgOrZEZiwICa4jlbZL9IViQOli34l2u84cMBFbwfpNfFSU2GQ25pnc2wOxq7XworK0427ul5XFfco-0ekqzTmXMS_0hHt63JqRz3KkveYSBfW-wythuzV5gQ1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:38:31.223667+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

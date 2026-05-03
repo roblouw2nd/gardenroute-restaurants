@@ -1,0 +1,80 @@
+{
+  "id": "glentana-cafe-groot-brak-river",
+  "name": "Glentana Café",
+  "slug": "glentana-cafe-groot-brak-river",
+  "town": "Groot Brak River",
+  "region": "Garden Route",
+  "address": "1 Kus St, Glentana, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0499782,
+    "lng": 22.3151193
+  },
+  "phone": "+27 73 098 9817",
+  "email": "",
+  "website": "https://gapp-collective.co.za/glentana/",
+  "menu_url": "",
+  "google_place_id": "ChIJuWXUAAQT1h0RXypvo_EpAps",
+  "google_rating": 4.6,
+  "google_review_count": 234,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Burgers",
+    "Coffee Shop"
+  ],
+  "tags": [
+    "Ocean views",
+    "Beachfront",
+    "Outdoor seating",
+    "Family friendly",
+    "Child friendly",
+    "Dog friendly",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 5:00 PM",
+    "tuesday": "8:30 AM – 5:00 PM",
+    "wednesday": "8:30 AM – 5:00 PM",
+    "thursday": "8:30 AM – 5:00 PM",
+    "friday": "8:30 AM – 8:00 PM",
+    "saturday": "8:30 AM – 5:00 PM",
+    "sunday": "8:30 AM – 5:00 PM"
+  },
+  "description_short": "Relaxed beachside café in Glentana serving generous breakfasts, burgers, and homemade treats with ocean views.",
+  "description_long": "Glentana Café sits just back from one of the Garden Route's most beautiful beaches, making it the perfect stop after a morning walk or surf session. The vibe is laid-back and welcoming, with friendly service and a menu that covers all the classics done well – think hearty breakfasts that'll fuel your day, juicy burgers, fresh salads, and proper homemade cakes with your coffee.\n\nThe outdoor seating catches the sea breeze, and inside there's a relaxed, family-friendly atmosphere where kids are more than welcome. Locals pop in for their morning coffee, while visitors discover it on their way between Mossel Bay and George. The toasted sandwiches and burgers get rave reviews, and the cakes are baked fresh on the premises. It's honest café fare in a stunning coastal setting, without any pretension – just good food, reasonable prices, and that unmistakable Garden Route charm.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuWXUAAQT1h0RXypvo_EpAps/photos/Ab43m-u5f7modVqXyAS1jMytoxA_swzemttvjLOXkPxC7aS7h8wI6EHtST6Q5wL_fbqg-3x184-y4nS4NGboEHoNcrQLVCRZzEC_BcDe4x_ftml75cYOTGqAP6XrQqUnGWBbDfyPvrBLlk1y4YpLb6pnJN2pnwj7D6FsZIVmObDpJTNgHygfGr_Y-KzMdNTULXCqBiOiRbZ6BAadhqx4B_dOT0dutNVWg44PgzHI_eCOP3fHr7LBPDKBweA3AoDNkJ45UCV14920u765Xsqw26WqyrtXptPQn9v8ZHW4cjUIMgtaEOr2IUm1bi4M1YXtcksipvzI0iL8xXr307k4ToJwYtUdjkZNjTvYzuy5UZxVgfzyC3fUJnjohXs8r36Rd2R1CnALQPFn5F0L38_5N2lVLECEq44rS7BP9cQPEQIXyKPaRpPLNKnuzM0V2fK66OId/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuWXUAAQT1h0RXypvo_EpAps/photos/Ab43m-vyY6CdQzkpRj2tn3GU5Aet5eXtcMvIgHAEXNVwH9gTRnH_84aNAKt2TNMT2DZM5RNnPe3Her3MfNgppnJ7pB_oKgOOLwZFlvzWrG_J5IrXH-NZKpQ8cyNUF5FjkeAFbNFHanr5wXrI6K4jeHIl-CWfNLXM2IzDrVp__sYPs4ydmPgl9jetSzQMAzmlFo57_BsGOSek5-JjbnAOjUrxFaR_0C_9GujsL2KrZtiF38tgVc4xsfd93k_aWKRZNtEkHalTyinFYwojBFqRAPhJpa1yntsK4up4C5r9VI388Rd_FQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuWXUAAQT1h0RXypvo_EpAps/photos/Ab43m-sorzVk5KnRFHzjQvmfyhpYbYCDCiuaSmuhh4-dHnXFVpvSz6cyJ2IqBlaCUCZMn10VkZciocd62U_iyXkEv4hBUz1BFdLblltb7l310efwdXcNHsl1QFNvVIIn5Xn_Dv_zgL7GKluWPvYF0Qzx-6FRT2ant7ds4MvF1go9LZjGhkVFzzDd5WztCwJFoyQP265khpMUh2LHF7DoV_qA2unb1ujrb4FgMp61IBHar7tPGk6bnxmZTDVjUuLgTtih1JwuCGgN8c4Nque5Z57fQyKra-xdWsyUa8zcxylp30WUSUwzHWo5DilpDY4bbdiU1IVFoi8_xOynjiFldFRHuEyH84Ke1R8n6fREdU6pUYW_WZeY-6OIsPiptRImEzYo-1ZePETij5iUJNvBCmPUqaQ3PlhtwAnGDgovATudy13uTEvfHwpH32rfnRLZkoS3/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuWXUAAQT1h0RXypvo_EpAps/photos/Ab43m-tVsCoHbp88nTFRV16WSRqkugeR4h5arbEFWrjdoc4SSOhCh1NrZOz3dhq_MXnmQfaVlUG5GTKF64g2OKllt35a-tYBJ6J_-WTYoSJOOsPzYUriC0UnL9xBhIUjrPkdNc3nrp5E7PeH_G7YlkV3DpFKQRjPm78No9dyH96I9TzcHvqPOPMMrqOGpOPdZIHheOlqV3-unznXALxgFneDDO8LCDBdgXt7aKLFi6Y-E3opZ1sdzbS_Wabn34LseUQsBBu7r6HjjS1oTXQRRAdzEdGPOJfoDhsvx4BiKdJocEWjMA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuWXUAAQT1h0RXypvo_EpAps/photos/Ab43m-sKJ7ox1J5EibKB4bHqB6Zc3AydH5oWG-bN3R3bAzgtAa8iU4e79emmhD6P4KIwVbOOkS2TbQZFf7klrOWa2vEB1-EHw0_tX8yvqXmPSFs8fm-LQG6Owd2gGnKiA6lCyMf7-SpMNO5olNAoyIz9sT5eqiNi1y0cZV9Jc4zLD6IQH1nhe9L0w9nCI7LiZg5S6WE1V-1jeGz95dz6cpnhONfkEFicxNzqBAvHBspEOH8pVP-3R6uKEyFicBr5HaW-Gw878ATSglG8b7ttpRt6EIM1DiD-MQkpz2t-LcSZ_VbTu5nB-ssMd-0-MsyequgvC13nZZ66vukF0zlvlARIiN-w3dymBvXsrNyebX0O7Ey2b0XKegSHbvPIlbRXKXKZx6WfnZSCBEuOTtUL-brUiwS2UEdihbKV0fjVLas7-LPlHydTe-r3tUXdls-hl3Ax/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:24.148828+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

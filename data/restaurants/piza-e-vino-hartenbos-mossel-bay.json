@@ -1,0 +1,49 @@
+{
+  "id": "piza-e-vino-hartenbos-mossel-bay",
+  "name": "Piza ē Vino @ Hartenbos",
+  "slug": "piza-e-vino-hartenbos-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1245452,
+    "lng": 22.1083394
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJyQboBQBp1h0RKH7YwXCLEBQ",
+  "google_rating": 5,
+  "google_review_count": 1,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza"
+  ],
+  "tags": [
+    "Waterfront",
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "BYO wine"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Italian favourites with waterfront charm at Hartenbos, perfect for relaxed seaside dining in Mossel Bay.",
+  "description_long": "Nestled in the coastal village of Hartenbos, Piza ē Vino brings authentic Italian flavours to Mossel Bay's beachside community. The name says it all – wood-fired pizzas and carefully selected wines take centre stage, served in a relaxed atmosphere that captures the easy-going spirit of the Garden Route coast.\n\nThe menu focuses on honest Italian classics done well, from stone-baked pizzas with generous toppings to pasta dishes that satisfy without pretence. It's the kind of neighbourhood spot where locals gather for a midweek meal or weekend lunch, with the sea breeze and Hartenbos charm adding to the experience. Whether you're after a quick bite after the beach or a leisurely dinner with a glass of wine, the laid-back vibe makes everyone feel welcome.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:52:08.086690+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

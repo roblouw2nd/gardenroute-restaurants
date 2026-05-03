@@ -1,0 +1,77 @@
+{
+  "id": "the-daily-grind-coffee-shop-sedgefield-sedgefield",
+  "name": "The Daily Grind Coffee Shop Sedgefield",
+  "slug": "the-daily-grind-coffee-shop-sedgefield-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "1 Swallow Dr, The Village, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0160917,
+    "lng": 22.802657699999997
+  },
+  "phone": "+27 79 937 5994",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJi0c4S-WjeB4RGw9hEKNnbag",
+  "google_rating": 4.7,
+  "google_review_count": 72,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Breakfast & Brunch",
+    "Bakery"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Breakfast all day",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 2:00 PM",
+    "tuesday": "7:00 AM – 3:00 PM",
+    "wednesday": "7:00 AM – 3:00 PM",
+    "thursday": "7:00 AM – 3:00 PM",
+    "friday": "7:00 AM – 3:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Village coffee shop in Sedgefield serving quality brews, fresh pastries, and light meals in a relaxed setting.",
+  "description_long": "Tucked away in The Village on Swallow Drive, The Daily Grind Coffee Shop has become a local favourite for Sedgefield residents and visitors alike. This welcoming neighbourhood café serves properly made coffee alongside freshly baked goods and wholesome light meals throughout the day.\n\nThe relaxed atmosphere makes it equally suited for a quick morning coffee on your way through town or a leisurely breakfast with friends. Their menu focuses on café classics done well – think hearty breakfasts, fresh sandwiches, and home-baked treats that pair perfectly with their quality brews. The friendly service and comfortable seating invite you to linger a little longer.\n\nConveniently located in Sedgefield's Village complex, it's an easy stop whether you're exploring the Garden Route or a local popping in for your daily fix. The café's consistent quality and genuine hospitality have earned it a loyal following in this charming lakeside town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi0c4S-WjeB4RGw9hEKNnbag/photos/Ab43m-t1LTm3hfX19IDHkdO27V0optqxnisKL-r-t87lfHk6DhmpfUopyZxq3nteFRW-wUuKmZKF6AJ84OaiAQl2XnkVz0PIVaPrPnRPSKOzDckIf6zam7lJ0NVQS2T6CnHwWq7AdvmuT-m3T-Ob3SYfZA4qr0W5UAx7ctIBDm-hj4YCw6gYixLBmEZTRyhbUkFjd_W5iV0a6EZcxIGq8cN0VF5DHDyZxepZ9bUfk4OcBJ10Avti-tGV88TKaEjZKoYdFmxqy-nZhATyvj1roxMUHgLFfsDloMz7uv5ly6MCxmNYets9axsL4r0rhAyTEurEiXMeEwGmz1JgrhmqVLQA0b9lRhPaPBhdXEQpUpbiAthhe7UxcKnGq7bl1hrll2SMsi5u5hjmsokik0LfWduXGQzy36NuEER4QOV6WRFUsYPC-jPmPohkSRzfipMCOQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi0c4S-WjeB4RGw9hEKNnbag/photos/Ab43m-vZqa_p1gw2bS5v4jANInszco_tdyaW0hhf_rjLLflgBbK4Z-iVbj0RY516AzlIWO-dpBwSugua0WkvWaOI-PAbQ47LVoUj5AkBQYfMJdpaBPiA938sIKJqZNavLe2hYqR_vCFr2cZcYdUYeskfbomTFdNjO9pjfACotN9ibbOnwkmCWE9ey79Ex7LgJuPe66qc-uuzq4wjzDwvNHhsfc3dHcFIiL4oYG_2QLiRYrUBcvlKPfsjna2oYZxbbl41G5v7d2iVdjKemwA89bFO4ZPdTY2dN8Izwk3yHaMvkV2wDA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi0c4S-WjeB4RGw9hEKNnbag/photos/Ab43m-tNjXsGrIY1kIxWcfsW8ZhUvVfWUgFYGVb52ny_fqmCfYpsXuCNm2wh9X-ZxYNXCK9gNQRNjaYkFOWJJudkmnF-ozZ-tjyp2DWQTEOcsuFQ5i6rwHL1ox2mBmTuf51xefshmBp1YN7ETm5WFWE2KaaAm3x_2frt4GlOYC9rFxMDjHdLTVQQMymhFvPMSOsxT2XDE5Z-KJgSgQVFuPNZq8lVIclIRSkAvonI9tXCBnOZlVdYNfygZB2amivGttrbA1nTq7a3IiocdbgG0eukIQzMBrEM8w7Kuas86xgpkcultbPgHpJncKQRv5K7zSwe__fLOD-PsxSepDP1SV7yenRLxZM90_ylqWSY0fp0URQsZu2lmrtrgV80IZPess3yzWB2JhYxVKZqm1S4Q01QeF1WSMD8EYc-r-c5GlHGdLUerO4/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi0c4S-WjeB4RGw9hEKNnbag/photos/Ab43m-t5435hVXGC11y9WJB18khUj1fPZscGJy5HCQXXSZPBCi7OdvUnbGVjsDZ-r2bqaIYbutOFGMLt3m9mj8rT9CnrV6kxH7JA3d67PCek6AA41K7HdhXMNcSrTcXYoDdv14Eg9Zpp7_TBMfVAAEtcQTvGQL52UFnWw6Y3soacvG4zXyzLuZX4_3Ec9nukW9MnTJ52oPneXulecx6X6cIttG7oo8Zh3zyxQ42RzsI6kOMik0_1ARSw-ElDGTo7o1RUFQlytxj6P5PuGMbHhPoKfxxtjVpUU_BxJ6Sq-vJAmdBTTpmNpl20eQsQGkXJ8EZtyED0rj-Rx4ckghzOUD7xE6OHcg9R62LhWQbXepVCTa-P_R7X2oSRZIrOsIAlwjx0YJgy5rnq8kC3MLijua8S7L-BAfQ5nR0MrWxhJuNEtDkXPw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJi0c4S-WjeB4RGw9hEKNnbag/photos/Ab43m-vd0nvRqynAQXOHt92NNO8AJyXZgVSn3DgSZlSDD6dIK3lysJJybRfcNA-c80YOzfsNofC_DmoHBegWfY7gdzlB6utF3ubNvgawHkNk1TKOdlgv8cLtv6VOHZWDIlA1D_iJ1P4MXjmXg1BPbpvgiu-_IwBpauFkcaOmNzE6dhBorPf5lJTgaolhxFUxM6MibBF5DNyUEM5iumo74-tFGa6NfOKJJmRB2uHPyoGFmB71rWHPxRZCmgwcmw6leo8vIlBl5tYedxMXMCZuFDfWsa8DgYbpbvyIgn0uNCaI-x72pfJdkneD8e630gHOCqUA5em2MyJ5OQzHCSu3vJkBC87EbFA_RO1pfWjzivBkpeEmsbSPWPP5wDdKx0vDWnf5WR8c-CQB6tk79V_6lhn2qiuGvUOoyT6vGcBd54Rz5a0ln5eo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:49:17.923831+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

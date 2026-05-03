@@ -1,0 +1,81 @@
+{
+  "id": "new-wave-village-cafe-victoria-bay",
+  "name": "New Wave Village / Café",
+  "slug": "new-wave-village-cafe-victoria-bay",
+  "town": "Victoria Bay",
+  "region": "Garden Route",
+  "address": "2 Victoria Bay Rd, Victoria Bay, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.996735199999996,
+    "lng": 22.531603
+  },
+  "phone": "+27 79 819 2010",
+  "email": "",
+  "website": "http://www.newwavevillage.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJ8d61ZD8d1h0RWv77j4nI_aA",
+  "google_rating": 4.7,
+  "google_review_count": 184,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Coffee Shop",
+    "Cafe",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Beachfront",
+    "Outdoor seating",
+    "Casual",
+    "Dog friendly",
+    "Family friendly",
+    "Good for groups",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Wood-fired",
+    "Ocean views"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 5:00 PM",
+    "tuesday": "8:30 AM – 5:00 PM",
+    "wednesday": "8:30 AM – 5:00 PM",
+    "thursday": "8:30 AM – 5:00 PM",
+    "friday": "8:30 AM – 5:00 PM",
+    "saturday": "8:30 AM – 5:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Laid-back surf café in Victoria Bay serving pizzas, coffee, and good vibes steps from the beach.",
+  "description_long": "Tucked into the heart of Victoria Bay village, New Wave is where surfers, locals, and day-trippers gather for honest café fare and proper coffee. The wood-fired pizzas are a crowd favourite, served alongside hearty breakfasts and fresh-baked treats that fuel beach days and post-surf sessions.\n\nThe vibe is casual and coastal, with outdoor seating that catches the sea breeze and a laid-back atmosphere that invites you to linger. Beyond the café, there's a small retail space stocking surf gear and beachwear. It's the kind of spot that becomes part of your Victoria Bay ritual—whether you're refuelling after a morning in the water or settling in with a coffee while the kids run down to the waves.\n\nPerfectly positioned on the main road through this tiny coastal village, New Wave captures the unhurried spirit of Victoria Bay. It's simple, friendly, and exactly what you need when you're spending the day by the sea.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ8d61ZD8d1h0RWv77j4nI_aA/photos/Ab43m-vkhPgrIUpXJTeI4pNLEbgvP6LBAmuDXWnorSkaOYu7iyoL1pM-5z0kxjhWVgEOxeSRM7X_vRv0lrlJNnxcZgRFVkX-ljiN9ucGpD-nu2wX8nmU3A7sSASQFXFpGWW7l6Qyyc7Jh9NHU2tLxhjycy04e7sjio83u4Xtuhnp7zqGGtHdA4xZcPAJmQUcbSVtzb2fcEIkwCjPRgsobwhdWceU0V3ePda0V69x0S4443CdVxWIBeNLVaYbj9Ed18Nc5HLWv0b0MmP1s17ezbfsJvMi7gfrrZNgrqCGwmlQu1m1eQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ8d61ZD8d1h0RWv77j4nI_aA/photos/Ab43m-tM3Xo1Fg-LDZ5w23mL9nCTfYz_IrFXba-jtC114pORb03hFPWObEFRflazAsh7xaaaOQ4luVZlIr4yXk6MyMZjWhB82GxcJjTw17OVYcV9FCphm4yn8EcTRUrSFdL5A38TLp2T8RompA_ghuv4zTBorEdwwqqRYgDWpkUQ-c07IdNJx67idpCHXwjMq26y3JmTzAAxAnOl2FHAj5VBykullHx2nYgzzKQiZbv3P-KlLS8JKrcbsKCTx1z_TDQqBaI3E525PrzEskFWb_5BtZwIh2tEHgrC5QUM7T4JIVx1cw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ8d61ZD8d1h0RWv77j4nI_aA/photos/Ab43m-vM7sczcz6Anxsg71bAkgWOPFe8FvpEn2NjQ5hrLgW2bhjoKQE8NcNzm8yqfb3g9O46ELUvEU6k9M9tXxe0Z65HzmEN7kxAs8d3Vqz_X9V2m3EACuJTvPMwpVLGNdIV2QZXQXj13_qm2AU2QjUXJEZ_GVgGMV0mtBh7ta3cPLZwVFzsYEyd_CqvJdnDlnZAye3E-AjPxYoYAcN0P3VlVw3abB-JmapEmry8H-mMnKNNwj1Didq-avORD7BKhWKWYebCQ8eN5FsLGG0dVdaIbmyHtbkT2yGz0jpBuBDZuolavw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ8d61ZD8d1h0RWv77j4nI_aA/photos/Ab43m-vhL4Cpft-W7J-wRZHT07VfciMCzS1wSpYDlvWYXK689OnsHycyHfiaTy7XNEHKa8YIY7a7JwIIijPOIGtxNVooG2IWnoeOSQ6C4nG5BiXSy1_lyIuvFi_OHdGpxLDInDyZTUjiIL19ky1vWI4M_kij_t0v2CSjUjvCV5QroWfpLDzVCq4yPExrdbOFIuwuda8_N6c14SSnvxr3uOBB6s2Tn710Oh9UevndVv4s049Hztle6qrcNSHB6WuVBkDopj-7rLs7Src1WdY8k94l4n-l38s89KGZp9FQ4iUxzgQQ5M5JjAsyzmz6HM_2Q8D4DZFU5-0q-pfRyFX9gMA9PlRDA7tIDLQPXHIsX0odpnkwUJLthsjNn9u8kJjy9JnBV_t36H0kW5f2TFmS3i9t426V7qhKJmyGRkwA82PQoxau4R28UTEdoD1B0vnl5t7l/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ8d61ZD8d1h0RWv77j4nI_aA/photos/Ab43m-tVjO-BBho9I79BwgM9jgaUSScVrKVk7NxnOjd4XqlSGg5YgbtjtwavOlvV_mfp3tk2YhgS2B-2Te66I9dUFqDCMkUHaGQegW3E6d8bE5_rUtrc0veQwomUXhI247NCyuHeN66l7uNjm89kZGKEM3JA6tFlkJsZIHA3Ih3Vy4nldGVtG8tUA--0DYqFnrH-POgNY6oIfJftIZ6JWgzyMvDnFjQhJDVkWS0ARbo4FDghmbmt6cyOHLNYWSIJWkNImYp1_LOAUtBq2pyVQ84eGNIc548Q3Nt68pr70E0AZ07ZJsjdIYgDQf86IFRLl5BNU8YuBUEHru4krCICCDA9gofWYtzU_rUPYlvfLUAkGJjYkKyFvKG-HxjXLZ-8ZXDTyi-VyA4vQpOV0zUzWYdzSd-wuTMD_sDMg9XjwRgeLUTiClg9rScxLCvmi7Ox92NJ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:56:18.147692+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

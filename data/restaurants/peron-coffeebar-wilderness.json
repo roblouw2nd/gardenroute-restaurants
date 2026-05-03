@@ -1,0 +1,76 @@
+{
+  "id": "peron-coffeebar-wilderness",
+  "name": "Peron CoffeeBar",
+  "slug": "peron-coffeebar-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "1 Station Rd, Wilderness, George, 6560, South Africa",
+  "coordinates": {
+    "lat": -33.9946652,
+    "lng": 22.5730164
+  },
+  "phone": "+27 72 842 3056",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJDy6Qqu0d1h0R8GK9vWrajeU",
+  "google_rating": 4.9,
+  "google_review_count": 102,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Bakery"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce",
+    "Good for groups",
+    "Family friendly"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:00 AM – 2:00 PM",
+    "wednesday": "8:00 AM – 2:00 PM",
+    "thursday": "8:00 AM – 2:00 PM",
+    "friday": "8:00 AM – 1:00 PM",
+    "saturday": "8:00 AM – 2:00 PM",
+    "sunday": "8:00 AM – 1:00 PM"
+  },
+  "description_short": "Artisan coffee and fresh pastries in a cosy Wilderness station stop.",
+  "description_long": "Tucked away at Wilderness Station, Peron CoffeeBar has become a beloved local haunt for its carefully crafted coffee and welcoming atmosphere. The space feels relaxed and unpretentious, perfect for lingering over a flat white while watching the trains roll through this scenic Garden Route village.\n\nTheir baked goods are made fresh daily, with croissants and muffins that pair beautifully with expertly pulled espresso. Whether you're grabbing a quick takeaway before hitting the beach or settling in with a book, the friendly service and quality beans make this little coffee shop worth seeking out. It's the kind of neighbourhood spot that locals return to again and again.\n\nThe Station Road location puts you within easy reach of Wilderness's lagoon and beaches, making it an ideal stop before or after exploring the area's stunning coastal walks and waterways.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDy6Qqu0d1h0R8GK9vWrajeU/photos/Ab43m-scb7w5U31JbXFf_wIhdklywAM-RaLdln7CRyYI_Sbnt3-PsG1kzSATCGaWjnCMWgv1_JtdX_5KFaIyzOt3Ba7p6JTgYPnFNFNc5XLJgBzXy8xDqAtPMHO5Jk3rPUK7hLQkOUxmy9KjYCZWde-C5LjmZp3Kw7m-pwdKc3fAZFvbuWnO8WY1bzXR97wfecWr5bnwZkozeRqeXIJrTevMVqcXS8qQQorMgNas6X5q7yRdvwTU_IeIA3cXImxj-gDfxn6RRNUQ2MmbmtGKUwWI2Fr_ui3PNb0oYkJrFacKE1xcJg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDy6Qqu0d1h0R8GK9vWrajeU/photos/Ab43m-tlInPIWMkzceS4HFE0PiN_MRyXBCSfaHsnFQfW0yPYOloJZAq6BPVE646ceAIGgaaeVAoM_qoaGhtV0enxmsYNvvlDq7nPpQfwULeJzZXNRQCO3KXm9MnGKOVs-2UVttUgQ401_Lpo1RJjEufdyF4ubeyLFmkZeTEzImvDCvdrOM_ETCMHfagK48tP0Sd6zT8bxS4Ps7mi8eQsNrJqI7XhvWloPPHk1Yrn-FUSRAcqaC1RzbDoLZI-XclUkGtzadbzK1RJZf-abyBFRg0Z-RNztoe1n1T04pwLX8QYsTuv5tPv-m9-cvRgkscm2x5yzZIV8-lJX3mBHKi0SnPd9ayH6sQswWdnEL9LIFx3qYq_P8uSamlvP37bMMN3jS1BhTqy8npgWPlwAtA-JpW6IMeBHkEs28RKBkcIQNBBqRkpeyBW0I9zj1Lzfg4CqIqj/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDy6Qqu0d1h0R8GK9vWrajeU/photos/Ab43m-tAG-6_D3UK29Z4EIHJYQJr_21N_bh6-n9rJPTjNjjPXM1dUfOW4B78gSJSs7AuJJzTgWQzLUF_x_1mT3471qbgpEQ5XMzAp1q1NGw5EtRrNAY_vL0JQ7h_IGBg1HUkTxPz3NnTcBUSgJPeDB2Kam9G8leyyZMF0T0_kAJaweT3S6_cVc4kgyko17Yv7qhIyiGTu6Xxvw1Z-uFgcVEm7sbXksrVuLxMP5vkv60JSpXRio-i0hGETic3ZdWqwJORcX8DZ0y2F970v0TEm5-SpwA8l-Jo4LRMmiVuEeXTak5KapeUYd8MEEyD00NlTVhEuPYlHxiNWwvJP7rOyBfCMAHlKYmpTbe526hfWJG9A6-U6lq-yCkMVtzAmTne8TBfWOiudtocr3CW550OC12dXnbEVEcqGOGJqISOTo6BvyVvG8I/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDy6Qqu0d1h0R8GK9vWrajeU/photos/Ab43m-v47lf3467x5iBzUQ1p3w_j8FxUgF8UdKnTDGwnSnOLrrffV27mJTj0HNb6Dmsoqm0AWmP73fLORgb077LL1AxWpRMzrA9q76o00ZuMQYWYREWysWGZC6l2KBAMQIGlURXP5uN0inkbiFz8LbkCWVQDJUlnGIj2M_KvKfrIDJq9N0R-ugSsIK-p6Kpprwb8ZZLNofqoKKdp3cpisLWnWorxADUo5H9svD5U7GtRF9phBBb_sH8ETRMOVszupQQimFqCyiN__KFSq3ITxExXKzRvO1u-r9L5ubWLLEa0fdL4tpy8RFEKnd8KCEdTc_ydlmh5eQLtbO6gwTwdWQEiTRdnhKqXOnUiRB-ds_e5WvJjJGlNAQu2KkD3ZuTV2FdEGOrCCngyPcUGQJLR2lgc3ylkn31V-3p9ooSMHLbfAuLBMdo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDy6Qqu0d1h0R8GK9vWrajeU/photos/Ab43m-saK8noFd_invWMhlQJSQr6bR9WcWJJ3DQXHXd4pPFLubt_1McJo3kWnYMjjZHuHMB9sOyXtGdBdsNBM3nTgx5ajJWUxmaUGibK31mk8ysPmWyV4F-19QPFaPS0XLSA9Tq8Mesli_wKeR4mzHDBdro07oLsFmEtqe0kbp6UkA60g9L2ssCMW5x2_An8QemAcSwUAv_P3tPOHTgbJcRE3gqc7fk4xHsIqyQs8O0LNkYPEtfRZurPfK3lY9ishFd7hI-A5aB54FY_Ct0rEuQl6TLsto9Lx3EwDE7eln49OtvGMZNWDqP-OlMpMqiyGD29Tqw4WrXsFd-9ebnGrLw32tPGn6kzVVXzioGi6Yc11IrKVRuJE1IwntnyzObZXMDk4pfPEwzH_XaezLKqUJ1Ye7CH3wUSnMnX3wokJuTI3SraE9f7UXXpI3pXVSPPJLv9/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:34:27.954030+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

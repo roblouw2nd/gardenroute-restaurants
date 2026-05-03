@@ -1,0 +1,76 @@
+{
+  "id": "la-famiglia-george",
+  "name": "La Famiglia",
+  "slug": "la-famiglia-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "3 Kingswood Blvd, Kingswood Golf Estate, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9703921,
+    "lng": 22.4329492
+  },
+  "phone": "+27 44 110 0658",
+  "email": "",
+  "website": "http://www.lafamiglia.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJAwMCkk4F1h0RGx89HLIYcLM",
+  "google_rating": 4.7,
+  "google_review_count": 59,
+  "price_level": 2,
+  "cuisine_types": [
+    "Italian",
+    "Pizza"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Outdoor seating",
+    "Good for groups",
+    "Reservation recommended",
+    "Wood-fired"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 10:00 PM",
+    "tuesday": "8:00 AM – 10:00 PM",
+    "wednesday": "8:00 AM – 10:00 PM",
+    "thursday": "8:00 AM – 10:00 PM",
+    "friday": "8:00 AM – 10:00 PM",
+    "saturday": "8:00 AM – 10:00 PM",
+    "sunday": "8:00 AM – 10:00 PM"
+  },
+  "description_short": "Family-run Italian trattoria on Kingswood Golf Estate serving authentic homemade pasta and wood-fired pizzas.",
+  "description_long": "Tucked away on the Kingswood Golf Estate, La Famiglia brings genuine Italian warmth to George. This family-run trattoria feels like stepping into a neighbourhood spot in Rome, where the pasta is rolled fresh daily and the wood-fired oven works overtime turning out proper thin-crust pizzas.\n\nThe menu keeps things traditional—think creamy carbonara, rich bolognese, and margheritas with buffalo mozzarella that actually tastes like something. The setting on the golf estate gives you peaceful views while you eat, and the relaxed vibe means kids are welcome without the usual side-eye from other diners.\n\nIt's the kind of place where regulars know the staff by name, and first-timers quickly understand why. Mid-range prices, genuine cooking, and none of the pretence—just honest Italian food done the way it should be.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAwMCkk4F1h0RGx89HLIYcLM/photos/Ab43m-seRGCAPP33Vj0XOEuyxzmh9sZlQCu-Vub3mpXjyykER6PqNX7BEAsgl6Q_rLoRZJZfOuBWzELqV5MhAAI9xQrLtU9rKSZ9m3RfuW2nDALeX2zrdS4Em7MyYQBxusBOYeiS6h1yfFi53ncFKrmyTtwW6wX4JOBexioC2H3yYs2mdzkgKrk0sR1-JXC7c0lJwvm__Gwv9S3lQBRQyxqcD5bKodmYXhHHEE_ulEEH2F1G0dtpbnaqt4nvIvLNDssE5bS549zZfOZPB9DWIoVMqNl1EvZwfOQqmHSGdcPxcJ4csdQvjCSmEv4ykmW3y6R5SUNjD8INgNjqNa8Xpwh-yLL9JOJLaGJKOW9acb-FPNqL4hJ91c0uwmGAmfp1-KPZYlr0y9TxBWmmV16faDaVSRhDm7CvSTI6WWa6GnM5YEjiEHHTGiPnGvUjNWQ2ZQnc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAwMCkk4F1h0RGx89HLIYcLM/photos/Ab43m-tVEEQOSMom1LQl-n0tY4WWiehfiZobS7DaSEZ6DMtS2Tbry7XaUTHWmK1AptZck7sM_-97MkO2YyycfOLo2BEYYBmZe9uPTBEbFfIBcOQqDsYMypE1vUSvud6OCZoXFPl_zMxjmYzR06TzLLotHgDfDHJhUtafX3TOb4BPfealUNzP-iuTVrXxWXYLFdUZKa4q8sBVnCuy9eF7HENDbM8SVj0g8i7friztMYGHlLFDavciQk49hefBpNDHyYzXSCE76IcHJugV4alnlJtdyOw9LiTHAImJknD8b4UEBVwUDOGCqNaElRfDgKJJN3sgsQYfhXCkbidJW7GkEgcj1AvElJiQdv8ypbryiVkaLrtXzORR1VEVwDM5bXOopiXUxThzwTGLMaLGj8ezbnDTYz86EtebbzgkKWfMbVfPauiPqlBsNWaTPvUGLwzyQKh6/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAwMCkk4F1h0RGx89HLIYcLM/photos/Ab43m-telwZEIY5AxrZG-SdpXNL26vJYN6q91yjeFie3xLw18q4F77Ol4tIvuhCNnj3XnfZUOWOVnAGS18ZNcJUxfZ6ko3-hsCriUGeftOt-OBJjkvBJUzPZ1Kh0eHka5r0KMa36Y5TsxS_RlE7b2rFyEOXvpqvyNF4c-ENi76jZXxeypZ49MrQ44nhnJjoo03k0ZHHJ4xA9SP-ZQd5ZYV3hvl3XNAUjKdgxzeYa-GlTTqEKdvfh2W05VMg8ifE-CBBJoAzhJg691fL7Ga6CjoP42hNrLWUrKeMDAuzCAQk0Si7mGQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAwMCkk4F1h0RGx89HLIYcLM/photos/Ab43m-uLjEBq8XKMiNJavJ2rUZ09M8NiaCuVcmRE76yFnj9F9gIXbBvwRmg2PdREkx17bhCFQG8eJ8XGh7s9gsF1uRfbT97NVCbcTwvHnlH1FMQYWJcDxLJYaddhYMlHgYsgSrT0X6QwNbEQqY0BS74W2u9rZRD2uKZSmLc46VMEuXP7T2DNFGRJd1Wj4ta3qi4uvcO2XQGfpoTKYuP3mvN4H10SHKG0HBD-d1DBb5m0LBpB_XT4THa0xAzXAf90Vy9uGQHhfTW_Y9WAp9qnYlFhC4RJpJJklZ14DDvu0F1GgeGchmR719UAd8GoGa7NzImhYkCLdLXwVLxMa3MaQwECOrr0jgT3ns4sXoTywCEswf8oMX2FNEuReB8bPlZ7mSZpvEjLswRE08EyRTY3ZVoq7GelUeTlH1TnGNeOFWdrur-rDYR6qCBjp_X8eZExmbEw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAwMCkk4F1h0RGx89HLIYcLM/photos/Ab43m-sxCE3AYn_KnacI05DPsUnTDhbnnEdMDeWAzv6jRuv9V772Oy7vp-kj3a1QawwDE0ZAHYOpNsQU80OHALci0iRwK-I-EeNcHLLwxT8nPmFs0t9LqQVgFVLZE1zxfzxUg5tVfAFbGoE_CPRUU3DnEDHSvhYSWwbEPn0E0GXreqIuvkWbrbOyxzfMDCiBzJvLD1NnY5NVgUwrB8vOCZDvdACTjqk5QSFLV2zaEgwSOQ0EXhzo-QyPDSnzUr5RCeRrzOZg3z3a2k0C6117go4uwdxU7HwKnzbW2zlmSB1Dd0s-JT-Nv75UaG750USqwYfEhXSy5t6UVpU5zsWhdgCOrzWH-4BzIkLYfQNs6ZctUDmmwe5iUUaRtqKA5pDsD0GrMM0hyJTqfWfQZ1LHgDHymzreZnqNi-4EOBurhAD8VBbHyaXEDZyHbbRxJ0vntMAi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:38:39.548878+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

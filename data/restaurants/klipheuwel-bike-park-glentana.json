@@ -1,0 +1,79 @@
+{
+  "id": "klipheuwel-bike-park-glentana",
+  "name": "Klipheuwel Bike Park",
+  "slug": "klipheuwel-bike-park-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "Mossel Bay, South Africa",
+  "coordinates": {
+    "lat": -34.0798487,
+    "lng": 22.140483200000002
+  },
+  "phone": "+27 44 696 6855",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ1akkL51u1h0Rwf3mtISoWDk",
+  "google_rating": 4.4,
+  "google_review_count": 36,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Burgers",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Ocean views",
+    "Mountain views",
+    "Outdoor seating",
+    "Family friendly",
+    "Dog friendly",
+    "Casual",
+    "Takeaway",
+    "Sports bar",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Mountain bike park cafe serving hearty breakfasts, burgers, and coffee with stunning coastal views.",
+  "description_long": "Klipheuwel Bike Park in Glentana offers more than just thrilling mountain bike trails—it's home to a welcoming cafe that fuels riders and visitors with honest, satisfying food. The menu focuses on generous breakfasts, flame-grilled burgers, and quality coffee, perfect for refueling after a morning on the trails or simply enjoying the spectacular views over the coastline.\n\nThe relaxed, outdoorsy atmosphere suits families, cyclists, and anyone looking for a casual meal in a beautiful Garden Route setting. With its combination of adventure and good food, Klipheuwel has become a popular weekend destination for locals and visitors exploring the area between Mossel Bay and George. The setting alone—perched above Glentana with mountain and ocean views—makes it worth the visit, whether you're tackling the trails or just stopping by for a leisurely bite.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1akkL51u1h0Rwf3mtISoWDk/photos/Ab43m-tuOhZjkREzFKZsm5imgw6eYh_iate9CFj1OKTH-KO2ZBK_pERTmmkPc20YHQy8xHXbFIVB3e_r5J2NGrIsqaQrY27T7xrqtKMdMEJCrTtQYfC0P_rxhDPLCDAz2qWatBcdC3yiU6Jth7y3f98tJed1oOVJW7tpp3GKBQoWG0oNOY3jxwUXIVI3AFVPZfNU4LkeQuxPS21IIWzereISDNhoqy9JNPV3XHxvHL-KfNbuvJ5VIf1pc7Jb6PUjiS_U0jqg565YWaknmu-_Z_eseGYvcvZpRcQZUNHv70zmRzmdHWeCHdD-DPRTh2DmG8H3B_mbwKUtOtITL75617v0dhVUaxTT_4mnm04fm5Pi73MISipqUEedQF05AX-GXuy11XNfzsfTPcWcrGVLI8wML4Dg9_LZ1RVWjl8jIDBTGC-rwNgV/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1akkL51u1h0Rwf3mtISoWDk/photos/Ab43m-sjA7JlmHEG5MlesGpfaLhQO3cMOcUxaypqxTpkr9WA8OKVgHy1mQGgw0aaldyIXDFeNswRGuOfnERqyoQXz7MFGMySnvr3rNK4eF0iEpAKtWiupbdCkqFQ-PbGXr2HyjQMlKp8N6VHiivRny0kPt643um19AHC3NZ338E70MI0Nwyi0EnAiPTlKhjcIfuIDA2BpCFc9oFnQyjVa9XACjS593E2iqEFo0LdXmWVWixF9Hnf3qPtTS65z2SRhvaoBdFi-WGTaAooLWZY0k9cKvaOUg-or0832W_AKXOmw3bRQv_57UOVJxo31QIIXHqsBE1wItIfQd74o-bSx4iUtEfklBf0PII1NIftG7Ph7ySnJeg4NbXmLzDYe9OI7Gb0uBzOJuThkTQ2t3EbU6EXemVZtAfq17cao2_Ekyo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1akkL51u1h0Rwf3mtISoWDk/photos/Ab43m-vo_ruLIfZ195nOWuJn1Y-JCwMRmPrXyAL0iPoYHpjmybQ7QjutC7p_qG1mh3Xie8MOZTT7fPEy4E86mfVR_sz39H5ispjpryV4lG5XtWQJR4-494XQXtqYgo-k-klwCyFs60uTv0wM_v1kCwIuFRCVIaIUc7wpyPxRYOHtEafnA32HrRrgdnhgkDy-2UoSCdA3hM7W93sYhyAYJLAN65_uyg8d4iMTgH06ABCXOaLn6b1yzSsGPXE9HoGz_aX5j77LttriFdXmr-iwInU17IRJv_sFmkOfZBK37laMMb0xjacnfUoY0RQH6iCFT8br8WseRjopmhxicescq_wRSr7lWRjhMLLOzPLor1Kud3hJPoqcPpUxWOdxqMsRBzw_TTPXzCCrocmTzHBy2vFx36Ia0m2xkaF4zV8IxurV-a857Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1akkL51u1h0Rwf3mtISoWDk/photos/Ab43m-vi7qPUoIj9sWTg_7xVeaJ-VZCiVIfDsTD6kJ0dspw5UMUDVjDT_kprAQmxoZbC2vkJ2x9kfcoCeIZmUNimQxhrUNASPMcqUqRZmRb030qgX5V25_pML7LNNjvh71We5KvfX0tnhuNbHLnK4pSp5tlwKIbEhFo9vY67mFKb6MdKTbVzeXc5EPaAD1fM6uR9ieNEyN2_0aXEbl_DHWxHMWRtzG9PaR0j22dwdG0OmP2INnn_F7bqBXztQu_jg_YC6GFVALppSYLm3tyOVbEv7vhn2GPctNHcgpFhcCtQ-mUiqhtfbEALjGKKAGsv9oXt2eMLAShqntVNp1ZraT8bessmzHAYmNoxlTDh34HB2zGTBH3ifHU72nU3ZeaIMHZU8QnX82Yp9ldO1C5BZ2d78I0Lb_bFyXWvtFbcKdQwQDxbCY0T/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1akkL51u1h0Rwf3mtISoWDk/photos/Ab43m-uOLzajvRWxndXDZETmNLv0TvAXfhQErmapzopdkpC4MhtoDEXOS3WFCCJrLN-LKO7JTgvUPEhfXu8-43wyqr1UtfxLDP087dAwmpR3AXHZpsQBwSCATKvdfSXvZPLFat4WXSp4wXGElaa6J37lz1bJOEsarxiycsu3uNxs9j7V333Om5_KEpLhWCyu9qgjzvpRD1A-p04LmoOFNeBKsKbw-sVLwABal-lmrt-oeUJNO4Cr3lWUISVpnVr6L4HiA_jIN8BFIs83fO3-orfxZPaN3MzaAC5BKcjOhM5ev3txOJaAnUrZBO9T7c2cxbtkLlDza06AQhGBA7sK7kUM3FZzXrJ8J95dNjMgdub2RvmQXqEscA9qQAnm63dx9juHKHXEsb-aaT8dWfM4IH7iRDdKGQKk_gcNtlOJqQRqqJk/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:40.335041+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

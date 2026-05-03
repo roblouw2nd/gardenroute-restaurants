@@ -1,0 +1,76 @@
+{
+  "id": "bandits-r-pub-grill-sedgefield",
+  "name": "Bandits® Pub & Grill",
+  "slug": "bandits-r-pub-grill-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "1 Egret Rd, Groenvallei, Sedgefield, 6572, South Africa",
+  "coordinates": {
+    "lat": -34.019003399999995,
+    "lng": 22.8155203
+  },
+  "phone": "+27 79 956 0206",
+  "email": "",
+  "website": "https://www.thebandits.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJF-orjYS9eB4RtK6qTN5zflg",
+  "google_rating": 4.3,
+  "google_review_count": 15,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Steakhouse"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Sports bar",
+    "Full bar",
+    "Family friendly",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "9:00 AM – 9:00 PM",
+    "thursday": "9:00 AM – 9:00 PM",
+    "friday": "9:00 AM – 9:00 PM",
+    "saturday": "9:00 AM – 9:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Lively pub and grill in Groenvallei serving hearty meals, cold drinks, and good times.",
+  "description_long": "Bandits® Pub & Grill brings a vibrant energy to Groenvallei, just outside Sedgefield. This friendly neighbourhood spot serves up classic pub fare with generous portions and unpretentious charm. The atmosphere is relaxed and welcoming, whether you're popping in for a quick bite or settling in for an evening with mates.\n\nThe menu covers all the pub classics — juicy burgers, flame-grilled steaks, and sharing platters that pair perfectly with an ice-cold beer. It's the kind of place where locals gather to watch the game, celebrate wins, and just enjoy good company. The staff are easy-going and the vibe is always genuine.\n\nLocated in Groenvallei, Bandits® is a convenient stop whether you're passing through or living locally. It's unpretentious dining done right, with fair prices and a welcoming atmosphere that keeps regulars coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF-orjYS9eB4RtK6qTN5zflg/photos/Ab43m-trspUpmxBNFT56liWR8aCVQQkis90_DezIfHbW0RhilnHH8871XN-4bua-UYG8HFkKbimrbV_KYSsNO3vopX27vX4DnvI79VSOKFixpb7NF9F_rr74tPgSXgC9_z6X1tu3wUUhxnNH244INZcbwecuCs3f0kfMFD3fjHi28XlHHC77sneE3GJptGkBsZIq_0nyLuerZ64xSPWt6cX1QHckRCn6atdluakYVLfhj8SOlJVAWA0vvcb0_FwU5Eae4EkGJoOvddM1mLWt9nos0pFyk6oTpXzWgGiRhBiFtiatjQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF-orjYS9eB4RtK6qTN5zflg/photos/Ab43m-tjk5cL7x1iylM_xLoRTAjvBb2C_TzoE2XyEPK0sKWCDfC4De9VZ754WAN0RnEuGmHZmmntEIIhYwWz-DiPuxnx7EJq_272vER8I232-EgadE0gpGU9AQf6goiRObxuTTercz5Hc7l00smIdnWOgFGdJL4e-PWFm6sbRwKsryRnJGTt3UpHCAOGwGAEcVWC0zHseqPs7n_HYN4xjcq8J8QLaU0Gd6BciQZBy3XPkpmWPqDjjuvScHS3bGVR28NQ6cBAul3SxJOnsOn-rDHKaUqEdAEwlvgx8Z5nZd8Z-TKV6w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF-orjYS9eB4RtK6qTN5zflg/photos/Ab43m-t-MtZ1bi6ECzp9Q8ek_bub7I1c_xZ3atxLNALSNFE_DTBhqab6WHp8-10wPpv_8WzPdQfZWein8WOtae2P0P_eVvmniDamHUiuJVgqw5ZTWEYaW9wtFgtK_jPH111lM94hVIucj8y-WIY9Yj5PAwWFt_nCf9OyK4v-J_MXb1CTd6DJ6FGmiAjEy7RpyzmAdZdPDA2G_i1XiXvZjliE3ZgvPil57oaJhZbW6VB9NqT6JzNmEG9Lb4_cE9IPbLa-Ih4bnXo-C6wZ6QJVnhxEZ53hrP07CAa2KXZNqrYzzte4JQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF-orjYS9eB4RtK6qTN5zflg/photos/Ab43m-uyV_WL4GyDQITkLvVRFFMsbRGW6fP5V6RrMm0k9hTn5YvXoOrKIKbQwQMVjhDVutpol3B3n7MC5WQhq21LMY53umW8VU_I29ky32qmmrooe5UGoGi_3MgAHQrMZKInQMWA34FG-2sQqwrvWnQ-NyLeBV4dxbATMrAILY9hLrkx03x5pYCBw1V66mqRsifqGrIVdzYeLaNMPqMjdrDjtqv_o7rmXkC_MLFH0EUPjXYJ5kHQapi5wa3R2VvTAqoPVfuHEudLhajbilEhTG_GH9MzUxVaiMEN9kp0jIHJjNZ9Vg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJF-orjYS9eB4RtK6qTN5zflg/photos/Ab43m-tzqJ51K4o46odYu48PdLqhjbnlqvbLTA6kX9Zo-Dab6uq5v3osKr-SbsRrstGbiDBTcatyheBOabG7kj8frz5wrNhhVWYUZYGd8l1Q0DJ-BgNmsWYvTV6E8L78GeLeszVvtLizQX-3c8_i2_TdH-w8tII7BrZJX75chx2Sy797o7CPgXugopOKrLiQZ2ggu4qcZ4xU_DudkE05bfmG9Jw03vq9hdAhGpRmYYA07RoMCCpcNtc02f650p4ZQkdaVyiQKhJNM1H_Cx_veGYVBfN4on4jwONFg9t25VaW4J8Jvw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:48:17.082385+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

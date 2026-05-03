@@ -1,0 +1,76 @@
+{
+  "id": "mugg-bean-garden-walk-mossel-bay",
+  "name": "Mugg & Bean Garden Walk",
+  "slug": "mugg-bean-garden-walk-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "R102, Shop 35, Garden Walk Mall, Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1072579,
+    "lng": 22.1107762
+  },
+  "phone": "+27 67 591 3182",
+  "email": "",
+  "website": "https://locations.muggandbean.co.za/restaurants-GardenWalkMall-MuggBeanGardenWalkHartenbos?utm_source=facebook_page&utm_medium=website_link&utm_campaign=SP&utm_content=SP",
+  "menu_url": "",
+  "google_place_id": "ChIJw9IMS-Nv1h0RWEC-RakJ-4g",
+  "google_rating": 4.7,
+  "google_review_count": 25,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast & Brunch",
+    "Cafe",
+    "Burgers"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 6:00 PM",
+    "tuesday": "8:00 AM – 6:00 PM",
+    "wednesday": "8:00 AM – 6:00 PM",
+    "thursday": "8:00 AM – 6:00 PM",
+    "friday": "8:00 AM – 6:00 PM",
+    "saturday": "8:00 AM – 5:00 PM",
+    "sunday": "8:00 AM – 3:00 PM"
+  },
+  "description_short": "Family-friendly chain cafe at Garden Walk Mall serving generous breakfasts, burgers, and legendary bottomless coffee.",
+  "description_long": "Tucked into Garden Walk Mall in Hartenbos, this Mugg & Bean brings the beloved South African chain's signature warmth to Mossel Bay's beachside suburb. The spacious interior welcomes families, friends catching up over coffee, and anyone craving a hearty meal without the fuss.\n\nThe menu delivers exactly what you'd hope for: giant breakfast platters that last well into the afternoon, stacked burgers, fresh salads, and those famous bottomless filter coffees that keep the conversation flowing. It's the kind of place where kids are genuinely welcome, portions are generous, and nobody's watching the clock. Whether you're refuelling after a beach morning or settling in for a lazy lunch between shopping stops, the relaxed vibe and reliable favourites make it an easy choice.\n\nThe Hartenbos location puts you close to the beach and lagoon, making it a convenient stop for families exploring the Garden Route coastline. Expect friendly service, plenty of high chairs, and that comforting familiarity that comes with a well-loved brand done right.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw9IMS-Nv1h0RWEC-RakJ-4g/photos/Ab43m-s_3_Q9mXto9ocpwzfKKQc9p_eHJUbxNyaRrgrigyJgqVYu9cTb31DNCbuah9hMl67_Lq2RrBH3lmYQL3tGo1SRWgHGWt3OX7IRqubnf6-ox4A5kmoAfQkG8Umx7pfHhXV1jQ1zUNdupq_oWXOVeaJAsePu8zEFi9XThWdSK6UkjIBs7LfOpu2zX69rrUcN_fcLpW4ha3JeC781sVWLrmOAnb5UJla0Img3W0G3s-0Ft6HOsTM3qGQLzhG37ReuzNB7ElkKWB201LvtSbWU_7YZyTcFlqZfxP3KaqAKm1sl2g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw9IMS-Nv1h0RWEC-RakJ-4g/photos/Ab43m-uWUusGyB_qg3qBKDt2UJAH48s3r8Wy7jfnJz0l4ixBRMZrroDBnrpJ9PGrItRS3hft1kZ4WcA53nHBF_9q3DZ7spsWMB7SFENTJ_CLoTBgcPYHhUfb1q4QzcEJ9XrslDBg7jlYsj5-IcBER34eHYRl40jFHw0k4rPdZtpbc0I8w800UvNKhPNi6Y1M6Gu5wN0yn0eGVzpDBwogN7S-CJTComQyern_fs5TXnIo3RL0JL_UjdMgughCUGJ7uIwzE5O2vq7HFLjuy3gfqFDL3bC4lBU4Iy9M77OgbRw-BthERA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw9IMS-Nv1h0RWEC-RakJ-4g/photos/Ab43m-tg_tG42_NkFSkj58qSubsYp7A0n6APzo4Vyv5YtT5CosPQSlH5b1t5ukDnzSxwihyIKavE_JxglaXKKiE4RZO5U5tu75wsl0PUxsiSZjwpDHQzIVkZn2FbhqQrVYnCgDQBjMxKj5isJ_s55z4arfLiF1R0lXlwRsZSDpF6Z5pCtIdHfQ3tmqOE_6o9rI7dZSF1aUsiZRF8UUUvmQn7lA2IitXvWYNCTgf-NrhNYsgntvpkz36IF0nlFoybIoMbPTCsY-0R-GvLiqxjkznzbwLpRiDKeDytXCFZEMeSp8QclA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw9IMS-Nv1h0RWEC-RakJ-4g/photos/Ab43m-sKC1ZcSnwwx-dlk9WgXxIKFrjXtI6wtNm_UBITmvR5IcnLZ_XIBPNJdOsNNJTyl7YkXpOBGBQcop5Oems13V5ihHqaBIs0TfjvSvlu-OatNhuwrgO4wrzmqHc660fi-48FpxEEhZw3howVcPmsD-axQWC4E_Efiph9L5KAqisKXf_Wmq1sjI57-xlhHbezryR0bgwvckO3hscINbOcKo5akkUS6TNhA4Ci2hrHrxFVr_4x1myHJkxuPZW4GaT7vzmmXAKQleSGg0-gO5r1U7KL4ycXBZKX6Dzeqaai7UrWNQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJw9IMS-Nv1h0RWEC-RakJ-4g/photos/Ab43m-uiG70ZjxewH9YZv3dWfiiE0m7wEtbmENPHRxUlWtKTyVLHVzSv6MD9dihkpscVSRJvj2P9Wn_WkFryj1pvtEtI_V9Hrv3euUHTRvdCyJ-02x7-ip4cuua8CnjdUjyT1VGdAeK_qhiViedfKl2waaGVZwUYe-ST5EiltgAkUwqdGcQOqcZEQrDc7m_cf-9QskOTqMIxLadsOBsTKZsAmpagHYrSi3UDeG76C_Qtuxzk4EAU2VM0YuqbPnC9ILzoSyRBUldS20oMkZo-ZWwZRY-mou5Pz_JcbEhtDtv5iR40VA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:52:08.084513+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

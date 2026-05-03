@@ -1,0 +1,76 @@
+{
+  "id": "poco-loco-george",
+  "name": "poco.loco",
+  "slug": "poco-loco-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "76 York St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9624695,
+    "lng": 22.4543932
+  },
+  "phone": "+27 64 057 3073",
+  "email": "",
+  "website": "https://pocoloco.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJ6zr3_H4F1h0RYs0mi_MX0YE",
+  "google_rating": 4.6,
+  "google_review_count": 340,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Breakfast & Brunch",
+    "Bakery"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Breakfast all day"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 4:00 PM",
+    "tuesday": "7:00 AM – 4:00 PM",
+    "wednesday": "7:00 AM – 4:00 PM",
+    "thursday": "7:00 AM – 4:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Vibrant George coffee shop serving speciality brews, fresh pastries, and wholesome breakfast and lunch fare.",
+  "description_long": "Poco.loco has carved out a loyal following in George's city centre with its commitment to quality coffee and unpretentious, wholesome food. The cafe's bright, welcoming interior and friendly service make it a popular spot for locals meeting over morning cappuccinos or settling in with laptops for a working lunch.\n\nThe menu runs from hearty breakfasts and fresh salads to generously filled sandwiches and daily specials that change with the seasons. Their house-roasted coffee is consistently excellent, and the pastry counter tempts with croissants, muffins, and sweet treats that pair perfectly with an afternoon pick-me-up. Located on York Street in the heart of George Central, it's an easy stop whether you're running errands in town or taking a break from exploring the Garden Route.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6zr3_H4F1h0RYs0mi_MX0YE/photos/Ab43m-vmZT6HENMn5AnG98Xu5QLFYZDqElTwJXgMCFithblnsjaq9guMtOqblLdBxCEMDRVEjADAvWDLuIu5Kz75PRIdlh5w8v8pBB0hSUKknm0lL8w28uMhzwzsSzOF13T5wo1LPGTA3DT3PsVUvRLC9iyxio2F2A7BJceGGdi3Bt4iiE8c9-KndLM0ESGiXQn3tOAKTr-qiDT80R_MBmuN1MDVEtd9-IbwAnd11sGuea5AH0sX_hhh395sXkkQqMU5mffs_BvgGwP7cwdWlvS1QRU_wzIjy2wrDvUuMR7oFWVMbQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6zr3_H4F1h0RYs0mi_MX0YE/photos/Ab43m-v-y6J_bA_Iaex2ibFBHE50dUPaLn9L1GO0Jc_-HpgsIyvczdjY9WLm8F6U9qDWUR7glLQnH3Vi_QL_P-G7vDo-BNgIU6gIFccyET-lJOf1WR3hevx0zbt1WItfAX7YevlSewA9Nd6WdtL-52jeDB0VQcfo-U08X79XQb5Hqt5gV69urwjsXOLrKMW_vmS7spLAIkt9R-W0I7v_8jkpMr8EYtCCt8Uku_E1R7Y7mju1qPZOdFxPmmAQ26oWntJLpNeNKyoTEjmX-5yasN2ArNu8KQAigvCgvHOGOBMe6vVcbM5mh4c4rgQdOESwqdfFwGnapQjAqf-SNdMcYWECnw0_EVxQKUpR_vzOHTWSGJJLqpQdsrnP0r4gPa1jj8CUiY31QIX6DOHZc6OyeqqnzphJRXZAj_mAhQCK4QoG-nJihTrCgcLIg5rM-u54ufRh/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6zr3_H4F1h0RYs0mi_MX0YE/photos/Ab43m-vhwKLzTgEaj7pP-Cu7qyBSq3fFJ2qjycU739FWbckErH_rB7qSXlzN-4rV8UaOYVXhflfD9S29-QEP55bbKzrF5O6PFfXgzrZ0dt-ocg7d1c2yLBNDxKMU7J7xRCyT4KczWvI8G8bwNXY_iWcZPLK8JC1U5hH5wV20xb3Gm63hkPeiiCeSRVtLm3EpD7pOVNpqyEX1b9p1Ex6gldGGBulbSWikJVN1_DJzOsq7FkE1RqDD4U1BzXDF3XFHY6hycAysf4MLs8x75wv-PzFv-MMXYhd1qRejm8PtrAq_05bf-A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6zr3_H4F1h0RYs0mi_MX0YE/photos/Ab43m-uOvsPnflPuGyy0NqPqQ7vca9sdFKP3JxoxQJ4EaSSXkeQAq4dA-kceTyRnb4hNLp4GnHuu33tKJZ5jrc8hKg2tUOncxPqlNhkQ8gLFYk54U5mKdFEyJkU0Dm3u2gsCkuCWZ_Btek8oRbyPvcFsx9VsM5h1hd_9Us7-Xfqr1ZuT_AlGlAK_yYG8Mbs8dYR3QrefCudu6Ubk6X_G-DHmmQ4ucjbo6NA5EPQRRZjJrbcXL6OVhhw7oxb8Dv6ugHFkUK__cJXxHf82QfLNxZKqFKIhZ2QSNkPSw1ZM4bbS1mmaKOKY0viOE627ii7e4JR9d-5Pnv_SgcUp_BO1Rcq99BbrqGmW_ba3QLhO21WfYS0oLO0xc_Zpzf4YmjU_Z8u4XHxp7b-YFlWkD7A6awZ9b04NlVJgZxdOiQPe5h77_xMOy1O5sQ66nzMtQ-qv4dC0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6zr3_H4F1h0RYs0mi_MX0YE/photos/Ab43m-uV1AfUUYmqvXav2sUWKLhDK05canMVwW7BNEg0SuxyxeJXEv82t5KkHltIW2UNP2nl3KphWiFZi6ISoSQqQEhHr9RvilvcJF2uoGdM7FotC9XwARTkYfTbEd7UI_many3as2IhTBXDSkgq0VKo5qg3NqOW_CBy6gQO3XqQO83teiAZUr-ldU6i-yDIs1EYvpJ03z2vT9Esnt77gPQdGQ-3Eg-S1dxhtA3JD0PZDbUyMYa-U1CTzl6Rn4stvnr2NMLOQn_d_Cu8p65TzKHsKWeo_0VW9jEyeo9s7DGSpe0Scl5d5GQwUrTv2MJTLGoQURvCLMAqlaNjl2R6EVssWqDtY-0OgOV1HSoQwMeUYGP33gwkPVyFGKBISto7DpAn4rXkvwVvRy93xgA0UdjyH1HKo8JK-XPuLkSkhwCqp62FgREqVUmWcK-e4tG8MNlO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:36:18.677421+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

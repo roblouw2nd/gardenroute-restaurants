@@ -1,0 +1,77 @@
+{
+  "id": "the-beach-bar-mossel-bay",
+  "name": "The Beach Bar",
+  "slug": "the-beach-bar-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "26 Beach E Blvd, Die Voor Bay, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.1587695,
+    "lng": 22.110104999999997
+  },
+  "phone": "+27 44 692 8440",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJr_lNgKdp1h0RWv8qWm_UmAk",
+  "google_rating": 4.3,
+  "google_review_count": 204,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bar",
+    "Cocktail Bar",
+    "Pub & Grill"
+  ],
+  "tags": [
+    "Ocean views",
+    "Beachfront",
+    "Outdoor seating",
+    "Casual",
+    "Full bar",
+    "Walk-ins welcome",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+  },
+  "description_short": "Casual beachfront bar in Die Voor Bay serving cocktails, light meals, and ocean views.",
+  "description_long": "Perched right on the beachfront in Die Voor Bay, The Beach Bar offers one of Mossel Bay's most relaxed settings for sundowners and casual dining. The atmosphere is unpretentious and laid-back, with indoor and outdoor seating that captures sea breezes and uninterrupted ocean views.\n\nThe menu focuses on pub-style favourites, light meals, and sharing platters that pair well with their cocktail selection and cold drinks. It's the kind of place where you can kick off your shoes after a beach walk, settle in with a frozen margarita, and watch the waves roll in. Whether you're after a lazy lunch, afternoon drinks, or a sunset session with friends, the vibe here is easy and welcoming.\n\nThe location on Beach Boulevard makes it a popular stop for locals and visitors exploring the Garden Route coastline. With its combination of ocean views, casual atmosphere, and beachfront access, The Beach Bar delivers exactly what it promises—a no-fuss spot to unwind by the sea.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJr_lNgKdp1h0RWv8qWm_UmAk/photos/Ab43m-sCe49_4NePgyZz7Gw7C_XkyulKFAOkk-QSjMefTLkwzx6Bk7UuyWYd2zJce_vnQQTVUoOplCfjO3S9CMorqU7fL81FTAeMjAcOA4KOU179Bwn2G_EJ13YsWzkuezDuvOpWfy0RPlbsTI7sljb7xC7CT7Co-9aOj7t0juLNZd-jDw54AhQlzuiJL9dbaz9dZRYz_NLRGdGKhlAe2ZK2FITOhiHmNGOcjP6pjLhhCZo1WG2yJD_ntdvMbE6wikqKYK4VjEl12r4fcb2Mm3aKYx7D490InRupqt8rg6PLybA6gXN2Af-2rVs7_HHoLdsTgQXQ_jOjcQzEBaezsuwganjw7C8M6F1hO3h4zvlnmBeFh-BqI2HhYp2CqC0oT-w0_DYRoqug3QhZqizwtdiG3ZiXxrJZOdTp6Ysqx4hax18dEcI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJr_lNgKdp1h0RWv8qWm_UmAk/photos/Ab43m-sOs_JSfzmozLYerGRWzKe3sm4Qrk963tHy2j9PjeAshHJErbMu6ueqnLeHgbVS-j8QvfSIdFMRF5RgUiv6SMeoKLSvuVaJsa6WEN3IR0wA2lg8eCrmr8MNFNxe2NfOncVwEpKBNIeRo7mW72o1eUTPGi0K1_P0i5fxv3okwby1mnUkVRcWSfS_aE3kaqPDT_6CsXjpOUJMvkm_fGRqa-45K90ioStW2TIn4GgsONsjPYGtsrIwNiZWHfPRFimKkSDPLkubVnqThA3qrI2cosQ-c7q86TqwXktaqnLrJrTkqz5N-3z6i3n2Ytz_8IrMutL_T2iiZ_tOm0njDJo5eH6F_RQSBNci5HZDP51J4H8dkdtwWTchm3gvMu99rzNrj0cr52Jf5aMXyvgB0gmAebhLanfNBcrdSb3kxDwJiHM2ZWm7TZNxFFbGvCMK4d5S/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJr_lNgKdp1h0RWv8qWm_UmAk/photos/Ab43m-tdPY1-dZPt_bjoiT7tudZqVYwjVTPDw0uRlGOxh4dxE_wfhbUVtMhE09-3my7VB0eES1e38DjvCAPxNa9-9CJC-dwwEfspoey4od0_qYaPNCnpyfMdEKah128mep-8msVfwjGbsrEo2PI70rrylJeOJZOL9JGaxWq__D9DEYllT02Axchdk7TorCYIg_3vfYgDN5wjnbqUfl3Lw5DlUXCt7cwkbppGOMH-xkZZhG6vmtOPscO7vB561QtKKoYrsezLZyRzG9j-sT1B1Xh0vgAcv8G76PrghII-v-c9fo5IuQbUaYUPOvJnnllDdqfKjeToCtmImBJ1HuASX-kCq1-4bapr2p5QnbGxdbboXIjtJ4-ecYlBF1bXob8X3qJO34Ckl3jbO0lTWkSgM9pPBlr15HJ3lseMuxc1zZTVN7tp3Kc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJr_lNgKdp1h0RWv8qWm_UmAk/photos/Ab43m-uSLanvMgQCXH3psIqlyr4Paaov08YDb-H5h7KPqjvgBmtX7RD8sfuqRT5grX03QFC7hwWP8zxYk6fE_Zh14AZwKjKWxmX1vusv6YCoEibyTBPty9yVPUBa1hi0vpDV7EhuG4vOhl_e6dozxrKY2R-p1SNKwjJxuwzTvjPg1EOx-nLCz6slmxPBj9jqNKOGDkxEwPGMPVEGMHQivcQ8ZNPZUUPtZho4BXnmAAabB7nwHrAtaim7I-Z64LDBNcx5pkAa3Hd0KDuQ89LWUnAQFvran-9xRlzOL_dyQ5ZoVDubD2hyhDH7kAv-G6yB1sEzrGhGF65rAJr2V8zqNEsKpL4wtseU5gL-23j7I1hzAd7Ts6Z_EIUPRsNVNxZ7awInhAHdpNA1_8L3tR7h3i-IxEpQDKhsbnhirqifQ6etfYPTjthm/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJr_lNgKdp1h0RWv8qWm_UmAk/photos/Ab43m-v290vVpYhJvyZ9zfBMggfLia67I6jW9egtI5TMnZdmIZoS6lBmTh1XWjwYBnZWYUYnxkxjnqAMc7sPV4Ksqu26PnlgI3V20zmrqxjk3WHPJ0biQrOpr-CrkJhGRlnm-Ruo5Tws-cMJBc-MxM0b1Dx0s0z0DsLeFP9-v3rKmfb_a2NCk5cRYJrM4WLEzZfuXnAoB4NtUOXVSZgiIS4gDZ1Y3feQhkMSlZ37evI-vFdxHt_Es--4JV5G-NVZgYgmgcuxuCWAHEtWu0UhIVw7yP_I3oK-EjMgVEl0XHxU5gRz-lGETUiMXm8h1dNJZLYmPu5ZIW9rbSUDpz8-00eVke7uOYVEc5IjZz8vYECZ7u448urbrgkyCLCwmhZaaTWavW4l6Ig6bOTMp1t7sCPPb5rnGYosoxceSLd-80A0iIIlDXA2XZtEK_ET7wGOdI9p/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:47:22.628874+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

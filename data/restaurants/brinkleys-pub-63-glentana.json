@@ -1,0 +1,48 @@
+{
+  "id": "brinkleys-pub-63-glentana",
+  "name": "Brinkleys Pub ‘63",
+  "slug": "brinkleys-pub-63-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "1 1st Ave, Klein Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.084543,
+    "lng": 22.135327500000002
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ4QjdTgBv1h0RIrTuIlVQuFY",
+  "google_rating": 4.5,
+  "google_review_count": 2,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers"
+  ],
+  "tags": [
+    "Casual",
+    "Sports bar",
+    "Full bar",
+    "Good for groups",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 1:00 AM",
+    "tuesday": "10:00 AM – 1:00 AM",
+    "wednesday": "10:00 AM – 1:00 AM",
+    "thursday": "10:00 AM – 1:00 AM",
+    "friday": "10:00 AM – 1:00 AM",
+    "saturday": "10:00 AM – 1:00 AM",
+    "sunday": "10:00 AM – 1:00 AM"
+  },
+  "description_short": "Classic neighbourhood pub in Klein Brak River serving cold drinks and honest pub fare since 1963.",
+  "description_long": "Brinkleys Pub '63 has been a Klein Brak River institution for decades, offering the kind of unpretentious local watering hole that every small town needs. The atmosphere is relaxed and welcoming, where regulars mingle with visitors over a cold beer and good conversation.\n\nThe menu focuses on straightforward pub classics – think burgers, grills, and hearty portions that pair perfectly with your drink of choice. It's the sort of place where you can settle in for an afternoon, watch some sport, and feel right at home. The pub's longevity speaks to its consistent appeal as a genuine community gathering spot.\n\nLocated in the quiet coastal village of Klein Brak River, just off the N2 between Mossel Bay and George, Brinkleys offers a proper pub experience without any pretension. It's an easy stop for travellers exploring the Garden Route or locals looking for their regular spot.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:40.332527+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "down-to-earth-plettenberg-bay",
+  "name": "Down to Earth",
+  "slug": "down-to-earth-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "85559 N2, South Africa",
+  "coordinates": {
+    "lat": -34.011787,
+    "lng": 23.3907614
+  },
+  "phone": "+27 84 444 4408",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJAZGcoyMeeR4RF_QAnTgd2PA",
+  "google_rating": 4.6,
+  "google_review_count": 446,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Cafe",
+    "Breakfast & Brunch",
+    "Burgers"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 4:00 PM",
+    "sunday": "8:00 AM – 4:00 PM"
+  },
+  "description_short": "Relaxed roadside stop on the N2 serving hearty homestyle meals and legendary pies.",
+  "description_long": "Down to Earth is a welcoming roadside restaurant that's become a trusted stop for travellers along the N2 near Plettenberg Bay. The menu focuses on honest, hearty fare – think generous breakfasts, proper burgers, and home-baked pies that locals rave about. The atmosphere is unpretentious and family-friendly, with a laid-back vibe that makes it easy to settle in whether you're breaking up a long drive or meeting friends for a casual meal.\n\nThe setting is simple and functional, but the food speaks for itself. Their pies are a particular highlight, baked fresh daily and available in both savoury and sweet varieties. It's the kind of place where portions are generous, prices are fair, and the service is warm without any fuss. Convenient for a quick bite or a longer sit-down meal, Down to Earth delivers exactly what its name promises – good food without pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAZGcoyMeeR4RF_QAnTgd2PA/photos/Ab43m-vkWyM-xzcQUMyloexuH4FwBAc2hGt-5NfEPjYK7WgMkbSml1w832cbBsqBuareNyLJYweNcqNdIN5eUmv5Q8H-iQw1IP9kBKsUCNuhTW3VwZ_Bnav1MVi9orFPKe3mJ4peMcguRSMDMabRRgwYcQ7poZaWDKu5SukiIwryxLzcPt7YI29RYykq4EPtKHu_9H1Vq5ZOk3WCJA1eL65izA04pZVjMWWEuJnyE6zW3P16av8-GsCB69AJqHaTYWYdNtlwZC2VqUS7cJeHy8QFzXThLr8HdZLFV5a_L2rRrHGjCijBxq3dWhQSjqiM30iCUhhlDLuGly2XwP8Oq1d-p17H101rP_UbeSH5kM7g8grOYewvW0S4ogjw1DakvML5drkGnQtZMKFex1GMOXOi7FZzvAU6JI8Oe314pV4Z_3pC10h8FIOMQcixaWL4Fg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAZGcoyMeeR4RF_QAnTgd2PA/photos/Ab43m-v7GGpDas7D_o4SuSdVgY72V3dOcIrlWSp5vo9_AFrzh_XIVd9wtWoM3RuVMNhFojNgtzefjpZrlyHxed4gMXS1DL50DZV98lz7RMU7cQ1sj81B9GAM3YOxoHKNdFKik57S0PQMqwhcYcSZga2hmPhAnokWkJoh4gYDKAAuwOJehKXY937lNq9cyuDGbfAk9ALTKuj1j4PEfcyxs_DF0hgLcWwBsDv7hbXX6gJohYaTX8K8omEv9qM_w09Lv2xKdeplrQ41TS2SpkKJXYGtEsemUcpIw1VBPW8_xIuRhbKqTrLRAFp48m27bJBNwortY7p13WaIad9e0gOd7az9UyaZjVBFJYw3tttIbfyJcsF7XfxHWTYUJlQ_ZqtRQdloTJpIzYlwqfak5oQukzRbGcYT1YOIjOEZzikkEbOtivoo5pXC8KYcy1xTQUBxiGVZ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAZGcoyMeeR4RF_QAnTgd2PA/photos/Ab43m-s9d7wNizFhqDa82kxJgAxqUkh5h0yC_Eedy8XlNjTzIqC9sxjBwd6DYmq7AYpOTZzEHyEtHLZKlChadzG_5l8DwfQPqu13nl9C7rYkX8dVPiMPbzXBmGavVH3yZ01gNYYkvlVLzLsThtK__nQPQHO3--fzICVsylhlPa6fJrCSJjDrgMlarFbXMnpZuXteZe5rIyGG6ZAUZvJe7SITGhDX3TJhkicCrgt9cAzS79ej-mBhXEQUZpcCKq0b5U5ET9Zspsprf1VX-owjmjck-xlt2ur_XF9nBVo8a53ZlFxbueXoJaPoLp_C26adbB-lKvTP6Y3dvtTEJcuER9Z21q4WaLBsKAE4gtzUrQqdeufK7-tBQwIA1R9E0I7rYLaOl96jG1SFDzoggnW0gr4HeXFgrqXc8LXwO5o3Dbl27Yk80laIBS8x7eVNP1oiRUcb/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAZGcoyMeeR4RF_QAnTgd2PA/photos/Ab43m-t7R_csRwUu69GNV_8NnmBBaJcFsOqhpg7fN4o2wP6wmJztNO9KWZq3BAPPV78o4ZdII9QXF3CPwa4RImipA7NDYBD8KLucrkHYYwFTLoAtZGbszu3Hxa9qENoZj4iCw7L3tg2D67vewNKI_ixxRpiNze7AZLP0goyr_YcOf8RAHuNpmIMIAtqgk-6maZMR6Rx9bFBb5NK7yWeIUNngPPxSYta6i9bLbNcP7I0Rt8Bzt_DZQhCsjP4CEWMC9lkp8f9C82OtFq_fxGOLkLcnv014u-J-S84AKY4dYGERrEx3RgpR_LZW60zTL-dExyk4wY62EjOtUjvQV8Apc_yDAfU9vrFsI9cviOZEmhoV5vQmVTN2E6lBOLHzMaGM6iETrbjExBP9v67sE7-Evbg0A6fkV4G0DvqFZDetZ27hjGHSgGc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAZGcoyMeeR4RF_QAnTgd2PA/photos/Ab43m-sfuun0Vga75ryob24yT5VbZSULbT5Qvs4mlh7uhLvDYm4ffZul6bQUZmkgx4fCew8Lw1vSfh89m-TElxmOtiBB-zFDZb9JncXvCDuS0uen_pX19vgfZm3O7_cocOD3cjDhcPpW7MXzXXvh2rQ1uiDdduaueu3SLD_F_m6F-fCqdn_Szzsf9ZuOVw1dvYjfmWHA_r3fpkaYg_R_FXgH4OzwEAJ52e5PymibBjyegX5rWg2xl3Yai4U8ia0jaNUwMcvsOGPU8QtpXpaK3y7VPI2wwqsKKtdfrMncqyfHewGekUlnLan1R6ZGYXaSApxUWv1dbSiI0c89TXbocGT9gaad75i8OkZL1sVI6yutZEvzzSwmxS8Gankr9SkY1bc8NYjwAKLsbwl53dUikqv1JldQSUJUB4UwVxrzTMAa7og/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:32:23.210738+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

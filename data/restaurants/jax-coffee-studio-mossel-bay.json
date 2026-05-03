@@ -1,0 +1,56 @@
+{
+  "id": "jax-coffee-studio-mossel-bay",
+  "name": "Jax Coffee Studio",
+  "slug": "jax-coffee-studio-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Waterfront, 1 Station Rd, GrootBrakrivier, Waterfront, Groot Brakriver, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.042418,
+    "lng": 22.221659499999998
+  },
+  "phone": "+27 82 572 1007",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJeYo_tb9t1h0R1Ng4ObtlpCU",
+  "google_rating": 5,
+  "google_review_count": 9,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Waterfront",
+    "Casual",
+    "Outdoor seating",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 3:00 PM",
+    "tuesday": "7:00 AM – 3:00 PM",
+    "wednesday": "7:00 AM – 3:00 PM",
+    "thursday": "7:00 AM – 3:00 PM",
+    "friday": "7:00 AM – 3:00 PM",
+    "saturday": "7:00 AM – 3:00 PM",
+    "sunday": "8:00 AM – 2:00 PM"
+  },
+  "description_short": "Waterfront coffee studio serving expertly crafted brews and light meals in Groot Brak River.",
+  "description_long": "Jax Coffee Studio sits along the Groot Brak River waterfront, where the focus is squarely on excellent coffee and a relaxed atmosphere. The space feels unpretentious and welcoming, perfect for lingering over a flat white while watching boats drift by on the river.\n\nThe menu keeps things simple with quality breakfast options, freshly made sandwiches, and homemade baked goods that pair beautifully with their carefully sourced beans. It's the kind of place locals pop into daily, and visitors quickly understand why. The baristas know their craft, and the waterfront setting adds a peaceful backdrop without any fuss.\n\nLocated just off Station Road in Groot Brak River, it's an easy stop whether you're exploring the Garden Route or simply after a proper cup of coffee in pleasant surroundings. The intimate setting and consistently high ratings reflect a neighbourhood spot that's got the fundamentals right.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeYo_tb9t1h0R1Ng4ObtlpCU/photos/Ab43m-uQc-xtyPaKGDi_KD5mZPD3hVufETx52CbsDBq2e-01RooV472Na7BKB0cd7voPy-4kOpkPaMj7xMeApxKqKLAyYUpsVjyb04eMMvd7mM6aeqXY2wv3cfVUV2wdSsUsC-_sZr0KufjNBFR7aMpgmX2uAwojcj13T3c_GzdKe6uhxQCVp1ul8f_jmBqy-BMnKkKmG4HLNLsL3ESumdTx5-jPoKGAXzCAztGu0d7US9R79gqHBJTBgVuSG4ZBqxskCURrTBEjXWcjoM6siqqA0zS3JD29AJQzgZPtDwTB0120HQOWV9TVJb1U-ColojW0C09cLcrXfAWm3TXN4uk0tzOqfVjhvgcpwMt2TWfpGgFyRUmNrsGJ-Xb22xaaSVQ2Iq1oaSB9NoN-dQ8hPufmVoqbgO-hZu08LoT66ay0UtJVXBSaIxYF8mM4waxAew/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:06.223811+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "hart-bosch-village-mossel-bay",
+  "name": "HART & BOSCH VILLAGE",
+  "slug": "hart-bosch-village-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "R102, Hartenbos, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.11279330000001,
+    "lng": 22.105107900000004
+  },
+  "phone": "+27 82 066 9683",
+  "email": "",
+  "website": "https://hartenboschvillage.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJ9_Zyb-Zv1h0RFFL6U71VPo4",
+  "google_rating": 4.5,
+  "google_review_count": 549,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Bakery",
+    "Deli",
+    "Breakfast & Brunch",
+    "Farm-to-table"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Outdoor seating",
+    "Farm stall",
+    "Market",
+    "Deli counter",
+    "Takeaway",
+    "Local produce",
+    "Walk-ins welcome",
+    "Dog friendly"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 6:00 PM",
+    "tuesday": "9:00 AM – 6:00 PM",
+    "wednesday": "9:00 AM – 6:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Family-friendly village market in Hartenbos with farm stalls, artisan goods, and relaxed dining spots.",
+  "description_long": "HART & BOSCH VILLAGE brings a taste of country charm to the Hartenbos stretch of the Garden Route. This village-style market and dining destination combines farm-fresh produce, local crafts, and several eateries under one roof, making it a convenient stop for families exploring Mossel Bay.\n\nThe atmosphere is casual and welcoming, with outdoor seating areas where you can enjoy freshly baked goods from the on-site bakery, hearty breakfasts, or light lunches. The farm stall stocks local honey, preserves, and seasonal produce, while the deli counter offers takeaway options for beach picnics or self-catering stays. Kids can roam safely while parents browse or settle in for coffee.\n\nLocated along the R102 between Hartenbos and Mossel Bay, it's an easy detour whether you're heading to the beach or stocking up for a holiday house. The relaxed pace and focus on local suppliers give it an authentic Garden Route feel, without any pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9_Zyb-Zv1h0RFFL6U71VPo4/photos/Ab43m-sC7AzywmpY2tc96tZQ08pGr5DwVBbc7MRP40oQ9q8urGBrsxv5ikgL86Ypc_QLz1aiClvANgGxU2Y8Q_j8136M-j1cu2evw9TRFBHLS7qh5IqSsU6ZG51X3YG5TfLAffmLZPQjUGfIE-kRYbb3mA0z8o6n-fpUbNOdHW5v1XV8SlMbuvNeoB23cUoqJRfLnTed7r5j8hpFfV3EhdTkVsKqoNrU9-2tETSd-xEWAXvHwh2g_GGKg7NRSoQbWhIvzuxI7tVMq2PyzgRZtqofZGgY__YqIVoPoFO0YLoHpeaMWw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9_Zyb-Zv1h0RFFL6U71VPo4/photos/Ab43m-sI8v4l0BvauZl0eR2-w9iHwj4S7tcydlOEgKMlDVe1OprciLuzS0tzgTO3yUMBRW0-6x-EENeBpbBlQ-lsTL3QE7c70UoNnucpdkCJFTfacNYX9dqqGp8-uS7OH7-m4Yo4sI7bKHMhi29LA8jjMDRn0qo3BiQmGZ6mYPtyRTReZuN8VcbIQB2vbE91l2bhgyv_Lt5Ha28kMtKCa2kTYrGVbrxN_af-MLLsTWo1gyqPcW7FtJsnlyf6qpGBOYd0XcGgInG9-L0IsBU3pHhOiARSPl0_KJqT4ZXANq586akT3Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9_Zyb-Zv1h0RFFL6U71VPo4/photos/Ab43m-s382OrzeY52CBWW83ybEB5LHCD8BNdkFYUAK41azT_Jdu9FUH7bVPXlbH3pAdSuOk31gm8A0Y6r9UYHMjF4Tt7lXd3Ov9I_uGVQjUIeJUN5UadbKbbQ0XkXuKMeoTFt0WF-UGX48X-SYLBSSvnHe8aQ3UJXynvBetjxaZa50n303OX9HMtFnA4PWtu3avNEunRzniDIWvPOP--qeVg2t72oljthafLUxvzibeNXCgs3lgLCn1A0bt_8GCehufOJ34bu9Y4B_Pf8OZRMnKB9ppS5HsgteNMdVQWxUnxOY6ckA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9_Zyb-Zv1h0RFFL6U71VPo4/photos/Ab43m-sVqwD9WMT_N-s88d-e2_t0TqErBkBYukGcuvqZR6QeelzQTh0-FL3u0fN8iL5g_p21Zi5D1D5ZrpqpY551rlzi-TNVYOvoFqZUj1b07nINU4qYAOgOEz2kH6xbPdajqBl9O04HaE33K4r859KHl9qRImMp320ZQwp8VBCiVozTu1bsVuP3x1QDulDBmodLm336iMfasDiRTXBThV4kL6NKYCmBqfcrTpi6fE1rK2aebvqKpsIqmTYCqHR4AZkUql07Us__-12Vuzvp0FgwDKJnkk4lF-oc2JbeyDIBm_8NqOQHO2UaJWUlG_vbZ1av_AXWW-Asf-UrbKFXUza_euwWomBPpKNYrSxR1kuXsVyAd49GE-DxabcydO2R3DOVGpUSAmdC0nfTbI41aCHnmBDUoAZlvuvg3cWtpHPE_JI9HboHXBKodAKDY6tVj7Iz/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9_Zyb-Zv1h0RFFL6U71VPo4/photos/Ab43m-vadfG9j0TPsIwToGhl1x5T052DbCWhLKR6piJQ77rbxJPdRRFMTazPly4i4TaSIuyFtFPwqmorhXKa6rwJHqKbSlwsBXbyKY9BczqnV356D6aSDYz42VKXxUWU7jBFHJMoNGoFT9gmdjr4IS5xntUPmL1Us0m5KR_4e1bewavOLLCsUIQPDDdj4qnhFUpDa_1z9PQprmT69AwXDiLzvUUUUBT3U1pGx5OI6u0UGKg1jrson5GAIOOqRIb8n_fjRfjwExKXe3Y5T3KGVZkxTSFypLYHFW8Z2krSuWQGiYfO4SlcbMkXhJPPiLu934Hn4slfi93ycONZ65-D8dMQdTkj0JgSfOKB1OtFMoZbYXrnjGwC82PTCFYuNAWRACRr2SpZOXBeo4OOYFG0qmGPV1mPtcMiSNgPY5I-wxsNwhYi5ZLxx0XZwLau_8xw0C90/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:47.521578+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

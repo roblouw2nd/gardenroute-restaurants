@@ -1,0 +1,77 @@
+{
+  "id": "cafe-humble-crumble-sedgefield",
+  "name": "Café Humble Crumble",
+  "slug": "cafe-humble-crumble-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Shop 2, Amblewood Complex, Main Street, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0138102,
+    "lng": 22.8023529
+  },
+  "phone": "+27 82 588 3292",
+  "email": "",
+  "website": "https://humblecrumble.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJk6V3bBCjeB4RblYxidqVFSI",
+  "google_rating": 4.9,
+  "google_review_count": 12,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Bakery",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce",
+    "Deli counter"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "9:00 AM – 2:00 PM",
+    "sunday": "9:00 AM – 2:00 PM"
+  },
+  "description_short": "Artisan coffee shop and bakery serving homemade bakes, wholesome breakfasts, and specialty coffee in the heart of Sedgefield.",
+  "description_long": "Tucked into the Amblewood Complex on Sedgefield's Main Street, Café Humble Crumble has earned a loyal following for its honest, homemade approach to coffee and cake. The aroma of fresh baking greets you at the door, where display cases showcase daily bakes from rustic loaves to their signature crumbles and tarts.\n\nThe breakfast menu leans wholesome with freshly prepared options alongside excellent specialty coffee, while the deli counter offers take-home treats and artisan provisions. It's the kind of neighbourhood spot where locals linger over a second cup, and visitors quickly understand why this tiny café has such devoted fans.\n\nWith its relaxed atmosphere and genuine warmth, Humble Crumble feels more like a friend's kitchen than a commercial café. The quality speaks for itself in every buttery pastry and carefully pulled espresso, making it a proper Sedgefield gem worth seeking out.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJk6V3bBCjeB4RblYxidqVFSI/photos/Ab43m-u9yUxk61g7XhOP4USuAo4UTaYnCyhRvaqrsIsn_D2tu0_8sShGNs4I4mr_d-NAH6d0x4pbPNuaxD_mL50yMLedRAkC7tAQKgbFESmxCcXftREuHIdZYw5lYs8_DxgsGhX6LqEiuxQCooiA_81VfFEYIFpqe8cJon0WIj9HQ5JVKo0hVX2EwR3WnUKv7InBDmDTbg2hUC2HS57161aTaUniEc_sruEXq0WYAcGScVVxxGMgDzVALTbt_-taOE57xJJQaxkLJ6N4T8TVBjK0WA4ucj47vi8h4Ju_qYWVTqXdNw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJk6V3bBCjeB4RblYxidqVFSI/photos/Ab43m-tw_f_hQ1iM6O8bSib8TrRupCShquUJQH-J72MbLzg9YRonjMxWX2QVx7LtwJBFlErNv9-RWO_XwBxZptAzO0O_rg59GBy1SRoNNASzReHA3B__CH2vkotpL4ZpSkZfr9-A2sVofPmewVm1XGvTnukJT_TrIc6UyS0mCQSzgW-TzfLH-O9BtJqO49wBfP-m5-AcrQKsWFMyDSS51d0VcUIXEt_OSPX2xKA2jSxJb7S6U3mPc4HTOjLZUxQDktzv8Y5xcJ5MjDxsx2f1j7-L40Yqc1HQb4-UEVPit7RlM3Kq_fk1JjNBDzVQzRYZKMof2JN_2Hl7rGu_6p4LKzEjVNkAN6_C4OYSweV_Yx8ufVBHPHY6i8BW3ZWhlETKd0xqkIgYWiFWMFXFqYphwHtprikpx0Yavjhga6X7S6kDQA6wYRinfHniiJbs1Jthu0jC/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJk6V3bBCjeB4RblYxidqVFSI/photos/Ab43m-ssiLF5rDJMx7C_cXP_b6yAV-qboB04x13dVBLxyVIgDW4sSPBtHPa6VmfT1hhCLZDqsAGi14Mszhb-Q74DnlGe2Y0oBJ_0Lt4Vte8wR_F9EgyyaPjOnyVXDdq_S1C-CWPGCceHvTEQpUdkpkhS6esXfe2f70BX2mbKLrGDRBdolRtzJQ7ulI1K6jp_l8Vf8n1XK2Q1MsN7H1RMzg3cGo8N0Ko4ISEF61Efgut-a_soudamV-ktv6PjSWjJPPGQkljrf-YM8efioNLubGOV58n0MBG4J_VvLi1yfjyLskf0wA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJk6V3bBCjeB4RblYxidqVFSI/photos/Ab43m-v06OzrJVJOyeduXR20s8_fIdU49a1Qv5cJssY0WMRrydzLW65CCfDwGTHicPK_gx6XJ45j9LEhYxw9LCzB1hCMReTdBzNrbaBm0SBuIYs0lc7HLIxdCTMV8fepzkT4hV9PvprXYGy5TF3z9-HV3n7utD7MXXfmRybo8SSmpzMg4nFG5yhYZqB8VtK82ObZdeuGMQsStXCPMKb2rUxceRTIG-1VS9axKDYxvlNywpWwH0XK6e1ZJ2PeNKV6HX4oop5shKZI9smBsCUo8zJX3Ko5EHGMEpB7klmbolq6cpYl-A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJk6V3bBCjeB4RblYxidqVFSI/photos/Ab43m-tMFeVuDPcgSyzcLaHvQ-xwgLjqSgYndwgpjmFm3Wq0Ocd_2NcFNnmXzVj2S1VEvpaFVAwOISaAFHP3zqf4TjYpBGIRVdqQTZTYC2CS7i7hRYxWqqUaaj1bVDto3eiO7LT5Ik91ufzE70jRLCmC-j-8ffwfpA3IUg5FKX9kVV8WCKURsjY6I4IuoDeIke-kWSb-0dm9x0Thkt8TCGrg03CTn-At9cMXyEKoePHjwqcZUPCRyxFDN6sV3K--CGt3OxsHc5-T6hha0aZs0bfYklS5jJIaJmVJUNEce0ygVwtlXyQSDr9pammee7FcFyFmMuDsvshZPAy0Na533g8TLeRqycNd-yghtiMrTeF6UaDDBhHQUEC2lcjCWhgkIMK8HK_hubL64FT1_mzq-8FKq6FvJqXgAnHh_LTZ1DuQnyCrFgfVtqPb5n_pt3qCEOj9/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:49:08.347041+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

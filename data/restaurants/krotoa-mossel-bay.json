@@ -1,0 +1,75 @@
+{
+  "id": "krotoa-mossel-bay",
+  "name": "Krotoa",
+  "slug": "krotoa-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "49 Marsh St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.182607499999996,
+    "lng": 22.1481992
+  },
+  "phone": "+27 44 333 0125",
+  "email": "",
+  "website": "https://blitssites.co.za/krotoa-coffee/",
+  "menu_url": "",
+  "google_place_id": "ChIJ0bGWgI9r1h0RBQhwnp6Divw",
+  "google_rating": 4.6,
+  "google_review_count": 484,
+  "price_level": 1,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Breakfast & Brunch",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Breakfast all day"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 6:00 PM",
+    "tuesday": "7:00 AM – 6:00 PM",
+    "wednesday": "7:00 AM – 6:00 PM",
+    "thursday": "7:00 AM – 6:00 PM",
+    "friday": "7:00 AM – 6:00 PM",
+    "saturday": "7:30 AM – 2:00 PM",
+    "sunday": "9:00 AM – 2:00 PM"
+  },
+  "description_short": "Local coffee shop on Marsh Street serving specialty brews, light meals, and homemade treats in a relaxed setting.",
+  "description_long": "Tucked away on Marsh Street in Mossel Bay, Krotoa is a neighbourhood coffee spot where locals gather for their daily caffeine fix and a proper catch-up. The aroma of freshly roasted beans greets you at the door, and the friendly vibe keeps regulars coming back.\n\nBeyond the well-pulled espressos and cappuccinos, the menu features light meals, sandwiches, and homemade baked goods that pair perfectly with your morning brew or afternoon break. It's the kind of place where you can settle in with a laptop or meet a mate without any fuss.\n\nConveniently located near Mossel Bay's town centre, Krotoa offers honest coffee and wholesome food without pretension. Whether you're popping in for a takeaway flat white or lingering over breakfast, it's a reliable spot that's earned its place in the local routine.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0bGWgI9r1h0RBQhwnp6Divw/photos/Ab43m-vNQKPwoOnSQSzrv31u2UeAthwBDKtjVrnywxkxCd_NzVkg5eOtG1w2teyhj2AB4Ygn8Cynn5N5VrfjzB0DdIqr1anpV4-RuM5Oj7frGUd9F9Q5L3fP_LqPEuMHHjM3jr4ZSPywobVAMRwRV0M0ydg6ZZu226MaChGbmv-dihfBv83LuPmp6GoNN43XL9m0oClI1JGKtuO6XyiAKeRra_ruc9WKk5HX_F9r2CXuh4Hrv1VCsOB4y1p4BDfTmEVpNvQaY30yGxYuPBS013gTTFIhM2gD95fVVNetPS5r9nlJIg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0bGWgI9r1h0RBQhwnp6Divw/photos/Ab43m-srtW6ld4oOftyKRQX3tcWEJYvOYDH7GntH6yJJa6eyEwGYi4SlveaCd-vyrtAyuywtrZ9UUhJCIuZ-MUYjXKBhi1yVrpeJOkdBqcxKQMrUd27nHjAa9C16G4JsxMxFYnCFMLw_xtc5Wsc9oh4gmt01HTI9E_y-ziFuxXRU82ELITSksAAyMg0Y20ztl7LXHkSdY8MBCtt0KiIfcCA_MOaf_wBzmuZ9NaTApz87N4vLVIBvluyhfpZan8dj0Utg6I-0ICwiicWXm3ndmaQnBpsS2OcWIE6kBJOumz9OKj5QkHT2ca1jNcR0kSkCAklu9kiPHYD0pL6Td6ICGq3RofxGDJuEd-HtZdK7Ojj63zNVN8fIlaeNkEOsYqSKXS33Z1r8pb_F9ec0NMRgHalHRHdGJw-mehGWTrArwgpzhIbzJ14DIFKott3KK5dHq6n1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0bGWgI9r1h0RBQhwnp6Divw/photos/Ab43m-uDvEBBJxdHeW9ivnmaa0OdthORkm4pizaOoPhgSKQERQPdWbKTM67x_7lIll70NqTRPQ1J2uqhRtaONfxb5ClZPG8-8IqHVJ6vENdhglWN0QLmdtnPTO6146WGju2b56Jv7lC2KFXbvwuBz9_cqkOSVske-F_KDPHv-8BVkySIDDd6UdcvsrICJtj7zvMlAkv5kd9I9e5YOqxhSJud_wrIxdS-2RZ7lUefs5nIgpeJtFgx7icyPO5WktsyghPIvedF1ZQ6Ilh7-P2VBNoSVVyRTVluI24mfeUej1PxswKE4l92bbHHZTTdsFm1yRRRkhaOxHiT3lu90u9iHeaMnLs6HNJ5NA6fKMwWAQ6hoxMPZnj0f8SphyIep1hXvHZc1U5csIX2P_KkYXLaOZfRLtJeu3SxX303ZArheiA2vU5c9lfDrTVhzGCnVmaTPNnT/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0bGWgI9r1h0RBQhwnp6Divw/photos/Ab43m-uL8ImW5L8Gj9BXLETTH52LB9axNaE98u-T_D0gV5sw1hall4bNYVGiIMxo7h1cPx-vkkeJ01HxasLToADwnISguajRYHtj9tI5oP7XnJiDkXRBSiZ9HEh1pTWDaLOV49s70fJZaeioTMvwgsdJvbQRFSrDtEUYliFxz0RycpH4k5lMh9OvlFLRtL0_y4YWTBoP2NdFCp2CAY6aI8KIst-gFnEnR0QLJsl2L4u3HhJjNB8pKoM8EGyP1XxtT7a4odFjmnQFEF-KB-xUuQLcG_JC5dJvgxfsl4tUmVweaFnrb38BEuRJvBIkk4tCylqtffrM5bY70I3P9lMsEsDxujZu2rHVTAqWTUkyplT7vashfzZnu5hBGM3J92YJV6ASiPiGI-H1z-x6T6du119fu-aCMrw5xLvKaP4E2J-Ut-bydUYbYcBo90WbQuFIy4_3/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ0bGWgI9r1h0RBQhwnp6Divw/photos/Ab43m-vDDIjDCoxjF636x1ArscdClqposj_u5muscmVL6rfrHYw6oaV5KqSN4KPCp4i7hh0RqJehZkq39rttSosl-uGgWoD36IBTWsIJfr2bJGplDKXnyHQy9N1wiX4N4314oe-tvTH8cn7SAidN3pwLTJtp1NMjXgt68zc_jyKyogQQQ2Q-UxUgQi1HaRFgcZqCr3fcpsLQao4F5LjwWWz8U1vbitmu9JO9SD0uUy67uqlclqhRF-6wVLBM0cmmRkp3ODPSvMqwP9ndEaacXkalboVdCZYTNGkhjcTq27fjJCquW0eK2tYhJjU6dBtk4aQVASZrC9PHeXmACknxiFp1N4J19Bj9eSfgUXorOn5OnhvC_MqfebqgWiKg5sDz__bdWnRHzvHat60BzXXx6JWAJa2ZKp6AOU_aJLOOQo1cQCdv2g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:47:38.114063+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

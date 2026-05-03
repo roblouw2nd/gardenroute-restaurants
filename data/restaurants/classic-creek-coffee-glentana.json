@@ -1,0 +1,76 @@
+{
+  "id": "classic-creek-coffee-glentana",
+  "name": "Classic Creek Coffee",
+  "slug": "classic-creek-coffee-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "13 CB Malan Rd, Klein Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.0900616,
+    "lng": 22.1499775
+  },
+  "phone": "+27 69 189 7037",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJuRAuDgBt1h0RUawB_usVcJw",
+  "google_rating": 4.9,
+  "google_review_count": 15,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Outdoor seating",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "9:00 AM – 5:30 PM",
+    "wednesday": "9:00 AM – 5:30 PM",
+    "thursday": "9:00 AM – 5:30 PM",
+    "friday": "9:00 AM – 5:30 PM",
+    "saturday": "9:00 AM – 5:30 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Cosy creek-side coffee shop in Glentana serving quality brews and light meals with genuine warmth.",
+  "description_long": "Tucked along the Klein Brak River in Glentana, Classic Creek Coffee is the kind of neighbourhood spot that locals keep coming back to. The relaxed atmosphere and friendly service make it easy to settle in with a proper cup of coffee and something freshly made from the kitchen.\n\nThe menu covers all the breakfast and light lunch essentials — think toasted sandwiches, wholesome salads, and baked goods that pair perfectly with their quality coffee. It's unpretentious, honest food done well. The setting near the creek adds a peaceful touch, especially if you grab a seat outside.\n\nWhether you're passing through on the Garden Route or live nearby, Classic Creek Coffee offers a genuine welcome and good value. It's the sort of place where conversation flows easily and you'll likely leave planning your next visit.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuRAuDgBt1h0RUawB_usVcJw/photos/Ab43m-uG_37tKYDNrtCr5umWv5jXnvjtc1oGmPwCMqmvvbKeKw9HPvaD5IxOvMXIgC4duSqLqNpoYAYqwZsFoPEHjZRG9X7XIeNukddd3QIxrvWwSIyOSi4YPARUbTO8moi8Q-XmIYbL3qmwgJMae0UJXKdUeJ3eXJaqIYCbhiREzR4_nSVZCYxfx6DAfBwvvjVCNEOyCaq7jB0OBcwZADzZQQveIJeuPX9DCkAAWTQ2aDpDGBDBnmSstPD-pASISLwL78n5lzu2A0BL3ClGNiCP_oGp_HZsRlYwohEX1vJFizL65fdLQYN_0I8SaySLQFoXH0bjfHjFQ3ddVCTcfN8YGEV-6QKCqbd68mj0rVIFNN1_lc-tudpKQs-Eov_FNOTczrIZc8w9drsmyKcPPwCAmYTps83y7Q6cGJrgrYzIl96hf6r3pLmllCz4CFsM0w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuRAuDgBt1h0RUawB_usVcJw/photos/Ab43m-uYhk-rE1GyPxJEx93S3kU2ilBq96uE7q4NxJCCO056hWt5_UbRt81Iu8KNjjO_eVU_PserGZRrMEa52FmLbtZ6HU0ViK-UthUJPcUyMytoompJRpJ81CvvXWuNNVw5r2WdwzLTTJizsz339JMNpd2vNxfhs72MF076_VgoIulK2OMs0In_3iPhlPNNNO1JzB4GH5VvwlpnyYER4ymS4uL30wcm3VfFz-fcbDZkQl7YiIVEMcXOKoQU5qhjN3jFp4FO0LJvYf1xzq4NqNuRmfUd2fdUyLq8Co0pebZyAP7NkSeNB6aU41yWUB2wzgjiLaVfBiZF2LL2fyey8Yap-sj7EffLMbu-DxYmj-_4JiJi1gamkK7rK-nVDatzirR0h177AsF6oXqWx3dh1wUKXkx_wkQrDumF1TvOtWNWZZv7Lo652lX-hSbif95KfU1b/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuRAuDgBt1h0RUawB_usVcJw/photos/Ab43m-vC2jpwHHgqa7kjtsg4chzdxhrsyL2uvcjGkvwYGts1Ype-m2ufeAHxlS4o28H_vareTDyX3yePdZWkVe0mGjX580Q6Z35QA-NReCBU7rY_m_9gSWDfHItj4I2WL4j5fuG_qVJqwI7N7qOVyZExKJzJ8NXHVo4Vgihl21E3ggl8skCMwfRe8OynAW6Xn3E8ES7Sge_9TtM4isdytx4JwQfu3BMr3dWU8QwGJnN7oKqVu4xuqZ6jscI7PbBzk9uiv9j47QiGwQ8MWhKs50iVVSlVUrqRyOoHXn_MioIu8nAQ0Fp2q21p5PtKg2wOq8bx7oIg9gOK5zvussxryNRS0kWjBNzwHNAN9YOBGT8Iozj4mDyqKLJOfpwI0Be4fejbVcI7SIANseMSDeIjttPjExSjD5ZCu38peka2cG-fGS4H1iHt0w2z_TATxg4qxm1B/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuRAuDgBt1h0RUawB_usVcJw/photos/Ab43m-u0cv-WNazkQs1T4e_J0GMeAhOQKnzLzw9_Zv4g2-heMUtS5RG3-UfpRTsYlETto9uRMuAyLNXpa5XP1Cm-R0wOp_sVjeub9z_z1v-PzSE8JKS4s5UIZcmTOLQf7PM5cQ1FGYJIX8SQwRBBdEkl5useF_a7MTTYMqi1jGjRvsjiLxXGQkAAXH0uI4TBESvE2J2898_DSUdTbe4Z0LvveyGWrPCe937hJgqbpO04EMRL8ZAPplMtkaKKjih_oifOAjYpJ9QQhmqgQL_0ZEODmLOCTxO7FFcHHgqLVk3fuEuWWhY5_yEWOTiu4B3QC0eZn2Rs5R4mqd-Rs-6Va1iz2bBZD9GInD204Ll1eW4O3ru7HW7DzCZ_ObGi89MuCW1XXMa3x-bimRsQxQ6UcwkmAd3Xo7cEFLHT9irlvJv_ueXOnvHfhb3Z9xivyWryoMqf/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJuRAuDgBt1h0RUawB_usVcJw/photos/Ab43m-sJ0NZElob1nTBqh3XVMcMlxVlkln7PeNe2S2DVzeGpmYe-IatxtcsfFwM0s7uDw_QP7npYMYgLpQA54u62-8SQtEEPF2jEokRVhx4MfCEJ8l-9UbI3NUUXEgEK7JLRbm0X1V2gLLf8GapIoQ_yad_a8UQ8y-La5sJ0byMDdr2yGgtw8v1a-bq1c4y-_Tht9VoV9uCejWOOTeD9FzOZif4GFofN2iiRQYl0znIsWvAtyDnF52ikHAX38ezeV8UkyQBSFotIYClvQhGk8iGF8K15MiaA3oC-Y5TUSteVjCzRRmiz1GITI_j_dP9uxPP9DBPk0iI0xJS0nM0mLK-KCXmwLvNqd8impMuztqEgAzpuPTEjhmbodE6sU9UU6Sjf8PvKX5Fay9uZJr3op9BXbGLMdJqIufcjANkvOQ4eKgTzeCU1nOtLi94dIohJPmBl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:40.333490+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

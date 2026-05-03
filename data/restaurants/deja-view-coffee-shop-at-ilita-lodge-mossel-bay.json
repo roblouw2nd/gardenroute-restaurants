@@ -1,0 +1,76 @@
+{
+  "id": "deja-view-coffee-shop-at-ilita-lodge-mossel-bay",
+  "name": "Deja View Coffee Shop at Ilita Lodge",
+  "slug": "deja-view-coffee-shop-at-ilita-lodge-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "19 Hoogtepad Suid, Heights, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0452156,
+    "lng": 22.2303695
+  },
+  "phone": "+27 44 620 4143",
+  "email": "",
+  "website": "https://linktr.ee/ilitalodge",
+  "menu_url": "",
+  "google_place_id": "ChIJGWEYMxRt1h0RRmh1-Dlr2CA",
+  "google_rating": 4.5,
+  "google_review_count": 167,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Garden setting",
+    "Casual",
+    "Breakfast all day",
+    "Family friendly",
+    "Outdoor seating",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 4:00 PM",
+    "sunday": "8:00 AM – 3:00 PM"
+  },
+  "description_short": "Garden Route coffee shop serving excellent breakfasts and light meals in a peaceful lodge setting.",
+  "description_long": "Tucked away at Ilita Lodge in Great Brak River, Deja View Coffee Shop offers a welcome escape from the busier coastal towns. The relaxed atmosphere makes it ideal for a leisurely breakfast or light lunch, with generous portions and honest home-style cooking that keeps locals coming back.\n\nThe menu focuses on breakfast classics done well—think fluffy omelettes, fresh pastries, and proper filter coffee. Light meals and daily specials round out the offering, with everything prepared fresh on site. The coffee shop's setting within the lodge grounds provides a tranquil garden backdrop, perfect for a quiet meal or catch-up with friends.\n\nLocated in the Heights area of Great Brak River, it's an easy stop between Mossel Bay and George. The friendly service and consistently good food have earned it a loyal following among Garden Route residents and visitors looking for quality without pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWEYMxRt1h0RRmh1-Dlr2CA/photos/Ab43m-t3aXFGsapDwn2cCEpOfPmEEBsWn3SqukoaZ9f-P1uebeSCEimCBGAfPkXZUOl42YNoibKi84ygPlKdLBWy0aY1gOZ4Kg82S5QDGaIQT9oaFaOe55owACR7z1I_KWbRdTBddF3N6ollxFi6sCuSHEPKFaAm70gg8-h_40kz8Q_l64elIr0sBPLeObbKMF9-7Iikrl7kaq96qztruYNlYLvwK-KH3pk2K7wUwD-Dg01BVeUeNIl1lQYsm8EdveuGkrMxo-FxWVahJeYvbcnxWWjndWgfa6vBk0yn3pvBRofOgA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWEYMxRt1h0RRmh1-Dlr2CA/photos/Ab43m-u3rzoJNgJ1KQJ8n7OBwPE-zsi6Tu6ixbTj0Ce6pcqOvkieYX_Y7Jh30nNPBfc_vctQiB5NC9zH_CftrBGPLIUZDtEPdvza8Nm9C_dV-_B8shWCNaHkKe5_g6i7GX7XrJcJ_yDKkh7akaTZUbVrgGQCMR91Wk8SbwrJ2j6m-HPV97v4HuWVTHWbvZ-r3QVGq-kE-OJywO6uv2R3VkV1zebAkGH-rhQKttqd1NWhyFFzUNtsGmcWnq8d2S4D8Q2Xfz2N1wzgvGJwOIxSV64TGeWSi2dcNjLGvkzLAnSjkgu3yg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWEYMxRt1h0RRmh1-Dlr2CA/photos/Ab43m-swu05E0R7edcTw3XMe7EZmqqozI1OcEIKRYe9BVzGI_zXmAfK386f1J1jMtdmz2XvmBPzeR9pnzUzn6j5op0H-cwRpgMDu1qZ8eXHkLJuTSXn6DL0iqvxRBpuVQ6IGQiyI2rHXvySwWiX_5rbo-4Pq6KqI1X17rDbxyfraQirNB8KVC9dW6Tn17l5rnBtuT_AnuNDcac1i1dZfoVQXPnYmQ4BO0Y83eBOhxyL88E8ZwE6C8Lm_73-eAsepViqUmxSWd9pDOPsKJsXhd_HeDyhGumvxsmVKlLvR8jlsHOxctw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWEYMxRt1h0RRmh1-Dlr2CA/photos/Ab43m-ufKHAJdgXYuPS-X48SqQFnWb9fZRNmjWn4inTmcSSe8JFvSifA5d8uTt4hU_MkoXaVA_vi5Gto4PfXqo_6ltxX1UPcfRZhjfeYSSS9H5ZumAn5_b4nSP2iNC0rkMcw47uQTJgNiBcm9PIhkbXvmxykaRE5FDnU9yMLLEqEPn3JuLquHZHtRbbXEGeBCNl76i44AktKFHwjjOx-qe2xGhtv6lENaO12WWupQ80qw_rfDATvVvnvpKz8nH--JRuB9xg5LYtuGKTuWrnCqdIZ8cJNIdYbtye9IsclC-axLhWB3vahrsfSFP8ePwfXRU6516a7be6PVRMgYCq8CnV_HbhFFCxHZl07eGVeThIIzvDb2CHwh3ArkMHmqCQgCfHNsZp7QlXgOyOPwffhY21kgDQzdtKhkucl7k8Md0nnteWk1OEWPX6h_lpYL72F0l45/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJGWEYMxRt1h0RRmh1-Dlr2CA/photos/Ab43m-tJYptOsAxuenprKpALl5CLmuXSobNMSnMXJbYOSwkBZ3u7j_RnWeaTNATBxeNXqvFySC7EpS3JtPQ9ClaH2U-7suycslkLk06YvcVRQ8_Yi7fZ4TJEHXaZOlCfKew3PYgX8e5W8XpPHT2X2mSE6ApWhCyI8QUuFNvN45YwmPQ9B6kq1lO3mqKKQ1TBdu9vnvSJ-r3TXNqYxkmA2Pq-CQbzRmU3Uc6BbaLh2Y4LnXg_LYgDL__jfYHj_Z-CKwFID0QlACy24CKBIYLJribZDrvnO5wz91iKjV7VG57KU_59pw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:57.970988+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

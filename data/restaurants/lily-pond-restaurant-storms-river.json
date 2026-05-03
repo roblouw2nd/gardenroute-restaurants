@@ -1,0 +1,74 @@
+{
+  "id": "lily-pond-restaurant-storms-river",
+  "name": "Lily Pond Restaurant",
+  "slug": "lily-pond-restaurant-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "R102 Natures Valley Road Plettenberg Bay The Crags, Nature's Valley, 6602, South Africa",
+  "coordinates": {
+    "lat": -33.948087199999996,
+    "lng": 23.511980899999998
+  },
+  "phone": "+27 82 746 8782",
+  "email": "",
+  "website": "http://www.lilypond.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJI3UnWI0YeR4Rw__cBHBvfWE",
+  "google_rating": 4.6,
+  "google_review_count": 9,
+  "price_level": 2,
+  "cuisine_types": [
+    "Farm-to-table",
+    "South African"
+  ],
+  "tags": [
+    "Garden setting",
+    "Outdoor seating",
+    "Local produce",
+    "Casual",
+    "Family friendly"
+  ],
+  "opening_hours": {
+    "monday": "6:00 – 9:00 PM",
+    "tuesday": "6:00 – 9:00 PM",
+    "wednesday": "6:00 – 9:00 PM",
+    "thursday": "6:00 – 9:00 PM",
+    "friday": "6:00 – 9:00 PM",
+    "saturday": "6:00 – 9:00 PM",
+    "sunday": "6:00 – 9:00 PM"
+  },
+  "description_short": "Farm-to-table dining in a tranquil garden setting between Nature's Valley and The Crags.",
+  "description_long": "Tucked away on the scenic R102 between Nature's Valley and The Crags, Lily Pond Restaurant offers a peaceful escape with honest farm-to-table fare. The menu changes with the seasons, showcasing fresh local produce in a relaxed garden setting that feels worlds away from the main tourist routes.\n\nThe restaurant's charm lies in its simplicity and connection to the surrounding landscape. Whether you're stopping for a leisurely lunch after a coastal hike or seeking a quiet dinner spot, the outdoor seating under established trees creates an unhurried atmosphere. Popular with locals and visitors who appreciate straightforward, well-prepared meals without pretension.\n\nIts location makes it an ideal midway stop for those exploring the Tsitsikamma region, offering both sustenance and a moment to slow down in one of the Garden Route's more untouched corners.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJI3UnWI0YeR4Rw__cBHBvfWE/photos/Ab43m-sI-r52Aovh3zTMMsvoG-kX4rmH1jcZ-BAzGvFeOLuU1K20Ke2ec0dFUTm9YAmX4zYdg-Yp3VmkP8FASh3DfJxiiz5l1Z3IMjKpkJopW1La7jf37lBM9nEh9E4WbgDL9TkcWW_QoyKsTw8bKRHF7Pf7V1RVQI_hUchi2c-a6l6zHfnVh-5E8m7Mznl7QCToYvSrACiFfeAaPvBiMiUuLa57MUZMBoX4hPpgAoaxnXgARULZFYNqOrz8aNBSn9DUw0_Y7y2rGcTuCTweYwyYS4_5tBMCS2nCekNstyKY8jcrgA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJI3UnWI0YeR4Rw__cBHBvfWE/photos/Ab43m-sVk-cxvSlVVivtTg6dsIsgn620Hxzl4DRCnStR8FHBmspKrlOHxajmVVd7L42CaXdfWMlze_STdKyih92ayw_OeghK69DEEPkbFddVmQeCUwgnX1X2r0hWpI5JZ8F-NwpOZRu1z3NHCtNm32J_6bPMOf_H40r0qYKCNZzcpsi3Ljkaes7-ynX_gdqKCeNnYQYGfyze0_wI1E9OXcSoXOfBQ8QzwLX7LWmDL_zt03QGGdPcoCA77U9LDfyEEmUB0UAgNtsnoOKQa8SKM9mvgL3FIAUdIrl9Cfo1rcPI7B5jUA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJI3UnWI0YeR4Rw__cBHBvfWE/photos/Ab43m-vJPRLBrUTsUAXZg95L4wXt9v21p51-mc7fAKfqYhZMQMsghURHh0iJZPSbwJ1Gnce7OEW0H3mYMERAIJxLESlYrPROUtv5ePtKkYfyrCJb6bc_NP5A54dFFuZe9zJnSjv-Y3_yekkOBw60ke2GWTMcV7ZboISjZF0igl8f3OfhuLJd6pCThQAGjgovUTtZs8pE59RVrwMY9efUt1THxIM7nEtly1yxhi_fYIas7vBdpdoWDc0boc7JgugDysL5jbBWzDvJsy9MvJ1OXqij7_HhG5fkK6dujqdjd_C6i70HHA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJI3UnWI0YeR4Rw__cBHBvfWE/photos/Ab43m-te0tEyRROvRNyp-qtlg2Us3ZXLnDEkKM9_MWJa6QPPb6hy9QLgv55kXnD22j_WxHZ6cYpJST8E08J_sLFLf8sAx7SJTzyV8TztVy2UYXREht3LSF-IUhggiDYeuOJM-d_ZnKoyjIyOUjKz0ae5NedWIfEs0f4SBfkfxTrriyYPCOAZdCmZMdoSO0_ynjetMGY2T_RMwAABii2VdicaP1WWuN4pHdkbfJ38QF_OSgtvQOhADkEoYVNgbiXrOUXxiOtL8I0rJPOs8_lDF-yiqY1cmONrxad0rsyp-oGjQkYvFQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJI3UnWI0YeR4Rw__cBHBvfWE/photos/Ab43m-uTbPvmoob5ibmI9y1uhpBpWj8S-41EhioP-pmBjB9cAF0hA3rqQqMjvA_ZvIGH0xp8L8An0TQYo7EwdMSNdlGwzcpz2UhdfpqUxeCQvqBkoiZoR12d2-cFx7drN1x1YXC3BF0AJH9i6-fOnKAAsGUPYlGeNbXBGEhFBOZQo8MEOgtFR68Z4oGLwmPJTWMd9IP8pZ4RGgK-ZZ73CtOJw193RJsvcnB7LmI9XtxXeelECQS_ykmS_ngprYXo7teVFeMtP9Y0stkVGEgQkwaOlwRIcFF2u8eAFecR0FUM6HdCQ7ejbnoJKKJ9aJq9eC-VywO5N57_B0-WedoTMNOGmb_ftLc7KDSAbqCeIJyughYPu5i4SEayCcpZeTvawyeUOBAY-OpuB1_5yqWes-Ent7bKIh2CmJrEomlN-9DbQB7JvebZArNYh8HMd1WjvdeJ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:46.055092+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

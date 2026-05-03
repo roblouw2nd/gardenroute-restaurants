@@ -1,0 +1,79 @@
+{
+  "id": "searles-village-restaurant-and-pub-mossel-bay",
+  "name": "Searles Village restaurant and pub",
+  "slug": "searles-village-restaurant-and-pub-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "55 Lang St, Bergsig, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0491884,
+    "lng": 22.214429499999998
+  },
+  "phone": "+27 44 050 3289",
+  "email": "",
+  "website": "https://www.searlesvillage.net/",
+  "menu_url": "",
+  "google_place_id": "ChIJ1R_Lrhht1h0RWFRiCdrySPk",
+  "google_rating": 4.3,
+  "google_review_count": 692,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Good for groups",
+    "Outdoor seating",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Full bar",
+    "Sports bar"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "11:00 AM – 11:00 PM",
+    "wednesday": "11:00 AM – 11:00 PM",
+    "thursday": "11:00 AM – 11:00 PM",
+    "friday": "11:00 AM – 11:00 PM",
+    "saturday": "11:00 AM – 11:00 PM",
+    "sunday": "11:00 AM – 3:00 PM"
+  },
+  "description_short": "Family-friendly pub grub and hearty meals in a relaxed Great Brak River setting.",
+  "description_long": "Searles Village sits comfortably in the heart of Great Brak River, serving as both neighbourhood pub and family restaurant. The menu covers reliable crowd-pleasers — think proper burgers, grills, and pub classics that work equally well for a family Sunday lunch or casual drinks with mates.\n\nThe atmosphere strikes that balance between laid-back local and welcoming to visitors passing through. With generous portions and consistent quality, it's the sort of place that draws regulars and road-trippers alike. The setting on Lang Street makes it an easy stop between Mossel Bay and George, with enough parking and a relaxed vibe that suits the Great Brak pace.\n\nWhether you're after a proper breakfast, weekday lunch, or evening meal with the family, Searles delivers without fuss. The pub side keeps things lively on weekends, while the restaurant area remains comfortably family-oriented throughout.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1R_Lrhht1h0RWFRiCdrySPk/photos/Ab43m-t3tjeBPYDFZQ3XYuYc3c47FNwVcge4wHw5ib0lt-Me_Z6y0mL26SQjHBH7NvZSeQVZmrDgJSfBctfa6inpZ4cVuOSNBhxPFKsSU7bY0a-SDJQT0XssDbNMjTpltovLa4eV9NNNXsH2No-C85_xAbrMYgFJejfW7NYwZ-7GdQSxUeQk8FaxByZc9zI4cu5SpVnU29YBaNFnnZ0GRBm7vMWxvPl_9B2Un5q0DFVulZNogLAuny6Gk7-hk5zblQA5wtjPpwGT6gklKqNL918pC-Zw-fz5C36vlu88uks5SomDjO2nAnjqdgvTAA4xUc8jHqWIDkc99jljCwlJXk1wQXd8gJRM9Q9mXzbgozfS7M4JfKWCK-GvybpOZczOObLnaBl5OapI7FhS6ATmHkExqDvpzuwVmp8Rvh6C0Z8o9JLKaTlxgiZoor6R-FVKWFfd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1R_Lrhht1h0RWFRiCdrySPk/photos/Ab43m-vxwZtXWHeVeSZJX9My0sk7Y20dlgsDqQkNFTpttV4HgZes3ICRmvZumr9xjmh0sPcAXRCC8IajqK86dem9QpZXOMjlvhTQO7ALlFs-BKc1AnbStkumwTof2QNlzJ351nlOsFWjtniL4oDNC-ghMOKityqdz0XcJyA28w_7AXKW7mokqDPjVr_kFrA9pTP5kDoROZq95y04gdlO-KYiTdhdHjCxVX6qs-5PT0r5sPCCMMzhmr8W9w2WZgjTsOJw6HvxSOK32H-zMxztGlg5HDa7JOhKAw9rQGsa3yMeo26N8w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1R_Lrhht1h0RWFRiCdrySPk/photos/Ab43m-sTyxHL1Ua6ilSeZ0kw1T6NwcOp2aM35lP3OcnXuTrmfaWU1v4GzZkG7545QzJEfNW8ew4OWN3fGQMsCIPbIUbQ5K0ztvr5Hxzi0P1eM2ktFzrspVCFQ2TsP0ejUo80rMjdK0djaNpri9Fj51QaqTL8xA4bZ6uTVGP9PTHgH3ZlzSdBt4j6iyvf4js8rVYQuGgfkyPomW7EjIk9xuWJi8_GJJG-yy5FbHWX85Hiu8wrkNkn5WS-GjKwhJfphFNhdJ5weHIBMphDTvDjgrn8AvzJx-5ymSUyBBqDrQQ2OjoqhRJ16gKCyKKwgHvfzSMGyPEmhpVwLwbUlMSYuWxi20jOmg8yXA9_IKMPf_qOANO1w9Kh1aQeqYUK8B04d6Pa9JZTGM2e6WX9wPYPLRgSgiAb76xa-vs8cDE7XORFc9LrzBVviMPQzARAKW-h-hMs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1R_Lrhht1h0RWFRiCdrySPk/photos/Ab43m-uq3pcxLjk8BOzkwYLwCmwsMdJyn_ED70TH1Q6ijMVLO2MuyLN9745oJYDIOyQvsdYd-oYZGPNRVjpas_q3CHytbWhs1z7l1D9hdENQmBXfy0rz-G-KSvOQGApLID-7f64h7BWucACJZvnQDQwm36m0Gbcm_etcwQJRgdxiZNvwdT8P5xzM5P0ydhqesoa-T1lLvUiwgRpvhdwdRNA0TnvMfBTTl2Rj_agzL7BcAFkZpok-73-xhxfdpNmE-BKgqqo2UcEegIC9OyMALyZq9wmuWeDVKlh2DXWlAJgynz_Ax4WnWiIC3PhnqDWhLju4vkT6EK_6efVeLV5qYmR5PRa4GHBcwhMAKrhBF1vzyfstuDT0Lu_8rAmkJmghVPsxCy7jjaaICaKIKjBGTogBCTWT4usIlTeZpqvqMI52LDQ9Eg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1R_Lrhht1h0RWFRiCdrySPk/photos/Ab43m-v_Sz-7jvpyRoT97jH-FJsuCM640WeaYsejMfQLPxGbOHs6ZMVa5C-xbSUWY6RB3WgG9Pi97E9_aaOETa4dU5LswOyOGL1HRCysqB49hdZ1ldr9YbB2AAAX509PfxCCG_nA1O45IVzsH2lr26zUnwBNdLu2rRBW6VNKKByUNT4Yk7NP63Gq6oDXUnyCm3kte7BvhW9Kg7bz6axDNUgAgP1wTaxcIw1jSB_lZhX-HKAdmj0hJuFrFw99DA2ityZKQdX8GQwoVSdy8LZ13tk3V6wfnqbSOepjo7vYVTMa5URpU0zI5hjt5NYjSrfYmh1LiHQZ93054QjGKI5B-PmYR-_PBIzLxwsZ-pt_A_jotcOLkX6fkvDVzczilNuCHc8k0J83ctbK65ZbG8b_M3hORaQzcTMVAb13MavJiHThXxOrekoRR24ge4UUL0rp8w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:51.386868+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

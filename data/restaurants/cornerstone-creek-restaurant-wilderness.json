@@ -1,0 +1,78 @@
+{
+  "id": "cornerstone-creek-restaurant-wilderness",
+  "name": "Cornerstone Creek Restaurant",
+  "slug": "cornerstone-creek-restaurant-wilderness",
+  "town": "Wilderness",
+  "region": "Garden Route",
+  "address": "Hoekwil Rd, Hoekwil, Wilderness, 6538, South Africa",
+  "coordinates": {
+    "lat": -33.9748959,
+    "lng": 22.6198733
+  },
+  "phone": "+27 79 141 6151",
+  "email": "",
+  "website": "https://www.cornerstonecreek.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJTRxZ0NEd1h0RZsgESJeuNeM",
+  "google_rating": 4.6,
+  "google_review_count": 126,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Pub & Grill",
+    "Cocktail Bar"
+  ],
+  "tags": [
+    "Garden setting",
+    "Outdoor seating",
+    "Family friendly",
+    "Good for groups",
+    "Casual",
+    "Live music",
+    "Full bar",
+    "Dog friendly"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 10:00 PM",
+    "tuesday": "Closed",
+    "wednesday": "11:00 AM – 10:00 PM",
+    "thursday": "11:00 AM – 10:00 PM",
+    "friday": "11:00 AM – 10:00 PM",
+    "saturday": "9:00 AM – 10:00 PM",
+    "sunday": "9:00 AM – 4:00 PM"
+  },
+  "description_short": "Country escape in Hoekwil serving hearty food, live music, and creek-side charm near Wilderness.",
+  "description_long": "Tucked away in the Hoekwil valley just outside Wilderness, Cornerstone Creek offers a proper country escape with its relaxed creek-side setting and warm hospitality. The menu leans into hearty comfort food that pairs well with their cocktail bar offerings, making it a favourite for leisurely weekend lunches and evening gatherings.\n\nLive music sets the tone on select nights, drawing both locals and visitors who appreciate the unpretentious atmosphere and generous portions. The outdoor seating area takes full advantage of the natural surroundings, with the gentle sounds of the creek adding to the appeal. It's equally suited to a casual family meal or a sundowner with friends, with enough space to accommodate groups comfortably.\n\nThe venue also doubles as a popular wedding and event space, which speaks to its versatility and scenic location. Whether you're stopping in after exploring the Wilderness area or making it a destination in its own right, Cornerstone Creek delivers a genuine Garden Route experience without any fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTRxZ0NEd1h0RZsgESJeuNeM/photos/Ab43m-vy_5xE4WttHoTq8Kmo-vypbeoqgKv3N_zzZFhwIsqLuBRugNB3iHtu9pbxGZie3sexcv-4coCdWZvhY_MFEDVhnSVzcScejrxKC1OouXhnuCcQJOWyPwmfZrfp2cxpoXMpau3_kfqPoy9UIy9lZRzBHMhGYIRerHhYGKy_bmIHFaQquaj1rTBfN1jR64g0oluDDd2sFPmvd_6OpPs780WNYKoPofgFv4eYE4dxAxCHFsezdtQgjQ4g7Z7_edenh3QGKtlCREE-aCZ_z52H7W4zd9ot3YJqDPnVsZ71YWliew/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTRxZ0NEd1h0RZsgESJeuNeM/photos/Ab43m-ve7ATpYpMgbAwb2AK8QkyaW-umRS0BUJMNp7vuj5Hgv6iijDjBNhpTyPXe7rvkRU2dNyHvXxX2yb732TEl1Fg8UDHJb9ojAR02WKenoITHhLybBdeSrx1Cmsa9478OfW_cHZVacRvWLTC8bP7B-eToWuvSgUxH5CkLrafavTPRPg20-PxDipmD-KLd21FI9aiEp6ICPgBo67HtLAmLraODW0_SM2TySCVNqP9khaclrb7RE410UrhakX7LK2HA9pFZgGcxqfajWxhrtX1GK0htTxOT3QD0Wkg2jBA7UQrVRw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTRxZ0NEd1h0RZsgESJeuNeM/photos/Ab43m-tAViyDedpzOQAxdz6w2R3E_YsUaCqAVgc63QrxpOmLWZFQdEfU3uBAUYPIQJORhX7sZwjt-AAaQguvFB9ZK8tKGlMP8Fo7MESWB_yby4Yw7b-5nfyV0VEpJAEVZVyv0wI6_YUInieL2nDVOdJPQ9FBy6SOClMiRFJAcqAtiEZCy2Xb4ZyF3cBa7zopsQEX4Mb-PsPbh9PWwMH4qSdgPM_lzx5HsLP1gzCR5mGPUbfBdtv4NpA693INX4WnVm0iL1Jio8ys7tTJ5Hhx0nSUgVjnvjDntTbwmGgXcmCvA5m_bA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTRxZ0NEd1h0RZsgESJeuNeM/photos/Ab43m-vYG2qYRnjuMhLDPCozCEZJ2dunBuxNjXcL8ccPORQdKkwrZZFNG_X9AoSc4XO1159Wr64S7RGSBCBuA3FScLU--sBmn9eo2rehPt9nr_mEDYyCpTaT3wEE3AGcrdCpK8ZbJ1YmpDk7_TWV7chz1iU3zV8628D1qAYU64VZJ9eaE7RXKe08O7Xv7tUdr8QMQ5nH0RUoKBT66XljgifsdF9jFGsYsLq_pimh9X-feIcSaWJZmYbigf6v96IzOzroAUHACfz8mky2iNlYC7f7inw7hD19z6iTXq4SkVmxhNK9Vg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJTRxZ0NEd1h0RZsgESJeuNeM/photos/Ab43m-v4XsAkraoMGAjYq7Mo7WPpQu2s7uvYzsbvu4mGKhor3LSgLX_cnnGinLl1J7DNkWLYM2U-1BfD76PhmatsQj9b4PZY8kBOqkqSmMQPe75ZjzXy7fMT2nyOc2o9aXKqXeOqTdEtsw8d856o7V9rcBjudcAfj0vMIeCj9n__SEQhcBU6f7DhhcVIXVbi2ln6q2Ux--jEj-83953pTS3qHXTA1P0jJ6If0wOZXiU4KXBNbNRpjmAgh-GhCAJmrmnU7TmOIkkYpETGxxGhYk-WQPyU7RdgSeVMr57iCnya9gZ7lYkB0b7YdXF6zLC1MkPGmIzBmwO_xnlydySv-Yappn9qrTmZZiir5keb8Qh0GH9sHTeX2lyFUMQuwnjt8Pdl5s4AB3cnpUGCQBDEEcT5iUxzN4iHqjTJbtgto5FtpYFi0yYy/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:35:02.699960+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

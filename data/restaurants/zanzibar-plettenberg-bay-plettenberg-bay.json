@@ -1,0 +1,75 @@
+{
+  "id": "zanzibar-plettenberg-bay-plettenberg-bay",
+  "name": "Zanzibar Plettenberg Bay",
+  "slug": "zanzibar-plettenberg-bay-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "3 Crescent St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.054881,
+    "lng": 23.370995999999998
+  },
+  "phone": "+27 72 626 1111",
+  "email": "",
+  "website": "https://plettnightlife.com/",
+  "menu_url": "",
+  "google_place_id": "ChIJjXP1GA7ieB4R-D4h-rwNofQ",
+  "google_rating": 4,
+  "google_review_count": 251,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cocktail Bar",
+    "Bar"
+  ],
+  "tags": [
+    "Live music",
+    "Casual",
+    "Good for groups",
+    "Open late",
+    "Full bar",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 2:00 AM",
+    "tuesday": "10:00 AM – 2:00 AM",
+    "wednesday": "4:00 PM – 2:00 AM",
+    "thursday": "10:00 AM – 2:00 AM",
+    "friday": "10:00 AM – 2:00 AM",
+    "saturday": "10:00 AM – 12:00 AM",
+    "sunday": "11:00 AM – 2:00 AM"
+  },
+  "description_short": "Lively cocktail bar in the heart of Plett, perfect for sundowners and late-night drinks with mates.",
+  "description_long": "Tucked on Crescent Street in central Plettenberg Bay, Zanzibar has built a reputation as one of Plett's go-to spots for a proper night out. The vibe is relaxed and social, drawing a mix of locals and holidaymakers who come for well-made cocktails, cold beers, and a buzzing atmosphere that picks up as the evening rolls on.\n\nThe bar's central location makes it an easy stop before dinner or the anchor for a longer evening. Bartenders know their way around classic cocktails and local favourites, and the crowd tends to be friendly and up for a good time. Whether you're after sundowners with a view of the street or settling in for live music and dancing, Zanzibar delivers that easygoing Garden Route party spirit.\n\nIt's the kind of place that becomes a ritual when you're in town — casual enough for a midweek drink, lively enough for weekend celebrations, and always reliably fun without taking itself too seriously.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjXP1GA7ieB4R-D4h-rwNofQ/photos/Ab43m-ulDGtQECb9hx6-UFfZ7Cn0X2ksWT3YmPNY8XhqmGe6dJBn2ByNtKWsImz4W_g9CIbncuX4J44ws-vikkOQFM0Gi6HGc9-DWzeuyaFfntfIvDR6Ory2LOUJzZCFCtCBvTOlhJDTw7uFaYp8RlymmqAjDFSrz3QZMW1X9tyhihZJ5BwgIitvbOWhswzcoMSomb3CcZA8hGgUYq_RKQ7XiTTEapAJivokh53xoVuPTbpVcMzcYlcqJCUW3fJWNuEZSC5iMvZxh7HqdjKyAk8_ULMQDeK7lpnmxLtr6ikmP1w5dtmdd0Pf3AAjTSaHwUutIkWL8E6qmzGI7GYY3KzxZm40XSAtq-DlxpWbqcstKEbEEv86WzzojEePHSjkQh-ON46UpLtnDmKT0qqLLkVu5-Gjxbq0u3HW2DE1RDkAZcct-g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjXP1GA7ieB4R-D4h-rwNofQ/photos/Ab43m-tEDPAwKoJxoyWR4aCbHlSTk-Kz5MzJSvNgODa-e-2JbDQJwGEu74O-ceofmQAroEFEk6eTLSEZX7bHeGZYhwAhgEPxKwDhw4m139yUyWNKAvWf0tfhV6YGD9Emog2LVdqSa87I5v_IJVAPOT2fpba_REnZjfUkCORM0mbffu3KlWy_12u4cKsXxgnQFPDlfVCoL32tllP7l91VYdOVMLeVyfay11P1hIDH0pbmRFHnMRVR9eKBw8eIa81KPSv2nP4kLZOBFHJC6UqQG9dR_6eMsOvUhyLpb4HQd32rIZRfGfBtX8S0OpnurlK-3DwwXcngvM19k7Ve-74qCla2Bmx3nt3rM3jIZflFs7jEtlDKywuQyG9sZo_-mZrRe8bc0OQHJcwS7WL6mVNOC3xStd0ECmJ09nNKrTaTgTYGZVUdloEO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjXP1GA7ieB4R-D4h-rwNofQ/photos/Ab43m-udojJPlna7m3v2IqGB5pmtUrSn9WWsFzZfSTO-Ndc5nqjLHOfuILLhEnkd715d5MHfCJyXg6iCDMOYH3e8LEpBMFtGQO5cmq2yTSvSIRwRpX7t0fLMwVT1gNucq40jOlzseRyT_tqXvewf7wxSAMCg9EIXHfsk6uHIWr_oNZPbQthBJRLOoAKsBsQf08wB-_MX0SkwsuHqLTREh84BNY6nF1i3y34iCFd8gkrgL4sKTNH0mx9vOnuciq_Rbwzp9I2x_-U26QeDjIntJeI1DdoY6sMXDfNzcXSlBJFE8rQ5nhKel-d5hSvk8qM8WjMRp6nZ8s_2a6B4qMvkm0sdFtgsURilB6Ht4hdyuBSkYECpUgBGdxWIEICw8YpS0yALbDCJww9KPg9syKoX5bsWvi9d5vewLj4TQaxIqEl08xEDoQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjXP1GA7ieB4R-D4h-rwNofQ/photos/Ab43m-toHSLLhAmzRdV-mtvQoPjhSrcQFVf1HhObM5c5TjkFCpkJufKobyUtbz5Jxb4SUqW4s20UkDSSjC3vA1Mm1XyxHpvzx4Umq8n6Lga2ugJjhsUGSEE7df8iEK5u0DrFP4fBR8XtlzVNrPcGGlTBEANpCos16cutGrvY1PHhepN02HxdgqMdXHj9oHqKYgM73GEH97BI5bVFC4LHIC_WIstx9sDsY5uesBhVltlb377Yh8Rdvz490HeNCtN3NgK9dm1kprKYCnLHriFQKfEaxSGwjehPR1N8hgDnqODYz1HzMtSlHSI11nfpc6pcU1vSxbhGgJ72I9p43McRDkNhgvP0MO52bAC82Ej7mt7QjkJEoau5cOlUh5sVOLKhQxW6S2jaBaytbU6twIl0sl6p8gYzw3wYVicyXoG1cTXi8hhrWixc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjXP1GA7ieB4R-D4h-rwNofQ/photos/Ab43m-sMJWDpCJTXjCV23eONCwN64LffM5IPziM1alC2FUZK1jO01uIk-qvPQ9k3iul2EOC_ZU0qVeoLNh9UKIoqxOPGfiLPTOH1s27QvRUAE3UYEQTZZ1-w-dU4lNchbsmnWMFvzbP5XhYybav07NeH7EvCNGs0DkMVhul-q0VVt_rBAOGQon8_X4UXs12uxb5lZXDokUki_R7XrtptWjU9VQWhtmS5qM50TSDxYd-QQ2w7oAGxZX439O9FJ3b23uQ7_hXim5Svjnpn7Eib4kN0hQ-TlgV9zVqSWg4fbCcnfU1XHkDh9HLy-eJitpl2VhEpWC8HY35ljgObOFAdGcmKBUU6fn_c-j8aKZfvL_3CjIWGPSA1o8MlaIB3AmdLRzwdkCkFgGVKqYqPxXqx8zeHXIExItPtZBfTwDt3EZjfDKRAbZ6g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:32:40.280995+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

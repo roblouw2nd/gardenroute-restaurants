@@ -1,0 +1,77 @@
+{
+  "id": "mooiuitsig-restaurant-mossel-bay",
+  "name": "Mooiuitsig Restaurant",
+  "slug": "mooiuitsig-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "1 Old George Road, R102, Klein Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.0847929,
+    "lng": 22.1354772
+  },
+  "phone": "+27 65 191 1389",
+  "email": "",
+  "website": "https://www.facebook.com/pg/Mooiuitsig-Kombuis-1714028982164155/about/",
+  "menu_url": "",
+  "google_place_id": "ChIJq4x1-xAT1h0RxAwXfrHcKFU",
+  "google_rating": 4.4,
+  "google_review_count": 650,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Breakfast & Brunch",
+    "Cafe"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Outdoor seating",
+    "Garden setting",
+    "Local produce",
+    "Walk-ins welcome",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "10:30 AM – 9:00 PM",
+    "wednesday": "10:30 AM – 9:00 PM",
+    "thursday": "10:30 AM – 9:00 PM",
+    "friday": "10:00 AM – 9:00 PM",
+    "saturday": "9:00 AM – 9:00 PM",
+    "sunday": "11:00 AM – 3:00 PM"
+  },
+  "description_short": "Honest country cooking in a tranquil farm setting between Mossel Bay and George on the Garden Route.",
+  "description_long": "Mooiuitsig Restaurant sits along the R102 between Mossel Bay and George, offering travellers and locals a genuine taste of South African country hospitality. The relaxed farmhouse atmosphere makes it an ideal stop for those exploring the Garden Route, with generous portions of home-style cooking that won't break the bank.\n\nThe menu focuses on traditional favourites done well — think hearty breakfasts, farm-style lunches, and comforting dishes that remind you of Sunday lunches at ouma's house. The setting provides a peaceful break from the road, with outdoor seating that lets you soak in the Klein Brak River countryside. It's the kind of place where families feel at home and the service is warm without being rushed.\n\nWith over 650 Google reviews maintaining a solid 4.4-star rating, Mooiuitsig has earned its reputation as a reliable roadside gem. Whether you're passing through or exploring the Mossel Bay area, it's worth the short detour off the main route for a proper meal in pleasant surroundings.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq4x1-xAT1h0RxAwXfrHcKFU/photos/Ab43m-vWGt4XIQAkpUL0yUsy7nQERib9QpK7y9qLAkKOcgXgRha9qK3fcILM5i1Dqmi19GG2Vp9UlPVS0sdocP9ihJjEF_jHNpW6BKGbnNLzyuHFHfbWkSTxNBiWrJptST9VApzIHMlccJ56A3kWV_iULReRaU2g2TkRvFSJ8slhi_GSln88kGXrmO8qJyLWhyf84b3p2UbBEVkIYy-2GrkEIrD8r8Jakrqgdwb5H1zlk776e9BaUYVHF0rRmUTNMl4gHwIny3Np7fUGd0lsFH5CVFZWhMtqhTzBVItEE17HuL8YaA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq4x1-xAT1h0RxAwXfrHcKFU/photos/Ab43m-uSjKN3SkLhe5qPUiDJyBWj1oUaw3KgzJseJuQWKOcKO6u_kzn4s9dK6eRaLUgq5dA8jgSyt7TFOnXc-zRaS2waFR3Srxrx1O4SF7u2bJVChFXVne6VKBEV1QGqnbJbGZLCCH9dnjzTs79GuJ1CM_-O_3iDZ8yXdY2wBZ_5yfnVlxo_KvoVkKdyARcaTDPJ2tYelFGjDMZcCf65N-HD3cVrmK_W0b9G4dZKikcg7S8RAPJlRoaBCGYQEmzo3dsDqxUJUuAxN0dPp7gpY4qmCh2RlxwbhIOP0LsAmhoG6MBx8g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq4x1-xAT1h0RxAwXfrHcKFU/photos/Ab43m-vMMoM2K3pmR_EJo9NgsMXRdMTu7mir-aIrI7wlQSgfw4Du2kyxekA61mCgWXQjzsB9OZbbpxcOUYOOQ1J8SaUCSjBbC1cyoQe3rAvozPpfQdKl6sgbOe992rnQrnadyNU4AjpLCHEi_fnJHr6gBhz8MsAp_SIqpzi1ZpC0brTjeaD6FcB62Fi-ewFH2Tzes_FQhVtMvZ8tu88XvNgPEAnAuuTWWgr8z9iKy4RmQ-CLgDB8FidasQwLj6ogmMvttWbByEB76lkAaegcyVBtXZ5210c4RTxZJHPxDHd-DmV7G8nMk4BGWBXjj0yQMMgTbs6bTWxHVvLywPecK_RGmaP7hHis13PjToqYfiMKVo9ZaKwMlrvqdfABbUpy0ANQ4B8fUNoS7LyMe4FDvui28cEX5qAWaRb_yZUMWCiuwahkfuQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq4x1-xAT1h0RxAwXfrHcKFU/photos/Ab43m-tjRPyRFRNs1eXFHYe3HiA_QX3pxSABFlNEGlSJUDRGddqwI5JlTMmd-iEuSAYUlrrwZuie1dUx1BTiKrXFi82b5Bt4aqa9SETTEYFvmBAiH_7VGigvUMMH6aFXuArCr_Ofmb0UhQ9jTAP94soxQ9VfO7ssbepFyxGv38IQ04Rvj9OdcZoi9JLsAJA1dGaaGF3mI6Nt0Bv5c6souwjJUjVhkaTaPBL4-MqHvuhGI95F21Ag3M1d_uEc87BmgR1ZVy5-QygXjo4Npc0QLggnkMGbJV3tEtnxnXYdXjh9UfWhqBOeMH_hPdFXCDWxsvxl-yMYrtUMhzdG0mvw5ZFPULzMK5a3Ld72yk2yKC0rh9XmYe_aSCgfSjAekrV3Ec4O8Tef4L1VdDYspPB7x9Jx6VCeTLnoQQyZf02gswR3mzKwlCJVwmoJf2LqRUs5SDzr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq4x1-xAT1h0RxAwXfrHcKFU/photos/Ab43m-sFewV5mrzLPyLRFLsxlNYtOaKoMwEmsos8shyFfCBL-L4bHoKSKj7IOVuDg9p95AC9nwrLmRhNECzn2EGVklmX1sAUG878etSej7Dvw5IQsa8rz9Nn4Jh3jqvNQ665SL4NnrS27JMEEUjJqlCOtXsH0EwiAAG4K28arLlG5gMv772Avmq-axsSM-xzCaWsGUH7f4KyiVVNIBohyNw6TJqBmmbKwobhDq12Z8_hI4eVOoxmNZvhoNmbgPkdLrU-Ym1coMRexVtrW9TqN2hoEfS1PZjQo5LOcF8VWPtkaFD4jeWUPmAn81sgYX49N4GJ5vdaqCCGfkZdRyiQv2RmozFKF1TPDK-XO5OYkjvXc6mAwf5iDGzsBguiOmlidsnPbIjFoWHo_e7CCGMtJBiG2Tfiudy6FacuhbYSDNEmziiLXWUgWo_3flsBaES-9m50/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:24.370694+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

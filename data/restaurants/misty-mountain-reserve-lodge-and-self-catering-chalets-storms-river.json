@@ -1,0 +1,76 @@
+{
+  "id": "misty-mountain-reserve-lodge-and-self-catering-chalets-storms-river",
+  "name": "Misty Mountain Reserve Lodge and Self Catering Chalets",
+  "slug": "misty-mountain-reserve-lodge-and-self-catering-chalets-storms-river",
+  "town": "Storms River",
+  "region": "Garden Route",
+  "address": "Farm 438, Garden Route, Tsitsikamma, Stormsrivier, 6308, South Africa",
+  "coordinates": {
+    "lat": -34.024363799999996,
+    "lng": 23.9478042
+  },
+  "phone": "+27 79 715 4621",
+  "email": "",
+  "website": "http://www.mistymountainreserve.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJ9V63NNFxeR4Rn2iMUHYdNGk",
+  "google_rating": 4.5,
+  "google_review_count": 432,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Farm-to-table"
+  ],
+  "tags": [
+    "Mountain views",
+    "Garden setting",
+    "Family friendly",
+    "Casual",
+    "Local produce",
+    "Good for groups",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 10:30 PM",
+    "tuesday": "8:00 AM – 10:30 PM",
+    "wednesday": "8:00 AM – 10:30 PM",
+    "thursday": "8:00 AM – 10:30 PM",
+    "friday": "8:00 AM – 10:30 PM",
+    "saturday": "8:00 AM – 10:30 PM",
+    "sunday": "8:00 AM – 10:30 PM"
+  },
+  "description_short": "Mountain lodge restaurant in Tsitsikamma forest with hearty meals for hikers and nature lovers.",
+  "description_long": "Nestled in the ancient Tsitsikamma forest, Misty Mountain Reserve's restaurant serves as a welcome refuge for hikers and guests exploring the surrounding nature trails. The dining area overlooks the verdant mountain reserve, offering a peaceful setting to refuel after a day of adventure.\n\nThe menu focuses on generous, comforting meals designed to satisfy hungry outdoor enthusiasts. Expect wholesome South African fare and substantial breakfast spreads that set you up for forest hikes and canopy tours. The lodge atmosphere is relaxed and unpretentious, with genuine hospitality from staff who know the trails and can point you toward the best viewpoints.\n\nLocated on a working farm in the Garden Route, this is mountain dining at its most authentic. The combination of forest air, bird calls, and honest home-style cooking makes it a fitting stop whether you're staying in the chalets or just passing through Storms River. Best visited after working up an appetite on the reserve's hiking trails.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9V63NNFxeR4Rn2iMUHYdNGk/photos/Ab43m-v4gLQHvSq_1jAY5fWqS5Ej-O134sadkZuSzdnC3no8CN-YKxBcTLTydpPFKxiiyL8LXAKPxjoUdogGGmmW8PdZv4qOvsVddYIz8GAJtUSK4f6qZ2XtG0Oqct0_vbb4mIdjMS8xwjwxwJHMd7Z6gunS5EoLEWQQ6wks99zAANnotCjA84qVNme6ahiQGxkq8-xhKkDe0h2pVnH7Md2ETeB2jRz7Ziy4iimtk4QcwNRwnWlaNMJ62tt5q1iASPIXqezh-7UrmiPPJkFl7gzlyYchzcYclO_eu3D5-pJbDunLeg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9V63NNFxeR4Rn2iMUHYdNGk/photos/Ab43m-uEzyMAD5LQkLdK0eAtpDIwBqf6ok93_P-x65us4SRIGvAK8GorCUg-eIv8UrvSkFG2N7-LUwLEChtGyD7gsNNOEyZEwDQyocMeGhqvWqvVC1hzhIyF6YgMAXRljRrIjoL856SxElr-kKuyWmAu6dLDx0tATadYNiu6HKgOHdRZ5FiziPiDpofjdHhQzaTYpKJAzfZeBKnqCji0pSwofNxDCrHXcS-WjzwOHE10BB6a8B1dbHU2JsWoybKftRUQ3Lu8j-sXnLjlJkCTdjA-cmyQdHLnqGfOBiQh9vI7rZb__oMEDfByo7V6kyxFOiu8dt5orEqqpWZSDTIrNeGorScRNGKT8nhQxOoqW3TEiTbz8MuYZhyZF-NxIOKsyjdSmh2v62IYr6p6A3nMWddsz1ERpWmB8w-FZf0RdZG-Iq1T_A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9V63NNFxeR4Rn2iMUHYdNGk/photos/Ab43m-vriE8yE-qrrBRUM5UZoXXE8UgB6hATatB2k1m3kWUKatPLKD9s_wu2_LQgAKW6j9Sk8KM5ciqcGvHLqqBGx381EXrbwCGBZ2TIf-GC8J4Iofhr6h2AVIhiQ-rjp8MBEl3jYf4nBOH-St6Gc0vOQnLN4cAL_2WlbW-WCQKTFBfLy_lIefKrVSQI2CJqg2CszmwQMQu8ZryBMAnnMjh9MB_nyNHs19TqKohB3H_t04ehv9n4P5kA_BDBJIRVUYd6f-gN3EleObtU1BBXfqAdVa4MmVrGHQ1TPza5uueGeZElDlQFAMbp1mwmjAowKOpfa-fsjCyeVHM4yczZnYeewt_2s00MqafRGwUNrnSb93F__SVos-F2yNtszwuG4q6lM85W7-7iSba8iLH3xapf7PAIg8VbU8xiFuqPPXfJXiIYTRyn/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9V63NNFxeR4Rn2iMUHYdNGk/photos/Ab43m-tCmLjlxO6YjdqaakgwAczdpoFYV6x4CMJC0CYVclYTGOKx47XkPgKcyrIZjfPns7UGWL3Hu1G-4vluq9BrqVaVnyFus-523ADBlX7-mM3ypaAXxSQ56BOAHH3hP9MrKuXhMeXcuSZWXCI7rhyg4KWKhqSNQnj3JXAgVCU-19r5NlqUqCn7Y1f_XhLHfIeBM8KPNHFR6b9Yx2FJeNRizO6xmaPseWP_eOY4NQ6IVaB5IS4p6I41-YO3ur4gtWnMZ5ceVmFdS-Blzt4AU6WkzcdTA3GGlhh98lmTghVYEkBibNqdsHCf9-2mfZ9skOif_vlsIqJk_BFfDuA1CXfCxe0TaDYPWGXSAIlWXdK-MFQPlOT6gY9kXZlAPnSEp2MhNNLOdUfZu5GRDukJUmzoUXvybwvG1OWHT6HfhHeZIjYGmA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9V63NNFxeR4Rn2iMUHYdNGk/photos/Ab43m-s-tre2vqzyeVU5q8dk2J4nbRnoebAZwZiKfywgYSkxae_W05LtTY1I6KJPWgHlU3j41yCaodKUKIvh8geiuQRCu4k4b-7tw_UFkPks1P2J9rw_TAwKh3kFJcg7-zCP-tFN1Ooe_GH1rkErJ1EPMmUR--EePH4BuF6F6x9Rr2JlYCxFu3DD3PHNyEQ160-J9thIOkv7VIwOwpZD1W6hHuPF1W5IO47rExlGhytrYd3PlDJ17zrhmwMjdL8_RswwOqxoqK3ldCBHKWmnEL6y2ZKBDylveUrpgDidy8lx5JzH4Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:28.339096+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

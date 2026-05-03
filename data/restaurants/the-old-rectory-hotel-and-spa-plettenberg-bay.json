@@ -1,0 +1,78 @@
+{
+  "id": "the-old-rectory-hotel-and-spa-plettenberg-bay",
+  "name": "The Old Rectory Hotel and Spa",
+  "slug": "the-old-rectory-hotel-and-spa-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "2 Bull St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.056075199999995,
+    "lng": 23.3774956
+  },
+  "phone": "+27 44 533 1201",
+  "email": "",
+  "website": "https://www.rareearth.co.za/the-old-rectory-index",
+  "menu_url": "",
+  "google_place_id": "ChIJcZVd7AvieB4R-ka7vUHtJ5s",
+  "google_rating": 4.7,
+  "google_review_count": 231,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Fine Dining",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Garden setting",
+    "Upmarket",
+    "Romantic",
+    "Date night",
+    "Good for groups",
+    "Reservation recommended",
+    "Local produce",
+    "Full bar"
+  ],
+  "opening_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+  },
+  "description_short": "Historic hotel restaurant serving elegant meals in a tranquil garden setting with attentive service.",
+  "description_long": "Set within a gracious Victorian-era building in the heart of Plettenberg Bay, The Old Rectory Hotel and Spa offers refined dining in an atmosphere that balances historic charm with modern comfort. The restaurant welcomes both hotel guests and local diners to enjoy thoughtfully prepared meals in elegant indoor spaces or on the peaceful garden terrace.\n\nThe menu showcases quality ingredients with a focus on classic preparation and generous portions. Breakfast is a particular highlight, with everything from full English spreads to lighter continental options served in the sunny dining room. Dinner service maintains the same attention to detail, with seasonal dishes that lean towards modern South African and international flavours.\n\nLocated just off the main road on Bull Street, the property offers a welcome retreat from the bustle of Plett's beachfront. The combination of attentive service, beautiful grounds, and consistently good food makes it a reliable choice whether you're staying over or simply looking for a relaxed meal in town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZVd7AvieB4R-ka7vUHtJ5s/photos/Ab43m-slBr2OMEUUIEerXXFIkiSzT3warOjkaGp7am_0TIphk2kQ00-sn60iJvPiq4V638d6e9JyVssQG7P9imPYb7UDbMIuq7TFZNogKDokLigJFfNpO6luqF_YteUsIX1SOgv-H0-wiouM0B4upblHR19mdxxi_pWU2wFutowKwY3FklrEVdNLhC3BE-CKZVRd7fXMJZsqntuI2MZpdtQDK1cIJXefWKrcqqlGng_m6kUk0SC1SH600oc64Ie4X7SiQuVT_Y7bOpZASB3YAyUAQ_zrKeS-kgL5xjWxmt3_-4S0Lw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZVd7AvieB4R-ka7vUHtJ5s/photos/Ab43m-sQxJ29V_4pDUDeHK6kZAEXFWvG8h5EB_pTh2yDt7koxvjJ29RSyXyMgfXlmYGXBCEBDAf7mYe0aoUVUpHa4rIFnjo92_7oqslnzw9wKK4BGEZlmuOmpc-I6UGv3HnTJBN-deZjrepCv07J2UH5AZQC7c0AvmCLTw2mIPt2_1ASG-cyi6xF5P7xI5giMFl46n8USuqsSIl6W89IzIppMKxhpNIfXTfPKbPu6PfrLueBdEJtvqvTbNA8RNP13TxdvsbzTdQNjoLsAXS27-Da6-x5J7VNc4uaogwvLAwoJtfUzA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZVd7AvieB4R-ka7vUHtJ5s/photos/Ab43m-uWKrggsxCZzgMm3GE9QzMtyzqRFUCa5wN2U758M24JtCF00ZtbNVosAgv14Z5kQ6-ls5-8Lu4FUzTJJ9huQZ3xaQostepNLUYnl1JlnlKHji0FLm54RvL3mZugKEuyEtBn3Y_CYi-l521xIYb-TbMTU1iA3d3kcR5a8EGz612tbAeT99U3vgCw7y3hEd47ml9Wg74cGq_O_kke68zDm0qo6iUFAdGxtNShh1tgFkN2SJWpQwRZGG8UQaEHsgFcLoyCSUYMYkI8O2DLibQBmi6DEAveuumyCqsbLcDOhj7PIUYfvybLRTTzdMdHaHbdoSGTzCbQeTHnHbN2WPw2HkI14fkW22Q-tU3b4hbd_Jke7bH68GHZgghp5NJpBKfNhW9CoOF6sNVjH7vnhmyPpxeEDHBfiFtSXEU-hACO6fhoXygQpesOtVoDrDLm8iJq/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZVd7AvieB4R-ka7vUHtJ5s/photos/Ab43m-vYxE_tWxp8VB0Z21I-OttcLB9RyolJYBJM5WLk3IWy3j3mQCPH7qDDOBM2exC-OoOzc048I6EiJ8LQcSOwu175jFJsQCebPx8e2fo15XZcjMfK5XdTk-vdPnSIUjs2DzLXrheD0hvfEYj5cJF1oiNf9BcWjLnI5j7MSE8xA2zlAGK9rWtCCHKoD_VscvlxmQ0G7AMdmwOMsAoFusw1ckQRKWFE6hlFwYZ1rnL0_SVn4zPnpRObDDs1ohavqqOCMkgUnj1-Qz97hEuF_XnRs2wmQ9q08FshzgLvLQErjwvxPA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJcZVd7AvieB4R-ka7vUHtJ5s/photos/Ab43m-uapRwVDkskE3ckiXbyp-2DL0inOOC2_8KQMWg1lylE_vut5LIvoH0ZuDt9jnpW0dz5nx3zbj1VrgFtyuKu1TMCeKcruDcSgxQmuq9uaoqhe1cdfDJ-Xdm-MMsAa5HSMunZOOotTh2puVBqJiUZxMj0hTEF6LjCXsvMqMbhS8hNjijy-C-zhvq2iq4I_nv5IBV9Rq1Sm6UWRLop9H3Qm6sSNMQSPiPuqxGK0RlyISIzC2ZB_ieNTFI6vlYhG2ltsbKNCVuKARDQG97mV1wRhuyDluScRpJYMgvTDmAqyO5gBA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:31:38.586495+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

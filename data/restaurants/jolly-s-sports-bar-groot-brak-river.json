@@ -1,0 +1,77 @@
+{
+  "id": "jolly-s-sports-bar-groot-brak-river",
+  "name": "Jolly's Sports Bar",
+  "slug": "jolly-s-sports-bar-groot-brak-river",
+  "town": "Groot Brak River",
+  "region": "Garden Route",
+  "address": "41 Lang St, Bergsig, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0472186,
+    "lng": 22.2151213
+  },
+  "phone": "+27 44 620 2215",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ58KnYCJt1h0RG_lUm9XT0Wc",
+  "google_rating": 4.3,
+  "google_review_count": 170,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Pizza"
+  ],
+  "tags": [
+    "Sports bar",
+    "Casual",
+    "Good for groups",
+    "Family friendly",
+    "Full bar",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 12:00 AM",
+    "tuesday": "10:00 AM – 12:00 AM",
+    "wednesday": "10:00 AM – 12:00 AM",
+    "thursday": "10:00 AM – 12:00 AM",
+    "friday": "10:00 AM – 12:00 AM",
+    "saturday": "10:00 AM – 12:00 AM",
+    "sunday": "10:00 AM – 12:00 AM"
+  },
+  "description_short": "Laid-back sports bar in Groot Brak River with hearty pub grub and plenty of screens for game day.",
+  "description_long": "Jolly's Sports Bar is a proper local spot in Groot Brak River where you can catch the game with mates over a cold beer and solid pub food. Multiple screens ensure you won't miss a moment of the action, whether it's rugby, cricket, or football. The atmosphere is relaxed and welcoming, with a crowd that's equal parts locals and visitors passing through.\n\nThe menu covers all the sports bar essentials – burgers, steaks, pizzas, and platters designed for sharing. Portions are generous and prices won't break the bank, making it a good option for families or groups looking for a casual meal. Located on Lang Street in Bergsig, it's the kind of place where you can settle in for the afternoon or pop in for a quick bite before heading back to the beach.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58KnYCJt1h0RG_lUm9XT0Wc/photos/Ab43m-vdaUXjAZ0iNMso2glnHVX1gINdSUmWDWfNKiNxhbEZCJWS0FUcpR7Ns2c3zQAQxJa5JdRtNI8aWPQKhFfiuMJ2JaNrheoG2fPEv-hgrsO7cxWWhsfnXumln5kEnAgnFoYf3RXtGuZc1k630CTTk4FaAmWFbtO4ITEQctji0130CnkiPjsymI3mzYQ0dP_5saCHqoCyjvI7bqOf-3RpCROc8CE0mbA0X_5gW2Oie7jh-0NPkxV6hCmGBOaV5ZAPQVuC9Q0D3HwdauV9xQFR7NWjSU303fW-uFZqhkItvOpgc4teXNJV7d7o7l96UnvACoYuR1haJIV0oGzoB0FzhEdWzPOuEgFjnJgc8hh9ZIPENdGh2Ivm0JHIX6abWPDeY819xFw3bgJt_lZ4EWduwm2wzAVPzV-Gh5cviiWv0liEGEU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58KnYCJt1h0RG_lUm9XT0Wc/photos/Ab43m-t-LnIeoo90dfBoH3dcTtZdfQuosuJJ8jZi8EdmK42CKP9UNwgxUmiDZ9Z8xmpruQqvg9Faam29DeD8aGUbTlRhwOWmhpUb2A41LcBoPsuPtghqDkzamSxuw_fkznuo49KhG17AQm4WP7CgqAHSI0BB6U5x2YM3TF_ASax6shq5N_h1Jc7uYhu4AAEmNjadb83-yrpqWIV-nqoyrxolZ6-24kgKG2XTymKJF085keo74swpZrgl9HV3t4o1AB6xsFJ5bcCjAAHGi6nQ6F6dcwQcrfpe5H4F0jx4BRaxhw-OJQ48gQ3x6DP3e2mRyt4OSdRo2yMHqMGaEjGmfK1BJvBqi-U96fgBVLkPz4dE5P0nGdNWNaxQpenNslpu8iDb4SJJY0XI10veYeUXWq3O_edM0hg8sfzfG8mIUNG6P_ms_0YI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58KnYCJt1h0RG_lUm9XT0Wc/photos/Ab43m-sNV_lu5Hejt80A3JPGlrcGnIDe9LDnHK33AUKyPVY1K140UZNd95DvFKXoHvs06VQO5waG2exczJoxigCkuv284HumGTNQdCQk2H--v1DpJJCoYf0nRzTnajFLCrVMJ5mPPTyjrWTHYNi1u-K82blbTwIyH1LHwrKyoqzNOlPgXPZC4YLzeLDVmf-DJRm8pIfzOPyitplFy9kC7FPc-Q1PlpitAsnc3uCuqxuvp0liJFlius4YgPGjd83xlB92BIC2ijXAsoqg22xOV2NV6L_RSxwII_0pD6Z8lUR6V-TcmHW50wkJiSjQ1cMFU6wRBF6mJkoe1oBjaZJzuNHylsI5Zy6oUgd9RCEksoHSmVVq8Cyd4alSulK_NjeD5dOVQ6cM7gweKJR25Hqxuexke4v2SEwL8JKolNi_6qtJD0SgnCeW/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58KnYCJt1h0RG_lUm9XT0Wc/photos/Ab43m-tZ37XwbA9deS-rt_mM6cC9GaoXAN9oA767qsi3tUfmzb77wM6ubSH6VV3CgYvvTUeIfKzDIGAOtxigalZZXYHzNQNecRX51ObpydSYnIklaH4vZEdGhQkNZ3fKr91JBwgVUIH9deTMIxa3bdwpws2JUJU7d8uBpbhZOQGFx-pEoIKeOucZu9qXmwAKDSZHhmCePvaQf-IJWjyo_aatIErt7c0JKC3IRsgcptRo4b7BUvNwKT2E7EKkE7SH-FOBwB5y1m-G49bWMrjU6E5VdTqbDX5LV9gXyZu9JmamPQ0Wpl0O03_NbrifhurizT7EA9xVipmK5M_Qhad8Czi7BVOjOO7yJzAnXIzhFvOrI8UTTQRaIKk0NizW59husMvH1mSpefqyBCsKYCikNBorRzb3vUhVUTCR_URBs1OIuwUel3Y/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ58KnYCJt1h0RG_lUm9XT0Wc/photos/Ab43m-tcj5EC3rnIXFhfavj14JjkfA8cDIWtVrggEQ06BlbkM-3eNFwSQHykVlqbMXlKVa-s43MgcbA5U1ArR8vScPY-3L9fKCEc63bDj5I1cg6mg9966JWyq7ci5SqC9XPnpFJcLn6PUaRG8tgZSXV2-UcyfqxDtlT5Kaq2qe5BaIVdkTX4XYJ0ibALvY8QzTkgN-Y_wjnNg56dKzNeNwuULSJLgwdctmQSloIp87KH-6eq9eEOL0J4DZrcMDFtabKO3MhYzCxccZfavHV-jVN5OD_xqGG7ZAWjBvjPOdEHKw9LKk4s2d6IBtbR_oQywNlJFstaPY693_twOE3on7fMPfwQqBTzQC9HOr1M38znc7wKpcoajSIxCwQtR1Pe7QcQGvYDDwg409p8GAd71GmOmG7nHCB_hVGciRHx_-Ay0YU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:57.969553+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

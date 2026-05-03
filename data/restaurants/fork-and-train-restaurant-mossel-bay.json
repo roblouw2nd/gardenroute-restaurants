@@ -1,0 +1,78 @@
+{
+  "id": "fork-and-train-restaurant-mossel-bay",
+  "name": "Fork and Train Restaurant",
+  "slug": "fork-and-train-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Munro Rd, Santos Beach, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1782069,
+    "lng": 22.137004899999997
+  },
+  "phone": "+27 44 691 1995",
+  "email": "",
+  "website": "http://www.forkandtrain.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo",
+  "google_rating": 3.8,
+  "google_review_count": 535,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Seafood",
+    "Pub & Grill",
+    "Pizza"
+  ],
+  "tags": [
+    "Ocean views",
+    "Beachfront",
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Outdoor seating",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "7:30 AM – 10:00 PM",
+    "tuesday": "7:30 AM – 10:00 PM",
+    "wednesday": "7:30 AM – 10:00 PM",
+    "thursday": "7:30 AM – 10:00 PM",
+    "friday": "7:30 AM – 10:00 PM",
+    "saturday": "7:30 AM – 10:00 PM",
+    "sunday": "7:30 AM – 10:00 PM"
+  },
+  "description_short": "Family-friendly railway-themed restaurant at Santos Beach serving burgers, seafood, and pub classics with sea views.",
+  "description_long": "Fork and Train brings a unique railway theme to Santos Beach in Mossel Bay, making it a hit with families and train enthusiasts alike. The quirky decor and relaxed atmosphere create a casual dining experience that's particularly popular with visitors exploring the Garden Route coast.\n\nThe menu covers all the bases with hearty burgers, fresh seafood, steaks, and classic pub fare. It's the kind of place where everyone in the group will find something they enjoy, from fish and chips to pizzas. The beachfront location means you're just steps from the sand, making it convenient for a meal after a day at Santos Beach.\n\nWhile service can be hit-and-miss during busy periods, the combination of ocean views, family-friendly vibe, and accessible pricing keeps locals and tourists coming back. Best for casual lunches or early dinners when you want good value without too much fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo/photos/Ab43m-vqZ4H-340cRm71UqAk9BNMOBdKpDxl7boBgJgRACAa0Bn0PLHZDmXis0qVpnKa3WBl_m8UmHaOs4fHnsZVwODSsvOYFEnA-xaxAKUHx57dDhuRM0pGjRrav1zPgqWEf1Pa9G8AoHNB5RQhx5rOgiUe4m7nLc-DsGn_6Ks5FDpjjpwOhFCJyhmiuYCulhWr3ippYuPl36mjsE7WD5P__JXRn2zPtx4EKv9qTtBMx-lO0hqZ5a796JfVftOl-8-ZoWdIJLbj-h1NZZXmSWadRAyD7itM0Gpe_lIGjQSKkj_5GA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo/photos/Ab43m-uzw_zYHEkJIy5K5AWMeRag8dHjAzZ1APw1oD_dA-TTHmd5dI7TXCz0MTJYpm6p3-LzdHWzlsoXNeWkVPK7YbUOXQpTNAfwSw9339hUnv0nJ1tQ31S2j_5-3PT67qiXSD5IuAUehX14sC6BKaozMxNq6nPO26Cplny98z_qzoQfEbqUwUzNNdc8E0Z4NcUG6Y_AXURty2kOa_h2j_sK5sSeZ5ImhligLjMHtO3zcx186M9w70f18zfqfr0tu9mfSeTC9JQsgDHoAwkJT6QFKVIRZiqtcAnVZWvIdoRYWmjYyw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo/photos/Ab43m-uBgBA1HIJ7yeibOoXpq7paJmu7z7rap0xiHt2YhgsmzzlRd8sDbLuz7RrZmTaAWcokOsY5vvDkpP51-2nENi66LOZcYhzIr-CKSVS2keyzEXwqv6-5p-b1ze_vW-3dSgzdweeRBmRZHfBu-Rd7xPqczyLfJJK7aHmCAn6UaIfntJkeyLOKpT1ehD8qIFBf5y9o21t095PKO_Jf-emeJpW_jZmY2f2p2tNjgfre6CAbAiAUpD_93lASWWNLl5r4KYXpN0i7pYrpvpLYcQgMacQDZBkX5zR8SpOimhJPc29VVA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo/photos/Ab43m-tA8Tif4gK1i1q59N9fUdoxvQyq4mTrtd51dIohiKnoZzYTormb-a9qlKoG6CPKnjE1zaRLZzPwO4Jlag7nnvCu5IPgdvTgdmTMq07oBajMAgUj39X4wYqXFeImzLR0NQBcweSp3QOePUoJMHJEaaiA6PmGCccBTFj_B2hUhfzve-Hw3Ai67k6oSnG-3lkFmhjZ1e_TwNP7dp9xAXQkMTBmkdcnCd0H5cJlAfsdtqvQCvhlibPHBO82lLS5VddLLe2R_fy_nuoUl0GFN98XLLTDPaOD2XBPKR6uxUUXaSTjOA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo/photos/Ab43m-va7cCte_sgxoXAV2YXH8GalsUwdO0BoVPBokeeKLog7LTqXjeCjkaiAXDkE83KERbNXqCfOSjWOCozrHyuVJNRnQNmm8qkYzi7yYRQbKsCi00v_2dgmVOZGDuXTlmbGza1rri4i9-ZNIBKTV92JO_aEXUAORs-mqg21FD-lQ-S2_Sr2mPeMeCA-zVfdi6aEsUBHLCCbu7jpJIhJwfauOs3q_Zpkd8xKJcnvfbejdO7j2OjieKl5FJsEGBmegHQSVs_blturxdY8Q7OJoMzGSOUQiJohyjlHWb_KekZyouIAw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:41:01.949461+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

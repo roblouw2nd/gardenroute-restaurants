@@ -1,0 +1,80 @@
+{
+  "id": "coastal-plants-nursery-coffee-shop-the-farm-shop-kitchen-mossel-bay",
+  "name": "Coastal Plants Nursery & Coffee Shop / The Farm Shop Kitchen",
+  "slug": "coastal-plants-nursery-coffee-shop-the-farm-shop-kitchen-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "7 Station St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.1802177,
+    "lng": 22.144556
+  },
+  "phone": "+27 44 690 3899",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJO3HqwR1q1h0R5xXhV1t7gmw",
+  "google_rating": 4.7,
+  "google_review_count": 149,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast & Brunch",
+    "Cafe",
+    "Coffee Shop",
+    "Farm-to-table"
+  ],
+  "tags": [
+    "Garden setting",
+    "Outdoor seating",
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Local produce",
+    "Farm stall",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 4:00 PM",
+    "tuesday": "8:30 AM – 4:00 PM",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "9:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Garden centre with farm-to-table coffee shop serving fresh breakfasts and lunches among the plants.",
+  "description_long": "Tucked along Station Street in Mossel Bay, this unique spot combines a thriving plant nursery with a charming farm-style coffee shop. Browse indigenous plants and garden supplies, then settle in at The Farm Shop Kitchen for breakfast or lunch surrounded by greenery and natural light.\n\nThe menu focuses on fresh, wholesome dishes made with local ingredients — think hearty farm breakfasts, homemade breads, seasonal salads, and proper coffee. It's the kind of place where you can grab a flat white while picking out succulents, or linger over a leisurely brunch before exploring Mossel Bay's beaches and attractions.\n\nWith its relaxed garden setting and genuine farm-to-table approach, this is a lovely stop for families, plant enthusiasts, and anyone looking for honest food in a peaceful environment. The combination of nursery shopping and quality cafe fare makes it a distinctly Garden Route experience.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO3HqwR1q1h0R5xXhV1t7gmw/photos/Ab43m-sEdnNBelUdahpR9ww_UC27zUC2lOHWB4OjSUl8cEyVuooZViYSlTtILIki7tj7gN56xQqE6cM6fzQhttyqejhEui7oLzsvMr4ynIuIC6dAjKdT4uZtw-ZwthCNA0P4k81w3oToRWifUX2Z8qENZoXPVb865b-aCpSGj2NHhpCR66RhEBpdmnZpUg17krJsmDLozP3MutQA_9F0RLIjgnchiDPPGwSMQwoT2OxCh8APHgVZ85iQhyHC4qjeQKU5avXwV3qM2SeueNdgPstiNhzjnVsaru6JVPWUr_DBXaQU6w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO3HqwR1q1h0R5xXhV1t7gmw/photos/Ab43m-ubbbxpYnAUGU99wDY6pWC2-p5-VwRHK2-s4nSWpgZg-aj1BIepeg8dTHV4zNJ-LGwhC7MOM5x1xDtxQUswyRyUmBS1wvRSRioSfQlmVdVvFP0YegCwRnjIFVLR-bjk1LSFbcdJzOnwbAB-boKKh0GujYhN1Fwz-p8rlV2xa_c8iGAHAJV8Rz8Sw2IWri-SM8lU0emPLTX9cho6Wo6YiGESxasxcHE7wTMGP6mspGiUGaqH-qALyh6Z0QPrFWvMQcJq2UaUe56DsKZQJBCeUld1uUG56atcxFL5ohhPmBdkcQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO3HqwR1q1h0R5xXhV1t7gmw/photos/Ab43m-tnmecwRq9iWGdyB8udF_-5BtaM79FHjdc85V7pHnI7vKWTYkfB0gr84InyAouncCWKiyZsmEGp3fHszBlsJsLxraF2PEYMouqqUDBcqPLqvlusvHDn-0AMqmVy2SqAUBOy9otMd24PP-Y08ZQ7zrygVGThDP_RixH-8iX0zHv2w6EEq1Ujfj-rQvccbNEqjhrJ8slREoh689Sj-g4esmf_eK8n1rfMu1TW3mSuVHue3Utu9bVpjhEj9lTGqucU67PylnDcth11I9u7cSsgxBygnouRnlXomW9iX2SwznpDdw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO3HqwR1q1h0R5xXhV1t7gmw/photos/Ab43m-sRc6Lf2LaMh9YO0J5drhiy-4rOSfCFkLxKOhBKdu988mqjH9_oeaOHLY8j3cehwIMavh-9teTL8djY_t46YButslvmxJpVBMy4neC-T3RPvSQUwBp3x5R4uivyITD_rZMpzxXzYHc7WOlyxEieF3LywMCTOc2u-pDcVUCTYQn9OJcxgEvWaoPoPIrEdQlu0Ir84PjA2J56zfQSuC9KYipxIONKJOXlJdrmG5iUj5PqsAR06zT-aQcJbzL8ecP4JJpPkJImWq9mSAktM7z-WLQsWuHSq_0n5frL1n5dWsp7AEkROZw_7BiWtZfhvJ8PAptOZtev1CmbKjARwdqwHwShyFZi_gN0KUDlqNFwX-GJ9QgiXIM08BDsXPwgmaxlpMsAO2GaIeAXUoFdkubvcwBTZuacX-RxnfyGYLfWFazZ4e-lkIU-tBpnu2Pd-p4F/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO3HqwR1q1h0R5xXhV1t7gmw/photos/Ab43m-us3fvK6iKasYyrspgX2Q9wc7CnlnpqPn6jIECzH8cIOi3_hXPBSMOrgkRdfd_T6iNYhYcC_R056zy7At1uYWpLBgc_QLf5Lhz3HcpvqZHnFPXJ6VsQfwiEDWSZhmrOdGAp8uX_R7EeC1_OEK_Ge4J-Djim9zodOET36CtQ_arJiD_Qu7QquBcFK_ac2kFSelhdfOol_e1Ycn9_bSm_VFyV-nExrM1v9KKXwP78Df2kmkdav_EKM7GfxphAxwnijIYZXm-vh85P1uX9ueAtsfJTmAJlfKpmdlqVyZcePKio1w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:40:42.244347+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

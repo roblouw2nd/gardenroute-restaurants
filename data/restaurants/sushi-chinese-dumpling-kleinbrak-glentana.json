@@ -1,0 +1,73 @@
+{
+  "id": "sushi-chinese-dumpling-kleinbrak-glentana",
+  "name": "sushi & Chinese dumpling Kleinbrak",
+  "slug": "sushi-chinese-dumpling-kleinbrak-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "South Africa, FRAAIUITSIGZA KLEINBRAK FRAAIUITSIG邮政编码: 6503",
+  "coordinates": {
+    "lat": -34.080298,
+    "lng": 22.1483398
+  },
+  "phone": "+27 61 488 5118",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJdzirwvRt1h0RSj0YYYvKZu8",
+  "google_rating": 3.8,
+  "google_review_count": 60,
+  "price_level": 2,
+  "cuisine_types": [
+    "Sushi",
+    "Asian"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Family friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 9:00 PM",
+    "tuesday": "8:00 AM – 9:00 PM",
+    "wednesday": "8:00 AM – 9:00 PM",
+    "thursday": "8:00 AM – 9:00 PM",
+    "friday": "8:00 AM – 9:00 PM",
+    "saturday": "8:00 AM – 9:00 PM",
+    "sunday": "8:00 AM – 9:00 PM"
+  },
+  "description_short": "Authentic sushi and Chinese dumplings in Glentana, perfect for casual takeaway or a quick meal.",
+  "description_long": "This unassuming spot in Glentana brings together two Asian favourites under one roof. The menu focuses on fresh sushi rolls and handmade Chinese dumplings, offering a straightforward selection that appeals to both traditionalists and those seeking something different along the Garden Route.\n\nLocated in the Fraaiuitsig area near Kleinbrakrivier, it's a practical choice for locals and travellers looking for an alternative to the usual coastal fare. The casual setup suits takeaways and relaxed dining, with prices that won't stretch the budget. While the setting is simple, the focus remains on delivering decent Asian staples in an area where such options are limited.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdzirwvRt1h0RSj0YYYvKZu8/photos/Ab43m-vYL457mQlVblyCCWMfGLYhxxTJPTr6HAm_EusvdWO5cZmj_PFdiY1kU1Ne2evlRP5iauTR_uAeEpJ_qaxCZH2n76UY7WOKTOsZ9OrvxqpzyTgnqKSppypWQkIpsVfeBCvsCUdCU2jIqMEwLsDT1hU8QTBx_Ou0JJbe16leNwXtk-O1nahr0D-X2Tq8Z7BpeRkDBE4d4Jy9fMSwaUglYF4QlXGTGHUlQcwbp-2covaJ8UiWrjBqhMabUKnary2nqFlkoZW5FL8e4vKMysShxpxshl2YNfSJZnP-2oD12e664WchBCGpdUipgbrXU9kNsp6b3LMAjQ-nLPHXQl_MNKEzU-2cGCF60BRuzmJTkULL3HDTB2pikeULw6SJH8DcdTxNZtk-dSsC8RWQB88rZx4YLZZCdMBoJS-N8X8C6fWf6tIBirq8NV3yjQ4uwT4j/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdzirwvRt1h0RSj0YYYvKZu8/photos/Ab43m-txd7P9YKT2L4ndh8I3_Ohp7GAD8GwYTjeNF4AfMSjnZxxKeUKKkBfcYLziwur6i3Rs85iekY3NX4e4JUnF4b55wuKrSrSD27Zy4ffEbP2yonpjYLhGOJsHsYzfHfX3Sll0Yqxs-5N1cBcrT0Qpwk2u_c6T-BEiWKduObacsrVd3hyD7Cvg3rJLYWQQw__g1UP2bulknwIrJkI6t2YmUXbiESyFzW1TFRE7ogRkaBgPOcB5FaAcQKAjvMYWAygcwxoYzOVXlsQpW9kTQkhVW9JhgadIqQdN_IFL9DQWgE1PLQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdzirwvRt1h0RSj0YYYvKZu8/photos/Ab43m-u9RMLi91OtNPzoVcwNfJpXj-dOKtrHW9UtPzXWIQeBQLH7MdddRBzS_R3u_5Bc6sXT29UZhr8YilnW3MZEtCW2UivKpQ6sUmeEj75w59X7ZyAK_zoLYCn6SYAJh7zMpqCLyD6ytDCACNMt4EPWAofcXujSITYh0HO4cLe0ZVUY_V3oV26DMyFiGEIJ9aKQriT43HGwR1VCzMRrFJzKbupDfnGkASStt0oHmDG4LimUcze-YDdPiJz_wboIYbCgRfz1Vwjq0CeQB-KLzD8VVMCLIehyKwiAbJ9xsNO-hS52Yg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdzirwvRt1h0RSj0YYYvKZu8/photos/Ab43m-sImi1K1JEHUxvIL8cRV6h0YrGQm0STCgy1Zh1kTi7uC_uZQblyS8mVKTWvsFX7HKHjHKl9QKV6Wxg5tclMkd8wGThS9SP4-6-RccH5aa-LRpJ93iLaa-rZ3o47Ccs9Hf5TnjTaPVvElgDB2W2Gz1ZljCyF6tuGXRQ9651wIBWFX3q25R2xqfhjSnb0VXSVaKNaHWf7tqpwlp3yPCYTQ0E7b1TPzgMKdVCtK-0XiIojgpo7Vh4QLHCVyGTALkNccicJ3msm6m-u5zuqUW4aqST5JKOhpqscgfTNlf15c2hPiA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJdzirwvRt1h0RSj0YYYvKZu8/photos/Ab43m-vekTePaQ6mCZ-qlE9kA9mq1E99e9vhaNL7objITZYM5RFYpz5Xv6F9DyElixUL66IMorkzEVJWqKybsdd5Q1KcIzS80viEGrotlgnEwXdqeSLGe1PCWGXZN7y5_XTwsqAfPiaQH6WkSxKA2LKlgdj8KPnAGVecyb_HloAq37cIJRNWTeWGKLmCIVg_Q_pxC4LiqTL2wgu0NGSsJfmr47L9WR3TCN1Rm9q4wla1OEbRumdHeocqq1hM6kBop6ahs9T6IBy8LkBKZmQ6Gj67KCB_X8WErKWZTeshQ3VYZsxWDA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:32.026309+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

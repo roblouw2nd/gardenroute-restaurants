@@ -1,0 +1,74 @@
+{
+  "id": "my-beker-loop-oor-koffiewinkel-groot-brak-river",
+  "name": "My Beker Loop Oor Koffiewinkel",
+  "slug": "my-beker-loop-oor-koffiewinkel-groot-brak-river",
+  "town": "Groot Brak River",
+  "region": "Garden Route",
+  "address": "Ou Bakhuis Centre, 65 Lang St, Bergsig, Great Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.05044850000001,
+    "lng": 22.2137223
+  },
+  "phone": "+27 79 366 7861",
+  "email": "",
+  "website": "https://web.facebook.com/profile.php?id=100088260641102&_rdc=1&_rdr",
+  "menu_url": "",
+  "google_place_id": "ChIJ9yveTK4T1h0Rz1XOHeFKI3A",
+  "google_rating": 4.5,
+  "google_review_count": 138,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Bakery"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:00 AM – 2:00 PM",
+    "wednesday": "8:00 AM – 2:00 PM",
+    "thursday": "8:00 AM – 2:00 PM",
+    "friday": "8:00 AM – 2:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "10:00 AM – 2:00 PM"
+  },
+  "description_short": "Charming coffee shop in Groot Brak River serving excellent coffee, homemade treats, and light meals with local warmth.",
+  "description_long": "Tucked into the Ou Bakhuis Centre on Lang Street, My Beker Loop Oor Koffiewinkel is a welcoming coffee shop that's become a favourite among Groot Brak River locals and visitors alike. The name translates to 'My Cup Runneth Over,' and that sense of abundance shows in the generous portions and friendly service.\n\nThe menu features freshly brewed coffee, homemade baked goods, and light meals that hit the spot whether you're after breakfast or a midday break. The relaxed atmosphere makes it easy to settle in with a book or catch up with friends over a slice of something sweet. It's the kind of place where regulars are greeted by name and newcomers feel instantly at home.\n\nConveniently located in Bergsig, it's an ideal stop if you're exploring the Garden Route or simply looking for a proper cup of coffee and a chat in this quiet coastal town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9yveTK4T1h0Rz1XOHeFKI3A/photos/Ab43m-s_Dw0VL9fMx79Pp3W0dnFG_vAHkToRtJ8f5kyLJflO9N0PrMU-iTE1RmcQu9DBgywra2j9JEQwcu5gbkcHBSPNtc1M771ble6EuROrg0CV0HfxJZTEpwi4DqUS1TL3MvRHSOMgkPNmV4vGndErMK6m13VXWR2R6cZwFBXptfVacouLCD2lFPwLB-frcpwmxg3TOQ3PUjcktX4xek_EPGrIGiLe5rVJ3YTYss5CHEXBs4MV0gsGxCpN5FJwh3VNDeHbNk6_p0tEOcfkiolwtRmQvqjMmQ10K2YAClYPnbew2g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9yveTK4T1h0Rz1XOHeFKI3A/photos/Ab43m-u5ibgVJ5Ji8ZLDpGkC9FLd2_fBlj162dkyhFeYCgKhQba4a5jekhu-DrYli-6IrWr4dMFEizO2WU-zf9cRfF4XJl8hTzS_MLnjt1uwu6XDVLBewQ0Q29Z4Yji9oUU-Vwn2e6MOKvPGvdPqFZFbkXjKydLJiwTZ3o-aMVY6s3WqjVujEd5qlaEBW4enxpN3E9UrvBuqOEGTrCp2X9KEnTEbRKdC0kOGG57sJHrXZz8DeLJD1Do6J7rwmCjVzd-99NACX_YLtBPAl2VgTaLc_B25j9_s1a6C2xc03dX3yT_yAg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9yveTK4T1h0Rz1XOHeFKI3A/photos/Ab43m-tcTS1urtli3z-Di-jt8zeE8V4ILAL67xStrotkpulcbUPg3luUOVdeMcRRSVgJJ9ukywJCIDbeiTS47L2DowVAkqq6voYRi12yChG_JUnBMfQuy28IrNU_61LX039AXSs4B_2wastRokqrv9nuCT69mLos9jG60_Gqd_IwaHekYWHBsAPGfOPtQDlABKdIwUOS_ZukQTYp1qWo4boEB5h_8ocpz3GwkPEgon9JtMYDax4cWF3XI7LkUigRULkKrcqfX-BwQPpeBEYDLKOmmOp1in3hOv_bW0lgU-6VuKdib5YjvLR1czBnJpX_6J4H9A1IcDPkr8WMPZx5Adwy5xddfksGGDs3ct6LuCaDZmBqCNA-okIzHR02NB16Eh6P2aF4UFlcR-9oaGosc0zgVz7LD6L-4mUhOG3EEnQ2Bxc6iTD52hJM8WziVwymjA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9yveTK4T1h0Rz1XOHeFKI3A/photos/Ab43m-u3qupjc1KDZSLGHAuzJUrur38uc5LRkrLQPb4qURCNieACctS0cIPSuKYOOZy4m4GJ8T-MGvUqlSs3TckOKHx8VlYkymLFsIk6pzLDp_ODWWzhO466qXbV1Dlq8s-2EkL5ER8maTWgGgawCleoQLDgr80fMYR6L9WNN_njSo6T2I4KF9X4A1u2joZV7k6w_9fbuW8LXAHCu1COG2hL4PPZDQGg5gPBn8gaY61E6qMPq6g1MTfSXvO3tLcx0F3o_7DA-KzT-vy8kKGR26nT6J8_3jpfKW5qQ04fppDCx6jXhA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9yveTK4T1h0Rz1XOHeFKI3A/photos/Ab43m-ubcHsReco1fy6UovgBxfsXXA5iHVT1v294Pn1IlgvqBmZXL7TjwfFzJ8MyYnJUh7oC0HyYWk-9hHkBERF2ZjSQ5WjcbmHS_d1l_JZQFPdsNAJAlaptFFiB71x4ux3vH_7-tINlpxJbnnYSPIStphCHX5ArkeLZJnUnbU7g2R8pNzfV18BPgyMQDNWTYYRYexDTavWb7oC2Zvd2ns1goGbJjq5Uf3iL5uBEFMUP7aHB64n5yRoILaYjcXMpbp3_Wdib8s7L3qYd-hYC3l_OqEWSuYbuIMPKiBe853SBaBy1GdsF6ZSfdZDQRa6yb09pJdD1z_O2dJl6uVL25M8MGUz4T09K0cxAmuV08BIJ7f-fF72GwEbGajlrczH1KdYjyfIUF8YXzKr0p-uAdADhdc-XDXapDgmfgAoqcfmjt78YaYBO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:06.222109+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

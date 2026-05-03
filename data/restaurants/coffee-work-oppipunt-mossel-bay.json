@@ -1,0 +1,77 @@
+{
+  "id": "coffee-work-oppipunt-mossel-bay",
+  "name": "Coffee@Work - Oppipunt",
+  "slug": "coffee-work-oppipunt-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "6 Point Rd, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.185105799999995,
+    "lng": 22.1591256
+  },
+  "phone": "",
+  "email": "",
+  "website": "http://www.coffeeatwork.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJW16N7Q5q1h0RI5iveTDb81E",
+  "google_rating": 4.8,
+  "google_review_count": 98,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Breakfast & Brunch",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Ocean views",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Breakfast all day",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 4:00 PM",
+    "tuesday": "7:00 AM – 4:00 PM",
+    "wednesday": "7:00 AM – 4:00 PM",
+    "thursday": "7:00 AM – 4:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "7:00 AM – 4:00 PM",
+    "sunday": "7:00 AM – 4:00 PM"
+  },
+  "description_short": "Relaxed Point Road café serving excellent coffee, fresh breakfasts, and light meals with ocean breezes.",
+  "description_long": "Tucked along Point Road in Mossel Bay, Coffee@Work - Oppipunt offers a laid-back coastal café experience where locals and visitors gather for quality coffee and wholesome food. The menu focuses on breakfast favourites, fresh salads, sandwiches, and light lunches, all prepared with care and served in a friendly, unpretentious setting.\n\nThe location puts you within easy reach of the harbour and popular coastal walking routes, making it an ideal spot to refuel after exploring the Point or before heading down to the beach. Whether you're after a proper cappuccino, a filling breakfast, or a quick lunch, the relaxed vibe and consistent quality keep people coming back.\n\nWith its convenient position and welcoming atmosphere, this café has become a neighbourhood favourite for anyone looking for good coffee and simple, satisfying meals without the fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW16N7Q5q1h0RI5iveTDb81E/photos/Ab43m-vcPlIEyL05bXHXrX4UxUkt4yWESzOf0urpHxLaVFAoXelXpXNnJCYIYfQa1r4E8xG0U5HfXaSj5hsrexYz4KkLhnPfiVlWk0zShU03xl2duOGsrLl3m2ENrsmJ0I8kieq9oPVwa1zIpie2Qlfcf3h4ZeEDnc5ohT7_AjBAFkoeaMMJiYNhMk1MfG-RqAMX7ZTRZvO2V7wIGXPiCdEdR_F_Tk_mI5KyXmidj8HvemuYHUwqHC4plDgdslNsmUQBobcP1fHmWjZcYi4g1D-mnkxy-AOELb33vtgvT9YjJAU4snzJ9sIdmLYX_T6GKNeHgSl53Ai-ma2KHSf89UT_YtJ-s8UyzBVru45f-d2D_65yOPHqwWNrTVFw0f0exqHTg3TC7hs-thpnNsGNJCwBRXmWiFJun5XoLPujJD-HLmxP8bSc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW16N7Q5q1h0RI5iveTDb81E/photos/Ab43m-sHAU9v8do4ZmPc8cZC-Jq5HGNuTa-gTjwy39YoUR_NGfWcjvcgD_jmE_AX2AMt-7NYYmJE60z5ZiTXI87KxbY59euo4oEZt5y2Ne0zCTTugqgDCLXMlgr0PhgufC4BQtH7OgCscBE6eycFY1aEVLsdHY2OLrlFF8KJgrCpo_hdxyqgvp5EpOEtPXYTOnCWxLzvu09mxHBUS82aCAO_c957iTjxy546h0mCwao_Xfrz3OaFYLWnEYq1C71mX6YIk1J2TT8rq1UaggQ-Qk0xupEkLNaDkKKyatMnx4kdcB0BJqxkk6poFXRsuzHn_Boa4YK3MGrI8yHsPZXfRG41Q6Ew9dk-w_c_UyCu_Lei-fWjbT1L0m9aibIcPUIe5pjt_k-YdB1pbgNdXlb1Ez_Ud7D20H6DC1U8INWzPhFvxXD3hhuX/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW16N7Q5q1h0RI5iveTDb81E/photos/Ab43m-tSjlW0uw8Q-qGT1__2kO6b-qZjQQ3Vf3kx1zlueb2Sw3zym4_r8k5jXDrFUXhIbeuMc4h4Y8yPomTaKOJcjrIirqHB0-KzEILlP9Y34DX_SZYKNDBGz-_XBrWY4C8FCNPLK8fLLIRUSZf7g7nI0Hq7P1Gn56Kxzk3FiBN1iEQ7Lky8KhhNZIijsAaWczGbVqSqYcf_wMh9KkImB7WDgYbYi72mvup94i4BXJ7dGt3hoZfm9tvVnXvHzShhgVBCGThyM33JJ9fzcEcfTOS0BPMGfM-kf8q5RNecZtgIfuwuEw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW16N7Q5q1h0RI5iveTDb81E/photos/Ab43m-uQOUnEeVAyX7wjAvMdaeq6kacZHqUXoeLZGmJJoKfnLEUFuZ187uqYd09RFFNPAQyOV1ez_ez4ItyjL6xmXiLPBzndqCSF0edwDAbMWx0bwBtWMtuCqH7bIPmgLotClcvPP1if4zvjE-AhhOor-tvZb0pkfGU0LgDdNekd--sAmv1q_FGpN6YkEw2VObhaWZ4kZLPFv8K45fBFGuLPCkQMKxEXs89w0sBlZWwLdVlDmgaU5FCcL9W8YU5uvV9SxKy0185C6-r1qO-dvfigK1tNFHmNwBc6evWKJjDTPz750tma7m_wfirnpbveLWf4ASdc9BfL9W1zYU7d6-ECzYelat36k7e2ZSPO92JzU98_IkrvJ-ZTxIUWzXl1D8gEK1a7-VK9tWtDP--8zadOsRQto1oqtnp5mAeo2_5BcxwbjwtN/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW16N7Q5q1h0RI5iveTDb81E/photos/Ab43m-sSIa0tp7axQpwxRxaNWs65-xmYSeICP3dzztaLu0cW--L-H28DIntnqPHo1pGXeo0yih-yW9n-pDudeeV3_7jikpCUtLDTL-rbI9-FwXiph2vMwqo1XCTWfcQfZFKUkZ5itPnkgSb1xrnwWFI8-KJfVw1VQ2F_aKTrZQOl9C7UybEuXzaRccSx0yHqCkoIzTQF8O7yF95Bmcuw3_GesLmVmrOEW6HaZ0o1Uird5sdKIAYzSAxB-fySHm5jVlOD_Z1-TtlyS244xLU1Tv58dODI5MgNwi362dFeMHhjH6XDcg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:40:33.853757+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

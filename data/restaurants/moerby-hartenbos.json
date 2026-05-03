@@ -1,0 +1,76 @@
+{
+  "id": "moerby-hartenbos",
+  "name": "Moerby",
+  "slug": "moerby-hartenbos",
+  "town": "Hartenbos",
+  "region": "Garden Route",
+  "address": "Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1274085,
+    "lng": 22.1163697
+  },
+  "phone": "+27 83 564 6462",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ7WjPMzhp1h0RZRfMJ1cxOzM",
+  "google_rating": 4,
+  "google_review_count": 341,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Deli",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Family friendly",
+    "Deli counter",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 6:00 PM",
+    "tuesday": "7:00 AM – 6:00 PM",
+    "wednesday": "7:00 AM – 6:00 PM",
+    "thursday": "7:00 AM – 6:00 PM",
+    "friday": "7:00 AM – 6:00 PM",
+    "saturday": "7:00 AM – 6:00 PM",
+    "sunday": "8:00 AM – 3:00 PM"
+  },
+  "description_short": "Hartenbos coffee shop and deli serving fresh pastries, hearty breakfasts, and quality coffee in a relaxed setting.",
+  "description_long": "Moerby has become a local favourite in Hartenbos for its warm, laid-back vibe and consistently good coffee. The café serves up freshly baked pastries, generous breakfasts, and light meals that hit the spot whether you're starting your day or taking a break from the beach. Their deli counter stocks local produce and takeaway treats worth browsing.\n\nThe space is casual and welcoming, perfect for a quick coffee run or a leisurely meal with friends. Located in the heart of Hartenbos, it's an easy stop for holidaymakers and locals alike. The friendly service and honest, well-prepared food keep people coming back — no fuss, just quality.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ7WjPMzhp1h0RZRfMJ1cxOzM/photos/Ab43m-u9IkGAqWqLzWq9MKWqIX90eJw7nj9fFVhdxPRmEsnOrDyRrBUEAKw5DxmUPdzdh7MOT_jhvPZW5enIR71vscNxfOJu24E77qeg4z5ko9NjAGOa5hEXTj6_BYXMA2O0SUS0yHQzP_eyC-R2P5SJ2Z2w5g_JDBziKXpbCZPufaeFaJ5c2IJ6PX1gVTkfgUvsm1U_uVPluJQfHw9ThFy15sO926n0ZIPgy7qPo1rX42BmiJQ2Pl-iB1A3Rhnxo9O0i0p_0pl0XAXNeBAe76-fxhc6psQAXhlPhXajO7NQagMoTNquhOizcAZcs5Busck7KfDCJa4qHRDVOkYm42hGONveL3ixMRW_pPt99eOh33S2Wpuz86MpkCjE5Ecdw7wI88cIf8yFa8requkqt6eYX3K0Wsf2pB9Gq7UCPGnO6w6dt0ev/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ7WjPMzhp1h0RZRfMJ1cxOzM/photos/Ab43m-tsCB7-0Ektf7tBOdw7I6p6y3GkUGzywqFE5TGN2sIXxnP0IUKBGL79qDgnmVChJrws6bRmvKoqyxcpoYGOK-lmQfIOPMreCvHoLxo1bA2Lbl3slcKQIsec9gnhJaIdafBiqlezowF9omlTQvo-jSYkuzqG1g-bA1dNlZ_46FIbElM_ROHqoxTiRve9oVJXk0lRyxRtM2U9jv8ZeJE0pNjaxfCfnKYuL0zeZjx2jSP6RmpR0ivheqKOToqjN6dQ0InarDWM8x6zcdrgNe5yOiTSyQXx1r9O4HBmYyP4DtYAyG9g16z_QMoCfmtcUGkqdoqznzBTZkTbieUyI4IQBKMluompHc_sQyXXMZd3DUhLcRxcJnViel1GLpWmb8IwYaPSnBDwFDQPa1ZiCugGFVlDAwc7IR6b-UQZjbDuitBOYI6pcpAiv0CqbC9Ci5cd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ7WjPMzhp1h0RZRfMJ1cxOzM/photos/Ab43m-v4LDXp-M1YOc7UM9tnoacrb4jt5mG7rvVIdu3yC5ES69HtImYZhSTDc0u11aLFMMKhZCFkf_YWFn8E3xWST4eDgYDBXxgc5zPmVq0JOK6AprqiGOBs9Z4VYXKgHwda_i94JkKfGufuYqLCLtAaL_vTSTisG--s74rSixOfp2hJ_rIPsGrteb2-72lEZV-4n9jpl8rGLrscL7F9FpoW9kK-uRIXFStL_bp5qqvlxh5p-1dXleIww4OuvfKBDbWQ7M6pyhqBjtrlVx00tiWGFttywXnkpQurIE7uoSAC6kMe7XUHG9DbJMltPDAD0OBSWmWzHCFeXqFDhXSAoHp1f7PWFCiszX5LUBk6TqDwlx2-JwyMc5wLr4UUnCWtzgp_3xypaPDJxPfjsERnSPAbLGn9_BfW2V02hTQQ0EDYfKC-yg4/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ7WjPMzhp1h0RZRfMJ1cxOzM/photos/Ab43m-u0zfhp4PslvYRy8c4thAHbr27MsbC_q15STeJbBK6ZimnyqU3BOSZo5gr0jFjh0V85tVaxcDa2cbqovEdUsRMauZibgcn-McElvGr2Qh8bCafY5FjUy307zr6cbv0z9Qhj-kFaCS_zN0qXCrlObszR2oB0DEbuC5ibCVVS4Wjvym0cGLLDP_F5TxWy8W0u2EWU7V8vyn7dqduY9yCBcEIA6K0zSCuAun0bD4iG-D2UE_byK_rsi0-4wfublOGwoY8IjZVZsFaFfq36E53pb-G79Rdr3XWCzlT5y6mZnt1Fz-TsM4ihV-qUoQ3671ZzyQE3ugSveSzf4l90jMuxJDHLkDzIdAQ0Oofo_ByrYvJDwructx2gOTePV-r65BSTi7IOb6YJLDchsVxEhXa1ZS5Bf5TbvBg2tHF8nGpemM-w2PYFsaiTXUcWM88FPA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ7WjPMzhp1h0RZRfMJ1cxOzM/photos/Ab43m-sb66lh8umlbHXIwh9RDasWJS74FeQdeBeDVPbU9Eo0ouTaLz0UpXVjFpM55ipB6OcdWrxbK_9krWmaGfOVEmNy9Mx8U0ZMj2nHosYCXoNASpzjPi-_FAG_E5j4xTm3rJ8ddfUVyWKDHGnbP3c5WXVqhabPEiJFGVEzv04aohrEU586H2NvjMaHo0GmK2ntTBq14QnAmCmamu6BzDw_l_QjW9YttK2Hpi5OIvnFK30ZpGih16RhKmsGcQ_VvvIrepWgi7MItD-bW3285ihS0nnLwlK8T6PladxF2k4n038epYaRq-PYHhXFcNoURkCIr7Wk2eCaNG7Guqgw9G7PUwoPM-W8FzKsblzOWDzjaqQfsfoslUx2DIIMjFndkax-IqlNn6lJVcyRZG6zi8k0WSSMzf7DiHK2zGc5DjS26us6k5dwX1QCj2675dY7tyZr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:52:30.208923+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "bread-brew-plettenberg-bay",
+  "name": "Bread & Brew",
+  "slug": "bread-brew-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "N2 BP Atlantic Petrol Station The Crags, Plettenberg Bay, 6602, South Africa",
+  "coordinates": {
+    "lat": -33.955369399999995,
+    "lng": 23.474005899999998
+  },
+  "phone": "+27 44 020 0455",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ6buvZ0ofeR4RXfjUynio8tg",
+  "google_rating": 4.6,
+  "google_review_count": 223,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Bakery"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Family friendly",
+    "Local produce",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "8:30 AM – 4:00 PM",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "8:30 AM – 3:00 PM",
+    "sunday": "8:30 AM – 2:00 PM"
+  },
+  "description_short": "Farm-style café at The Crags serving hearty breakfasts, fresh breads, and proper coffee off the N2.",
+  "description_long": "Tucked into the BP Atlantic Petrol Station at The Crags, Bread & Brew offers a welcome pause for travellers along the N2. This farm-style café has built a loyal following for its freshly baked breads, generous breakfast plates, and reliably good coffee. The atmosphere is casual and unpretentious—think wooden tables, friendly service, and the comforting smell of baking.\n\nThe menu focuses on hearty, honest food that fuels your day. Their breakfast offerings are particularly popular, with everything from traditional full English plates to lighter options with fresh farm produce. The bakery counter tempts with daily breads, pastries, and homemade treats perfect for the road ahead. It's the kind of place where locals stop in for their morning coffee and travellers discover a proper meal between Knysna and Plett.\n\nWhether you're breaking up a long drive or seeking out decent food in The Crags area, Bread & Brew delivers straightforward quality without fuss. The convenient location makes it an easy stop, but the food and coffee are reason enough to seek it out.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6buvZ0ofeR4RXfjUynio8tg/photos/Ab43m-vBfTJRtXCXmNM-Z6GCbI5kSLvcq1ELHUtXoDFqWxd5FeaKiYhsc9B5SlM7vOyKpuRrwn-ppAx2MPucz7muiJCp8vhOQvRT1Hq_V-20r2gtuyNr03S9jy-N0WwcvJLJDpnhLZxB6b-s4sQDKiGTqMoQ9ptjmaDdPxM3mN_qnV2T0t5LXJ8TqlzQ1oeDhhKyYmer2qUf81PD2W4pOD5p965rwgQr_Iau_YtbiwShgjBnC9PoJjHH7y5wBsZy1NT1-y-xA_8tBan9mJX2qlEJnjDPzsGtDISgZ33btrG-BwxEhw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6buvZ0ofeR4RXfjUynio8tg/photos/Ab43m-tXRxVrzLVVA9EBlwf-BlWF7pVgb3Vfhjmma7HYJcJNTBeywU8ia5b3AL8RqXyW3MSxEfp_7_qA3XTZPcALMuVxWFbJ-S-Ara1vOOnkMokmnls04iO14hw_q_acBPgc8_Ja8cg_pGDeuGOS77lVMGLq31K-JMgjvdTWfClIdW36UJv0Pykqel146b67gGE90I9w0F2TZXunC3l2lfsPeVEUVdW1jBoXN66qBaFsfEYWtYihsgZYaaXq-IjNfQNLsuiviXKub440mOLH3EyEFwWN4bZZipznqh5QIwuV_zDQXg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6buvZ0ofeR4RXfjUynio8tg/photos/Ab43m-tAYe-H1XncShBotogYPmVLfxYhoiqchVz_bRuyRruisibkS0lfun7DErjr_Mr1S5NqgEdoF0HdZyz2lMgDwzOoWDjyPrS7EaLQeMB8u56olx_CQmiOKtjge8MdWnakqtr3vHvFODaW0O2yvY9QEt4ucOXhUrdq6f9FSiCjcVwOuUCoQHKviLmURyefzoz11yImTkM5jx2bKFqnJ7wWvl0sNoLOVai0cinwBQxrVbkoUJ1igG5gWlzSubovvOf0rHJXS7yHhPhb_UurMntbaV8UFvMEyw899SuT8_W9dmFLhw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6buvZ0ofeR4RXfjUynio8tg/photos/Ab43m-uTFjuu8uYUhwf6MhFMIwhsgriWEFoAJXdZRn_zf9OCj4PCNp30kRGDe7YTeR8Z0kQjabYUB0G9QLORoGpAGSfUV1_8uw6dDbbswtM9pdRswTt9xyqlIP3OLFC0RDFLhueKAyoF-A2uq2BtXM4-oa9i7Ra_GXV9zyAYivUu9nuXuxYmOMLJKzXA2tQkEBkRg-lagFbSUChMWj4oJMGHX7FdeRYJW0AWZ2ZhcpBY3OrxS5dInyAN9m9N_fObEp5d8eLWwhTMqPjwivXQGiuiOfCrY164qxNdCVTyWWcR27Geo8PG_KIkwm7xz3On-2LJ1H3oVsc7312iGJBWvY5xryN7uQ3P2YzQaH1YD1otk5S2h1hi5Ya36GtkX9-0thRs-UoPLdt2J9VOHwaXAK7aD6dXNxf7fDefX6q_AFnf0WJ2LT6H4ySZjFpNnsp1iQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6buvZ0ofeR4RXfjUynio8tg/photos/Ab43m-sidxRsHyeSYZyE9unT_xfyPH2JZzGxmj43jIfR7-Em7ayaLYZOdRxTFrivcvPFfq_5CPlTjTrUThaCcqIgrTE_c4s75rAXLjIlsj2r3UpbJnH-st_U-tzIYcB8iCEfgqzaKJnfkK52n0W0s6m_GU_WAzO5B-IE-QfzXN5Nzki_Tal_9Txg_6Ui2pgM-STG7av6xQ1h4NPE4oHfAVT7337efxQ7pE_vSdiXmZTFXSenVLFGuHwD_N5p4uT4O397dnhPsXY44o2NTgUmvUj2qevgvSWC99dn5z-TNyHiNW6bNdenUXqGOPjFGw6PtZ4tKPti2DrOSijGsm7_jBSzAk6B3-Fcth1I4NyIyc4jHSoOIet-WME8NOpP_zvWqAuAq05w7ngFXGMEqJzcm_BDSkNF4XgAKjXG5uJnDMsx70Y4I0cICtXALr5y1y4XOAIv/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:30:53.652583+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

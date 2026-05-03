@@ -1,0 +1,49 @@
+{
+  "id": "vgrill-george",
+  "name": "Vgrill",
+  "slug": "vgrill-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "1 York St, George South, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9773845,
+    "lng": 22.441018699999997
+  },
+  "phone": "",
+  "email": "",
+  "website": "https://www.tripadvisor.co.za/Restaurant_Review-g312662-d10832879-Reviews-Vgrill-George_Western_Cape.html",
+  "menu_url": "",
+  "google_place_id": "ChIJX8J0LLAa1h0R_pRzqkvbF9Y",
+  "google_rating": 0,
+  "google_review_count": 0,
+  "price_level": 2,
+  "cuisine_types": [
+    "Steakhouse",
+    "Burgers",
+    "Pub & Grill"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Full bar",
+    "Walk-ins welcome",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 8:00 PM",
+    "tuesday": "10:00 AM – 8:00 PM",
+    "wednesday": "10:00 AM – 8:00 PM",
+    "thursday": "10:00 AM – 8:00 PM",
+    "friday": "10:00 AM – 8:00 PM",
+    "saturday": "10:00 AM – 8:00 PM",
+    "sunday": "10:00 AM – 8:00 PM"
+  },
+  "description_short": "Contemporary grill house in George South serving quality steaks, burgers and bar favourites in a relaxed setting.",
+  "description_long": "Tucked away on York Street in George South, Vgrill offers a straightforward menu built around flame-grilled favourites. The focus is on well-prepared steaks, burgers and pub-style mains in a casual, contemporary space that works equally well for a quick lunch or evening meal with friends.\n\nThe grill selection covers the classics – sirloin, rump and ribeye cuts – alongside generous burgers and a selection of chicken and seafood options. It's the kind of place where you know what you're getting: honest portions, consistent quality, and a laid-back atmosphere. The bar adds to the appeal, making it a decent spot for a cold beer alongside your meal.\n\nLocated just off the main routes through George, it's accessible whether you're a local regular or passing through the Garden Route. The setting is unpretentious and welcoming, with enough parking nearby and a vibe that suits both family meals and casual get-togethers.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:38:07.226417+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

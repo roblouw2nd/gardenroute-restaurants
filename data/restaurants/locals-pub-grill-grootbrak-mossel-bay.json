@@ -1,0 +1,77 @@
+{
+  "id": "locals-pub-grill-grootbrak-mossel-bay",
+  "name": "Locals Pub & Grill Grootbrak",
+  "slug": "locals-pub-grill-grootbrak-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "End St, Bergsig, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0486556,
+    "lng": 22.2142582
+  },
+  "phone": "+27 82 678 8526",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ9ReWoRht1h0RfxtI4kcGjSA",
+  "google_rating": 4.1,
+  "google_review_count": 299,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Steakhouse"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Sports bar",
+    "Good for groups",
+    "Walk-ins welcome",
+    "Full bar",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 11:00 PM",
+    "tuesday": "10:00 AM – 11:00 PM",
+    "wednesday": "10:00 AM – 11:00 PM",
+    "thursday": "10:00 AM – 11:00 PM",
+    "friday": "10:00 AM – 11:00 PM",
+    "saturday": "10:00 AM – 11:00 PM",
+    "sunday": "10:00 AM – 11:00 PM"
+  },
+  "description_short": "Friendly neighbourhood pub and grill in Great Brak River serving hearty meals and cold drinks.",
+  "description_long": "Tucked away in the Bergsig area of Great Brak River, Locals Pub & Grill is exactly what its name promises – a welcoming local spot where regulars and visitors alike gather for good food and relaxed vibes. The menu focuses on pub classics done well, from juicy burgers and steaks to grilled chicken and proper pub-style chips, all served in generous portions.\n\nThe atmosphere is casual and unpretentious, with a sports bar feel that makes it ideal for catching the game with mates or settling in for a relaxed meal with the family. It's the kind of place where you'll find locals propping up the bar on a Friday afternoon and families enjoying Sunday lunch. The prices are fair, the staff are friendly, and the location makes it a convenient stop whether you're a Great Brak resident or passing through on the Garden Route.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9ReWoRht1h0RfxtI4kcGjSA/photos/Ab43m-uRLnv4U_PD_W2kWSzXdKcoCpKRl34XRP3LW0HOaPM--21CaF8DPmohw-PvFUdNAD-bG5HaLqB0A9b5dx9zoMVBYRVq2lTUsETyWbYVtcZaX3n6_K_pIUqIxU75WPr8sRfL4rxEwTud38y3fegiat0u0_9fkEPvPi-2n-yKuPAcDEV2-1uucvDpN-oVT6toG_ujvE0MB6IK6WBfThvs2ACQoRLGPUCK0zrdWVDEr_R68hiLzKcNnI8q8MNmFvakp5KCxn7tRGKFksDX1V2E7RHeRdpzigulCVYBANjsc400ANorYxHyt6qTedHWHft8LwTeZZG16oll5LYDorRNLvMzDm2bwAuQYEUAr-3ZNByBrnVSAhjgjd73gIBwVk_csStEo6ox4I2PC7j_3bi_4LPUiY8-mamJvh5MkfXGhys/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9ReWoRht1h0RfxtI4kcGjSA/photos/Ab43m-siF83XBv7JO25HTwfk2LGukDbFrCz9AQdOjw9lcauKdnxbhYQXYtJpv2cjovLApbh_kU30uYCMPaJMEFpbUVrll7a_zyxHb_FxHGGKZcXDMh2hxiwc6fSjk-mUTzB1N963IDQvwGkr_rBOLAHdJe2u5Dx_hxlcwFxBfoO-o1PBGqYti6f01b-qgFa2kr3X-Hy8oB3W12lQ05uyIx5qBZz0cqzxsQe2RBh5woV8dGrzVHKW9V3_q99fwAzRzTRsuDCgIsgfELgHQllY0qm8IZqG0fLxZqD-yrhjFBFS4l24pvEKvj8gJme1zkryQCEs7aBKpDclZwqEaVCH84qcE6z61N_g1BMKDflZ-HVePEr3M4WNuiPgTygDECDbwPjRDSF6nmyzxFhIyyRpfGjDI2zwkQiGUCZtRpJvGpBn_2FQKA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9ReWoRht1h0RfxtI4kcGjSA/photos/Ab43m-v5cXA36e3Q4AzTscrWY6SX2XfJVKSFSq-v5wH5uBQFk-_n5-FjlenImBnl8PSHjgkA8lIp3MlOIiRZeBjyP2H0uxhOW5Im5dFmB7k2PO2wG-epe7bWFDLwIY2_MgyNID8OcZ5WQ9sta1RYeKwmzVxj2yAQfWmsUPrBDmFuheiZX_28uZPoFT5Xi0a6TAQmAvhRXHr0V7BwExJzx1AEhSKLyczYSVw_1pd6oleo7VLBoCJyplpLjlnr4ZSLYB8yQ9WBzlm6TSiwNewHriisUhleB0JnqRhCsjqu1flrtwquUBqp9mT1AdVAP1_ddDPHceyxpeHHOjZZNSbQrAqPj2Zc_X7gPE2aOZVpqhJMTnAW28CNUeP5DqA7t6EWW5AzxAOyooVTcEOP9YOmg5GfzpAS4icCA1FESB69sjIjInp8zQVr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9ReWoRht1h0RfxtI4kcGjSA/photos/Ab43m-ukAiFg113-KZDBlwqIe26Yn5l_ybf9dlaVhoyRjbcrqv9Iw9Ni-D7fvvmH6b-qvx5J1xzJCvDBGRecnBZg8A0HqL3Qrs0MPqpMbYbcF-DDxv33Hwm7S0fu1qLd78tg_9SEzc243zZEei7C1PXwILi_K_-AxwmaA4mfd3nntoYZWShsGmQmPaBSwweVEEI19amOTvbBkl-OttgVTczvkIsAgogs8hM8PnbfR2DpQEPTdQ1moedqDDHWD1g6r5yRSIlos_QxYOzwn3VlkkhJgegIA1-eWzFHgKTcpoyqKq252_aW2EvWSHGf6Z2qAO1-lvYZN3ConafD5nni2z_4lF0ThKN22zPkzvI0dVus2ecpGHDfxVYVNtHKAtDNfpdxjd-Lnf0yx3TMokhBV31adn7auXGh4QoiI0ovfDc5HKRR2A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ9ReWoRht1h0RfxtI4kcGjSA/photos/Ab43m-teMnnNPoM4o1eHT3os6SEisg83GbZzVBU3sCzHYg1e5FzUnqTWoI4guN-9_gpZgxvxG9SMdwRqeNmRHdySfpRY214-WN--LqtCQyi9ZnFuc4nj4d6ZsZE6e13rO1evmqxCGixtHtFg6Xa1wtTlRBEtYdJEswQNlOjLeKyMV84C6eYxNbrOlDq-qJJxJCxd8t-UKoiidEF7t8p7COyop0Wneso9t2kaER-9ohE-vPXBobl9gY0DDAUVIl1ptfAUn71mSqP7zXktuKfp_cmc1TwL_q8_sBBpQYGYy11mSWWTo6MyPAFwXd23S73fFRU0FOw922RkMzOOW0kM4b7d7dKGbBt3yUf3q4WbP_7fDmJ30F4kb7sb5xYM39yQrwPdZSDFTN2h9Cyfzky0KK5CQHqisDyvGrmYblFVm_O-LITTrQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:51.392268+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

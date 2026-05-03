@@ -1,0 +1,77 @@
+{
+  "id": "carmel-coastal-retreat-victoria-bay",
+  "name": "Carmel Coastal Retreat",
+  "slug": "carmel-coastal-retreat-victoria-bay",
+  "town": "Victoria Bay",
+  "region": "Garden Route",
+  "address": "3 Victoria Bay Rd, Victoria Bay, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -34.0010721,
+    "lng": 22.5336364
+  },
+  "phone": "+27 44 889 0019",
+  "email": "",
+  "website": "https://www.carmelcoastalretreat.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJVVVVVTIF1h0Rb24hOCbJ0qE",
+  "google_rating": 4.5,
+  "google_review_count": 261,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Ocean views",
+    "Outdoor seating",
+    "Family friendly",
+    "Casual",
+    "Beachfront",
+    "Local produce",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+  },
+  "description_short": "Coastal retreat offering fresh café fare and coffee with sweeping ocean views in Victoria Bay.",
+  "description_long": "Perched above Victoria Bay's famous surf break, Carmel Coastal Retreat serves up wholesome café meals alongside some of the Garden Route's most spectacular ocean views. The menu focuses on fresh, locally-sourced ingredients with everything from hearty breakfasts to light lunches and proper coffee.\n\nThe relaxed atmosphere makes it ideal for a post-beach bite or a leisurely breakfast before exploring the Garden Route. Whether you're staying at the guesthouse or just passing through, the deck seating offers front-row seats to dolphin sightings and stunning coastal panoramas. The café complements the retreat's wedding and event venue facilities, but remains accessible to all visitors seeking good food in a beautiful setting.\n\nVictoria Bay itself is a gem – a sheltered cove between Wilderness and George that's beloved by surfers and families alike. Carmel captures that laid-back coastal vibe while delivering quality café fare that keeps both locals and travellers coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVVTIF1h0Rb24hOCbJ0qE/photos/Ab43m-sJJFoCUjE1430wABwlCUoV0_0xrLuVIpmyKWyfHrd5xUQ5UxI9D1avVFcE31Q9Yh0gXsP3su2APpFqGvLv6LYV0RLZjekV8k7KUh_5CYLDLZLMxunTXijaqfwSyA2RsfYptHMMTvpkTmSJNTdG-G_x-sngYbBFBKkv0I2fY_D5WjcbIcXcEGlmXEIT__ZuxibAE09F1ocVHjKqUc32nxiPi-rJx2gECLbtsJchnf9GNyp78QdeirenbrzMF-s5RWzD0I_dxu7TJli0IR2KZJelkTV1zPElLugQNJH-CxOQsg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVVTIF1h0Rb24hOCbJ0qE/photos/Ab43m-t8cVcoxQvMDXrCT8XyhpM_Fl8k3zvYVBc3oWYSQkZiKhvYxvMk-zAuekByvrq4SGBBxI1lVbNtl4g_1usKVq_P3-eHrq-mkVcrCWOnIShMq2Jd2qyJUH9A5vYsGCEPtQsxEu5EFaM3PEwCwMVwJ4YOJ5qaXW5Ervv7fSlpjqL8zzI9f6xqoK1rjgj0ENc4II0SO8Y6Er27UU0s6NQ1_fWNbiPwSy5HrpAp9bb2rPHHxEbtEcj-CI0alzdpp8rHDiNw24m-z6iOuT1oufYpA3JRq8E83KleZqBVulr5nzQ1Wg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVVTIF1h0Rb24hOCbJ0qE/photos/Ab43m-tuGzSG085es-Jq_uR9XXftrbj0Y_gRM_T0tROW1xIEhyZB0l-3YI65ZE_Ac-YFMxM-5rQtoa4JZFNF4ZA8_orPbvXRT975vCQ16j2uSNCVYp6sI9LVtgX1Mny1Ehr-_ZnhGR63rQJpJ0XSiqtuU5_lkKM4Ib4V4Jvgy0-rjvKOzEfw8kdUjADnF89tZqT_drCdPfz8ITR4JbjVHS0i8mhjOPxFFJKSe1P_BmsuoSRcplTluVmuYwDnqX6F3DCcz78ZhtujiyPmymu4giq-6U7geoaMxMWqqF1xOLPfu0dLGw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVVTIF1h0Rb24hOCbJ0qE/photos/Ab43m-tK9aGQgEowl7CW5WEg-zCoB6esayIjq_Dc8KnFhocpwQXHWiDE-_zIHRpktyjqWTQps0Ip4B6NlVYRpm-Egu83W_GUMPHYU4AwyKPxoPjavxYyQqENt4dH0-TeKKdVRxi9TEFsafYngJHbmObrcuukr_uwxPkJ7yaGc31BUJ2z2po4Pz9pwuSLu4fu-rvrO1LhwmeNgT1upPlxdPdbG3dPScNTjeQyT-iSPDO2btFRLxGx_gtJ0U78OMpQCbfs1EzzkLIW7awGkcAmZdKW0zk4VT6YwfNgJgR_xwFGykR43Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVVVVVTIF1h0Rb24hOCbJ0qE/photos/Ab43m-vaCSVc9E8CPJ7zFnxAvVUhqZrAGsYKJhZvaVoBLTbaffgxEON_5-V6DH-Z9CXErIO7a6IaAjs9l8njWkYOT_8XixIPe4nDwnuDur1I_ABLhngTHpC4Rn7S9yIgKIigRTfkLIRjGP8wuJ69D4UWA3gMZAnK_iSe_1jIcjD6JyERaxSXw_iHqdTj5X9FBiU_-UmF5RPIGp-GDPpSK2Zqqg467lNueiN07A83oDMbJkyvNkbI-80Xesrgymn_d_GxOmL3SUdCftzLKxhVdkjSUJIJdmwi5Jl5A5RcE8IJVuUfjw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:59.061147+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

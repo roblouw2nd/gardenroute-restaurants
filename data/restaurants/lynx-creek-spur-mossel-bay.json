@@ -1,0 +1,76 @@
+{
+  "id": "lynx-creek-spur-mossel-bay",
+  "name": "Lynx Creek Spur",
+  "slug": "lynx-creek-spur-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "R102, Shop 1, Garden Walk Mall, Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1075288,
+    "lng": 22.1099252
+  },
+  "phone": "+27 44 692 0448",
+  "email": "",
+  "website": "https://www.spursteakranches.com/za/restaurant/western-cape/mossel-bay/lynx-creek-spur?utm_source=google_maps&utm_medium=menu_link&utm_campaign=SP&utm_content=SP",
+  "menu_url": "",
+  "google_place_id": "ChIJPX3Aym1v1h0ReNQB-kXn3Ps",
+  "google_rating": 4.8,
+  "google_review_count": 44,
+  "price_level": 2,
+  "cuisine_types": [
+    "Steakhouse",
+    "Burgers",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 9:00 PM",
+    "tuesday": "8:00 AM – 9:00 PM",
+    "wednesday": "8:00 AM – 9:00 PM",
+    "thursday": "8:00 AM – 9:00 PM",
+    "friday": "8:00 AM – 10:00 PM",
+    "saturday": "8:00 AM – 10:00 PM",
+    "sunday": "8:00 AM – 9:00 PM"
+  },
+  "description_short": "Family-friendly Spur in Hartenbos serving flame-grilled steaks, burgers, and ribs with a cheerful vibe.",
+  "description_long": "Lynx Creek Spur brings the classic South African family dining experience to the Garden Walk Mall in Hartenbos. With its trademark flame-grilled steaks, juicy burgers, and sticky ribs, this branch delivers the comfort food and lively atmosphere that Spur is known for across the country.\n\nThe menu caters to all ages, from generous breakfast options to satisfying lunch and dinner choices. Kids are particularly well looked after with the dedicated children's menu and playful atmosphere. Located conveniently on the R102, it's an easy stop for families exploring the Mossel Bay area or locals looking for a reliable meal out.\n\nThe casual, family-oriented setting makes it ideal for relaxed gatherings, birthday celebrations, or simply a no-fuss meal where everyone finds something they enjoy. Service is friendly and geared towards making families feel welcome.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPX3Aym1v1h0ReNQB-kXn3Ps/photos/Ab43m-t0KyTXr76Xng2LBLaIriYFtKGqjeWctblKWrdaAJIaNn31DIUVuEkSyJc5-ye1Py25-8oFc4geFpiZ-PQvwdqEsHpBac2TmsDdlQ58nYd_rv5tLO1l2wkkvBD-uKM_UcvoqRrZKeC00MNIvYAu88OdlPM7-AvFjpvGu0DpM2eZlARNJonWbatpj28tfeRGta5fqr7FggL8BZr3YAd4OoLCww8ra_9zuQkzYn3cVORdX1OI3bKYud-K2sAV3GmYZoDAEYmnhYDISJq4YfyEglHF5CfuXZzeSt_Rv6jypEGaILGtCQ_N7tIpicZi9CXzB686iT5aE0HXahjBIsiRSCUu56eWpT2F_QmyS6uLh6uKAyTwa_4M-FGkJBqvZEJ0FWRPN1If0-3-aZaw2TAJ2_uTEwD96LmqsfUwEbgi8KMXpiTQHzK4y9ceaZQNBw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPX3Aym1v1h0ReNQB-kXn3Ps/photos/Ab43m-sx-Du0vfyCqXus449tx0n5lz8zgB9IRmRfhEAqL2Vmp_hfVoftPi5KWuzgPCE3Vs7XAdExuDneFwa8zBJeyQo2RKydbMsE-LUYJ89-aYiufjCKltzRrYXghtgxQYaxxCDlkwFVb1V0C-MwybzQUyrznaRs6NUCh8Tc5Xz4j9ivucP-YGbUK5x5CAhJq7O2PHsKHTn-j8DFXdcLYLimjFvHavf7qQ4hXQacmkSZgMW63xEceKY2sznB-vmgh4TEgXJWxraMSIlbBJ3-dLj_ernQxQ82LPBSugVuHi22P83kRQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPX3Aym1v1h0ReNQB-kXn3Ps/photos/Ab43m-saLaUdHWLbHA7EmCITs8GSTepshhIX-cJIvPzKeEoEisHGwwo12xubM2cpWiycvgdBOiU2maohQs2Q8UB1lAdDJh6B1s8yvki465jTFIVtHEb5y7uM7nBY1TGF5VrUqnztqskaGb8V6rXJZ3eXuvhdDIaUyPJSx7JrcIlbtunDB2iKhCK7Y3a8IAtqLqMbgz_qT3exHI6he7BeCXlM9aeAnn9ZeLHKL7Gm1dSLgdHZUaGmHV69_IsAxIhePjjROCzrJ4A00J4jThzjKCUlRRVV-DvnwnuRjK9eux7VEskDJg40eHdI2YcFk7Sv9d4mBla_wik8w6THqA4yClpNncNDP0kWvxyQeMnZHeCDcA7_K07OSHRp6mgtLN462sVOjbFDfPLUcr5lpUlNCIzPKBGGX7TbCeBy4zux7_TdTIueiZBEzT_7j0z1AX-hdw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPX3Aym1v1h0ReNQB-kXn3Ps/photos/Ab43m-snnyAW_l9UeFmNXfeYeY-4fHNFuEKPdIeZSjBj6pOxURV5i3NsFIh9lMDFBKvGgOcxIucrdLr3AOm0017r-D6-bmcYguwcYJ_JLLKuuPN_RUEEjQVoH8msak_oLgKE3wcsF1DBUcf3RIZHe1ujq3WPzhEt8aLbc91oNyR1ZeULORaqZmmK2RD7gtEwtHsbPLQs9do2BG-WUaYmE4S8V9FXUj-Amc-FE6-iTRHlA9G_suklaKimbRCJrI-VaNyCpTmD_ADVohhQH4vjzBtsK40GkWLmS1zFRZBcZY-FuEl7A0Vrm6xGRQ-pMMT-S5YcDR62zjYerC__BWfq2IhxrlyAN0PjX3QqDxiWSFqHaszTW7lzb8CD3-UFjxj0bqvmjAilJPQGLq8z2PIn9LV_CON1cYDgJZy7b5xkSBpe5OXyg4Wvtv0Kq4YMdeZ9E-u-/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPX3Aym1v1h0ReNQB-kXn3Ps/photos/Ab43m-vjIht14ye_eAHkAAnFXttfZiwBIjFpMF75o__tltqkBbvNh_nLSiHjJ1EnfFf9CWZGiH76y1bLyIfU7dPts9veq_ZhD7DyYYsNSOOpAcXZpJ9H5d-ayQA8V_QfqCo0jRbBJKSw9Dq89huJr4EpZ3R29E8uYx4c4E2km6lK3lapcxMPOQIgp_APaRMcvJYDcwne3UjUt6jBECkAVOj_eF_H80TqYJNm2d5CWl-vUR6LyWJ8C-ER0xiST6mhZqvM2F9pUbhwyakUlVquOIOIC_dhHJK5y5C1-ASbe0avGo-OfOfGZshEIEVfFHxKcFFtvnExiOJ1T77IB2LjJoKHiI1dIgmjrSlLMt-MvDODaf5dmG8cAf7BqZmmJKeZhLYn4p2hcyhd_dME2nX3gOVltHEjp4OqKK0Y-FHIcZRxe0G0Krjs2bJ2jRL5vBXggmQc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:57.465208+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

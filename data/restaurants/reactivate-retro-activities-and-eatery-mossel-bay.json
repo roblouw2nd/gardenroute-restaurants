@@ -1,0 +1,76 @@
+{
+  "id": "reactivate-retro-activities-and-eatery-mossel-bay",
+  "name": "ReActivate-Retro Activities and Eatery",
+  "slug": "reactivate-retro-activities-and-eatery-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Corner of Marsh Street, Shop 34, and, Bay View Shopping Centre, Da Gama St, Da Nova, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.181685099999996,
+    "lng": 22.133370199999998
+  },
+  "phone": "+27 79 697 2457",
+  "email": "",
+  "website": "https://reactivate-retro.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJEX-Ni8Bp1h0RwlXExhBedQg",
+  "google_rating": 4.1,
+  "google_review_count": 54,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Pizza",
+    "Breakfast & Brunch",
+    "Cafe"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Indoor seating"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 6:00 PM",
+    "tuesday": "11:00 AM – 5:00 PM",
+    "wednesday": "11:00 AM – 6:00 PM",
+    "thursday": "11:00 AM – 6:00 PM",
+    "friday": "11:00 AM – 6:00 PM",
+    "saturday": "9:00 AM – 7:00 PM",
+    "sunday": "9:00 AM – 7:00 PM"
+  },
+  "description_short": "Retro arcade games meet comfort food at this nostalgic family spot in Bay View Shopping Centre.",
+  "description_long": "ReActivate brings a refreshing twist to Mossel Bay's dining scene, combining classic arcade entertainment with a full menu of comfort favourites. Tucked into Bay View Shopping Centre, this retro-themed eatery lets you enjoy burgers, pizza, and café classics while the kids (or adults) take on vintage arcade games and activities.\n\nThe relaxed atmosphere makes it ideal for casual family outings or catching up with friends over coffee and snacks. The menu covers all the bases—think hearty breakfasts, loaded burgers, and crowd-pleasing mains that fuel your gaming sessions. It's a straightforward, fun spot that doesn't take itself too seriously.\n\nLocated in Da Nova with easy parking at the shopping centre, ReActivate offers a convenient break from the beach or a rainy-day alternative when you want entertainment and a meal under one roof.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJEX-Ni8Bp1h0RwlXExhBedQg/photos/Ab43m-sDvR_yXQ_J1FnPEJnGLhlV8SE5tcxAFEEvsgYCYPy_eVyDRvE9egsRe66oO0jLadivtpf0fzV3BzA2CFsEgZMjiQQ0kChslMxxfhBXBEKdsHZQTFRxhZdAggWAaLxA0LjA95jxr52b1bD6NbZqFCJExlmlwj2so5EjYTouHRf5p01LH15Mf528btPwiPO9wWhBYO76zld3woCZqf-GyjD0LhBGHAKrVcNkiCPzJlkFrt8jQ0siqv2-bH0u9Z3_4xxiwV06yTJGvAapgjFGqJuAlFlEktoBTHblLVCsZW2JCdks6lOAnk810cW9mVksA-76ON0ntGASwwFcyLTTJ9WnVsisgsuBUCB-IteWPuueL0NF3cJosMZTWapbic1W5xOgIt8MnLcnvAuhg2AaxKt4GFQf4lXUUnkuMvBzYdVekbvFqwX_q2x9EltYzQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJEX-Ni8Bp1h0RwlXExhBedQg/photos/Ab43m-v-B_JVWPggomk6x3yNh5ueinGrcfjED_Wninqx67wHYdO_NObXyz7k7ngMJomiXo_pfRRRvaCuqoY8pQRlVFxTaUvdpL8uPKhNbMXRkgylMDGpecTfwj7v1VjdcYg54FqR2Y2E_r5_hQlwM3DSaiNWOohui5eSBCTSd6gKeULNJgOEiCcRyvGEzRUrj8zeyfOPY1aK04_7AIjX4X5PlgSqoXeNUvj8yEJM7vCiV5nUEtt8T2r2dVhxUGUZl688DBXIVBPRN_YxeHjwbmzI6Pqrq5xPkxMWqodkBZPIiLETzpNFzq3EmKA_9jH6it9t-1RttOgCxnA3ZmJrtTMCpJQILrWYWWHI2EepBRzm1Vz0thoZFYxpOR4JAWm2ISMPNwiBsJ7hnDrG7TjL_jz5x4Sjx5rsvAWGFtHDPwT4M2HmorvDjfe93f8ceOD_hB62/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJEX-Ni8Bp1h0RwlXExhBedQg/photos/Ab43m-uqCAqBP8DVcqiM5z6FJ6ayEwpwVrfznU-1JeamHREj9VhsnLaLFl9HUXTajj3t_mmid-ta2mTVE64p-v_iv_ngiMvtwPnT7XqlBPK_hOk8Pi-gk6CYrHKDCBV9iOu9cX46P4qSGNAGvwIdsxXVtzoj9UXbAAWRQb1tzRd4WO8hsjfeorG3dzbdSQhMvT1CGm4k7bzjjN0UrJZdfI5lO5tFRBkuwZT7g6o2x5xZ--TsTyCq_sbrbulJqwtafNsOLjtAMa-ekJ68xvw9A9n4RysKtCXeUJ-kMIOj5gTXImFUGyQloz7Z3qQDieudQXzv8YbJuATySiPgtVN9ioW8ax_k47fCVFW4fCC6v36aM0M3IVwV2FNbu1s_NCmgm9Eu1rcshnc-DVPRWxuqo-tje2dgsiw5L9brnoXa5lxMkBU9H_zUy_TPeobzz1mtghKM/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJEX-Ni8Bp1h0RwlXExhBedQg/photos/Ab43m-sc-cupgnisyetikyc_BMSUeZjWO2akulmd_mjNoBNsEIMMYoml-_yqz4k_Q4Q28cYtun2XOWt_v9NRE9SBHmLC5mvsm6--LdaCVIOXiT02y6Ty9p-eGYqXS9rn58f4GvBRO-5V4ydn5HHDByOGX12-5SiB05hzdt6CR_oAib_XAdb6J9OXbC20CFAZV3QVEgrQkYjatv-PlVg7xzxWWtQihB59LOa9m39eVI336fK4S5jNBia_lm77kUxkKh5_evP2L1iDCWvaSbWcgMkx4xez3rLrPhnCY61Scsj2e7-bCNy3D6uOHZNPWqDUJkxj1L9HS2RR6Vjp1eihRwC59S-_4cefW2aireFW5fw5DJz4-cDHvxAalkDHwh-8mOIhSPzbHBNwcV1wspAaQsKdWKMEx5D7B96zmNORCJXRLtG2ape2VwX_B7jcafyqnDwF/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJEX-Ni8Bp1h0RwlXExhBedQg/photos/Ab43m-uYW94t465y47t7IPETC86Oi_Q3CHYvxzdMtHY8TqLGwQsV9TTfl0ZBCmyc-XX-qKX_BwQRiP1HXoMs8lMPVdkji7b5yY7fUF-PFQsj5p3qyYKcd1S0OK1YYQGMfsYg8rLiuHr6VrLnIx1-QpoTMOwj8lcmc4UbZybKxtOMfyuwSlpb6XMe6njAbBQlSdya6BV5gHCqJqdv4ViWCjSmQAxu4BgI5mo43qQJc3OQ0XPnwbpHwpGbRkotfjQ2BT31lHE8SFee34E_iRJ0ImD8_U1beC1feDgey6xwuIPuS0nbLnUKLFJamDQC9DjNKVyJkx7UKJnct98DhMu_4kuT0HsgY2wZC5laCEC_DfKjS8QdSmQzjqqN_C7bk1XhrcCF6Bc3VIqWz70jD9G62UMkxdHgOlcPeh-yZynvFF2JoGsyYmgHAgKb8xaEeygol8jA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:47:04.462266+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

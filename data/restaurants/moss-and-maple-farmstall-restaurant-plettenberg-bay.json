@@ -1,0 +1,79 @@
+{
+  "id": "moss-and-maple-farmstall-restaurant-plettenberg-bay",
+  "name": "Moss and Maple Farmstall & Restaurant",
+  "slug": "moss-and-maple-farmstall-restaurant-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "FARM 541 CRAGSVIEW, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -33.9836191,
+    "lng": 23.4394283
+  },
+  "phone": "+27 72 694 6801",
+  "email": "",
+  "website": "https://www.facebook.com/Mossandmaple17",
+  "menu_url": "",
+  "google_place_id": "ChIJO7f0xAMfeR4RUFe66hmyI1s",
+  "google_rating": 4.3,
+  "google_review_count": 913,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast & Brunch",
+    "Cafe",
+    "Farm-to-table",
+    "Deli"
+  ],
+  "tags": [
+    "Garden setting",
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Local produce",
+    "Farm stall",
+    "Outdoor seating",
+    "Dog friendly"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 5:00 PM",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 9:00 PM",
+    "saturday": "9:00 AM – 9:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Farm-fresh dining and artisan gifts in a peaceful Garden Route setting outside Plett.",
+  "description_long": "Tucked away on a working farm just outside Plettenberg Bay, Moss and Maple combines a country-style restaurant with a curated gift shop and farm stall. The menu focuses on wholesome, locally-sourced ingredients served in generous portions, with breakfast favourites and light lunches that showcase seasonal produce from the surrounding farms.\n\nThe relaxed farmhouse atmosphere makes it ideal for families looking to escape the coastal crowds, while the on-site store offers artisan goods, local preserves, and handpicked gifts. It's the kind of place where you linger over coffee, browse the shelves, and leave with a basket of farm-fresh treats. The rural Cragsview location provides a peaceful contrast to Plett's beaches, perfect for a leisurely mid-morning stop or lazy Sunday lunch.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO7f0xAMfeR4RUFe66hmyI1s/photos/Ab43m-uU6JfD_N35Fzdp--L60heaZyNU_EZFkIuGCKAQc9s7XxZLEIXFLX9yckZnW5Xz_QJ-MoWo2Kw9hpkHYwMgr29w63RMHMpX30BWft6JQ2WXXkx5B3A7Z_MSoeBV2t_s6VebCo0u1SlVgiCHfz3uJbHUPSs0ruemHvZ4tr_lLrFiVZJR-LonGY-Q2v1A6Wi_orso6ntfQkRRHp2oEuTHhKM0HvD-ATIa7S7HZSrB0LznFN_EURXiWcT_njjw-0ZSU7d2vEWDWoWfY-Q71MIrZ5L6BsS1DM1nG-vw-E179uvfhOo5PSOQ9gjF9NgkWZdrn5q0DS9zdQmycp9YCedNALRcX_PscwLJL1O5sVPjSnbaiNGhOnJT1ytmxM_72jWXyo_8WAISmf3W9YEGhZ1GU8goVbBOZD4_RsuMAh3Pv6j8zw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO7f0xAMfeR4RUFe66hmyI1s/photos/Ab43m-v-1yCCwr6QS9QOQYZF-PkR1_M7IOgsabSg0YFod3Z2NWs1ivYaT1UuQos_oecKoa-UCqlvi6lHz0jBRRye90jKqvJqxWsL2DRlyRP015lN4KYhzJHH5EmoJyoC3YeocM8VuMU5YdNfeIdZprqFl0dpmu2Vhd7kNgzBx0RHlLiq9TFf-aVu2oFLo3ITChDw_n-LLs4mub3GjcJx0JL6FYIQLaCE1iqhB4m6k7M9QjenriYilD0pJYUjZVDMJaF6mfKcJFGuM8DlhBx5z0Lmn7HbDJ8MaujayDCxPYOaur5eh5onhzSeVZlsBTOY3rkBCiJjWqt8Ji3YBZq6CuO6H3BvNNf5JHhM2dggAmRVK3y2voTm0bl9jW7jsEPvwZoMB85EFTq-FVsQ4goYMM6_gQxottx6gCg3TATtcg3Juwk/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO7f0xAMfeR4RUFe66hmyI1s/photos/Ab43m-tWs3pWj0VRo5dpPyrVMJ3bfzG5y4MBe0dx8dDFf44CFUBlYvY7H2bEUZMzBblUhkylzLRmLuLo1uDovsiRO73Yyzj7qZMMA2GowZZnAMdfR4II9xw1m2RvGMuD7FlwiLwfammG-v8E7Co8vmJaowIUGhkrjRJtHrzkaV45txcZUeRVWUkTAEPOSlufbTJJCzU5K6Hd1gup0jZbPo6Iyn7RQaDdIS4r8Xt3oPnVJTt8o-3VK7G6VS9iP0_GJwHhX0TSe1DjRTHLeVE5o3Wj8funfz8gtdZDKnCvzMizJVc5IbtMczSX4JILqU6SafpDPJdXA8rK9vIJl098gvzEu8nru0PelsNcUg4sdD3B0Xo4whh9YFSvvgtZuH-pqw7C5aj3sqe2xFfnf5rm7CZbzCzD21PR136w17PTJw377hy9MFkohqjwC__U4wP5AA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO7f0xAMfeR4RUFe66hmyI1s/photos/Ab43m-sEuOoWuRpFmMA2EbddqXN578RVmeA-i70Jgj0GsLGztd1jw6LWmptMVS4MCs2T_-cGfYP1J7nO-q9CrXk5ZPg6PkujkVYoa2V2ZWXvg6Krw5XAT7LxBfNKEDrJPFWXf54RXp1S4CoDbB2tYbBOOLtuTCfTrFYxxruV8ByI-sJWuJa3mKtRNY8HXE4DycE543V3p8XrEyS52qka5yAN2h78D2LFVG2k7_i6_yO4I-Ox2iR6vRIraFYcdmAgB2OyceaWqOAt3xWPdx8ckejrZB4l7gyN6eZrGxi1-BKPGFYTcw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJO7f0xAMfeR4RUFe66hmyI1s/photos/Ab43m-u0pvti_zMBtp9YeSepG7dWg8bN9grcgOZXQ2jQEtirX2OCA6mqs04IfhZShkKv6shKrKjhtq-GyaCNbCEPYlveVtIdM3UMCRFu4Ky9vDth8euYhYZM3PIaLxZT66b7jhQHrlFVHUmxAqLjyaYM3H3G3kUir7bQRSS1KJBz_ZPfBjnnbn8YqFavdrLoWklKytNkwb678BjvhkYvkqgASK3R1_o-lxTHrLT6yaFgc-NY0zd9jLDSUmGPDQYPVThitXDEvZnrXGK9lUlWvbvfosYbTXOy_PxHSefV7SLYYwRRwhOFG_UGfsyl5Ug6kfB2PKToyosxnjSVehGps8XwC49ySnxB3aWAaLo8UGkT6CSOOgg94ie2bLbaa8QeG8v4EpkqYyHZCUWBSLRr6XIJZYcK_JSeDGaV4PNwrKEEZ03CAerPANVW3bwgDHWctsLa/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:30:36.792318+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

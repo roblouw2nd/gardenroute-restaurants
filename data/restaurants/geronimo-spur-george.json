@@ -1,0 +1,76 @@
+{
+  "id": "geronimo-spur-george",
+  "name": "Geronimo Spur",
+  "slug": "geronimo-spur-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "118 York St, George Central, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9572722,
+    "lng": 22.45857
+  },
+  "phone": "+27 44 873 4279",
+  "email": "",
+  "website": "https://www.spursteakranches.com/za/restaurant/western-cape/george/george-central/geronimo-spur?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "menu_url": "",
+  "google_place_id": "ChIJW5CKfUoF1h0R2WUY30Bsq5o",
+  "google_rating": 4.4,
+  "google_review_count": 3321,
+  "price_level": 2,
+  "cuisine_types": [
+    "Steakhouse",
+    "Burgers",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Breakfast all day",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 9:30 PM",
+    "tuesday": "8:30 AM – 9:30 PM",
+    "wednesday": "8:30 AM – 9:30 PM",
+    "thursday": "8:30 AM – 9:30 PM",
+    "friday": "8:30 AM – 9:30 PM",
+    "saturday": "8:30 AM – 9:30 PM",
+    "sunday": "8:30 AM – 9:00 PM"
+  },
+  "description_short": "Family-friendly American-style steakhouse in George Central serving burgers, ribs and breakfast all day.",
+  "description_long": "Geronimo Spur brings the familiar American-style family dining experience to George Central on York Street. The menu covers all the Spur classics—flame-grilled steaks, ribs with that signature basting, burgers, and breakfast served throughout the day. It's the kind of place where kids are genuinely welcome, with enough space and energy to handle family gatherings without fuss.\n\nThe atmosphere is casual and reliably busy, especially on weekends when locals bring the whole family for a relaxed meal. Service is efficient, portions are generous, and the prices sit comfortably in the mid-range. It's not trying to reinvent the wheel—just solid, consistent fare in a location that's easy to find in the heart of George.\n\nWhether you're after a hearty breakfast before hitting the road or a no-stress dinner with the kids after a day exploring the Garden Route, Geronimo Spur delivers exactly what you'd expect from the brand.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW5CKfUoF1h0R2WUY30Bsq5o/photos/Ab43m-skeYJOD8X-FzuXWl_ueU_vjwKD2pxtsiCSy2BwWfITCSq05PY9DSq-43tPnlBhN2aqcIjj6rG_imX2gSLJW47T4Lw6m2NDlj2Ljd-3TP2ESRy_lwkWx46srfL-LJy8sIhDngDeg2ePijTiT12md3EYHfgJW-xiZQ1n_s0DVFVwHFGiOkksKsBq-mKVVqAui58pVOtO17QzrO48FdTFGTLgIE1wI_q3NkDv9fh6K8NqBY83f10ZvCQ6CUC6wVq5ht56_9c8Yuu_BfwRJxfMaHTh4wVgJYtEWT12uWCUixO1CCHD7GLRDQExVQFNOxlfHlaluB41IdpLTKwvMDWYr9ipWP-1RpmTUnVSes7n2BHBDSwqgeWXa8ZC2aW2mj1foFiU8CN_ec9RfCaEFqi03DCfhS2AJm9Ew4vQP7USrTyLxxVF/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW5CKfUoF1h0R2WUY30Bsq5o/photos/Ab43m-scYbcPRT81gvT3A-ERa6soTe357xAIHngWDPfLNWmE8aQmX42cbptDO24idjEGa_vBU7TyF9p5wd_ilXGg1WFiAjYnD__phF669vnncXN3_lEmL_heCionb0IdvN4OfUZNrhYkCn6yIWasu1jSxfU1mBxl4OcrhOw4EqThHV7oRfpHj7q8J70zszCVmC0rUOTVqVRamEWgDYTMVrDiJwHHZzr-XeyU-iT2lSsa3-1gtVvqZi2K_H73f8UmWI4mvX1btamyNYMWxGe7OsoRoEIspmWHpUB6BoPFvG_qab2-Qw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW5CKfUoF1h0R2WUY30Bsq5o/photos/Ab43m-sNSHfbYllnk0K5mVNBThad58S--ukhQn6qBr4bSmk65djnbDy1V-jloP3slo-nR58-Mk4MmUTW5lm6060snux8hO8sA5AefstB9IEQEx50DBle6EZhoqdlrQ6R8woH-lcLBh_TGdvwHJLozh0hKO8yez4CCXvOpX_Smto-cmXjVSYPEj9B-Fcyd4qr9_stGF_1Yq5yEXdNLD5gzMrk42Ridq-NzQFLl2iILUkFM7GeCPBfUxxu1vXR0XdAdZzCvngOy15ht4QYWEugJIPwV8v-wttemN5KsuKVuxmDLxoSg5EepZndZsSFwBdkvCCv1gaKaYPyDX0349FAYYBlOkYLGTVHnRIBX1IgOn3SPQxUp3A6lhS0TsmNnfeiQtzlHW4LWLCPlSi_Qe-k8JEM4d56sMFtPoR-ERMEw66R0GE2R2pA5jnjZY7oEAiNjA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW5CKfUoF1h0R2WUY30Bsq5o/photos/Ab43m-suGepPCklWqLtGHAjigpGUA9KJx3A5Y1ZIv8R5wIoN9ZxmaiMZZ8rnxkz5mQHG8gR8rWGFcQcIPISLjNt-fV1NiKgB8cfp3PdUpdXWHicmVz0BYXoqict1Xr8c58SsZ_4Qsr5Tc1aP421iLasGuwQGcKvU6xARQ-7GHyU2y8g_k3euvvvkoT8PU-qMrplWwGhuA4zvDuKFWA56u_flq9TLutVRe4eqGFqw8KmZhlsBb7I7y-HmWjdLjJjDouUGvCchj3gvgDl9BBesy59nqOQvwFnbU_EKGUmpLK0PPwOtcH-K_hOyU_XktNKkh1gcPxreD84Qwbu9xp3v0V52ye6Wsq036rC_gnhZkN3ywGcpGthok4cpENjBOW_HuQXenPcVYXTpABkSqYFzqq1_ydQFMYSF2Ejse-fSLgoheDBQ1YIoVMNT1S5UZouSaN18/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJW5CKfUoF1h0R2WUY30Bsq5o/photos/Ab43m-v0cmCcZOCHW70aZMRmuh02HLaIOTJWBTAGuIUR7_cSBaFqk4uBZtjgcWJ-7_Ik4iFY-ZkvaeeFb9QFx6b9a4_o5gV143mcIfXZiMIOwCBHo86I35tJRje-yy2E4c6L_RUaTFWUKU7DxCj_5ADfjl5L841Tsoz7FXIUqZt7XIn6ESQOuDd2bEYsz6mSnaMYQW8JRhMGQrjhwJVL3eVhH10OzT7exRFPmVxuxtuZ_glFpmeiO6EWOS7sv8w7ahJHpMxSL6ZTit7kNydfhQKib6IiSUmpv0ON3Y1QLLPqjyPJm1Emnkc5XExM9Be2z0S1HAE83hkNJiGsGQqYpsKtjjZPYeLbicV-_gE1_k-4QvMpeHVH_AF-xuyT19FTj3sx43GMQNBJ0c_hVPKDTeJljJfZv5KETpZN8zR-o2zZ19n98A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:37:38.323036+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

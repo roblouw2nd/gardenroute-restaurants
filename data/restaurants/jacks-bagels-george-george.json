@@ -1,0 +1,78 @@
+{
+  "id": "jacks-bagels-george-george",
+  "name": "Jacks Bagels George",
+  "slug": "jacks-bagels-george-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "70 Meade St, George South, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.965641399999996,
+    "lng": 22.4560466
+  },
+  "phone": "+27 44 023 0103",
+  "email": "",
+  "website": "http://www.jacksbagels.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJUT22DI0F1h0RS7WDiNzg05A",
+  "google_rating": 4.5,
+  "google_review_count": 244,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bakery",
+    "Cafe",
+    "Coffee Shop",
+    "Deli",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Breakfast all day",
+    "Local produce",
+    "Deli counter"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 4:00 PM",
+    "tuesday": "7:00 AM – 4:00 PM",
+    "wednesday": "7:00 AM – 4:00 PM",
+    "thursday": "7:00 AM – 4:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 2:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Authentic New York-style bagels and fresh coffee in the heart of George.",
+  "description_long": "Jacks Bagels brings a taste of New York to George with proper hand-rolled bagels boiled and baked the traditional way. Their compact shop on Meade Street has become a local favourite for breakfast and lunch, with regulars queuing for everything bagels loaded with cream cheese, smoked salmon, or pastrami. The coffee is consistently good, and the vibe is relaxed and welcoming.\n\nBeyond bagels, you'll find fresh pastries, decent sandwiches, and a small selection of deli items. It's the kind of place where staff know the regulars by name, and the quality never drops. Whether you're grabbing takeaway or sitting in their small seating area, Jacks delivers honest food made properly. A reliable spot in George South that doesn't try to be anything other than what it is — a proper bagel shop.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUT22DI0F1h0RS7WDiNzg05A/photos/Ab43m-tI8k1_ujsOsOHsVUbCGcqSKod31AdYO6DQ4OTfkX9o-f_WBIgOWMzjGyItgp9tH6bXIO2iRD7VRyDKl9deuQc53JPOcAnw426vbkQZcuyzMmv7UTwfFQCN6rFQOIYrO4XCP605SYyhUa1j3a-Vn6vfbVEOZOmK6VxBOYDoyDWXdskGK5HEaqTuX9pIvgUsC6EgxX1F_LNNJyoQiz0GMOBsmhcre78STwTz82G98n16JhzZGA_pNcW8oR6h1oBzT_tLka7mDegtR4fuXZK8fYrJGKD4lvIrXFGvFZUu7Jld0w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUT22DI0F1h0RS7WDiNzg05A/photos/Ab43m-utm4hMuUFKAwQNI_-6PCP-hiUKYzDISphILLdW5Tj8zkT7WUFu91YopTEHFKeWhgYU7FlQvvaIKl2BICNe-tm_rJ5usfqf8vrbmXDR5SC26VKcrf4pj6yQtGzbxXp-Mg8OMSQG_bCPrysroWQ9yVbRqXrdRPzWw_Qt5XGJ2NFZaxvbPeCm-0S2rdueJ6AxO02IhxSiphGxIRAag2RSfVpJWdxpKa5Vpmz-0WfIn_gxd_FCql7LrXo0SEwjyvUU3pwxceZ5QE1NqX27Shy-ogSJz8sN0ks4WBJoxXO9ExnNlw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUT22DI0F1h0RS7WDiNzg05A/photos/Ab43m-vrvLq7YabtVXz0Gb7sWa92tWO5TEw6HJ9BkhtD4tUZdqz2k9vcnNxeNKk_frJ2dW6_i5Kc-U2J6FIMQnvHz5Ga1_s59S-UjKTp1l8Jdcgk4WURmWfImFK6KicIgGT0VMSUryQAMfTDIL9vP2z-zx7NNV828GjaRfSIcsIZ5qEdkWaZxRDSHjBXICWiAu6fZ_CydTgE_Lsl4TkDcEK-AZsiWXr0PaOZ7ey29m9nRD-XzukYdL5qlhEBbkml6U2dNSc2AHihPDrOtrkYdWmDRlVlHLupyZ5zpCVXDUQEgNVtgQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUT22DI0F1h0RS7WDiNzg05A/photos/Ab43m-tk9PjCz90MiCwTv-WKOmLSyI155otVC8s0VCcIHsP1g0H_wR8FZ7ExFK2M_VLjSDve9glO80H5KblwXCpgvK7kccDDBMwrxWvGl4Loec5R5vll5w5u58PvIp8kM5k3zB_ngIQxBa5v4cuHmOgCNE3nylY1VZyXQCOGux35EZCa88awz-Uyn9Waj1jikod03mVyeQD6ar1-Y6MuNduqP-JlO8YtEA5d810s7eXblKBGgKt2RBfLjihdLS5zdTw2FmNcF8to76gSEOL2gbbzgGvh0qBAWlpI4gs3l0rE66L77meOcB97gB6tV4FXuod3H37DBYWjvx9Coe0GJz6tBEP8dZymPCqJk_g37HmqwBQhyFc-yZLjCZImRmlkmtlkubKz9J6VIVMSpZiFbxsm_JZjW1LBCfCgYMebDcM94vsVj79c9o9HlvF6lZ0eMYfN/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUT22DI0F1h0RS7WDiNzg05A/photos/Ab43m-v57uVAKMl1Bx1AKFwQrSW2jsUni4HAINiAmSfJ8bmNHIQQJftmZlLYjFwUVRQMiCe-avxpcNWYUPl3n3-XjCTdewhEHllhTfgw95cZgc_gUbrDoleR_c4Vkz0an5ZfWHlrX7jb1H32WLwiX1YfRvFNvu94RkK0DwcDZTOgSc4yBaiA1VHj5ISp57d4LvXceBWjyBI4RE2_aDpS0KtYXEx6twENeYAXjaYJ9YpzC8mVi3KW8NkCH56vgdCIgxVFVv_XcwqsSKeTn2MjroYaz_pE1WS8vpo_NXpcBPkFqFegngvIOEO_BDodvD91Eg8F0iNLV9Sy688lf5XPCR6v2fMNh6bh-DYqsdPv2nPt-RzOSJDcAPcW3sXvA_8Kw3gxOZxqD6q3Tuh3Poc2Xf628DzunI4Poj0cxjVUs6BmRTeKA8NDmfFpfm-pqrBUwL0B/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:37:18.178798+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

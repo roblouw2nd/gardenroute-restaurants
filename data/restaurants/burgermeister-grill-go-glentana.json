@@ -1,0 +1,48 @@
+{
+  "id": "burgermeister-grill-go-glentana",
+  "name": "BurgerMeister Grill & Go",
+  "slug": "burgermeister-grill-go-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "29 1st Ave, Klein Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.0809265,
+    "lng": 22.1363731
+  },
+  "phone": "+27 84 056 2727",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJj7FDXJ9v1h0RpLcergBpwbQ",
+  "google_rating": 4.5,
+  "google_review_count": 2,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "American"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Good for groups",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 10:00 PM",
+    "tuesday": "10:00 AM – 10:00 PM",
+    "wednesday": "10:00 AM – 10:00 PM",
+    "thursday": "10:00 AM – 10:00 PM",
+    "friday": "10:00 AM – 10:00 PM",
+    "saturday": "2:00 AM – 11:00 PM",
+    "sunday": "12:00 – 8:00 PM"
+  },
+  "description_short": "Casual burger joint in Klein Brak River serving hearty American-style burgers and grills near the coast.",
+  "description_long": "BurgerMeister Grill & Go brings straightforward American-style burgers and grills to Klein Brak River, just off the main Garden Route corridor. The casual spot focuses on classic burger combinations and grilled fare, making it a convenient stop for a quick, satisfying meal without fuss.\n\nLocated on 1st Avenue in the quiet coastal village of Glentana, it's a handy option for travellers passing through or locals looking for an easy dinner. The relaxed atmosphere and mid-range pricing make it suitable for families and groups who want something familiar and filling. Expect honest burgers, straightforward service, and the kind of meal that hits the spot after a day exploring the coast.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:12.995175+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

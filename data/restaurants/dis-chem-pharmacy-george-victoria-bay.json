@@ -1,0 +1,74 @@
+{
+  "id": "dis-chem-pharmacy-george-victoria-bay",
+  "name": "Dis-Chem Pharmacy George",
+  "slug": "dis-chem-pharmacy-george-victoria-bay",
+  "town": "Victoria Bay",
+  "region": "Garden Route",
+  "address": "N2 Shop 122 Garden Route Mall, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9877039,
+    "lng": 22.502623
+  },
+  "phone": "+27 44 801 9800",
+  "email": "",
+  "website": "https://dischem.co.za/storefinder/99",
+  "menu_url": "",
+  "google_place_id": "ChIJd5d0CCsb1h0RmW-ACIXfSRQ",
+  "google_rating": 3.7,
+  "google_review_count": 190,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Sandwiches & Wraps",
+    "Coffee Shop"
+  ],
+  "tags": [
+    "Takeaway",
+    "Casual",
+    "Walk-ins welcome",
+    "Fast Food"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 6:00 PM",
+    "tuesday": "9:00 AM – 6:00 PM",
+    "wednesday": "9:00 AM – 6:00 PM",
+    "thursday": "9:00 AM – 6:00 PM",
+    "friday": "9:00 AM – 6:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 3:00 PM"
+  },
+  "description_short": "Pharmacy with a quick-service cafe offering light meals, sandwiches, and coffee for shoppers on the go.",
+  "description_long": "Located in the Garden Route Mall, this Dis-Chem branch includes a convenient cafe counter where you can grab a quick bite while running errands. The menu focuses on practical options like toasted sandwiches, wraps, salads, and fresh pastries, alongside reliable coffee and cold drinks.\n\nIt's a functional stop rather than a destination dining experience—ideal for a fast lunch between shopping or before hitting the road. The mall location means easy parking and access to other shops, making it a convenient choice when you need something quick and no-fuss in George.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd5d0CCsb1h0RmW-ACIXfSRQ/photos/Ab43m-vzct6RcZGHjlvcMCC3XS4HrowMTyfBc-cXxGhmobV6OAvHUG-KmXYt2p9v6DiJZkBLdTtMoZNsUP2KfiKIwwW7_-q945C3VTc82T1eZ7BvGw_xGlZY-BlQr3fGghdyj0sTmWlGgmD5aup9UYLG88be1KsCBPC3SHcmE6yhTEewNQC2RbM4QTyvK0bShIazgLTZWIe1CS0804VCklosT3G3ShjjjMB9SIt_iBCDuBxV-0Csv92YE-qayaD368-xz75-ihYHIicGWlNBgMYroPwenKTVebYbyO1AwGpsYLbjVgpDPmhMg4pH1HtDSGnk2d3H3l471SvP5hcbdQvvYd2b4dHbFAqHhrarOV3xN1MNY2PHQ0fx42f38hggPN6mAb8O_M0Fzh2pdJaci0vdVR_UoLnIUqZfe7AaLgMDAWWD3w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd5d0CCsb1h0RmW-ACIXfSRQ/photos/Ab43m-uMpvrDeZkYWaN0MV0TpYNcZNwvXI4frkxFksUXEtvqkJVgIgqcOJSVgvahdN70VOzdnvOcmMSHLFjtXLEOTyFj-0weg8A7cI0KphI_R6wlrm_Dfoi9cQyWAQFBWjJUtBwCsioPLiRgNJdhHJFvNyvNvT_k48BeKwNRlNObMAnG6UMQBD5LGRVSoDi_Wp-_288nXERxAPCRcU6iLkAgrLfAfIdwMMZIChlcg_olQYOK8OKqHg_-EolYn0wSbHoY6lkwJV0Bx4_c66Qpnqn4tmzqBRxL-JQHNNb-cMVtggpMP4Af-MqPo-aBvqgLJSYGthZHw-MVqbG2W7dzaOJOS5hj-wpGLRItn5O3HPo3RoaHJIruvnsrnhTtW52YNDe4FWrZn5Gqr4X_aLSW2po0Qul0Od7j3wdjzvFqjl_DJsCOYw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd5d0CCsb1h0RmW-ACIXfSRQ/photos/Ab43m-vPhgV7Po6e3CYwk4F5LBJjwTsf6JuAvfCV9BOA3mQGEbmYv2RDUILTPwIuhmr4x_ATHC5lHkE0LcipyJ1B9kc0z0X90VraBAym7e1T3sSxVuij092GT1kgP2FIeDCHUX9N6brLkWA3IFDJ5PDAGmMGgXVIlC8_KgJY8zz0Pznfb2iE59vYbJ3mKUSINloazrLM1kMDthRUF0Wpmzrl3S0tIpl0al6SiNh5BrtILYmg9MJim_DvzlFYfgVom88PyzZAKdIGQBO2tGCJPsLrF5OM2nHrRkCeZD9TfmWUYrLYBQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd5d0CCsb1h0RmW-ACIXfSRQ/photos/Ab43m-slQTOzhKoOkZtQo9bnLIQ-MGrdxN8oDvveTpkYwkcVuF4I9PhzuZyhtpSGC-Oov9KoMZR5kQF8RYH6uenQWlE-uBthE0X_-x-OONW3AqnInPEUa-hzzGPSpie8xRGIwG6TmVxmjNmGOop8sLTtC366D502FRaKrm7b3N_qi9P4RXa3FgIncgOmJps7P_sbhf_jKFSSvE4HJYXormPj4Ko25htKspCKm70pr5xwb8n0sS_oi9Ah1A1zTpVF1sD47prCQWY8M-HH_NH70rBfutJjMBiZXP1e3UTv3eCX4owCDcTxY0IuOE7MA59s1BrkgXbtQ87BW1RzC9K6fc4JgJSCLwnbGHawNiUKelh0jTblkKcJfFcRKLtHE3HIXGtgaONpFK7dd0uRjf4R9FWQedTkLD7yafNfOTzibmxvOD4J2w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJd5d0CCsb1h0RmW-ACIXfSRQ/photos/Ab43m-tGRZQlV76hCHJ010dFGYp1Vgk-Dn5fQ97wyNS7vFIV0qs-RpxLHiTyPFBY_rQeJVMms8bf0At0cWapEyH8H-k2XPOlEDwnBJ0p25kL9wGfGvbGdtHUDEyK5KVbBJqP9qAJPkNtT17c7aZgWIkQUkkaCcUB2ec2ZbuazIYE5jmNoquvW_RZFEMo2jSF1-47OKKoi5lutJ2RtoufvHs9BhvoBqeBtT3g6AGTMXletd9QDdKtWlgQbkcVfzGkKc8fOUIQYnVycKHK3BGoAusvdZekKTBlFr1Ur1qZOYS2YjQyAdF3MFN24mkOAMODg8gfA6RVr5qsLBaRI7E6hOXBfAIGnqCsA2DlaRwOAiqBZ1UPJ3zLXGUu2toWLImhxzXnSS8inGUIzlJXdldULtkuX8lBTLoIgcXYo2gD3SWNDsPr7w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:56:06.053089+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

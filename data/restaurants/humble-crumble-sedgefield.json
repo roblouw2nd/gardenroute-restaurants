@@ -1,0 +1,75 @@
+{
+  "id": "humble-crumble-sedgefield",
+  "name": "Humble Crumble",
+  "slug": "humble-crumble-sedgefield",
+  "town": "Sedgefield",
+  "region": "Garden Route",
+  "address": "Shop no 2, Amblewood Complex, Main Street, Sedgefield, 6573, South Africa",
+  "coordinates": {
+    "lat": -34.0137888,
+    "lng": 22.802344299999998
+  },
+  "phone": "+27 82 588 3292",
+  "email": "",
+  "website": "https://humblecrumble.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJLeXgnhK9eB4RIwKXpfp271A",
+  "google_rating": 4.7,
+  "google_review_count": 13,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bakery",
+    "Cafe",
+    "Desserts & Ice Cream"
+  ],
+  "tags": [
+    "Takeaway",
+    "Local produce",
+    "Casual",
+    "Walk-ins welcome",
+    "Family friendly"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:30 AM – 4:00 PM",
+    "saturday": "9:00 AM – 2:00 PM",
+    "sunday": "9:00 AM – 2:00 PM"
+  },
+  "description_short": "Artisan bakery in Sedgefield serving freshly baked pastries, breads, and their signature crumbles daily.",
+  "description_long": "Tucked into the Amblewood Complex on Sedgefield's Main Street, Humble Crumble is a proper artisan bakery where everything is made from scratch each morning. The aroma of fresh bread and buttery pastries draws you in, while the display counter showcases their namesake crumbles alongside sourdough loaves, croissants, and seasonal bakes.\n\nThe bakery has built a loyal following among locals and visitors alike, who come for the honest baking and welcoming atmosphere. Whether you're after a morning coffee with a still-warm cinnamon scroll, or picking up a loaf of their seed bread for the weekend, the quality speaks for itself. Their crumbles change with the seasons, making good use of local fruit when available.\n\nIt's a relaxed spot where you can grab takeaways or settle in briefly with your coffee. The team knows their regulars by name, and there's always something new coming out of the oven. Perfect for stocking up before heading to the beach or the lagoon, or just treating yourself to something properly baked.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJLeXgnhK9eB4RIwKXpfp271A/photos/Ab43m-sxm1KZIfxLnA6Bf8sDdIoQ03SXFu4_mdJbseDGWh8s4iuiPr7O4owoLIJLgczWuUX38w9yVpxF6IkvCkTE7vk7Hpuq0BqAm0BEr8a-QMbYMKQVQXkRmU4qS85DOC1EYC7PxYEG1yGumrcBN9ZGXdrproEdjkAJwaXpedzUuL6gkarfs0KzttQ7E-SWIomsfvNAcpQC5y2-VNQDx-bXXJFY1-rp0O4xp7RMfLK-MvQohQ4n0w_OGDhtbSDZcz2WmqelfQuP3jigZDSTsEOwsD3-Ae6DZ_FdlO2brzZCLBpeLg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJLeXgnhK9eB4RIwKXpfp271A/photos/Ab43m-tanIGWWx8CUHH8tJqLuvbAlIPUyxXYsKCKEyYszPm2nMmIHOpk4DjDBwosIkln2gL4pEkOhBQ8KxCPK0OaFA7OXRsA98ySpNIszrkFLOOBSaUXJ7t4vauOZWzaG5JoNkT1E9E9WKWCp46Ms9ZvNecIgPiv32tEJ23fnfyYPgEvm-RuQ_PBhEUCt2FOZ8_BgEHKduIjzdBZjV51_N-G0gsLn56F-AQ6V5ccfbLGbIBHmle55tDvVl2Ulyww7M4u1GKnhBwILdW439RnXSOYN2EqXImXzbzqFjdZOeadyEO9vA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJLeXgnhK9eB4RIwKXpfp271A/photos/Ab43m-vsdMBHF6yUNwxX58vRm4HlTY9OAiQqM6ku9JTnvVHIy4QFsqRqa7EFsacfiSRQeBkjG2ofRpP6Td0A_dz2ZsMS-3Y2h0XhsWSd91onH-rQBGVMGPewYuMEUj_BfcWbb97vlbgj9mkzelUGEossQ0xpV7pmhVw-zrl3t7JrasDn0nfN28-_NWlt9_p7k84DO99L9tkwJNUSgk0-uGP81Cwe8ERELXlf7v-MZJnqCh2ADYa9z6MCaFC1a_FNI1kuRgr_CAJfdxrJw53jbSMkRoYwMq5-mWkQ2ABOQcvzg6IdiA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJLeXgnhK9eB4RIwKXpfp271A/photos/Ab43m-tv-BLWgKL_RVdPy_sP18bIpVlKy4T9210whUTbJtnt21rdJWoyZpN0EFiqZPKxQwr6JEImE25bE89ArXlwmKULjQcsDdelFPOl1i54gLOZHs81RVUU8J7-xC87u2AqeHFx62pKiubHY3l6l8OgyBHOAZh58rWr55oDb1Plhn3HnH-J2Kyzozwr6MSReafjqRY_8Z3Mifr_nYjSgujXB9olWPkePoZfWQWSz5oODc4GSXeZ7WwNSeLjMFgXG6pK-dAZM0Ecj0wLDZgeymIx40DnI6DDW8ch5_slzbvtzf8XLw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJLeXgnhK9eB4RIwKXpfp271A/photos/Ab43m-vbPvtXHFKPHw7wO2s9IwqFZatGv1LKkjFjaS9aS-NfHi5c2jN-bDavJmOP2NZnPNr-FVIt-lOkB6pWNWVRpsNE5oyoZNXTxOTKlInWDqqJOg_y0-1w1u2w7XdvEYYaoYogpopH4X-cHu1Qcr6s7x2Zagq-zayISIEopWv0UXXeNZ4hedgiy2vjIIGIJYjT3ACcRHnbLFIq4_XgEQqGjIlyMPHoVkNyubm0TtTJDxBIszJatkyIhBD1cnJjUNnB6u3xlkYjCtBXHBQjxR_WFA8V4Nu_VyZVpBKTWd8ObWKTT8l5neepinzwo_F2E6GMRWDIggK1i6M5QryUDZ8AV9TUe1BNlpfrsc0haq4e2xwtOU2DmvWrlPTpoaC0dDfx1GBTINDCI7EV3QhlxJlxGRuFMBJ74p6c0FYn3AuR15CnPzFV/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:49:53.484400+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

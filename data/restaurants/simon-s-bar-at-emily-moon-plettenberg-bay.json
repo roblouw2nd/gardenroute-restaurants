@@ -1,0 +1,78 @@
+{
+  "id": "simon-s-bar-at-emily-moon-plettenberg-bay",
+  "name": "Simon's Bar at Emily Moon",
+  "slug": "simon-s-bar-at-emily-moon-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Rietvlei Rd, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0102225,
+    "lng": 23.3731382
+  },
+  "phone": "+27 44 501 2500",
+  "email": "",
+  "website": "http://www.emilymoon.co.za/simons-bar",
+  "menu_url": "",
+  "google_place_id": "ChIJVdmMZuDheB4RTl7lusW90As",
+  "google_rating": 4.5,
+  "google_review_count": 107,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Pub & Grill",
+    "Bar"
+  ],
+  "tags": [
+    "Waterfront",
+    "Outdoor seating",
+    "Family friendly",
+    "Casual",
+    "Good for groups",
+    "Wood-fired",
+    "Full bar",
+    "Dog friendly"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "5:00 – 9:30 PM",
+    "wednesday": "5:00 – 9:30 PM",
+    "thursday": "5:00 – 9:30 PM",
+    "friday": "5:00 – 9:30 PM",
+    "saturday": "5:00 – 9:30 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Laid-back bar and pizzeria at Emily Moon with river views and wood-fired pizzas.",
+  "description_long": "Perched along the Bitou River at the Emily Moon River Lodge, Simon's Bar offers a relaxed setting where you can enjoy wood-fired pizzas and cold drinks while watching the water flow by. The covered deck and garden seating make it equally appealing on sunny afternoons or cooler evenings, and the vibe is unpretentious and welcoming.\n\nThe menu focuses on classic pizzas with quality toppings, alongside pub-style favourites and a well-stocked bar. It's a popular spot for families, couples, and anyone looking to unwind after exploring Plett's beaches and nature reserves. The lodge setting adds a touch of tranquillity without any fuss, and the staff keep things friendly and efficient.\n\nWhether you're staying at Emily Moon or just passing through, Simon's Bar makes for an easy, enjoyable meal with a view. It's the kind of place where you linger a little longer than planned, watching the light change over the river.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVdmMZuDheB4RTl7lusW90As/photos/Ab43m-tqFzLU5xteQUzSgyOj0IZUTH33Z0m_R6a6gmTl_3vaC493aMrCMliT1J1toWZTgSmb4boJEw2lOvrMUPIRsTFpL5w1HKoUxyi5VJqAN9bJaKAO36RIX6Np8EGkvPld7ml_IsJdWBDjwcCmqvuN3H8hl_sk4OUVIZwPSqa5zFwS8okTRyL93lqpqGVYW_wNPvmMn-pwHWb7C6xdamKg9rSJYbfxNlh9HhF2fbMthjLfg7i8h21NZ8GwK2oBMPH9R464aX_qp8OBvb-60TLZkMwnZkzI2lxlXSyxJXmdqdBaWw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVdmMZuDheB4RTl7lusW90As/photos/Ab43m-tXh2QlwkJYqwd4Q3yer8cEmoXMrk-eWFQM8ZCEQfa8WPcyF_ue_Uymzh24SlsT75RTP3qo-jBzB18RI94qfieRatOFBcCgXE3oTW5P4m8ksLxEKFFlADM5GBneAOfyX0Nqzr1JfNrUlBVjCd9tEqVDO2dRk2WKQUhdMCEpS3zxo1jvLBLbvrhm9Cjlii3tN9GCXgC0xygNWr-B30ioQNXnQh3jZt9Kp6Pl9b2KLXCjB1wZGv_dgG_hP965JcvvPDXHErxV7XLHGxNMzHh8cpFRHCjbAN97QOR4GBdz1ILXNA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVdmMZuDheB4RTl7lusW90As/photos/Ab43m-v_uDlnnSQAQFWUr9b51LXfEVubOab9W6VLFWLZ6PvvV1yU7EtP15fQsEi9QGKw59TG581u6Dwve9OPhhaQX-uUJ0aACP8QR_CehGWwfFVoDJ72Gi6qCdqgtKSf1o_w8BzEuCxSU5iuFFG4hjKrMROnYYafCqlKq38N36UU24Rs_UYnRX6kboo1qlMEi7-5BB8g76JPOBcb_7-2AcPe82A5Xh6AeNpWK9tkZn089imumNySl5BO61luZGYaKzC-AtRAGZmfBr4lChtVa80gqHEWqig4J21v2r3UAB5WN-uz0ek8CvJqHGTy6Gb2QOJ11eihe2YrHf1FgOD8eQ2ZDAE3bNyOdt6ynVKVxdvE-3WieIZRWR6NCvTAtrPMgpPxOuRC9k2i_cI4Ri4RhA6N_qARIoA43zXCqkjg8B0zGG78hQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVdmMZuDheB4RTl7lusW90As/photos/Ab43m-vtDjnG8APbP2ykTdPwuD61Y2vcqpPNUOTcVbNh4xL7NxYIGTrVbZBDcUvLHPNrW5Wmjm0BS0vojbyTWaQiKzlPBi3PwmwiJF7ZfQF_fvFwGC9_IDuNtroeh9os4hX5E82vVC7wx5unCnJsH8MMK4iCJMMpHpl7OBFV7QiG5JSOakBZIp4tcFj7hecpBGk7vs0qj22tw1E2YPKWGlSJCkJjLYn4_VzVFcIYydr-aNS0GPQWKgDU26QjOD6gPg7Yc89-dS42dUTxgC_9hdM-jICJpedjtS3aAkbfMnLqYAFfEJVdpaFF9_UdrZuM-SIsnBXDfa0V3r1qFYMGewUK7--373dU5Cw62Yw270ChzJBdWIclb0sA2Ftsi8NnYS2ByMAMTQKdC5zfU5N1tSbWiXuD6rft0LGoUE4Q-w_zvNWSieRAoROh2c-8qNrQ3tyr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVdmMZuDheB4RTl7lusW90As/photos/Ab43m-t2iJL5mGEZjhtdn9Og1yfpBgK1G_SGrPWjN_hSB10Zz8odDCHfCdIMUv8PQFjIVz3DulVFfJnGYQbtqZGIIR1voCfOXGcff-QgIAqhXslLcl5gkhc3T2S9fI0IeKv4tZYihpRbPNo9weCoZayt_Z7gpVGUWbvNFKoC1DQaUApBJvNdz1wi3eYR4_xJpJ2prUU2hHvIixw7b4iTOggjh9WIMHKRZSXOJTEASs9wv-32caqlg0GpOLH-1ggdkJw2Q4IO8gpk06_GmGLXCvfffIFxYePO8ihmZCbjBOotAJUdEQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:32:58.081947+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

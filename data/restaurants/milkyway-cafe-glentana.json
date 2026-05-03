@@ -1,0 +1,75 @@
+{
+  "id": "milkyway-cafe-glentana",
+  "name": "Milkyway Cafe",
+  "slug": "milkyway-cafe-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "33 Brinkley St, Klein Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.0801298,
+    "lng": 22.1500679
+  },
+  "phone": "+27 84 569 7257",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJSd18sLpt1h0RBAGphyyJRoc",
+  "google_rating": 4.4,
+  "google_review_count": 45,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Coffee Shop"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 5:00 PM",
+    "tuesday": "10:00 AM – 5:00 PM",
+    "wednesday": "10:00 AM – 5:00 PM",
+    "thursday": "Closed",
+    "friday": "10:00 AM – 5:00 PM",
+    "saturday": "10:00 AM – 5:00 PM",
+    "sunday": "11:00 AM – 5:00 PM"
+  },
+  "description_short": "Friendly neighbourhood cafe in Glentana serving hearty breakfasts, light lunches and proper coffee.",
+  "description_long": "Tucked away in the quiet coastal village of Glentana, Milkyway Cafe is a welcoming spot where locals and visitors gather for good food and warm hospitality. The menu covers all the cafe classics done well — from full English breakfasts and fluffy pancakes to fresh salads, toasted sandwiches and homemade bakes that pair perfectly with their quality coffee.\n\nThe relaxed atmosphere makes it ideal for a leisurely breakfast before exploring the nearby beaches, or a quick lunch stop when travelling between George and Mossel Bay. With friendly service and generous portions at fair prices, this little cafe punches well above its weight. Whether you're after a strong cappuccino and a slice of cake or a proper sit-down meal, Milkyway delivers honest cafe fare without pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSd18sLpt1h0RBAGphyyJRoc/photos/Ab43m-skm1pN5bj76AQCGqJtOZ5WzeWUC1aYjS6IeeAK16bFcnLydL87iCpAelWTMgCl79zNfL80z6sSQQtqXwMi7Sg70qqYtndUYwHkpwsJIkLqXwWdPTJUPt4VbpV_RMXmTy-I5g44CqRkfbmNVbYMEd6KDiBmqdsTK0CclUuBKhvuoizc99tin7IVPJFEf9M2TwuytVdzn3bRL-x0fBx9FulnymMuWM6H_TpNJRVZPYp7-EF1UB8j0t5vwzp4KFUBh1BR3T_OK7PUpCWDE4WJTNslQOUYLV3z99tG0noxXBgEC0K0TPkrXx2PLe44ifn7LeudADmP07olvEjFoS61w0wkKYagRPf6M56HH2vbIGly7HA5Okl17UWsLfHZkAK0OrjWPZQTcRNCLQrD5mYRsIDZHRr3-A1LwA93O-2aB5SuHA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSd18sLpt1h0RBAGphyyJRoc/photos/Ab43m-tJ1fHajtbA-dvABroMY36k5pkb2ja6Pxnnt_ofF0sBnpG6AoFPXj_dvTsRguodvP3MOFF24hxwLm47PW3rPP32ChBO-RjaPiKyga_FurHo4CjZVCmgj2zP2jOvyOuD1IC0kDTnKzIeoRlPbR-ukSFsZc76nlpUz0GTMLtWl4SatllxSiE-pLxWMOAZH9QkKUmYskBmtH3kBuueijCDpIQw0hAKxZzpTal9zIge6s50Wkax3eULbcqR5UdmeSjOthv9DMSC6E1vpQwPkiUvJ_I0_6ZJQ7K2SOyzb8wnE6a39Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSd18sLpt1h0RBAGphyyJRoc/photos/Ab43m-vuOloaeN3nrBOZ5QsZtXpXtVWxxjxooivw7vGoP0WcNM8yGvbtSVdzXcjZ_nJAoL8ReblpxwJUOgrUsEGGSlrtrbthnTup5fwRxFFWChdQqXbyq8W3XABeuLjE5SHNLeUgfWghN4yQOW6P1fRGpliSbs_8yJkz1u36af3uvOx7kHu-pKTB52h7CeRcrNN_qp96GgM1i_3nvM7yOrouYHiVl8w6M4kcMJo1dTA51jGLn7irhbqCl4TTbs_24myKwxAb9SEjmA1IeibX31MhJUUK0H45SkcyUxdHDna7UoRK7g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSd18sLpt1h0RBAGphyyJRoc/photos/Ab43m-s-tTx168O9ZrxrFqaKLcZ--eqNqPTqjFPJrwLf4hm_Q96gHSuCIZ1FQE-j7yrgCrowv-ucDZC870HkwUyjfMSFa2Y1_IEQDpr8YO0HgC7AEGort2DtBDZ2N75X0xMRBPRPxckmRp8PrmUiheRgGtwJwgWSNJkhpZ-2KG097xaZVUn3ZFzZISQNL6nT_FHok0HnJUldElvavbD3B2rVjrJFKJeuOdCdqXCzuBdrjMbRK2Tz9H4f2mWkSDaRXRVTEuCGNycZY5-FxgI5wNS9JxHNGh6hp7Qj1GlB_BoKPn8TlcSJbaxGQZwhHC3ALOlU76W6DcgLZacLsGQtpP7VeE366-6CvaMOUy5ZRR7HsHPz7SmtAWG7PtGfCJrm3wVveXBOoEFaexJzBU24YK7td12mEGDwL1GkHfC8CLnkC36CJMY0Ivshq9zEV6mblFkL/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJSd18sLpt1h0RBAGphyyJRoc/photos/Ab43m-vWR-3gli0qIG_sb2JK17Eu78kX6_AI7b9mHNVavjDm_CYh5vhExaEnZ13lg61WgE9UekmzAk0p9JBdvctfhV2eJs4XCFUOegXj4kbnVmQ_3W0KQjS9YBm_avEAzrw8VKgMI5pMBnSeWn6Qzl7Ji8vV2CFgSBhvklu8yWbLbvnr2cqOU05Jgus6kgj33vLdHXb_LN3B64HcVyUKUvJknrk3Gssyg7qyIbo8uVidBCNBVIT9jhDMCq_H1v7uyshT9fDCR6dDvvJgqJfe8E7nHP3qH6V0VNwVHpKbat31EsbGQ7w_dog261FVEMFhG4khgnxopcvlr6_AbO71YwXK-GN6ijyKFUxWZULo230YagIMpPRAv6dHyggxsZlCCxSWq0WFt-jSVZ8KlgnpVDbp4jer3_yJowQaeKYoyGCx-q7qL4eE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:32.027221+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

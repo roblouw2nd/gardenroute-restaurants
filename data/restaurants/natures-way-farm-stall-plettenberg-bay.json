@@ -1,0 +1,78 @@
+{
+  "id": "natures-way-farm-stall-plettenberg-bay",
+  "name": "Natures Way Farm Stall",
+  "slug": "natures-way-farm-stall-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "R102 to Natures Valley, The Crags, Plettenberg Bay, 6602, South Africa",
+  "coordinates": {
+    "lat": -33.9433351,
+    "lng": 23.511167099999998
+  },
+  "phone": "+27 68 787 2603",
+  "email": "",
+  "website": "http://www.naturesway-sa.com/",
+  "menu_url": "",
+  "google_place_id": "ChIJx1nOjpEYeR4RdXIo5VZuGpA",
+  "google_rating": 4.7,
+  "google_review_count": 903,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast & Brunch",
+    "Bakery",
+    "Farm-to-table",
+    "Cafe"
+  ],
+  "tags": [
+    "Farm stall",
+    "Garden setting",
+    "Family friendly",
+    "Local produce",
+    "Outdoor seating",
+    "Takeaway",
+    "Market"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 5:00 PM",
+    "tuesday": "8:30 AM – 5:00 PM",
+    "wednesday": "8:30 AM – 5:00 PM",
+    "thursday": "8:30 AM – 5:00 PM",
+    "friday": "8:30 AM – 5:00 PM",
+    "saturday": "8:30 AM – 5:00 PM",
+    "sunday": "8:30 AM – 5:00 PM"
+  },
+  "description_short": "Family-run farm stall on the Crags serving home-baked goods, local produce, and hearty breakfasts.",
+  "description_long": "Natures Way Farm Stall sits along the scenic R102 between Plettenberg Bay and Nature's Valley, offering a genuine taste of country hospitality. The bakery turns out fresh bread, pastries, and proper farm-style baked goods daily, while the kitchen serves generous breakfasts and light meals made with local ingredients.\n\nThe farm stall stocks a thoughtful selection of local produce, preserves, and artisan products alongside their own baked goods. With outdoor seating overlooking the Crags countryside, it's an easy stop for travellers heading to the beaches or forests, and a local favourite for Saturday morning breakfasts. The relaxed atmosphere and honest farm cooking make it worth the short detour off the N2.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJx1nOjpEYeR4RdXIo5VZuGpA/photos/Ab43m-un7gcS8mHVTdzRHjWN-ac1Ia9VVPR_i_04SssrBbSMHiDJ6yye_tNhTOe7GMxet-kXZWRZxYo44j_LxMGRaPwjRmRH0poBPYGM1x5YNU49kJWhQeWOGaAySPOxzado5x4P77iX8KopLs-7jrn3A2mm7dRUlgaZIW3PHn3BGoHJ-il_W--sZ6ZPC0x0rZeftcvH1b9CBIkwhMtbOVrcVwq60-7hPDWw7BzD8kV60_FjWgsvfvHp2z5JAanX34l8ndBX_21cmyo3xFWHnwARQJM59L9mK18QV7HUMqJ2Q-O9inygy-K5wRHCQxaSBHlTklPuUkdg0mrSY_EED9mas18KwoakSg2q-YqPwu-ICBETunkbtpTV1aUFmWGwhnQDKe_4SrbMxhS1sH3n-7F7a4mpUzFaDv4w5NSljcPTSF4/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJx1nOjpEYeR4RdXIo5VZuGpA/photos/Ab43m-tEmZl4N77kqHSVNdADwc1AeWQafo4osQKhD58Xds0zFlRJGgR0XjeENB2ilBukDhhg-QC4ETxkC0LBcdQShnjJYQ30u3V3Hh4ql0SmKQpByvaOgbC9c0PtuuRgpWgfxKo7UilLBWZ2B55x9tRAfk9VrKMSSKzcnYUyEJOY_z_nEpeTFrfcBLrE9S-FgDXeQ9_pXtdr2zppt_JT9wS99I-Q_60TGmY-pI6d2KJ1bmPYbYfx3IeJqyEL_3xVCIDZsdNc62jDabuhh-4GiOtGBEEthvHONxRZrVVLRkrrre6FpVasE2wNqQ55IRoUkIxuQlZBYG4rr3nHujuQCTWAA-8d_OhqilBJYUDNGahphC1bkxFk5o-jXMMTW8Euye4lIt2WPsSIQygTZzlL_89kPrXkL7-9CY6dB3_LFsVKZPr20g5a/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJx1nOjpEYeR4RdXIo5VZuGpA/photos/Ab43m-vDZvcZQK8utx5M_FPEXKMbcaQf05fVsRJVTLYV8SlnQylqM8-lbzCroDBuS_r8mvtF-rX52n0c1JzoAFZrMC_4s2VMD2iyAWXov-NMIm_e8fmyYsFmYh1cSesPuqqT4xO4hB2pJbOkijBIZFEmgxI9nBDPqBprPGxXjyFfbajz8jWT40TcU1pyNe6iy19mctkriian7mqUTZ5zNc8D4yJkmlKtcwLvM8y28YBhEyaUy4q7sGd4MohOps_DXwl6a4sQvL5hP-cWjyQOTlQXAZNKxcYCeCun7uDsG_HqGc3eIgDVgyt8rBKaN5DLRWmABYB15kNHjGwAJoGV7W-uJMdg4opIBUVYBumhgW-CRiChPM2_mj0pSrdaQ7cgUxCY5xX0dOQupgEh6ERBMZ6YFir1d0wJDGeM1KWfJ6k_tTB4Qg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJx1nOjpEYeR4RdXIo5VZuGpA/photos/Ab43m-tuj_QPc-TeS2FHbvYd0y0qKoUw6dvQW5Mf1_w5tgtKnUbnFoaMH5HgI6GS7o5ILU3Aku2Bhaw3THtyfS0mvunF42pgBf4N4-0MKHGb7tmWg6V2maz6HPEmCAcy2mSrlW0D2J-U5cXynOWl7680KIsizkyhW7KXjZe6kuoohmUk66KnQZ042hCgPHX3qnZliihqpyqVbV-_nOe8QtXCUSswAwbdeR6RtQi5FHpIutPqGISS5ttvYQXA-RAubRkjRK8Qba-eH_wQZ3ISm9o-47sCCGg9wXFxM9HpAATOq0cNRnGCMo6mjZWxyjs91sfnyl7sy6dL9bUqL3p_F6Ap8dspnfy1Y91owjA1fmLrECmbYPy32UEW3a2wl-X2uWS6L_IGydNdLLnPg7nNlMep08gKhskbz6sfzsWopzVqd47f_A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJx1nOjpEYeR4RdXIo5VZuGpA/photos/Ab43m-sSr96WihiWICMSGX5nQzuppNHGrmSUYOw-a3IjNknkinJZR2wrN-o7TqFVlSJRTOFAQ9WMuD1L1XucOVDjHJnK2OT9p-KYLmqXDUxY7Kr-0b6rR54cx9ABJqle_uGhIrW0xZPCzwIFOREYZyUjin80NDTcR9HCELbKX_W5LPp3pPm9j4YFgXKSJDt6oHlMgeeaa0BHAh4voX3UL35zvVKO76D8PdrEuJPPMEN84Ob2DEAECVAt-TF5iTa31s-UvnKQlmftoKK1WH-UN4JQCbSYzLYWz1JTOw10WWkfJhz9mr9XU6FmrhGNYyoAlf7MOep_YOwI5B131W9QLsNC7fRUk3W-T4WlNnG5H2Gr9YOtcdZFepXDWlnNfR7_XJM8fHXYfn-pR5nbyBMFdU4Q67YNQAiSkGcVswIrZecV31uJsQQGbKem9U-EubAU7V_Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:38.176634+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

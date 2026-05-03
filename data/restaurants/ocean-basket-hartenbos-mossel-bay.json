@@ -1,0 +1,77 @@
+{
+  "id": "ocean-basket-hartenbos-mossel-bay",
+  "name": "Ocean Basket Hartenbos",
+  "slug": "ocean-basket-hartenbos-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Shop 30, Hartenbos Seafront Shopping Centre, Paardekraal Ave, Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1273325,
+    "lng": 22.1176985
+  },
+  "phone": "+27 44 050 1982",
+  "email": "",
+  "website": "https://za.oceanbasket.com/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "menu_url": "",
+  "google_place_id": "ChIJaSgvTzdp1h0R70JoAjg2gGM",
+  "google_rating": 4.2,
+  "google_review_count": 2429,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Mediterranean",
+    "Sushi"
+  ],
+  "tags": [
+    "Beachfront",
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "11:30 AM – 9:00 PM",
+    "tuesday": "11:30 AM – 9:00 PM",
+    "wednesday": "11:30 AM – 9:00 PM",
+    "thursday": "11:30 AM – 9:00 PM",
+    "friday": "11:30 AM – 9:00 PM",
+    "saturday": "11:00 AM – 9:00 PM",
+    "sunday": "11:00 AM – 9:00 PM"
+  },
+  "description_short": "Reliable seafood chain at Hartenbos beachfront serving platters, sushi, and grills with ocean breezes.",
+  "description_long": "Ocean Basket Hartenbos sits right at the Hartenbos Seafront Shopping Centre, making it an easy stop after a beach day or coastal walk. The atmosphere is relaxed and family-friendly, with that familiar Ocean Basket energy — unpretentious, bustling, and consistently busy for good reason.\n\nThe menu covers all the classics: seafood platters piled high, line fish done three ways, calamari that's always a safe bet, and a surprisingly decent sushi selection. Their hake and prawns remain the go-to choices, while the Mediterranean-inspired dishes like prawns in peri-peri butter add some welcome heat. Portions are generous without being wasteful.\n\nThe beachfront location is the real selling point here. You're a stone's throw from the sand, with Paardekraal Avenue linking you to Hartenbos's main swimming beach. It's the kind of place where families settle in after a long beach morning, and where you won't feel out of place in shorts and takkies. Service can slow down when it's packed, but the prices remain fair and the seafood stays fresh.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJaSgvTzdp1h0R70JoAjg2gGM/photos/Ab43m-vwQ2ro3zEDadWzOGFL5Gvd0tBqaOIW5DOnpYKnCsepQxJJ2Q7S61Uo3It0xJ3AMsaotxfcrD3N_w7JsvJcqzPkbIaXx-GuwD8_JNaPwWkd1i_1NLYKZv-EygPibVVlOcJvhkqV4_Mj4b-5SZ5GUZy9euU6sugJ6lW_6r_9LFi6h4E27jlIwMlYY7pcvaDYhm_FiwmmsvOmD11CeKWrMnwOzc2XBktZboEBpS8iqRCm2DMr5aef_M_r8GKveQ5D6-1gGcl0gzszZxvra0nxe2M65WDlTFJAxO05l21BBLEjKfd_YAeJjnfxN9W1th1FvML51kBsstIAA1riDTbWc3b8ETM3XzKbhn3muD46nxLpZC2jhYOsbdh4CK2uh3yzHleIPFa7upNavnSVOomnXtxNiyFIybXltSbGELPUnHysRHgI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJaSgvTzdp1h0R70JoAjg2gGM/photos/Ab43m-vVpBp_ZOtubn9lL7g4176yGQycxqKG_0hl8abFd_iDScsxkiGN5u4GNSSRhrItKg772qf3_lh4hyStsSXSJIawFvO4LTprMqa2YfAYVqz1Lwd7WNoKoaTFKsm5rulSewC_PY1AEB2rRyq85wHdyPI70cGvRLvX1g6G6trCh7xQ_0lnrUvMR19XGtv_teY-EVb8lBHQofQV9iND9SyLJEg5COUn6uWZ1kHkdscWSIhkB4tSPQksAqTTR5IEbZ_TdiBpqiONiuYEoko6KiYQ0CHyDKPad6fjRjC7cVLk5DbTLA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJaSgvTzdp1h0R70JoAjg2gGM/photos/Ab43m-uDiEFq2cXDQGBzpfZGtneYGqTfKbVjAqB-lsa27oWanaT-1M1pberxPKpujLqAhrsGGYaf_10425U2bRqqdY87h7A1KXEuNT07TKpvVzSdFZMFFW074cGVNN6M5ZNcmagYvIJIKZH1A8GMrVelawMt_8hAcgLn4sLhVj1MTj73d_9t1w7s7NsX5GQ4uW0knbFAUmUwFpMRPovgz2_B8WdHOBNek5T0Xuu17HcUeQTY7nvc-Hznoz2N14rSCRLW3igT0GpSmsU70TyNiOo7xBYb2iqahMdlbwaABHbzx8VbpQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJaSgvTzdp1h0R70JoAjg2gGM/photos/Ab43m-seGc3_UiVIrUzi4F-CQJT1ukP6Dc116Edh7uRSWvpD5URRdLDlRvUdTw13Etn9LJgtSQBs5bsK4lwc-8mA_Wf1xOK0qr9qbXcJrLkpsEgEhvg4HnI0ds-080lggIRQ4PlMdCxWILrib80C8KLYBCEbOH-E0okpz-KU6drYLpN23shamHEAh1sxFtS3I9amRTOrQ6WpCOXgmzX4ANXStGDNPxG8C0WOHzk0r8YNEup0edBoIvrz5plvdG3IHqJjEu-1yBwwUkobLxWccx9K2BlmRrUzv9OquY1xDKZmAG0XPj-t8iJS_DRY5aMm5bVz7EaFjUI39-o20UNggt9RPz49EPP0zJP30Nqjt886JHhvO0sFdFmU5WfmAhG9OiffmfKsmDvabtulViESikDS8S6MUvzzqxNwM8oXAYs0jR1CEvHe_YO0If8_trTh5G9N/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJaSgvTzdp1h0R70JoAjg2gGM/photos/Ab43m-uNEnnTjZzUN2VWojcnQByH-2SYv5FtpbmvM10FSYJ-WEaKizi7oOYd2wjc3lSvixjjlWOJhY3CXxsHBiT4PaxuNrZ37P80zHYS0lwI60cZp7yK9OnAXM2HQ-0Wd1zas4QZm5kSL86q0v3kOcm1otOc-BzhfA61UDmY-sXXoTymmkPf6GwPged9zRIRm8FXI7mr9F3bGxAqyJtmnrhLqTNESeUoIyjyAc3_liOWwzTqMsQwZ2bDZ0_k4Ep-wB_276IykLRNx-Xe_YCODqrj_AfO8lYf5ioiGwvPN5ydFiVWYj0o8hbWJNUTQFgE4kFJDxLCDmi7S7ejsd6GOSa8_t3F-Fs7enCZOhZUfvzX5_El0Emk643rpvyG_lKM2DNsx_kTSRopXchwDm8Tt7gjjviZUteDmbvnsFf8cvrhjvV2LToTCVsddnm5b_TLAy7i/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:47.520546+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "oasis-pub-grill-herolds-bay",
+  "name": "Oasis Pub & Grill",
+  "slug": "oasis-pub-grill-herolds-bay",
+  "town": "Herolds Bay",
+  "region": "Garden Route",
+  "address": "Mossel Bay, South Africa",
+  "coordinates": {
+    "lat": -34.059784799999996,
+    "lng": 22.191843
+  },
+  "phone": "+27 63 165 2117",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJf3vM6P9s1h0R53cjvwoMo9k",
+  "google_rating": 3.8,
+  "google_review_count": 55,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Bar",
+    "Burgers"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Walk-ins welcome",
+    "Full bar",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 9:30 PM",
+    "tuesday": "12:00 – 9:30 PM",
+    "wednesday": "12:00 – 9:30 PM",
+    "thursday": "12:00 – 9:30 PM",
+    "friday": "12:00 – 9:30 PM",
+    "saturday": "12:00 – 9:30 PM",
+    "sunday": "1:00 – 6:00 PM"
+  },
+  "description_short": "Relaxed pub and grill in Herolds Bay serving hearty meals and cold drinks near the beach.",
+  "description_long": "Oasis Pub & Grill sits in the coastal village of Herolds Bay, just outside Mossel Bay, offering a laid-back spot for a meal after a day at the beach. The atmosphere is casual and unpretentious, with a menu that covers pub classics—think burgers, steaks, and grills done simply and well. It's the kind of place where locals gather for a beer and visitors stop in for a bite without fuss.\n\nThe location puts you close to Herolds Bay's sandy stretch and the dramatic coastline that defines this part of the Garden Route. Whether you're after a filling lunch or a relaxed dinner with friends, Oasis delivers straightforward pub fare in a friendly setting. It's a no-frills option that does what it does honestly.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf3vM6P9s1h0R53cjvwoMo9k/photos/Ab43m-v5pxQy7izJRiwIiUeH4Ga9SPbWc6MRRhVOc_ikxr21A4W8gCqpu_FKRPDRvH5TomM6J9RCjJsvKM4VJ7ihwFl5C61MO77awqRY7r8tASZLBwStiHiJriAXD5_tW1Vp7wtoPCkX7gZ4v2prq72OAjX6sHdviTKmaLzSMw03WM5tq8y1SAscloJQrsvnyDln0qnyK22I_-dTDc-w333qDdAR1r4BtPw9Gar4DlSTgg6NeWuIXN5_fVDZkUOypO_kBdGYR_4mUxNsYn3noc0I-bx1T3ga415rUx5QZAT4Ntgb1CQd2MMbbmebCev148YqIxw0oTeGXPCl0986v3eb_b-C9MWIGyDstelUwLcjyGx1KsKBFVr-ilx9bAtOFtuU9ZcCFQgmRm7ozAT0pOzMahMMdCmAtlm_5lnw1BRC033JZ2oD/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf3vM6P9s1h0R53cjvwoMo9k/photos/Ab43m-uTnZW0Z8J9Bz9NLNL5TkGKuUYsI6b3iS03SkT4UDsO-iO9nZ_0xD81DC2cCBS_zU29iA4U4WgZNmJbV52iNXo_xy8mllt9lmRVgHxuCdf-Ro0ApjG9fhgqMZF9rirkVaDRJuN6IC_11vPHx-aa_-7ZSWlWhToxiuq_NcnaUShEJOZ1RTXpQOGZ4rw_fhbjiDyqUOmOOH4B_kXSPrYORbJpWOrd6rj3vv0bcpSBCAux9Olvt1U0_Ei_xGF1W4UE-bDVQFhcNA0Rw0fXO2aUklbzkJ9eUVbV_RY1FG-M-4812U_wp2r5cNsDtf9EPS2-CGWXNkf_2Y5I-ojNpAJbvfTlltLaKaZE-Dm4jjpPlfZkelcyotwPdPIuXVgCVhfFH-d2Min4K35cqRLnRfNAeIsOcPrUeTKYW9SJHZcuVAKMpg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf3vM6P9s1h0R53cjvwoMo9k/photos/Ab43m-sZO0Gktaj1ucawHKTzkkxo_RKQA7YzxP2EkqPOGafvLUGgL5m0V4CSVuHfQzj33Sts3VZoXfQlL40OxE_BwVxsK2oLMYYCPWDH08neL0BA4ZsfBB64fSqoYbnu_jBiMnV3nBZAUQGHC0sNd9oBureOBsVvkGaMOGE5NLdPPeefuWa8x1a8puKF8Lfb3ivc0LcKAFUYJWEikgAfhvh8XSgo6mAg3r2wmIu3UooojSvSzR6-BF0P0YMihsc_UzkiVIA0Wxib24g8f17sDhY3IkT3-Xtc49ViDjy2Rpz8Uol7PP7P9TBItbStHeIclNxWcu1ENuWso2-ZlXvazapyP3_sTK4fwtdPP5nlDGrncukcSXSv4v1oNCdi9zgBPGnayNoL2hCXaYcO1OVbbMmR7qUInVSYlRyEtNiOilp_hAzIMg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf3vM6P9s1h0R53cjvwoMo9k/photos/Ab43m-v6tbDlDWrzsP9psRMNVsXW0R9heCnVcLi9u3y9tqjqsXWm4K8_boTwmfLaDX8_eArG73KVUoPqg_VNJW9CLih4naaMNO6HuFu-WuXN1TUFJbG4TP-KxmLoFe20Q5uNkourXQNa40QS8Axb4HbGe_Ag_WFXBXeudUHWuGK0ZAJg-ZLW5_02lYDb8tN4qrIxz3Mm54l43t5z2d5B0YkGABBcrAdLqWyjnyouCeg4ssD6m5KLYXNBfHLoecr_26WHv9PmyczWb7oyUELu9GtvRw-X0ARV2q6pjp2X21VdWy7cH2SDWMwJiTOP1B1sHzVcU5aVMCIitX8XckUPi1zYzNcgmopcfd6BmplNjbrgZL43R8yB68yUrCPF5nrjBK_C6eRHxRxUSlPnTgCYXhnq5FUaLsvJuWMqwYe2sUh1GvYJgg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJf3vM6P9s1h0R53cjvwoMo9k/photos/Ab43m-vFrudeL2X9VhI9HnfHMj8P61Upns21cnOjkEZbNctdCQihilnM7UTkKEeF0-P296d2UGICumtC9LKvWQwnDg2VG9more2MkRmptA8w17ZcUj5RwGDFQ8mzPQMK_Ra2OMyIbp5FlU9pK4r2ExOg_iaxohSe8VTUCp9PWbKnc5ItYlwA7BPUl5sa0sleUQ_2f_V12lhOTGLDLAHaB2GyU_HrJ_epj7H-5i36Rum3TXmbyPcTZwpaNqy_yz1oPVDHCrLzvC_GSmyHhEHRMwU6wLCSunV6tp6Zqrrc70-idTAXW6uK-5Fc23HP5_i9MKY2A-WmyVeKCs-vXmtkL5_5ZNIcM8ibmXw-qr2mFuQ1ch42yUwR0GzOcdRfQfdEdt9tj8goZjs9T8yzz0c7jXn__YiSLiJlO1G7N5BzIVXCGBs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:40.330417+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -21,7 +21,7 @@ const mapData = restaurants
     photo:   r.photos?.[0]?.url || '',
   }));
 
-const townOptions  = towns.map(t => `<option value="${t}">${t}</option>`).join('');
+const townOptions   = towns.map(t => `<option value="${t}">${t}</option>`).join('');
 const cuisineOptions = cuisines.map(c => `<option value="${c}">${c}</option>`).join('');
 const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
 ---
@@ -34,26 +34,19 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   <title>Restaurant Map — Garden Route</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Leaflet -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <!-- MarkerCluster -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" is:inline href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- MarkerCluster CSS -->
+  <link rel="stylesheet" is:inline href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" is:inline href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { height: 100%; font-family: 'DM Sans', sans-serif; background: #f9f8f6; color: #111; }
+    html, body { height: 100%; font-family: 'DM Sans', system-ui, sans-serif; background: #f9f8f6; color: #111; }
 
-    /* ── Layout ── */
     .app { display: flex; flex-direction: column; height: 100vh; }
 
-    /* ── Topbar ── */
+    /* Topbar */
     .topbar {
       display: flex; align-items: center; justify-content: space-between;
       padding: 0 20px; height: 52px; background: #fff;
@@ -67,10 +60,10 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     .topnav .btn:hover { background: #0b6ca8; }
     .map-link { color: #0d7ec4 !important; font-weight: 600; }
 
-    /* ── Body: sidebar + map ── */
+    /* Body */
     .body { display: flex; flex: 1; overflow: hidden; }
 
-    /* ── Sidebar ── */
+    /* Sidebar */
     .sidebar {
       width: 300px; flex-shrink: 0; display: flex; flex-direction: column;
       background: #fff; border-right: 1px solid #e5e7eb; overflow: hidden;
@@ -94,7 +87,7 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     .reset-btn:hover { background: #f3f4f6; }
     .count { padding: 8px 14px; font-size: 11px; color: #9ca3af; font-weight: 500; border-bottom: 1px solid #f3f4f6; flex-shrink: 0; }
 
-    /* ── List ── */
+    /* List */
     #list { flex: 1; overflow-y: auto; }
     .list-item {
       padding: 10px 14px; border-bottom: 1px solid #f3f4f6;
@@ -107,10 +100,10 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     .li-rating { font-size: 11px; color: #f59e0b; font-weight: 600; margin-top: 2px; }
     .empty { padding: 32px 16px; text-align: center; color: #9ca3af; font-size: 13px; }
 
-    /* ── Map ── */
+    /* Map */
     #map { flex: 1; z-index: 0; }
 
-    /* ── Popup ── */
+    /* Popup */
     .leaflet-popup-content-wrapper {
       border-radius: 12px !important; padding: 0 !important;
       overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.18) !important;
@@ -129,7 +122,7 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     }
     .popup-link:hover { background: #0b6ca8; color: #fff; }
 
-    /* ── Cluster colours ── */
+    /* Cluster colours */
     .marker-cluster-small { background-color: rgba(13,126,196,0.2) !important; }
     .marker-cluster-small div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
     .marker-cluster-medium { background-color: rgba(13,126,196,0.2) !important; }
@@ -161,8 +154,14 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
       <div class="filters">
         <h2>Filter restaurants</h2>
         <input id="search" type="text" placeholder="Search by name…" />
-        <select id="f-town"><option value="">All towns</option>{Fragment.set:html(townOptions)}</select>
-        <select id="f-cuisine"><option value="">All cuisines</option>{Fragment.set:html(cuisineOptions)}</select>
+        <select id="f-town">
+          <option value="">All towns</option>
+          <Fragment set:html={townOptions} />
+        </select>
+        <select id="f-cuisine">
+          <option value="">All cuisines</option>
+          <Fragment set:html={cuisineOptions} />
+        </select>
         <select id="f-price">
           <option value="">Any price</option>
           <option value="1">R — Budget</option>
@@ -185,10 +184,13 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   </div>
 </div>
 
-<script define:vars={{ mapData, townOptions, cuisineOptions }}>
-  // Inject town/cuisine options
-  document.getElementById('f-town').innerHTML   = '<option value="">All towns</option>'   + townOptions;
-  document.getElementById('f-cuisine').innerHTML = '<option value="">All cuisines</option>' + cuisineOptions;
+<!-- Leaflet JS — must use is:inline to prevent Astro from stripping external src -->
+<script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<!-- Map data injected at build time -->
+<script is:inline define:vars={{ dataJson, townOptions, cuisineOptions }}>
+  const mapData = JSON.parse(dataJson);
 
   const PRICE = ['','R','RR','RRR','RRRR'];
 
@@ -216,10 +218,7 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     const color = rating >= 4.3 ? '#059669' : rating >= 3.5 ? '#0d7ec4' : '#9ca3af';
     return L.divIcon({
       className: '',
-      html: `<svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M14 0C6.27 0 0 6.27 0 14c0 9.75 14 22 14 22s14-12.25 14-22C28 6.27 21.73 0 14 0z" fill="${color}" stroke="#fff" stroke-width="2"/>
-        <circle cx="14" cy="14" r="5" fill="#fff"/>
-      </svg>`,
+      html: '<svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 0C6.27 0 0 6.27 0 14c0 9.75 14 22 14 22s14-12.25 14-22C28 6.27 21.73 0 14 0z" fill="' + color + '" stroke="#fff" stroke-width="2"/><circle cx="14" cy="14" r="5" fill="#fff"/></svg>',
       iconSize: [28, 36],
       iconAnchor: [14, 36],
       popupAnchor: [0, -38],
@@ -227,23 +226,23 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   }
 
   function popupHtml(r) {
-    const img = r.photo
-      ? `<img class="popup-img" src="${r.photo}" alt="${r.name}" loading="lazy" />`
-      : `<div class="popup-no-img">🍽</div>`;
-    return `${img}
-      <div class="popup-body">
-        <div class="popup-name">${r.name}</div>
-        <div class="popup-meta">${r.cuisine.join(', ') || ''} · ${r.town} · ${PRICE[r.price] || 'RR'}</div>
-        ${r.rating ? `<div class="popup-rating">${stars(r.rating)} ${r.rating} <span style="color:#9ca3af;font-weight:400">(${r.reviews})</span></div>` : ''}
-        ${r.short ? `<div class="popup-short">${r.short}</div>` : ''}
-        <a class="popup-link" href="/${r.slug}">View restaurant →</a>
-      </div>`;
+    var img = r.photo
+      ? '<img class="popup-img" src="' + r.photo + '" alt="' + r.name + '" loading="lazy" />'
+      : '<div class="popup-no-img">🍽</div>';
+    return img +
+      '<div class="popup-body">' +
+        '<div class="popup-name">' + r.name + '</div>' +
+        '<div class="popup-meta">' + (r.cuisine.join(', ') || '') + ' · ' + r.town + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
+        (r.rating ? '<div class="popup-rating">' + stars(r.rating) + ' ' + r.rating + ' <span style="color:#9ca3af;font-weight:400">(' + r.reviews + ')</span></div>' : '') +
+        (r.short ? '<div class="popup-short">' + r.short + '</div>' : '') +
+        '<a class="popup-link" href="/' + r.slug + '">View restaurant →</a>' +
+      '</div>';
   }
 
   // Build all markers
-  const markerMap = {};
-  mapData.forEach(r => {
-    const m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating) });
+  var markerMap = {};
+  mapData.forEach(function(r) {
+    var m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating) });
     m.bindPopup(popupHtml(r), { maxWidth: 250, minWidth: 250 });
     m._r = r;
     markerMap[r.slug] = m;
@@ -251,9 +250,9 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   });
 
   // ── List ─────────────────────────────────────────────────────────────────
-  const listEl   = document.getElementById('list');
-  const countEl  = document.getElementById('count');
-  let activeSlug = null;
+  var listEl   = document.getElementById('list');
+  var countEl  = document.getElementById('count');
+  var activeSlug = null;
 
   function renderList(items) {
     countEl.textContent = items.length;
@@ -261,72 +260,75 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
       listEl.innerHTML = '<div class="empty">No restaurants match your filters.</div>';
       return;
     }
-    listEl.innerHTML = items.map(r => `
-      <div class="list-item${r.slug === activeSlug ? ' active' : ''}" data-slug="${r.slug}">
-        <div class="li-name">${r.name}</div>
-        <div class="li-meta">${r.town}${r.cuisine[0] ? ' · ' + r.cuisine[0] : ''} · ${PRICE[r.price] || 'RR'}</div>
-        ${r.rating ? `<div class="li-rating">${stars(r.rating)} ${r.rating}</div>` : ''}
-      </div>`).join('');
+    listEl.innerHTML = items.map(function(r) {
+      return '<div class="list-item' + (r.slug === activeSlug ? ' active' : '') + '" data-slug="' + r.slug + '">' +
+        '<div class="li-name">' + r.name + '</div>' +
+        '<div class="li-meta">' + r.town + (r.cuisine[0] ? ' · ' + r.cuisine[0] : '') + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
+        (r.rating ? '<div class="li-rating">' + stars(r.rating) + ' ' + r.rating + '</div>' : '') +
+        '</div>';
+    }).join('');
 
-    listEl.querySelectorAll('.list-item').forEach(el => {
-      el.addEventListener('click', () => flyTo(el.dataset.slug));
+    listEl.querySelectorAll('.list-item').forEach(function(el) {
+      el.addEventListener('click', function() { flyTo(el.dataset.slug); });
     });
   }
 
   function flyTo(slug) {
-    const r = mapData.find(x => x.slug === slug);
+    var r = mapData.find(function(x) { return x.slug === slug; });
     if (!r) return;
     activeSlug = slug;
     map.flyTo([r.lat, r.lng], 15, { duration: 0.7 });
-    setTimeout(() => {
-      const m = markerMap[slug];
-      if (m) cluster.zoomToShowLayer(m, () => m.openPopup());
+    setTimeout(function() {
+      var m = markerMap[slug];
+      if (m) cluster.zoomToShowLayer(m, function() { m.openPopup(); });
     }, 750);
-    listEl.querySelectorAll('.list-item').forEach(el =>
-      el.classList.toggle('active', el.dataset.slug === slug));
-    const active = listEl.querySelector('.list-item.active');
+    listEl.querySelectorAll('.list-item').forEach(function(el) {
+      el.classList.toggle('active', el.dataset.slug === slug);
+    });
+    var active = listEl.querySelector('.list-item.active');
     if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
   // Sync popup → list highlight
-  map.on('popupopen', e => {
-    const m = e.popup._source;
+  map.on('popupopen', function(e) {
+    var m = e.popup._source;
     if (m && m._r) {
       activeSlug = m._r.slug;
-      listEl.querySelectorAll('.list-item').forEach(el =>
-        el.classList.toggle('active', el.dataset.slug === activeSlug));
-      const active = listEl.querySelector('.list-item.active');
+      listEl.querySelectorAll('.list-item').forEach(function(el) {
+        el.classList.toggle('active', el.dataset.slug === activeSlug);
+      });
+      var active = listEl.querySelector('.list-item.active');
       if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
   });
 
   // ── Filters ───────────────────────────────────────────────────────────────
-  const searchEl  = document.getElementById('search');
-  const townEl    = document.getElementById('f-town');
-  const cuisineEl = document.getElementById('f-cuisine');
-  const priceEl   = document.getElementById('f-price');
-  const ratingEl  = document.getElementById('f-rating');
-  const ratingVal = document.getElementById('rating-val');
+  var searchEl  = document.getElementById('search');
+  var townEl    = document.getElementById('f-town');
+  var cuisineEl = document.getElementById('f-cuisine');
+  var priceEl   = document.getElementById('f-price');
+  var ratingEl  = document.getElementById('f-rating');
+  var ratingVal = document.getElementById('rating-val');
 
   function applyFilters() {
-    const q      = searchEl.value.trim().toLowerCase();
-    const town   = townEl.value;
-    const cuis   = cuisineEl.value;
-    const price  = parseInt(priceEl.value) || 0;
-    const minRat = parseFloat(ratingEl.value) || 0;
-    ratingVal.textContent = minRat > 0 ? `${minRat}+` : 'Any';
+    var q      = searchEl.value.trim().toLowerCase();
+    var town   = townEl.value;
+    var cuis   = cuisineEl.value;
+    var price  = parseInt(priceEl.value) || 0;
+    var minRat = parseFloat(ratingEl.value) || 0;
+    ratingVal.textContent = minRat > 0 ? (minRat + '+') : 'Any';
 
-    const filtered = mapData.filter(r => {
-      if (q && !r.name.toLowerCase().includes(q)) return false;
+    var filtered = mapData.filter(function(r) {
+      if (q && r.name.toLowerCase().indexOf(q) === -1) return false;
       if (town && r.town !== town) return false;
-      if (cuis && !r.cuisine.includes(cuis)) return false;
+      if (cuis && r.cuisine.indexOf(cuis) === -1) return false;
       if (price && r.price !== price) return false;
       if (minRat && r.rating < minRat) return false;
       return true;
     });
 
     cluster.clearLayers();
-    filtered.forEach(r => { if (markerMap[r.slug]) cluster.addLayer(markerMap[r.slug]); });
+    filtered.forEach(function(r) { if (markerMap[r.slug]) cluster.addLayer(markerMap[r.slug]); });
     renderList(filtered);
   }
 
@@ -336,7 +338,7 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   priceEl.addEventListener('change', applyFilters);
   ratingEl.addEventListener('input', applyFilters);
 
-  document.getElementById('reset').addEventListener('click', () => {
+  document.getElementById('reset').addEventListener('click', function() {
     searchEl.value = townEl.value = cuisineEl.value = priceEl.value = '';
     ratingEl.value = 0;
     applyFilters();

@@ -1,0 +1,77 @@
+{
+  "id": "rendezvous-george",
+  "name": "Rendezvous",
+  "slug": "rendezvous-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "33 Airway Rd, Heather Park, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9606132,
+    "lng": 22.4256267
+  },
+  "phone": "+27 84 401 4923",
+  "email": "",
+  "website": "https://www.facebook.com/profile.php?id=100057383112529",
+  "menu_url": "",
+  "google_place_id": "ChIJtzs-jkkP1h0RwsLX-tkP_Ao",
+  "google_rating": 4.6,
+  "google_review_count": 199,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Burgers",
+    "Breakfast & Brunch",
+    "Cafe"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Good for groups",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "12:00 – 9:00 PM",
+    "wednesday": "12:00 – 9:00 PM",
+    "thursday": "12:00 – 9:00 PM",
+    "friday": "12:00 – 9:00 PM",
+    "saturday": "12:00 – 9:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Cosy neighbourhood spot in George serving hearty home-style meals and friendly service in a relaxed setting.",
+  "description_long": "Tucked away in Heather Park, Rendezvous has earned a loyal local following for its honest, generous portions and welcoming atmosphere. This family-run restaurant serves up comforting classics that feel like a proper home-cooked meal, with attentive service that makes you feel like a regular from your first visit.\n\nThe menu focuses on crowd-pleasers done well, from satisfying grills and pasta dishes to lighter lunch options. It's the kind of place where you can settle in for a relaxed meal without any fuss, whether you're catching up with friends over coffee or bringing the family for Sunday lunch. The casual, unpretentious vibe makes it easy to return again and again.\n\nConveniently located near George Airport, Rendezvous offers good value and consistent quality that keeps locals coming back. It's a solid choice when you want reliable food and genuine hospitality without the pomp.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtzs-jkkP1h0RwsLX-tkP_Ao/photos/Ab43m-uJtigGFsPdK6x4LOfFFwJy76iQQDuAYZJdvGvypWn6O9YP4dhvbKfJ9L3tjREvFFNc_B0MBNYBm_nB1NV6oV2Ik79CsavZ66kPIa110g4KA3Jzl-bOVH1VUwappy8UqFcixIhK4ZuYnPQJHStlQRBUvXqVKqX97grJ6Fy4RzP3atkZdqq-ga7LH0IqGE67jPTJ4M6a1MWMk8PSGDDlEwVv1Dpm_qk7H3Q5iS2-RSfhQgFI5P7VsBwbvJkKDyOe5tubAm-CuB6OzwK6NjwhjesNj_2LKwUOHGLxf5yMywYe4Jof-l0sY1PX0AFxp2E8vzKkvSL5M4VLLzhk1t5qK9vwN03ey8TNDxOpmog1hb9tArFBJjqVKySObGwW0-p4JvSrink4SR2FNFd1Yr2snX6BBDDWmyZpxq33nzwFL6k/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtzs-jkkP1h0RwsLX-tkP_Ao/photos/Ab43m-s9rECF0fC7a0MEvucryjs69Hh8GeV3u36qeAvmZ2te-ctJ8xyC4Y9gvw6t-iz6FhfvZ95kfcbKxZR6NEfPpTWMfEm53DUyfOdYiqVtfBAvFCKt96tqFokovlHYX0x9mYgXvknh6DsqOX2UbzkZcvw6D8ABrg8aXH7DipEFx2vuteeco8CrOUKAWu4YjJXy5p3VkZR18lbUp_gidiCQyhNAEClaW9k9x0NQOG05tcAPSscWUW_fptNrFYc2XwJGGkhbcZb-sx-dxo5pGgAFBOpYFNxiiSPbF7BO0Ceo8KUzQhNFkMOPrqlbk_y5-oFjHGTqFU9IkXqiYXAzhc3GhaE7E__Yds-RivWpnwl-D263T4vZiAl6XUTAmp1v0vMaIc7MnIGHAGjnMD75sZDM7O6sBlC3KeoNwYgdlG2YFkvIiobj/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtzs-jkkP1h0RwsLX-tkP_Ao/photos/Ab43m-t-JxlPOLch0jrRY4uPkErpoD6CwQIa38tspvDuVqp69dU1bHl6HtlSQxKXdIU-CYVSlE-eNs7Hh6DTMj5KYW-YQ1Ytrni9jkwtkaWkJH_kHU1AjZfUvS3nIkumaYkIRHyFON39xCX4CPGuTfC_LEdn3WL1lqi5I0qLQkUiu_nJgI5Z5VMbLfyQVdS2Ki-qDxCzzJ7yailu-w45RI0TDtMdOaby109-h-FsY8FngZ48Ri5jEy502LY6W9g9jLrDbqneX2lIQeBC5c2s6KqP8S4QRrcFCoTQK3weSzJhWVLcDi3tvc--8XhqwtF1MZsHkpljAuaVQL24Y47EyYO7S2lQg1o_FDdM8FVVVowjoIJ2WPs9MnKwT-KQfDfgJOjMd2dZAXKBjogjULjeqV-I-8n_iI8zrIT8JXFpBvzZOyY8yoxWJDSeLE8veUJi6afl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtzs-jkkP1h0RwsLX-tkP_Ao/photos/Ab43m-tLuVVfJ3VQ8gp-aimbm8_QkfTbi1mPEXv4XetHvdtltxkFT7BdCDcYjZlCBpnyDXOT3gm827zLa1coB5F4iFhVujk-Vng806P13LvSWPTAK4RliFdoX5golgk977B2MMONO9vcYnsc5k9eeayzPNnI-k5OoKN2TfwTukLYmZXrpx9iO-1PjkZ2AY22j4tLDFCyv2UMaOum0fIrWqsfpRa1BSws7SHfgPEGf0jUmB_azMasbYoS8kl6LoyzNn0xonvsjKA-iBvDCNsQKVYEmhkpLqQqE1QQRY4znImXsKVjAXqe6BbcVIHx6vZ5cq00prfTtNBQR7dKAs4XoN2phe1UFfBd6kTZkQ9uxaX1ft0bv1bmZlMcURYuvZJ6erPgpxUxoD0X5ngnee-A3Tlfxcgdx40cdaH9HPeVywPnUWc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJtzs-jkkP1h0RwsLX-tkP_Ao/photos/Ab43m-uC1I_1nF_hq2eK-gAgR6yoHsgQEPHibff6YPtORfglF78Gmqiigp9_uuYtqq-UarLvBwVGjKYSl733aHXen2R_wn69oRz846xTZs8YxWjkw55Cg5bFVcBEyMoHPSRbb_8Kw5rUELF0XmJHIbTKlScqfQrx1B0QrDXDKJWLOoRkVZMZFgQjUIBbZBnFXlLfxNPMn2G2ETQXl5vsyAKdQJSoT9kQKEwRqC06FNYDfVotwrst6JU8K9_g86Kj-BZ9FHh7RAfu1PHDmzC_aVAdjg-u6oBQt9bgG7-VVYtglcuknck-Jcvn4PT-vl24Mx1rczIXVOvkgJCZmPJYBbEYxRFi6hhAxZGAw4O9fc7r5fAeS_eCGyL3OOD-mz7MvUMnYh8nHeg50L4HHvSEYoeuEWKKejXpAjiUwvHMGk1LxwXyeCjh/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:36:36.375411+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

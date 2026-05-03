@@ -1,0 +1,46 @@
+{
+  "id": "loxion-restaurant-george",
+  "name": "Loxion Restaurant",
+  "slug": "loxion-restaurant-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Sandkraal Road, Thembalethu, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -34.0061181,
+    "lng": 22.4923268
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJyQhbjqYb1h0RxfYNv-ruQs0",
+  "google_rating": 3.5,
+  "google_review_count": 2,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Walk-ins welcome",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Local spot in Thembalethu serving hearty home-style meals in a relaxed neighbourhood setting.",
+  "description_long": "Tucked away on Sandkraal Road in Thembalethu, Loxion Restaurant brings local flavour to George's diverse food scene. This neighbourhood eatery offers a taste of authentic township cuisine in a welcoming, no-frills environment where the focus is squarely on honest, satisfying food.\n\nThe menu leans towards traditional South African favourites and hearty portions that reflect the community's cooking traditions. It's the kind of place where locals gather for a proper meal, whether it's a midweek lunch or weekend feast. The relaxed atmosphere makes it easy to settle in and enjoy unpretentious fare at reasonable prices.\n\nWhile Loxion may not be on the typical tourist trail, it offers visitors an authentic glimpse into George's local food culture, away from the more polished restaurants along the Garden Route corridor.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:36:53.745110+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

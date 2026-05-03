@@ -1,0 +1,78 @@
+{
+  "id": "jacks-bagels-mossel-bay-mossel-bay",
+  "name": "Jacks Bagels Mossel Bay",
+  "slug": "jacks-bagels-mossel-bay-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "35 Marsh St, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.182763699999995,
+    "lng": 22.1500164
+  },
+  "phone": "+27 44 813 6111",
+  "email": "",
+  "website": "http://www.jacksbagels.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJm38SdsBr1h0RcjojReHOHJY",
+  "google_rating": 4.6,
+  "google_review_count": 420,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Bakery",
+    "Coffee Shop",
+    "Breakfast & Brunch",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Family friendly",
+    "Good for groups",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 2:00 PM",
+    "sunday": "9:00 AM – 1:00 PM"
+  },
+  "description_short": "Proper New York-style bagels and coffee in the heart of Mossel Bay's historic town centre.",
+  "description_long": "Jacks Bagels brings authentic New York bagel culture to Mossel Bay's charming Marsh Street. The bagels are boiled and baked the traditional way, resulting in that perfect chewy-on-the-inside, crispy-on-the-outside texture that bagel lovers dream about. The menu covers everything from classic cream cheese and smoked salmon to hearty pastrami and creative vegetarian options, all made fresh daily.\n\nThe relaxed cafe atmosphere makes it ideal for breakfast meetings, casual lunches, or a quick coffee stop while exploring the town. Their coffee is excellent, and the service is consistently friendly and efficient. Located in central Mossel Bay, it's become a local favourite and a refreshing change from the usual breakfast spots along the Garden Route.\n\nWhether you're grabbing a bagel to go or settling in with a cappuccino, Jacks delivers quality without pretension. The bagels are the real deal, and that's exactly what keeps people coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm38SdsBr1h0RcjojReHOHJY/photos/Ab43m-sAvTqcGSfNdEqh38BchE1I-aBQ8aBDge76Ao_DHLJv3Ybb1a3lhQzc7XdqbMT5mPj5ChU048OHWtV8RiDbQPJ6vJJUudnPBzZnUPcfw6Xnx1ZiN-IvHFnd0CH9GBe1kTjIzL1lkjker7ueUxJKBIN_LU2FUK9KA0ndfScW4RJY_M5dZ4wIBTS_z6m2H2Dmoaosg2iYZ7Ien-bc5q9VHFx2BOTzGV5H_YLHZ0-xj1zOM5ZPGxcZRaEeh988DVrJ9nwgD4fEcQQ3JrD6Cv2IPlL2QaYgkPijb6PR-gdSaeEI1w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm38SdsBr1h0RcjojReHOHJY/photos/Ab43m-vaknbS8YyCDoLgXJycAWNuyNdLq8Wj1qg88_qoW3fZZu096eXKEI-L3-TQZY44aAr7TNFakr2Mdavx99e9pLMhHWxM8OxwtmaroUIgfLg5w19hNeTeEnJ2dyOmoW5h8xfnK7w-D12HTxNdJopDflx49NZgnwx-5SJyv8Pfo4QTaOxIxI_RscFwpERJPXxw71iechcj1h-c7iNAq6agyJtnCM8BlW9Dg3uTPNeJ1JbFk5qEDIx27VUiBMuLDDjPXERGQgfNTFQ-8p5UDMjLMoDqwTmOndu1AWAdsBFUFpPhsQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm38SdsBr1h0RcjojReHOHJY/photos/Ab43m-tI3ggqXPUIl6AwY2XK9hS3WOqztmJjFjMdFL529mLoOFRVf635Q0qXTydBF0XQXe-xxME_awpsLCLwyYrvU1eIEdQzoM8MZw50he2jCPzLDEtA_9VSpO6F2UMImEMRz3-R_Tkw9p76yfT52kRJGEf0hclXyq7ljO79EBrEIBkuVIfd2iVFu5NX9di01xczmTDOv_OWhVw-CC-TzpnyS9zLUGmuavO9Q_l1FvLYSK_49b6znWOB4Ex7o9_Ol6xTe2FhJVq3kfFaAuwfOGjQKw34DFgOZOokHt3fO7Fp8b-_eVzeNduBLNoNkFiaiA_mmLSkyJNXuvPVszIst-uu6AElg_hIp0IJGqTT9_GF9vYJ0hjHdZ4Bnxn2pl-u-c0mzsBKpxLMw0soAfwfQim35mjqUtoDuWH8z5xCMyawLdfOAg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm38SdsBr1h0RcjojReHOHJY/photos/Ab43m-sntC08NQkqA3pdJbWXhxGM1uOnZo4qNqB1pbxGYUh6ZNORJ5lTQ48Qh1-SbckCf55tOB01BU1MEx2QOrXusg_Qm6_24aGkM0mmE_Kg9KqsCMXD-MPrMkVYumCRJ0YS1HqQitgHd94yiR4GUM1-302wkmnhSZfdWtkwXq9a2EeOh48FbDcNB3NFnxF1nMTfkQ56XAo0MToasfqqlknHQIchHVStRl9we9lbIVPS_40Zvtxtz-sfXBHVCr4VcoBvV4uXh7Stoqj1yLARXTWcWPPBi281ioZNx9sSAUhB4q3q2qhHgzVyU4m6o9TUhg2gZiQsLTzasPP1kwgXcR_92xCikjm_N5dbCAa6Mi50AFrPkZXZssd7aw8QnscPh--D7RqNhJRkQNQkNVe2365hW1GLAkEz_JjkzQuJisHCC1t2hLfszzGUT1f7sbF4-qsV/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJm38SdsBr1h0RcjojReHOHJY/photos/Ab43m-uUT0u0FclWFex2J2BM5FrBZvXQDNw3qbDAhlnI5rPwrumHPuyKhXj3c_6nlfqx5gbiV5BdL8gnAJPXm-PdHlIOb6i1DfTiGCtVQUrRYLRZprQ3YjCeulXZ_iojPHs9Y8-U9_J49RRb91qdy3tuIrSfLBodHB2vrmqzGQT0wQXPOfXvNO1kGDQmNeCx48Kwu3X93hOeCgcKAKWo6-rydzVjmnmlZj-ijkFIlbZ-xwe58jry6HU65EIG-7ptijsyWoHID_4B-Zq4DBehLdx3L8jfyDwutyldkFsBKB6IC1aThxGSq6kL0uJbETlKDnexxrI5XEehqIYd3hTAKkOvbXt7pmv7CAxDFnPiaAe9lWfP2hTEpjQmTCgp3FuIsf-n_DRgW8xYZvEFinAlctYs1bM-qeHmK2tVBV87HxA-eWKNvwIjnjVpwW8UPZNIKNmw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:40:26.387554+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

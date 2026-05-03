@@ -1,0 +1,75 @@
+{
+  "id": "totalenergies-klein-brak-glentana",
+  "name": "TotalEnergies Klein Brak",
+  "slug": "totalenergies-klein-brak-glentana",
+  "town": "Glentana",
+  "region": "Garden Route",
+  "address": "Impala Ave, Klein Brak River, 6503, South Africa",
+  "coordinates": {
+    "lat": -34.0800268,
+    "lng": 22.1495103
+  },
+  "phone": "+27 44 696 6920",
+  "email": "",
+  "website": "https://totalenergies.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJA2Cp0yVs1h0RWkEoBUorh5w",
+  "google_rating": 4.3,
+  "google_review_count": 37,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Fast Food",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Takeaway",
+    "Family friendly",
+    "Wheelchair accessible",
+    "Walk-ins welcome",
+    "Open late"
+  ],
+  "opening_hours": {
+    "monday": "Open 24 hours",
+    "tuesday": "Open 24 hours",
+    "wednesday": "Open 24 hours",
+    "thursday": "Open 24 hours",
+    "friday": "Open 24 hours",
+    "saturday": "Open 24 hours",
+    "sunday": "Open 24 hours"
+  },
+  "description_short": "Reliable roadside stop between Mossel Bay and George with fuel, convenience store, and quick bites.",
+  "description_long": "TotalEnergies Klein Brak serves as a practical pit stop along the N2 between Mossel Bay and George, offering more than just fuel. The convenience store stocks travel essentials, snacks, and cold drinks, while the on-site café provides a quick coffee or light meal for travellers needing to refuel themselves and their vehicles.\n\nLocated in the quiet coastal area of Klein Brak River near Glentana, this service station includes an ATM, car wash, and clean public facilities—making it a sensible choice for families on road trips or anyone needing a breather during the Garden Route drive. It's the kind of dependable stop that locals and visitors alike appreciate when they need provisions without detours.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJA2Cp0yVs1h0RWkEoBUorh5w/photos/Ab43m-tWxQ-HyBbafu85ybQDM1K2awjXS5-75uSSH59ao6MiDbwR7gJktSjKRSoZyqb0zjdzmqx2QW1-HKNLO3D1DPqp94vJnHH2kXyZetiCmCa72RjO9LLyvDs19MdfePTODO0-Mf1_UF9MI3g3bG4R1wEx5Qm4wU5jbu7hBIrQZ2SF3tEw8TIidhZtvUbiBUVJN7le6XcBWufeeYoGDn39xs4B3GWNxsBbXYkVHSZpaO1hqTloDaWQUdk7QPbJOEiaWEYEp7Y6xKEgwuFxrD-mKc4CXHDkg2Oh3s48m7Fo4MgAO3wOdtVDYEiJM-PE8ROFTIftSaSOL-v6cYz-_uG3dY7Hc4FwuhvaiGQkfze86QBpkIrR_6tL-RLRrQNDPP9lkIsjg6KJlJPmEvythW1f7weBKszv21OU2-ZxXWrZCsSTCg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJA2Cp0yVs1h0RWkEoBUorh5w/photos/Ab43m-uTvs9F3QqiR-_hFsY2-QJyBc-aWxNxhTVgtptiOp4x8bntjaqthqec2dBjgI08pVDW9ltlzx7keWzxMx1lpL5Z0r1QcHVFlUQYGEJov14bmx3yyLwNnV-9BM86fww4ql4Lxcv4Y7mOlTgjdllkB1qn498JMZt63G5q87I69RvF-mI0IrchPUPPKrQltltIcnsUuAnbOkC4q6Tr8aL-kpLIEw7RD3XJXkxifOE9anO9UcosdT70NEVOahkfIPQwaLpcuIp8k2Ylo4tdtTNGBTCiR6nfULT-CoVR2afTAVlS9u3hTQiF-qHuR8Ltsm1sZZx7y39UEFSwRc_QKN8jhLJoVZDHp40flbFWj2gCiwYV4OCU0Nw71EL0W-D8kuwPfr2ToLv0tc_CWZFUPNJs_0yA-QjNa2mNIK__nq_Zsg109g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJA2Cp0yVs1h0RWkEoBUorh5w/photos/Ab43m-upsmr3A6b68t7RFRPwYICcAX7s21WdAv-mnXawjQwB10aJQWOoha5UEdYmzcD_AweImxJrnZ9_o3yPdEyAwZCMWhiI9W9VWGXr9a12fRMyy15SPYEQiMNayk_wGNtUX4zcbjXNJE5UB_WxB-Z2pd_VQ1OTIL0I8eHeJmGg1v2h-dx8_jr_w9izI50sPzabSi_kgORxkaQrOfFkYaUo0qtf_aB3UwKYwNQRDEX57Xerhskfb5PizYGZGnBggU-RELu98HPIN1DMvoJsLWKQsrMWrDcPOlkipi5IgAa060ZEp-C99YBcIsgiI4o3qwrU9vDct7aI1P1mBSvL_lFWCZP_L6cK-hoMHQFXadMcC5O0Zgm88boON0swVkv4Wa1tdDaDGJzELptnCQPqZITedhgClfo8HHxhRxXY55g3wBSrVw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJA2Cp0yVs1h0RWkEoBUorh5w/photos/Ab43m-sWpD3iWyc2G6Q2b6NRuL768Yz1oPCWtAFa7pnfavgFr_PQwRnfcy16Kule2S9IhLZGqwjdlThDu50DCcdauayp4lvCqim3d6GvkeEBz7REWMtRrGuilChq1NziaFGVbnG533CFm4LzPUmZXl6bgZF3lVM8XK1pDRylhSosfxpMXy6hLw2WXCwwlRw0O2-BZK3HIvQQ_sc29d5MtWf7oUu6al1BuEpEySloI3T6Jgl1KLfXaWt202XwKrjO4rRlDK2kWI1CngegOH-YKcgLOdJaSbzAvJi9r7xZ3G-HuHBBPseuEPeGNH2-hjX5KWCADsJAVuVkEVOT9pDbEcy3uic4iJRNspt6kLbkcJ3eVcK9OfUSSMkYnLlI-P1rsiCSl8uIJA5P2UrbCKlX1XAN1c2LimNFNpCs2LDcGw_RXk_zzy-W4S2iHxsT6tiUWNxr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJA2Cp0yVs1h0RWkEoBUorh5w/photos/Ab43m-txjmdlNRQxVfBFuaKtLiaqwm6xlbSo_fRG8Jjo9RkQ9tUFDsHhWN22thXi3PYDAqO57pQV1dSYtc7XfrnX3o97ftSTJNpyyxqWNpFF6ypWNFU8dEpCra0HGpoPTQxUoaShbW_B8EuHJMNur1TpXjjyK4PWS-f00I5zKNa3_TXDtDYYmEfrqkVHkEUKJICR5E6Jlh-rpAuEuDnSEeSkfM5e7-OfhXj_vh2qSUZ9UgFqxCFi2KIB0BkdS7AIYq_IfHdugpi-xb3kuuINlnBqZmoYJZo2Z2iXa6eIrJ2ZDr2JDQw1NYKCbZTSFKajs6QwwZsm8c2Xa72_Zo8J8u1HqsVWj6_me0dl3d5JkKL30X55lNT5ms7rZf7qp7eFsNi5ndc9PumtYP0et9uOBXCBotcC8ehVHnlv8-IO1FV6ODW_IEAf/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:24.371594+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

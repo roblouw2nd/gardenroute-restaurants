@@ -1,0 +1,75 @@
+{
+  "id": "taishan-kitchen-81-meade-street-george",
+  "name": "Taishan Kitchen（81 Meade Street）",
+  "slug": "taishan-kitchen-81-meade-street-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "81 Meade St, George Central, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9640189,
+    "lng": 22.4566011
+  },
+  "phone": "+27 44 873 0330",
+  "email": "",
+  "website": "https://www.facebook.com/Taishan-restaurant-george-york-street-106740828652778/",
+  "menu_url": "",
+  "google_place_id": "ChIJq-JjgrMa1h0RP1ZLOX_puF0",
+  "google_rating": 4.2,
+  "google_review_count": 320,
+  "price_level": 2,
+  "cuisine_types": [
+    "Asian",
+    "Sushi",
+    "Seafood"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Takeaway",
+    "Good for groups",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "10:30 AM – 8:00 PM",
+    "tuesday": "10:30 AM – 8:30 PM",
+    "wednesday": "10:30 AM – 8:30 PM",
+    "thursday": "10:30 AM – 8:30 PM",
+    "friday": "10:30 AM – 9:00 PM",
+    "saturday": "10:30 AM – 8:30 PM",
+    "sunday": "10:30 AM – 8:00 PM"
+  },
+  "description_short": "Asian fusion spot in George Central serving sushi, Chinese, and seafood favourites at fair prices.",
+  "description_long": "Taishan Kitchen brings authentic Asian flavours to the heart of George Central. The menu spans Chinese classics, fresh sushi rolls, and seafood dishes, offering something for everyone whether you're after dim sum, teriyaki, or a generous seafood platter. The atmosphere is relaxed and unpretentious, perfect for a casual meal with family or friends.\n\nLocated on Meade Street, it's a convenient stop whether you're a local or just passing through George. The kitchen handles both Eastern traditions well, from wok-fried favourites to carefully prepared sushi. Portions are generous and prices won't stretch the budget, making it a solid choice when you're craving Asian food on the Garden Route.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq-JjgrMa1h0RP1ZLOX_puF0/photos/Ab43m-scLKDHzdWeTNNoQar0SfFX5VT9LlpZe5oL7qoIBJ0dCyreWgnFjUmRrG5FElzMVF6TmWmLiPBfEQ1pqqFqmaKV8WBqR4kg_TKTpgsFShxoyZW8TmYcGWVLKLlZFuabKGoUu2HORQY_U8v-6piH0B8b0JE2gwRB-E7xjc7TSxMANipxwIB8M2qA8Iap7gZ9kPoDyc00aBIo0-2P9PdJ_uzKNBlnJfFcdfTMly6a8eMsMXfJ0laEzLUl7Sq9KZb9boho61SXqnpkXJA_8CamX6Qw0DaTPQDmmXV97b_QH0gjDA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq-JjgrMa1h0RP1ZLOX_puF0/photos/Ab43m-sLugvL-juAqG0qIloQPovtKNNmxstk-ptjjnxrqyPqqzI0nDP-xaShmJ3qz2dVkM4dniIhgYnsX5VvR3j932NENRvgm8PpFU_mH2ttB5g5GsPf5Syvq4jEzWRRC5IjjVbwWRxIq9tdWn3YSn4PUWUhMmhr9IzHFciX_V_d04HuPF5rhi9brIIBAEgtPCa6Z74sMCk5Vr5kHSTX1wgHlY1FQR6pqX1jd_diP55tuaTZg9CmrfIWleRWNH0AcNyRC7MVeKD0SRo9bdec_HemLrgv9KqIi_rIbjTv5D9n75GP2A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq-JjgrMa1h0RP1ZLOX_puF0/photos/Ab43m-scJH6uIoNHqlh65S7tBl4bpK5Pe5TQtE8vh9V_sF9NKjso1t1kKdiczpuv4Z6TF5XpgYq72vKKJV8EQxgdys-DNMGv7lvHfFfKsSsYv1ocDOoegk5Un8Yacz6-uQcYHf575OJmgUbuhoDDW-0vueUaH2_o0qTD09drLy0vbKKkY44unfX7NxuIXcwkIr1tHy_PzggFBQcMwW3bpUs0cA3PuPaVuGG5IFTtS0gab1zsK1kYQ2LTJbJ5VIHLJXkAZY_beDpiPMZexB0Wh64nGNN3uYW1nNHKEaDApL08DP0qYDA_63WyghKzR1GPtSwyMuwD8QxcV7YyxRvzpG9GxrZVHxdbMSDuqRu_rBS8q0_hntn1cGV1PBtBMRjDBNm2cKvdiP2YyG5HOVJxL6Quvl4TxoPBXaiNYJ2vND2fepZPTOZn/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq-JjgrMa1h0RP1ZLOX_puF0/photos/Ab43m-uphwm659qgX7g41mXSW7kTsgFOj9yZ45_KTTgf47bY7xMNZws4rHhF2HwTc1wlHyzFK6aGp__EjIHm7VPUWQgfMhftTdE65Ip2qfRuwR8-Co9ZdGlhjaF0rBkfNB6PRkXJsYXPr-fU81xBNRVgo_L-0VBYrGRu8hF7fXPuU5eb7M1x9KMvetiJJzSYBadaSdGWnNiFB2WuC1ujaNXemm95tWtQHD8q1jVsw34yljcp_yx-mUzx8lL8qTCByOwXEPu-qwnL87gmZJygbLH1rWuZhNASWO_-ZRKB6wY1oakcEw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJq-JjgrMa1h0RP1ZLOX_puF0/photos/Ab43m-sI3C_iDM4O_6E2CMSzAD3HrA3WKKvKRAPF9Y9LwcPeh8M98silt23CzlPnQUYe4yDNC53xTdcphAONlFjUPPMUPtg95lkyG4YpFS6hQEfDPaFGI4TuOSzKUD6AkvdFc5jGuKDiHATovA_RkmCzCYdSjZULd8-jalnwbdz7S8X5PVFU-Wbtv7giC9OJ7EVI0bx6owHMh4OgXHaScIKYAxirnAq0p-TCmSAEm4clcBLO4KpOZB7vrdOTP6d_rGnh-ACwxlHqEw2W6-VYC5_Z_DGhUbSOmVAyf-nYXZ1jOt8FfQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:39:26.739308+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

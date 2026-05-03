@@ -1,0 +1,74 @@
+{
+  "id": "transkaroo-restaurant-mossel-bay",
+  "name": "Transkaroo Restaurant",
+  "slug": "transkaroo-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "1 Morrison Rd, The Island, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0502616,
+    "lng": 22.235520899999997
+  },
+  "phone": "+27 44 620 4163",
+  "email": "",
+  "website": "https://www.facebook.com/transkaroorestaurant/",
+  "menu_url": "",
+  "google_place_id": "ChIJBxihmipt1h0RoTV9XC1g_Wk",
+  "google_rating": 4.6,
+  "google_review_count": 859,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Steakhouse"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Good for groups",
+    "Local produce",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "5:00 – 9:00 PM",
+    "wednesday": "5:00 – 9:00 PM",
+    "thursday": "5:00 – 9:00 PM",
+    "friday": "5:00 – 9:00 PM",
+    "saturday": "12:00 – 2:30 PM, 5:00 – 9:00 PM",
+    "sunday": "12:00 – 2:30 PM"
+  },
+  "description_short": "Classic Karoo-style cooking in Great Brak River with hearty portions and friendly village atmosphere.",
+  "description_long": "Transkaroo Restaurant brings authentic Karoo flavours to Great Brak River, serving up generous portions of traditional South African fare in a relaxed, welcoming setting. The menu celebrates local favourites with properly done steaks, lamb dishes, and home-style cooking that keeps regulars coming back.\n\nLocated on The Island in Great Brak River, this family-run spot has built a loyal following over the years with consistent quality and genuine hospitality. The atmosphere is unpretentious and comfortable, perfect for families and friends gathering over a good meal. It's the kind of place where you'll find locals tucking into their favourites alongside visitors discovering proper South African cooking.\n\nWith its solid reputation and mid-range pricing, Transkaroo offers honest value and flavours that remind you why traditional Karoo cooking has stood the test of time.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJBxihmipt1h0RoTV9XC1g_Wk/photos/Ab43m-t81qLfJKpiZf8BUnXrdA4T9PAjVLediiHdlmKYgtWwQ8dRjn7ajnANyXxOZsR-v9KDmbmxnc6LtqImprldpKcpi5uQFFpAR9504x5IYHdXwoYXI4GHkYJGjiW2Z_9d7jj6sJhOY9urjg6VU3hpT-79cO3DVAhGKS6Xn59EWKd6YR6EX8I3L0v3rk-GVnBcC0c6dKhXS14KWYN0OYPyBbc1bx1Wv92mVsmvCQWnbJthYoJJDIcUiogsePZ3fhOnOGS0-Hi-IxSKWg-k7rJzhOxoGAsdNofDrltveIC7WZ_KNm1HAxsVIlJSPTs1pUId38byJ4y83cv6G55VtpLRxkHcXDny2H75B3H5pHxVt-kq6V8yV_tTq8m69KIKahC_7K4N3FgSPrRqeLeo9ZbZEcWz3YgXk3O96BTxvWcwWOR7BYrG/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJBxihmipt1h0RoTV9XC1g_Wk/photos/Ab43m-ve6j7EOhkXMzyHTWABcwvY1AzCfyHKiKbS1vSPvUETHw6dg6ouXSJKzdubPYMXU1a2PT_99rZnBhbZvG6V-UvhLQTl37Au1mBaWf77vIZhSKXTqopg1t1DGeoCGZqmoxpaewhuBfXS5VSD4o8_WG8eRmIu7BPXz3vToB3-2qoOFM-o6BkE4JZ3kfYqiQmRHgpQa4olOdhlxFXJQRJwjL1F5MgeUoPnM86tMzkXuTmgiTxciDl8gAt4UJOXkqGwJT9zvs6UbXqPmKM4SznvP1GgaVznOTYQouS9nEHQ0T1n0MqPK4DDIcYM8rUDIxUj6PlRgVlW6sAM9iI63mTjmP9muHVImn7bVsky5wX2bxJ8bkAFIo8jgdpMlEF40E9_BxQrxe8ML8jR_d4FYPRMHhN5wHsm3OsXPX0f6T0hARz8LRYU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJBxihmipt1h0RoTV9XC1g_Wk/photos/Ab43m-v9nCuCdc2N8sp1ZYJqX3iH6vKnELlKBy0ilg9dX7GtZNpgrnaS28j73kIl_YY-nuOXPZAr07XdhxHhvMjRqwOodSKP7RI0ymUVJ32w7kgqnyY0BSp1axgedDJDs86j5t3jP_XbC1IhaiwPrvpq3CWUy9vGwD51k_LKXAvqpOjhPE1N1VcdBJZlN42Or87eCWWIjx_ZPJYUrVSpDnDVD9o-94zC4TfZIScCIfHO7BbEudCddcJHcutUDqSaJbKM3FtMucPujHkuz3N55Iz3smumxiXg9UKvaE_Q4ft2WvwZ08aqa7jH7BabQgXNuPbawZ3UVHyrV0AaT63Ku0Suxr1n4HweZvi_Ky0Z-S9CEetuRsDVh5aCs7nPzVuPSRm5ZH47usPt8zN_ObYIt34YZhBvG7dt_2R2lHVJQ8zqEQDWgYG3/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJBxihmipt1h0RoTV9XC1g_Wk/photos/Ab43m-vglxHImqPtYjd9nOtJ_phOfKW_0eUbYB9eFlYJPwnQXtTEmp7vtjXkv8iGzQeL6hc1dhCrw7rwsmW97Y75rgAw01giCa7hZyheVPCWw5Nis2HdBI_IvGAieChATJOkOpAetn7B3h_9U2zDKWHXnGB7Af_ugv_BvkK_iek7BwlgHQScZ_krRakXne_sur8ej2eZJe7OizhEW3-5-5ISJ7en7HdFZftTlmBwxVFw-O4VWp96h_rwE3oEUyZOlE_KZyd69RWxXS6cunftazTEe6hEzZRnI8w1YBVboBLH72_KOtBX4KWHQ_qlMlZqS1-Bgni0exDLRDkvjhX4Y3YcMb8SFllz6sOBZlXaZQcyXfGQTxZ1Hd2dv-nHO7R7xlrLvRFM08e7Aac5S2Ll3TtY5y7opEH7VzeeDP_S4k_1YK5rxjTn6VK8ilF_sFJKUHmX/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJBxihmipt1h0RoTV9XC1g_Wk/photos/Ab43m-tJFaDBHRtIcD22C7tlU-49925q0xmSgO8gEwc4B97mZ7UCO1UChwEzjb4_jLoChPu8HPDgk3LGfYgho6jRqfTZPPGqNCe2BPjYepWn8PStSR6aVfh3noI9K4isg5nNqHst0vIVgppl5Vfg8U3XB5c77_EW17kDlmX0moSC_6dKQgFrtb5LDHEzt-wQqHg0Q6bogWqmsTrjyDMBLJCuUyY6gRd49Rm-KZ3SQUO0eg9QuZuKZzmsxKOkn22ux12L_4EcNMrxhESbyzoq5VX15TEYBZooSYe6P7nnMCTNYJUuStzCC7guU7ZkORtFWcw22FHPsMnhkKbclx75K4QWjX0nGb_2sYc6Q5QnlhXYWZ_bkTbMv75Vz3zn4xAbMVP6Sy9lbR7BXSq3-MvylEe7c_BRFtlDOXfYK5_YH80ad0g7Sae3mVyIJqeQ7WU8lA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:51.381539+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

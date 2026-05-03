@@ -1,0 +1,77 @@
+{
+  "id": "de-dekke-restaurant-mossel-bay",
+  "name": "De Dekke Restaurant",
+  "slug": "de-dekke-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "De Dekke Shopping Complex N2, Bergsig, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.0542716,
+    "lng": 22.2249978
+  },
+  "phone": "+27 44 620 2531",
+  "email": "",
+  "website": "http://www.dedekke.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJmfRJPths1h0R3WY0EuAymRU",
+  "google_rating": 4,
+  "google_review_count": 1898,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Breakfast & Brunch",
+    "Cafe",
+    "Burgers"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 10:00 PM",
+    "tuesday": "11:00 AM – 10:00 PM",
+    "wednesday": "11:00 AM – 10:00 PM",
+    "thursday": "11:00 AM – 10:00 PM",
+    "friday": "10:00 AM – 11:00 PM",
+    "saturday": "10:00 AM – 12:00 AM",
+    "sunday": "10:00 AM – 4:00 PM"
+  },
+  "description_short": "Family-friendly restaurant at De Dekke Centre serving hearty breakfasts, generous mains, and homemade desserts.",
+  "description_long": "Tucked into the De Dekke Shopping Complex along the N2 between Mossel Bay and Great Brak River, this welcoming restaurant has become a reliable stop for travellers and locals alike. The atmosphere is relaxed and unpretentious, with comfortable seating that works equally well for a quick coffee break or a leisurely family meal.\n\nThe menu covers all the bases with hearty South African breakfasts, generous burgers, steaks, and pasta dishes that won't break the bank. Their homemade desserts and freshly baked goods are worth saving room for, and the portions are honestly sized. Service is warm and efficient, making it an easy choice when you're passing through or looking for a no-fuss meal in a convenient location.\n\nThe setting might be a shopping centre, but there's genuine care in the food and a friendly vibe that keeps people coming back. It's the kind of place where you can bring the whole family, order what you feel like, and leave satisfied without any pretension.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmfRJPths1h0R3WY0EuAymRU/photos/Ab43m-t9oi4vvZG8sY90NK72QEaWeu_78Et08qqsws3A8SMuoTOV-yC2ULTFq_s9WS1TskguJBhKbnrm8CzrjViZbi1CNSof5CgxLKy2Lp89oYs2jvZIRnDa3EAJaqDySVy0Ow2FsFSn9UvQZE-fegIodknAsbQGR5C9gWatWVbRnUZKLIZcfOdOwzLA5mEWIIjG78EDBQN5cJcQrreTAMF9lBlRq2iYidc2ziFtFSWZ9zkA6AiZezeODBheVwUSW7Lrx0N0E_hZKABOvJ5jd_zpvH__zLqz4xztp-eRoB7L4_Cjkg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmfRJPths1h0R3WY0EuAymRU/photos/Ab43m-vv8HydNfzXM4TCa24O-608iPeCgsVnL11QD21R_C0qp9mauHgg4zMoDBOdWUA-WjXbkBSYTXgRXlSTO8tsNqdz521_PhBCx1d1VbWR71MSrkDVEFjmJMKrtZ_vxferCqVH-YWim7TRusNvfPUOYI8FJhnwxHxgxrkL80My6s0zluVn68zfHR9ZIWx35uptSzEFTwylWhmDsitzHWwBwppJ91b2vibfkgMWOHmdb_l7kUAiNJv0AcEN6v4py1ZrB2OBgUA78dLBNuypLnpiO1VvGtnwBTYDgy8cQrwc6oUGJA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmfRJPths1h0R3WY0EuAymRU/photos/Ab43m-uCcoIZsgZ02m6hzxIzRt7HCsaTxjFCDxh7q3YW1Ws62ZYVCGgv6FJrRT2ba1dnUKRsQlA1P8KxfUcU3XCPlOzxwNlF-PfMc6GwJdZOgohv123xqwPaSH1_IAUvsX1sIQpWQIpXVcIQwjvT4pkq5wy5JTlYBkGbpEJpfELULdlnWP6AquLU2-C3wvHb7CiXRpxfB2rA2QB4f7ldKLoAo5yQSHCj-95UZSipMaCIFDxx4KUeWKuQbWHvSI6lChz2Na-ZouHwEmC7n5v6MTNNeuMWEdRHIJLXGK82cqfuT0qKY7ZJruAJ6v-Z0NJiAemtV3B2yPsq_Sid2SaCxHkUi5T_39IOBzTfMAd6NPkWMTrg8qI9BMuSWrUs2Cq0CTmzQtNOQAb-KwaOWB8JpE5n0G_bEuUArZ4Yz3GCjVnT8tmkbPI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmfRJPths1h0R3WY0EuAymRU/photos/Ab43m-u4T-AzqMLi3lYSMwjTq6EfV49dQDBS6-oCWHKX0wNxqddL3tmdbVUEgZp1Wy6cPwkh6W2ansB5nJrhl_uI9ab3GHnL9n0d4DrysCFSO2f3ISmiYxXC1XOEk_rQ9lcdXRaWXO4RI-WZMWF_qd7g3iszpvTX-jdMTdQfUa8wdzBEYNhADpTFp2xzhFr65R53Xl-ifmecwLbY24WQltLz4JbT0gE8rSWQD_WFq0JbS35hmCP1aoDRnBlDUNopVpi5W_Xf8SA-PLKd6Ub45daaDwPwZf1t1u_xmHC7wn6wS_kmjdq8REbaYTfCUuEhj4lq-XUHk3amuX2cBS47nPek-_Jr438Iwf9EaQWg2Cf8YRXB4ql8yz7wqfwnpoD56G8bzv8GSrSMPGqvpL7Z4tipORlm8JK9DIU2ZLy18eiS0V3VW5KQWF4k2jaWkVN3Fg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmfRJPths1h0R3WY0EuAymRU/photos/Ab43m-sfzez9AEiGWsrRnWSv57ChtJbup_-Sm7-HpEzUdmWlYZ5FcYFxxX4_MNnjFqgtPWfDBdTXneulJbxlN7N9C6drBcFB2LYnkI3zGP18vxNBUhwj75j5mwVAAYMp5fPbI6AQR4FLCprmEZfTfLtwSYhhEqOCMcuTibvmKzlJXJ5dDG53UjDkNXZpy0qGyH5dNZfZIVMY-G9taO2AooUCa6g2IJsh7A6-touDc9jMpLhPVbZIflc5p8KH7Mi72mVhGF1GP5DpoRQJ4NP0NDr2ykJd-If9TALyeTT5rvuRYYtwY4yz4N0hy00Ivj_3747g4wFI-9uCkGy_pViOTpgk9jBOqpAa252-NRM48r2u2-3cEBGt5VF9fk_zvxgDVqF5EEghTpp4DfamdF3UFCJu56FjZf89ZnpbVAY0khfgEuEo_w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:50:51.386223+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

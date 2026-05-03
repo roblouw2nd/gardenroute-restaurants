@@ -1,0 +1,76 @@
+{
+  "id": "oyster-bar-mossel-bay",
+  "name": "Oyster Bar",
+  "slug": "oyster-bar-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Quay 4, Mossel Bay Harbour, 6500, Mossel Bay Central, Mossel Bay, 6506, South Africa",
+  "coordinates": {
+    "lat": -34.1787142,
+    "lng": 22.1422889
+  },
+  "phone": "+27 44 333 0202",
+  "email": "",
+  "website": "http://www.mosselbayoysterbar.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJVeKY8fVp1h0Rt7dKUF6eA8s",
+  "google_rating": 3.9,
+  "google_review_count": 519,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "South African"
+  ],
+  "tags": [
+    "Waterfront",
+    "Ocean views",
+    "Outdoor seating",
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 9:00 PM",
+    "tuesday": "10:00 AM – 9:00 PM",
+    "wednesday": "10:00 AM – 9:00 PM",
+    "thursday": "10:00 AM – 9:00 PM",
+    "friday": "10:00 AM – 9:00 PM",
+    "saturday": "9:00 AM – 9:00 PM",
+    "sunday": "9:00 AM – 9:00 PM"
+  },
+  "description_short": "Harbour-side seafood spot serving fresh oysters and local catches with working port views.",
+  "description_long": "Perched on Quay 4 in Mossel Bay's working harbour, the Oyster Bar puts you right where the boats come in. It's a proper harbour restaurant with views of fishing vessels and the Indian Ocean beyond, where the atmosphere is relaxed and the focus is firmly on what's fresh that day.\n\nThe oysters are the main draw here – served natural, grilled, or prepared in various styles that let the sea flavour shine through. Beyond bivalves, expect line fish, calamari, and other coastal staples done simply and well. The location means you're watching harbour activity while you eat, which adds an authentic working-port feel that's hard to find elsewhere along this stretch of coast.\n\nIt's the kind of place where locals bring visitors to show off Mossel Bay's maritime character. The setting does most of the work – you're literally on the harbour – but the kitchen delivers honest seafood that suits the surroundings. Best enjoyed when the weather's good and you can sit outside with the sea breeze.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVeKY8fVp1h0Rt7dKUF6eA8s/photos/Ab43m-vQHsjsBNbDIJ5gbChZMU58YsyxA6SUpI7feif6Ms-fNEekP204URuePFgmZZIcIuEuoNr5RaDanbH_e44u3WYAxBXznFNK3c6d4yS-w95pvmrbd76u61vLy257BMNxJgEKeSFeZQPA_PDaSLsKx86tptK0rm0UjYpaQt2IytbsBELuy88djetGXC-VXY5W_PTPiPck5b7zaMfLKsYcCeZG_nsatZclZTxwGPV7OM5f4195P7BTzE-Y8lZFFAkFbnoWRE_bNmsbEnoyQBec1T3Hni_Th5savfir0QiN7fBuhw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVeKY8fVp1h0Rt7dKUF6eA8s/photos/Ab43m-t1bx9Exry-VcvSUZwFfSGZ1ik5z3N5kOy_lwt63vzLWdFoPZHWR42fO7MDScSLC9h_dmsLrWCvOmw_93HlUISsOBvKdAO0IhoAaqDh5-bRRqyoRZIC9k7mZW9oVDSS3mhixOjp2KeWq8lpX5QT0gfLwd3AAQWvj8qE76M_HefT37qmL6Tr67oMalbe62mIN0vwW4sqrHlYVyJiwRMM6-loDQ2L3k_7PWyUfBow7auf2j2hwbbfk8bX-YwikDxYhCMiPSnuPx-Wn5Jf4Q5sHUPTuBmvt4z0BJi4Wiux5m8XUg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVeKY8fVp1h0Rt7dKUF6eA8s/photos/Ab43m-uPexJDblQiH_hqnDKMkwGfGkiNZWGlxVtSNczY1SOQ_wyWKFw2aDZmxnumOvtMnpxGrkZKqLD2LL7EE1OXJevoKOBh7Y2kdNUD5BQKKRbGQwJeGudqxxAdgFel7DgMWBTAO8U1HE5y93xyMxUuroeQuTmMkUdy_J8uW2clc-QOPvIslUbNqXHfqs6gj82UOF0g6kdsHbernMluepFjiKLmgKS8S_9Fz7Wa9KCtvzEMfxKdrr5nOvpjyDNCfUfWrzySKGjmKSKV0W7v3-cid1u5esoo8_eBJHzWIFQJiGa4ogLeRjYsoxtYqyAJzKEJH0lUirPTmRixMlXOmVmvBEkSFoJ1sTDFRiycVTQyNyVemh8IBFjRyv5SNSnZXc2CBqCFSF4VWFuS6JHlFoKEJT5qLVAb-E0b8rrRQZmLBOva2e0Ci1wUD7e9X9bspQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVeKY8fVp1h0Rt7dKUF6eA8s/photos/Ab43m-vgo94y6ihzWeW5LeAnA-SnV8Z3EhM2o2m0dsAV88VZLmrTGfgD3MZNuJ_1MzjPBYayvPjgXbQJJplXkJ4BWdnZhrnJph9-b_F99k0xEK8zIU-LkVPt5-VijqRPqLoc2YOviU6uz-wpXnFuolbhHHhoDrKJ4_JjBsFmCJe78WF98qxdn2zj-JAmet1C0LY3tfX2elvBuu-L3iSiXa7OGgJqhY-nGgyA88VH5UXFZ5eDJEzj2logKOUqtZl7Wn0zrK73ZnmqOjAMR7FrnJgFNRiz2IrleGC7py6wM47FvyMidFDES39V_M0gdZ7jgVuYMdkhXYpcq2wSHRdLsSssN7gbSNuVyAyeJfHR4z35QJuA7dzn9jg1UFN4vVVnUL8WRfWAQJkVNaEXgyJaj9L1L8H9Z3V_q8ph_Ixv252YXNsig7EwjkedBCTfvSTTKBX3/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVeKY8fVp1h0Rt7dKUF6eA8s/photos/Ab43m-sUEsiLTNwMObhSdYGtSaiSuTHAKl8He4ZX7_3pXzBwaoDeY2zSQnQ-U200Lv6YBfqIUSArmtaAd4sZiBN9JdO0zoV8KgebhulDhKNFx9hl4M25qZN4mfqczsTY5pK13cmk-qHM_f1McVgLapvh3KgIeFAX-2zpWoZM8-_Yia_j_N-3_xmPot4nKaZIq2MTQeVLlB4Z4RBZAEBqrIs4u1h5v782jALXRo95pZFsn736Vb3vFgCxSb8Sggl4lIZiKv0QDa8Gt2WnLwEP_w1jlqwKSfQt_5aHNF2tLTj7zMAZG2eZh5HTAFIdk70EcGIM8WSMhz9ZRJzOLl8upWbefxHIsKg0cbVc4KC7krKY8zR6Dfh54eIPt_wfkMagqchRpj0zoyK5rjGtXQ6w99czP96VnUBv4hvSFd0Z58pv6TdNnU7dF13pEuQ2vfF5Rw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:40:51.399742+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

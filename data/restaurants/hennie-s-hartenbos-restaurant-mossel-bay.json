@@ -1,0 +1,77 @@
+{
+  "id": "hennie-s-hartenbos-restaurant-mossel-bay",
+  "name": "Hennie's Hartenbos Restaurant",
+  "slug": "hennie-s-hartenbos-restaurant-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "156 Paardekraal Ave, Seefront, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1263035,
+    "lng": 22.117485499999997
+  },
+  "phone": "+27 44 868 0677",
+  "email": "",
+  "website": "https://www.therealhennies.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJy-7yLzpp1h0RmsAhQzT3LZs",
+  "google_rating": 4.4,
+  "google_review_count": 1981,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Pizza",
+    "Seafood"
+  ],
+  "tags": [
+    "Family friendly",
+    "Sports bar",
+    "Full bar",
+    "Good for groups",
+    "Casual",
+    "Child friendly"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 10:00 PM",
+    "tuesday": "10:00 AM – 10:00 PM",
+    "wednesday": "10:00 AM – 10:00 PM",
+    "thursday": "10:00 AM – 10:30 PM",
+    "friday": "10:00 AM – 11:00 PM",
+    "saturday": "9:00 AM – 11:00 PM",
+    "sunday": "9:00 AM – 10:00 PM"
+  },
+  "description_short": "Family-friendly sports bar in Hartenbos serving generous portions of pub grub and cold drinks.",
+  "description_long": "Hennie's has been a Hartenbos institution for years, drawing families and sports fans to its lively venue on Paardekraal Avenue. The atmosphere is relaxed and unpretentious, with multiple screens showing live sport and a menu that covers all the pub classics done well. Expect hearty burgers, steaks, pizzas, and seafood platters that won't disappoint when you're hungry after a day at the beach.\n\nThe portions are generous and the vibe is casual, making it a solid choice for families with kids or groups looking for a no-fuss meal. With its sports bar setup and full bar, it's equally suited to catching the rugby with mates over a beer. The location in Seefront puts you close to the Hartenbos beachfront, perfect for a post-swim feed.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy-7yLzpp1h0RmsAhQzT3LZs/photos/Ab43m-tpjGm6JkEPhTAAIg2E6Y0zfsEcH5J1rn4WrTRBFi9sllce5vsDShUWW8_OnC-I1JCgcdOHXnNbun23Dqutd3FIVgXgp93wYqWOtDFLMGthK3ZJbi79N_V1jtRvzV36fXQTta3vFAtRe0hKsIGbK9q0fm29-b48jv1CNZY6vWGSsGbRBxtqBQ2PVi9DWwRnAtFM6wGLzawwN1w7B4jHmiZvuke2sMWf5-ydsmlYA7e-hdwl6Xp6N2CZCRCxj5VvuKl_zf7OQ3eC07_1dSFeFuR4IRA7xA7bSMrAS4IU_JsWPg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy-7yLzpp1h0RmsAhQzT3LZs/photos/Ab43m-sH4aRqn91q705783_URIs7ac72JwoQfxBBqZV3d6Or0EA_HxHWkm0W-vnp1aV9ien3q3c_k9bhkrcFV6XEeVneeVuuXDLE2qXhLSLXSa31j-j8k_5WdYGzAfnPUXT1Qma39HDlnSgvpQLeNK0aUL9Fk5OZTO1OTSjvEh6jG_vb60ujO-IjvOMXCqr8SVqgQOS6ivs5-wnPH5o5vNI2ZtVjqJAr89vlZACWgO3-c60v1L_Z6H2OJqkiUYfzQT3RpofsnLYIul2KjMIipveGsH_1wrOXVlHiZnzvUwxanrOYHQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy-7yLzpp1h0RmsAhQzT3LZs/photos/Ab43m-v75v1MK0VjsvO5uD7B82Ocuhn-qGWVf97dnf8C4L0kvWgqkQAa5OaBYqQquxChSlBHsY8DVMsLZ_B-dcOt2547ts2IfymsiAukK9xEVOJwkhXBWbqC_0zYL4L-mX-V3m1sSPmYQHGCjzrTyACA_6yeO26GjO4eVlTmnItc-0yIgYldPxcLbMZddbsOap8zuQsnPI0m0GMFOJ8f3dC-U_Wd9yOMAq0TRYrv7qjvKUfZnlFj_5s8lGnByZKqDarBHpDRn0e5jezeNFTejFna5yt9d0WYd0jjC5l6HW2D8ZRHMBlvEjgyv-rJI4Qi_eCeyBGWMMOhbgD4CLASnTGUlpd2G6cYRkXKGsVGPNnjHema7jud72pgJ_gIek_ZjivL1TrmUed1sUFG1C7vDGrLz9wLQStFP3qCbP51Uua4TSw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy-7yLzpp1h0RmsAhQzT3LZs/photos/Ab43m-sqaDNZ2i0MjMOx1SvodTZBH-RQC77KZrEVuxcTYrhQL2bTjQxj7soXnMr_aCQytj4Ao6Hl6wJ68AwOvQK5m5RDRLtQtkQKtugZcn6mpsWuLp9iSYfMaCbeFUhaBUn-2lDVdMSagPh_vwPvvMRBCbwdoZYA4PYwks_Yzh9PVZa-cDv-8gnyiZQ7UkXRLYon4wRHNLv6lCGtb_3bBK0H642TNqwYxlVmw01duvbf1mcrZHko_ksywmvqJ9nr3ODdQ1Lawb6o2u8q8iM4UIMGVqzZ8GCQ3cJTRL212wUjFHS3GvYT19ZDcYPGafgDS7IrRAR3LP_fAE0nQQV1NSHBMSMtHt_IFPWcMOBUhHyDQrP9XgafrVuqvnUTLISyFXQRb-PQsNNM29bWsqINRl04b1tUZY0KWJb0zLweuM9p0sfViUTUkgrxxxbaimbPvw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJy-7yLzpp1h0RmsAhQzT3LZs/photos/Ab43m-tdC-GFsxGWX9qYwDIbQqqm3-XxFmXQTY0OJYwzn1-VK50CvmcDjdmdL4uYw5sRrx-DN0DvciM6OfkLtw-F_ExBbhMRObOIUu0Q8tD61k8LvgIAl2Hj9wNe8dL460yVIKxV9kjoeVyTJEKlT3NkoV0K4GeKo-8Ijs71s-VHD9Ntu7x5vAz5P3x_umgm6ruvgh4IXz0sq87yG9cjacRzvzzuqbovQFMg9Xb2BcFyuHp2VEpVxecqLzVWjMZ2u9Jweg8giWzZBul1bfr5D-fx8GxiinrlpjX9Q833OrysMN6j2g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:47.518240+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

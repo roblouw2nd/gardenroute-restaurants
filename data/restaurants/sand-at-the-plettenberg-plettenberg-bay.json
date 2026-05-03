@@ -1,0 +1,81 @@
+{
+  "id": "sand-at-the-plettenberg-plettenberg-bay",
+  "name": "Sand at the Plettenberg",
+  "slug": "sand-at-the-plettenberg-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.053999999999995,
+    "lng": 23.3769
+  },
+  "phone": "+27 44 533 2030",
+  "email": "",
+  "website": "https://www.theplettenberghotel.com/restaurants-bars/the-sandbar/",
+  "menu_url": "",
+  "google_place_id": "ChIJn3AAsmzjeB4RauqCpd0EW3g",
+  "google_rating": 0,
+  "google_review_count": 0,
+  "price_level": 3,
+  "cuisine_types": [
+    "Seafood",
+    "Mediterranean",
+    "Fine Dining"
+  ],
+  "tags": [
+    "Ocean views",
+    "Beachfront",
+    "Waterfront",
+    "Outdoor seating",
+    "Date night",
+    "Romantic",
+    "Upmarket",
+    "Good for groups",
+    "Reservation recommended",
+    "Full bar",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "6:00 AM – 10:00 PM",
+    "tuesday": "6:00 AM – 10:00 PM",
+    "wednesday": "6:00 AM – 10:00 PM",
+    "thursday": "6:00 AM – 10:00 PM",
+    "friday": "6:00 AM – 10:00 PM",
+    "saturday": "6:00 AM – 10:00 PM",
+    "sunday": "6:00 AM – 10:00 PM"
+  },
+  "description_short": "Beachfront dining at The Plettenberg with stunning ocean views and relaxed coastal elegance.",
+  "description_long": "Perched at the iconic Plettenberg Hotel, Sand offers a sophisticated yet relaxed beachfront dining experience where the Indian Ocean provides the backdrop. The setting combines coastal charm with five-star service, making it ideal for leisurely lunches or sundowners as whales breach offshore during season.\n\nThe menu celebrates fresh seafood and local ingredients, with dishes that range from light salads and sustainably caught fish to heartier grills. Whether you're enjoying a casual lunch after a beach walk or settling in for cocktails as the sun sets over Robberg, the relaxed atmosphere never feels stuffy despite the upmarket location.\n\nThe location on Plettenberg's famous beachfront puts you right on one of the Garden Route's most beautiful stretches of coastline. It's the kind of place where you linger over that second glass of wine, watching the waves roll in and feeling grateful you're exactly where you are.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn3AAsmzjeB4RauqCpd0EW3g/photos/Ab43m-v68U0vZCT3J2a9VEoeYfUCj7KJIo7hLDhrcGA4PV3ze7Cy1d907UWVq5IqqtPrRYKPJDIBlMDqoFM3GZe7qIuYwj56-BrXCICAh9MFS950zAYemJ1QXffvrH9M_eLSkBqIChRahdma-rHVzy3r4fpdO2YriY272mVZkGvMeNH1ekt0nb6SoguzFV4x-V-zkTPju_ISQGcOdNgLHlujBvrkaLWMnhEZs6c-s9r5D7eNPY3LU7HOhJVecihX-8dLfbhoy5qn7dyAasjlj5_auJ3b6M4MmacW1rTr_Q0xli9RIiBfkFvwPcvTJQ_6xa0Ka93c9UPrIJj08TkATKlgkfdddF-UbinjcPrDFYDf3LfeM1hMC_mdg5IwEZ3jhSonFlRtgIjmwShwZI0oJ91ntjIu_OncXoy-e9CkKVQcV50/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn3AAsmzjeB4RauqCpd0EW3g/photos/Ab43m-tVY6_KFmnsqAmf-iJuKj7oEHahC79bUnbCqv4zJJveA9dpF28f4cQ1UEtW-_HIYaheGJ-4gEOswaMcj8bBgY2iRZQcGdTN75vi796SCLhRNwfSWBpvae8vsINGd9YcbMLoJ_7EeCTbT5_nLJ1VjXV0cxv45fn28RLc8V6KHCv-G06EtPbzpDJPKc-UbmJPjuJZkWAUcTmRo0OJFTugE3V_iyYzoWDq7BEaxRFtMoz4KuhlecGBKtr2jLefaNAFOP3AJz7goNjnAZ3VXdZwqEQ7ubxmJBTw4GEGQLuN-XlNI0wxe4AhicT8Nf2_oj6GMUj6JjkzlXq2uV_ETviWWtQCqd2MwfxLD3lXgFklzAZW7ODwpioFEvWxC6Ea7c1b5q-UtsL0timbZo87u220g6RwamL7K9Qe_WjJmXwvpOs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn3AAsmzjeB4RauqCpd0EW3g/photos/Ab43m-vphfbgtLNS9SqnLHXP0a5THIZOZp8OSH_J4dnSaknJWIC61zFLgbL3yVCjcyeXCTWdrHgLZRqVn8cbUYXHhcUgVylReOnP1VOhQQG6RtmMq5BWsrvEalnnKdDrZ41X8Cqxx46gSivi3EN4ajC7hWwUeHqQozqTZ2YjKv3wJ4LbpTjNWs_o_Rqer-3uyprO1pec8hMes0haJ0Biq1twhGORBnyKrDt5DtQQOzR2PvZK6IWK6DOO2KvqXxM84YZGoiQDXKVv7rJcLITdl3lS0D-PzF-z3ZWnMw4ItoCBDdNwliMZO9UnGv_XUqIFKExeVF7a0aA-zpY2gARppIJCtJKww9QtLTR4yECS8cVL8ZAyTFEyMq6WaQHDRJUrKhil0ufsJ1Q5AnFfoFY4Xk3irvqZIx1QjVcsr3y45NP2NgCq7w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn3AAsmzjeB4RauqCpd0EW3g/photos/Ab43m-s19sZh9zbwaBF2bD_1zjfUybMhvEZJd2D__JBixIULS2nTPUaExSPtBoflgULr9JYE6j1TU-70TMmWT_vlojW-goYW_fICqIZNfCUOVhi53vNEjCnCF2qZoaW3y74jOSrdjz6xuaMn0E6eobLT8lxqb25eAOygASgZx7fSQ0SAa6hKACUcCLvjnwCPJqba4IKso6Crzd4KbIU_oZ8iVWksCFIOPf0TeyGd-XYQubdHLrRgerhZj67_X2832Pd6-hXG8DrwQd7pMEs1axkRdLp-9JbA8ju11mtAEh0K8J8QKVo0Q8QfG9IevAxn9aOkbLU-Z6Ys35H78-P2ULXCF5LW4NPmCI8Q0_rAL0CKETeBdfKNm0gS1OtO0i9TGz39Qws-WgUiYlUQuirBTmt12MJId0bd8evznW2xnTNt_ws/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn3AAsmzjeB4RauqCpd0EW3g/photos/Ab43m-tLoYihKY69nBPD5nPcQcYZRf1jRsu4CWxivCRUQ8tOqnIptizC2Z8Wjyo5OnbtAM03LL6DdsPDGIGaq1uVFmMY9zSr4j4EGe-YBWo1nuE7LLZOshN9zZiPHOV2Sw4i37OmMm4QDXMRs7bg0PU7OBENOhBjDfQzJ99OjfqoN-6xnzkIv6zp68h9z-7ET17xfDzjzZhCX3oqHY7y0uUUAHjWLRTtbDLdXusXYPxVq75Y0taYzWNdr-XeHbcR_6BAY6w_1U6l60y4GWdU2qyLRReXbjpg5NvD8p_DP4wCQUpst6pik7MZB0DhEYDKj4lVWgceDmiki59bueHDXh3We9XUoYemjmWvUs2RYNybsYz6U80wYcLO5VyaBTb4ETrgab440kyx1buM2N3rxrcuZuZuyywhw8i41hsl3RN8JgCoXQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:33:23.493626+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

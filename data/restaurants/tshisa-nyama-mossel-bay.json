@@ -1,0 +1,75 @@
+{
+  "id": "tshisa-nyama-mossel-bay",
+  "name": "Tshisa Nyama",
+  "slug": "tshisa-nyama-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "1 Short Street, Santos Bay, Mossel Bay, 6500, South Africa",
+  "coordinates": {
+    "lat": -34.179267599999996,
+    "lng": 22.1412951
+  },
+  "phone": "+27 64 381 0386",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJl7H8nzFp1h0RmOMRw1-09VQ",
+  "google_rating": 4,
+  "google_review_count": 73,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Steakhouse"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Local produce",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 9:00 PM",
+    "tuesday": "10:00 AM – 9:00 PM",
+    "wednesday": "10:00 AM – 9:00 PM",
+    "thursday": "10:00 AM – 9:00 PM",
+    "friday": "10:00 AM – 9:00 PM",
+    "saturday": "10:00 AM – 9:00 PM",
+    "sunday": "10:00 AM – 9:00 PM"
+  },
+  "description_short": "Authentic township braai experience in Santos Bay serving flame-grilled meat and pap the traditional way.",
+  "description_long": "Tshisa Nyama brings the soul of South African township culture to Santos Bay with an authentic braai experience that's all about flame-grilled meat, good vibes, and community. The name says it all – 'burn the meat' – and that's exactly what they do, cooking beef, chicken, and boerewors over open flames while you watch. Expect generous portions served with pap, chakalaka, and fresh salads in a casual, no-frills setting where the focus is purely on flavour and tradition.\n\nThis is local food done right, with that unmistakable smoky char and spice mix that makes South African braai unforgettable. The atmosphere is laid-back and welcoming, perfect for anyone wanting to experience real township cuisine without pretence. Located in Santos Bay, it's a refreshing change from the usual Mossel Bay dining scene – come hungry, come casual, and come ready for proper portions at prices that won't break the bank.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJl7H8nzFp1h0RmOMRw1-09VQ/photos/Ab43m-tJasafFM0sdIsyAhNvu_IwLs5cNwzRxusC8zoEvdSxGt_YUZ5klA8tOQY9EW8P_kCV0pwOTuYC2-MOnMYVug2mVf1FUc5j6f3zaY85Ir5UYN2oncFvc0Ykia5f6kSueUsvQsldmLaYtZ6scfRhWJZ8V1tHdQpWkZaj0BVW2MwH6kDC3OrPe4Pr6-8efREmu9ycSBjRbaEvNoUAfc6z_f0r6mDIdk5rpuV6k_Gi9K-x32LwT88Si3ad-_-222imrZwMlE9LK6-6GPTJFJwIqeNgSjjHqVKzDCxz4ONW84-Eag/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJl7H8nzFp1h0RmOMRw1-09VQ/photos/Ab43m-uMPY8Nf3_uluXBrYzGNMr4Eg6Nn-OEuAHoLYfz5ttoTS9WYb3QA0p7u-0LLXE-D0diif-cfxAA-62erRiCQOHex0D0e-tYts2Uwdqf8OEO3jXzGM1hMl-YFBwQZjORApTroMnjEqqSvavchSuaAqvnQHEWFrdTlf8S6sKijeZGL0sXT625c3pdRS_gRAM4-dTI_R5UIiu3IhNoeAEEhm-QARrOok8Wn2Hd7nWiPBRO6GCcSdWjC2yPMyO2EQSdiNZhQ8vNi4almld4MQb7DqObR5uDOMQmbDbuOWke4zz3EH63tGdq4Uf2yiWy1cvSPHELQSJs6o3tdTkD6XUaxFvfDqumpqZBrayy0HEuBXmDC4nQ7Jw946hu872Tu1DOPpk0snEeqL7aHye2CENeLmMlLCpLYJG-uJNHRiI6Fek6cg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJl7H8nzFp1h0RmOMRw1-09VQ/photos/Ab43m-uL9vLTSHCcTtg35-qqR-JTvzZaw94-0GokZVetOWN_pQsEbouCJm7w16wsJQBum-M-qWE5UGWMeHj0EpGpfk4rbSGMCp-pKwJVl0DY3y8hUjV0ENJQ-ZcQaaH1eUMgALEcdwFNSWcAyTM_QFJV1W_qlWUFStKieeQ0e_0wcwnUCWWpuLMvQTXgEaBJ6KpCsYTwPhjhlVmFqFrUFhwuZnd0l859ZHjVimcdmXzz8So5SU6yfUEYitLjVhcrc2S52ANDRUPm31jxaWpF_Di_wgjpP0eo4KToBLP3l_u6JnmwHpR8YzmoKDc8FKCBx0bltbmP4PNhY5SUQfw2JuRtT4Lgqq59B53JY_ByFSWijNGuNTeV0PiTfYn8xHDhdN7OSpeg1d1xNIA4bz8hg-05uVzLaeQeI_gkCLmvcSBlPW1zbMea/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJl7H8nzFp1h0RmOMRw1-09VQ/photos/Ab43m-t2Dqg1ppunzadIelxrSYR09bG9_MkKJt6seXPMZc5bVPX6_bdE_S34MlLst3wWbPat7ApvmM6J43xiJvx-p9T16LbM3MFXflhaCNUBNFF9p6O8m2xLvWtG2PMvIkxFXXVZzkX_k7gJRmtmWwaYeDBouu3dVED3nVUv8DLYWyWAfAWlYHAbe5d-Fk_Fd4O-88Nvi9TeS21_FUfklWErGFMpgbmmsHSDwZcoYu1smH5FklmUFWameadKHXrhqbbb0WetllMGCT2K-wurr3SM8kxcxnCknLN4CqXSbbgLTJ_ucwEPJXBZJ6k-mBY1q1MQMB1iIyUDYlz-X5o9wLCat6QOOY3S29IDQuW3tUzjpocET-dxAuEjtVOTHCXsGuVgP1in8RAGCiiuIwM4r9xosoI5W7CwLmSgcbwcz4MoMK-aYQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJl7H8nzFp1h0RmOMRw1-09VQ/photos/Ab43m-vQ38eNng3wTagSCz3pLS833TgBoCuPaVudd5iWJXVYs-ucMpu-IqLdoJqVTkB37Edk1bupbjzWR-3U2RWitfC3fR31Aj_mCuyzsXEH2dKuxPSsNSa_T9mM67Hid8Lo0-ThnsaVh2trXQe6Wt6cViaEL4yf3xUEzpznfyo_Hxv_J3yIODEnagyXoINLwW2KPPXJwcncUKOb9tKfmEqfPJVV4rxMtNVFv_UCfSYlorJIH4ZKHZkCub1gwB7KcMYDPgFJMpy3O7m4v250zLPOfRY4xnaEvrlb_cF-gR6YzLsm40Qz1kWStklanimWFDtyN2s0Pm-FMhzS8AEjnWA0iz5QoH_XdKZ_tsQvQ1aMXkj28LW_z3gU_0LX0XDPsTY_AX5tTCiI20GnF0Sd_0aseEZxOeNY-QAZaNzmcamLN7ydqUJf/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:46:47.380028+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

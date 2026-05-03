@@ -1,0 +1,76 @@
+{
+  "id": "bootlegger-hartenbos-mossel-bay",
+  "name": "Bootlegger Hartenbos",
+  "slug": "bootlegger-hartenbos-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Kaap De Goede Hoop Ave, Hartenbos, Mossel Bay, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.1243573,
+    "lng": 22.1093798
+  },
+  "phone": "+27 44 001 1665",
+  "email": "",
+  "website": "https://ourcafes.bootlegger.coffee/FoodDrink-MosselBay-BootleggerHartenbos",
+  "menu_url": "",
+  "google_place_id": "ChIJgdgo-V1p1h0Roxd15ZIdb_g",
+  "google_rating": 4.3,
+  "google_review_count": 190,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Bakery",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Family friendly",
+    "Breakfast all day"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 5:00 PM",
+    "tuesday": "7:00 AM – 5:00 PM",
+    "wednesday": "7:00 AM – 5:00 PM",
+    "thursday": "7:00 AM – 5:00 PM",
+    "friday": "7:00 AM – 5:00 PM",
+    "saturday": "7:00 AM – 3:00 PM",
+    "sunday": "8:00 AM – 3:00 PM"
+  },
+  "description_short": "Coffee roastery and cafe in Hartenbos serving quality brews, light meals, and fresh bakery goods.",
+  "description_long": "Bootlegger Hartenbos brings specialty coffee culture to the heart of Hartenbos, just minutes from Mossel Bay's beaches. The aroma of freshly roasted beans greets you at the door, setting the tone for a quality coffee experience whether you're after an expertly pulled espresso or a smooth filter brew.\n\nThe menu covers breakfast classics, fresh sandwiches, salads, and light meals that pair well with their signature coffees. Their bakery counter tempts with daily pastries and sweet treats. The relaxed atmosphere works equally well for a quick morning coffee run or a leisurely catch-up with friends.\n\nLocated on Kaap De Goede Hoop Avenue, it's a convenient stop for locals and holidaymakers exploring the Garden Route coastline. The casual vibe and consistent quality have made it a reliable choice in the area.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgdgo-V1p1h0Roxd15ZIdb_g/photos/Ab43m-vz2qwBbxbduqfwysLH1botB36ecJ5YPal4JAVM4xMe7dmv7qtHZiXBVv0bd6JjpEc2crkzT1EvFRpabHEdHr5E1BeKj3hD6A6io4R04Dpgkb3Y9dZWjbFTlkeZDTPViWRFbGSDGYOwys2Wm_kbFfZignqFFAX4Z0C7X6dxStMddPuJwDOPQt6CB3w6kB82Uxny_rdMkYMt3P7fDIjwag-ATOMDAvUw3eTzQiDRk53RUPb7ezbFedj-ezgEUqBJCr1HbVCE4rK8Dl6qJbvSIvUFrheDmb7euZX9T5qlcHMXj3ixpbu1Isbn5a2Wi-tvoa5FuUU06y3CA6CPteIzsdVoT5defwQCkCKatXZzQLu0mdaGyCLNYDBpbYMBXWQfOIGTNhKKZj-z89d-vZxClp1cGPfWwvKHy6Xj5ylI7Ac/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgdgo-V1p1h0Roxd15ZIdb_g/photos/Ab43m-ttdE5YaaUJsEia7ASymoiPWVfLXgJTGBUUkH14YaLSVJW3RwJ_b5GgRP5UHoQZNAZHu-RxbrQ3QoegUL4uPkE6AeAuPnZ5x0SU70LZ2lNsq5gqDpNIhmiMdtlt6o5B1LDVb7S06oItlRiUzFSUMaTqawYqT8NG_Nnl0IgE9sJD0MMLv4OEcH5AFHcygoXvBO7yjAdqxRh1pjOVgU5QEViDxnwu8JZtrP5lWj9bATbiRORfqtYz1A33tKZUdlY3xxfEpmzxCoKI4YTSK2PguZi1gmDhl8b3c2xe5tqnyoxIhA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgdgo-V1p1h0Roxd15ZIdb_g/photos/Ab43m-trsI0gLMjqMMYXv-Y6fdgF6CVhySNsnnv8h2Cdg6jjAfoYJUDSpJe8cKhf4eEuVtHu2P9xqP3I7nlcIXCmeGnXw4yhmJ5jHnK_tohPCi6RjEZzWHi8LYUobQdfzfA_AQ09DcJixAnKBebeTMpqqR9PqKoS4La1ruB8c33DaI9HE2JWd0OOSNrS944j57IyfDcCqzy2uiTVLmfQwTfenVJkIPLII-NkSVL2DaYKPFzk4KIi0v5hwtLgARwJa4rU4hVeq_9rDVIsZjpv75DPO3eQQPluvgDDYoAwYP70YeWfWpMGcQhlyJC-hZ5Ylh4OB_n2LY8HxQJvgWpe22747yZ2jVU7VYc9mKYJZMFp6dTVFrG3AaJbXY-aLhXRSaT9dIhlKo-K--yCeC_g-mqF2h1oOjrjZKlc5Rf_5sbMPQCXQpQ8Vgd-NeVI3bHhi8kl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgdgo-V1p1h0Roxd15ZIdb_g/photos/Ab43m-uYWzcJd83eSjhIhGCRegthm6KXaCXx1wZMtTr1d-TvTIbtQwrrdWItMvbhPEKxETKWH3bG7sZ9yhHMsHdCUPJse8tfXiUDaZTgJCUxcPY2Uw1VujID_XIdY2GGLMV_2C8mBOOlwghoII-R3yXTP-3DkKF0rpOaWtB_6hDwqdufk8z67dIIHKF_pRrccB3sOYklUF5Q7cuIcGEQxZB12l_mtobpp3qIl5rCZkSWts5G-L4xlgI6v9RrJtuj6Y7H0NO6c5bAq11D8BiOenUEWlOzO_hDA4e_OCsA4STbafacyw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgdgo-V1p1h0Roxd15ZIdb_g/photos/Ab43m-u1BIRIk8ea8iulzm6eo6a6DOpG186Cb7cvbFgFw6070inqMii2xhw295OmH3xs9fjgyvJXhoyskXS5vwhUXMpzSUTH-XIX6AWKNrMSLeBTm6NGMoByMsUYDHnbWmmXGP4HyRyhkaf7zP-vVTaEysEgCMjpSUbSmtfHx6Rh3BgA0T_DqdWQQ_3W48ywk3H6XorjoPft12e_mxFOxijbQevM6FYzrWVGhSRbuRyZpLnVH9tW7-ctF80Ks9RpZinusGSCPqksAMqbPX7F12RSE_mVP-BLed3LB03Go5Tt8gm5DkK-9cbj-Le487WLtxNguHhlZfkkb2R3BQclpfDOuT6gqw9ZQfiicpLOUpq4C5vAs5P1yDon8aDVsU5QJd6J6kaor7m9YmW2k8SSrS9wDgqyL9RUcolfGouX5YT-ihuczSt0g4GSZ1BKDsEP7g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:57.464271+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

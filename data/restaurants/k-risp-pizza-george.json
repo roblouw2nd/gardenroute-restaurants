@@ -1,0 +1,73 @@
+{
+  "id": "k-risp-pizza-george",
+  "name": "K-risp Pizza",
+  "slug": "k-risp-pizza-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "42 9th Ave, Denneoord, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9378742,
+    "lng": 22.4753038
+  },
+  "phone": "+27 84 624 0111",
+  "email": "",
+  "website": "https://www.k-risp.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJUWHq3TYF1h0Rm3eYXpFwpd8",
+  "google_rating": 4.9,
+  "google_review_count": 106,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Italian"
+  ],
+  "tags": [
+    "Takeaway",
+    "Casual",
+    "Wood-fired",
+    "Family friendly"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "Closed",
+    "wednesday": "Closed",
+    "thursday": "Closed",
+    "friday": "3:30 – 8:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "description_short": "Wood-fired pizza perfection in Denneoord, where crispy bases meet quality toppings and a 4.9-star reputation.",
+  "description_long": "Tucked away in Denneoord, K-risp Pizza has earned its stellar reputation with consistently excellent wood-fired pizzas that keep George locals coming back. The focus here is simple: quality ingredients, perfectly charred bases with that satisfying crunch, and generous toppings that don't compromise on flavour.\n\nWhether you're grabbing takeaway for a casual night in or settling down to enjoy your pizza fresh from the oven, the attention to detail shines through in every slice. The menu covers classic favourites alongside creative combinations, all baked to that ideal balance of crispy and chewy that proper pizza demands.\n\nConveniently located on 9th Avenue, it's become a go-to spot for pizza lovers across George who appreciate the difference that wood-fired cooking and fresh ingredients make. With over a hundred five-star reviews, this is pizza done right without the fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUWHq3TYF1h0Rm3eYXpFwpd8/photos/Ab43m-u_ymU4LLhfBm0YTgp3_2RCovoVIHAcSVhlgaCHk3pRp7IJXX1uiPuQuqHBJhgYMxZJYOb-CH7Fh1uNLQwAouS_GvAgkilcff3DsfMQ-gN8F46HQMswdqEV4QlyvFrWrwfWdufrFGswurD9JC3uD3S1Q8hRIzQkE26aKZ4_Z-mEDXxxr8txnJQEBh8I8WmqGl6ZlRqS_K4MwOmYci0CBQoV-nk4nRV9biLqmYPKkEibjX9d0YAyzqRa1vlQcQUUXywxqnmuTtvgUWTJQi0zoQwE306n80p4KctMvRld5DbeOA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUWHq3TYF1h0Rm3eYXpFwpd8/photos/Ab43m-ug60W_VlWfhgKgSFv42MFqpE8J-PxmmexoaQTjC9HLw61XIBlV6eQYArZG-vNkpMjNEIhFVL_uKlTPcuB1yQaVUHFjg1_uT1UGqyRkJVNbhz6lj6hRc41pxuPxuxGknbE9RV2yd2VqBm4uCg0OyxWe8uwYxZMeZYH9JzEnL-6HWboZclajrzNDBU80U6dcExcTB_BG9jjTbrwS4DMO1Zq3k4Jn1xF9Up6dXBvvp85QIrb_obOTza6Yydat_ypKBvC25yVxqCZcmFqeZ1mmDwNKFHKrtzavcqdW25a1jFqrPQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUWHq3TYF1h0Rm3eYXpFwpd8/photos/Ab43m-vt7ju8EVJLfn7h7SX3XfLw4jETM5iSrXa3DfUFbNbvmUJkEoe3BTu226xKB1BxanIzzfNe8EhPeqL8YQCF-WCWFRtlOet1zJNgrI0_pzfB9Hv9TlFmT9WIGpzKFbPhsF1LSRc-raBh0_h9kzWXLiS4ZnWhbX5VQdS5s7ujcE5Y0ZTSE2W_jW4SiLfXsnhDPjUNpKu43QjEwXi7aFlkrGH41GIrhuiM17FuEVEGVpZyyXkmbaNUT6NajOgcgexH_tVFm0T-ixO2FtPDcFFLFZKhitugsgpC98mw9LzWUusT1Jplb9gFxMEgxpVsJlF0I-SItqaEQqtoDjSksqTetKFJ_QI-mc4HrpLS_2MGrToEJfxVWE9QAeg_WJyo9stQyrrkA6FVFwdRjCdrco5Y2lmxY98RvolD5z-VXqBBrPl7liY/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUWHq3TYF1h0Rm3eYXpFwpd8/photos/Ab43m-uRTbOSZnDo31ULYBJrVjXWCPfuu35v5r7EB7Hc1CBfmEXPAtEia1tCjS9iUKWKp-d-N-d-TZrFLFkka8CxdT8lRq6UC6lsmm66Ha3w-AfImOv9M_uugBo_WW5q2d-yUEK7ib_XjKTBd63pTVr6v-rcrCFRpBnc9oLUGCy1Jg5UChXwRjbpyhjJ_yIN3knl1PjKcPQn6GIA7Pvkyo4PdmOeryNFPfklyIbANite3zcY3iTdeGpc3SfC9tFPkTTnQlxDdEaJ8AvH4zi5afzWthkk7_nl9VuAreGLOsCLblgmNQ-LPxaqF-5PSAQbrfIkMWOE0oB4P4pu_nXlPowANk3nMs0xZ3QxpLQRU06IAbOayiphfI5oL2OFrXddqLoaiouhO2cEWhivosmTpDGruYib1Ni34t6clP4mgnYHocPa-SVes3foi0U6Wg4e27Ht/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJUWHq3TYF1h0Rm3eYXpFwpd8/photos/Ab43m-sA5GpgjydgNVgVT6QW2LDFFYqeuSTUZBP0zn5pBQLSFilC4LtPQREmRpuR8bra-KEcYTHhdXrhKNZ51UhNRXfFym2uyHXjvIfNcxVUAy9xROJCRoLbVNotRw6lTPsqsEiLlFp_ksdluopPYIzWuTciLBnWEHuIw2FIzL7QbvrE1i8K1e24_K6SGmjza45qsMQS_IVmn2wPMIjW-rYu4D6oyfQsTUbMxrQCfxVhIF5JuuHiz0jFHEgDtCjc2kO6xl7CPWrKkdtWR1XmH76zx_15DEDibBJPNgzjmMFHznb1Q0OQeFxwGfvx93ZGwZoaUDl1F2qzhHD9jukYjF2YsfM9sTGGZItUYH2TlJkRxui9irBMpcCHQ3CRFeeap7WRSi990wXYs2qje7m2dmhX-kW_6mxAri6pEGWj64p4OYBaKQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:38:56.513652+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

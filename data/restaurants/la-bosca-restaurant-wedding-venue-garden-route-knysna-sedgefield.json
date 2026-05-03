@@ -14,7 +14,7 @@
   "website": "http://www.labosca.co.za/",
   "google_place_id": "ChIJ8Z7uQwC7eB4R4-6zCz3eLKo",
   "google_rating": 4.7,
-  "google_review_count": 103,
+  "google_review_count": 104,
   "price_level": 2,
   "cuisine_types": [
     "Italian",
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-02T22:38:30.121176+00:00",
+  "last_updated": "2026-05-03T02:48:07.406976+00:00",
   "data_sources": [
     "google_places"
   ]

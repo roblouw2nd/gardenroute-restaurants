@@ -1,0 +1,75 @@
+{
+  "id": "cactus-mexican-restaurant-george",
+  "name": "Cactus Mexican Restaurant",
+  "slug": "cactus-mexican-restaurant-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "George Central, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9588403,
+    "lng": 22.4654623
+  },
+  "phone": "+27 44 874 7805",
+  "email": "",
+  "website": "http://www.cactus.bar/",
+  "menu_url": "",
+  "google_place_id": "ChIJyao6NycF1h0REQetWJyfGg8",
+  "google_rating": 4.3,
+  "google_review_count": 780,
+  "price_level": 2,
+  "cuisine_types": [
+    "Mexican"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Full bar",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Open late"
+  ],
+  "opening_hours": {
+    "monday": "12:00 PM – 12:00 AM",
+    "tuesday": "12:00 PM – 12:00 AM",
+    "wednesday": "12:00 PM – 12:00 AM",
+    "thursday": "12:00 PM – 12:00 AM",
+    "friday": "12:00 PM – 12:00 AM",
+    "saturday": "12:00 PM – 12:00 AM",
+    "sunday": "Closed"
+  },
+  "description_short": "Vibrant Mexican spot in George Central serving authentic tacos, burritos and margaritas in a lively atmosphere.",
+  "description_long": "Cactus Mexican Restaurant brings bold flavours and good energy to George Central. The colourful, laid-back space sets the tone for proper Mexican fare — think sizzling fajitas, loaded nachos, and tacos filled with tender carne asada or spicy chicken. Their margaritas are mixed strong and cold, perfect for washing down a plate of enchiladas.\n\nThe menu covers all the classics without pretension, from build-your-own burritos to fresh guacamole made tableside. Portions are generous, prices are fair, and the vibe is casual enough for a family meal or a night out with mates. The bar stays lively into the evening, with tequila flowing and a soundtrack that keeps things upbeat.\n\nLocated in the heart of George, it's an easy stop whether you're passing through or looking for something different from the usual Garden Route offerings. Service is friendly, the food hits the spot, and you'll leave full and satisfied.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJyao6NycF1h0REQetWJyfGg8/photos/Ab43m-uUUAMRHYVUarNpVDNUeZ2VsZ2LZgXQqjrFJ4rH5OlvzCu64H7BXH_1ZI-052cTqthDDgwkUOa6YQ0jIAS6OZSxSjbBAoy4bXZamzuw8YdYJMQqMeCnjFXhwUnXmWFpqD4i8_TLcoRhkrShm_kr5ebnPeSY4hDry9t1oOyUvy-2EY5k9kMfMXwqVMw6JGU7kFZBIGGqLVqNPO47VlUb8suO6w3Bt1C2rqXCGSCbJD9iInIDCsf4_zZQIipLQRNcFYsA6saDQvgAxoiy8_km2MnLqUm_LfLoGyupja0S5otnUoxWZ8iq9ZGG_5pR-w4yS06unoIr0tP8sqnGJT-Ta92ZJyRal4F5mVl93uhlTuWI4NB9af0qiW3lMp_rH2tLibx3UwhzsfwTv_A7PgwZNNRBWNqwBJ0B0Uhritw2mNk/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJyao6NycF1h0REQetWJyfGg8/photos/Ab43m-vhfbByyhCa0Guf739O82age1YrXi6-o5hztl2Wy16UDnxp5i3FAeofakWB2DzLnlTT8kw9KXREYJTLbyV5HOV3CP2mgV_Q1zxgl9HgKP1TSYZBB17S6PsWIOJp9e_Q6VOEWlQbtwotSrp9JRoBH0gi3hFpGJzH_QU51eSEd1OuWtd8sokzMEE6go1K8qPooMIjWPrM-wTaiYV6JEVBG6RmH3yROKRUwpvvpiA9lw6tFcwBgRBYor2BZNH2gG0JdhkgHtV6_rmQUKU5F6Bc0Q5_a-JeSjK4stYaklG_vr7y7mq05JQgN7hDuSwc_Xa441NFCHxVeMDtZabvJQxdqWJXV27kpKox7J9uj3DtDBziJns5qbhPpK0O23wHQbmsl37D4u9E7Q7isXOZ1QdLhsn489W1UbGC4vK5lbDpp5zvC6uw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJyao6NycF1h0REQetWJyfGg8/photos/Ab43m-swaVdEv8SMBWCliUnq6nwDLRB8cKN1zd5Pjm7_YT4QVood4xplwmXHoz869JHP9VswYHTheLRJeK_fgHj2EdVa1Ub_8q71_y00M2vMdL4LPAiCRFYsdaEts4Faf6ZWcUKAtY3FBVMgMYpDcpUFC6dWNY0tNORy6yOE2EJvtZflPtwX8Ol9lPI6x4-dMnbT__hFPR5hBn_waL5r7f5dgU6h2mJV57I8bCus67FcZdZzbNojF01b1UI31d3jNNFFWiimo4iBJxWSVWCxYXoGk8iyyzp7Gbff28GMBNXmo0p7l5w7t4tQ9t8BEZkMIhYEAwakyQnCkZ-QI7QUlsaZpdnm06KCYzaYpHVFpjPHbCtojEv5DjmlRgi2aGzhMPbJ4DQRGhaSkXzC-CH8fplNnBWLrOr8B9UYBDVa75lBjnTWtzE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJyao6NycF1h0REQetWJyfGg8/photos/Ab43m-vt-JEpv10JfzXrCK6S3UzKPpfV3EDcrK9XgoYX_pWAVlgT7794XbP6m8ncFFxXKJZCywnsIejJmtwh7txEj3plNWBOTAT4SdxjTxZVg4ULOGSsMG60ZH-Pl3kJpXnV2SOA3owuJGVd_QpawoBxwXfE9OvMptGQb63ujYhP7Now3diyGaCKn-HlUKIW4nWpouJ9g4x5tOVRDQ5MzqwjzUKewY7mvMI0qFIYO86JKHZ-NlD_0FqAVoIzbnzxVx_u6q2H-Yaud88Dwgbv6Gw4rYcuSgrLRsaIb_Z3XqTPPqBV-SnOffnZCOzH50daCOIewf2v3285LCUVyGDirlBcqPCBzJvgpZM5CPyLZMccKyyFL5I9v2jlSy50itKOUeJgPLCeuEXSmGNCtvI5BgxGvdNBTIW8HhakTL9TCu67PpRx-VFd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJyao6NycF1h0REQetWJyfGg8/photos/Ab43m-vgP-WiUvws0kLhwQotIYY3cR82c4yKt4xV1OJQOJQdIx9eW-AyVz9d-vNwopIIOf81-jgBXBFVCLG2yoldSDJ-XkxaZvBxlKOjdzqilVZ5wWCETaMpR1aJmSSaClUTobrwUMO8uvC3TFHU3rRycXCkpjQ4g3jIIDo_18w04-T0lmFcW6DLdGGfLMv6_IzN1DdnqbQSG0Ib8kIkj0w6GwdYGaoAOv3ugi8pCOWbxS3TZ6MYSbGkbiwPY9PJ01T3cVijH-3Pme1NSlQ2WaqIA6nlv9hCWiVoRHzEVlkaJAy6S_KLgjwphrRVjt28vAEgaS9tEOEd7I29-i2lbIXhJiFjhQ2_-Bcp2wXvBGap_wBAagaXzg7TeYA8aGKcWzgdgkpcy0Au3q0cchi0Mn22rXz2c9KogOflhs_U801EsG6kl4vy/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:36:09.122606+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

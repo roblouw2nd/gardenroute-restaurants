@@ -1,0 +1,72 @@
+{
+  "id": "shan-rice-george",
+  "name": "Shan Rice",
+  "slug": "shan-rice-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "140 Mitchell St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9595511,
+    "lng": 22.466334099999997
+  },
+  "phone": "+27 44 871 0222",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJJaZ8ZqcF1h0RpRUaKqZ72II",
+  "google_rating": 4.1,
+  "google_review_count": 85,
+  "price_level": 2,
+  "cuisine_types": [
+    "Asian"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 7:00 PM",
+    "tuesday": "11:00 AM – 7:00 PM",
+    "wednesday": "11:00 AM – 7:00 PM",
+    "thursday": "11:00 AM – 7:00 PM",
+    "friday": "11:00 AM – 7:00 PM",
+    "saturday": "11:00 AM – 7:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Family-run Chinese restaurant in George Central serving generous portions of classic dishes at honest prices.",
+  "description_long": "Tucked away on Mitchell Street in the heart of George, Shan Rice has been serving the local community with straightforward Chinese cuisine for years. The menu covers all the familiar favourites – from sweet and sour pork to chow mein and fried rice – prepared fresh and served in portions that won't leave you hungry.\n\nThe atmosphere is relaxed and unpretentious, making it a solid choice for a casual family meal or takeaway when you're craving something different from the usual Garden Route fare. The prices are fair, and the service is friendly without fuss. It's the kind of neighbourhood spot that locals return to when they want reliable Chinese food without any drama.\n\nConveniently located in George Central, it's easy to find and offers both dine-in and takeaway options. While it won't win any awards for ambiance, Shan Rice does exactly what it sets out to do – deliver decent Chinese food at reasonable prices in a no-nonsense setting.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJJaZ8ZqcF1h0RpRUaKqZ72II/photos/Ab43m-sfe4AVru-kBiboJ9EXLO52nBYiqduwwCh6LJrkFAmc8vuPjKcMRUsmFGp0wMIbT6zD-ch0aqsHwa93jZ9MWmlGTewlsb-3-Q5PsT8XlfXrJvm27uvy3YRvWlgIrUwpcOEW28kQVB93yVojXe-nMY8lecQwmQ9UxOQpHMOUz-YYdlDusZLU3z50N4q5PeU3vAtvawsFDKdv4Jtv1baHBZ65yCcFzpdOkIhCHxtw2nBEFUQak_e93OzisRmTbBZNH-9AjknsxQFyHR6BiTHTJ0VJ6GdXrTeYtYI1Zf95DbKSJIwHBvyustuqccNZ25sb6GJNYgkXN2kGcvpfNpAYMpvFqISTGEEdmlWb0GScVgPwR-2vxFSGLHQwiML8k245eBkZ_VptHRMgwKL4dLoZdWcRfHwZCKqzBPjo4sD4fOrulFDc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJJaZ8ZqcF1h0RpRUaKqZ72II/photos/Ab43m-toFwVNaF179HctPFheARyiV0CvfSzmpRUwoGT2RFaJhSBaORVeqvFCt7i4Necpv5bqO8QXXpuhRwL4SOKbyv768ykAtt0mD7ZQxTbogpGlkiLBPZnuqxrKmFeI6C7MDefDlhe8MOjtexUYzse8ayJMvvPpmyt9hhs4tc44rpMHKLGvcbpWnxh8CP--wdc9g7PgKlfMWNOvY9OvAbS6IZLyvgeZjwOcdDsJOSOnhvHYUpX3_85T-n137V4tqr9erpAGW6uO-SiHmwgLt0DSQy7Hk9-fFCK4HqKy8hfZkkg2fmsdjdg2MOPNjE6yc6IAAQDo7NZszCSaDWjJe013EJVnawL3d8Wie-vgIMs_b18fmf_cVPeR9GgO1SvSYVP9AfoPFzQbnyKo8pRcIf6T5T-uWQ3cqrLZJoLaaHeZzKeCCMCI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJJaZ8ZqcF1h0RpRUaKqZ72II/photos/Ab43m-uLSiK1glt7F1DlVjjwGoHK5TesthiY1q4Ht2DMema2DZiKsonp_BZ_4EDWtZex73G7QFUs8uf7sDATb1QDYsHuN0XdFpTtgdFMMm2RS4_iZuL3Y7EWLJDLUyEPNWU3XBsqumWf_ZoHflPm-NQWqWoUT3uiDmbpgUGCqhDDMT_W-UGYs8y_6zcnXp1P_7GtbgezjSdXoamhwkIpXEJdGDvUPNbSY0M-ZQe-v4F_BwdoxrvVzitL-sjm516N2N_LYOBo6TmZRS_Xr6gkD2QXC5QlvvIMJ7B9TgTx3l5MLEPQjUrG2tDmG2Wm39Jgh0tgkLw34lIVEJGHL48oIkEhEEF5a82ux1ynreWMUFpDU40gUhvJAJmGzQtRNzaq7A7ztvURDWlO3aoyyGvlK5P0O4QBL_5ckCAFGI8i_GrOMk5RNg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJJaZ8ZqcF1h0RpRUaKqZ72II/photos/Ab43m-srHW-pOV-fogLUMy5jEaZLn4usd7GM1dBwjfwbjhmgIOqN-CURoiyx_qfJsWiUGGtr10MTHInw17SF1gilqzuooMfH5uRXLPWLGgc5aDZZGFNsVxx9lDru7fyv9wykSx7SoGMLNW48cedtAQIxOHvIzBYs2WtUP9jv4YzMSZ53PfCIhajhM_winDuClRv4ipMQSYSqwUglyJIVBCiRg3Hdfzvh0qdXggkfQ2ov2kd7oMYgAn8-8XkZ1qDiOHUXXchcdNUzkgYj21pNHfwen6H7-35UVAIIo65Lhq3vEpzBp_JNxAXRokavcYkv1pNjwJzXqX_EEIMVcER-GZH0U_L4pywFYC-4bRr3IhcPNhXlWtNBgcDVvWzShTcAWN33IdbZ4kqyoU-apDrzhcOYXC-VssA1luGamWMS0N7-DOs/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJJaZ8ZqcF1h0RpRUaKqZ72II/photos/Ab43m-tB2OC-96Zz8Yes4GkOSpQPN7oQYfoHNLXa2dle6kwS_e2gT9NUbCzr92DN_-iaLHXUuFcYIQnsAnmZwgA-hIGtOoqlBXSCItE6t0VYeYBm_uO8HoZtLqb7r-KzHHH3BvJki5jk4yvMSxnuzqXbzz0RuzUbFS0VKJsY9cwE9Me7eEeUKXAz4WXJXfkAc-G4XpIUAK9dDbXoyXPDOi0IE7pc7zbNIC5-ffu-on3FYFwY3DyMyIItvGy2pJ_figO2ZEyDESyd7eNFZOKl-J6Rs_wgy4Q-8qFrHET4DyCW8OnsUXBTiPmCgI5Q7MlGLqmfSnQiDzmF1F3Twjr5If4i3JxppUpnDG09ZYEfl0zFRduOzYi97MTCKCwX3PWvnHh2L8BQcpj1lfIuXMbzUGW1vLeYgGu-dA67NojKS992zbVpJ1H5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:39:47.462707+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "grootbrak-kafee-superette-groot-brak-river",
+  "name": "Grootbrak Kafee & Superette",
+  "slug": "grootbrak-kafee-superette-groot-brak-river",
+  "town": "Groot Brak River",
+  "region": "Garden Route",
+  "address": "20 Lang St, Bergsig, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.050070999999996,
+    "lng": 22.214596
+  },
+  "phone": "+27 83 766 2769",
+  "email": "",
+  "website": "http://www.grootbrakkafee.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJXe5S_SFt1h0RXjozjtklD5g",
+  "google_rating": 4,
+  "google_review_count": 168,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Burgers",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "6:30 AM – 7:00 PM",
+    "tuesday": "6:30 AM – 7:00 PM",
+    "wednesday": "6:30 AM – 7:00 PM",
+    "thursday": "6:30 AM – 7:00 PM",
+    "friday": "6:30 AM – 7:00 PM",
+    "saturday": "7:30 AM – 6:00 PM",
+    "sunday": "8:00 AM – 3:00 PM, 5:00 – 6:00 PM"
+  },
+  "description_short": "A proper village kafee serving honest breakfasts, burgers, and homemade treats in the heart of Groot Brak River.",
+  "description_long": "Grootbrak Kafee & Superette is exactly what a small Garden Route town needs—a friendly local spot where you can grab a proper breakfast, a decent burger, or just stop in for coffee and a slice of homemade cake. The atmosphere is unpretentious and welcoming, with that genuine kafee vibe where locals catch up over morning coffee and travelers fuel up before hitting the road.\n\nThe menu covers the basics well, from full English breakfasts to toasted sandwiches, burgers, and daily specials that change based on what's fresh. It's the kind of place where everything is made with care, portions are generous, and prices won't make you wince. The attached superette means you can grab essentials while you're there, making it a handy stop for holiday-makers staying nearby.\n\nSituated on Lang Street in Bergsig, this kafee has become a Groot Brak River institution. It's where the village comes together, and that community spirit shows in the warm service and the steady stream of regulars. Whether you're passing through or staying in the area, it's a reliable spot for a satisfying meal without any fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXe5S_SFt1h0RXjozjtklD5g/photos/Ab43m-v5PiFSTIHFk001S3CNKJZlMZG-aa9FMsylRl1Xxpp4pBN4csZgWviuW1i7HxhQcbunCjSngL3z2Lh51ewO-p5iv3fVNRM1dk10ybS70vyfjDF0eDE4FtuwqSILiXX8UcNYhBKbERaQXgUwx4amYngPNtdTOjyYl-12Sud38nUAiWQdeJjHEpMsvYhunZkgP6S9gdjO0IaP4Py4mUglZnZquiSF4HuKCZ7J0ECi-5cpawXq3IfqGz82uufVsW5sFwFYg-LTcLY246eQw40lvjos7zZyu0ZhH8PZ5YgcnhG0eQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXe5S_SFt1h0RXjozjtklD5g/photos/Ab43m-vCHqXTJs15EpBftt0VzEAHPj42gQdUsGEN_3QZ9ItUCV3rdl-7zRc-KPeAks5lWCJAcYomjs628UcruPLef98j45k5hnUGWMUnHtURBs2pBnkKfPzBKYE1Fvbpa777p41TB69WCk4hDwlTnJdd9WIHVD_n1NN7GPsxM53dk4GiKoFpbRyLpHaS3xHWY_DgL1BI6DdKCDo9EhVpdLL-91IPYeV3qe1YLTm83-Xgw0Eeh_U_3HibUrIWPq-5xGlMKiSykBCx_AD5GW1cngTbm8kjxfT7jAZhQZ6QKv1XkvRWKA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXe5S_SFt1h0RXjozjtklD5g/photos/Ab43m-ukW8vW_qOmOUDPxhwVESVgqepgzG-RQnWU0hG-J3ad9LlxOd88XfKe5T3uQ0VDhjm1NE1-VuhLFGYEjLDce_kx5MixayVXLc-qhltqTjHnUUoC6d041s8dMU39BC0k6VPug3l8RS7jv45HYHROvxqzrKoPymIeKrTyA5w1fuh4S8FuLDfLFhg3EQ6HcId3nE2-C-C0wUokR0mj3jZD9EHxScMUB_Wf7sCkJTrTMefbloFH8rN2TaIyjZxf7qiuXKdZzXx-XIxP0Lct7ysbY23KaEQX9qjfsuN93hlEvADVeg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXe5S_SFt1h0RXjozjtklD5g/photos/Ab43m-v_Lze-Db2mfJ5Y7-B1rFDRYu43-E2C1jv5vlbhnpZIbcIAX8cJmjIfPl6I_ZGll4x2CfathYWw0xYdZcm18UI9C9KjD9mGimBCJR1bHw4Q7JG7g3T6lfJFq5CGXkXB6p_VyKTtAfbeT1xHI21vfK6_ORGK_Yjb0w-_bXgJghu5XPXq0n8v8YrWpdJ0CowVurYvCbia_vfRL8Oy0Sq2SFuJT4a416Gm0ypuucuMr357qXuHYRDNZjFOt4bODNefsYygyqxVhbVtoDlu02jU9DXxB4dH_KRI5MbAC2igmH9DgmDlH8PbSlQ_5fjg4iMK0KWaJE8aGPPIOOkPIiUE_pxdp4nVPS50Ho-Ok4HnRCjx8-gs6RL6RJjHOHlj8WIplYQSjsg-JjtLH0VILmqD3cEKpjgtad6b3pqCcUVHuit3Rd3s/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJXe5S_SFt1h0RXjozjtklD5g/photos/Ab43m-v61AF5cw2vl0mzfwDdO6aCNQld8l1es3_6kzwWtKyWya1Tn0evr1jw2zZkDGLnGk4RM04pXpl6rel0BYTcqcY005NLanPgd_0cBVzWg2KgoyTY-rVE5AZ4XudKodd3IleF0oCiGp_YNEFj4HIfPq0Y5oa_81C5ikJ6f58RKogSdzk44VMnIEMuOtLrW6VlirTGQVJRT3BMxsH1skYKz-4tegLDxUvwlwB2sj-hGT5ZvK70G-Bt2dsdSgbnz8kmG4mpF1AFGiYucUFcoyOr91qJeBXfES8BNlceacdXcxtsFJPPR7BwMRkHp5SEkN3uRslczQte2Wys3dltppouBvqJE7rsdmJekWyAvkU8pjZ1do-FwnQAC8L62VI3zk6hpgwbcOIFke4rRc2r_7sVCY4g8HzeniWpbUyoU3KGt5QeZg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:51:41.070539+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

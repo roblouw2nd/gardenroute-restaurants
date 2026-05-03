@@ -1,0 +1,79 @@
+{
+  "id": "seeplaas-mossel-bay",
+  "name": "Seeplaas",
+  "slug": "seeplaas-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "Plot 60 Ottosrust, Great Brak River, 6525, South Africa",
+  "coordinates": {
+    "lat": -34.065844999999996,
+    "lng": 22.2021805
+  },
+  "phone": "+27 44 620 2409",
+  "email": "",
+  "website": "https://www.seeplaas.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJeaf7y_ps1h0RQxUqoCr-4e8",
+  "google_rating": 4.2,
+  "google_review_count": 2297,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Breakfast & Brunch",
+    "Farm-to-table"
+  ],
+  "tags": [
+    "Lagoon views",
+    "Family friendly",
+    "Child friendly",
+    "Good for groups",
+    "Outdoor seating",
+    "Casual",
+    "Farm stall",
+    "Local produce",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 5:00 PM",
+    "tuesday": "8:00 AM – 5:00 PM",
+    "wednesday": "8:00 AM – 5:00 PM",
+    "thursday": "8:00 AM – 5:00 PM",
+    "friday": "8:00 AM – 5:00 PM",
+    "saturday": "8:00 AM – 5:00 PM",
+    "sunday": "8:00 AM – 5:00 PM"
+  },
+  "description_short": "Farm-style restaurant on the lagoon serving hearty Afrikaans meals and homemade vetkoek in Great Brak River.",
+  "description_long": "Seeplaas sits right on the edge of the Great Brak River lagoon, where you can watch boats drift by while tucking into generous portions of traditional South African fare. The menu leans heavily on farm-style classics — think lamb potjie, oxtail, and their famous vetkoek stuffed with mince or jam. It's the kind of place where portions are honest and flavours are straightforward, with a dessert table that's hard to resist.\n\nThe setting is relaxed and family-friendly, with kids running around the gardens while parents linger over coffee. Tables spill out onto the lawn with lagoon views, and there's a farm stall attached where you can pick up rusks, preserves, and biltong on your way out. It's popular with locals and tourists alike, especially on weekends when the breakfast crowd fills the tables early.\n\nLocated just off the N2 between George and Mossel Bay, Seeplaas makes an easy stop if you're passing through or exploring the quieter corners of the Garden Route. The atmosphere is unpretentious and the vibe is firmly old-school South African — no fuss, just good food and a view of the water.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeaf7y_ps1h0RQxUqoCr-4e8/photos/Ab43m-vlHbHXX_t2agg_33p8XJyWveS01MphNSmEc5952kZfT8r9ypYT7d2YDLLEI7LFyTiqapcEPU7RrttD0xnDEnH89W_PfWu4YiSQgyZsICH7oANNU9UsJBrq8CtBemGc5EVsZsW6kkzE3q0JqPMuZwmwUHbzqWK5noQc87kr13TIzXTDa5MPuTQyDDOK_qtySvFkJndIMogh_KYqULcrUGc_EVt_QK6RWLzTVKilj7CcCn_mXzXqGYfNMKVcUP2wKtVfZQtaZcS3KUS1y49kz3MHQppsCBTlgtUuu5nGxSOltw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeaf7y_ps1h0RQxUqoCr-4e8/photos/Ab43m-sq_FTa48Zrms8uNUCBiwGOGqsjrUkbNX5x_ZqBnXpV2qo15XgGwMWHbxky9Rq2tdqKaj_VVro_G0CvRI0toOgTeePb3RwpzVPasfKqVnZLfuzoNIpC2_8MF-F6M5vvorkWnNPzCIDdCoBjrdfo5WXjQnvi5-fBq9hmDtFAgMRCqSmlEg--HumkwmRSMMpZ3lfD67xHWvK1T7DKpEyx21iLPP1C4zJpOpYC_HFZqhOHBBVveCM2EwSoOpYaTgC52k3siR-wyD2ZVnQEpVALySsy2-4br8Oc8FFwC1V7YKYwtg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeaf7y_ps1h0RQxUqoCr-4e8/photos/Ab43m-u13Bw0LrmJ6WGInpbtP6D-uZ3pOyk7dzsZ8o8-gGVhnJjc1FryCbAFi4IzHndvJFrkbzG-sK10yPRqQBIWppAL51NUvDcxJHOYMBCK-cn97T0scXUy0FT4QAks2IFyM4wQTMmujMr2RtcaiGyvZSkri_qTBFMc8Z5XF7v96UoOHg93J1k34rxOaowAtmq5vTe1skbP4izuQgDfT0ON10k0XmKF58Tw-7rd0atKnWo5yoajgRca-kYQLUMkEXk_ZW8NPQUeVH9a0qJUBR40HBHfrVdjtCwd8IYb_hT6GzWptA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeaf7y_ps1h0RQxUqoCr-4e8/photos/Ab43m-sR6WwaU7UHc-hmtd10mZk3rXYxsKCgOrGImWNJR2R1xmD9zE6oeuX-MyA4dvvLqM8VL45wA82p2YSkui-F9ieFVo2AUqUrylNXycokMgXFb6bXqBOFNsnex47aoE3dSB7QzdnITquFTiWyGEnU6LG2UlRr9XJLS5XBmdjfNa8Jz5JKSeUaxiDJ1OKbzldDc8HzxEEsMNhMG36uN8dPqrd6tO55-MeAS_EZno8Cs19BhUWjsXL9fGEgJfO0F6kyrnaCdhZnoKhVEtDocSoPm7aaTqNAzrWlXRYVfxNeWvVeCg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeaf7y_ps1h0RQxUqoCr-4e8/photos/Ab43m-vilz6Ar-2wtdP3i535Q_AXME1aQ4rACWyTDoTZbGtfzznNhfjjxW-PstoQVAU8OgRB4BGsiW2_-YDLue7HX_K73DYkz_bOoip84rSBTk12CTkBkuQ79qjATH55cdbg5up-ensgIl-TPnPhvi-V9Z-Tc-uLraW_hpClmBINNm84KRVduk3l2E5Iq4lxDExAMExJVQlL7r3KHXEkD5VgPNu71Z7eN6pMTpFJsXL13CFfQ0Roin4tWzncGwHtBLtIl5QnhzgEbI2rrWY2d1rIdXUO3NU4MiFd3aFEzPwg9jlQSQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:55:24.362764+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

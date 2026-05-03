@@ -1,0 +1,77 @@
+{
+  "id": "slops-plett-plettenberg-bay",
+  "name": "Slops Plett",
+  "slug": "slops-plett-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Shop 5, Melville's Centre, Main St, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.056235,
+    "lng": 23.371858099999997
+  },
+  "phone": "+27 10 157 2783",
+  "email": "",
+  "website": "https://www.slops-sa.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJRXgjwfDjeB4RbNiJyxk6GUA",
+  "google_rating": 4.2,
+  "google_review_count": 139,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Pub & Grill",
+    "Bar"
+  ],
+  "tags": [
+    "Sports bar",
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Walk-ins welcome",
+    "Full bar",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "11:30 AM – 10:00 PM",
+    "tuesday": "11:30 AM – 10:00 PM",
+    "wednesday": "11:30 AM – 10:00 PM",
+    "thursday": "11:30 AM – 10:00 PM",
+    "friday": "11:30 AM – 10:00 PM",
+    "saturday": "11:30 AM – 10:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Casual sports bar and grill on Plett's main road serving hearty burgers, ribs, and pub favourites.",
+  "description_long": "Slops Plett brings a relaxed sports bar vibe to Melville's Centre on Plettenberg Bay's main street. The atmosphere is easygoing and unpretentious, with big screens for live sport and a menu built around comfort classics. Think flame-grilled burgers, sticky ribs, loaded nachos, and proper pub grub that hits the spot after a day at the beach or on the golf course.\n\nThe burger selection is a crowd-pleaser, with generous portions and all the usual suspects done well. Wings, platters, and steaks round out the menu, making it a solid choice for groups and families who want something filling without the fuss. The location in the heart of Plett makes it convenient for a casual lunch or dinner, and the sports bar setup means there's always a game on. It's the kind of place where you know what you're getting—no surprises, just straightforward food in a friendly setting.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRXgjwfDjeB4RbNiJyxk6GUA/photos/Ab43m-tFU4aj9256cEl2LmpcpUy_WdGl8YM0oC4ZLG1e6mX5765lj1FqJmzk7Brw41p3Ei5SZZS-0dSH8lYXWpVmiRsz0H53XstittTd4YCNJiOyNBT6fqXxA7m2Revefs7paNIefWZzYeLHTqOgFe3sH-LB15-r_meFA7sJJkDHLwMT1npQztf7QROJf0VZCatC_pmCSvaCTIe3LslfheOMX5FosGP1I6MZxprFNcq5blxCY9IY_hOqYlrfvY0SfAXa4ahS-iFsXSyMV3xXtJkEzKaWjYdJ8u21cHP9qtmd6UXo0SWiUv5CX4LGwVW8vrzupSMxEEDWJ8v_VV3iJ3jaYknwDNQQ7gB7C2KQiDNMO08tLHC1y-PRd_o4sKf5CgjkudbQyBJUJHVWFAdDrLshfkg1-0mfV7Uic7rvRvxKlxk64wTQQi7hFeWcI9IsBbM5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRXgjwfDjeB4RbNiJyxk6GUA/photos/Ab43m-sfOBxxErJuGgCkv1Tk_JwFSxiG_IcL1UuIsUx34t0VWdNr3v6AhUp68jjgYKyTRuAKxn0XkyLfpQ781HIdbolqTX5nCDwT8fVUx_l63lpYYsaSF01i-6vvae7pCzUU9NFTJCrzjxyVmD6xTtAMqqCb3KNtPyljYzHmY0aS2uk6NdWEgXqBkHKpqILl6J7W5DBciTg9aLAcDuw4z2YBd23D_5U9MlJD5jMYkhpXRknoIdhGRjEc9TDa9QfH27GwNBN_7wHup31Mo9jMzeylloF8IRBUj2De9_blm-XPRV_9X3_0nPDTRkQGEhqFU0SiHHZ1-OThdPQhHU0KKqJUKbQO6dMzgGMoQMCB35bfRY0K5W3Lqh4hWujFD0fvzAv4HmAdSMxE5ttCI2dZf-dgS4ZQ8YMO528eFo5n8wQ9jOxscw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRXgjwfDjeB4RbNiJyxk6GUA/photos/Ab43m-sAo5FdQ1764Tkmf2IWSNW6bh0JnmaqpozadyGopBvy7zfcFfxfnR2xBsNyoJF4l2j3PteNfNInEgW7uSNfYuvaEcGq_MDVCSfzGYX2eL_y4W7pgtRePTvCx3UMJ8JQBzt97lmKxXL-Dly2jCzobEPxiFYjL7beYQfZOEol-ryJ6DYB-iRDSQyWmzXLv1VIIQTDaVBr2Gmu59tNNt4iMCZgpwQsnzFzAhsY2wMa3HmucnOSYQjm339koVfH51iP_KA9926CItNbAwUFm08I4feE2KaTudiXg7K43UHn8HLew_P19cIpe2mremAOud35dgWekwBjVq7xplf7YGqQWHmd176wAMMNxTg6uCj5zGz-GrKcsIsGJFYWkGC-uUGyzdURVXx7lzTKc7dfZYth_VvS2GnlA9D5cO54CqiLOjWNem3xKgniiiXFgJDCyT9R/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRXgjwfDjeB4RbNiJyxk6GUA/photos/Ab43m-vpD3sCc_GF5mACAmCaK9UvcuJgze-LoBYX_fjC2qYALlNYwBQWgigi1ErdwVIDzJRkDaywekFj6-YpWPYujTfHOsEp4rfGU1_XJcTtgv1hCfY7ERhQWROLq5e4ncst1OSFhaaJKvyM6tawNA3l7xDffmmdQ77p3M96FKDD8UERwXNkQrNiEEOCpQ24wbsDATV8ZJIyAsiOJLvoE_imr0b_YDXWu_awPAy1A9IgEFawVWAKkfYagNEr6rPTBmDu1EFL1JwcTn66XDxmIsd4MoEiQj0aIUiaYQJ0Ch6wZcJlA6kVOBk6H9_cKeEY3mGMFCTkmY51sWo2HPlS2rla6LBIVHzc-mju-MrW6czroxH8wkke4f7BQVQQjXNhopF9vzrUYMKAqu8SqdIGAK7MHDi95C1WzRuNCWNUqzMcg5hNinY7ethe43Og5CmWYA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJRXgjwfDjeB4RbNiJyxk6GUA/photos/Ab43m-vP2Vil_korMlMLCVTD6bTz-0_pKHC58jD9rI5tsIHXOAFT0iY-yB0BodWkFgMwrDZrI9Itt_Tld6e_VZC8lTuxv1CNSHGL0HjYZJ6d-DfptPib56OoJEFQXWMjiAsUBu3P18pF8B0OVk5MQL1BMW0zoclrml1UfzJX2T9MFjIQUO3ZlDyHq1l3cAvjd8GdbQILbNha8zozut_igE-WtQpAqYQA4gMyri1XFG4rh5R7sdaCw7G956LU20LzOwc9A2Je1SkZi_rMlXlBJOMJ-NRenI0YfIuiwCg1KjQht6YcWT5pZ19O7yu9m1KrABEAJJWlQa-_YY4ci5eH2jb_YrBYJV3-xqnsggDPSQ44deVlUHVB6KSzXNvSVp6ElVBTAjdTORtLZMK4z5OO-ZBcP-3KVHGa3luOfGOtHQoO5kfKJVtlkI_DLJCEzV9Muzf9/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:32:06.429270+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

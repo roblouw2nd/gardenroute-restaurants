@@ -1,0 +1,78 @@
+{
+  "id": "mugg-bean-plettenberg-bay-plettenberg-bay",
+  "name": "Mugg & Bean Plettenberg Bay",
+  "slug": "mugg-bean-plettenberg-bay-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Shop DL16, The Market Square Shopping Centre, Beacon Way, Plettenberg Bay, 6600, South Africa",
+  "coordinates": {
+    "lat": -34.0430388,
+    "lng": 23.3693046
+  },
+  "phone": "+27 44 533 1486",
+  "email": "",
+  "website": "https://locations.muggandbean.co.za/restaurants-TheMarketSquareShoppingCentre-MuggBeanPlettenbergBay/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "menu_url": "",
+  "google_place_id": "ChIJySZdJR3ieB4R1c9T48QDkP0",
+  "google_rating": 4,
+  "google_review_count": 242,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Burgers",
+    "Coffee Shop"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Takeaway",
+    "Good for groups",
+    "Walk-ins welcome",
+    "Breakfast all day"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Family-friendly café chain serving hearty breakfasts, generous burgers, and excellent coffee in Plett's Market Square.",
+  "description_long": "Located in the convenient Market Square Shopping Centre on Beacon Way, this Mugg & Bean brings the beloved South African chain's reliable comfort food to Plettenberg Bay. The relaxed café atmosphere makes it ideal for families, casual catch-ups, or a shopping break, with a menu that covers all the bases from early morning through to evening.\n\nThe generous portions are what Mugg & Bean is known for — think stacked burgers, loaded breakfasts that arrive on oversized platters, and proper coffee to fuel your day. Their all-day breakfast menu is particularly popular with locals and visitors alike, while the salads, pastas, and trademark rump steaks offer something for every appetite. The coffee is consistently good, and the service warm and efficient.\n\nWhether you're fueling up before hitting Robberg Beach, need a family-friendly lunch spot that won't break the bank, or just want a reliable meal in comfortable surroundings, this Plett branch delivers the Mugg & Bean experience locals have come to trust.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJySZdJR3ieB4R1c9T48QDkP0/photos/Ab43m-v6F5m4iqLd6u78bRsTC-uaRGQooObm45dqHDz9-Wv3tM58ERlB8wakaFXlsUie-2DwQpIor3JYcsfsFdfswRbRBBQZBTrt_7jLOIpKnUs88GiSLaj3sXdbs5Uo0xO6SIPaJj8V_pY2rv28Iu8o8yHG1bvoBHW6hkF5S2wBOvy_oCN0xTa0XhcdZ01hHkL2dT_iTEvLrdx0FTGN20ABmeFo0mS1Jy15FOmVPF3tCvfABbTk5YqfGIacZnqAni7J6m-c19MD2U2oUXHubxEEj-vIXvnV7hJED-2c6D1Uwkc-Og/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJySZdJR3ieB4R1c9T48QDkP0/photos/Ab43m-tSpUyoDlQDDw4Yugqh3viCO_eJuT8bV3z4up8YpgYJVyUJbJGsxeJIrZP4eQTvDRjKV2O8Xvj1juqK4GGUs3uUkp9ELz16t5EO3zlFIsSpuNyjOilcRQk-N5d-DTjaX_P9Y_-1SyR6wA1UFQhxguAhwZANoZd4_s4roxqea_rXNJ7gM8q0gbPFvXpS99hD1UQJY9wvtLlZlu_rg6GtRBQCfILLNA7Wjyb_xnXo5toBtwruL6WUuS8R6H6NyRZqk0PPUiZPDH-lMVoG5xD32gCcms_UMHKryyVdWoTkqqJRkg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJySZdJR3ieB4R1c9T48QDkP0/photos/Ab43m-tntmXUKP9ug3t19S3EfYgkwbSa1kSJk0coQYACH4OfGFCVqPbmwOfwo64eIQiY3dX7XbVNTtYwtXNTOCiPXiXdFnnOE6TPqDVWjJrFHknJWFjeXwLn5HzwJYcNxdf_-0qm3iVL3auEmZPdZ84b0pfPvaxCKVm11SxBMUX4CwiyVXz3snXBjKbBot7MxBCFq2DG71N1BAvUti4a7Mpn6NzLmhTiUPBqL8vpIU7OKk529y2tSv8xK5y24wAm76dkIi4KUA0Otx7Y-iBi97sGjUso6IblQbKJF5xSdmRp92kynA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJySZdJR3ieB4R1c9T48QDkP0/photos/Ab43m-u_ZJCTvH41-wMXowPvOQrhzS47ZkdHwXw-_uTSEI9lEG9vS4Sdl-3RxCLVtQT3hexbyaSzAipPGeF8l-cmCCpv328eE_UV_nhI-vOC-jzjCKtYceYxUbaL8ow9OvwjQNqalxc--N1hzGZA44axV4Krru-c8k8rUNWj2yc1E_1uHEaUB25hPc-TRoWvlHxVv_cX499t8ybZykBVK4X0uzcZHnuaKzczsh-1z4U0DML_CK_Z6g9Is2yEtFX5_rhZ_wKKnMujvv1CwnLUOetm5xtiypoc7qiXXf9H1gQ3lZyK6w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJySZdJR3ieB4R1c9T48QDkP0/photos/Ab43m-tFpJ7Nd1u9pH3l9OHNFqp5E99Ez8l26n7INbzDhqIWRJPYrpe6QPyl8BvGQrwJk-6HCPNS8v1aegivx8Csza3bzt5vU1Egj22cONdkRGt62b1ADDLnZrRPCjCfPzWz4i9KDlGowRIlkFX03RyVTxKETv0WfishRvDdhPOyCaFjS8zOdE1Nuw-sch6JbI--sfRFbLRRkkBynwU-1CeG52q3AeZGSSMvXPQ_GJo82fGfS-JPBLvYmxYTfYfb1A08UdkkIr7wFz9jlru9sNKjcRRkwyMz6cyEkajuJ80tpSfNPw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:33:42.598379+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

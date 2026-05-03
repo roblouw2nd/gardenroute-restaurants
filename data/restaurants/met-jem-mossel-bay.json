@@ -1,0 +1,73 @@
+{
+  "id": "met-jem-mossel-bay",
+  "name": "Mèt Jêm",
+  "slug": "met-jem-mossel-bay",
+  "town": "Mossel Bay",
+  "region": "Garden Route",
+  "address": "199 Paardekraal St, Hartenbos, 6520, South Africa",
+  "coordinates": {
+    "lat": -34.121896,
+    "lng": 22.1198358
+  },
+  "phone": "+27 81 812 1053",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJqyUF251p1h0R3pf58ZCYZ2E",
+  "google_rating": 5,
+  "google_review_count": 13,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African"
+  ],
+  "tags": [
+    "Takeaway",
+    "Casual",
+    "Family friendly",
+    "Walk-ins welcome",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 5:30 PM",
+    "tuesday": "8:00 AM – 5:30 PM",
+    "wednesday": "8:00 AM – 5:30 PM",
+    "thursday": "8:00 AM – 5:30 PM",
+    "friday": "8:00 AM – 5:30 PM",
+    "saturday": "8:00 AM – 5:30 PM",
+    "sunday": "8:00 AM – 4:00 PM"
+  },
+  "description_short": "Cosy takeaway spot in Hartenbos serving hearty home-style meals with a personal touch.",
+  "description_long": "Tucked away on Paardekraal Street in Hartenbos, Mèt Jêm offers wholesome, home-cooked meals that feel like they've come straight from a family kitchen. This friendly takeaway spot has quickly become a local favourite for its generous portions and honest cooking.\n\nWhile the menu changes based on what's fresh and seasonal, you can expect satisfying comfort food prepared with care. The intimate setup means every order gets personal attention, and regulars rave about the consistent quality. It's the kind of place where you pop in for a quick meal and leave feeling genuinely looked after.\n\nPerfectly positioned for Hartenbos locals and beachgoers looking for a proper meal without the fuss, Mèt Jêm delivers straightforward flavour at fair prices. Whether you're grabbing lunch between waves or picking up dinner after a Garden Route day out, you'll find something filling and made with care.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqyUF251p1h0R3pf58ZCYZ2E/photos/Ab43m-tyT9DCyRbSNiK3cSyw8BlLg-EnnpgEvtFfJfhamdl8UMV5Ccf7UpPGyLTBdRollfjZB99s62I8JT1_5O8nIh7Rb-VK7g-aBVevs279970Ej8hB9A7srnfBbhgBaCRZvUGtBjoMHl5-oEYCulgHTL1XV_-7nLx4ttpi31cXMwdY76zB5_kjwkkSbdPtW0hWd4s8gNl5IvY4M17BTg5W7rjpAtT7QzhVyWECFuHPYoOsI-SQZRljmHL02yIeePxYlVhvuhFkTUck3shcED06o0GoZzTz0KQ8cPBCFkWoKuX70dI_mtzoPGzKLJB6J5u1YmIcYDK0H6A1EbnSxujLdCa0PKJiPT20LYUWI1D6M3iLxlO4_evlYHbXUnO89fKaIi-jIku2As3HJX9gp_333c9w1HL6fDd3wpurSRqtPawxy1f__7JJCQbD72rdfLYX/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqyUF251p1h0R3pf58ZCYZ2E/photos/Ab43m-smB5cwrE-hVkjV-AOvW2JUSriNN2meCecifnATbMwwiC1HEPmElMCYv593625ok-8lLkXcn1mHkjYVbr7Qg5GGRY1MK91a7ewpQ6D4FxeXdfIGS9Pqqjt4gTIpQMbdHmhcUMbKbV_88A7dejY1vmmEAJh-92uagGFaE1QwPKjhnjjHzYNp5KGxaLFDZmaOIsgHW8AOhBMf-ncY_10KNSpGB_OtuTyQlZR2trHcpdHc31T0XKZ-SZChXJmycftOpilWiPOvEMau_vQfQzHseDEgpno5y1_DmfA5iO09KnSWsQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqyUF251p1h0R3pf58ZCYZ2E/photos/Ab43m-s_RWvYSFR-ak5v1ogUzY8AXLOpbGI_WGPRu8r4XoIk4pndLe3JdW82vhfy2w0Y8TG-pDDnAM0FCavFTt-t9wdtFEd2ts7uB4vJcgheA9AK2VF_6viCy0dtfk6gPzNFboKC8R3BT6gRJrwGzFXcvWuGgAeVIPDm5B_hBGgBnXgwTEt51_2y3VuDvUY42fYSxH5Z_VKtxiE7jU5U-s-tVE2IPMWa7fNrlmEQp5dxvYBuUcFv8sYCNyr0iMlHgvcC5kYTczpPmQzrpRSN6kkBnA_8X0mtgRSkVaD0G7TyHuPjzA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqyUF251p1h0R3pf58ZCYZ2E/photos/Ab43m-sTmQw_pbfLc9HviH0mrfnwLna0ulehnGneFXB_1kno6-XxqRD809m6zecsPCbMzIYdI31joU-y1MGUPhJR7fUqzEqLAeQd_04wiJIctGYoP0QbfXGrKe0qJU2GSmZQt3hA-1x3Vxyaus9H1pYbieF7pQxNZSS6gOgPODGvOxuxKw_fnkZ505TcMa921XIL5MAmZj983MRmpGxkyehrXTy6coMAbTvrI5eOzxzWnRY1DU_ASz0bXp4PDMLjvQDYOjcyX2tkM4UDIOWMIpdmn_pdO7aR_D2kkdfzyXGmzgNQ-g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJqyUF251p1h0R3pf58ZCYZ2E/photos/Ab43m-sxu3ahXQnSVG9pjhtvkzKIyIdfyPlbx4qEVnXpqTtw2A3EUcvoIl7N9BUz6P8S6hJQqx6d9afAE_0HUkWFGZwcoTmVHpzW5PLSQv9x5alc59hwzmle6MARO3aPFFWrPmQfwW9z2TnPHL81AZCX8maZgAcdvqYj6D3m1g6rMAaRoF9jGEgJpRcuTmLjQPxNBp7QHOf9SBSFHjdp0AlXkn582w1INPggKQdoGXGv_dHdVYC0yj69RSEP-Hy0-NbeV6pyuFXO6NOSoxsdg6_q2V7Ayq_eXbY_2i7J1NTDfsgafw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:52:08.085409+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

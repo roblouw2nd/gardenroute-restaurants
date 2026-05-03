@@ -1,0 +1,76 @@
+{
+  "id": "the-waffling-whale-cafe-plettenberg-bay",
+  "name": "The Waffling Whale Cafe",
+  "slug": "the-waffling-whale-cafe-plettenberg-bay",
+  "town": "Plettenberg Bay",
+  "region": "Garden Route",
+  "address": "Formosa Bay Resort, N2, Plettenberg Bay, 0660, South Africa",
+  "coordinates": {
+    "lat": -34.0478855,
+    "lng": 23.3593106
+  },
+  "phone": "+27 44 533 2060",
+  "email": "",
+  "website": "https://www.formosabay.co.za/waffling-whale/",
+  "menu_url": "",
+  "google_place_id": "ChIJswtWplzjeB4RUCafFOOLJ_I",
+  "google_rating": 4,
+  "google_review_count": 143,
+  "price_level": 2,
+  "cuisine_types": [
+    "Breakfast & Brunch",
+    "Cafe",
+    "Burgers"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Good for groups",
+    "Breakfast all day",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "7:30 AM – 6:00 PM",
+    "tuesday": "7:30 AM – 6:00 PM",
+    "wednesday": "7:30 AM – 6:00 PM",
+    "thursday": "7:30 AM – 6:00 PM",
+    "friday": "7:30 AM – 6:00 PM",
+    "saturday": "7:30 AM – 6:00 PM",
+    "sunday": "7:30 AM – 6:00 PM"
+  },
+  "description_short": "Family-friendly cafe at Formosa Bay Resort serving generous waffles, hearty breakfasts, and comfort food with a coastal vibe.",
+  "description_long": "Tucked into Formosa Bay Resort just off the N2, The Waffling Whale Cafe is a relaxed spot that's become a favourite with families and travellers passing through Plett. The menu leans into comfort food done well — think fluffy waffles piled high with sweet and savoury toppings, proper breakfasts that'll set you up for the day, and burgers that hit the spot after a morning at the beach.\n\nThe atmosphere is laid-back and welcoming, with a casual coastal feel that suits everyone from toddlers to grandparents. It's the kind of place where you can linger over coffee while the kids burn off energy, or grab a quick bite before heading into town. Being part of the resort means there's plenty of parking and space to breathe.\n\nWhether you're staying at Formosa Bay or just passing through on the Garden Route, it's a solid choice for an unfussy meal that doesn't compromise on portion size or flavour. The waffles are the star, but the all-day breakfast options keep locals coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJswtWplzjeB4RUCafFOOLJ_I/photos/Ab43m-ue_U2JbvkTptWwTgEx81-MJpfjK5i--RjLjpjOZ-Kbv2qUOMbxk8qViXEeGmssQ2i4vy0PWd8Yn2GCqXkwtv0x_9fYOGqbk-yUPLfB2IVec9vpj6wp5C-UWrGwBakgSDLOU1alClxdqYRm0XlABabcyeidUPj2VvJSDn6uZUz8A-QMFNSO2_CYSF9zTGH9zhrHV_5nmxNUVqGYmQYDWtQIgO4LkVi4QQdASL1D3ryS-W_qXvuf-MKmZPtkBe8RN4D9-jeSNqM7xvu2ES0h9xs8ETwxbwsrQdVxqojf0v6pUQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJswtWplzjeB4RUCafFOOLJ_I/photos/Ab43m-vtDjzh-5rYJszzpXaIeH90T7e96x_o-sSA_2atyv_Xe4QXmJAp2gulfKyui-c82GzQZ2K_j-CHxp0-ijFXe7YGU6A7taI38_uC9fEVzAoGEhdbAp5XQIt5Ws7KFnxJ6Zh2SvKE9SxIooBNhKQYOVwbHDCPdck2upkQi--d-FRcIomLSU9SWS8tkMiM1xcf88QY8GywoKSlMnYaELwfuauexwx6LlV9-HtAWbtC4e5wrY3f7TI0nSNaSFq7BdDSWhmWCfhwsy1WB5sOcmPN-jidV13DWWMhrFUsFUtaYzWBQg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJswtWplzjeB4RUCafFOOLJ_I/photos/Ab43m-sDbjBmii2Kqw8vH0ZhWQZ51M6B26OnITBkErvo9il6PvWuLtY34GYAbtHyjuZMulty2hYAe-lC-jocUMrU4plR5oRUSvFrp8ODARUN1mYuy-dqOpEAr1xwKY1dBYAP9OILX1SaI_Y-5fquO3S6jq2dniXinujHe82FyNxTCCR-fGbu-NsbEsCfJtcYRuGzfRFFFW69fuTM_ZxdWOHp4uAC-Iux2laJitaQnSzmsWXILHIKxkqFqqeNcGZwG8lAzs4L-Xx3_Il8FRuVxOm22gwYPkZeNBmHV-ThED_6PTdMNA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJswtWplzjeB4RUCafFOOLJ_I/photos/Ab43m-vvlWL69CtiMmx71tUnhpw0zlYi94ra6vSj2k5MpaU-Z17I08PcGfd15wAbeR1wtCEzjTli80zQZP4x5PcQ046o4Ot38tyZ9rETDDREwMZ6HN9FnrZ0MyRsaXiSqAtZw3PQUhr4i2HudtTA3ZHrfWtwjN34oi1oDowcaPN5TLfKZZeTqFLaJg_-3_zlYgY2konT3hA_nTbgq3xO4fTFb1oHE_XPVKvSnuQUG0nwKDXQ2KtENq22RNeVpvkznznMN7fNiYc4nm5rDP3khxiznC8BMdOg9HSPWO9fhWy_nuTesDOolUjmmjchElgrLxXE_pjGocHWD2BLwv0ZE_zRyGCfPve9VsczVB-1fuszIWPaR8IS8YL_QBV1oTitF32bUSzZMcg5Ahw-UTSXmI-wSVibGCQV2dYlPBhgaKYFKGg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJswtWplzjeB4RUCafFOOLJ_I/photos/Ab43m-sY3Fuc55D4fLwho_Yf0z7069EY-HmiSLHJgIMxN73suQFD4IsxVBFYZkIHnxHFkvBPIhapj7X5hz6zV1foDozg8jM-hbKCLlAO6-2ixrQ63D7PPQ3598Si0w9Fgi0D5KiR8Q7w8DiAcnp-CwR70UGoanPvl_RjGDqvo4-aOR9uaTe9DE2EXVlzaSKko-d8WXLxkFGwPdACma1ETTU3XndrzF1bd51kAO6cBULCgcDgpUdzMatjmQlytBVVaNAcXF7hIGZ61sOhFJFqiHs5odOZmaBe1pjcQ8hlLyQb_SLw3PqzQg98yNUFNdOD_XJDxeghEoJy5CpWzUzk5ieOfuXTMu1l14tv2DYPzXDN1DMSAwf9a4Psd4oFQVTEtZu2J6TUHbc1dZ5usMDVDOFJv5PpUKlZoXeMttK2nGiegKErswdI/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:33:33.199989+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}
