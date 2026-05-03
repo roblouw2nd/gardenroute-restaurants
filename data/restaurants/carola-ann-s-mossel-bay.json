@@ -64,7 +64,7 @@
       "caption": ""
     }
   ],
-  "featured": false,
+  "featured": true,
   "last_updated": "2026-05-03T02:40:17.801686+00:00",
   "data_sources": [
     "google_places"

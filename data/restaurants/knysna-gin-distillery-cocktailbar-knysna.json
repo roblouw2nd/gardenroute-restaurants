@@ -69,7 +69,7 @@
       "caption": ""
     }
   ],
-  "featured": false,
+  "featured": true,
   "last_updated": "2026-05-03T02:29:01.952045+00:00",
   "data_sources": [
     "google_places"

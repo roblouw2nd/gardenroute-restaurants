@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Garden Route Restaurants</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ocean: #0d7ec4; --ocean-dark: #0b6ca8;
+      --gold: #f59e0b; --gold-bg: #fef3c7;
+      --green: #16a34a; --green-bg: #dcfce7;
+      --red: #dc2626; --red-bg: #fee2e2;
+      --border: #e8e5e0; --bg: #f7f6f3; --sidebar-w: 220px;
+    }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: #111; display: flex; min-height: 100vh; }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: var(--sidebar-w); flex-shrink: 0; background: #1a1a2e; color: #c8ccd8;
+      display: flex; flex-direction: column; padding: 0; min-height: 100vh; position: fixed; top: 0; left: 0; bottom: 0;
+    }
+    .sidebar-logo { padding: 20px 20px 16px; font-size: 15px; font-weight: 700; color: #fff; border-bottom: 1px solid #2a2a45; display: flex; align-items: center; gap: 8px; }
+    .sidebar-logo span { font-size: 18px; }
+    .sidebar-nav { flex: 1; padding: 12px 0; }
+    .nav-item {
+      display: flex; align-items: center; gap: 10px; padding: 10px 20px;
+      font-size: 13px; font-weight: 500; cursor: pointer; transition: background 0.15s, color 0.15s;
+      border-left: 3px solid transparent; color: #9ca3af;
+    }
+    .nav-item:hover { background: #252540; color: #fff; }
+    .nav-item.active { background: #252540; color: #fff; border-left-color: var(--ocean); }
+    .nav-item .icon { font-size: 15px; width: 18px; text-align: center; }
+    .sidebar-footer { padding: 16px 20px; border-top: 1px solid #2a2a45; font-size: 11px; color: #666; }
+    .sidebar-footer a { color: var(--ocean); text-decoration: none; }
+
+    /* ── Main ── */
+    .main { margin-left: var(--sidebar-w); flex: 1; display: flex; flex-direction: column; min-height: 100vh; }
+    .topbar { background: #fff; border-bottom: 1px solid var(--border); padding: 0 28px; height: 56px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+    .topbar h1 { font-size: 16px; font-weight: 700; color: #111; }
+    .topbar-actions { display: flex; align-items: center; gap: 10px; }
+    .content { padding: 28px; flex: 1; }
+
+    /* ── Tabs ── */
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Stats ── */
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 28px; }
+    .stat-card { background: #fff; border-radius: 12px; padding: 20px; border: 1px solid var(--border); }
+    .stat-value { font-size: 32px; font-weight: 800; color: #111; line-height: 1; margin-bottom: 4px; }
+    .stat-label { font-size: 12px; color: #888; font-weight: 500; }
+    .stat-card.gold .stat-value { color: var(--gold); }
+    .stat-card.ocean .stat-value { color: var(--ocean); }
+    .stat-card.green .stat-value { color: var(--green); }
+
+    /* ── Section headers ── */
+    .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+    .section-header h2 { font-size: 15px; font-weight: 700; }
+
+    /* ── Buttons ── */
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 8px; font-size: 12px; font-weight: 600; font-family: inherit; cursor: pointer; border: none; transition: all 0.15s; }
+    .btn-primary { background: var(--ocean); color: #fff; }
+    .btn-primary:hover { background: var(--ocean-dark); }
+    .btn-danger { background: var(--red-bg); color: var(--red); }
+    .btn-danger:hover { background: #fecaca; }
+    .btn-success { background: var(--green-bg); color: var(--green); }
+    .btn-success:hover { background: #bbf7d0; }
+    .btn-ghost { background: #f5f4f0; color: #555; border: 1px solid var(--border); }
+    .btn-ghost:hover { background: #eeede9; }
+    .btn-gold { background: var(--gold-bg); color: #92400e; }
+    .btn-gold:hover { background: #fde68a; }
+    .btn-sm { padding: 5px 10px; font-size: 11px; }
+
+    /* ── Search/filter bar ── */
+    .filter-bar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-bar input, .filter-bar select {
+      padding: 8px 12px; font-size: 12px; font-family: inherit;
+      border: 1px solid var(--border); border-radius: 8px; background: #fff; outline: none;
+    }
+    .filter-bar input { flex: 1; min-width: 200px; }
+    .filter-bar input:focus, .filter-bar select:focus { border-color: var(--ocean); }
+
+    /* ── Table ── */
+    .table-wrap { background: #fff; border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    th { background: #f9f8f5; padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: #888; letter-spacing: 0.5px; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+    td { padding: 11px 14px; border-bottom: 1px solid #f5f4f0; vertical-align: middle; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #faf9f7; }
+    .badge { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; border-radius: 999px; font-size: 10px; font-weight: 600; }
+    .badge-gold { background: var(--gold-bg); color: #92400e; }
+    .badge-gray { background: #f3f4f6; color: #6b7280; }
+    .badge-green { background: var(--green-bg); color: var(--green); }
+    .badge-red { background: var(--red-bg); color: var(--red); }
+    .rating-cell { color: var(--gold); font-weight: 600; }
+    .actions { display: flex; gap: 6px; }
+
+    /* ── Modal ── */
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 1000; align-items: center; justify-content: center; }
+    .modal-overlay.open { display: flex; }
+    .modal { background: #fff; border-radius: 16px; width: 580px; max-width: 95vw; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+    .modal-header { padding: 20px 24px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+    .modal-header h3 { font-size: 16px; font-weight: 700; }
+    .modal-close { background: none; border: none; font-size: 20px; cursor: pointer; color: #aaa; line-height: 1; }
+    .modal-body { padding: 20px 24px; display: flex; flex-direction: column; gap: 14px; }
+    .modal-footer { padding: 16px 24px; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; gap: 10px; }
+    .form-group { display: flex; flex-direction: column; gap: 5px; }
+    .form-group label { font-size: 11px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.4px; }
+    .form-group input, .form-group textarea, .form-group select {
+      padding: 9px 12px; font-size: 13px; font-family: inherit;
+      border: 1px solid var(--border); border-radius: 8px; background: #faf9f7; outline: none; color: #111;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--ocean); background: #fff; }
+    .form-group textarea { min-height: 80px; resize: vertical; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; background: #faf9f7; border-radius: 8px; border: 1px solid var(--border); }
+    .toggle-row label { font-size: 13px; font-weight: 500; }
+    .toggle { position: relative; width: 40px; height: 22px; }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .slider { position: absolute; inset: 0; background: #ddd; border-radius: 22px; cursor: pointer; transition: background 0.2s; }
+    .slider::before { content: ''; position: absolute; height: 16px; width: 16px; left: 3px; bottom: 3px; background: #fff; border-radius: 50%; transition: transform 0.2s; }
+    input:checked + .slider { background: var(--ocean); }
+    input:checked + .slider::before { transform: translateX(18px); }
+
+    /* ── Scraper ── */
+    .scraper-card { background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 24px; margin-bottom: 20px; }
+    .scraper-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
+    .scraper-card p { font-size: 12px; color: #777; margin-bottom: 16px; }
+    .scraper-btns { display: flex; gap: 10px; margin-bottom: 16px; }
+    .log-box {
+      background: #0f172a; color: #94a3b8; font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px; line-height: 1.6; padding: 14px; border-radius: 8px;
+      max-height: 320px; overflow-y: auto; white-space: pre-wrap; word-break: break-all;
+    }
+    .log-box .log-ok { color: #4ade80; }
+    .log-box .log-err { color: #f87171; }
+    .scraper-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 999px; }
+    .scraper-status.idle { background: #f3f4f6; color: #6b7280; }
+    .scraper-status.running { background: #dcfce7; color: #16a34a; }
+    .pulse { width: 7px; height: 7px; background: currentColor; border-radius: 50%; animation: pulse 1s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* ── Empty state ── */
+    .empty-state { text-align: center; padding: 60px 20px; color: #bbb; font-size: 13px; }
+    .empty-state .icon { font-size: 40px; margin-bottom: 12px; }
+
+    /* ── Toast ── */
+    #toast { position: fixed; bottom: 24px; right: 24px; background: #111; color: #fff; padding: 12px 18px; border-radius: 10px; font-size: 13px; font-weight: 500; z-index: 9999; transform: translateY(80px); opacity: 0; transition: all 0.3s; pointer-events: none; }
+    #toast.show { transform: translateY(0); opacity: 1; }
+    #toast.success { background: var(--green); }
+    #toast.error { background: var(--red); }
+
+    /* ── Loading ── */
+    .loading { display: flex; align-items: center; justify-content: center; padding: 60px; color: #bbb; font-size: 13px; gap: 8px; }
+    .spinner { width: 18px; height: 18px; border: 2px solid #e5e7eb; border-top-color: var(--ocean); border-radius: 50%; animation: spin 0.7s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div class="sidebar-logo"><span>🌊</span> GR Admin</div>
+  <nav class="sidebar-nav">
+    <div class="nav-item active" data-tab="dashboard"><span class="icon">📊</span> Dashboard</div>
+    <div class="nav-item" data-tab="restaurants"><span class="icon">🍽</span> Restaurants</div>
+    <div class="nav-item" data-tab="featured"><span class="icon">★</span> Featured</div>
+    <div class="nav-item" data-tab="submissions"><span class="icon">📥</span> Submissions</div>
+    <div class="nav-item" data-tab="scraper"><span class="icon">🔄</span> Scraper</div>
+  </nav>
+  <div class="sidebar-footer">
+    <a href="http://localhost:4321" target="_blank">↗ View site</a><br /><br />
+    gardenroute-restaurants.co.za
+  </div>
+</aside>
+
+<!-- Main -->
+<div class="main">
+  <div class="topbar">
+    <h1 id="page-title">Dashboard</h1>
+    <div class="topbar-actions" id="topbar-actions"></div>
+  </div>
+  <div class="content">
+
+    <!-- Dashboard -->
+    <div class="tab-panel active" id="tab-dashboard">
+      <div class="stats-grid" id="stats-grid">
+        <div class="loading"><div class="spinner"></div> Loading…</div>
+      </div>
+      <div class="section-header"><h2>Recently Added</h2></div>
+      <div class="table-wrap" id="recent-table"><div class="loading"><div class="spinner"></div></div></div>
+    </div>
+
+    <!-- Restaurants -->
+    <div class="tab-panel" id="tab-restaurants">
+      <div class="filter-bar">
+        <input id="rest-search" type="text" placeholder="Search restaurants…" />
+        <select id="rest-town"><option value="">All towns</option></select>
+        <select id="rest-filter">
+          <option value="">All</option>
+          <option value="featured">Featured only</option>
+          <option value="high">Rating 4.5+</option>
+        </select>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Restaurant</th>
+              <th>Town</th>
+              <th>Rating</th>
+              <th>Featured</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="rest-tbody"><tr><td colspan="5"><div class="loading"><div class="spinner"></div> Loading…</div></td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Featured -->
+    <div class="tab-panel" id="tab-featured">
+      <p style="font-size:13px;color:#777;margin-bottom:20px">These restaurants get gold pins on the map and appear in the featured carousel. Toggle featured status directly from the Restaurants tab, or use the toggles below.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Restaurant</th><th>Town</th><th>Rating</th><th>Featured</th></tr>
+          </thead>
+          <tbody id="feat-tbody"><tr><td colspan="4"><div class="loading"><div class="spinner"></div></div></td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Submissions -->
+    <div class="tab-panel" id="tab-submissions">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Restaurant</th><th>Town</th><th>Submitted</th><th>Status</th><th>Actions</th></tr>
+          </thead>
+          <tbody id="sub-tbody"><tr><td colspan="5"><div class="loading"><div class="spinner"></div></div></td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Scraper -->
+    <div class="tab-panel" id="tab-scraper">
+      <div class="scraper-card">
+        <h3>Run Scraper</h3>
+        <p>Fetches restaurant data from Google Places API. Make sure your <code>.env</code> file has a valid <code>GOOGLE_PLACES_API_KEY</code>.</p>
+        <div class="scraper-btns">
+          <button class="btn btn-primary" id="scraper-run">▶ Run full scrape</button>
+          <button class="btn btn-ghost" id="scraper-corridor">↗ Corridor only</button>
+          <button class="btn btn-danger" id="scraper-stop" style="display:none">■ Stop</button>
+        </div>
+        <div style="margin-bottom:12px">
+          Status: <span class="scraper-status idle" id="scraper-status"><span class="pulse" style="display:none"></span> Idle</span>
+        </div>
+        <div class="log-box" id="scraper-log">Scraper output will appear here…</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Edit modal -->
+<div class="modal-overlay" id="edit-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3>Edit Restaurant</h3>
+      <button class="modal-close" id="modal-close">×</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" id="modal-cancel">Cancel</button>
+      <button class="btn btn-primary" id="modal-save">Save changes</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script>
+  // ── State ─────────────────────────────────────────────────────────────────
+  var allRestaurants = [];
+  var allSubmissions = [];
+  var editSlug = null;
+
+  // ── Toast ──────────────────────────────────────────────────────────────────
+  function toast(msg, type) {
+    var el = document.getElementById('toast');
+    el.textContent = msg;
+    el.className = 'show ' + (type || '');
+    clearTimeout(el._t);
+    el._t = setTimeout(function() { el.className = ''; }, 3000);
+  }
+
+  // ── Navigation ─────────────────────────────────────────────────────────────
+  document.querySelectorAll('.nav-item').forEach(function(item) {
+    item.addEventListener('click', function() {
+      document.querySelectorAll('.nav-item').forEach(function(i) { i.classList.remove('active'); });
+      document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
+      item.classList.add('active');
+      var tab = item.dataset.tab;
+      document.getElementById('tab-' + tab).classList.add('active');
+      document.getElementById('page-title').textContent = item.textContent.trim();
+      if (tab === 'scraper') startScraperPoll();
+    });
+  });
+
+  // ── API helpers ────────────────────────────────────────────────────────────
+  async function api(method, url, body) {
+    var opts = { method: method, headers: { 'Content-Type': 'application/json' } };
+    if (body) opts.body = JSON.stringify(body);
+    var r = await fetch(url, opts);
+    return r.json();
+  }
+
+  // ── Load data ──────────────────────────────────────────────────────────────
+  async function loadRestaurants() {
+    var data = await api('GET', '/api/restaurants');
+    allRestaurants = data;
+    renderRestaurants();
+    renderFeatured();
+    populateTownFilter();
+  }
+
+  async function loadStats() {
+    var stats = await api('GET', '/api/stats');
+    document.getElementById('stats-grid').innerHTML =
+      '<div class="stat-card ocean"><div class="stat-value">' + stats.total + '</div><div class="stat-label">Total restaurants</div></div>' +
+      '<div class="stat-card"><div class="stat-value">' + stats.towns + '</div><div class="stat-label">Towns covered</div></div>' +
+      '<div class="stat-card gold"><div class="stat-value">★ ' + stats.featured + '</div><div class="stat-label">Featured</div></div>' +
+      '<div class="stat-card ' + (stats.pending_submissions > 0 ? 'green' : '') + '"><div class="stat-value">' + stats.pending_submissions + '</div><div class="stat-label">Pending submissions</div></div>';
+
+    // Recent (top 10 by last_updated would require date sorting — just show first 10)
+    var recent = allRestaurants.slice(0, 10);
+    document.getElementById('recent-table').innerHTML =
+      '<table><thead><tr><th>Name</th><th>Town</th><th>Rating</th><th>Featured</th></tr></thead><tbody>' +
+      recent.map(function(r) {
+        return '<tr><td><strong>' + r.name + '</strong></td><td>' + r.town + '</td>' +
+          '<td class="rating-cell">' + (r.google_rating ? '★ ' + r.google_rating : '—') + '</td>' +
+          '<td>' + (r.featured ? '<span class="badge badge-gold">★ Featured</span>' : '<span class="badge badge-gray">—</span>') + '</td></tr>';
+      }).join('') + '</tbody></table>';
+  }
+
+  async function loadSubmissions() {
+    allSubmissions = await api('GET', '/api/submissions');
+    renderSubmissions();
+  }
+
+  function populateTownFilter() {
+    var towns = [...new Set(allRestaurants.map(function(r) { return r.town; }))].sort();
+    var sel = document.getElementById('rest-town');
+    sel.innerHTML = '<option value="">All towns</option>' + towns.map(function(t) { return '<option>' + t + '</option>'; }).join('');
+  }
+
+  // ── Render restaurants ─────────────────────────────────────────────────────
+  function renderRestaurants() {
+    var q      = (document.getElementById('rest-search').value || '').toLowerCase();
+    var town   = document.getElementById('rest-town').value;
+    var filter = document.getElementById('rest-filter').value;
+
+    var rows = allRestaurants.filter(function(r) {
+      if (q && r.name.toLowerCase().indexOf(q) === -1) return false;
+      if (town && r.town !== town) return false;
+      if (filter === 'featured' && !r.featured) return false;
+      if (filter === 'high' && r.google_rating < 4.5) return false;
+      return true;
+    });
+
+    document.getElementById('rest-tbody').innerHTML = rows.length ? rows.map(function(r) {
+      return '<tr>' +
+        '<td><strong>' + r.name + '</strong></td>' +
+        '<td>' + r.town + '</td>' +
+        '<td class="rating-cell">' + (r.google_rating ? '★ ' + r.google_rating + ' <span style="color:#ccc;font-size:10px">(' + r.google_review_count + ')</span>' : '—') + '</td>' +
+        '<td>' + (r.featured ? '<span class="badge badge-gold">★ Featured</span>' : '<span class="badge badge-gray">—</span>') + '</td>' +
+        '<td><div class="actions">' +
+          '<button class="btn btn-ghost btn-sm" onclick="openEdit(\'' + r.slug + '\')">✏ Edit</button>' +
+          '<button class="btn ' + (r.featured ? 'btn-gold' : 'btn-ghost') + ' btn-sm" onclick="toggleFeatured(\'' + r.slug + '\', this)">' + (r.featured ? '★ Unfeature' : '☆ Feature') + '</button>' +
+        '</div></td>' +
+      '</tr>';
+    }).join('') : '<tr><td colspan="5"><div class="empty-state"><div class="icon">🔍</div>No restaurants match your filters</div></td></tr>';
+  }
+
+  // ── Render featured ────────────────────────────────────────────────────────
+  function renderFeatured() {
+    var featured = allRestaurants.filter(function(r) { return r.featured; });
+    document.getElementById('feat-tbody').innerHTML = featured.length ? featured.map(function(r) {
+      return '<tr>' +
+        '<td><strong>' + r.name + '</strong></td>' +
+        '<td>' + r.town + '</td>' +
+        '<td class="rating-cell">' + (r.google_rating ? '★ ' + r.google_rating : '—') + '</td>' +
+        '<td><label class="toggle"><input type="checkbox" checked onchange="toggleFeatured(\'' + r.slug + '\', this)"><span class="slider"></span></label></td>' +
+      '</tr>';
+    }).join('') : '<tr><td colspan="4"><div class="empty-state"><div class="icon">★</div>No featured restaurants yet. Go to Restaurants and click Feature.</div></td></tr>';
+  }
+
+  // ── Render submissions ────────────────────────────────────────────────────
+  function renderSubmissions() {
+    var tbody = document.getElementById('sub-tbody');
+    if (!allSubmissions.length) {
+      tbody.innerHTML = '<tr><td colspan="5"><div class="empty-state"><div class="icon">📥</div>No submissions yet.<br><small style="font-size:11px;color:#bbb">Submissions from the /submit form will appear here once you wire up a backend to save them to data/submissions.json</small></div></td></tr>';
+      return;
+    }
+    tbody.innerHTML = allSubmissions.map(function(s) {
+      var statusBadge = s.status === 'approved'
+        ? '<span class="badge badge-green">Approved</span>'
+        : s.status === 'rejected'
+        ? '<span class="badge badge-red">Rejected</span>'
+        : '<span class="badge badge-gold">Pending</span>';
+      return '<tr>' +
+        '<td><strong>' + (s.restaurant_name || '—') + '</strong><br><small style="color:#aaa">' + (s.website || '') + '</small></td>' +
+        '<td>' + (s.town || '—') + '</td>' +
+        '<td>' + (s.submitted_at ? new Date(s.submitted_at).toLocaleDateString() : '—') + '</td>' +
+        '<td>' + statusBadge + '</td>' +
+        '<td><div class="actions">' +
+          (s.status === 'pending' ? '<button class="btn btn-success btn-sm" onclick="reviewSub(\'' + s.id + '\',\'approved\')">✓ Approve</button><button class="btn btn-danger btn-sm" onclick="reviewSub(\'' + s.id + '\',\'rejected\')">✗ Reject</button>' : '') +
+          '<button class="btn btn-ghost btn-sm" onclick="deleteSub(\'' + s.id + '\')">🗑</button>' +
+        '</div></td>' +
+      '</tr>';
+    }).join('');
+  }
+
+  // ── Toggle featured ────────────────────────────────────────────────────────
+  async function toggleFeatured(slug, el) {
+    var result = await api('POST', '/api/restaurants/' + slug + '/featured');
+    var r = allRestaurants.find(function(x) { return x.slug === slug; });
+    if (r) r.featured = result.featured;
+    renderRestaurants();
+    renderFeatured();
+    toast(result.featured ? '★ Marked as featured' : 'Removed from featured', result.featured ? 'success' : '');
+    loadStats();
+  }
+  window.toggleFeatured = toggleFeatured;
+
+  // ── Edit modal ─────────────────────────────────────────────────────────────
+  async function openEdit(slug) {
+    editSlug = slug;
+    var r = await api('GET', '/api/restaurants/' + slug);
+    var body = document.getElementById('modal-body');
+    body.innerHTML =
+      '<div class="toggle-row"><label>★ Featured restaurant</label><label class="toggle"><input type="checkbox" id="e-featured" ' + (r.featured ? 'checked' : '') + '><span class="slider"></span></label></div>' +
+      '<div class="form-row">' +
+        '<div class="form-group"><label>Name</label><input id="e-name" value="' + esc(r.name || '') + '" /></div>' +
+        '<div class="form-group"><label>Price level</label><select id="e-price"><option value="1" ' + (r.price_level==1?'selected':'') + '>R · Budget</option><option value="2" ' + (r.price_level==2?'selected':'') + '>RR · Mid-range</option><option value="3" ' + (r.price_level==3?'selected':'') + '>RRR · Upmarket</option><option value="4" ' + (r.price_level==4?'selected':'') + '>RRRR · Fine dining</option></select></div>' +
+      '</div>' +
+      '<div class="form-group"><label>Short description</label><textarea id="e-short">' + esc(r.description_short || '') + '</textarea></div>' +
+      '<div class="form-group"><label>Long description</label><textarea id="e-long" style="min-height:120px">' + esc(r.description_long || '') + '</textarea></div>' +
+      '<div class="form-row">' +
+        '<div class="form-group"><label>Phone</label><input id="e-phone" value="' + esc(r.phone || '') + '" /></div>' +
+        '<div class="form-group"><label>Email</label><input id="e-email" value="' + esc(r.email || '') + '" /></div>' +
+      '</div>' +
+      '<div class="form-group"><label>Website</label><input id="e-website" value="' + esc(r.website || '') + '" /></div>' +
+      '<div class="form-group"><label>Menu URL</label><input id="e-menu" value="' + esc(r.menu_url || '') + '" /></div>' +
+      '<div class="form-group"><label>Cuisine types (comma-separated)</label><input id="e-cuisine" value="' + esc((r.cuisine_types || []).join(', ')) + '" /></div>';
+    document.getElementById('edit-modal').classList.add('open');
+  }
+  window.openEdit = openEdit;
+
+  function esc(s) { return String(s).replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  document.getElementById('modal-close').addEventListener('click', function() { document.getElementById('edit-modal').classList.remove('open'); });
+  document.getElementById('modal-cancel').addEventListener('click', function() { document.getElementById('edit-modal').classList.remove('open'); });
+
+  document.getElementById('modal-save').addEventListener('click', async function() {
+    if (!editSlug) return;
+    var payload = {
+      name:              document.getElementById('e-name').value,
+      featured:          document.getElementById('e-featured').checked,
+      description_short: document.getElementById('e-short').value,
+      description_long:  document.getElementById('e-long').value,
+      phone:             document.getElementById('e-phone').value,
+      email:             document.getElementById('e-email').value,
+      website:           document.getElementById('e-website').value,
+      menu_url:          document.getElementById('e-menu').value,
+      price_level:       parseInt(document.getElementById('e-price').value),
+      cuisine_types:     document.getElementById('e-cuisine').value.split(',').map(function(s){return s.trim();}).filter(Boolean),
+    };
+    await api('PATCH', '/api/restaurants/' + editSlug, payload);
+    document.getElementById('edit-modal').classList.remove('open');
+    toast('Saved!', 'success');
+    await loadRestaurants();
+    await loadStats();
+  });
+
+  // ── Submissions ────────────────────────────────────────────────────────────
+  async function reviewSub(id, status) {
+    await api('PATCH', '/api/submissions/' + id, { status });
+    await loadSubmissions();
+    toast(status === 'approved' ? 'Approved ✓' : 'Rejected', status === 'approved' ? 'success' : 'error');
+  }
+  window.reviewSub = reviewSub;
+
+  async function deleteSub(id) {
+    if (!confirm('Delete this submission?')) return;
+    await api('DELETE', '/api/submissions/' + id);
+    await loadSubmissions();
+    toast('Deleted');
+  }
+  window.deleteSub = deleteSub;
+
+  // ── Scraper ────────────────────────────────────────────────────────────────
+  var scraperPollInterval = null;
+
+  function startScraperPoll() {
+    if (scraperPollInterval) return;
+    scraperPollInterval = setInterval(pollScraper, 1500);
+    pollScraper();
+  }
+
+  async function pollScraper() {
+    var status = await api('GET', '/api/scraper/status');
+    var statusEl = document.getElementById('scraper-status');
+    var logEl = document.getElementById('scraper-log');
+    var runBtn = document.getElementById('scraper-run');
+    var corrBtn = document.getElementById('scraper-corridor');
+    var stopBtn = document.getElementById('scraper-stop');
+
+    if (status.running) {
+      statusEl.className = 'scraper-status running';
+      statusEl.innerHTML = '<span class="pulse"></span> Running…';
+      runBtn.disabled = corrBtn.disabled = true;
+      stopBtn.style.display = 'inline-flex';
+    } else {
+      statusEl.className = 'scraper-status idle';
+      statusEl.innerHTML = 'Idle';
+      runBtn.disabled = corrBtn.disabled = false;
+      stopBtn.style.display = 'none';
+    }
+
+    if (status.log && status.log.length) {
+      logEl.innerHTML = status.log.map(function(l) {
+        if (l.startsWith('[ERR]')) return '<span class="log-err">' + l + '</span>';
+        if (l.includes('✓') || l.includes('Finished')) return '<span class="log-ok">' + l + '</span>';
+        return l;
+      }).join('');
+      logEl.scrollTop = logEl.scrollHeight;
+    }
+  }
+
+  document.getElementById('scraper-run').addEventListener('click', async function() {
+    await api('POST', '/api/scraper/run', {});
+    toast('Scraper started');
+    pollScraper();
+  });
+
+  document.getElementById('scraper-corridor').addEventListener('click', async function() {
+    await api('POST', '/api/scraper/run', { corridor: true });
+    toast('Corridor scrape started');
+    pollScraper();
+  });
+
+  document.getElementById('scraper-stop').addEventListener('click', async function() {
+    await api('POST', '/api/scraper/stop');
+    toast('Scraper stopped');
+  });
+
+  // ── Filter listeners ───────────────────────────────────────────────────────
+  document.getElementById('rest-search').addEventListener('input', renderRestaurants);
+  document.getElementById('rest-town').addEventListener('change', renderRestaurants);
+  document.getElementById('rest-filter').addEventListener('change', renderRestaurants);
+
+  // ── Init ───────────────────────────────────────────────────────────────────
+  (async function init() {
+    await loadRestaurants();
+    await loadStats();
+    await loadSubmissions();
+  })();
+</script>
+</body>
+</html>

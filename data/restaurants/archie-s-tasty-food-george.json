@@ -15,7 +15,7 @@
   "google_place_id": "ChIJp0gkmgEb1h0Ro2AAam8l_8A",
   "google_rating": 5,
   "google_review_count": 1,
-  "price_level": 2,
+  "price_level": 1,
   "cuisine_types": [
     "South African",
     "Fast Food"
@@ -40,8 +40,9 @@
   "description_long": "Tucked in the Thembalethu Centre, Archie's Tasty Food is a community gem where locals gather for honest, flavourful cooking. This is the kind of place where recipes are passed down through generations and every plate comes with a side of genuine warmth.\n\nThe menu focuses on satisfying South African staples and comfort food that hits the spot whether you're after a proper lunch or early supper. Portions are generous without being wasteful, and the cooking style reflects real home kitchen traditions. It's straightforward food done well, with an emphasis on value and taste over fancy presentation.\n\nIn Thembalethu, this is where you'll find George locals who know good food when they taste it. The atmosphere is relaxed and welcoming, perfect for a quick bite or sitting down with friends. It's the sort of neighbourhood spot every community needs.",
   "photos": [],
   "featured": false,
-  "last_updated": "2026-05-03T02:36:44.602484+00:00",
+  "last_updated": "2026-05-03",
   "data_sources": [
     "google_places"
-  ]
+  ],
+  "menu_url": ""
 }

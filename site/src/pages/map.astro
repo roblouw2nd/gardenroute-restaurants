@@ -8,22 +8,25 @@ const cuisines = getUniqueCuisines(restaurants);
 const mapData = restaurants
   .filter(r => r.coordinates?.lat && r.coordinates?.lng)
   .map(r => ({
-    slug:    r.slug,
-    name:    r.name,
-    town:    r.town,
-    lat:     r.coordinates.lat,
-    lng:     r.coordinates.lng,
-    rating:  r.google_rating || 0,
-    reviews: r.google_review_count || 0,
-    price:   r.price_level || 2,
-    cuisine: (r.cuisine_types || []).slice(0, 2),
-    short:   r.description_short || '',
-    photo:   r.photos?.[0]?.url || '',
+    slug:     r.slug,
+    name:     r.name,
+    town:     r.town,
+    lat:      r.coordinates.lat,
+    lng:      r.coordinates.lng,
+    rating:   r.google_rating || 0,
+    reviews:  r.google_review_count || 0,
+    price:    r.price_level || 2,
+    cuisine:  (r.cuisine_types || []).slice(0, 2),
+    short:    r.description_short || '',
+    photo:    r.photos?.[0]?.url || '',
+    featured: r.featured || false,
   }));
 
-const townOptions   = towns.map(t => `<option value="${t}">${t}</option>`).join('');
+const featured = mapData.filter(r => r.featured);
+const townOptions    = towns.map(t => `<option value="${t}">${t}</option>`).join('');
 const cuisineOptions = cuisines.map(c => `<option value="${c}">${c}</option>`).join('');
-const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
+const dataJson    = JSON.stringify(mapData).replace(/</g, '\\u003c');
+const featuredJson = JSON.stringify(featured).replace(/</g, '\\u003c');
 ---
 
 <!DOCTYPE html>
@@ -34,140 +37,196 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   <title>Restaurant Map — Garden Route</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-  <!-- Leaflet CSS -->
   <link rel="stylesheet" is:inline href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <!-- MarkerCluster CSS -->
   <link rel="stylesheet" is:inline href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" is:inline href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
 
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { height: 100%; font-family: 'DM Sans', system-ui, sans-serif; background: #f9f8f6; color: #111; }
+    html, body { height: 100%; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: #f5f4f0; color: #111; }
 
     .app { display: flex; flex-direction: column; height: 100vh; }
 
-    /* Topbar */
+    /* ── Topbar ── */
     .topbar {
       display: flex; align-items: center; justify-content: space-between;
-      padding: 0 20px; height: 52px; background: #fff;
-      border-bottom: 1px solid #e5e7eb; flex-shrink: 0; z-index: 100;
+      padding: 0 24px; height: 54px; background: #fff;
+      border-bottom: 1px solid #ebebeb; flex-shrink: 0; z-index: 200;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
     }
-    .logo { font-weight: 700; font-size: 16px; color: #0d7ec4; text-decoration: none; display: flex; align-items: center; gap: 6px; }
-    .topnav { display: flex; align-items: center; gap: 20px; font-size: 13px; font-weight: 500; }
-    .topnav a { color: #374151; text-decoration: none; }
+    .logo { font-weight: 700; font-size: 16px; color: #0d7ec4; text-decoration: none; display: flex; align-items: center; gap: 6px; letter-spacing: -0.3px; }
+    .topnav { display: flex; align-items: center; gap: 24px; font-size: 13px; font-weight: 500; }
+    .topnav a { color: #555; text-decoration: none; transition: color 0.15s; }
     .topnav a:hover { color: #0d7ec4; }
-    .topnav .btn { background: #0d7ec4; color: #fff; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 600; }
-    .topnav .btn:hover { background: #0b6ca8; }
-    .map-link { color: #0d7ec4 !important; font-weight: 600; }
+    .topnav .active { color: #0d7ec4; font-weight: 600; }
+    .topnav .btn-add { background: #0d7ec4; color: #fff !important; padding: 7px 16px; border-radius: 999px; font-size: 12px; font-weight: 600; transition: background 0.15s; }
+    .topnav .btn-add:hover { background: #0b6ca8; }
 
-    /* Body */
+    /* ── Layout ── */
     .body { display: flex; flex: 1; overflow: hidden; }
 
-    /* Sidebar */
+    /* ── Sidebar ── */
     .sidebar {
-      width: 300px; flex-shrink: 0; display: flex; flex-direction: column;
-      background: #fff; border-right: 1px solid #e5e7eb; overflow: hidden;
+      width: 320px; flex-shrink: 0; display: flex; flex-direction: column;
+      background: #fff; border-right: 1px solid #ebebeb; overflow: hidden;
+      box-shadow: 2px 0 8px rgba(0,0,0,0.04);
     }
-    .filters { padding: 14px; border-bottom: 1px solid #f3f4f6; display: flex; flex-direction: column; gap: 8px; }
-    .filters h2 { font-size: 13px; font-weight: 700; color: #111; }
-    .filters input, .filters select {
-      width: 100%; padding: 8px 10px; font-size: 13px; font-family: inherit;
-      border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; color: #111;
-      outline: none; appearance: auto;
-    }
-    .filters input:focus, .filters select:focus { border-color: #0d7ec4; box-shadow: 0 0 0 2px #dbeafe; }
-    .rating-row { display: flex; flex-direction: column; gap: 4px; }
-    .rating-row label { font-size: 11px; color: #6b7280; font-weight: 500; }
-    .filters input[type=range] { padding: 0; height: 4px; accent-color: #0d7ec4; cursor: pointer; }
-    .reset-btn {
-      width: 100%; padding: 8px; font-size: 12px; font-weight: 600; font-family: inherit;
-      color: #6b7280; background: #f9fafb; border: 1px solid #e5e7eb;
-      border-radius: 8px; cursor: pointer;
-    }
-    .reset-btn:hover { background: #f3f4f6; }
-    .count { padding: 8px 14px; font-size: 11px; color: #9ca3af; font-weight: 500; border-bottom: 1px solid #f3f4f6; flex-shrink: 0; }
 
-    /* List */
+    /* ── Featured carousel ── */
+    .featured-section { padding: 14px 14px 0; flex-shrink: 0; }
+    .featured-label { font-size: 10px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #b45309; margin-bottom: 8px; display: flex; align-items: center; gap: 5px; }
+    .featured-label::before { content: '★'; color: #f59e0b; font-size: 11px; }
+    .featured-scroll { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 12px; scrollbar-width: none; }
+    .featured-scroll::-webkit-scrollbar { display: none; }
+    .feat-card {
+      flex-shrink: 0; width: 150px; border-radius: 10px; overflow: hidden;
+      border: 1px solid #f0ede8; cursor: pointer; transition: box-shadow 0.15s, transform 0.15s;
+      background: #fff;
+    }
+    .feat-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-1px); }
+    .feat-card.active { box-shadow: 0 0 0 2px #f59e0b; }
+    .feat-img { width: 100%; height: 80px; object-fit: cover; display: block; background: #f5f4f0; }
+    .feat-img-placeholder { width: 100%; height: 80px; background: linear-gradient(135deg, #fef3c7, #fde68a); display: flex; align-items: center; justify-content: center; font-size: 22px; }
+    .feat-info { padding: 7px 8px 8px; }
+    .feat-name { font-size: 11px; font-weight: 600; color: #111; line-height: 1.3; margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .feat-town { font-size: 10px; color: #888; }
+    .feat-rating { font-size: 10px; color: #f59e0b; font-weight: 600; margin-top: 2px; }
+
+    .sidebar-divider { height: 1px; background: #f3f0eb; margin: 0; flex-shrink: 0; }
+
+    /* ── Filters ── */
+    .filters { padding: 12px 14px; border-bottom: 1px solid #f3f0eb; display: flex; flex-direction: column; gap: 7px; flex-shrink: 0; }
+    .filter-row { display: flex; gap: 7px; }
+    .filter-row input, .filter-row select,
+    .filters input, .filters select {
+      flex: 1; width: 100%; padding: 8px 10px; font-size: 12px; font-family: inherit;
+      border: 1px solid #e8e5e0; border-radius: 8px; background: #faf9f7; color: #111;
+      outline: none; appearance: auto; transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .filters input:focus, .filters select:focus { border-color: #0d7ec4; box-shadow: 0 0 0 3px rgba(13,126,196,0.1); background: #fff; }
+    .rating-row { display: flex; align-items: center; gap: 8px; }
+    .rating-row label { font-size: 11px; color: #777; font-weight: 500; white-space: nowrap; }
+    .rating-row strong { color: #111; }
+    .filters input[type=range] { padding: 0; height: 4px; accent-color: #0d7ec4; cursor: pointer; flex: 1; }
+    .reset-btn {
+      width: 100%; padding: 7px; font-size: 11px; font-weight: 600; font-family: inherit;
+      color: #888; background: #faf9f7; border: 1px solid #e8e5e0;
+      border-radius: 8px; cursor: pointer; transition: background 0.15s;
+    }
+    .reset-btn:hover { background: #f0ede8; color: #555; }
+
+    /* ── Count ── */
+    .count { padding: 8px 14px; font-size: 11px; color: #aaa; font-weight: 500; border-bottom: 1px solid #f3f0eb; flex-shrink: 0; }
+    .count span { color: #555; font-weight: 600; }
+
+    /* ── List ── */
     #list { flex: 1; overflow-y: auto; }
     .list-item {
-      padding: 10px 14px; border-bottom: 1px solid #f3f4f6;
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 14px; border-bottom: 1px solid #f3f0eb;
       cursor: pointer; transition: background 0.1s;
     }
-    .list-item:hover { background: #f0f9ff; }
-    .list-item.active { background: #dbeafe; }
-    .li-name { font-size: 13px; font-weight: 600; color: #111; line-height: 1.3; }
-    .li-meta { font-size: 11px; color: #6b7280; margin-top: 2px; }
-    .li-rating { font-size: 11px; color: #f59e0b; font-weight: 600; margin-top: 2px; }
-    .empty { padding: 32px 16px; text-align: center; color: #9ca3af; font-size: 13px; }
+    .list-item:hover { background: #f9f8f5; }
+    .list-item.active { background: #eff8ff; }
+    .list-thumb {
+      width: 42px; height: 42px; border-radius: 8px; object-fit: cover;
+      flex-shrink: 0; background: #f0ede8;
+    }
+    .list-thumb-placeholder {
+      width: 42px; height: 42px; border-radius: 8px; flex-shrink: 0;
+      background: #f0ede8; display: flex; align-items: center; justify-content: center; font-size: 16px;
+    }
+    .list-info { flex: 1; min-width: 0; }
+    .li-name { font-size: 12px; font-weight: 600; color: #111; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .li-name .feat-star { color: #f59e0b; font-size: 10px; margin-left: 3px; }
+    .li-meta { font-size: 10px; color: #999; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .li-rating { font-size: 10px; color: #f59e0b; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 40px 16px; text-align: center; color: #bbb; font-size: 13px; }
 
-    /* Map */
+    /* ── Map ── */
     #map { flex: 1; z-index: 0; }
 
-    /* Popup */
+    /* ── Leaflet overrides ── */
+    .leaflet-container { font-family: system-ui, sans-serif; }
+
+    /* ── Popup ── */
     .leaflet-popup-content-wrapper {
-      border-radius: 12px !important; padding: 0 !important;
-      overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.18) !important;
+      border-radius: 14px !important; padding: 0 !important;
+      overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.16) !important;
+      border: none !important;
     }
-    .leaflet-popup-content { margin: 0 !important; width: 250px !important; }
-    .popup-img { width: 100%; height: 120px; object-fit: cover; display: block; background: #f3f4f6; }
-    .popup-no-img { width: 100%; height: 80px; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+    .leaflet-popup-tip-container { display: none; }
+    .leaflet-popup-content { margin: 0 !important; width: 260px !important; }
+    .popup-img { width: 100%; height: 130px; object-fit: cover; display: block; }
+    .popup-no-img { width: 100%; height: 90px; background: linear-gradient(135deg, #e0f2fe, #bae6fd); display: flex; align-items: center; justify-content: center; font-size: 32px; }
     .popup-body { padding: 12px 14px 14px; }
-    .popup-name { font-weight: 700; font-size: 14px; color: #111; line-height: 1.3; margin-bottom: 3px; }
-    .popup-meta { font-size: 11px; color: #6b7280; margin-bottom: 5px; }
-    .popup-rating { font-size: 12px; color: #f59e0b; font-weight: 600; margin-bottom: 7px; }
-    .popup-short { font-size: 11px; color: #374151; line-height: 1.5; margin-bottom: 10px; }
+    .popup-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; margin-bottom: 4px; }
+    .popup-name { font-weight: 700; font-size: 14px; color: #111; line-height: 1.3; }
+    .popup-feat-badge { background: #fef3c7; color: #92400e; font-size: 9px; font-weight: 700; padding: 2px 6px; border-radius: 4px; letter-spacing: 0.5px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
+    .popup-meta { font-size: 11px; color: #888; margin-bottom: 5px; }
+    .popup-rating { font-size: 12px; color: #f59e0b; font-weight: 600; margin-bottom: 8px; }
+    .popup-short { font-size: 11px; color: #555; line-height: 1.55; margin-bottom: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
     .popup-link {
       display: block; text-align: center; background: #0d7ec4; color: #fff;
-      font-size: 12px; font-weight: 600; padding: 8px; border-radius: 8px; text-decoration: none;
+      font-size: 12px; font-weight: 600; padding: 9px; border-radius: 9px; text-decoration: none;
+      transition: background 0.15s;
     }
-    .popup-link:hover { background: #0b6ca8; color: #fff; }
+    .popup-link:hover { background: #0b6ca8; }
 
-    /* Cluster colours */
-    .marker-cluster-small { background-color: rgba(13,126,196,0.2) !important; }
-    .marker-cluster-small div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
-    .marker-cluster-medium { background-color: rgba(13,126,196,0.2) !important; }
-    .marker-cluster-medium div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
-    .marker-cluster-large { background-color: rgba(13,126,196,0.2) !important; }
-    .marker-cluster-large div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
+    /* ── Cluster colours ── */
+    .marker-cluster-small  { background-color: rgba(13,126,196,0.15) !important; }
+    .marker-cluster-small div  { background-color: rgba(13,126,196,0.8) !important; color: #fff !important; font-weight: 700; font-size: 12px; }
+    .marker-cluster-medium { background-color: rgba(13,126,196,0.15) !important; }
+    .marker-cluster-medium div { background-color: rgba(13,126,196,0.8) !important; color: #fff !important; font-weight: 700; font-size: 12px; }
+    .marker-cluster-large  { background-color: rgba(13,126,196,0.15) !important; }
+    .marker-cluster-large div  { background-color: rgba(13,126,196,0.8) !important; color: #fff !important; font-weight: 700; font-size: 12px; }
   </style>
 </head>
 <body>
 <div class="app">
 
-  <!-- Topbar -->
   <header class="topbar">
     <a href="/" class="logo">🌊 gardenroute</a>
     <nav class="topnav">
       <a href="/browse">Browse</a>
-      <a href="/map" class="map-link">Map</a>
+      <a href="/map" class="active">Map</a>
       <a href="/towns">Towns</a>
       <a href="/about">About</a>
-      <a href="/submit" class="btn">Add restaurant</a>
+      <a href="/submit" class="btn-add">Add restaurant</a>
     </nav>
   </header>
 
-  <!-- Body -->
   <div class="body">
 
-    <!-- Sidebar -->
     <aside class="sidebar">
+
+      <!-- Featured carousel -->
+      <div class="featured-section">
+        <div class="featured-label">Featured restaurants</div>
+        <div class="featured-scroll" id="feat-scroll"></div>
+      </div>
+
+      <div class="sidebar-divider"></div>
+
+      <!-- Filters -->
       <div class="filters">
-        <h2>Filter restaurants</h2>
-        <input id="search" type="text" placeholder="Search by name…" />
-        <select id="f-town">
-          <option value="">All towns</option>
-          <Fragment set:html={townOptions} />
-        </select>
+        <input id="search" type="text" placeholder="🔍  Search by name…" />
+        <div class="filter-row">
+          <select id="f-town">
+            <option value="">All towns</option>
+            <Fragment set:html={townOptions} />
+          </select>
+          <select id="f-price">
+            <option value="">Any price</option>
+            <option value="1">R · Budget</option>
+            <option value="2">RR · Mid</option>
+            <option value="3">RRR · Upmarket</option>
+            <option value="4">RRRR · Fine dining</option>
+          </select>
+        </div>
         <select id="f-cuisine">
           <option value="">All cuisines</option>
           <Fragment set:html={cuisineOptions} />
-        </select>
-        <select id="f-price">
-          <option value="">Any price</option>
-          <option value="1">R — Budget</option>
-          <option value="2">RR — Mid-range</option>
-          <option value="3">RRR — Upmarket</option>
-          <option value="4">RRRR — Fine dining</option>
         </select>
         <div class="rating-row">
           <label>Min rating: <strong id="rating-val">Any</strong></label>
@@ -175,83 +234,117 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
         </div>
         <button class="reset-btn" id="reset">Reset filters</button>
       </div>
+
       <div class="count"><span id="count">0</span> restaurants shown</div>
       <div id="list"></div>
     </aside>
 
-    <!-- Map -->
     <div id="map"></div>
   </div>
 </div>
 
-<!-- Leaflet JS — must use is:inline to prevent Astro from stripping external src -->
 <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script is:inline src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
-<!-- Map data injected at build time -->
-<script is:inline define:vars={{ dataJson, townOptions, cuisineOptions }}>
-  const mapData = JSON.parse(dataJson);
-
-  const PRICE = ['','R','RR','RRR','RRRR'];
+<script is:inline define:vars={{ dataJson, featuredJson }}>
+  var mapData    = JSON.parse(dataJson);
+  var featuredData = JSON.parse(featuredJson);
+  var PRICE = ['','R','RR','RRR','RRRR'];
 
   function stars(r) {
-    const f = Math.floor(r), h = (r % 1) >= 0.5 ? 1 : 0;
+    if (!r) return '';
+    var f = Math.floor(r), h = (r % 1) >= 0.5 ? 1 : 0;
     return '★'.repeat(f) + (h ? '½' : '') + '☆'.repeat(5 - f - h);
   }
 
-  // ── Map ──────────────────────────────────────────────────────────────────
-  const map = L.map('map', { zoomControl: false }).setView([-33.97, 22.85], 9);
+  // ── Map (CartoDB Positron — clean/minimal) ────────────────────────────────
+  var map = L.map('map', { zoomControl: false }).setView([-33.97, 22.85], 9);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
+    subdomains: 'abcd',
     maxZoom: 19,
   }).addTo(map);
 
-  const cluster = L.markerClusterGroup({
+  var cluster = L.markerClusterGroup({
     showCoverageOnHover: false,
     maxClusterRadius: 50,
     spiderfyOnMaxZoom: true,
   });
   map.addLayer(cluster);
 
-  function pinIcon(rating) {
-    const color = rating >= 4.3 ? '#059669' : rating >= 3.5 ? '#0d7ec4' : '#9ca3af';
+  // ── Pin icons ─────────────────────────────────────────────────────────────
+  function pinIcon(rating, featured) {
+    if (featured) {
+      // Gold star pin
+      return L.divIcon({
+        className: '',
+        html: '<svg width="32" height="42" viewBox="0 0 32 42" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 0C7.16 0 0 7.16 0 16c0 11.31 16 26 16 26s16-14.69 16-26C32 7.16 24.84 0 16 0z" fill="#f59e0b" stroke="#fff" stroke-width="2.5"/><text x="16" y="22" text-anchor="middle" font-size="14" fill="#fff" font-family="system-ui">★</text></svg>',
+        iconSize: [32, 42],
+        iconAnchor: [16, 42],
+        popupAnchor: [0, -44],
+      });
+    }
+    var color = rating >= 4.3 ? '#16a34a' : rating >= 3.5 ? '#0d7ec4' : '#9ca3af';
     return L.divIcon({
       className: '',
-      html: '<svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 0C6.27 0 0 6.27 0 14c0 9.75 14 22 14 22s14-12.25 14-22C28 6.27 21.73 0 14 0z" fill="' + color + '" stroke="#fff" stroke-width="2"/><circle cx="14" cy="14" r="5" fill="#fff"/></svg>',
-      iconSize: [28, 36],
-      iconAnchor: [14, 36],
-      popupAnchor: [0, -38],
+      html: '<svg width="26" height="34" viewBox="0 0 26 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 0C5.82 0 0 5.82 0 13c0 9.1 13 21 13 21s13-11.9 13-21C26 5.82 20.18 0 13 0z" fill="' + color + '" stroke="#fff" stroke-width="2"/><circle cx="13" cy="13" r="4.5" fill="#fff" opacity="0.9"/></svg>',
+      iconSize: [26, 34],
+      iconAnchor: [13, 34],
+      popupAnchor: [0, -36],
     });
   }
 
+  // ── Popup ─────────────────────────────────────────────────────────────────
   function popupHtml(r) {
     var img = r.photo
       ? '<img class="popup-img" src="' + r.photo + '" alt="' + r.name + '" loading="lazy" />'
       : '<div class="popup-no-img">🍽</div>';
+    var featBadge = r.featured ? '<span class="popup-feat-badge">★ FEATURED</span>' : '';
     return img +
       '<div class="popup-body">' +
-        '<div class="popup-name">' + r.name + '</div>' +
-        '<div class="popup-meta">' + (r.cuisine.join(', ') || '') + ' · ' + r.town + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
-        (r.rating ? '<div class="popup-rating">' + stars(r.rating) + ' ' + r.rating + ' <span style="color:#9ca3af;font-weight:400">(' + r.reviews + ')</span></div>' : '') +
+        '<div class="popup-header"><div class="popup-name">' + r.name + '</div>' + featBadge + '</div>' +
+        '<div class="popup-meta">' + (r.cuisine.join(' · ') || '') + (r.cuisine.length ? ' · ' : '') + r.town + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
+        (r.rating ? '<div class="popup-rating">' + stars(r.rating) + ' ' + r.rating + ' <span style="color:#bbb;font-weight:400;font-size:10px">(' + r.reviews + ' reviews)</span></div>' : '') +
         (r.short ? '<div class="popup-short">' + r.short + '</div>' : '') +
         '<a class="popup-link" href="/' + r.slug + '">View restaurant →</a>' +
       '</div>';
   }
 
-  // Build all markers
+  // ── Build markers ─────────────────────────────────────────────────────────
   var markerMap = {};
   mapData.forEach(function(r) {
-    var m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating) });
-    m.bindPopup(popupHtml(r), { maxWidth: 250, minWidth: 250 });
+    var m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating, r.featured) });
+    m.bindPopup(popupHtml(r), { maxWidth: 260, minWidth: 260 });
     m._r = r;
     markerMap[r.slug] = m;
     cluster.addLayer(m);
   });
 
-  // ── List ─────────────────────────────────────────────────────────────────
-  var listEl   = document.getElementById('list');
-  var countEl  = document.getElementById('count');
+  // ── Featured carousel ─────────────────────────────────────────────────────
+  var featScroll = document.getElementById('feat-scroll');
+  featuredData.forEach(function(r) {
+    var card = document.createElement('div');
+    card.className = 'feat-card';
+    card.dataset.slug = r.slug;
+    card.innerHTML =
+      (r.photo ? '<img class="feat-img" src="' + r.photo + '" alt="' + r.name + '" loading="lazy" />' : '<div class="feat-img-placeholder">🍽</div>') +
+      '<div class="feat-info">' +
+        '<div class="feat-name">' + r.name + '</div>' +
+        '<div class="feat-town">' + r.town + '</div>' +
+        (r.rating ? '<div class="feat-rating">★ ' + r.rating + '</div>' : '') +
+      '</div>';
+    card.addEventListener('click', function() {
+      featScroll.querySelectorAll('.feat-card').forEach(function(c) { c.classList.remove('active'); });
+      card.classList.add('active');
+      flyTo(r.slug);
+    });
+    featScroll.appendChild(card);
+  });
+
+  // ── List ──────────────────────────────────────────────────────────────────
+  var listEl    = document.getElementById('list');
+  var countEl   = document.getElementById('count');
   var activeSlug = null;
 
   function renderList(items) {
@@ -261,13 +354,18 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
       return;
     }
     listEl.innerHTML = items.map(function(r) {
+      var thumb = r.photo
+        ? '<img class="list-thumb" src="' + r.photo + '" alt="' + r.name + '" loading="lazy" />'
+        : '<div class="list-thumb-placeholder">🍽</div>';
       return '<div class="list-item' + (r.slug === activeSlug ? ' active' : '') + '" data-slug="' + r.slug + '">' +
-        '<div class="li-name">' + r.name + '</div>' +
-        '<div class="li-meta">' + r.town + (r.cuisine[0] ? ' · ' + r.cuisine[0] : '') + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
-        (r.rating ? '<div class="li-rating">' + stars(r.rating) + ' ' + r.rating + '</div>' : '') +
-        '</div>';
+        thumb +
+        '<div class="list-info">' +
+          '<div class="li-name">' + r.name + (r.featured ? '<span class="feat-star">★</span>' : '') + '</div>' +
+          '<div class="li-meta">' + r.town + (r.cuisine[0] ? ' · ' + r.cuisine[0] : '') + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
+          (r.rating ? '<div class="li-rating">★ ' + r.rating + ' <span style="color:#ccc;font-weight:400">(' + r.reviews + ')</span></div>' : '') +
+        '</div>' +
+      '</div>';
     }).join('');
-
     listEl.querySelectorAll('.list-item').forEach(function(el) {
       el.addEventListener('click', function() { flyTo(el.dataset.slug); });
     });
@@ -277,11 +375,11 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     var r = mapData.find(function(x) { return x.slug === slug; });
     if (!r) return;
     activeSlug = slug;
-    map.flyTo([r.lat, r.lng], 15, { duration: 0.7 });
+    map.flyTo([r.lat, r.lng], 15, { duration: 0.8, easeLinearity: 0.25 });
     setTimeout(function() {
       var m = markerMap[slug];
       if (m) cluster.zoomToShowLayer(m, function() { m.openPopup(); });
-    }, 750);
+    }, 850);
     listEl.querySelectorAll('.list-item').forEach(function(el) {
       el.classList.toggle('active', el.dataset.slug === slug);
     });
@@ -289,7 +387,6 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
     if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 
-  // Sync popup → list highlight
   map.on('popupopen', function(e) {
     var m = e.popup._source;
     if (m && m._r) {
@@ -299,6 +396,10 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
       });
       var active = listEl.querySelector('.list-item.active');
       if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      // Highlight featured card if applicable
+      featScroll.querySelectorAll('.feat-card').forEach(function(c) {
+        c.classList.toggle('active', c.dataset.slug === activeSlug);
+      });
     }
   });
 
@@ -327,6 +428,13 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
       return true;
     });
 
+    // Sort: featured first, then by rating
+    filtered.sort(function(a, b) {
+      if (a.featured && !b.featured) return -1;
+      if (!a.featured && b.featured) return 1;
+      return b.rating - a.rating;
+    });
+
     cluster.clearLayers();
     filtered.forEach(function(r) { if (markerMap[r.slug]) cluster.addLayer(markerMap[r.slug]); });
     renderList(filtered);
@@ -337,14 +445,12 @@ const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
   cuisineEl.addEventListener('change', applyFilters);
   priceEl.addEventListener('change', applyFilters);
   ratingEl.addEventListener('input', applyFilters);
-
   document.getElementById('reset').addEventListener('click', function() {
     searchEl.value = townEl.value = cuisineEl.value = priceEl.value = '';
     ratingEl.value = 0;
     applyFilters();
   });
 
-  // Initial render
   applyFilters();
 </script>
 </body>

@@ -23,6 +23,7 @@ node_modules/
 site/node_modules/
 site/dist/
 site/.astro/
+admin/node_modules/
 dist/
 
 # Logs
