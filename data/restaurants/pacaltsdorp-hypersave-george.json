@@ -1,0 +1,46 @@
+{
+  "id": "pacaltsdorp-hypersave-george",
+  "name": "Pacaltsdorp Hypersave",
+  "slug": "pacaltsdorp-hypersave-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "1 Section St, Sea View, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -34.019579,
+    "lng": 22.4661755
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJA_C1FnEb1h0RQmIjWIIpVno",
+  "google_rating": 4.1,
+  "google_review_count": 50,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Fast Food"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Community cafe in Pacaltsdorp serving hearty everyday meals in a welcoming neighborhood setting.",
+  "description_long": "Located in the heart of Pacaltsdorp, this neighborhood cafe has become a local gathering spot where residents drop in for honest, affordable meals throughout the day. The atmosphere is unpretentious and friendly, with regulars catching up over plates of comfort food that hit the spot without breaking the bank.\n\nThe menu covers all the basics done well — breakfast plates to start your morning, toasted sandwiches for a quick lunch, and hearty mains that feel like home cooking. It's the kind of place where portion sizes are generous and the staff remember your order. While it may not be a destination for visitors, it serves an important role in the community as an accessible spot for a decent meal.\n\nConveniently situated on Section Street in Sea View, it's easy to reach whether you're a local resident or passing through George's suburbs. The casual vibe makes it suitable for a quick solo bite or bringing the family along for something simple and satisfying.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:11:17.146072+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

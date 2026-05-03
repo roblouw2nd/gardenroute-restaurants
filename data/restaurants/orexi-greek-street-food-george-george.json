@@ -1,0 +1,72 @@
+{
+  "id": "orexi-greek-street-food-george-george",
+  "name": "Orexi Greek Street Food - George",
+  "slug": "orexi-greek-street-food-george-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Shopping Centre Corner of Witfontien and, Pine Rd, Heather Park, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.95058650000001,
+    "lng": 22.4330644
+  },
+  "phone": "+27 63 592 5932",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJu9FI-UkF1h0RIzqNBGaPrhE",
+  "google_rating": 4.8,
+  "google_review_count": 16,
+  "price_level": 2,
+  "cuisine_types": [
+    "Mediterranean"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Family friendly",
+    "Walk-ins welcome",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "11:00 AM – 8:30 PM",
+    "wednesday": "11:00 AM – 8:30 PM",
+    "thursday": "11:00 AM – 8:30 PM",
+    "friday": "11:00 AM – 8:45 PM",
+    "saturday": "11:00 AM – 8:45 PM",
+    "sunday": "11:00 AM – 3:00 PM"
+  },
+  "description_short": "Authentic Greek street food in George's Heather Park, serving generous portions with genuine Mediterranean flavour.",
+  "description_long": "Tucked into a shopping centre in Heather Park, Orexi Greek Street Food brings the vibrant tastes of the Mediterranean to George. This unpretentious spot focuses on what matters most — generous portions of authentic Greek favourites prepared with care and served with warm hospitality.\n\nTheir menu celebrates classic street food staples like gyros, souvlaki, and mezze platters, all made with quality ingredients and traditional recipes. The relaxed atmosphere makes it perfect for a quick lunch or casual dinner when you're craving something different from the usual offerings. With its convenient location and wallet-friendly prices, it's become a favourite among locals looking for honest, flavourful Greek food without the fuss.\n\nWhether you're grabbing takeaway or settling in for a meal, the friendly service and satisfying portions make this a reliable choice for Mediterranean comfort food in the heart of George.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJu9FI-UkF1h0RIzqNBGaPrhE/photos/Ab43m-u0KOxUKwglbZqcUYsAIf7tUs19AbJDBtsCphP88rLCR0l2DkYLaWXXAML34ZtPR3o9ExBLIAShYXwVBOJZMCZBQsUx0cp3C2E632GODGLaaYTSElWSIhL63cRhkK3f9Vak1wtJuMFcXHj9cZMQZ14WKl6U1kSfXzZGw3jFLOzbPx95-oOgPTJIz-LobYc6J0VuYW5TVe1PfZ74UB4JQ1issosV3QL1MCMc-Q-8TaovuiXnK7WlRooR_nrY3yK2IW4xSn9GFyNHCesgh-FHL301RE6WLxeH0LXoOfyo_K1v9gGZuXUX5m16OxNhxgPMnwIPTT-wLGSDUH4pVnY_nOnAowLx368XZ6KvocATN7hyPYvnPpAkI3ULVRyZwTiVm-RnCAE8pV9-Q6ECSXzxvGeVwKS_Nu2hBPxF8xh1XLeJDwXUhalB2p8czvGvmQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJu9FI-UkF1h0RIzqNBGaPrhE/photos/Ab43m-sI9PZ_7lSORlTJX3J9cN3HZlbJKwtFKz6d-J2XkwxyoiFTKv3sTAr1OZWaR9vNyXTd6fojOwCnls8ohwOu5lGvIlgozaEN2XTOi7fbWDTd5HyGhHg9ehVbWtmI8nKWdcj6W33rS8EPkstLJQiC2TQ0O8UrnBHeRv4kSKWO-I6Xk2Esv37RcAeRvbVRACh5m-E6juM4UG0cgjgxBMH7K5hKSGmV8gmRTi5RHCfhfuNpUkbQEdYL6cMTN4amnMxtjUJ6Zsnp-bSZRoyj60TxMkn1yo-_nGR_a7U44HEOeC5pYw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJu9FI-UkF1h0RIzqNBGaPrhE/photos/Ab43m-snJeVuLYxZTzs1mMQQn4Yeo2qYlXCbkJCWaOLLaERbES1TR3iT6VczN_kHWcSH9SdMSTIhBcZlMLybWB_2lzw2F75Yprsgm4bGw2vZvyq0k8GXobHcbnM18R3z3s6jF9z41LPTXrt40FCFOd1uPZVge9ajzA4-_0mSb5_GG66lr8TgpIlsIcHDv2dvrV2LmiiMDnlJqrRdfBEJS7ZWXwiQrf09GwYd2jHP1yeIXjhnORxcGjz9oQZ8VHq_AWif6p6lQ09OSsXPBi-JW24ck4CU-dZd1A8cC7kinQuQihpVazV6sdo-6TIMyaCRazduzSkyn4LBu8KWEtWMF1o6zlclbNOi9eATQAFYSbVOHZVUDLnCiW7JGbrapPqi6RTlrC7-8ZBpALMu5NEi45aIAZbcHZYfIYG7ROYajadBgma0Y5vhxkyX1a3MHhfF2Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJu9FI-UkF1h0RIzqNBGaPrhE/photos/Ab43m-vTKWO_jTZCXk78EwLXmGJHhwo1scjUWhWirADjpak5OZQsfls5NINLbMRzQ0S502OZcweYgCXnT8mONBHwTjeaedGxFNLoNWpTBnSaHRSP46eW_oNZXkJoOlOcOJNC_7U-uPUSstBqawb5vdDqCAAmIOETdJCKkQaUUo3PPMZp7KdAsb6ph1ZFjUek_wWTiS0o5pGgVUMxvM8T4zyHvGBi3AxaB31E4AKXD4DsnfGKzfLnDMBYsA7j1sdPMbb5pVX5LzbwPcQDmAhhf2fxSpe4IjZmOgH35-koOGOydWe4YjofyCVH6MqE8NbHvhsnhC9UF9i-_r5JAGMBTuFeAfcuQYr3NS1Hhys8kT1uEczhzdyIKtammkua-xXOtg75Jpki1LunkBzyEu80NYOhdbiL7ydfdoEBV8urnFt44_CxxcMduFweGXXeXPlpx-Lq/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJu9FI-UkF1h0RIzqNBGaPrhE/photos/Ab43m-uyfN0629fDG6Hv9XPDE3vYuzTT4ZCHXdHmPtttNaV6f0kKnQtS2a4EbD5S5nLFNwfh_KrUwEsyhLqdZffELKkmq88IPtOoW4crJDU40P0WzSRQxdkOb7fJYWuO5czcGnDwXBeav-qfl-ZdUDGpPwdI70M98_AYV9Pd8LmSzF0rWa7d2fiy4G_pWI5NSBUZ88pH1SwzczKcJOpFHQsigSL3JKEhzvC1jMyF5BFq5FPw0be4_Z4wot-9wHxMKVz0A1isahW6TVZGrU8spoHhQuq4biA2BGRcp7UrR-HOB30hR00jLmFNE_DNNDeWaCLnMR8HgakaNVUuYzNAO5dvxEwzYnepj1N1DQYe-nKa4RkTfeSv5JJc0hV09RLg5EsMXjGNUARkg0fOiVdWFMyU52rbd4KXiLcmaUMQXOhWfgRLRxTj8v_QJWA0aNeteZGO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:11:34.080495+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

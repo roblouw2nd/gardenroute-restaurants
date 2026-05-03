@@ -1,0 +1,75 @@
+{
+  "id": "the-table-coffee-books-george",
+  "name": "The Table Coffee & Books",
+  "slug": "the-table-coffee-books-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "47 Market St, George Central, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9631815,
+    "lng": 22.4601546
+  },
+  "phone": "+27 81 460 1940",
+  "email": "",
+  "website": "https://thetable.ethnosmi.org/",
+  "google_place_id": "ChIJVb0cDJIF1h0R2FhNvOUf_7M",
+  "google_rating": 4.6,
+  "google_review_count": 149,
+  "price_level": 1,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Breakfast & Brunch",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Walk-ins welcome",
+    "Takeaway",
+    "Local produce"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "8:00 AM – 4:00 PM",
+    "friday": "8:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Independent bookshop café serving quality coffee and light meals in George's historic centre.",
+  "description_long": "Tucked away on Market Street in George's town centre, The Table Coffee & Books offers a rare combination of carefully curated books and excellent coffee. The atmosphere is relaxed and welcoming, with shelves of interesting reads creating cosy corners for lingering over a cappuccino or light lunch.\n\nThe menu keeps things simple with freshly prepared sandwiches, wraps, and daily bakes that pair perfectly with their quality coffee selection. It's the kind of place where you can settle in with a book, catch up with friends, or work quietly over a slow morning.\n\nWhether you're browsing for your next read or simply after a decent coffee in central George, this independent spot delivers both without fuss. The combination of books and good food makes it a genuine find in the Garden Route's largest town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVb0cDJIF1h0R2FhNvOUf_7M/photos/Ab43m-sP-6Twsd0koDL-3Em5lv0tXhqibQT5mbjVnX-LkcTRzvxvJ4WhZiPoWZafYc9XmE8xAVEU43151pl0p4LY0g7cuNPVa17_P1ip-wdSbx0o8tEcnv7_oGsHg7Dhx5Mx6PdQETVe0cM_9V-WDAf0kDkHOHGYyNY37zrJoKoVz99q-CIu4OqP0ynoNgUTi5oGpNHOTvQRmKuL6p5hcF3AcLWp3WnAwU0ytpj7wyoVLabEFKPa5e8nV2Qv8VRDRAk1thSj8BfzIVQoyEgefJeHKgNn279Rcij2zX7alH8wO3o8Pg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVb0cDJIF1h0R2FhNvOUf_7M/photos/Ab43m-tvmQw1tXL51Anjf3lD4k6kIG5wwlPmTdh2_hZPzrvA72wMv1JZFPCk1UlqKLnb7Js4Re_L_O77nsN2bY_FPpwBJqk4WI4yiv8W3C9DDSUZrx_qC8Z3ZH3UVKEcu3SH_FXaUPS1NRyaD8Wuw6zhgs3jnX7F6GF-uUPUzfgEG2s6lsM0sT0MOzlGbBoCNp0kVCY3UJM-HsdSI2hf0pG3tAyPR-1n7U-N-3Hk6WyTzJgHdxgNYkPNJ1alcs-KPOxDY1MfRGdsQ9ZpDmfiqoS_m26A_hggzgvIDyOf2Xp9W5sYYA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVb0cDJIF1h0R2FhNvOUf_7M/photos/Ab43m-uYD9N3lvT0F6IAWEq4TsGU0-4ZfX16oYDNGtbxfvBhuhUDZC6y5TXk2UsEcdJ3itU0YGSQVNX70scd1LXY5WOaZsadJmFSPSd9HXHIwdG7XCGLkbyxv0TgCGMXZK_AYJrZ18valMIX3fNXcYStPCQdGE2dh1nu0Pf3kjVPAyzXepyWgflusp6aKqtuy0_TozRXSedJRHN3Y7j9DfE57-RlqNtQanBzhYfgVW2Ysz-O2m9oL2UBC3nAI9m9IrOR442jEJs_O6hapxEdqs2uct8s4ysrxUxI-YTOYJ1LEhNyH_AlPEf1bzjEII7xTrEr8yjiPheaxCVnxa3GFWR44jKP6MeHPK8i_154W5O9L1xUKYR5UftWjGIMM1yWZsYpdnld3gUpTsj8d4ct3Owncx9OoTyqsPoEuP5DFJRhIiSLmF_uTc9YZ5avqBH46jA6/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVb0cDJIF1h0R2FhNvOUf_7M/photos/Ab43m-tvSivHQcUIWdebURXTnY290e24E4RR3M6h83v4ezfvE50fTUGRE6WncQpRs61_tYz_H8UOhrxdR2CIOZK_ihHgog3Ej65IsBgkfPsvityv6-gu9HTVKp-VBVmw5aUO0JhEqhDYqmCwJx0TYWYJB-020uDyqHrMhZO7vUnK7JQHOqIWaiXAr-jwym1gr6-qqBKsnRSYv4O3L-Rw2NIZFWMOm1OuaoUS3cKn_gk3sh-DMXoq4ENd7ceZ1NSHWMMaI0z1KveQYkkSiJmeehNqsBvl2ksXLIypJ64Y4ScB0pcJCA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJVb0cDJIF1h0R2FhNvOUf_7M/photos/Ab43m-skwGj0aZ4eXaUIPuQnc0ofzs34vN7-WimrkqmWOcPcLOD6OE4aoAxQLOCUps7bI9WPBg9Bptv8gULLpROH8W8p1LirhNPg84WSqQ22ddpCcI1MshjqEKvCX6DRoKevCkXxlW-8_l5caZZXorqTBr6ckWx8zBQblaifHKh7d2i4KXwUoMWgunypJ2eBLbk3orrbjxaEfwF6-8LZDSP1Thg9zwG_i1dS5rWM7vjyAzbsNN4oS9Z86uc3DgkMfZi_tCh_wJ3SA1xdHabQuPMMUAIhWH9on9D8pIbEJrfOp4JuPJxoQUjsDDJjg21J8IxtyFY7BBrzJAQQTjf1UuHg_GWbvyi0A6vjfzGY8cE3Kvz-KG8WxfzwXjVDwq-lFev2rOIj8_XLCqfLylOF1JtVwlserBtn-pC0J-DwWOfnJylsUtMLIiwllZsSV7_YHSjg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:08:47.222369+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

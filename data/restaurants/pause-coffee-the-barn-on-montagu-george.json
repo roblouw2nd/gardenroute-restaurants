@@ -1,0 +1,74 @@
+{
+  "id": "pause-coffee-the-barn-on-montagu-george",
+  "name": "Pause Coffee @ The Barn on Montagu",
+  "slug": "pause-coffee-the-barn-on-montagu-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "13 Montagu St, Blanco, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9491665,
+    "lng": 22.407994799999997
+  },
+  "phone": "+27 84 560 0183",
+  "email": "",
+  "website": "http://www.pausecoffee.co.za/",
+  "google_place_id": "ChIJ6YMsnQYP1h0RGy2uj6edABM",
+  "google_rating": 4.9,
+  "google_review_count": 35,
+  "price_level": 2,
+  "cuisine_types": [
+    "Coffee Shop",
+    "Cafe",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Local produce",
+    "Outdoor seating"
+  ],
+  "opening_hours": {
+    "monday": "6:00 AM – 6:00 PM",
+    "tuesday": "6:00 AM – 6:00 PM",
+    "wednesday": "6:00 AM – 6:00 PM",
+    "thursday": "6:00 AM – 6:00 PM",
+    "friday": "6:00 AM – 6:00 PM",
+    "saturday": "7:00 AM – 4:00 PM",
+    "sunday": "7:00 AM – 2:00 PM"
+  },
+  "description_short": "Artisan coffee roastery and café in a charming barn setting on Montagu Street in George.",
+  "description_long": "Tucked away in a converted barn on Montagu Street, Pause Coffee offers George locals and visitors a genuine artisan coffee experience. The roastery and café serves expertly crafted espresso drinks using their own freshly roasted beans, alongside a selection of light meals, pastries, and homemade treats in a relaxed, rustic setting.\n\nThe barn's character shines through with exposed beams and a warm, welcoming atmosphere that invites you to slow down and savour your cup. Whether you're grabbing a flat white to go or settling in for breakfast, the focus here is on quality beans and proper brewing. The café also stocks their roasted coffee beans and brewing equipment for home enthusiasts.\n\nConveniently located in Blanco, just off the main routes through George, it's become a favourite stop for coffee lovers exploring the Garden Route. The casual vibe and consistently excellent coffee make it worth seeking out, whether you're a local regular or passing through town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6YMsnQYP1h0RGy2uj6edABM/photos/Ab43m-snLBM6WNx2LLXBcd8pGgbyKVewTlLpCxkRaBWO3rMd4KQSiHG4tF9Jgi3PruVWCnZg0t7fY3dXi8yV4xgNY8A4iOpHlz88qtdxIbEhkKjHMD7izLrhC39yWvnwT0jEvQWzX5IGTRSZArQD4PtUqaE8ixNez0afTtdZq2XgrceaOLfYkieiKbAorOrc__ivDwa7FJSoEO5LlBrb2cgboEYrb16vG18Syz2mYW1GqRdj5ZrOpQ8Aaz5elcAq7MnVYVUY2DztXDxkYlu6DSpNtYfPkqykxC_s9SDDGlCYfGonY4FLeda56Txr3qcUZQkAfqf96ASUgPvqMmYEjZTHLvF4OCti2_A87Tng_BexaeZCq14NZoe1xCaMQTwS5dauyLodBazL8jcI61JvojR83uE26LamW2mpkQQj4inzItxkNeou/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6YMsnQYP1h0RGy2uj6edABM/photos/Ab43m-sIsozYnue2IjX2NxCVkR-dOMMWRNorJ3p2HeVF4SVVdqU_L2-fq_U0frnzvMI-_EacxwoNg35rf52jIVGzwBkPWMM42hoxwkg5bPEMGnVBDO71jhvNy0Q0CNNXaabp4IqzWeBNgz4j2bzHunl8Z17JkduCbThl-gOJmoTfwva6g3ZQZOPmRJfT-FT8Rsi4ZfMmECxOGsEy19F7g6XyZsbLdTc-3_nfAXaeq9BCwYkxGOlloCsgCss_ywChTrOCbVKTVGgGd9qqVH53lqHDyF_wgh4LAkT1EmagUphaFyaPS3DQzoMvcsLw6Yef_-HdTsxw7cj0sSUK4gu2E_LUSgplVkID6pq0O2_E3BKrAl4iPn4FfCY433GBETt0mqkWHn3o57A4f8XdedFrKLmGZ8r2jLqkn08NrEBIAd8Py5I/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6YMsnQYP1h0RGy2uj6edABM/photos/Ab43m-sUM3GsCm-bQ00334J7BcopFw9restv4RtMxfadMXNuHQ9GbcmOlCOodbR5srajA7sHp4wtDo7X71IPc6ReoZ8uIiYVoVinuCrKeb24UoZi27ONUWpubY-qtwOmMZaNhuuTwSZvliqCyNcpTUkpKSQUu1ZOuRUQpl102bJ5L-j3jbB9KjcJfMi41K8yK9ndSI3EEJftZ4CvNKbIN5dDRy7gPF8YzTm4bUAh1m1TEBPCYMQbEQ-XoODfYaIACW0TqKC8M2uvwErrW9e9S6x1sexLP85_kCkCxxoiyCWbMHVr9g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6YMsnQYP1h0RGy2uj6edABM/photos/Ab43m-sX2Oia9wLNDMrZQuTM0b_ZuxC2J-nHKxYvp6VcRchp0gJBfN5AleEEWs3W0xFJfTAVNCjwMxJ-1nwMpFWz5xSBGnN89gkI99um0FIqU-sih6r4aZSy9uE6BhqH_BHNrlpOJR5xsw0OMjn_rxM3M4fiwOikN9xaB8jL_7uP8_jJlHPxyVClVtiCh1cVjitRVQpQCwMfwwK7pgm1RJut4SqPVvH5sGiFmUuuGpjgbxPCOBExmnJPnebDXhnds7Dq6n6mTP7tmsmhazGZoRnkYLZ_O0_g4D5QzexH1ZlOXTb9mw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ6YMsnQYP1h0RGy2uj6edABM/photos/Ab43m-sJNgt_zGoQr56QFbPY0FNl2-HBVvWCx419LRvwvx_s5lduWhylma3f6Salrbk4MsoJdO1lXL6nH4G6h3QI7isbRqG40IhmwpP6LehkLv2tZEfCa_oLPhrH3IYptHA50wF5GGnSRCjHKmxhDJLK192qLQTe71iDs63T5eeAvCjd4ShHeKnXYMQB9nBHs1cska9e5sgtQbwuW9NjakW_wDH7ao7uL08zsIPw3aV6lKi6ijobzBfSQVavrgKRl3_r1NSuk7sQFF5_nZ2QrbH6pRka5a5a1c7T-MrqiF1XluMSn_V4aJMMYR07b6Q7dW_cU92CJWoMbABCLsqry3GKH0rgyVnES7xjH7CAFEkg-wC4ZijVpdPusFuheAR9sMTrvkmvtORszU3gU2yaW7qhK5GVss4CRhU-r-tYCV01AYN26oac/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:09:31.804180+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

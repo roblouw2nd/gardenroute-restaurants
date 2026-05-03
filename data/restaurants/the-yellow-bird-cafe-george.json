@@ -1,0 +1,73 @@
+{
+  "id": "the-yellow-bird-cafe-george",
+  "name": "The Yellow Bird Cafe",
+  "slug": "the-yellow-bird-cafe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Shopping Centre, 1 Witfontein Rd, Heather Park, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9508475,
+    "lng": 22.4329307
+  },
+  "phone": "+27 62 112 3883",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJS4ijwzwF1h0RgxSqtAl7hJ4",
+  "google_rating": 4.6,
+  "google_review_count": 36,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Coffee Shop"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Walk-ins welcome",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "7:30 AM – 4:00 PM",
+    "tuesday": "7:30 AM – 4:00 PM",
+    "wednesday": "7:30 AM – 4:00 PM",
+    "thursday": "7:30 AM – 4:00 PM",
+    "friday": "7:30 AM – 4:00 PM",
+    "saturday": "7:30 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Cosy neighbourhood cafe in Heather Park serving fresh breakfasts, light lunches and proper coffee.",
+  "description_long": "Tucked into a shopping centre in Heather Park, The Yellow Bird Cafe has quickly become a local favourite for its relaxed atmosphere and consistently good food. The menu covers all the cafe classics — from hearty breakfasts and fresh salads to generous sandwiches and daily specials that show a genuine care for ingredients.\n\nThe coffee is spot-on, and the service strikes that lovely balance between friendly and efficient. It's the sort of place where you'll see regulars popping in for their morning flat white, families settling in for weekend brunch, and friends catching up over lunch. Nothing fancy, just honest cafe food done well in a welcoming space that feels like it belongs to the neighbourhood.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJS4ijwzwF1h0RgxSqtAl7hJ4/photos/Ab43m-sjzseBCVOmJ0JssNpTXjZ_mKUkyOaFYb-Eff2hSoMKuwf3Yn5ruElUIM_Klkw5lSM02xVvW455m8MJ2R_PUcYZQ3kEeUwrO63Q2Hjq8ouFWdPmOTFTaoNc6XSNeHvTYBbMpYCSs_tA8vZf5BvzmsIGjmfUqilTuLcz26C5MNzOhtV7EHzBDVaMNkGklweXFylnSV3-Ze4BSzDbH34KhzWW2L19A1HFDiJw9KpOJJdovf-g7HxPJajncAYvGOltgIs_74LMclSIe3aJiO4tUncbRJxA6J-Mi7VFMOCBWsCY6Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJS4ijwzwF1h0RgxSqtAl7hJ4/photos/Ab43m-s7DmMPjr4HSXr90841LRKfYL6L1fPxwUmbxceyPxMP0BSMzmRh4qijcojVgDNOfolYCQecgAqL2HvSI-kZsBhYa9iY3pUmMYEi-vRWzI8oy2SfwCQe1dUSsp9dsejgIyM8fG6n-i_5Kv0A2qDzi-U9MCMMYC99tFpYMlDqWyhHKBuW0_EAFqnKcyZ1LNCugUtjK4FsBCWXFMvSPQtWSu80hMTeoryy7ePhZvZZqTv470_vWoDl3W1m8wuBdwcjVCysK4dXlJrWztm1NQ3UpaUvCnEbWs9PhoC8y5cm4P0t_g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJS4ijwzwF1h0RgxSqtAl7hJ4/photos/Ab43m-u3LRGS_cn-jxstORQg59CndUJ7hjZ2EJ28KwueIPY0JMSiyMZjWW9nfqilCv0I9kf7xiifUH_xWM12n9OpmwzxN3tBudGuuVcwTzahrGwTW6NRK1D_GMQ5bUI8rOvjyT7i_DyBKQG8tzVBKOLT26YL-AvRffpNMMTGcT7KlsbTLayl913drJ1aEz0EnF9h9qe_GyoiK9Qwv9MhFH-5ipHxe1x9Z4jhp069UPc-bzUZgM0-V5E1IQcPj2GHqoTUVDNZ329R3F713kBm9HNk-dH0JeJjufW2Z9Mn4UBIBfGrtTVcZUWs5Z35NuFJxgjHswlvvEEfrNsGj2NvHfONwrEEzAPjexf-k9p8dKFkVZBRzebfhgZhPhzRadgjp849jydWmURFUC_HviiT4cQOMbyMdhUaf1e-H9uT7lpPRTXpRxH_/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJS4ijwzwF1h0RgxSqtAl7hJ4/photos/Ab43m-teEnsvaJvjzcyDLtwkML5dcd4RsAQJp-HgvbeHCm1lV4prSFOJOYylM8j9danG5ciEleRriabQ_rxudWq38vjYmnqQ63es5GAsR7EXnCIqUpE2Q9rwq__2eVwCHuDaUCEm7tWxrpTAj-2rj1sRfE7hiKfl_6cFl0JWnojhCVX0mKWiwApohaPkYANlk2_7vHZxuk1ekMwujMFkgyZ-hsoPIxUTOvx1NfBNjiZRQw7HH5OlPwgkoJR7yPq38cpomgjOnY2caIhUuBF4RRAhgNX9jlce2VL0WDrs5IIgJJICsw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJS4ijwzwF1h0RgxSqtAl7hJ4/photos/Ab43m-stG5LLnoaOeOVdIGKD1rqOYpH6q_pYNKN7etxzj4gUKU46_WkDgkHkB8t4dk8cOE0hXfbKOiNX5gmAem_umzpIrCLuTHUsH__cE9JYympt8D0t0MhlhG3d843-yQ4JIWi3Q7JIxrAWF8zn-K1bP_nuJ4JG6nx5OWHC1NTbRZXCpDn1Szr648vXnhlQ6sZtY4HJ2tEUaxq_pf65b14SzTw30OiN-GRzVO8uMltZGOHpJiWmbpUhj_vB4L96wj49gmS-yX_cVtjZuUzNY3UAY756egwfsT9owZNTkBeNvasAn00sQh8USL04SrMhaLt1x1sy5pTeu14qIEVq3NInaj_1Sm286NwSlVeDzux43qJCr-mc11-GGKwmO4OX9yW1VZEe9y5s_wqRPLv4jdXpIIvFBBqqmghFlP0rVWkv3UcYkQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:11:41.853246+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "the-pottery-george",
+  "name": "The Pottery",
+  "slug": "the-pottery-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "42 York St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9662047,
+    "lng": 22.451525399999998
+  },
+  "phone": "+27 44 333 0421",
+  "email": "",
+  "website": "https://www.thepottery.co.za/",
+  "google_place_id": "ChIJYXb0xkoF1h0RpwfNkwObW_0",
+  "google_rating": 4.6,
+  "google_review_count": 834,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Cafe",
+    "Coffee Shop",
+    "Deli"
+  ],
+  "tags": [
+    "Garden setting",
+    "Outdoor seating",
+    "Casual",
+    "Family friendly",
+    "Walk-ins welcome",
+    "Wood-fired",
+    "Takeaway",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 4:00 PM",
+    "tuesday": "9:00 AM – 4:00 PM",
+    "wednesday": "9:00 AM – 4:00 PM",
+    "thursday": "9:00 AM – 8:00 PM",
+    "friday": "9:00 AM – 8:00 PM",
+    "saturday": "9:00 AM – 4:00 PM",
+    "sunday": "9:00 AM – 2:00 PM"
+  },
+  "description_short": "George institution serving wood-fired pizzas and artisan coffee in a relaxed garden courtyard setting.",
+  "description_long": "Tucked away in George Central, The Pottery has been a local favourite for years, drawing crowds for its authentic wood-fired pizzas and excellent coffee. The relaxed courtyard setting, complete with garden seating and quirky pottery displays, creates a laid-back atmosphere that works equally well for a morning coffee or a casual lunch with friends.\n\nThe menu centres around proper thin-crust pizzas with quality toppings, alongside breakfast options, light meals, and a selection of deli items. The coffee is consistently good, and the vibe is unpretentious — it's the kind of place where you'll find everyone from families to business lunches to students catching up over a slice. The combination of good food, reasonable prices, and a pleasant courtyard makes it a reliable choice in the heart of George.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYXb0xkoF1h0RpwfNkwObW_0/photos/Ab43m-v3KlbGLAiD_tE_6fiJFvqzQ8oqNTduEw3OIl49mkP7El9vaNnid3M1nTvQn4sXkHwgJG44RpL74XDjWCdy5Ld2uShby-TX9RWNyi7QGu2glGjYbuxJVQ_OyWCjJb8yXVN9JAsFSs-gAL-RkgNnIFdsksPtgUdb6Rk8FV5lHN-KtUFFeMuOXSF-fxE3IfJRkDe1JcyIBDYUA5S9ScHbd4UyEMfLv9uF3eS6KfWqLyGRdET4NtONPK0ahn76u8UhKFkXXg3ZY7KoBk_o8z6F5ixYincNn-rBaymX5edcq8hFOg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYXb0xkoF1h0RpwfNkwObW_0/photos/Ab43m-vFkTQtXyonZvGH-B2Iy4CQ7IP1pwhMHpr21OAI-uKjWVzAevhSh03WKmgNNQWoEgz5TRi2bu_uawAqSbTIhw-YqAMkPvV4al3wOxBDwYVxM8va-Q_YQ7njUiuj71EVgEZDmK4ZXmzKXputObgplmaABZa9VjDTb5nUjG4_morqlhdDwVIibpEydHLppa75RD0y-09Vdve0sUTliiGHPz3T1MtA1i5xYYbRNLNu-cryhm492RHPStKzUoyVx68WmIrSkFIoh0l8A4xrhwbrwZbdOrp9Sd1rclYpjv_ZHdktMA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYXb0xkoF1h0RpwfNkwObW_0/photos/Ab43m-sQOsJIIcSzoSAorHuuSO03UDQFF8fRhn7r4_Vxz3U6ZptbMHPxXN091pliQEA0du4A_cWiDXFWiFMH3kQP5c6yAQ4oGGBOnpj2azvPNwco8BJOHrEVzmxET5uoX73a206pY3M4C-3y2WBFRA4a3a6uSpgqoK28548E1BXv2mM2UhdtsgBGe0EYlsmox39Ns0bZddxpt6YbKw6Yf3LRrFa2JnXOM8TXX-OllN6830hPn7nPtGsTB695YGN1n8e1vvKWq_yl3BBgZbaKG7ozvyMdvW-vFnf2g69q5vwOUIbXuWb7NwNzEuQPK_WG6tjv9It-_4bA3qH5onG8tva8mXHQOH3IRKlFRKNfKvL5awxirhdlulKjTJ2qfEBTQUWIe38cXbs0_ToLxjfzoQtdjubSzsqpvICzrcuaxjLRg0w-oSrKe-orslXGnwMo44H5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYXb0xkoF1h0RpwfNkwObW_0/photos/Ab43m-vy1SjeEiZvw-KVlceC_K_6AJcL3o3Mf_1bsaTeOOCYl7eW4791AXr8NvatQiG31QmSvdpRilbRp9erK4oLgm4D4S75zKOir83m-2VnZs3oGR_WnIaEhgyRaCrbCBN7EBefSp19G8m_IOsm5UwuWMdYtnuTG9GelNf72zvNF0OD24hoBls_z6ek3Yb0P39J7n40pgZ_YuhlcioDmmLBsmlq95xY2sGoFJqugLNnqSRZS1xu3ybxS2TqGx73PLSxoAbPjGwZBDCa3eY8_bQpWmasvbjwd0LodnCh0i2d-3BvO0FJW3cw6S54ja-dYoTxWuJzwQhQ_V2RkLkvOqco_wdq2ksr8JjUUqOCeioK-cA52RCZViiuQitv6Rx0CHWo2zqElLut9ZU1vHu5TnYsxB1cD6VPgvGtzpTEwIdWyLXExZVzP7F12UMlZ8EVKw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJYXb0xkoF1h0RpwfNkwObW_0/photos/Ab43m-vx2J10s9hx3PDWwKqzXfqOPg-GjCoZw3fqlXMi8NYPuwqa1dJflhXfX35YojKObsBSZ-XzZjJZGTPPibq3FYMHBQB_UmhzNUQdJAmPEm03krK7cbo5tAUlHe2r8nuxCuL4yzrhZBhA1wzfD1VPq-0m85JZWDeZvI-SDEOno-Ua2w1KM-X6BYqoGd10S8mAgHHYGGM9D-ML9l6IEL0KGly1oJFugxCz8jxeKu7Ih_lfhYfmAlwxkJcd7YfqXMrZY8osrc78ZYfUICQ8OQ5G5jn0DzJfWhePjKgpt7LNbLJU0V2_GqLNSVfNRWLW-dmWkrVIw_SL6cCj5GCfmU-8eANKMf2ixM4J8R09k-aAz4Ewz9bBPmNIxFfEjU34a9Woqro3_FyWoieXbZ5Pk0HFVkKuGxb_NDYc2jmEG3StzFrCoFkdrmndjb59-qVO4OFa/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:10:06.264946+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

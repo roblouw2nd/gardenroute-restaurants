@@ -1,0 +1,73 @@
+{
+  "id": "truns-loxion-lounge-george",
+  "name": "Truns Loxion Lounge",
+  "slug": "truns-loxion-lounge-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "3899 Nelson Mandela Boulevard, Thembalethu, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -34.0063337,
+    "lng": 22.492162699999998
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJo7FCSaMb1h0RIVl2ZhW-n24",
+  "google_rating": 4.3,
+  "google_review_count": 248,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African",
+    "Bar"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Local produce",
+    "Full bar",
+    "Family friendly"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 5:00 PM",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Authentic township dining in Thembalethu with hearty South African flavours and a vibrant local atmosphere.",
+  "description_long": "Tucked away in Thembalethu, Truns Loxion Lounge offers an authentic taste of township culture and cuisine that you won't find in the tourist brochures. This is where locals gather for hearty plates of pap and vleis, traditional braai, and other South African favourites served in generous portions that speak to the heart of our culinary heritage.\n\nThe vibe here is unpretentious and welcoming, with a lively bar scene that extends into the evenings. It's a proper community spot where you can experience real Garden Route hospitality beyond the usual coastal haunts. The menu focuses on traditional township dishes done well, with flavours that remind you why South African comfort food has such a loyal following.\n\nLocated on Nelson Mandela Boulevard in George's Thembalethu township, Truns Loxion Lounge gives visitors a genuine glimpse into local life and dining culture. Whether you're stopping in for a cold drink or settling in for a full meal, expect warm service, honest cooking, and an atmosphere that feels miles away from the typical restaurant experience.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJo7FCSaMb1h0RIVl2ZhW-n24/photos/Ab43m-vNirkPpltNiIhpoIzK4j_Tv7KD47FmONVSJKJHIogcHUb-LXjtwrvPI6rCzF1tLfRDubNwfYqZ5DAWQDvT-cv4I_424yw974xIA6yde9SiImXOv4C6dowjknvUCAY5q0W-TZjwm3XBpTvG3YWJejWYZlpy7LFrZ_tQNQUXv2NhwaKJPPM9AvtSWBNwF_5P8vuLjArNUVx3U01O3h-A4R4yTB1uvk76TKEBmPFmD4DAIhtfJ1Bt2E_4YyCATMWkQuZs6F4eOWLw-ns0fRg8duEh9S51Hoin5bHlhcR8KKQRHUXfHofP8-cztVLzovIViIsdxavC_Z-x4Ffx8MV1RwVyLO2_rn-yC-pSyUJxk6d086K20n3mMXCHl_vVhwv3ELL_LdhDopIBccQXLfX5Kb_ZbmZW2tZSI8zCCV_4suM/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJo7FCSaMb1h0RIVl2ZhW-n24/photos/Ab43m-vZcdr1YzNn2BEEyao6FOEwMXeSdeU9FVGiGX6UwfxiUNKQ4byFz5tNPOAZoPqFOFXbo2G_SHt6b49H5U_YHGbaaUCG3mJdePK5LttTR8-lrLUEutOFW3Nl-hZuoUm6jrB7emne6IHYXoqCD6P6vd9L10crWjOhC9v-aTvG7Wau0_bkYET7q_RAxbCcH6lp02isFOsimJx5FLv9ZTz-xcOObOnPLYU7-WpbUmcbNFnpPXIpgdOFycFW9mKZ7UQhoKYAM7hGRQYYSAE6wA4HIOQH7pSI0n4GHq9te-Wu_JKKIeaq1AbcOAvqbU_0BomRX79B9tuMSJ1klCUQ-ypr6s-Uk62HOPTU7arzfcY-xGDQ0Zlsgyw8LPfqlo9_1j2wJJekw9yXUDkarP92s0VPtbNWJQuM9haEhkON3qx9SVOa_FRq/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJo7FCSaMb1h0RIVl2ZhW-n24/photos/Ab43m-tYcG4n4m4DJOJHWH0KRwtfj6Iu8eZAIQ_JJPqlYy_m6VyZjgOYIkDUjMlB9gEyPu_NfXPVlsOopeysVz1k-w8i8LWQ1vJq7OsoelS2ahnDEFVXAqm6LVrFB38m8Yhi4pDHTpIjxxmSWJh4yztaCk-KBgtMSs3ZxEOf_QSuLh6IfGjk69p2W0WqBJXcLf_lmLBn2xz_5nRSuf5WzD5vYKCs4xAiKMncyO0wgvCHg-UflAITwVXtN92TagGB8vipcRce8Kgocgnbmbis1K0AetaxmvMemnt8dsredNi-88jQeywjheHrcN1Y_jbfIkKNCZsKcg2moI_g-JDGUBcxG42gYGkikALjXhmfMI513CZFmUCWFA7QUxfgkWcJubwoZcvTcICFevBh0j16sijTqx-N6jV0u4i5p7_DRa1hjDIMEgJd/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJo7FCSaMb1h0RIVl2ZhW-n24/photos/Ab43m-tWIqsYX8XhKfxcxil4WKhEXBndPBUYpG2T2OVtv2jzdUlDD7yZw4NwyyNqj0yNLbtb46EonF3LWTHtVPHVgQSRE37S6CpGyb215lOOrr9KWPn3hB6wDbDdsLft-HNmRRGQDSA6tpMPUTgDQ02ADcryT5vEDCxh_slP1OSrR_6k53e-uuzYQNslfS-h-roU19s4wz4cXxY4T3CfUlivUWWPykXKg4DkbHVmbjcf8vdTU1WMlO9-IM2VGT5ewQpXQ2QRzsm2q6Nt-P8Idkdk6Z9eYmZ_xnxDkkoCITgHpKF950ED0-jdImZMdTpMdX8sgXsYKLP0R8-d0fS3TXPr7b2QytobL6bDKRkfUFq1njd42rOPQX6ZMy-ITqkMi0XmdASvctr__38NUndhJt0dWsb14K1XjjagKh0FYRVTxaCSPJPP/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJo7FCSaMb1h0RIVl2ZhW-n24/photos/Ab43m-tx_c2WHRdq--srcPO5N0w9zCbccx9yeJTtD-a0XK9Luq6AqQBqI_5u2jsYsP4W4juF9HOAeeCwzq4Aqx7PqCIyLEZvD8DUGPgylIhy6ywVujFwWdS9RfbQIwKmRs0ptU4iH5MtmaWp_ikoxCDZrws5mD9IqYn8S7F29N4APTLCdfSNXoTDQ18xcVhuBASzv_OPfy-5dFUNM8QiGB80VAONq9HqOgniyOXJlHvD73aaS-2UH5XicWX6z4ZDaIvrka7h3k5oyS3XRNTnyQByCN7-q1NyQmNJxuC2gcNa1vbSeEEWQSdbnNWqmJOWdHJQC-xz9gDR3mDsb3mn8KRzXLweLpG45Qv-LjrFhsSQxlNemJgIlUdcW4UV3nal-zIX7mPNm09Z8Q7l0MICfF-CsktDDcs2vF62NPBCLVw2Ci7_pA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:14:32.121302+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

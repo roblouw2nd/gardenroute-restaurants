@@ -15,8 +15,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from slugify import slugify
 
-from towns import TOWNS
-from places import fetch_town
+from towns import TOWNS, CORRIDOR
+from places import fetch_town, fetch_corridor
 from enricher import enrich
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "restaurants"
@@ -68,6 +68,7 @@ def build_new_record(raw: dict, enriched: dict) -> dict:
         "phone": raw["phone"],
         "email": raw.get("email", ""),
         "website": raw.get("website", ""),
+        "menu_url": raw.get("menu_url", ""),
         "google_place_id": raw["google_place_id"],
         "google_rating": raw["google_rating"],
         "google_review_count": raw["google_review_count"],
@@ -94,48 +95,70 @@ def update_existing_record(existing: dict, raw: dict) -> dict:
     return existing
 
 
-def run(town_filter: Optional[str] = None):
-    towns = TOWNS
-    if town_filter:
-        towns = [t for t in TOWNS if t["name"].lower() == town_filter.lower()]
-        if not towns:
-            print(f"Town '{town_filter}' not found. Check towns.py for valid names.")
-            return
+def process_places(raw_places: list, existing: dict, stats: dict):
+    """Enrich new places and update existing ones. Mutates existing and stats."""
+    for raw in raw_places:
+        place_id = raw["google_place_id"]
+        name = raw["name"]
+        try:
+            if place_id in existing:
+                record = update_existing_record(existing[place_id], raw)
+                save_restaurant(record)
+                print(f"  ↻  Updated:  {name}")
+                stats["updated"] += 1
+            else:
+                print(f"  +  Enriching: {name}")
+                enriched = enrich(raw)
+                record = build_new_record(raw, enriched)
+                save_restaurant(record)
+                existing[place_id] = record
+                print(f"     Saved:    {record['slug']}.json")
+                stats["new"] += 1
+        except Exception as e:
+            print(f"  ✗  Error on {name}: {e}")
+            stats["errors"] += 1
 
+
+def run(town_filter: Optional[str] = None, corridor_only: bool = False):
     existing = load_existing()
     print(f"Loaded {len(existing)} existing restaurants from disk.\n")
 
     stats = {"new": 0, "updated": 0, "errors": 0}
 
-    for town in towns:
-        print(f"\n── {town['name']} ──")
-        raw_places = fetch_town(town["name"], town["queries"])
-        print(f"  Found {len(raw_places)} restaurants from Google Places")
-
-        for raw in raw_places:
-            place_id = raw["google_place_id"]
-            name = raw["name"]
-
-            try:
-                if place_id in existing:
-                    # Just update the live fields — no Claude call
-                    record = update_existing_record(existing[place_id], raw)
-                    save_restaurant(record)
-                    print(f"  ↻  Updated:  {name}")
-                    stats["updated"] += 1
+    # ── Named towns ──────────────────────────────────────────────────────────
+    if not corridor_only:
+        towns = TOWNS
+        if town_filter:
+            towns = [t for t in TOWNS if t["name"].lower() == town_filter.lower()]
+            if not towns:
+                print(f"Town '{town_filter}' not found in TOWNS. Check towns.py.")
+                print(f"Also checking CORRIDOR areas...")
+                corridor = [c for c in CORRIDOR if c["name"].lower() == town_filter.lower()]
+                if corridor:
+                    for area in corridor:
+                        print(f"\n── {area['name']} (corridor) ──")
+                        raw_places = fetch_corridor(area["name"], area["waypoints"], area.get("radius_m", 8000))
+                        print(f"  Found {len(raw_places)} restaurants")
+                        process_places(raw_places, existing, stats)
                 else:
-                    # New restaurant — enrich with Claude
-                    print(f"  +  Enriching: {name}")
-                    enriched = enrich(raw)
-                    record = build_new_record(raw, enriched)
-                    save_restaurant(record)
-                    existing[place_id] = record  # prevent duplicates within run
-                    print(f"     Saved:    {record['slug']}.json")
-                    stats["new"] += 1
+                    print(f"'{town_filter}' not found in CORRIDOR either.")
+                    return
 
-            except Exception as e:
-                print(f"  ✗  Error on {name}: {e}")
-                stats["errors"] += 1
+        for town in towns:
+            print(f"\n── {town['name']} ──")
+            raw_places = fetch_town(town["name"], town["queries"])
+            print(f"  Found {len(raw_places)} restaurants from Google Places")
+            process_places(raw_places, existing, stats)
+
+    # ── N2 corridor waypoints ─────────────────────────────────────────────
+    if not town_filter or corridor_only:
+        print(f"\n{'─'*40}")
+        print("── N2 Corridor (between-town areas) ──")
+        for area in CORRIDOR:
+            print(f"\n── {area['name']} ──")
+            raw_places = fetch_corridor(area["name"], area["waypoints"], area.get("radius_m", 8000))
+            print(f"  Found {len(raw_places)} restaurants")
+            process_places(raw_places, existing, stats)
 
     print(f"\n── Done ──")
     print(f"  New:     {stats['new']}")
@@ -145,6 +168,7 @@ def run(town_filter: Optional[str] = None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Garden Route restaurant scraper")
-    parser.add_argument("--town", type=str, help="Scrape a single town (for testing)")
+    parser.add_argument("--town", type=str, help="Scrape a single town or corridor area (for testing)")
+    parser.add_argument("--corridor", action="store_true", help="Run only the N2 corridor waypoint searches")
     args = parser.parse_args()
-    run(town_filter=args.town)
+    run(town_filter=args.town, corridor_only=args.corridor)

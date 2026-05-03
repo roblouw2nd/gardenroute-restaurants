@@ -1,0 +1,76 @@
+{
+  "id": "the-marshmallow-garden-cafe-george",
+  "name": "The Marshmallow Garden Café",
+  "slug": "the-marshmallow-garden-cafe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "R102 Airport Road, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.992109299999996,
+    "lng": 22.4026914
+  },
+  "phone": "+27 74 602 0571",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJDToHtzkF1h0R-5iALt5pUVM",
+  "google_rating": 4.4,
+  "google_review_count": 227,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Burgers",
+    "Bakery"
+  ],
+  "tags": [
+    "Garden setting",
+    "Family friendly",
+    "Child friendly",
+    "Outdoor seating",
+    "Casual",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Closed",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 3:00 PM",
+    "sunday": "9:00 AM – 3:00 PM"
+  },
+  "description_short": "Garden café serving homemade comfort food and baked goods in a relaxed, family-friendly setting near George Airport.",
+  "description_long": "Tucked along the Airport Road corridor, The Marshmallow Garden Café offers a peaceful escape with its spacious garden setting and homely atmosphere. The menu features hearty breakfasts, toasted sandwiches, homemade burgers, and daily specials that draw locals and travellers alike. Their baked goods and desserts are made in-house, with generous slices of cake and proper coffee that keep regulars coming back.\n\nThe outdoor seating area is ideal for families, with plenty of space for children to play while parents linger over a meal. The relaxed vibe makes it equally suited to a quick coffee stop or a leisurely lunch. Its location near the airport makes it a convenient spot for visitors arriving in or departing from George, though it's popular enough with locals to feel like a neighbourhood gem rather than a tourist stopover.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDToHtzkF1h0R-5iALt5pUVM/photos/Ab43m-tbIFJzoAZoeIPc1H3E4Gt2twPlQkgv18tzIa9NDejWnfxz6ELBfpv3sSDB4i3ItIYvpTDFQuFhFCWx2fM6xcPFXI-q7Moo65A_M651SMELL8NWx_aW38obHWAhoLenFKZSMro20TNx5kUuqe0Jsfj4hxCWg2YEqyuhJrsZsXg4DtrhjAZaWjEdje6T2tREv4juH8FNGLXpxzXFMAJpueRhJvZwXFWecN2ESTU7r-1jubdrg24mMB2acy826xKNy0owvAw95HO_UPRN6mdQQ6XXWIWoFX_nsJzFgzdhu183_-gDjiuWFAq_yq8rZH-ZNAe4QeJR1wgZBxfwzpNu_dcscnusC9KMVDPPUvp5wXnwHadpHCrm8inLMHvEkQJtmBSg9OY55XsCKgg1Sd7mZxVG9AfBlC2sjBy99TBl7DOQLOlE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDToHtzkF1h0R-5iALt5pUVM/photos/Ab43m-skqkqVu13jIjhBJprg4H-n-FiUK4DcY5rKensm-rt93NP0kzIo4cQ7db-Uk_Mjrak6135yNbT7WyYGJctlc523GanQibhKTbJtL8o9UMAAQFIfvesWf-Ow6J8FhMO_k6BovByuuPE9dGAk6vVKQIUTLh2fpobkKcJs5K0Kmt5TMiOouCnOBjA8-qyvmMaw2xtZAjfxR7ZNeUFkOyl9DLnII5bp61Jo3tdeqR6oib5mT5KTyEF4TFfXjEIPaBQPwL4I8Qgo3yFESLousHIgSsRZrfDrjp6-rg1CIZn3LyIQqh-QkqDCCyU87CrD4s9Yu_wbkVWA0Mst4ID68JvAldxuTbBubwvAzHrRvggqTbbXmtoYi8aFkKbOEBuJCQ2ZH2fgRyk8kwhPDhmbsV7tqBYb-ZxQyBUzYsgQpTKdgzDD8Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDToHtzkF1h0R-5iALt5pUVM/photos/Ab43m-tE5DcxvnzCLygD6tDrRcUvbCARlurRaE0PE922YDEwnOoFvpWRHFCRMZVPRWuvW2IwWRpVqy76SQU1ueKS0tP5BvLnAbi5mLeBdSfRB-hiHyazmDQuZTyEeA0c_u3tLpj6fjvQ-X9PdZxYVJHPOsEzIsd5z_nsNpEU8PKS_zz8ibzo5uQRff1pEYif0xObHZ-f1REfsw_cV_PevgIDzcNnoB0bhwZLhBd5x2QGxVvCIzWuWbGHpJyJkWr_q_eEZ1-OCb4kPwqrsAUGmgnbHxf9FQu0NkQJTfGjjjmuqueUnA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDToHtzkF1h0R-5iALt5pUVM/photos/Ab43m-vh3iIaCbgTYsqHXsf0yqSpjfyLl6JD5ztCxT4CnvV9RmhyO_BoaNCnbirmaU0y6XS3jGGVaW_98dJDGut3FkcKN2KCRbYyLg4CLioV2c5vetPRonXXQsZ12Aj0s7UjPkveFASEjsQy6wJ1HF_7FRVMS5WLshydFoCP96qtfAi9Ib5216mg42NnaJehBhAWiYDrsveYvHGBDH9YspJy8tr2A5YrmoP2V2JgOeumLiWoa8Q0vhsgitmSgdkNG6CqVEfgAjWi5V51q8NLRGc-JD5_a79ZUmqFAPd49Y7Lq7OcNRj2uTsH0v4Fmn2SN_c84YDVqBq8MxLiKW941NymHcB0plmYXjbpY_VTVtJztCSlJZ22pau0PjVmQpExk7hVeusGWokQLHAKcv8U1jx22gGX4iE9E1heHNjv-aVaJdYfEf6f/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDToHtzkF1h0R-5iALt5pUVM/photos/Ab43m-sPEB81-GDpFqKgOFM8sy4s-o-GgJA_dQWrfqntPOO10XPBHSfuv9ysDga7-zXQ-aT5GlcBVvABpWaeCltKxwqQxHwb9KX8rnRk1pm337XZX6ibZZOcWTqv3hxrYDHrngFWHtiRGtEypKD2evsKv-Eur8N3JYuMuNiWcwx3osQk56OnqqePS4Q9pNPXprDwb4BDA6e95aNd3TBGJOKPK4UVZQ7Qw5JRSYYEYs14zKb51kSGeKdJ9uaJbOrhkuw3puZPZMiCy-MwAf2RY97nKnXGkIYDugprA-sH8sXsCtSNnMn9NsgReBn4wvv_kTh9nA5_azc0sCoKJJJgaNMRZwQ-wc5LEYf2RdAREBHZL-S3WrOzLgGI48xgIy5-f1t4_R7CspMSxYhJ7xVtDoqtcjz_M3AsEEVhWOWsTpafms-MXgOd3nxROfSERSv0Ce6Z/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:10:58.447678+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

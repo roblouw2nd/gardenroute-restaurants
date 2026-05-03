@@ -1,0 +1,74 @@
+{
+  "id": "ground-control-coffee-shop-george",
+  "name": "Ground Control Coffee Shop",
+  "slug": "ground-control-coffee-shop-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "117 York St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.956925999999996,
+    "lng": 22.457791
+  },
+  "phone": "+27 44 813 5012",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJFQxn6j8F1h0RGBahKObDDhw",
+  "google_rating": 4.7,
+  "google_review_count": 292,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Good for groups",
+    "Breakfast all day"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 4:00 PM",
+    "tuesday": "7:00 AM – 4:00 PM",
+    "wednesday": "7:00 AM – 4:00 PM",
+    "thursday": "7:00 AM – 4:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "8:00 AM – 1:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Friendly neighbourhood coffee shop in George Central serving quality brews and light meals with genuine warmth.",
+  "description_long": "Tucked into York Street in George Central, Ground Control Coffee Shop has earned its reputation as a reliable local favourite. The café strikes that comfortable balance between quality coffee culture and unpretentious neighbourhood hangout, where regulars and visitors alike feel equally welcome.\n\nThe menu covers the essentials well — properly made coffee, fresh pastries, and light meals that suit breakfast through to lunch. The space works for quick takeaways, leisurely catch-ups, or getting some work done over a second cup. It's the kind of place that does the basics right without overcomplicating things.\n\nLocated on one of George's main streets, it's easy to find and convenient for a break while exploring the town centre. The consistent Google rating reflects what keeps people coming back: decent coffee, friendly service, and a welcoming atmosphere that doesn't try too hard.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJFQxn6j8F1h0RGBahKObDDhw/photos/Ab43m-toPBXsLRgTMdXrQS0lxLq2jjSih47AuBmL-Fj_iuMMT6lHgOhZh-7Tr29J43XDabnBKBFlQTsDIOvjmBJBZWLLhgafbSsAKwBxRkeV4r5NtACUhmBynGrJb6ysovYBwp4x-m9axVFqMSCmg71uWfCAjEJNpMd6Bs_NRF41WBV366blKZuu5QUFrHaNwCJKN_SKNe8yyLufAb2d5cWn2fLzagzXqtGZI1jqusdxK0c253lNcspG_JE61Wbef4ohwuVLXyXENjX9ZEYdCKqei8Zy9majYE2_4tvzF4tOfKcxoSI7TOryWbJOvArlUHYAFKlLC7j2rdbVr3_pn_tu7n7m6Sgin7Iq5Hsk5aYnsRFr2YvAplPMqDF4ldfNaBSdPQ5CXJV4jMfkZUVuu_Cw3eWnRsuw-LEE-Wx13nE3akBjHM6p/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJFQxn6j8F1h0RGBahKObDDhw/photos/Ab43m-uNZK_XsFkCyxDBO-ENV2Wk4tNLdV9vIG3EU8uhASJ6JKqI9_iH5Y6tx-Dhf2ZGILYRpcPCXoh89N-ppoyKeUvuhcfts1wWwonqKxwe_kp0QE16_DE8b3DfS1ywXlVu-btv_25eFT1EE8PouoSvaYg4bJiALMPhFUaKodhHuVlJoLMcoge0_0tCHZujYeXFLAPyMHMSdmDsYvhyzernBpObaRQ7zGgVsk31P2OVQd0EdeWlFRjbhSKeqEnLFvoiGZsLpIadqHlri0Qv6apdmryH-ymQTFhJsCbI9AvyJz2gaNoG--_U96BUh9CkZnBXwYt-OuG1_rcGaUYdWnM63S9q5w9eU5cB0JkkKwAJhKJKCC9b5P48EfxMqIMxwu5snukxsS2zAU1R72DlDWBZ_nXNQneT9ZEqAtxW8EI-Wwpfn2vv/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJFQxn6j8F1h0RGBahKObDDhw/photos/Ab43m-ukFuw1c-RAqNGbmdMJUR-rN36_ihEiITbes4aEOfqrnePob1pJA4SrABb55nIVqpIeUtwWgIj33vonBiKTi1muHJ63EE62UYjoISuzOQsfS_HEfR1sL6-tsezHeGYvvH6ODny-tlSM4mW1M8LORuyxIp4NzS8F64mdneDzNaoyNGdvdtM-cK3Z3RnjQFAfX_hrJaiMLsH8jQG8zwZN66f91Jxh6SBCSFrlzD6uw5EwwHZjuO78ju_VgAUwS7YXSK_cPxef-aCMFtZJWrp2vJ5HeUzKrNvkUIWT80Gr0cIev-6YwdNExwCPXIyGT3ShREfugk9IhcM5ngVQPlHvGrdLUWnbgbEMgPfKJiHvqZDOOvMqJ4zCgLGaUGB03aoT9OfsmlAaoPvKieVVTRh4KIWMS69j58iIW_IBDJRDiXAN1isl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJFQxn6j8F1h0RGBahKObDDhw/photos/Ab43m-ubg9sPkhF0BYPHccCGc8xM7-BHI83re6IYKcKpGdrN3b_VFCS2gk32eKSIXay98b9wKV6cRdsn79mnpggWV9TW1VY1qeaPHVSY7c7K_mfH87rXvxUP_SWEnAyfG6Bo58XUoPGRJCri5F1fCyLCYUo4NyvIyb2sz1dX2CIL1qP9yIAGqyMijDHmo6tddfwgrCa36Ov5QbrWCWHLXN5tlgY7eO5_Q_3KieUnOPBj3nqZ3v0zeI5T-3aG0NVMzqpXc18YsMhYl8DUy-JjGBzFpvuH3-qS-c32E4mEqWl9S8emspRjim4LpA02LbCyNqvUNwuSWkxZnuZ6Fckm3StTfSgySJUVQkbApo8r31taR1HksYYt7kl2PqSX9H7qTwA9NqXIRc1yOVUJJmJGNRLX_MmFnr9h70udrqvwuuJuAgnPl-A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJFQxn6j8F1h0RGBahKObDDhw/photos/Ab43m-tA0LlADn2a2PmaUDiKEp4Ah1OcM7aJN_tBjbKv3jqaMskaSADJ9LrL8h3dAHa6sxcE164c-amwGfPexzBWud54xpee6hX3d1RPIlRkV5t7J1llFz7hQe-UPaoLcz6y-jJ0hHAwvHlhF28nPRIedCEEuPKtSitX7OUwpmfQ60Y2I5MEnLNGC726exFwl8BW_g14nc4igpbVLzAChsH0qQhykpoxgPXmmU8jG6eX47UsQF8crMrIZ66vcS08nfMcaIXCwe_fLPjJscxCNKiRDV1VR14YPaMFL4EcxcFXhX_ROIMW18pAfyntWBv8y7Nl3JsijYRxgOECmnYqE188FNV4iOFqv8oeBh7JL77TowQ8XvkNx2PGz1BahMuD7M9gA_mFVzCNnsrBP1Ro0stjGRmQK-wohdDqqEP2zIZE_E5-AQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:10:14.345629+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

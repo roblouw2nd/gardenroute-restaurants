@@ -1,0 +1,78 @@
+{
+  "id": "elvis-brew-co-george",
+  "name": "Elvis Brew Co",
+  "slug": "elvis-brew-co-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Next to Bargain Nursery, across George Airport, R404, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -34.0076824,
+    "lng": 22.387952
+  },
+  "phone": "+27 61 548 5155",
+  "email": "",
+  "website": "http://www.elvisbrew.co.za/",
+  "google_place_id": "ChIJPfxrLPUR1h0RgqqiUrp6b5A",
+  "google_rating": 4.6,
+  "google_review_count": 3328,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Pizza",
+    "Burgers",
+    "Coffee Shop"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Family friendly",
+    "Casual",
+    "Good for groups",
+    "Full bar",
+    "Dog friendly",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "6:30 AM – 5:00 PM",
+    "tuesday": "6:30 AM – 5:00 PM",
+    "wednesday": "6:30 AM – 5:00 PM",
+    "thursday": "6:30 AM – 5:00 PM",
+    "friday": "6:30 AM – 5:00 PM",
+    "saturday": "6:30 AM – 5:00 PM",
+    "sunday": "7:30 AM – 5:00 PM"
+  },
+  "description_short": "Craft brewery and eatery near George Airport serving hearty pub fare with house-brewed beers.",
+  "description_long": "Elvis Brew Co brings craft beer culture to George with a relaxed brewery vibe just across from the airport. The taproom pours a rotating selection of house-brewed beers alongside a menu of satisfying pub classics—think beer-battered fish, gourmet burgers, and wood-fired pizzas that pair perfectly with a cold one.\n\nThe industrial-meets-rustic setting features long communal tables and outdoor seating, making it equally suited for a casual lunch with mates or a family outing. The brewery's location next to Bargain Nursery makes it an easy stop whether you're flying in or exploring the Garden Route.\n\nWith consistently good food, freshly brewed craft beers, and a welcoming atmosphere, it's become a favourite among locals and visitors alike. The coffee shop element means you can pop in for a morning brew before your flight or settle in for an afternoon tasting session.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPfxrLPUR1h0RgqqiUrp6b5A/photos/Ab43m-sZNKPab3NrSW_5deVIuWQexDozqxiVUJjMl_RMRfBfj_T61YRUoDCwxKqb6fCcsMtnf-jXBDmhHvd3HKqer_VylvOCO9cmxQa6hD4pKtgw5tYy778SxTMHv2Pyj3wRYEVeqTNqRfqLfZysQqkjLxhzXKJSOrj_Y_YRctBLszl4prgGWDC5mxYk2xBFb-7aPdMzsnRDvhmqnIznOsORHJ35Aaktx8fkzoU3Xd76EB34eAHaMTD0qoZLEVNOCs4rGILZ1BzJmM7_nFJaf9KpmYHfMODoORK5KDbpgMAGvdkH6g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPfxrLPUR1h0RgqqiUrp6b5A/photos/Ab43m-vRJ_P8pwhucmA8Oe4aAZE-cNXr9sL3jysUgbRcuhMiJPQd1IMj2LNMQUbsxLX-6INIi6Pq45SaTFa9pXI5VZtGQ6b5loHBDucwwIJcqO-J3FA2ydnT5C2fnxtV9oaQlAMmYuxhXjd-JCHFNx1oWSoozm6IA_PoShsDFKJ1XFRvf5DjoBguJx_uN8ySlDF69X24QU4OKTqX8asXYsfSqOLKeyrttFDQlMeyVLJ7-KVvQhkGpkNZIZZ1XX1jXVleVZoI42k7sn0a09qeAm8Y0JYDhRQXPgPdblOFvR7xnG0UocwVlg2uzOBC9dPoS5HVZsQMvXDakPEYiBbXim6-V2fDJOL0_n8XEP4dGblpgVhscAD3MyJQdcTLToKNE5fXRBmKuidgKV-Pe2IRZsKTNNwxaD4gvbInKtK_Jk_HW438l5dw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPfxrLPUR1h0RgqqiUrp6b5A/photos/Ab43m-tDZZJ6Z8d5ZidevvBVZUdKX8B6nBdEcVYK1vSeZbwlPFpzzr9RIHIRV-9STwXzDYaupn-0ymPtaG_Dhk--YiwqXnsE1M3SlmwdLQYJGU8pX9S3VLT5F8cr9mzvP_RX4hEokMQtbgFS_1OrrzjJWe4GGtRLCivQ3w0XpohdLDrEy8rVrAWVUJ1uRlmspGqZ9Bqm3XgtcdlTIf0_HtmwKcg8t7Q90dQzOQe4TkP1r0s4ReiFzikBOi0qizFu2xE4h_qEG7jr6xjB3jd-PVUjTrenPjN-tAwg-2DKDONnsdq_oB7Q-TAHkUAXLVmAw5G9gInpEH0btyu--lNdo8mbuImfv48ybGGNXuE18bfk-6j9wMatKN1uQYrgUeZdDMkoVbP_LhrSvOLukyykbve0e9Az7o9Ke_LDOSLu6KGkIqfY_Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPfxrLPUR1h0RgqqiUrp6b5A/photos/Ab43m-uk7C50I40-esqvmBxLYeW6pK99AbFztqqP5N0Zf5bkOpwBaiwxpHX95XbHpInmPBZpt6QWwavuXCBjnFudZlPlXEPpx4jJxLUlwBxdcc4sFe7D3ZUBhHlXQ5QleOlO7JNXSYUD_B8J0w1abowU0oMzNXzhbLLo3-CygVLqF4UIle74pQyPOj2d0GD5JH3ArCzEJ_XlHeEv6KWTiksDGovcCqNaTydPTfrgJGqSziE5DN6RWll-AUG1OCyWyZLgrX2PpTKd-RHVE-ZNWQeDAmGSi4xzTqZW_ZRODz7y8Q5qIyrtV8N5F1ygG48gQIBmO1MaYpLKN9uETTvSJ3min8gmkAFyCPwY4Nh58_HP8o5FMZ9h-UPxVmdjt5S3aoq6utXASWIj0fktUTiXtTXJLf3vuSLGpraNh-t0iwJVrRE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPfxrLPUR1h0RgqqiUrp6b5A/photos/Ab43m-t-GBK8jtoMHpR8p5He-dRAjuEsnX1fRLAbCy-4jxGDJmDsDSF92PCzWPzzpXNjF5W3l1IRszs2iY8mafaLZr0KIVVC582I3PhmYkjFEu4x7g37OnzGI3JJD1T2YVgiQoB2ibcRMvwi3URBcnnDA9dwac8ipznXyyy9xRqwmiQWGxR3rQgY9CIKCb1i_dVwSRMd-WXn2NnSNDTNdkJOJ2KkDqG3tuefQVtVLiFEmfqDqUO-Vsv8ekJKeCe6RjkPCkDuwKN-zzVYpDtQsW4z0uQmqyUw-4zkMpDC3RmpVygL7OBSTqfTNULTEuyEJ4YI5Jtvaqp6rWUPAhxXwrMbUilBZKqLZvwHib7M6OHI7aPva1cR2-WiMqEAMx7o7mh_X7PicnwQprOpOUVoEyVA4nPOWMXncS4IqZ57b5JNgUCemeP1/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:10:22.775357+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

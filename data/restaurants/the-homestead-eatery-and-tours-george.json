@@ -1,0 +1,73 @@
+{
+  "id": "the-homestead-eatery-and-tours-george",
+  "name": "The Homestead Eatery and Tours",
+  "slug": "the-homestead-eatery-and-tours-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "474 Ndyawa St, Thembalethu, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -34.0010343,
+    "lng": 22.487407299999997
+  },
+  "phone": "+27 65 307 1423",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJkfYFugUb1h0RvkVcb2PipMk",
+  "google_rating": 5,
+  "google_review_count": 1,
+  "price_level": 2,
+  "cuisine_types": [
+    "South African"
+  ],
+  "tags": [
+    "Family friendly",
+    "Good for groups",
+    "Local produce",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 6:00 PM",
+    "tuesday": "8:30 AM – 6:00 PM",
+    "wednesday": "8:30 AM – 6:00 PM",
+    "thursday": "8:30 AM – 6:00 PM",
+    "friday": "9:00 AM – 6:00 PM",
+    "saturday": "9:30 AM – 6:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Community-run eatery in Thembalethu serving authentic township cuisine and cultural tours.",
+  "description_long": "The Homestead Eatery and Tours offers an authentic taste of township life in George's Thembalethu community. This welcoming spot combines genuine home cooking with cultural experiences, giving visitors a chance to step beyond the usual tourist trail. The menu features traditional South African dishes prepared with local recipes passed down through generations.\n\nMore than just a restaurant, The Homestead connects guests with the heart of the community through guided township tours. The atmosphere is warm and unpretentious, with hosts who take pride in sharing their heritage and stories. It's a meaningful stop for anyone wanting to experience the real Garden Route beyond the coastal attractions.\n\nLocated on Ndyawa Street, this family-run establishment represents the growing township tourism movement in George. Whether you come for a meal or combine it with a cultural tour, you'll leave with a deeper appreciation of local life and some memorable flavours.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJkfYFugUb1h0RvkVcb2PipMk/photos/Ab43m-tbr1ixmZpHVeOHd1MZoTuYI5LB5bWNihTSKQGC7-RZsaL7Gqm3UUJChyNNPib62orIxe86tbzKOWBJsenkZ-ZktTHS_PYreVOas0UnED-5EpuK7W9zX1C9_BnhZQOtgr6zPoqwLWrsxLnT9H1AwZ4Rc7cC2HMIXRS4fdplWWygIJklFdnPIZnT1Any467jQn6dtn05Dj7Vj5OwktUTegc9bY_4WyE8Dj-l9WqjjExm_QWPt-NhRosTeILe_jrHcgtkT-1iUwdDKQnZmsVt-FXzTpeSh5obivSJYRqWDq5ZtQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJkfYFugUb1h0RvkVcb2PipMk/photos/Ab43m-vn6pO4J1kZdQZLoqd6V5bpPDYlyYPN4hd9Q4ecw304UzfuojFK_ASUdqISsG4Fg_yAJ7NNI6K1LxPbrRy0_Si8qeLWHDduKQWNPANsHdH-Q28N8X2zRYBEIu_OBCHQLSFtuye9pgZ86pEspudFU6K8stDR4Y_eBtCeXBLa7okzbCh6E7Czt1k7qDAGU6bi6LDNXo-g3jQBoLtSnDl13FZ1Nm75pC3tmyYc2xpa25kY5fgsUX_VVCLGC6GtRSc48a5ehtRDjiUBiaRICkivWMFJtoPRR7kL9ZvuFaHblj1IMw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJkfYFugUb1h0RvkVcb2PipMk/photos/Ab43m-s5ciQvPBrNg6mpIWOBox2l_QDkV-qmiZVh9puGlDzxpIGYwgokJ6RfHKJ8jQBvpZOKT0jg88G2ROx89kj-z6WqsbeCq0wHcJ8qYdbicRaNs8khywLjRwwEawZulpNhZS44DyUGahKBYiCkNXOcoQxMpMx0uKbfmzYKC_f7l5G2F6M_3PU3-3Mwx-8JIDvrvzPtgO3CRsSABu3bN65CGakrs-j-Jdr-hWz2mNj0VQavyzF7_sz3tPk_O425xv3FBnNCxjnuY_rDD40lZ_cIZ24SKgeGTKZlD1K80QOn0fWwuA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJkfYFugUb1h0RvkVcb2PipMk/photos/Ab43m-uNH-DuaeHtLz2zQzx861XpnWkdPo4O_c4KWW5nv8nOE1An3i_P9cN7DO4uKwUuB74yVS2vtvHix3HWLeewBw5ujOEKppV9_vykWYmDnCM5HvyMSVC9WAh7hopoWzwfJgW_RG9_JmKQ5zl9D8TMvfAj0xxxg7A786irH4s2cWxxUIsAYg7pwv23ank8GRjB_PRWR0-6sJarrXY7vJ6RvhDmiTiwvyy95XFpycw9cHjJFBOMIHPMtfcZnsxR15jjVlclva8vhadBKlbRRJil5_pw1dAgLaCnD8viUnvQM8h_mA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJkfYFugUb1h0RvkVcb2PipMk/photos/Ab43m-vZVuGJE84AIqAuAAlWW0_3mZSw1Ec1hLB_xAV8J-e9xbvW8wYJEBL0XdP19tLc5CPM1VG8odX_FRZtSy4Gh1wuXhVgKMVgoKiSiWJorT04FFXLhAwaTEBbTAAgQ2wCDQQYnedN1rpcoLND6dUJyZ0_dPMo0Va2i_PfvVl3lozI9xegFpxsf21ad8tBYHX2_pmn-lW_QPuzi3JwON5sXMnqf-zAVLBS2xgDxxFUNDKbnpYxmnLapvc8_-82CEiW4ywQ2ClkNV00mPiUT3udM8Icl3hLJ25jlhoU6yapahqbag/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:14:58.349569+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

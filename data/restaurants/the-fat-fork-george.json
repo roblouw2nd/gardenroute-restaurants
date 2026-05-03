@@ -1,0 +1,76 @@
+{
+  "id": "the-fat-fork-george",
+  "name": "The Fat Fork",
+  "slug": "the-fat-fork-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Cnr Pioneer &, Discovery St, Pacaltsdorp, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9945213,
+    "lng": 22.443032199999998
+  },
+  "phone": "+27 44 878 5095",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJsY1FbBwb1h0RXNiRKsqyT4k",
+  "google_rating": 4.7,
+  "google_review_count": 84,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Burgers",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Breakfast all day",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "6:00 AM – 6:00 PM",
+    "tuesday": "6:00 AM – 6:00 PM",
+    "wednesday": "6:00 AM – 6:00 PM",
+    "thursday": "6:00 AM – 6:00 PM",
+    "friday": "6:00 AM – 6:00 PM",
+    "saturday": "6:00 AM – 5:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Welcoming Pacaltsdorp cafe serving hearty breakfasts, comfort meals, and proper coffee in a relaxed setting.",
+  "description_long": "Tucked away in Pacaltsdorp just outside George, The Fat Fork has earned a loyal following for its generous portions and genuine hospitality. This friendly neighbourhood cafe delivers satisfying all-day breakfasts, from stacked pancakes to full English fry-ups, alongside burgers, toasted sandwiches, and daily lunch specials that won't break the bank.\n\nThe relaxed, unpretentious atmosphere makes it equally suited for a quick coffee stop or a leisurely weekend breakfast with family. Locals appreciate the consistent quality and warm service that keeps them coming back. With its accessible location on the corner of Pioneer and Discovery Streets, it's a convenient spot whether you're a Pacaltsdorp regular or exploring the greater George area.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJsY1FbBwb1h0RXNiRKsqyT4k/photos/Ab43m-tQ8lPbW0KtLOUh1dx6-RBw2oFAOzWoYiIv3l3wUiCLcYgjtWy6QM0-vqbYLdw9ET05OQ4Dj4fFu5q1OupJ4kHr3hJ0bO8xlZHLd9I-2T9oZ2VYESRp_jEFGMGKl_J68E4ku86x_AlLWpakwoCn_uDwMCbw1DQGm9XKCa2cwQ73cumqYRRST7Vk4d79Ct0A-fXo9x4AVu6Eh-DpvjOQbClCRm4nNbg3yoc1yrdK-7CMu9AMweLhI16OpSuv7yAvrBTCJX3SSBy9p5GvBZVyjookrSFuW_KLjnlArais8xx1LwlbmgIXnIJIQH1ZqWhl-PpS1WMZ6MeXDOF-Ugp9SqMdHCFJoatZ4W5RxiO4sr9tq63lTRYZ7vSmntgTg6lTz_vCwE6dI9DIXxsLsdUmuruKMZSbyTQ3RQ_QYWdBSbE/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJsY1FbBwb1h0RXNiRKsqyT4k/photos/Ab43m-u4AJc5Kvn1aJB-h0cbRArEHrWSJDfEVTWIw90vYMLFLld93pBSHf_HassKmBOHSmB8-VChGRoCa3HjCe_pa_VmEbOTAn0v8yPVlVjs1JPKGsQsN98OhM7Xet7_Jw3kLQZxoSQLSrE-h_ScbxA2bX9Xazon_wAoOr0mm2CWDZGzg2dlFUZhs7BER0UU_V_Ltfs4XzpBxggt-g_HZ8C78CsNB2o651pH27F4WfDlTDZqdz-r_Oba0w6RWDtjpVhHE6iDKH68_qe-MgV8xa-V9WNg41f0a6I3KdT4elwjsFiDoeGdNbQSTfWdXa1tGFdh9JE3cmVHPjWxb7qrsrM270zHmGzfX_wcLgXv8HbKlRtIvAC4SkpCMrRpv709s99Em4GAZu0hl8fw7F1L-kV-EYkZyHpYFymPG1uLG-6G7Nj49wo/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJsY1FbBwb1h0RXNiRKsqyT4k/photos/Ab43m-v0HqrFT3PPqvzZJOu0JE8V3ElLQO185m7QNSCDF_yjNykqXQC5cnhQ9_u_iKByBx46_YcG1Se-um-b8PMRkznPlKB-lEG4vmPjMREMHEIf2nYVQCGLVHGeCWNdkOq-bv2usZ6auY2b6svs7HRTqZgNcsSZDE6UrAP-Jp21aBA7Mu0psImGDAkz7IT72JAn6qXPACAHKide_Uj8QpaRMjJ2wM8epGrqdwz_XqTlf9-0chYxw9Ua3GxgZxLBp2Ga0abW_QCxGN840o_fUVmSflVJ461Jr2Z-WYW3ypd5hE9-TYq2ICCAI7BGW3nQn1MiHr3wKcg0y9BhIUzl40p5xUdaxU1nQDbJEJhDCKX7uQ3de4EhIoM3wBj7GIVify2MdQjS4iqTaaF5D4gbF8sotQ5Maa8SyRC4Gx99sQnc8HC-XA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJsY1FbBwb1h0RXNiRKsqyT4k/photos/Ab43m-tx85BvoOBUcyUpOKi-lNOmYEfUsnUm-PAxgMUBeLpe7m_yGcNf2VnsMsnCRU7pCRnZOByqojoIsJuftMTgke09rfr6d8ufw4cuuEBu6_a-NRFrmqrj8DyBW_5Y0XKNpKLGeWdDMJLXKRigwMpYkNXok93B8Mj91MrbIZ7yCUw0Vp88ZsxNO5WFDUyd-p9q3PnCoIBSrh-7PPKAe9otVfjRFDRhERWjxlyNh5wHzvlTIigcT6FVZJ1jp53MgCj-F-TPvk82MVrIE5WUOqOPcgQpWCVDs3hfiOTKcCHZ94nsLK_BV-8fJMVnbkx-IYp5RTgbLvLOi6puIIeu2BjmHUf4f6DB0OtBABIpny_Oit-QedtudfbS2ooyYipKPERtjnraMlcfjpG8JjytHdntKEJ1SMKNDOKvd3noJhx8hJ8FGPlj/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJsY1FbBwb1h0RXNiRKsqyT4k/photos/Ab43m-s5vd19fwTkxrSikvDOgMFsELSksLsvBnZBYl1GwlXhPK00sCGs1lJaAMTJDHPonesel9Pd5oFGnId8U49ndcQgYzDJUoGj9QCPOnfv4_tsorRq_kuAqV2yB4rMzk3DeN2R1l_Weyf2YVEnXe9_ogcz-pNfnFBlLUXbJJxkavCfJbHIxDwXyFfRYdbhufSBDxQH9jJQaTB9U8U2NqmVzb1SQuXj_o0GT8D2KKkcf99YYzcJnJIeIUSsxLhOv6OGwpWcr1ibjPyCARjQ8GeXBNfGw-STcC_JF6lBhApS1mdBGhIKB3i34pAA6pwVvgsdPFH-CFiKx3WVvmbbLCKcBczu5nA4O-bLqnHDK7PhLGzHaeEs7DJfhHxkAM_VysBadOTcSXj1bLUs9SnSc0z8rI5q55SLqP_N5qVd45dmIRzw4U1A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:09:14.345058+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

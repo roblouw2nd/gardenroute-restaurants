@@ -1,0 +1,79 @@
+{
+  "id": "tiger-s-milk-george-george",
+  "name": "Tiger's Milk George",
+  "slug": "tiger-s-milk-george-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "23 Courtenay St, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.959617099999996,
+    "lng": 22.4667904
+  },
+  "phone": "+27 44 001 2618",
+  "email": "",
+  "website": "https://www.tigersmilk.co.za/location/george/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "google_place_id": "ChIJAy1ROjYF1h0R-2wn7W21ijc",
+  "google_rating": 4.2,
+  "google_review_count": 222,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bar",
+    "Burgers",
+    "Pizza",
+    "Pub & Grill",
+    "Cocktail Bar"
+  ],
+  "tags": [
+    "Good for groups",
+    "Casual",
+    "Full bar",
+    "Live music",
+    "Sports bar",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Open late"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 11:00 PM",
+    "tuesday": "11:00 AM – 11:00 PM",
+    "wednesday": "11:00 AM – 11:00 PM",
+    "thursday": "11:00 AM – 11:00 PM",
+    "friday": "11:00 AM – 12:00 AM",
+    "saturday": "11:00 AM – 12:00 AM",
+    "sunday": "11:00 AM – 11:00 PM"
+  },
+  "description_short": "Lively bar and grill in George Central serving gourmet burgers, craft beers, and creative cocktails.",
+  "description_long": "Tiger's Milk George brings the popular Cape Town brand's signature energy to the Garden Route. Located on Courtenay Street in the heart of George Central, this contemporary bar and grill offers a vibrant atmosphere perfect for after-work drinks or a casual night out with friends.\n\nThe menu showcases their famous gourmet burgers alongside wood-fired pizzas, sharing platters, and hearty mains. The bar is well-stocked with local craft beers and an impressive cocktail list that's become a Tiger's Milk trademark. Whether you're settling in for sundowners or catching live sports on the screens, the relaxed vibe makes it easy to linger.\n\nWith its central George location, it's a convenient spot for locals and visitors exploring the town. The modern industrial décor, friendly service, and crowd-pleasing menu have made it a popular choice for groups and casual dining in the area.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAy1ROjYF1h0R-2wn7W21ijc/photos/Ab43m-voxqp-7-4oaJqQhaCnZDZdMGTqEAf93kOWtrCauCPrRSgN4_OHD_h42yOzTO1_MbI9z-sYFoPj1ll0C3iuWVU4PSj_oq8hGgBnhZH6frm1XPups_TfeNuNkRtBsPex-boi3vEI43ai5fFqIbitmq6a9M5TjqNehls0iHsmsFytUaI3_QejRdhXqwZ2JK4ZbmN73SgAhkndGcbyMHjAI1-mNZD905f5rLXN9ueK4i83BJP7dHxH19l9r-72vrDAmDs9wTSbxFpFC2tWmRbNSJK3IgIEw3T2o-7KqVei0gX0LeX4VrtbtK5kGueoNNTG85_FdK5j2HG9qco1wpciEdZxBZ-BFqmEFL4ZhWxeJBknZnJqDQb_0W5XoT9S5gyudq6SWTvvEc0HWTUpWRioLmDHRCEoHfrUjAsvOoyqpbLpPdHvkzl-B8CJU4TCko4W/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAy1ROjYF1h0R-2wn7W21ijc/photos/Ab43m-tb66U11GUM6DdYuupoOZr_TKoU6G3YHnwsF9cbO6v43LYTxwKzSbW8EMLkh5r5PwRDgDK4KD2gXLNY74PsmDWayrikEOKqeDV-1_Wks8RpBjargzsJHohT1djHyw5pGtzJL5MaIDAQFXLaizWDruvrpfb9RcQVgOOnV_CUJ0SV2q_J-Z1izCgI2ZJEqyKzf_2RgtgTt59C4karMrUZbgQq0jI9AFjGtk2q0YlQ18EufzcFNKzaLlIV-yOq1f0LEjbX2pUTxkvhaEm5ElXoE8bVJUs6lSbXggU3r5AC4014LQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAy1ROjYF1h0R-2wn7W21ijc/photos/Ab43m-tx6yzpJ5QlwYKh21bQmw3I2S2ItsnVCXLe_51PW84wk2zc--od9Gp088MRpIB-ma7yHxn4jtq2APwlhQW4rJgMEo9UgdmKljiTdi_B2aXIPUklCfPmFFz2qncjmEqPljtkrBpi--VmL8Qj89pcb41ROOlAmcWchXBCAF8IekGJB9dGUOV0k8MP_LfQTPETY6D95Uq9JiEUpef03-a9maslRgtXIGuvX49fYxQdM4FGHxUJc45_UoD7pkW21dlli1lCZ_dwlrMf8SBg2Ocptl70tj6yIOYUyIAd6M_I6TlZ2K1BXOReozFDzsQjsHFsYjDOPZIsLsRKBLrYv_nQIBsgjz5NG3IectMCn4wIqZwZ4A3yPp5fqoumrJls83c_dRTQQkzy-RnFNxuj50tURdR6OqlDnM1TzwTOzAjMlTPM24CQYYJTzW0Pmw-uVg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAy1ROjYF1h0R-2wn7W21ijc/photos/Ab43m-tw-3TjS2ySP6Ar6TcOS-_asIsnUVHz-2KESSxp23M1LcL84vE7bx_jY7ySmU8I2_ErrcmParWhgjBGzG97jWa9HUZhYRUXIRYuEX-bb2CzvXm85m_RCkBT3S_ZrYQlKtc9hQCmG5yUFFztgXMDDvtYxCMBiVyYFnihU2EZeCKXDrZr7_RWOihnt7dIsLv4_07XbJkThbdYqW100wLHCbK6unBbLN_n2c3imlfT5iABvv1qxE2BpXLdEJtFKk1iIQ5Z3N7zhkDVBk0z-Fu29-DuG_oJW5a7TfDVJmo7wxFLOwxgHkwKecuhWxZTl3bHv_1Nrq0Noi-iIEi0agC-HrEhHK_WAWJz178hR6rhzJCr5xbn-F4ji72EeUf16m_IrBHU06s9xBpev7UC0nxXFTadz9OZWQx9XE9I-ddACqOjliBxuKUGOjGWO4wbScs0/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJAy1ROjYF1h0R-2wn7W21ijc/photos/Ab43m-tzep8toqx8dGoaMMyyOsZNRbYGEylLMXzrIHxNW3T9D0j7zLrjGl3ipnvDA-sXmTcsFQi-lRqqo1nFst-FyIF2qxObei8I2bP4y7k7oPuxM9wFsRPdiDYpfB2tYU5jrD4jERg-xfLfDzagZ_nuOUGx-Hv05BREjSAVAnWTZAlHkiDkUDNzToNhx3LIhhPgaYV2_tQQZCUiW7CrUpdaRpkTs5u9vUYIBCHJW1S3uP-HHUBdm4LA-G5XY_uL-MUvCEBs7UX4oiHJ8hK_1M3ujvEiCfo_nmwgCiBnJ9qCNGhFwKc2wvKUeDqWcNBxgFT2iFUYKIvsf4y1IJJtB5UA3Gs67DHVW7x_Oyskv95NU2ddq4ZQtL3PXkeDdogXMYhEqNs_s6uP-LODcRL0tRcweUpIW4Iy55lIXifXT5Sste_ov-jB0iYqw0iIgo8ZE51z/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:13:19.865491+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

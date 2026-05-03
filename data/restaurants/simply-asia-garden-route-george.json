@@ -1,0 +1,73 @@
+{
+  "id": "simply-asia-garden-route-george",
+  "name": "Simply Asia Garden Route",
+  "slug": "simply-asia-garden-route-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Shop 87A, Garden Route Mall, Knysna Rd, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9873538,
+    "lng": 22.5027168
+  },
+  "phone": "+27 44 887 0082",
+  "email": "",
+  "website": "https://www.simplyasia.co.za/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "google_place_id": "ChIJgS3hAW0b1h0RJzB1HAi887Y",
+  "google_rating": 4,
+  "google_review_count": 318,
+  "price_level": 2,
+  "cuisine_types": [
+    "Asian",
+    "Sushi"
+  ],
+  "tags": [
+    "Family friendly",
+    "Casual",
+    "Good for groups",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 8:30 PM",
+    "tuesday": "11:00 AM – 8:30 PM",
+    "wednesday": "11:00 AM – 8:30 PM",
+    "thursday": "11:00 AM – 8:30 PM",
+    "friday": "11:00 AM – 9:00 PM",
+    "saturday": "11:00 AM – 9:00 PM",
+    "sunday": "11:00 AM – 8:30 PM"
+  },
+  "description_short": "Fresh Asian flavours in George's Garden Route Mall, from Thai curries to sushi platters.",
+  "description_long": "Simply Asia brings a taste of the East to George's Garden Route Mall, serving up a menu that spans Thai, Japanese, and broader Asian cuisine. The casual dining space works well for quick lunches or relaxed dinners, with booth seating and a vibrant atmosphere that suits families and groups alike.\n\nThe menu covers all the bases—pad thai, red and green curries, stir-fries, sushi, and spring rolls—all prepared fresh to order. Portions are generous and flavours lean authentic without being too intense for local palates. The green curry and California rolls are popular picks, while the Thai iced tea makes a sweet finish.\n\nLocated in the Garden Route Mall on Knysna Road, it's an easy stop after shopping or before a movie. The setting is straightforward mall dining, but the food delivers consistent quality at reasonable prices. Expect efficient service and a menu that keeps the whole table happy.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgS3hAW0b1h0RJzB1HAi887Y/photos/Ab43m-s2Vpmq62sqYYN-weYP3CLLEDVi9_4hPSwh2a1Jb7IsS5anhXvsZUk9IVxxO3N1RPdmQIlf8kZsBoqvVuqsseLX0_bcKmrRoj9CVjfKCtwOlyCHP36nsuoCfmzjZ3nU8lUTMACPJAeOEdQlea1cZ3CPtWoI0hIfBXxKqZ6rfrkszvhGBjWKMUmMJM8DZ_97mqeXOOICYKvJp0KIx15GVTnL1FHiKpuWrS_hgq02UATipbs0oVNSuGVIBOgELBM6FIiXNaMv6mgem2yLc8ilT-8x9-KzkoIta6uwVS0aB9KDvGJ5hbD-8PVCqTTSe1X8Jy3H8V9QnCh9_6FGCFOkEiQFMuUqd-04trfR5TsR7Q2GftL4iGoPPBETL_Va6gG7tZr1yZd1ys5amITAEocZeDvq0fpmklKGNYWKidcHf2wxHw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgS3hAW0b1h0RJzB1HAi887Y/photos/Ab43m-vUEmU8coKJRRH9Bsk3rBK8Cb0Hzq6cgkPcIyhnh6S_uVy3hzQT4MinpP3gEshTcxkmvvQDoLxaLTX3Gv0LpIGfgfgMEqh_W5CfZcd9FXBH1Ms4jdzHYWj4CLmkDUf8WExWLerFrNF_0PdT5rXMnyjOmrLUEDDCbZ_TlfKwzax1QexmusmhimpSxgmuys6qI42dw5ZLxPNXCss6CeDRBuu48Lmf-WzqMh9W8OSg0lkh4ZM-wjiz4SKia8FUfsIwGSEFK90tH6UXycan0YXdjRl0vu9Oo8UDTojmsV5-hxUj5g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgS3hAW0b1h0RJzB1HAi887Y/photos/Ab43m-uFxrzrn3Xlkn1QiGTE-TmPVAuyQ77UpznJzw8pTy9JNX-EpLGxRZjozvZDjVaPq3IBLhgCPlqyw8xkrjEtx2ky38ocDLhYd8Wxy-ScQAJLz7-1IluS_mBpgHlfkz14vjyX7dBtahugete3yABFht0BrQ9_kjXGJ3lwpixJFmamP7kOmEwZD1Le-d4JK3X5mi-CrOFH0TTfTi4tiOqRXuIkGuQTeUCQ5I6tUwPKpMgMKsxgFPXNo9tqCtDGIv4VtwS7XPDf28pPxigCdXuvw0ayUAlAMTd79cKmcDdBoapQkopjwJ0V7v01EsMYGOT0VT0N7Beibnc-L2Q705X9PDjkoYCipRRtr-vSaVgqsou6kdgVW9FQY7nfPJiYz8kVyUiyVOadzKmZCOYL6JJ2_9ggsXCk8h5bzFr_AglHhtgYruU_/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgS3hAW0b1h0RJzB1HAi887Y/photos/Ab43m-uEm-aAiHcjdZsHUkslQPnU4FuKOrRIKlWTNPnUks73VbyC7yOlempt1mBd2f-Azgb5aq0zzqUValqOQqt36i_zHy6XVw4RPesBBZTQ_o34CeKM6KqNDhC4jp7sI6xlUjst0UWwgqBxVQKD7qA_5bMBqNh6YmaOB-9uh5-vtsJCvWC929DavfMt_FO0gdDKK0dd_sOeLw4th5l5tGDf5kYKCIQRTvo53lRmXZvB1ClLSrvdPvDGYs4mR8a8wp0V4ehpjMGoU0_fKFpGtonOqzjXv-Lafnj9dwOGq4Yb5PdNTvU8qfmhJX1ii5n4Jwlh7mPOf22f925PanjpZiqsTAXZtrCpIMCBYKMgdoZibWk4sNDCQFZj-rqfKFaDc4GpwomUwC8l_6QFMQrT-vKVH_gVxIL4hAjco1Gg8sdMBwdQYk8T/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJgS3hAW0b1h0RJzB1HAi887Y/photos/Ab43m-uV2M-Ljjrzg7E9uILsemAsYAw5qexTTjgYxpwFHh-c5BVI5lmMIDj2ZcogtOqUQuI8aE-9bgkqtT1o7fjMt_4U2LF1uGud1CfPJh43NdJBRtkVn_xrHtAybhn4_VPnOf8mBhexy8iPsMN8izmuZc5K1pH1vsK1dj68Fybu7j_zsdHVApmA4AxwTW9R9SR8uqvaGqsLuFzgBwxTQPPksgrkA5LYlG9ysbTYHaqtdRdpSMwsUtkbZ8lbQwx0Uk9tap7PBfLH2X5eky6hWPlSK5WAn-sagibqJSX-fenyvDwGUqQ0G67dlDB9Db7wuvMzoJ_gmF-8oZX2yx0UwNfWG5heoG97aDrnAiXsvuo3Cl17trUSj7SrYcT2Msc6bFDwMQ_5gK2z6QMfpbElaFFcOQvJ3vM74gxqCa-eNAWvwK7tintM/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:13:03.230981+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

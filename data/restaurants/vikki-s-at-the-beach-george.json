@@ -1,0 +1,80 @@
+{
+  "id": "vikki-s-at-the-beach-george",
+  "name": "Vikki's At The Beach",
+  "slug": "vikki-s-at-the-beach-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "1 Beach Rd, Victoria Bay, 6529, South Africa",
+  "coordinates": {
+    "lat": -34.0044822,
+    "lng": 22.5480707
+  },
+  "phone": "+27 81 065 7688",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJ3aVJ1Gkc1h0R4S-COCj2n9M",
+  "google_rating": 4.2,
+  "google_review_count": 584,
+  "price_level": 1,
+  "cuisine_types": [
+    "Burgers",
+    "Seafood",
+    "Fast Food",
+    "Cafe",
+    "Desserts & Ice Cream"
+  ],
+  "tags": [
+    "Beachfront",
+    "Ocean views",
+    "Outdoor seating",
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Dog friendly"
+  ],
+  "opening_hours": {
+    "monday": "9:00 AM – 5:00 PM",
+    "tuesday": "9:00 AM – 5:00 PM",
+    "wednesday": "9:00 AM – 5:00 PM",
+    "thursday": "9:00 AM – 5:00 PM",
+    "friday": "9:00 AM – 5:00 PM",
+    "saturday": "9:00 AM – 5:00 PM",
+    "sunday": "9:00 AM – 5:00 PM"
+  },
+  "description_short": "Casual beachfront spot at Victoria Bay serving burgers, seafood, and ice cream with ocean views.",
+  "description_long": "Perched right on the sand at Victoria Bay, Vikki's At The Beach is the kind of unpretentious seaside spot where you kick off your shoes after a surf or a coastal walk. The menu keeps things simple with burgers, fish and chips, toasted sandwiches, and proper milkshakes — exactly what you want when you're salty from the sea and the sun's beating down.\n\nThe deck overlooks one of the Garden Route's most loved surf breaks, so you can watch the waves roll in while tucking into calamari or a Vikki's burger. It's a favourite with families, surfers, and anyone chasing that classic South African beach vibe. The ice cream selection is a hit with kids, and the relaxed atmosphere means no one's rushing you along.\n\nVictoria Bay itself is a gem — a small, sheltered cove about 10 minutes from George, with consistent waves and a tight-knit community feel. Vikki's fits right in: straightforward, friendly, and perfectly placed for a post-beach feed.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ3aVJ1Gkc1h0R4S-COCj2n9M/photos/Ab43m-srPZqYd0ln5f2JmFv7xmmvgkrSMUdTCDT8Sy08OEXFTQGfbQMlgeC4-zzVJoPt8FwXXv9900Fhp3dPARv0ve72nH3L3IiNPj_fzlg1rrWqPomjKo1t3GsHGLsZWPDcLT4CR86hqQNut3Adlk1HLTO3Iyt_WTVEw3to0jp87tGPw2d5I1wWnWWxwFTJU4dHXn-1lLlKQC7i1YpQzE4aWfGj4KlEJeRaFq0Le0X71cMM0NM5fedGRvz6TV7X8TfZS1HBvgQZLHAQd1fom-7JSxau2nnI60ePJP002gBEpFFeFuJs63UabmmvtROXwoQRwSw8PvsDK_HYBw3xi9EkrVIrC7W6kvIetUaOFAh7UHuqRO8S5XyKdf-3VqF3LLma2JaU0NywyQdbxhAXxRtxPRx2Bh7E1xWJSyxmS7cE_7HVsQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ3aVJ1Gkc1h0R4S-COCj2n9M/photos/Ab43m-vcXFnkYeHj78UrtCOmZpn4EAeVmwWkg1odtqPalpRJik8kZB91lBODIoXgY8DdzT3XkgoCiWP3uDq2w2RMxMNQGI_4YTz37DXawgNOKF7MaHlJrEbedRsg5etT_Jpxprs-L3agz3tcGmxs3RrtUHcqyA__wRLgFyLhm8c907Wbbsmg198rfW2fdE7-Tl9Wlfb6-qdnL5zst7qLjLgk5g6u6y8DWE4aoR5puFmfHt7ClRNx-RxOGepf4Qcs8n36iKxtWAr79Ug4Eu35FTVaI3Gb-IskP6_e2jJIx5z-gkMzVg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ3aVJ1Gkc1h0R4S-COCj2n9M/photos/Ab43m-uc0zpm_pdizj3cnyz8xBW88eYKyBIioJLbl2z8LOmsmC-WHdXTxHmRHMwsjsnVGJEMj6bth6d8TgMvPuyDBzVm-mXIeAU7-ZqaRWdDvv1n4200-HqnNGeZbtMiq-4jjVK4XmDpOcRsr1e7cqnkKfIoGLIe7m9h85aNQoiv-XGW-YD1G05wyXzqhdjp9OrPRbgpkwalYRlJJjQkzFG5AAY22s80U78mdpQPguoR1yyuY-mbVLFYnqNa5jdeAKWPPGAR0xzDCkIsL8coTflJUo5MBzzD7KFRF1YOrz4El1b_RXPcZ3uJcbmpbO_OXbgbCExv4HcnsTvmLQlzKDt4H_RWaRi3khrAGUv0RZ5wwpu6-V40oAMcCbES3FLTgaXJp_1AaLlHdHwe-ZMQFFtCfXY-DcvhPo-cwIVH9EYitxkXcTeSQpDuhOAOzC07cnhO/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ3aVJ1Gkc1h0R4S-COCj2n9M/photos/Ab43m-u0c92cE665hhxaaz9Lins0NzNiBmGOJ6gnIswvKWbh-gdgmO8kXp8022hCOy8Y2Yiiq8cyx3kNh6pXbN5xH0zmMqDpEYKl8MoWtSGNsze4Y_ap4nSoHWNgruRIaFlYXHH4LxXsRJ2t4-Jm90JIXI1uAjGrFRqaI4uKhl8gkIkY7bL53hca5bIAMBLabvIBjvjakK22BsczpDUNlfhHIv4oGIrFmeiLE1UDj6wvmTkRhkjBWzGws4GOWurB6eVzBmIltaLQdUWpvgqHzJuu-ochJDV9Meu93-M8QfDsnqb-VQWO7Lj3r7acOgES74Cno7Fr9ZK6fmMFAh8gub-ThLhnM9nWic3s6jjZk4dFafLZ-8CVKnE5JATfYlJGLJny-cEwI2tzewCwq3r-WJw7wlfRWpOHLNB0MSXhd8xy5b5jxGBRRI9-OAOe97KsgYbh/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ3aVJ1Gkc1h0R4S-COCj2n9M/photos/Ab43m-vxX9w13amqqOb5w3NmMoFaB08xNaTb_RVMLuHVcI__DC0I_y_4KHs_HZi7ueftIYA9AntwfCUB7mqb1ReKvrUgOvo_UR8VX7csf8ESda4BhN07l-MDS1XbDD99V4qt2Ie2cWgZ_YDtf_5ZcSMeXRGoRR3w_7uLE72m9sqDsN-hdzwfCgdcEYpxrgR3hlRnLHzQwy-No4wtrJYgv5y4STLtFu0VmRyORXggKKtOx3OrbFPH5eyQzWAzTwSnn924XxaTit8XmS44zDOgCk3lCvvwcohSzuGd053zYIWrIPIcFDdlBXVzOxaMTA1aV9U1yPXtBfjyOyv4xow5fUko5LbQQoEFzxfdpKS2_HqeUAZzV4ijmLHXUwzRYea9GzRJNSh6khE6ZTtSK2v24QllfNEhOdiP1nG570fNWAkEGZx6sQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:13:54.927036+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

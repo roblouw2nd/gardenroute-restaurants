@@ -1,0 +1,73 @@
+{
+  "id": "garden-cafe-and-cottage-george",
+  "name": "Garden Café and Cottage",
+  "slug": "garden-cafe-and-cottage-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "20 Gloucester Ave, George Central, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9557408,
+    "lng": 22.4528914
+  },
+  "phone": "+27 44 873 5915",
+  "email": "",
+  "website": "https://www.facebook.com/gardencafe44/",
+  "google_place_id": "ChIJz5e16BkF1h0Rtd_edZbulWY",
+  "google_rating": 4.5,
+  "google_review_count": 39,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Garden setting",
+    "Outdoor seating",
+    "Casual",
+    "Family friendly",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 5:00 PM",
+    "tuesday": "7:00 AM – 5:00 PM",
+    "wednesday": "7:00 AM – 5:00 PM",
+    "thursday": "7:00 AM – 5:00 PM",
+    "friday": "7:00 AM – 4:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "description_short": "Charming garden café in George Central serving wholesome breakfasts and lunches in a cottage setting.",
+  "description_long": "Tucked away on Gloucester Avenue in George Central, Garden Café and Cottage offers a peaceful retreat from the town's bustle. The leafy garden setting creates an inviting atmosphere for a relaxed breakfast or lunch, with outdoor seating that makes the most of the Garden Route's pleasant climate.\n\nThe menu focuses on wholesome, homestyle cooking — think hearty breakfasts, fresh salads, generous sandwiches, and daily specials that change with the seasons. It's the kind of place where locals pop in for their morning coffee and visitors linger over a late breakfast. The cottage accommodation adds to the property's charm, making it feel more like visiting a friend's garden than a commercial establishment.\n\nLocated in the heart of George, it's convenient for those exploring the town or needing a quiet spot between adventures along the Garden Route. The relaxed pace and genuine hospitality make it a pleasant stop for anyone seeking good, honest food in comfortable surroundings.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5e16BkF1h0Rtd_edZbulWY/photos/Ab43m-ufIzph_cSDYxVC4Ys49xf8BSuOjxsdXc15RfzqTA5vYgFHEwcKhGyTihqfGhjOssNV1cFhmW9FAV-BhpuJ7lfqNWHPGhiVbW10o6t6hitGeOXY3oY6adOXJ0PLRgAK_pzvlhC2v8TH2brEO2kOCtY08803Y4l_QTYzHYY5vUZRnhYJm9b38WWyfQOyRSUQTjW-LbHuEv6QelZt6h4FHVUEqklucHkaBr_2jpHzIvUIZY6fc4ActQ_MVPZVNp0icGTsnsU23u1WpfCxlGG6w2rl4B1IZT7rrfIViUZEipbxcg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5e16BkF1h0Rtd_edZbulWY/photos/Ab43m-vwD03i0p355o_GI56zIklfwNaMByUYU6mqIjLywevQUSQLrNnp-HFlzJtqTGk9aFDvKal8Vcn7aOZMCOdH2Fj4SHrOkJ4XGo89Tp_NPUvpYQ5PMa-Uv0f1ruD5f99eWmNC8i6J-m6szh3alOyH8qQgrcJvoSX1fDTM7p0Ij4XpYGAogFkMNcUYxCtkmmchGPJvg3eklVF_rWERNNjAkycAE_vpJpx0sEHrqOJZoF4S5K25uBSnQ9l6AAfZsgtuW6k_ShdpalzR7wwEPwNdR3jcyvRDI6MQB9m1qo8wws105Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5e16BkF1h0Rtd_edZbulWY/photos/Ab43m-tRI2N6uZatYVAV4xPnqs_Bhef9XyqFqxNzBK7uuRgbL4zbjR5yZ9SWQcuI3tWw6GkM8EHgS-yQP5Fs9yFqlGOuLt5A8i_BMs1sxomy2IGnEueiXtECPdRUdC4bCvdqPVDPGzLVB54oXAL9BZQipnoBb6i-NENZTTXXoAz0EGnHtfgmIlBwhDjkwSqwS3V5N2WpVsoJMkfkj_s_EEAVH6p5gm4lvgnq1FFoZrMBSGy5xdoJlEpYsLPbIr4WDXgqPrtZZorP5pS6AruYl3yBByDsLHwxx8gDKzx6ukQ6PLN4wFHo2etDc0jV0R-7VKCb_Mxx9XwrNQ1wzhHlGrxMVqMoT6X_qDv-sK_LYo7wY8lpRBVyDCmRgTTmss-GiB24umxFcbDoNscoQzPM_WDCI6E--aFC241XzdvQ_egiK5oM8MkOsPX0FN4GBk0xhcch/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5e16BkF1h0Rtd_edZbulWY/photos/Ab43m-vWenPHjcKX-kaPQujWGfXtcK9cs6yl5bt8XN9OAKaIR7CS4C3EQ3TLoOnP23FKdeej9VX-8HlQZHupGPYyRjWg-4tY3DCKH6AnKRfC7TRHwx1j7RwiUHhWGvtxIqFnQ_HgtWVsRBsiuWLwNAQQrbR8Dt3Cf3TyNttQPZVUfPE0oQssUUqup_Kry-8oAUAPUPHDctbB9MQj-0b2Bp7zWu7lCjAme-Z6qbRkprCipG-tBnFn-ocl-UeuJ0aUVFtjPlNbPC-Nl2tabwolHY1HUQeGq5Gv84RDCTcrbbfs5-EORw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJz5e16BkF1h0Rtd_edZbulWY/photos/Ab43m-vckEZ8wxh9kVvFt99yW5g9IgsHU4DWcvZrHHoawIAOewkj7692lQ8wqGbAPDA0avw1Gk_h3Q8GuPEg0zc3EOM3OvoB2yHJRSkX2xU2oq4OWlWv-3e_ra0jxCCC7kC2goYHxpGOEWreQLhHYystlx6tl3ubZcjvEOR_pB6T2_fuVc7TLnDGUkpI-0xydwmCxgrFYGGr73m-833eJ1btgg6QsRumrurd76jJBA9BCXf7bF_bUxD5B9BztH2fa9CJ3rFHsFl4yYPyfJpzfazceEdRfwo0Qz0Bnqj_0sVNcmEJAA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:09:22.436086+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

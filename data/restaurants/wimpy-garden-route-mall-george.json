@@ -1,0 +1,74 @@
+{
+  "id": "wimpy-garden-route-mall-george",
+  "name": "Wimpy Garden Route Mall",
+  "slug": "wimpy-garden-route-mall-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Shop 49, Garden Route Mall, Knysna Rd, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.987282799999996,
+    "lng": 22.5026704
+  },
+  "phone": "+27 44 887 0141",
+  "email": "",
+  "website": "https://locations.wimpy.co.za/restaurants-GardenRouteMall-WimpyGardenRouteMall/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
+  "google_place_id": "ChIJn4B5_mwb1h0RtzCR1F7tCCg",
+  "google_rating": 4.6,
+  "google_review_count": 2129,
+  "price_level": 2,
+  "cuisine_types": [
+    "Burgers",
+    "Breakfast & Brunch",
+    "Fast Food"
+  ],
+  "tags": [
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 6:00 PM",
+    "tuesday": "8:00 AM – 6:00 PM",
+    "wednesday": "8:00 AM – 6:00 PM",
+    "thursday": "8:00 AM – 6:00 PM",
+    "friday": "8:00 AM – 6:00 PM",
+    "saturday": "8:00 AM – 5:00 PM",
+    "sunday": "8:30 AM – 3:00 PM"
+  },
+  "description_short": "Family-friendly mall spot serving Wimpy's classic burgers, breakfasts and comfort meals in George.",
+  "description_long": "Located in Garden Route Mall, this Wimpy delivers the reliable comfort food South Africans have loved for generations. The menu covers all the classics—from their signature burgers and breakfast platters to coffee and cake. It's a proper family spot where you'll find something for everyone, whether it's a quick coffee break during shopping or a relaxed meal with the kids.\n\nThe setting is typical mall dining—convenient, comfortable and casual. Service is friendly and efficient, perfect when you need to refuel between errands or before hitting the road. With high ratings from over 2000 reviews, locals clearly appreciate the consistent quality and familiar favourites. It's that dependable choice when you're in George and want something satisfying without any fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn4B5_mwb1h0RtzCR1F7tCCg/photos/Ab43m-sptUmG12HmlIRtxSlIGdy7h-wyTiCpbLWODAT_561w0bqPNQDM0ydqfGR0y019gWPJMjYmJKLkGDtkCrOdFLmtOd6O12cMaaFLT-CLdowi6LRHhrZubqnbZfe7Oea3XilnzAA3o8s81CMk_VtW6RwP8zen2-7aVs7tjk1qRbynBjnyD7Z-2dEC_vBzxZqvkpl0qhsQ9sqosS_ha2F6mgKdIC9zK8WJDNNDeTzrcARyQVZH0RBw28KCRr5pn-kXsfvJY51Sp9DeEc8c4gZH8EBFEJjMUznk6oBqno-5MpHnDA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn4B5_mwb1h0RtzCR1F7tCCg/photos/Ab43m-te3ZVrM_K0VFFqrcfA6rUCRpRw_GOl79ieh4WGvYW924uPUp_rReShw_1mEbS4M-cSb0pAN8yY5fqM4Q4-29nKwLU2cbCCsgYXENFwsy2rbs1r52Bw-rle6tq4OMsTEGgkCfi8nIuknrcpUeHqbw1ykCzTWHM5UvWs4gAHbYAzXw1Aywq9ABrmYZnj2lN8JaR45pKOfcF0Fos-RputKiizI6kcOSW0vwCDew--VYV5ewzPAnLLpEZk4ZrpenJTCMc6KvEfJjtaGVpTkOFZLUuglttaUvYbh9xZpQqBh5vw6A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn4B5_mwb1h0RtzCR1F7tCCg/photos/Ab43m-ucpk4MgysTusFfwaMRYJN3isB5w4-0oRQ8TjEUKIewkTNB-NnAy7AMkrGSce4WCuqToQV3PPCEP-t7iXt6kpbpQOc_23VK1JOGqHdh7jjosP7Z_uDt8xGVu0M8vN81jnMJhbpCbco7UdhwwhZIl4GWOUICb4Yf9hYUuepKwIMsrHrUZe9ifRE46gNy-BMEAfnunQC25zwXOUvk7BNxrJW-dXWDIm2Cyy_LNRjHViptIf6Bo9I2yGBMHg3jqiIhnFQk9uiDzZfpe2ytftRrozkp-W40MMpjAH8K8vVt6z5nEg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn4B5_mwb1h0RtzCR1F7tCCg/photos/Ab43m-sZSWQQesrovxSyDbaknhqLy_scbsF9b9ksdN9-7G3i5e7pMdyPZuHUsYK_U9YIl_c8j3JUPlCg358a22OEGG8j5SglOjVZpog0LCxQIsK7fdrZwYAYj5-guDElvnX6y5oxpZ1xldDrPKyMaYSnu0-gqfL3mw8MtKWWVnu7QUTZbXPcoF7sBLzCpHkNGNaGeqJIeDuEfP2tqNFBSgZyJm_N4968YNBnJKqkTZhKQBGeGp8pVWTzEztscbcSOz9hT1xXR7-1xAamUZXvKzLBLvbTxGm5wtxizZ_oxDUHfqShuw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJn4B5_mwb1h0RtzCR1F7tCCg/photos/Ab43m-torEhZG3tRyBXiMYB3gNr3Yvk_dfkTxNYAP0gvyiu_uUSlXUm6SWwb1vAI-Ya7usNMZsqhXF6rQQUA3ZIwr3C7_GW-Anur4TxjnLEv0k_cWW-H98qFU1A41TztqL21g_MFpuddDD5KQyifg26QJN2XpcJbvv4IT4Mnv2kbOIe5F7X0rp_NJ5TC_tNdKDrYg4Q2ph_9X-bPnRtQ0tAaBveGOWZyesSmhNIvbzaW0Sa7v0SPrh91Jq7Np4bJV2iMK5vp_cem9uBymyIhMgPv2VfPCU-GzI_UuwKcB2xzW5wC3w/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:13:10.840019+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

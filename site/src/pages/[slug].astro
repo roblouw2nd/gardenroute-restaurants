@@ -290,6 +290,12 @@ const breadcrumbSchema = {
                 📞 Call to book
               </a>
             )}
+            {r.menu_url && (
+              <a href={r.menu_url} target="_blank" rel="noopener"
+                class="flex items-center justify-center gap-2 w-full py-3 bg-amber-50 hover:bg-amber-100 text-amber-800 font-semibold rounded-xl text-sm transition-colors no-underline border border-amber-200">
+                🍽 View menu
+              </a>
+            )}
             <a href={mapsUrl} target="_blank" rel="noopener"
               class="flex items-center justify-center gap-2 w-full py-3 border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold rounded-xl text-sm transition-colors no-underline">
               🗺 Get directions
@@ -311,8 +317,14 @@ const breadcrumbSchema = {
   </div>
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
-    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
-      © 2026 gardenroute-restaurants.co.za · <a href="/browse" class="hover:underline no-underline">Browse all restaurants</a>
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <div class="flex items-center gap-4">
+        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/terms" class="hover:text-gray-600 no-underline">Terms</a>
+        <a href="/privacy" class="hover:text-gray-600 no-underline">Privacy</a>
+        <a href="/submit" class="hover:text-gray-600 no-underline">Add a restaurant</a>
+      </div>
     </div>
   </footer>
 </Base>

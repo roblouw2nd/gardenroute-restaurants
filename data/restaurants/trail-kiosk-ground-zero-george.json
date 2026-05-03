@@ -1,0 +1,78 @@
+{
+  "id": "trail-kiosk-ground-zero-george",
+  "name": "Trail Kiosk @ Ground Zero",
+  "slug": "trail-kiosk-ground-zero-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Van Riebeek Gardens, Heatherlands, George, 6529, South Africa",
+  "coordinates": {
+    "lat": -33.9468783,
+    "lng": 22.4572772
+  },
+  "phone": "+27 73 019 7602",
+  "email": "",
+  "website": "https://trailkiosk.co.za/",
+  "google_place_id": "ChIJDYGV3YEF1h0RkguN8sKQvH0",
+  "google_rating": 3.9,
+  "google_review_count": 67,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Breakfast & Brunch",
+    "Coffee Shop",
+    "Sandwiches & Wraps"
+  ],
+  "tags": [
+    "Garden setting",
+    "Outdoor seating",
+    "Family friendly",
+    "Child friendly",
+    "Casual",
+    "Dog friendly",
+    "Takeaway",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 5:00 PM",
+    "tuesday": "8:00 AM – 5:00 PM",
+    "wednesday": "8:00 AM – 5:00 PM",
+    "thursday": "8:00 AM – 5:00 PM",
+    "friday": "8:00 AM – 5:00 PM",
+    "saturday": "8:00 AM – 5:00 PM",
+    "sunday": "8:00 AM – 5:00 PM"
+  },
+  "description_short": "Garden-based kiosk serving fresh breakfast and light meals in George's scenic Van Riebeek Gardens.",
+  "description_long": "Tucked into the leafy Van Riebeek Gardens in Heatherlands, Trail Kiosk @ Ground Zero offers a relaxed spot for breakfast and light meals among the trees. The setting is casual and green, popular with walkers, trail runners, and families looking for a bite after exploring the gardens.\n\nThe menu keeps things simple with breakfast staples, fresh sandwiches, wraps, and coffee. It's the kind of place where you grab a table under the shade, watch the kids play nearby, and enjoy uncomplicated food in a peaceful garden setting. Service is laid-back and the vibe is community-focused — locals drop in regularly.\n\nLocated in George's quieter neighbourhoods, it's an easy stop if you're heading to or from the garden trails. Whether you're fuelling up before a walk or winding down with a coffee afterwards, Trail Kiosk fits the bill without any fuss.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDYGV3YEF1h0RkguN8sKQvH0/photos/Ab43m-vMIQiOCq1H1aI_HPUAZDluQHjnXFzj4iFE2kPpa9OL_G4S-uoxNYw7-zpAy2MfPsvEHrQqfNb-WtMCo4gzsPbBa5Qqj0e80M8im6MpJM69TrxvsV2Kr9V2mqXOangVUyglInfXVUkFxodKwHT7XZA9z5dw8rBbB0cqOHbOGWvuF8z2JYxLZd2-GdoFyg-pZmxvA-HeDv1GfuFMWB-I3Opu1_P_toI67X-9k7JzRWcO6qPtGcdE9u__tqvwaa_KWqJ8cMML5mxnzNE9cQzwS0YZSnSYkZy96RmWdyH0Mp65qxuVlwbB2bQC2XKv0F6ETH7drdt7Yoc4FyBiCMenVOBSi-JRlhf6IfZ_MUVU77Dp6OylGIUy4f-oeVX9pWkVXTyFVHrZ3NAU6eo4p_PCQtoaj1h14C13GFFmbXGSVmCbvZRi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDYGV3YEF1h0RkguN8sKQvH0/photos/Ab43m-vzOcWjA_z5iV-6Hw6ELJne5EslM3g-nwxo7YTvS4AXFpo44GG8zPHQpoigK04iNWW_S7uHlJMZFM_xpybXPqeceIa_3LPi8FJpRembpGWAECclFxAL3c089ef3miaLTjdrPCoN9TllQ5MIXAywUSTfQq8n4FTFJ8nuPb2MOqxc_xW9NSm4Xa9z-nN09fIOmemCZ7tpDoaZuwPVMjyfN9-VnuVOtQ0rd4x_-o4Y7ii_wQtWIMey0DXBs2rIMp3u5iQTlvB-ek8JegLDoImwzAewdkpgA-_KPttQ0bCLdJ4ME5DTadeciW2uuhB6dHEpT9afKkDwW5DW_KL_PTGJ8Lr9PZk7I41MHf91vhSQ3mNrXJiJIEtq4fuE954j4aOITNrYDZITmsFwyZMqVcFqHaViYp8a8fEn77VLLWAbZQ6y1A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDYGV3YEF1h0RkguN8sKQvH0/photos/Ab43m-tfgVb1Dc4OCrQwwdLs1n2YcMeoROVS9IMIkXu8pjTt-ww1tKogvPIm-O1L6UcV1EACG9KavdbwByW5OIKbuAMNgwIZEYdMpHaaNHeGL8s6E1khQG2IFm9yHIftkZ7Vwg91IH89C5ZlmTN2qGqCdUs5YPI8qrzqOvXekPKTWnRxeojT5w0QEwrFIo8n-U6ae4f7yy4IAluXIgyAzx1G11tGThnfxM6KKyLsqNUk77ajl1g5ceaLZvW-Sp3dVr2DriY0TL_hRfC_JXvb9mFPy-6SP0LapnUBLt1Vva06niZ3bTC6gF1Qw_bhIpa2eWvKy-s9gPfZxY_0UhrGf3XI3C_EoFBBUddOjWwVlI9iMsqGcUujUWyUvImNZchv2mrgGm5nNstdOxN3vflS2bNAx5VS_vuzdBuF7KB0oIIqgQ7yXxU_/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDYGV3YEF1h0RkguN8sKQvH0/photos/Ab43m-tRuGuL7XCMMajBHK_jWGq8qyY5hbjlORgwiBeLqfEz4tZ3w3F8mSHUlYQh5zFFocfWJOw8wU07uApc3uBWzM848VwBWQ7vP-p_Hyglup8D2SJU2fr_T8tmbGQA7usvSjh8Ggz1vkX6x0rfYNuRK0z0q40eMvD0APzZ0fkq8DFsLDQoTT8D0nmWBOtBit2O0hPAda8WGRrGjcmJcfuIYvKnbX1zOU3Vng4D6rxECl8RleUzSSU2naOaxv3eckMUQm7jtm3q9uiBY6euYuLZDqLKrlKpJko_TBdOuIC8UZpaWuWaKmo8yWW9-3Jo2xm3zjBHH6xM2aQL4B_9fgaJTb4UXNu4znJ1IBsxyxf8-tH0QJvvUgPhJAX21H-CoKAuoLEM0ehqkbkqpTPCLXxbXg8kEipNW_pS4hL6oaXUz6GyQw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJDYGV3YEF1h0RkguN8sKQvH0/photos/Ab43m-tUek_PZ-yyIMZnKoZ2sThnlqVN6tE6APITY1Zu_ktMwLglAV5C6AIy5Pvhl9MzBFegUlGWAch1Tcwh7rKPX9PoqxLG7_XVrbQqEESXf3tCGNK0oJQafMib6hVhVpItebhD-cU3l4iz7Ea_bKQvXg83x1BXW-uhFnNa3SbGL0SNpNeCEiftYYjQ0rx6OwuKSOyEAZesFUBi7vzyEyDPMpYmoNS9IrcRCRtjBx1LIKX-UZCCNZAhIR8-zl7TXyXPUcMwM-JgPn-kGAtOJoLx75ksLb6DaoPDJA1xuC1Hynoqwqo8BGbX86zjCzTIkHOMFVocifFaS8PLguKNjx-VhTDpTN8SSji6rMB-o0xnEyIhHSJJIzpEuWRjtGA2bIJw6NN4DOf98EdkIaCStnVlWfNHy2ZkVqVILvcZHwCkRKXK-h8F/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:12:02.752698+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

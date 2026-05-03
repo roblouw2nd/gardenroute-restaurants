@@ -1,0 +1,72 @@
+{
+  "id": "the-potato-kitchen-george",
+  "name": "The Potato Kitchen",
+  "slug": "the-potato-kitchen-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "5 Nywerheid St, George Industria, George, 6530, South Africa",
+  "coordinates": {
+    "lat": -33.9733947,
+    "lng": 22.4686505
+  },
+  "phone": "+27 73 093 4876",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJPYRvxQ4b1h0R5EG6fV4TZoU",
+  "google_rating": 4.8,
+  "google_review_count": 11,
+  "price_level": 2,
+  "cuisine_types": [
+    "Fast Food",
+    "Takeaway"
+  ],
+  "tags": [
+    "Takeaway",
+    "Casual",
+    "Walk-ins welcome",
+    "Budget friendly"
+  ],
+  "opening_hours": {
+    "monday": "8:30 AM – 4:00 PM",
+    "tuesday": "8:30 AM – 4:00 PM",
+    "wednesday": "8:30 AM – 4:00 PM",
+    "thursday": "8:30 AM – 4:00 PM",
+    "friday": "8:00 AM – 3:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "description_short": "Hearty potato-focused comfort food in George Industria with generous portions and friendly service.",
+  "description_long": "Tucked away in George Industria, The Potato Kitchen serves up honest comfort food with the humble potato taking centre stage. The menu features generous portions of loaded baked potatoes, crispy chips, and potato-based mains that satisfy without pretension. The casual, no-fuss atmosphere makes it a solid lunch spot for locals and workers in the area.\n\nWith a strong local following reflected in its 4.8-star rating, this spot delivers consistent quality at fair prices. The focus on takeaway makes it convenient for a quick meal, though the friendly service encourages lingering. It's the kind of place where you know exactly what you're getting — good food, decent prices, and staff who remember your order.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPYRvxQ4b1h0R5EG6fV4TZoU/photos/Ab43m-sKXvVg0RTFlKvIxxgsJ3gOcB3US3T5KfazOaRiHeg4jdQLVcs__ByTsrH2y0N4UltZLSnodfLFO8tFbEj0QWmgZSiw2iXpBX0tb1u6mfv4Z21BkfsbhBYN6E9VKe-HQ5wIIvjdyp9F6KSTS5YP3RhSPO50_LNGKfrx7mqLv5CsXFJsAMVkEE9KJU9O1L21PTpGSlj8_MWnRswzj_NW2KIg_W2D3xgxU0zpkweDj6Y4RPOteaImr4ANtvQySyBh8xEcHPwcC7emvzv0iaLOtx2R7JwAGncxZjSjuj7xFgSiDQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPYRvxQ4b1h0R5EG6fV4TZoU/photos/Ab43m-tpe2Yka-Aef_Oooj-nYvo5gcZl3dkqSCMA9qgm7kd5rsGU4eCNyLS0Cn8WXyRxwG6ytlk5lontx6Z4d3Ydeg9GnZ_YzaXkJAB6G4f-9wg_CJyx9E8LDUxsJ3yLRyGTrytxw1oDzz4RdrNT8rEY6aBItJlxPIEqEKAgb_mvRvq5TL-mI7hQG9wcbZqLJ-4A-HbKCtLzN1F5EJ-XUz_eu638qB8pZh9giMYvBWyYVJ-q1Y0utV75lvgacSnLMsb5Mxssldien05fa9l7EiQ5wpbRM7mE-scmd3tH-0TksB6VYg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPYRvxQ4b1h0R5EG6fV4TZoU/photos/Ab43m-vy43Re5i2cuhF4u63WTx41WzNuLljoL4Bnbj8VT6Kx4tWaN6tOxKLxvN1HlUMOEwRX3RrH-Aa7N2he-Y0bVB3_RDbL1ifV3c01IK2kMC2VwuCKRpPbIokFVyImTcc1PqO_4QzbIAeeCzkGoO73jNj0TsZ41wgdMm1sfeS9GS0PVCrnUAL64cuadBhOnes6n8oLJeFpN110rS-ek0MM_9OaaWA5rL3dBqYwyMe3PrKNmeXTSqFmzbdglwa3qcbuMxcSnF0RS38S0h2dkeFFkAaixg_wvF27rBeOHSH-XVLSaA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPYRvxQ4b1h0R5EG6fV4TZoU/photos/Ab43m-u2g-fxzOu6uI1gsSl5k9t0mMATSrGDw7_2z5jxWd9JUZFfWlgyofJD6lx1xC6yhVbIZXnYkxGF_57qUBfMcX9pe9K1s2D0OfT2h2tEFz8-VFZpS-Vd05QTXC3uUmPYsxuXcjh_uRqcDZAY26nMukYpCJf1UIMEstvHp4ChBf0EnVbRekGbdWafo9uO6UzffC9i8TREv_AgyXoADzDuofpbVjwivJIf2e3X8isTLkD1vTDBmqj2n93JW14Q447oRDWiiRrpbw0FqEfjBCdFmpmqhVUQQP-wAx8Tj6DAPFDhwg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJPYRvxQ4b1h0R5EG6fV4TZoU/photos/Ab43m-vubl-3J8JEVEGhQk-NS7Tl1eGgNZX1t3wxCCnWnUTxUALmTgOjZES8okUsdyeYN0tqMp6bIso1l4B1l5DH9IvDisg7_ZjnlHIgJgXpZ-DtyO4CVxzD-XEIdl7qbWMV4uglqo-A4sfAj8kKBeL7fT5VcT2MCH26CKdZYDGxb3qjnp7agvMAddx-DQKDoVxkW55tNW14oiq73c14TNoi8GTVJNsddBJx-cn_9xJB6cAqupGyaXsS8vYpPgqLQutsFTOq1wmXCL7LKvPcdwE4vEqHgHgzk96ZwyTtwuguxcCv8g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:13:35.193263+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

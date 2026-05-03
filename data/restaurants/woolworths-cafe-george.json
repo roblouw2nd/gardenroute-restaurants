@@ -1,0 +1,74 @@
+{
+  "id": "woolworths-cafe-george",
+  "name": "Woolworths Cafe",
+  "slug": "woolworths-cafe-george",
+  "town": "George",
+  "region": "Garden Route",
+  "address": "Shop 9, Garden Route Mall, Knysna Rd, George, South Africa",
+  "coordinates": {
+    "lat": -33.9874493,
+    "lng": 22.5027416
+  },
+  "phone": "",
+  "email": "",
+  "website": "",
+  "google_place_id": "ChIJK7Ahpxkb1h0RhMwt6S-caWE",
+  "google_rating": 3.9,
+  "google_review_count": 17,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Sandwiches & Wraps",
+    "Breakfast & Brunch"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Walk-ins welcome",
+    "Wheelchair accessible"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Reliable café spot in Garden Route Mall serving Woolworths' fresh salads, sandwiches, and quality coffee.",
+  "description_long": "Located in Garden Route Mall, this Woolworths Café offers a convenient pit stop for shoppers and travellers passing through George. The menu features the retailer's signature fresh salads, gourmet sandwiches, and baked goods, alongside decent coffee and smoothies. It's the kind of place where you know exactly what you're getting — consistently fresh ingredients and no surprises.\n\nThe café atmosphere is functional rather than fancy, with simple seating that works for a quick lunch or coffee break between errands. While it won't win awards for ambience, it delivers on convenience and quality, particularly if you're after a lighter meal or need to grab something decent on the go. Service is generally efficient, though it can get busy during peak mall hours.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK7Ahpxkb1h0RhMwt6S-caWE/photos/Ab43m-t_0M4EW22QdnMBdJDl22dnLLdJnwUi2GhyYXz2ynxsTBikGYLZzd1whTPLE__HguIewhhWz8lwITfxwEkBf6BXZHrPPWk1mlKHScmQlyi31pqTZXaOZfgiz-G_X2JmxhZrIywT1X7u6xYDkHsOjLMXaiO6ypSO49NAMhRTJBG7ozxP-yWB3QvyPBFfxir9_9S8TJkZ_ZTXyzCG63W0i2XyrLe56lcUKRkA0kjkrdlHsSi9AMIbeiuckUQE5l26wRCOMqUjrUWFBMe-keCZIEqv5XnUYo_0zH1xVaLjw1oMLA2XZGI-CB7wi0J91vSO-rmZKGNxr-nOKv1gqggIk3Q0ISshfwdgS4QIk6BzXNb3zpB7yQCY6jzE3i0siQi4WgV3chfBw7ohT2iA99sP_G2daw3zJoKDKvCoYhxX-VESfm1VmJ1bV0VCSG7nkA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK7Ahpxkb1h0RhMwt6S-caWE/photos/Ab43m-uDLYc4DETzylbVkIfuf7Lnlj3hQ9pfWdgqfkEKk2YmOk_ZYLK-1Jotj_0-HrDvEvk4PgpN3LReX1r7gTqoVUfGsU6epOZtTuVEd_XJ-eAYqwCdhnavIE2zK8jqg9C3MF38NIP1Mu-NbrDGvKANw3G3O6hDjUn0DQ0SkI7m98Q2DOLw6cQLsnWBoe0butYnCz2B8BVqgHTQTO1fOfAbzVX64xsTwhKbkCtxjtzq_8hnjRz6KrpICpziTEazAEwnG1qlUSs7zibIV-6C0jEh4EqjaOcWFfwCUAqANrKeYR26DYYToGkCXMKk1I5BctKQqTx-nem6PAei3-sfasC1yb2oCaA42gfR-1_0SV9wlBFXOIFOGtkpdnBFe3U3-bHX811q0Mlp5q3w3LhurEVHeyVH7J6IEWl9kewn4cvjCVqLFA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK7Ahpxkb1h0RhMwt6S-caWE/photos/Ab43m-tHtW5QXWtUcyb3hXK_NmcpoQL2IHMePtkAwGjwQvSzaN_nqw6khkxj8y4ZwPv6lqddHTF1NsnZLbPcx5OYL4vyhmPAHZCb-G3UxIneSe99YOE1hQhF6TVe65zrXJ1M3YZDW8zqleSdjU8zOXwjRYHMNyRd5OMRkNTy8ixtzzMaEOHBuTTGN9qNAgjQsnACBpLNS-bl4VDSB4WMQGWa6KkSYZxqho4Bgp4Em4Hc-Umr1C-_tiMWkUvMRgL-_H_K2lxtgX7brhnSZrgPmN09mglCncPqyYxJPxK-qnS-279hzspQZkQKxMTw6DnrAutKdXMPB97q53xwFr2DKNs4sBB_XO21hi-ETJcknW6ajqoJvGely0C30AG6mZtjyb5rtXCz6rgJXKa2RScNlpBJgNmoJGlJ-2TaPQsOvByWup9_VxJg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK7Ahpxkb1h0RhMwt6S-caWE/photos/Ab43m-s9e4UwS1DwtMB4eLNrc6AEH_tfU3m99kby_Snimw-bfh3oq_N8_QdKLp4HzD1-tJw6xjBhMIDgXhSKs_RoPZv3Kq__L0AckhM1mG5TwGR0lG0bHB6fqPWyg4Y9Nd9Hwhm3sFTQTqtJusot7N3IVCPqWzccZhgQ9WK8QVWxXuNfrWhkSTMzFiIIguncfKaxblnI2YFzQD_ezrzHgQYiAX9_GL0_omvl_9KRz5MC8MBqXUCwuFF2n5QrSIYwjnKhRG-RzmmDljPmbGY_1gUeMDUjhungQL7-LT1YHXpjV6w4zBcMpUHxEN2LL6GJInB8thFK2gEBSj9kShcO7sUqu0Nc2Ok3MLA0cL-qjuE3zZx8amu-kUraMnH9XQtRZASlIpwCr8GLzAOwlh9TTbg6T5sQUdDvnr1HxDqUd2kmG5VnAA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJK7Ahpxkb1h0RhMwt6S-caWE/photos/Ab43m-vNp8lvxqqIX1z2arN1tJQo5Lw_FbByO4yQ606hnk7fpEuyilAl-SEj5yYChDzPG8nGCn2apMv4D6BOS6nh-eRHjTjO9mSP5lqzSkRr7IX9MxgI9gBDKV8hA50WzPcDeZSUT2B5_hdzeEyJ7rkqclIAaaRnSIm4xgcGKvPC5pzCF8W0pRePNPKWfbAlA2Szv2rJQPzXyLBp8cLKuWoFkuMmalmCy2w1tNqWUc9EkL2iYp0NRlvfdb8WMkYZk_P077oPO7tCy7qwdkk1O_jduwMEw7wvlqsn_ed3k9eDHy4EqLcPcGqvy4cUyfwb9NJ7xBlwYwGmQtUV5fAp51vCpojN2GSPuOTi1IMjx7VvCPmYBhzXCK4iogyYhZ0dmB4LG0qHcx6-nyQkR2KT7eYLs675rx-NZmgdU8tROU2JX6WUgkry/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:12:37.281790+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}
