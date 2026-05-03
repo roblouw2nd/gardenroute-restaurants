@@ -1,0 +1,78 @@
+{
+  "id": "wildside-beach-restaurant-knysna",
+  "name": "Wildside Beach Restaurant",
+  "slug": "wildside-beach-restaurant-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Buffs Wildside Beach, Buffels Bay, 6570, South Africa",
+  "coordinates": {
+    "lat": -34.0838294,
+    "lng": 22.958997699999998
+  },
+  "phone": "+27 82 921 1974",
+  "email": "",
+  "website": "https://www.facebook.com/WildsideKnysna",
+  "menu_url": "",
+  "google_place_id": "ChIJR5pP-OGVeB4Re9oslsclxno",
+  "google_rating": 4.6,
+  "google_review_count": 290,
+  "price_level": 2,
+  "cuisine_types": [
+    "Seafood",
+    "Burgers",
+    "South African"
+  ],
+  "tags": [
+    "Beachfront",
+    "Ocean views",
+    "Outdoor seating",
+    "Dog friendly",
+    "Family friendly",
+    "Casual",
+    "Local produce",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Relaxed beachfront eatery at Buffels Bay serving fresh seafood and grills with your toes in the sand.",
+  "description_long": "Tucked away at Buffels Bay, Wildside Beach Restaurant offers that rare combination of proper beach vibes and decent food. The setting is unbeatable — wooden deck seating just metres from the water, with views across the bay and the sound of waves as your soundtrack. It's the kind of place where you rock up in sandy flip-flops after a morning on the beach and settle in for a lazy lunch.\n\nThe menu leans towards seafood and grills, with line fish, calamari, and prawns featuring prominently alongside burgers and steaks. Portions are generous and the kitchen keeps things simple, letting fresh ingredients speak for themselves. It's family-friendly without being overrun, and dogs are welcome too.\n\nBuffels Bay itself is a bit of a hidden gem — quieter than the main Knysna beaches and popular with locals. Wildside captures that easy-going Garden Route beach culture perfectly. Come for sunset with a cold beer, or make it a midday stop after exploring the coastline. Booking ahead on weekends is a good idea.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR5pP-OGVeB4Re9oslsclxno/photos/Ab43m-tCG8fkSf4J4AN0sVCQRxkR2U9r8fik-cm5dCosm5asb7-tA7fuqrbPePY927h2hjzeN171XKs24uHaZcG3hUugq9cpBBb9juWDO-O5EYuNjumYdsCZ8iQbYM8HFVo9G1oS5tC2xhlgVlxJpkU_4xMNSkRAHOswBNjZmkObe6_zknomiFKrM0c1mNVnbnKtdjtu7cMgzu6CJnLPbpfhNk-Oz6-obaxYcYAHNplSOk1gvXrUKIoTQWn0d4-HGIeKMlWHjUeFxTrZTsix10vYtf_fTpK0FyAuWfjY57BIuns/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR5pP-OGVeB4Re9oslsclxno/photos/Ab43m-u7i-x794a1aNoIZ1-YL3j7zBt1zyvRYqOG4Ej74wAT8b0nmCmSshbhYbuZA9hNIDeIcPpFtRJo58QadEhs462zLFuKsu7--5x7btKnZ0jpGy3oL4QhwPyc4TT_pmbkH72nQH1ae38_-h_pLMMfy92Oed2yEHtH9V8xQxBAYhhAs-LQVUEWAgLETKB1nrs4VCQWS2XDHpvX3sZZR-1MdTBUSS7v8pLKu2H4GGwaCrQMB-zt0Cf1J_p-K06zn7rToXLIaLB-lsma52FAQqL8PP5Zy3HExS1M9ZpD6I_rKvU/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR5pP-OGVeB4Re9oslsclxno/photos/Ab43m-vdF-y-A3oqVaxsTvdT7ydZKvfZdCSZBj_vT_Y-ORgMqSw26QH0r488OPTXOH9Z8Ezf7pHLhua19VPTKTotljkj4sf7tR1jcA3Vjii5fQqvQoIMEdqWRbnTnlFrLXdSapg3Wj_IZhXu-oeaIBaocU_r4itedTbABDiJ9d4N6QJ7x6XG_rd3vJoyNLftnmcksOD-taEaB2tXpD0KWPBCRvgGc6Fj1Sh8zDW4Me_Idyr0NOwp0qD1oF5nmmK0KqRsVTeHGaYw1e2a96apcGe77PsG-qwguN9Dkl39NM4cbqAbrlc1hMVJ7VH1KFloQGm2ft3zjKLlIXjGw7RxKknoct868v85-M1j_GM16oUsr3LUiq5KRLRUTj9YDLWq_QgcS9Jo0GUwvpVtjdBDrDp_JeLbTTKf2sX_JGUddcAF8iYMJQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR5pP-OGVeB4Re9oslsclxno/photos/Ab43m-uGSAA2LbcSE4jwojT70DHsdeEQyjnL9ozc16lk9jtlmHWUESKnZRtgx6fu_oo4vUSGZT_OwbvkzcW834dVjvCRiJ_F_c4Xm0VC804NHLWDj3RKgPkg0Jng8YYTuujBrUUn5aVxmjt8x3GuP7krjeBusFE8rGU8RwDP95gR7H6dOHjhmMUASTE-6jtvG4ztPBWInJ3YKRxhzDWX9EgH9nkq1-_rSNgk6yY79lSef3DZq1dEf7XPb9FiUmDtWLcN9mpV8ikVW4q_hC6DqyfTa6UowjzNLlUbHSQgV8qui4hEZ98fDogLi013b5kLP6nZKzv8Yv0WPUUic3Cuc4tIvWddYF5xoAORZqqLJByjAUUoLdN89-YGeBarMexNFA648thDiJMtloaOSN8xQgeD-V2lD6uKeCnn2-Ywa5VsnzfuWNJfiHKSvuj_OirLjQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJR5pP-OGVeB4Re9oslsclxno/photos/Ab43m-vpam04wrLrK90r62RRr8vIYVsrsM9VtiPi24uFcv5kVxovAkWrLl-dnML6hPPUd0y3uhpBu6gVN6C1TFR1F2VsdCphuRFnKIOPepaoKvkMmAa2nUtKbHPGGkvgeif8QKGDHe2K30O4FQBIaxb2B9yJ58MFvWmwIFbdzQ5QnDBxLUScBxdcqDZMrNECDi3bMvEVyAmDUiYXvr1b_9DWTALsWQBD4JjFI-1ot5mHf5PRkHPDfOA_L8H8ERPWGHSZoQAvgOTXrPBLyDUfq1SX88CsbSvC4HamhJ1qdOTWCjI4fHKu0besJcHMDJ3klOHRCBqOhl3XxZ3ZkZ9Ek3H5gY2WXCPyXfHDiKLniePiXwB7hrqyg8kB8N3Sg5uPewp3FYR08s1krQRo4_VYMSdt6E7qFI6VfknCGkHS8z4QehpF8r_5/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:28:06.688711+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

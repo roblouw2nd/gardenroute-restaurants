@@ -1,0 +1,47 @@
+{
+  "id": "tavern-knysna-knysna",
+  "name": "Tavern knysna",
+  "slug": "tavern-knysna-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Nelson St, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0360649,
+    "lng": 23.044676199999998
+  },
+  "phone": "+27 64 981 6759",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJFQ1nRonqeB4ROSbYla8kt8c",
+  "google_rating": 4.4,
+  "google_review_count": 8,
+  "price_level": 2,
+  "cuisine_types": [
+    "Bar"
+  ],
+  "tags": [
+    "Casual",
+    "Walk-ins welcome",
+    "Full bar",
+    "Good for groups",
+    "Open late"
+  ],
+  "opening_hours": {
+    "monday": "Hours not available",
+    "tuesday": "Hours not available",
+    "wednesday": "Hours not available",
+    "thursday": "Hours not available",
+    "friday": "Hours not available",
+    "saturday": "Hours not available",
+    "sunday": "Hours not available"
+  },
+  "description_short": "Laid-back central Knysna bar serving cold drinks and good vibes on Nelson Street.",
+  "description_long": "Tucked along Nelson Street in the heart of Knysna, Tavern offers a relaxed spot to unwind with a cold beer or cocktail after exploring the town. The casual atmosphere makes it easy to settle in for an afternoon drink or evening session with friends.\n\nIt's the kind of place where locals and visitors mix comfortably, with a straightforward bar menu and a welcoming vibe. The central location puts you within easy reach of Knysna's shops and waterfront, making it a convenient stop whether you're starting or ending your night out in town.",
+  "photos": [],
+  "featured": false,
+  "last_updated": "2026-05-03T02:29:35.037566+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

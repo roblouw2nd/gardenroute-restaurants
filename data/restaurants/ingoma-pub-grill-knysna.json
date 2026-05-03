@@ -1,0 +1,74 @@
+{
+  "id": "ingoma-pub-grill-knysna",
+  "name": "INGOMA PUB & GRILL",
+  "slug": "ingoma-pub-grill-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "21 Main Rd, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0356572,
+    "lng": 23.0487005
+  },
+  "phone": "+27 83 330 1743",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJs3xZB2LqeB4Rw2blAVuTA74",
+  "google_rating": 3.9,
+  "google_review_count": 204,
+  "price_level": 1,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Bar"
+  ],
+  "tags": [
+    "Casual",
+    "Budget friendly",
+    "Walk-ins welcome",
+    "Full bar",
+    "Good for groups"
+  ],
+  "opening_hours": {
+    "monday": "10:00 AM – 10:00 PM",
+    "tuesday": "10:00 AM – 2:00 AM",
+    "wednesday": "10:00 AM – 2:00 AM",
+    "thursday": "10:00 AM – 2:00 AM",
+    "friday": "10:00 AM – 2:00 AM",
+    "saturday": "10:00 AM – 4:00 AM",
+    "sunday": "10:00 AM – 11:00 PM"
+  },
+  "description_short": "Local Knysna pub serving grills and pub favourites in a relaxed, unpretentious atmosphere on Main Road.",
+  "description_long": "Ingoma Pub & Grill is a straightforward local watering hole on Knysna's Main Road, offering honest pub grub and grills without the fuss. The atmosphere is laid-back and unpretentious — the kind of place where you can settle in for a casual meal and a drink after exploring the town.\n\nThe menu covers the pub classics: grills, burgers, and hearty plates that satisfy without breaking the bank. It's a no-frills spot that does what it says on the tin, making it a decent option when you're after something simple and affordable in central Knysna. The vibe is more about easy-going locals and travellers grabbing a bite than fancy dining experiences.\n\nWhile it may not be the flashiest spot in town, Ingoma fills a gap for budget-conscious diners looking for familiar comfort food in a relaxed pub setting. Expect straightforward service, cold beers, and plates that won't leave your wallet empty.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs3xZB2LqeB4Rw2blAVuTA74/photos/Ab43m-ukDJfAED_gelNXLz9UfZafy5BsnX_Q9G5kAGSutyCvCjkjw5Y2AeWoRB00SuNKDyjMnvR6SyMnipqqwu3ON5b2p0hzOYAJ-QMkIFOKugyG-a6zeuKdTQXTzfodzHa2mKPbNszSV-nuv7uAddNGTYNB97IR0FXzhjDvOg6F5MrPqYJslnQjTqjP3ZSyD5gY1gJ-FxraNXW3ZgNWDhOR91oYAWll7NU5n-higYU6vsVnNX-OL9sx5cHw6nRXL0uOxwHzdqVnRndK1v1k4TrPa0poB3jtrLD9vJnTUcLwFr9BZ2TZsrTkCPk3ZOMppilBMdCdkJTbolGgfMCGJuKK5QY4PfCMjnLtLJwUE3SpZZq9VM2965_5yuiinlylLzzJMLthR8LHddXHcxGQi1yx88KIJ0DoW7MpJVVhKIOY-hrrkw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs3xZB2LqeB4Rw2blAVuTA74/photos/Ab43m-t8hvWNlzlFiIcr0H3AtQ9EXmWUY_bUpVv_xrokSGofYsiR1TiVXmVQu9CRElf-kRu9wKLuQ0F-0nWMbZjRLNd_oHMs0cjrD1kDe9JNpvMpgGR9-BM9XM_JxnQZ2h5TwUMH8FDJlUdKisjgbWKXJp02--vCUkdfImvwmyj2kar6OlCI7q8rrfgQ15AYbJDmr5uWLrku8U6uZjM60UOqwlNwZ5kV2G41-nmnPLXx7eI3WRl_DP7a2HyANOyLcf1ZELuuwmDx9iv-UYIqOZtJKqlmmBVkNPEaUUJDNFx0OjJq5Mj3Bv1b6PQjZg1FHDieWhUltyRtfnFYaKSWVVodOYS1Wyuc9pF-6pgaKLXIO2TQOav5dAlboIy9RlSqH5yslDzY66dXLQy6KU_k2GIofBf6Kwypg7G_C78lRUnXnynNxQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs3xZB2LqeB4Rw2blAVuTA74/photos/Ab43m-vHMdAnnJffD0b5tqL4ANRnf-Rm89rv3fEPnxnbr9gmS_-g5TfCWM9zU8IgVMzL6LuQ4fB7YrWIFOyFpnanUNBKl4qxVAn0ASjpeZaVJxc6YzcK_zGwZ70Viq0-Guti05-awIiS85FloPoHfawcCPho2TgxKf51Sm25DdPLpp5mLkuR1KIbSZvm05zZQN9NFIhMn6XBfvoKS_7OKvibzXx1U8R7nKeWHvVe5q9xKENr3_u8R_DWZSYJaweKVfTkLDM8MuKM1hgkDMVnsRO9xuaIu02KgdKbTioHRNIT8UTJqtzwczLl0wPVhpK3DJBFfsfv9AOlONIUU7S3NFGwIp-PRQAy6eTOkP_hjrKj4v75QWwRQlbrT9s3JOv3uFdIGind-5zJ6l4C5FoVLf0eKIIThsUIrf3ONCd0obB5a4Vgf4s8gmX-AnUk3YTT-3uc/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs3xZB2LqeB4Rw2blAVuTA74/photos/Ab43m-ueH8BaiQvpU-DP3AaGCSE1bAP0jbt5RJMHUGDnM9BDZmD9o0WVD4E3y7YmUW0TRpCeF3PYYoXHlgLh4o_6y25oAEc18RDp9mhRusfQthrvGUj8Jlk8UsUHuewfoFse7PB3499K0xf6MRKj4YU5gLwrVaiqohftuYFUXsQFi2lB-qQLlTI71zuuLNvsWV5Q3y-7NZ6xVhVf-slRPVObeUBikNJt02cPa5T8w7csI2GWYUJEnwFarikanzD9GtaYK7KrXLNlGUAc1LamzTeH21MT8K1lEXqgWJ1kiaFDaGj-SHUE9S7Mr7Gckpk46H3LTBC8ZK6DMCpQxrLX4yeWrwuhHIHMSFEGlnk28LUPfsteyFQrbGnoZ82piD7AwI_7PLDxKJs2jL_PdKZbbSKBOm-P-XcqN88uy7bBnrmNWsg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJs3xZB2LqeB4Rw2blAVuTA74/photos/Ab43m-ujlKpDfpLeboDRTv5D7CMlt8ZS16QaO1DRxY-ICSJKbRkIrnbg6FTuBfaFBSsx7oqZyqKmENbBrRmyFsq32sCO3YZMryoGS2OEGaiQtQ1YsBxUGOcttV54OuAB5wYVZ5-N7QG6PritQNg-eaT_aS3vUxcJaJK49CEp7P6QuaSZqzRF4WZe0Z5ju7V8Rc734Fz-eoKjoBytGHUXTqmFMyh5s-hdHWQqKUTbO_7RwRb_XZvXoiX5q-8RL9b_S2wHvmdbnx_93-UNs317tftW-82uGhh7nLvwYfc1HDwl6vP3k_AA4A4-MRxYbXPcTB6foX-tgAbxi1-zugMdhvThdF4-39x2TioLscp5ISiUBxehZ8-h5mXK6Szqi0zmASUcbV5WNBrbh18jVnFqw8LVGmV2JVacntJQ_9KNITp9kobCkA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:29:13.349451+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

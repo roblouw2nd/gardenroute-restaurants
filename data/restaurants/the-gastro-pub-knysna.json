@@ -1,0 +1,76 @@
+{
+  "id": "the-gastro-pub-knysna",
+  "name": "The Gastro Pub",
+  "slug": "the-gastro-pub-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "The Turbine Boutique Hotel and Spa, Sawtooth Ln, Thesen Island, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0486201,
+    "lng": 23.0487511
+  },
+  "phone": "+27 44 302 5746",
+  "email": "",
+  "website": "https://www.turbinehotel.co.za/dining/gastro-pub/",
+  "menu_url": "",
+  "google_place_id": "ChIJrdZLKPbqeB4RaqGkHiW6fl0",
+  "google_rating": 4.4,
+  "google_review_count": 64,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Seafood"
+  ],
+  "tags": [
+    "Waterfront",
+    "Casual",
+    "Good for groups",
+    "Full bar",
+    "Outdoor seating",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "2:00 – 10:00 PM",
+    "tuesday": "2:00 – 10:00 PM",
+    "wednesday": "2:00 – 10:00 PM",
+    "thursday": "2:00 – 10:00 PM",
+    "friday": "2:00 – 10:00 PM",
+    "saturday": "2:00 – 10:00 PM",
+    "sunday": "2:00 – 10:00 PM"
+  },
+  "description_short": "Island pub with craft beers, hearty fare, and sunset views over Knysna's working waterfront.",
+  "description_long": "Tucked inside The Turbine Hotel on Thesen Island, The Gastro Pub delivers exactly what its name promises: honest pub grub with a gastropub twist. The setting feels relaxed and unfussy, with wooden tables, harbour views, and the buzz of locals and hotel guests mingling over pints and plates.\n\nThe menu leans into comfort—think gourmet burgers, fish and chips done right, and pub classics elevated with fresh local ingredients. The craft beer selection is solid, and the deck overlooking the old powerhouse and working harbour is the spot to be at sunset. It's the kind of place where you can settle in for a long lunch or a casual dinner without any pretence.\n\nWhether you're staying at the hotel or just exploring Thesen Island, The Gastro Pub makes a reliable stop for good food, cold drinks, and a laid-back Knysna vibe.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrdZLKPbqeB4RaqGkHiW6fl0/photos/Ab43m-t0VX7ULDSZrmrQ0tBG0iSFXXQz02gw_Ze9uFe4Arps9CL_nevuh_LUfxPpoiedlK7Ghsn8xga9J7GSdr2fb2xAl7d5Krc27v8ygZGt_-lRUTVbditBzBvFtm2t1TsdV0gplQoGMlHC3CxgEyE5LE0F8KJhZJkBAXtw4sQy0Qk5liZdlzHwRDbT5sgl1d6PaXpgW10ueeAjDEDRjMnJzp_mGoRX_ak7xj2OIEeXsj9e1nFvGGMO1W7LfOuH3dTY0hy9J_2U_HUXc-wdFV4y58YEEfFwCmmo78OEOBG9IwmVyw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrdZLKPbqeB4RaqGkHiW6fl0/photos/Ab43m-vNpNZVe4xyolne5Z3Y3lSBoY3eEkLOTwebwGkIP2PzOJKyXuJbc-83Pj7xlUDCwleX0tOK2p9HoWHwPJ3Sa5LGFV56xFVswDNIyV6kkA_G5AMLo4VJGTEVqyMlJUzKo5np0_CDgCLjL3MJp_i0xspDpc8ZbwsW7NfjSloOQ90lH87FKawBivHBI-7kDuJiLc-_kwvN73QXrm4s8xdSbfNSdeMDz88E_YzUP4-D6IwcS14GL0wLyRLES7GqFYcGmy1wJCcMMGyXh1Z7OeO2RN4nG8NYISOo5R1RXDYPz-dEUQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrdZLKPbqeB4RaqGkHiW6fl0/photos/Ab43m-vZhylIUyMWNUoztxv6hmuUAcxHwboHfhFP2FldViWjM3PqMIEeTF4mzpDDY_bm8KUe95fSwpFpeCEx_XNIql5FS51LsF1-xAEunAZhD844Qdetcy910souKB7_Rl5axLWmgqwjVTbnfmoQp5ilv9GU-cvjA_xj0UOds3op5LRxM2KUgicxXwGkKZxssBGdGC6I3S4akxw5GLCREWGfDhZwrhtZtJW6owsRRCMUIyyEyOG48ebl9pl-l8nvT3pKcsgsPYAC08tOtKjlc-nMTu5oZyHp5yO9DktrkInfaHuoBQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrdZLKPbqeB4RaqGkHiW6fl0/photos/Ab43m-sqBSkZ8SC4TOtIQHB269ek3rlEpqJ3y6RuldBgumQzKrtM16kLw-WSNgw4T35Dxf233IB410ATmBthVcKRjQqcXnBkeNlmwAKYoAhK_cbEzGEisA_mQmwX9xFYJ-jylQ32fqGfJpyWB5D9B1qRNkVEPUzsu9B6Lc16CpTm7D7i_BNZOOtqLAvzljM2pDNEsGFl73OfpOOADudXoeg0_vO4KKfwB8sAjXGF_CsKOVo6nBNGm_WPO37wIuwCKnJAn-loByJWwO84VXE_pv0odVLgqsltbh87_fZl6TsCWMsyfn1dMQWgT9G_Squw1BpoVm3Et-6V_mqM8He6GxxjPv8wrPgBP8wWEEQn79sR_DuJ-MLUQVRDgQoGuV8Ew50vNq5symXK-ga-VWUZ7ELwoLBi5lZszMr99Ia0gsgBZg6O3ZQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJrdZLKPbqeB4RaqGkHiW6fl0/photos/Ab43m-tcShg-npYSBfee1A5MTqGci1E5W4RJNox4X9hDC1qnw3_p2cWnroAwOlaCJ19VvIvgVXO44W-RlOrPvpcJ6Y3bvOW9aJdKcWwQ35eISSDihA_V5murFJkcPQjsYlk3ZgmrXPVUfkLFfG-_0MIavk5xRL_2K5wBZi_tWUJVHBbBWSrJVbiPG8UAbI7ieH0MffnQ_6B0QgGVRJo8DdAoQ-Tw91APjitL2JYHh7op0ojo1Fwv5cjROWXGSGf86Z_o4JQ5yF-UCpFaa5QGXHE0_86PeDC6ADiuyQN-fiRsouDVX3V38MJYd4bOAlsFusHHyQsqHjCyNIWGpVozqOp6xKHhkqBYdPojYAq68eMtsi2yfVr4irgKG_GwD94nCdaZ26CfL5LW7dA6MP6PTWLnjACcNKiP33qsjev2Arva-lyr2p7lKMrvIx1vB4Cp9Mqa/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:27:38.158932+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

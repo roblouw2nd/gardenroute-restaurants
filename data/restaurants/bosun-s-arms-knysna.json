@@ -1,0 +1,78 @@
+{
+  "id": "bosun-s-arms-knysna",
+  "name": "Bosun's Arms",
+  "slug": "bosun-s-arms-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "Bokmakierie St, Old Place, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0436088,
+    "lng": 23.0691046
+  },
+  "phone": "+27 44 382 6276",
+  "email": "",
+  "website": "",
+  "menu_url": "",
+  "google_place_id": "ChIJ2xnxSkHqeB4Rd7fSodM3lYw",
+  "google_rating": 4.3,
+  "google_review_count": 1272,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Bar",
+    "Burgers",
+    "Steakhouse"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Local produce",
+    "Walk-ins welcome",
+    "Full bar",
+    "Sports bar"
+  ],
+  "opening_hours": {
+    "monday": "11:00 AM – 10:00 PM",
+    "tuesday": "11:00 AM – 10:00 PM",
+    "wednesday": "11:00 AM – 10:00 PM",
+    "thursday": "11:00 AM – 10:00 PM",
+    "friday": "11:00 AM – 10:00 PM",
+    "saturday": "11:00 AM – 10:00 PM",
+    "sunday": "11:00 AM – 10:00 PM"
+  },
+  "description_short": "Classic Knysna pub with hearty grills, lively atmosphere, and local charm in the heart of Old Place.",
+  "description_long": "Bosun's Arms is a beloved Knysna institution where locals and visitors gather for honest pub fare and a proper pint. Tucked away in Old Place on Bokmakierie Street, this bar and grill serves up generous portions of steaks, burgers, and classic comfort food in a relaxed, no-fuss setting.\n\nThe atmosphere strikes that perfect balance between neighborhood pub and welcoming restaurant — expect wooden tables, cold beers on tap, and a soundtrack of friendly conversation. It's the kind of place where regulars know the staff by name, but newcomers feel right at home. The menu keeps things straightforward with reliable grills, pub classics, and daily specials that won't break the bank.\n\nWhether you're looking for a casual lunch after exploring Knysna's attractions or an easy dinner spot where the kids are welcome, Bosun's Arms delivers uncomplicated good times. The central location makes it an easy stop, and the consistent quality keeps people coming back.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2xnxSkHqeB4Rd7fSodM3lYw/photos/Ab43m-vvHa9d2pY7UEy--GYReAvLLcPfQONS_q-Z4F_Lc7ukLwRzlGTgL3IuvOJGGLzCqra_zru7ku_Kg3-jBrLVk6FXavnHKKn0iIYM719_x1FsBWahFGpHr8YqGaHu3CXTW8WtrY3GwIxGIFv_aAsjmBsEo5QgSFp1eXfH_p4YXxRMnuy_vfyt4ZnIQb_NirFRJN2E3jj_zV0nTffSqUU9dhS8AH1fv4QvDEgZhX-fY1SJe4WE1rbDCidQPIl1Ndv8agiQqi5P44r7AW_WCSccT5-_a_SdC-THXwRlzhENHbSZ4g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2xnxSkHqeB4Rd7fSodM3lYw/photos/Ab43m-u9u9hq6Ih-dE8xVWM2Kf3GpsWS1OmKpwWIgqtXqCjqSW2WTQEUUTukEAv7vScBltWZaQyxH7y7L15pVRMt558V3Y5gLq9VsyiP_b79XwHqnoxIAQcfvOOoTX1lPNJ-mAa81of0Jvz34spD9TqZkd5FSWFiidoYekKsUw9mG7haB8eXp-jeKsuBlvPngRRWd6-kqnp3Fih5WFP5D4EKCEQL_gCK5Hwbf8z5MgvGkBT0wUEd0ejQXPSjuOP22C2NgbtWNogZm_nToG8Mr3n9qA47WGfmAxugLB_kNMUabKP3_Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2xnxSkHqeB4Rd7fSodM3lYw/photos/Ab43m-vqsZDon8J_SwWjhfgRGMsU-qFMijb6qH-JwghPH_jO7tDz24tlNGaaj80F3UlhpMnXrc7z54wDawUWORe8O4e_zFBJrqZbDJhUO4kPYO7Q9DOXR-UiZBohdm0zMdqJSY9mxEKe1R8gHjbQ0KH9fjvT2ucSJ42CFEx9qBW5YaYRMaMzo42CZvygAKZyOhaMcarDUc9BxyJTkeZVtA4mhHd7D7lLmqJjbvWnVn48lVjCpdxsXcta-PX3E46nyVdQ64fQcCwN-7etekfoScJUaJ_BvhQen2Q5s59p8gfIf7j1xA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2xnxSkHqeB4Rd7fSodM3lYw/photos/Ab43m-tH2bfvCQoTDGybM2yvzSFvaLXQlLyGQzHlOKwr4x6wLhy8jAS-VtZtPPPFSkBdvUv0YPijaEOubVbimF6aOV3CEEBXpQJJQnVSqB12UevRtogFNGdRJ5N8P6Y7agJB6XtFHqwhBKryYbYRGRZQah1VmrTFQZbglO_qMGDHH4-vjOzhSKR1SAC9eJBngeubql_CV7q_IWsCBXESA6N-KeBalqVgekbgRzogrnt3DCe1S8zoMtgtz-x_7T9G0tW2iQVeiZz6T82zJRBNyeNipnbkY-n5bjCF5aeWuoS5OoZqh6RzuX36TYWVPYnEldpMp0zEWcoLdhLXX_PyKupEOAhumz9lc9O2uVcDbXvHbeJwWleyZnujr3k4bGWvWs6RFd1NzazuOFKqVmXSKaci3AU3jVm82yXwiQYtxNL6V1M/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJ2xnxSkHqeB4Rd7fSodM3lYw/photos/Ab43m-syf7wvikLElqpVmlA4C-5PcxCBHBjaMfzOiU07F0KDJeFqCYEtKYwj6vzfZtd76v1iVuO8TE94eL0-I0-SigbWXdTAeVTSf_STIp_tZHQwkywdJivYGeAwYCLQeueIUqzjTbG60C3umXV3q8k4qCOohaX2pS0f-x2QKZ3mThK7qIcCcZnl2Hxj2mYbGHAQ70yWzL3Essjy7HSPJS0T9J7D730L225j6iGMt0IJCLtWcks0qFVEo9lR1woc81QVpBqvz12lGtu8l8hj24t2SV59b_u61NHXM6J3y9rXT0LmpX3vsoyLxdnbZpYUWp1Si1w5yU6NG7YJuQALuuoQas6tEPHl3OjvyrJJKFXahHMm-kjxiXApP4xgulwwthh8HjuDSg0K6j2Ygifh7h7OWAl-s1BSWCjKOoMXp1helYM/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:28:43.976165+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

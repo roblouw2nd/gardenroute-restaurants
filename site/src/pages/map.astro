@@ -1,380 +1,349 @@
 ---
-import Base from '../layouts/Base.astro';
-import Nav from '../components/Nav.astro';
 import { loadRestaurants, getUniqueTowns, getUniqueCuisines } from '../lib/restaurants.js';
 
 const restaurants = loadRestaurants();
 const towns = getUniqueTowns(restaurants);
 const cuisines = getUniqueCuisines(restaurants);
 
-// Strip only what the map needs — keeps the inline JSON small
 const mapData = restaurants
   .filter(r => r.coordinates?.lat && r.coordinates?.lng)
   .map(r => ({
-    slug:     r.slug,
-    name:     r.name,
-    town:     r.town,
-    lat:      r.coordinates.lat,
-    lng:      r.coordinates.lng,
-    rating:   r.google_rating || 0,
-    reviews:  r.google_review_count || 0,
-    price:    r.price_level || 2,
-    cuisine:  (r.cuisine_types || []).slice(0, 2),
-    short:    r.description_short || '',
-    photo:    r.photos?.[0]?.url || '',
-    phone:    r.phone || '',
-    website:  r.website || '',
+    slug:    r.slug,
+    name:    r.name,
+    town:    r.town,
+    lat:     r.coordinates.lat,
+    lng:     r.coordinates.lng,
+    rating:  r.google_rating || 0,
+    reviews: r.google_review_count || 0,
+    price:   r.price_level || 2,
+    cuisine: (r.cuisine_types || []).slice(0, 2),
+    short:   r.description_short || '',
+    photo:   r.photos?.[0]?.url || '',
   }));
+
+const townOptions  = towns.map(t => `<option value="${t}">${t}</option>`).join('');
+const cuisineOptions = cuisines.map(c => `<option value="${c}">${c}</option>`).join('');
+const dataJson = JSON.stringify(mapData).replace(/</g, '\\u003c');
 ---
 
-<Base
-  title="Restaurant Map — Garden Route, South Africa"
-  description="Interactive map of all restaurants on the Garden Route. Filter by town, cuisine, price and rating."
->
-  <!-- Skip Nav — use inline for map page so we control layout fully -->
-  <div class="flex flex-col h-screen overflow-hidden">
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Map — Garden Route</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Top bar -->
-    <header class="flex items-center justify-between px-4 py-3 bg-white border-b border-gray-100 z-20 shrink-0">
-      <a href="/" class="flex items-center gap-2 font-semibold text-ocean-600 no-underline text-lg">
-        <span>🌊</span><span class="hidden sm:inline">gardenroute</span>
-      </a>
-      <nav class="flex items-center gap-4 text-sm font-medium text-gray-600">
-        <a href="/browse" class="hover:text-ocean-600 no-underline">Browse</a>
-        <a href="/towns" class="hover:text-ocean-600 no-underline">Towns</a>
-        <a href="/about" class="hover:text-ocean-600 no-underline">About</a>
-        <a href="/submit" class="px-3 py-1.5 rounded-full bg-ocean-600 text-white text-xs font-semibold hover:bg-ocean-700 no-underline transition-colors">Add restaurant</a>
-      </nav>
-    </header>
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- MarkerCluster -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
-    <!-- Main: sidebar + map -->
-    <div class="flex flex-1 overflow-hidden">
-
-      <!-- Sidebar -->
-      <aside id="sidebar" class="w-80 shrink-0 bg-white border-r border-gray-100 flex flex-col overflow-hidden z-10">
-
-        <!-- Filters -->
-        <div class="p-4 border-b border-gray-100 space-y-3">
-          <h2 class="font-semibold text-gray-800 text-sm">Filter restaurants</h2>
-
-          <!-- Search -->
-          <input
-            id="search"
-            type="text"
-            placeholder="Search by name…"
-            class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:border-ocean-400 focus:ring-1 focus:ring-ocean-100"
-          />
-
-          <!-- Town -->
-          <select id="filter-town" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-ocean-400">
-            <option value="">All towns</option>
-            {towns.map(t => <option value={t}>{t}</option>)}
-          </select>
-
-          <!-- Cuisine -->
-          <select id="filter-cuisine" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-ocean-400">
-            <option value="">All cuisines</option>
-            {cuisines.map(c => <option value={c}>{c}</option>)}
-          </select>
-
-          <!-- Price -->
-          <select id="filter-price" class="w-full px-3 py-2 text-sm border border-gray-200 rounded-lg bg-white focus:outline-none focus:border-ocean-400">
-            <option value="">Any price</option>
-            <option value="1">R — Budget</option>
-            <option value="2">RR — Mid-range</option>
-            <option value="3">RRR — Upmarket</option>
-            <option value="4">RRRR — Fine dining</option>
-          </select>
-
-          <!-- Min rating -->
-          <div>
-            <label class="text-xs text-gray-500 font-medium">Min rating: <span id="rating-label">Any</span></label>
-            <input id="filter-rating" type="range" min="0" max="5" step="0.5" value="0"
-              class="w-full mt-1 accent-ocean-600" />
-          </div>
-
-          <!-- Reset -->
-          <button id="reset-filters"
-            class="w-full py-2 text-xs font-semibold text-gray-500 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
-            Reset filters
-          </button>
-        </div>
-
-        <!-- Result count -->
-        <div class="px-4 py-2 border-b border-gray-100 text-xs text-gray-400 font-medium">
-          <span id="result-count">{mapData.length}</span> restaurants shown
-        </div>
-
-        <!-- Restaurant list -->
-        <div id="restaurant-list" class="flex-1 overflow-y-auto">
-          <!-- Populated by JS -->
-        </div>
-      </aside>
-
-      <!-- Map -->
-      <div id="map" class="flex-1 z-0"></div>
-    </div>
-  </div>
-
-  <!-- Leaflet CSS + MarkerCluster -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <style>
-    #map { height: 100%; }
-    .leaflet-popup-content-wrapper {
-      border-radius: 12px;
-      padding: 0;
-      overflow: hidden;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.15);
-      max-width: 260px;
-    }
-    .leaflet-popup-content { margin: 0; width: 260px !important; }
-    .leaflet-popup-tip-container { margin-top: -1px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; font-family: 'DM Sans', sans-serif; background: #f9f8f6; color: #111; }
 
-    .map-popup-img {
-      width: 100%;
-      height: 130px;
-      object-fit: cover;
-      display: block;
-      background: #f3f4f6;
-    }
-    .map-popup-body { padding: 12px 14px 14px; }
-    .map-popup-name { font-weight: 700; font-size: 14px; color: #111; margin-bottom: 2px; line-height: 1.3; }
-    .map-popup-meta { font-size: 11px; color: #6b7280; margin-bottom: 6px; }
-    .map-popup-rating { font-size: 12px; color: #f59e0b; font-weight: 600; margin-bottom: 8px; }
-    .map-popup-short { font-size: 11px; color: #374151; line-height: 1.5; margin-bottom: 10px; }
-    .map-popup-link {
-      display: block;
-      text-align: center;
-      background: #0d7ec4;
-      color: #fff;
-      font-size: 12px;
-      font-weight: 600;
-      padding: 8px;
-      border-radius: 8px;
-      text-decoration: none;
-    }
-    .map-popup-link:hover { background: #0b6ca8; }
+    /* ── Layout ── */
+    .app { display: flex; flex-direction: column; height: 100vh; }
 
-    /* Custom marker pin */
-    .map-pin {
-      width: 32px; height: 32px;
-      background: #0d7ec4;
-      border: 2.5px solid #fff;
-      border-radius: 50% 50% 50% 0;
-      transform: rotate(-45deg);
-      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    /* ── Topbar ── */
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 20px; height: 52px; background: #fff;
+      border-bottom: 1px solid #e5e7eb; flex-shrink: 0; z-index: 100;
     }
-    .map-pin.high { background: #059669; }
-    .map-pin.mid  { background: #0d7ec4; }
-    .map-pin.low  { background: #9ca3af; }
+    .logo { font-weight: 700; font-size: 16px; color: #0d7ec4; text-decoration: none; display: flex; align-items: center; gap: 6px; }
+    .topnav { display: flex; align-items: center; gap: 20px; font-size: 13px; font-weight: 500; }
+    .topnav a { color: #374151; text-decoration: none; }
+    .topnav a:hover { color: #0d7ec4; }
+    .topnav .btn { background: #0d7ec4; color: #fff; padding: 6px 14px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+    .topnav .btn:hover { background: #0b6ca8; }
+    .map-link { color: #0d7ec4 !important; font-weight: 600; }
 
-    /* Sidebar list item */
+    /* ── Body: sidebar + map ── */
+    .body { display: flex; flex: 1; overflow: hidden; }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      width: 300px; flex-shrink: 0; display: flex; flex-direction: column;
+      background: #fff; border-right: 1px solid #e5e7eb; overflow: hidden;
+    }
+    .filters { padding: 14px; border-bottom: 1px solid #f3f4f6; display: flex; flex-direction: column; gap: 8px; }
+    .filters h2 { font-size: 13px; font-weight: 700; color: #111; }
+    .filters input, .filters select {
+      width: 100%; padding: 8px 10px; font-size: 13px; font-family: inherit;
+      border: 1px solid #e5e7eb; border-radius: 8px; background: #fff; color: #111;
+      outline: none; appearance: auto;
+    }
+    .filters input:focus, .filters select:focus { border-color: #0d7ec4; box-shadow: 0 0 0 2px #dbeafe; }
+    .rating-row { display: flex; flex-direction: column; gap: 4px; }
+    .rating-row label { font-size: 11px; color: #6b7280; font-weight: 500; }
+    .filters input[type=range] { padding: 0; height: 4px; accent-color: #0d7ec4; cursor: pointer; }
+    .reset-btn {
+      width: 100%; padding: 8px; font-size: 12px; font-weight: 600; font-family: inherit;
+      color: #6b7280; background: #f9fafb; border: 1px solid #e5e7eb;
+      border-radius: 8px; cursor: pointer;
+    }
+    .reset-btn:hover { background: #f3f4f6; }
+    .count { padding: 8px 14px; font-size: 11px; color: #9ca3af; font-weight: 500; border-bottom: 1px solid #f3f4f6; flex-shrink: 0; }
+
+    /* ── List ── */
+    #list { flex: 1; overflow-y: auto; }
     .list-item {
-      display: flex; align-items: center; gap-x: 10px;
       padding: 10px 14px; border-bottom: 1px solid #f3f4f6;
-      cursor: pointer; transition: background 0.15s;
+      cursor: pointer; transition: background 0.1s;
     }
     .list-item:hover { background: #f0f9ff; }
-    .list-item.active { background: #e0f2fe; }
-    .list-item-name { font-size: 13px; font-weight: 600; color: #111; line-height: 1.2; }
-    .list-item-meta { font-size: 11px; color: #6b7280; margin-top: 2px; }
-    .list-item-rating { font-size: 11px; color: #f59e0b; font-weight: 600; }
+    .list-item.active { background: #dbeafe; }
+    .li-name { font-size: 13px; font-weight: 600; color: #111; line-height: 1.3; }
+    .li-meta { font-size: 11px; color: #6b7280; margin-top: 2px; }
+    .li-rating { font-size: 11px; color: #f59e0b; font-weight: 600; margin-top: 2px; }
+    .empty { padding: 32px 16px; text-align: center; color: #9ca3af; font-size: 13px; }
 
-    /* Cluster overrides */
-    .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
-      background-color: rgba(13, 126, 196, 0.2) !important;
+    /* ── Map ── */
+    #map { flex: 1; z-index: 0; }
+
+    /* ── Popup ── */
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px !important; padding: 0 !important;
+      overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.18) !important;
     }
-    .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
-      background-color: rgba(13, 126, 196, 0.85) !important;
-      color: #fff !important;
-      font-weight: 700;
+    .leaflet-popup-content { margin: 0 !important; width: 250px !important; }
+    .popup-img { width: 100%; height: 120px; object-fit: cover; display: block; background: #f3f4f6; }
+    .popup-no-img { width: 100%; height: 80px; background: #f3f4f6; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+    .popup-body { padding: 12px 14px 14px; }
+    .popup-name { font-weight: 700; font-size: 14px; color: #111; line-height: 1.3; margin-bottom: 3px; }
+    .popup-meta { font-size: 11px; color: #6b7280; margin-bottom: 5px; }
+    .popup-rating { font-size: 12px; color: #f59e0b; font-weight: 600; margin-bottom: 7px; }
+    .popup-short { font-size: 11px; color: #374151; line-height: 1.5; margin-bottom: 10px; }
+    .popup-link {
+      display: block; text-align: center; background: #0d7ec4; color: #fff;
+      font-size: 12px; font-weight: 600; padding: 8px; border-radius: 8px; text-decoration: none;
     }
+    .popup-link:hover { background: #0b6ca8; color: #fff; }
+
+    /* ── Cluster colours ── */
+    .marker-cluster-small { background-color: rgba(13,126,196,0.2) !important; }
+    .marker-cluster-small div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
+    .marker-cluster-medium { background-color: rgba(13,126,196,0.2) !important; }
+    .marker-cluster-medium div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
+    .marker-cluster-large { background-color: rgba(13,126,196,0.2) !important; }
+    .marker-cluster-large div { background-color: rgba(13,126,196,0.85) !important; color: #fff !important; font-weight: 700; }
   </style>
+</head>
+<body>
+<div class="app">
 
-  <!-- Restaurant data injected at build time -->
-  <script type="application/json" id="restaurant-data" set:html={JSON.stringify(mapData)}></script>
+  <!-- Topbar -->
+  <header class="topbar">
+    <a href="/" class="logo">🌊 gardenroute</a>
+    <nav class="topnav">
+      <a href="/browse">Browse</a>
+      <a href="/map" class="map-link">Map</a>
+      <a href="/towns">Towns</a>
+      <a href="/about">About</a>
+      <a href="/submit" class="btn">Add restaurant</a>
+    </nav>
+  </header>
 
-  <!-- Leaflet JS + MarkerCluster -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+  <!-- Body -->
+  <div class="body">
 
-  <script>
-    const PRICE_LABEL = ['', 'R', 'RR', 'RRR', 'RRRR'];
-    const PRICE_LONG  = ['', 'Budget', 'Mid-range', 'Upmarket', 'Fine dining'];
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="filters">
+        <h2>Filter restaurants</h2>
+        <input id="search" type="text" placeholder="Search by name…" />
+        <select id="f-town"><option value="">All towns</option>{Fragment.set:html(townOptions)}</select>
+        <select id="f-cuisine"><option value="">All cuisines</option>{Fragment.set:html(cuisineOptions)}</select>
+        <select id="f-price">
+          <option value="">Any price</option>
+          <option value="1">R — Budget</option>
+          <option value="2">RR — Mid-range</option>
+          <option value="3">RRR — Upmarket</option>
+          <option value="4">RRRR — Fine dining</option>
+        </select>
+        <div class="rating-row">
+          <label>Min rating: <strong id="rating-val">Any</strong></label>
+          <input type="range" id="f-rating" min="0" max="5" step="0.5" value="0" />
+        </div>
+        <button class="reset-btn" id="reset">Reset filters</button>
+      </div>
+      <div class="count"><span id="count">0</span> restaurants shown</div>
+      <div id="list"></div>
+    </aside>
 
-    // ── Data ────────────────────────────────────────────────────────────────
-    const ALL = JSON.parse(document.getElementById('restaurant-data').textContent);
+    <!-- Map -->
+    <div id="map"></div>
+  </div>
+</div>
 
-    // ── Map init ────────────────────────────────────────────────────────────
-    const map = L.map('map', { zoomControl: false }).setView([-33.9766, 22.8], 9);
-    L.control.zoom({ position: 'bottomright' }).addTo(map);
+<script define:vars={{ mapData, townOptions, cuisineOptions }}>
+  // Inject town/cuisine options
+  document.getElementById('f-town').innerHTML   = '<option value="">All towns</option>'   + townOptions;
+  document.getElementById('f-cuisine').innerHTML = '<option value="">All cuisines</option>' + cuisineOptions;
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      maxZoom: 19,
-    }).addTo(map);
+  const PRICE = ['','R','RR','RRR','RRRR'];
 
-    // ── Cluster group ────────────────────────────────────────────────────────
-    const cluster = L.markerClusterGroup({
-      showCoverageOnHover: false,
-      maxClusterRadius: 50,
-      spiderfyOnMaxZoom: true,
-      zoomToBoundsOnClick: true,
+  function stars(r) {
+    const f = Math.floor(r), h = (r % 1) >= 0.5 ? 1 : 0;
+    return '★'.repeat(f) + (h ? '½' : '') + '☆'.repeat(5 - f - h);
+  }
+
+  // ── Map ──────────────────────────────────────────────────────────────────
+  const map = L.map('map', { zoomControl: false }).setView([-33.97, 22.85], 9);
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19,
+  }).addTo(map);
+
+  const cluster = L.markerClusterGroup({
+    showCoverageOnHover: false,
+    maxClusterRadius: 50,
+    spiderfyOnMaxZoom: true,
+  });
+  map.addLayer(cluster);
+
+  function pinIcon(rating) {
+    const color = rating >= 4.3 ? '#059669' : rating >= 3.5 ? '#0d7ec4' : '#9ca3af';
+    return L.divIcon({
+      className: '',
+      html: `<svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14 0C6.27 0 0 6.27 0 14c0 9.75 14 22 14 22s14-12.25 14-22C28 6.27 21.73 0 14 0z" fill="${color}" stroke="#fff" stroke-width="2"/>
+        <circle cx="14" cy="14" r="5" fill="#fff"/>
+      </svg>`,
+      iconSize: [28, 36],
+      iconAnchor: [14, 36],
+      popupAnchor: [0, -38],
     });
-    map.addLayer(cluster);
+  }
 
-    // ── Helpers ──────────────────────────────────────────────────────────────
-    function pinIcon(rating) {
-      const cls = rating >= 4.3 ? 'high' : rating >= 3.5 ? 'mid' : 'low';
-      return L.divIcon({
-        className: '',
-        html: `<div class="map-pin ${cls}"></div>`,
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-        popupAnchor: [0, -34],
-      });
+  function popupHtml(r) {
+    const img = r.photo
+      ? `<img class="popup-img" src="${r.photo}" alt="${r.name}" loading="lazy" />`
+      : `<div class="popup-no-img">🍽</div>`;
+    return `${img}
+      <div class="popup-body">
+        <div class="popup-name">${r.name}</div>
+        <div class="popup-meta">${r.cuisine.join(', ') || ''} · ${r.town} · ${PRICE[r.price] || 'RR'}</div>
+        ${r.rating ? `<div class="popup-rating">${stars(r.rating)} ${r.rating} <span style="color:#9ca3af;font-weight:400">(${r.reviews})</span></div>` : ''}
+        ${r.short ? `<div class="popup-short">${r.short}</div>` : ''}
+        <a class="popup-link" href="/${r.slug}">View restaurant →</a>
+      </div>`;
+  }
+
+  // Build all markers
+  const markerMap = {};
+  mapData.forEach(r => {
+    const m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating) });
+    m.bindPopup(popupHtml(r), { maxWidth: 250, minWidth: 250 });
+    m._r = r;
+    markerMap[r.slug] = m;
+    cluster.addLayer(m);
+  });
+
+  // ── List ─────────────────────────────────────────────────────────────────
+  const listEl   = document.getElementById('list');
+  const countEl  = document.getElementById('count');
+  let activeSlug = null;
+
+  function renderList(items) {
+    countEl.textContent = items.length;
+    if (!items.length) {
+      listEl.innerHTML = '<div class="empty">No restaurants match your filters.</div>';
+      return;
     }
+    listEl.innerHTML = items.map(r => `
+      <div class="list-item${r.slug === activeSlug ? ' active' : ''}" data-slug="${r.slug}">
+        <div class="li-name">${r.name}</div>
+        <div class="li-meta">${r.town}${r.cuisine[0] ? ' · ' + r.cuisine[0] : ''} · ${PRICE[r.price] || 'RR'}</div>
+        ${r.rating ? `<div class="li-rating">${stars(r.rating)} ${r.rating}</div>` : ''}
+      </div>`).join('');
 
-    function stars(rating) {
-      const full = Math.floor(rating);
-      const half = rating % 1 >= 0.5 ? 1 : 0;
-      return '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(5 - full - half);
+    listEl.querySelectorAll('.list-item').forEach(el => {
+      el.addEventListener('click', () => flyTo(el.dataset.slug));
+    });
+  }
+
+  function flyTo(slug) {
+    const r = mapData.find(x => x.slug === slug);
+    if (!r) return;
+    activeSlug = slug;
+    map.flyTo([r.lat, r.lng], 15, { duration: 0.7 });
+    setTimeout(() => {
+      const m = markerMap[slug];
+      if (m) cluster.zoomToShowLayer(m, () => m.openPopup());
+    }, 750);
+    listEl.querySelectorAll('.list-item').forEach(el =>
+      el.classList.toggle('active', el.dataset.slug === slug));
+    const active = listEl.querySelector('.list-item.active');
+    if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // Sync popup → list highlight
+  map.on('popupopen', e => {
+    const m = e.popup._source;
+    if (m && m._r) {
+      activeSlug = m._r.slug;
+      listEl.querySelectorAll('.list-item').forEach(el =>
+        el.classList.toggle('active', el.dataset.slug === activeSlug));
+      const active = listEl.querySelector('.list-item.active');
+      if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
+  });
 
-    function popupHtml(r) {
-      const imgHtml = r.photo
-        ? `<img class="map-popup-img" src="${r.photo}" alt="${r.name}" loading="lazy" />`
-        : `<div class="map-popup-img" style="background:#e5e7eb;display:flex;align-items:center;justify-content:center;color:#9ca3af;font-size:24px;">🍽</div>`;
-      return `
-        ${imgHtml}
-        <div class="map-popup-body">
-          <div class="map-popup-name">${r.name}</div>
-          <div class="map-popup-meta">${r.cuisine.join(', ')} · ${r.town} · ${PRICE_LABEL[r.price] || 'RR'}</div>
-          ${r.rating ? `<div class="map-popup-rating">${stars(r.rating)} ${r.rating} <span style="color:#9ca3af;font-weight:400">(${r.reviews})</span></div>` : ''}
-          ${r.short ? `<div class="map-popup-short">${r.short}</div>` : ''}
-          <a class="map-popup-link" href="/${r.slug}">View restaurant →</a>
-        </div>`;
-    }
+  // ── Filters ───────────────────────────────────────────────────────────────
+  const searchEl  = document.getElementById('search');
+  const townEl    = document.getElementById('f-town');
+  const cuisineEl = document.getElementById('f-cuisine');
+  const priceEl   = document.getElementById('f-price');
+  const ratingEl  = document.getElementById('f-rating');
+  const ratingVal = document.getElementById('rating-val');
 
-    // ── Build markers ────────────────────────────────────────────────────────
-    const markers = {};   // slug → L.marker
-    ALL.forEach(r => {
-      const m = L.marker([r.lat, r.lng], { icon: pinIcon(r.rating) });
-      m.bindPopup(popupHtml(r), { maxWidth: 260, minWidth: 260 });
-      m._restaurantData = r;
-      markers[r.slug] = m;
-      cluster.addLayer(m);
+  function applyFilters() {
+    const q      = searchEl.value.trim().toLowerCase();
+    const town   = townEl.value;
+    const cuis   = cuisineEl.value;
+    const price  = parseInt(priceEl.value) || 0;
+    const minRat = parseFloat(ratingEl.value) || 0;
+    ratingVal.textContent = minRat > 0 ? `${minRat}+` : 'Any';
+
+    const filtered = mapData.filter(r => {
+      if (q && !r.name.toLowerCase().includes(q)) return false;
+      if (town && r.town !== town) return false;
+      if (cuis && !r.cuisine.includes(cuis)) return false;
+      if (price && r.price !== price) return false;
+      if (minRat && r.rating < minRat) return false;
+      return true;
     });
 
-    // ── Sidebar list ─────────────────────────────────────────────────────────
-    const listEl       = document.getElementById('restaurant-list');
-    const countEl      = document.getElementById('result-count');
-    let activeSlug     = null;
+    cluster.clearLayers();
+    filtered.forEach(r => { if (markerMap[r.slug]) cluster.addLayer(markerMap[r.slug]); });
+    renderList(filtered);
+  }
 
-    function renderList(items) {
-      countEl.textContent = items.length;
-      listEl.innerHTML = '';
-      if (!items.length) {
-        listEl.innerHTML = '<p style="padding:20px;text-align:center;color:#9ca3af;font-size:13px;">No restaurants match your filters.</p>';
-        return;
-      }
-      items.forEach(r => {
-        const div = document.createElement('div');
-        div.className = 'list-item' + (r.slug === activeSlug ? ' active' : '');
-        div.dataset.slug = r.slug;
-        div.innerHTML = `
-          <div style="flex:1;min-width:0;">
-            <div class="list-item-name">${r.name}</div>
-            <div class="list-item-meta">${r.town}${r.cuisine[0] ? ' · ' + r.cuisine[0] : ''} · ${PRICE_LABEL[r.price] || 'RR'}</div>
-            ${r.rating ? `<div class="list-item-rating">${stars(r.rating)} ${r.rating}</div>` : ''}
-          </div>`;
-        div.addEventListener('click', () => flyToRestaurant(r.slug));
-        listEl.appendChild(div);
-      });
-    }
+  searchEl.addEventListener('input', applyFilters);
+  townEl.addEventListener('change', applyFilters);
+  cuisineEl.addEventListener('change', applyFilters);
+  priceEl.addEventListener('change', applyFilters);
+  ratingEl.addEventListener('input', applyFilters);
 
-    function flyToRestaurant(slug) {
-      const r = ALL.find(x => x.slug === slug);
-      if (!r) return;
-      activeSlug = slug;
-      map.flyTo([r.lat, r.lng], 15, { duration: 0.8 });
-      setTimeout(() => {
-        const m = markers[slug];
-        if (m) { cluster.zoomToShowLayer(m, () => m.openPopup()); }
-      }, 850);
-      // Highlight in list
-      document.querySelectorAll('.list-item').forEach(el => {
-        el.classList.toggle('active', el.dataset.slug === slug);
-      });
-    }
+  document.getElementById('reset').addEventListener('click', () => {
+    searchEl.value = townEl.value = cuisineEl.value = priceEl.value = '';
+    ratingEl.value = 0;
+    applyFilters();
+  });
 
-    // ── Filtering ─────────────────────────────────────────────────────────────
-    const searchEl   = document.getElementById('search');
-    const townEl     = document.getElementById('filter-town');
-    const cuisineEl  = document.getElementById('filter-cuisine');
-    const priceEl    = document.getElementById('filter-price');
-    const ratingEl   = document.getElementById('filter-rating');
-    const ratingLbl  = document.getElementById('rating-label');
-    const resetBtn   = document.getElementById('reset-filters');
-
-    function applyFilters() {
-      const q       = searchEl.value.trim().toLowerCase();
-      const town    = townEl.value;
-      const cuisine = cuisineEl.value;
-      const price   = parseInt(priceEl.value) || 0;
-      const minRat  = parseFloat(ratingEl.value) || 0;
-
-      ratingLbl.textContent = minRat > 0 ? `${minRat}+` : 'Any';
-
-      const filtered = ALL.filter(r => {
-        if (q && !r.name.toLowerCase().includes(q)) return false;
-        if (town && r.town !== town) return false;
-        if (cuisine && !r.cuisine.includes(cuisine)) return false;
-        if (price && r.price !== price) return false;
-        if (minRat && r.rating < minRat) return false;
-        return true;
-      });
-
-      // Update cluster layers
-      cluster.clearLayers();
-      filtered.forEach(r => { if (markers[r.slug]) cluster.addLayer(markers[r.slug]); });
-
-      renderList(filtered);
-    }
-
-    searchEl.addEventListener('input',  applyFilters);
-    townEl.addEventListener('change',   applyFilters);
-    cuisineEl.addEventListener('change', applyFilters);
-    priceEl.addEventListener('change',  applyFilters);
-    ratingEl.addEventListener('input',  applyFilters);
-
-    resetBtn.addEventListener('click', () => {
-      searchEl.value = '';
-      townEl.value   = '';
-      cuisineEl.value = '';
-      priceEl.value  = '';
-      ratingEl.value = 0;
-      applyFilters();
-    });
-
-    // Click on map marker → highlight list item
-    map.on('popupopen', e => {
-      const m = e.popup._source;
-      if (m && m._restaurantData) {
-        activeSlug = m._restaurantData.slug;
-        const el = listEl.querySelector(`[data-slug="${activeSlug}"]`);
-        if (el) {
-          document.querySelectorAll('.list-item').forEach(x => x.classList.remove('active'));
-          el.classList.add('active');
-          el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      }
-    });
-
-    // ── Initial render ────────────────────────────────────────────────────────
-    renderList(ALL);
-  </script>
-</Base>
+  // Initial render
+  applyFilters();
+</script>
+</body>
+</html>

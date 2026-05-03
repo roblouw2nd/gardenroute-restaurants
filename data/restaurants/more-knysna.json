@@ -1,0 +1,78 @@
+{
+  "id": "more-knysna",
+  "name": "More",
+  "slug": "more-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "12 Kings Way, Leisure Isle, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0670307,
+    "lng": 23.062081
+  },
+  "phone": "+27 82 047 5679",
+  "email": "",
+  "website": "https://more.africa/",
+  "menu_url": "",
+  "google_place_id": "ChIJmZ2twvTreB4Rsc6rR9Slul0",
+  "google_rating": 4.3,
+  "google_review_count": 93,
+  "price_level": 2,
+  "cuisine_types": [
+    "Cafe",
+    "Coffee Shop",
+    "Sushi",
+    "Pizza",
+    "Seafood",
+    "Desserts & Ice Cream"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Takeaway",
+    "Local produce",
+    "Walk-ins welcome"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 8:00 PM",
+    "tuesday": "7:00 AM – 8:00 PM",
+    "wednesday": "7:00 AM – 8:00 PM",
+    "thursday": "7:00 AM – 8:00 PM",
+    "friday": "7:00 AM – 8:00 PM",
+    "saturday": "7:00 AM – 8:00 PM",
+    "sunday": "7:00 AM – 12:30 PM"
+  },
+  "description_short": "Island cafe and gallery on Leisure Isle serving sushi, fish and chips, pizza, and coffee with local art displays.",
+  "description_long": "More sits on Leisure Isle's Kings Way, combining a relaxed cafe with an art gallery showcasing local work. The menu covers plenty of ground — from fresh sushi rolls and classic fish and chips to wood-fired pizzas and proper coffee. It's the kind of spot where you can grab a quick takeaway or settle in for a lazy afternoon browsing art between bites.\n\nThe island location gives it a laid-back, off-the-beaten-track feel, popular with locals and visitors who've discovered this quiet corner of Knysna. Whether you're after a light lunch, something sweet from the dessert counter, or just a coffee while admiring the gallery pieces, More offers an easygoing mix that works any time of day.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmZ2twvTreB4Rsc6rR9Slul0/photos/Ab43m-sNR0qKiOqHP0s3314PbdFO27Ar0TUA3UIyRvvhJFs1zW8rvy-3kDuJMLGuaRsc_MkBowjyBMhDz3pEpbDu-Zf-6iMEqLAajVEmp01nzx-4QJxsz3fy7rl8RaWhMlo_q9Yy314rNPa_XCkoKgwbanqd-3TLmxfvLeMLabzIih5EaYScpt-0ogtUWAwPRCcEQh4fNo8rTVcT-RUVmB-QMQTGwcVr7Gx1cUvMXQU10ngUesauOWbnv8mfSOMZ7bezMm80YP_Q2Pe-5R8pVSKPE9grMGH_6qR_zX90vPgaB9Uo4A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmZ2twvTreB4Rsc6rR9Slul0/photos/Ab43m-tpmF6W2MS6MdlIHnu1dNKzdU8swFdxYvHxjzir7K3fBpRe03ydJ_SBSSa-JjqosgMcJ9f9Kf1X-L-tj5b5VMkgXEc-guofdcF2412mpYB8B8btylHIf2k-cxC3zTPHHQw51znhn0RUV_yhBmGUW8cuX585LE3Q6B6p0XmC5bStBEARYJBAE8QUo8CHaybAwGwaKYpEupv_i7uPGJ90so9xDSDZb8muqauZENGrWOZOJuuzm6eS-VYkRFsuk0DXDG8b9mQ4SauUWMP_1LO3o-YrhbkCiv8yT2khXGhFncMJlg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmZ2twvTreB4Rsc6rR9Slul0/photos/Ab43m-uw5JReRNx3r6MJXSwOyDTrXU7EEQnXA9qzepEZtGWS0Voac-0xiisbBQFH4Y6BCNXFJd0DqjEKAkKvXQBCMRIy1G2Bfz9ElKhFAxY2UVTS44lUOVYaAYF9yHSwferNyfeLldCOdj_cbIevvaczldFqkfIuezLosZ40gsXr1RocgW2YrL0D4CYXEmB-mtXvO7oAw9bfcYR5R6i8aZXJeRgXu3oZCGcMWZ7AjAh7TIlYwP3VCxGaJkhCnTpBlHR11K50Csf1ApaGEj9hg5dqd6t8yPTVuYPsmEKYFVts3XE7ufvWvl3QrNgkuHkAKowfCjh0SXQsW1Yv_A_ICxtGQ7Y-QpSijiq3A-os5P2JHMKCL6U5JrOduj6x7Fr5SZm4RuQ20d00J4fds1A6FoCLeTSIWMTgtseVMwQxtHVshI0nq3o0PblpQ-hB7Db0jfVh/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmZ2twvTreB4Rsc6rR9Slul0/photos/Ab43m-sjaQ4kfHOcuLtxAySJvkPRG9kXi8lth-D0GjdF5_MCX0D3LFThqAP5lkD6-8JlhBPJWY12Qj0MiN1RvcX6j512c2nNJx61qj4zNywJFtMEAwQ1oGPUXObxCCJACb6oN7AC-fvkKD-IpmN6eFyiFF7-Smfk5C5zzP2VrnXdS2cweZo1dG-JvvVY-h6-YAXSuqwcOAfZxoepIWk7jdfrAjmWFlxrcALbfFxoMscoJ_jYf9z4N8hIKPVf3PwJV0V-k1leL7vVyay2ILDxPBvDENMyJsXS27i5H93idleP2IyK2g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJmZ2twvTreB4Rsc6rR9Slul0/photos/Ab43m-vWNj_okDVZvlfp5QpRHzrGW17V70FgjtmpQMBAUiAPIPUQ8-ngLM9NdaNXdzqSyxeJ3ffIHx6l_JbtEKNKO651BTl6NWXEzvGkRZolpY88qt1RM2eSY5Em09gtHLCX1XxA4rwmrPphsJbHfp-ZbnDsR-0JwHy6_qy6wJyo_wMN3cOnx1jypSfkooU_BGyZuIn9nz6qKlGxvDaUn8RbXnjZBKGubb2BQZfLm2jZLRdxUUKCtubMDVuVZke8oN4phOI4axgNYlgXztYUfEYEDgKz0pKSBs3OTNO8guRMe_GC7Q/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:28:18.251758+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

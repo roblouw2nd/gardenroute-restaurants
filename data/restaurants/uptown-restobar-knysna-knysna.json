@@ -1,0 +1,75 @@
+{
+  "id": "uptown-restobar-knysna-knysna",
+  "name": "Uptown Restobar Knysna",
+  "slug": "uptown-restobar-knysna-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "26 Fitchat St, Knysna Central, Knysna, 6570, South Africa",
+  "coordinates": {
+    "lat": -34.0339647,
+    "lng": 23.046876299999997
+  },
+  "phone": "+27 82 492 2023",
+  "email": "",
+  "website": "https://www.facebook.com/Uptownrestobarknysna?mibextid=LQQJ4d",
+  "menu_url": "",
+  "google_place_id": "ChIJjRltYoLreB4R-LFC6bMotrs",
+  "google_rating": 4.6,
+  "google_review_count": 27,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Bar"
+  ],
+  "tags": [
+    "Casual",
+    "Good for groups",
+    "Full bar",
+    "Walk-ins welcome",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "12:00 – 10:00 PM",
+    "tuesday": "12:00 – 10:00 PM",
+    "wednesday": "12:00 – 10:00 PM",
+    "thursday": "12:00 – 10:00 PM",
+    "friday": "12:00 – 10:00 PM",
+    "saturday": "12:00 – 10:00 PM",
+    "sunday": "Closed"
+  },
+  "description_short": "Relaxed restobar in central Knysna serving hearty meals, craft drinks, and good vibes on Fitchat Street.",
+  "description_long": "Uptown Restobar brings a casual, friendly vibe to Knysna's town centre on Fitchat Street. It's the kind of place where you can settle in for a lazy lunch, catch up with mates over craft beers, or enjoy a laid-back dinner without any fuss. The menu covers the bases with crowd-pleasers like burgers, grills, and pub-style favourites, all served with a smile.\n\nThe atmosphere is easygoing and unpretentious—think wooden tables, a full bar, and a soundtrack that keeps things upbeat. Whether you're popping in for a quick bite or lingering over drinks, Uptown strikes that comfortable balance between restobar energy and neighbourhood hangout. It's a solid choice when you want good food and a relaxed time in the heart of Knysna.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjRltYoLreB4R-LFC6bMotrs/photos/Ab43m-uoGE9VTG3gRGtR2Seoex2stsO8LIXEdOIvuBZLcYlyilgaWU-Lg6mqzgXo5BJ3QY9MzQEjLnDIK-Vorwwxpu4MfSeXNcNxzrB_kLEHEpypqiGCnpeE8hQIKrAzmgdgz79WqQynuHGXdCaaS4-E5RZCKDNFg-4tqMJZufiF71MjA658AUZD_1WEtetc_-vC8E-ylwOyvS3kZh5wbsqelRsysyUt2UhimSxUUJJ6-OEHUmImB6Tv1jx6iY6dF7UC3GnL-HdrDkmYP0tHNj8GfoE-XDJOVtOqUsHfy6JXmE4/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjRltYoLreB4R-LFC6bMotrs/photos/Ab43m-uZqkwBvBSiilLt_uYhAW5baVcnBpZi8JNv4olMCRGSe1o4Qls2_CgrlewHV3Bdoc5OkFhP_7dtysPZ_sMp39fViSTPVxLHB22h2E3p_xemjJqdqDwP-ayjD8UmtFi865oUDMbW5kyKgF5s0RGDUOg_ddd9xOQJCG0dYLpSka8iT3IeaNrU2a2qDD3OwtEkTZXembmGJTnE6AtxWU7YyWxIKeRy2cME-yuD033Rzt8c94e1Hr8SktRLAYPZ05LH-2h-f-wKx9VJCNa5uVtvK_yu1cJwV6Ij0Krk8GRjk-s/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjRltYoLreB4R-LFC6bMotrs/photos/Ab43m-sQR8CQa7gyqeAGMa-AisTPffIbeBHeAgSbkAeUsJLP24h1F9yGaXn8oT_3gVklc5ltRtjjkC2ML87BrGZP2WEDrfl-3_j2iFKRax5Yt5Uxe7WS8RUi8cwsDe-qLXDOV4VJaOT0r2bg2lv_5RdWvZ8EwU-IDy0NA0PAe5yX_KBf5dZcW_9a96ejc5z8j_fo0mT5xcuyAjVZSWjU7EMCPT7MjnvqYtY1TnGgELY3pT9pG2QkJUqSiagbOckQy-hw-Hj-WUfRMaD2vnVzeyGrA0P2Ol5VOXkFxdPp30XSECLblgUoMmFvSKRQviXJ08jECR3lPy2tNcysl-pmLKdf22WWlFwqLTRZf226nIUieHQ20OMm_mrO5jtOw2oSLf8Vh-CflrfFeaO6iHr9ROlNpro6XYde1XdJkPqXGYL9NLSYAxweiDkgJuI6R0EyUYdr/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjRltYoLreB4R-LFC6bMotrs/photos/Ab43m-sQn5rO_Fyb7paOXSXgFEBtgBY8Cbkj4dcM85T2tUwa_XLUJbpa_inBUYCqpX68dB_NsYVNjHws4giN_r8HaL9VY7htDFm2b2pW7oz6x8nPo_K7TcH93HOLsQ6TmVKyfJdFpiK-KHlVNj_asZwwMhAeYk8-CKJGbKi17ZN29sPt7EFFpUpEutKFsqs0g4CnXJ7hNqGfH5ocZ1_jnxd3BuVaN9982uRwUrW0x-eNpZm_V8fH4c6A7LyzrLnfx6i6Ev_c5mlg-N50os2fKblltytfDTtiBGwPvcZtS9Lf0K2jjOby5YUZ6Rr3GGTKWbDlVARkPcr1NxegQY93Ve5vzEdvNWs4uMOLpS_3KPZI2SafQlivftnfAUgC9nEQzYRCz1jmW4rxJZrcEogtWqXrh_rxd7RRnS84zF3yBlpOX9HzIVA6gKyuryo3YVZ2jJ-A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJjRltYoLreB4R-LFC6bMotrs/photos/Ab43m-tLve-y394fQ9LYNB1QHFCCn87HjhI7FrKMCJRUDc2lgTYO4Nw6lJjOBG_zh37oOL1x58xRJ-z7JX1BsfpW-hOs8IM_xUgPCGlxsC_xdYUt4ljqakIUj3J67K07s6SopTEmHep6bQxDhb_9KSgWe_I1tGQpd5A7UKvFEh40iAWfaGS_7677KYZE8k3weUJAzQSQRw6Mjwxzy2Lq9DY5UqyMls923Ft8kxaAvnjMAjFox1Ui4HOlKALmhswZWmD4EKQDs91Tx4re417cRYw2W6tm3aqdkQuGWQhQJjUGIRIjHUCEYvbamNNB6yAgXL41aWZa0QZ1W9uxi9KqcZaoyrRZX1f3HvCKDqXVA_EA9ByH6tTBx2qOuUUFM-Uy6ohhR4J9xuc18VPTSDLjaj7grNYBubicr_fXDSOMKanq6W6jwg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:29:20.644598+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

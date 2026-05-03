@@ -1,0 +1,79 @@
+{
+  "id": "red-bridge-brewing-co-knysna",
+  "name": "Red Bridge Brewing Co",
+  "slug": "red-bridge-brewing-co-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "South Africa, 5 Noble St, Knysna Industrial, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.04678700000001,
+    "lng": 23.077168699999998
+  },
+  "phone": "+27 83 997 2697",
+  "email": "",
+  "website": "http://www.redbridgebrewing.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJeennZzfqeB4R47pctW4bQO4",
+  "google_rating": 4.7,
+  "google_review_count": 180,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pizza",
+    "Pub & Grill",
+    "Burgers"
+  ],
+  "tags": [
+    "Outdoor seating",
+    "Dog friendly",
+    "Family friendly",
+    "Casual",
+    "Good for groups",
+    "Local produce",
+    "Wood-fired",
+    "Full bar",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 4:00 PM",
+    "tuesday": "8:00 AM – 4:00 PM",
+    "wednesday": "8:00 AM – 4:00 PM",
+    "thursday": "11:00 AM – 9:00 PM",
+    "friday": "8:00 AM – 9:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  },
+  "description_short": "Knysna's craft brewery serving freshly brewed beers, wood-fired pizzas, and relaxed beer garden vibes in the industrial area.",
+  "description_long": "Tucked away in Knysna's industrial area, Red Bridge Brewing Co is where local craft beer meets laid-back good times. This working brewery serves up a rotating selection of freshly brewed lagers, ales, and seasonal specials, all crafted on-site and best enjoyed in their spacious beer garden. The wood-fired pizzas are a crowd favourite, with generous toppings and perfectly charred crusts that pair beautifully with a cold draught.\n\nThe atmosphere is casual and welcoming, with rustic wooden tables, industrial touches, and a family-friendly vibe that makes it easy to settle in for the afternoon. Whether you're a craft beer enthusiast keen to sample their latest brew or just looking for a relaxed spot with good food and company, Red Bridge delivers without pretension. It's also a popular stop for tourists wanting to take home a few bottles from their on-site liquor store.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeennZzfqeB4R47pctW4bQO4/photos/Ab43m-vS3HHnjigQ8CM5y2CCz-Rp_R3UUToJDGv86mNElHNz0ymzs7PDQBedGER1t-fAm9TfFlyFsMwWERJ93R60PkEw9fWXf2xNSi5lxRqkhaxb4BQv5dtE40zzS_2cdzXBK7PmGObxaUD1oKmUUlJP9FgexS_40dH-XUlZ33hU0VtqvFKzePDyrR7MrqIm1LcxIXwI0ILsZYG7jKZDTiIJIcug5qCLnsxNp6lCSk5WTt_79ntxEtKOlbLxvfKcn9hEZirsha0jYaz6cXyx2QUdRaLIxqR9g5PwxTSfIIjSfMeQYw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeennZzfqeB4R47pctW4bQO4/photos/Ab43m-uPViWL3TXnINlHtXXbtTSEP1SHaCAk8ItPCah95ItKcELkx4f1DrbI3RgDzgrrPZFjr3Ow5ybEReNJ0tUfW9SCLu4bM3CTHqcP4H6KF3c7miTQ9btZvp6GaVxgGcRPOyYnisTll_VNKXrRmRDqIkmkLY7ymg3u4cvrxak_4K7KHS85HqVPThtWxKYwTEoHpzsihT92x3IDVPakGsvomCvbV3c7xWKkCvV9gzarySBdg68qC-X-Wfqhk03XGYIlBoooTdVLJzg_-rJEgykNTigNnggdH0S__NcVVJAIegHmlQ/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeennZzfqeB4R47pctW4bQO4/photos/Ab43m-sH7PkYQdArjkDxj_OU7HoWf1oz8fJRvilGmrF_zrkDXqwlBFwuhzb-DWtkDrWjPLlZgtaAmdkm3ERooAUnkCe6VPTlQPPlqhJPhTSt3_y-EQzQpXZQSBiRSHzXXqPqNEztlK49HqomrJFVSY8cQNCP23Yu_2oRXSEl5awO_sZA0Wp-Qyx0fNyWYnAZbywAOP2YGs-EnukdNIAo1z4XVnDbOtClW3NvTrsf2Sb_dZ6Sm9CE4bsxmgM-RPM9xpiyLkbN-MAV4TGFwzJ-KiVggjkPLGTIHu5MNqJMI73npPhLWg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeennZzfqeB4R47pctW4bQO4/photos/Ab43m-sJIUQpXXoqPj_-A6UAC4wiNIQSlYX1osx-Uj0IiUkkv13LSQpt_t3yojKxUkY4CNUpjeUqAIgf_7ns6f8YUYmU4SCD9MilvljhcZLxJE0Cil8Z_An-laH-jOrD7QAtNr_1g1SAC97DMcIfT12jVZyMB9twIkdJnO28aW2sU0bT5L1tkj-KBPMKeRK2-v748xKpmlQM_hZYUu9kXiRqu9dZMoZoMQKt18XTxWPgvUIkR55iGcwJsdZ7Ily4YkqQ4X3c1XE595t68Tc6wiFvVhsJ2mISwXKEuiwxcHio0i5KBHxxtAowi54PCnpyDvb7DefB_si8wOH_9D-4T6LZoOnnfDadYX1m0Ews1CNXX2L0Nr8QV3oilTwlwArmSBxoPz-GVkBg1nvL0HGvDlFrlFKjKuftJ1WJc5Oo1GoGmUjE9Y5U/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJeennZzfqeB4R47pctW4bQO4/photos/Ab43m-us93MFev1tZUxAivpc_e52Tuwgqo-fRd1t0kouruZca2mnuS-gaz9TwKmE2_tcU9WfqtnKLJKrJxAPV6yeoGBzwlvj9K8-9H4i9iZ0UBlafnf0ENJVRFqk7oCundpGChv0rodIjjaJVt8puEkFfc5KKgZ3QvoOnpK1U7ZxTK0DLoP2obuyE1kJBTThCEiJkFgM3qc92GBCmAi-klH-ifafMksAigT8ujk34rqYPhl2GGumLjmn-0GKHnuf6XRuioreJTbMZgaUpNdSW6nmv_nb4FBmTDSjUUDm9NB6b2g7ndnf2bN7YAU3p6cXB8pF6VC4LDFT6zxmnw7U4ZwP5bcyNPVTyVMkUyZT0CZ3PIyIIDqHGCpucgTL8jM0M-nEbvUUMoOngBP6K3itSxkuwOcQx0lzC6dBuYnDglHRiOTIAOGl/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:29:51.643268+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

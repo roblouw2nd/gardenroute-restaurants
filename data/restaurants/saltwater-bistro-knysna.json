@@ -1,0 +1,75 @@
+{
+  "id": "saltwater-bistro-knysna",
+  "name": "Saltwater Bistro",
+  "slug": "saltwater-bistro-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "08 Gray St, Knysna Central, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0391982,
+    "lng": 23.045206399999998
+  },
+  "phone": "+27 72 558 5443",
+  "email": "",
+  "website": "https://www.rexhotel.co.za/",
+  "menu_url": "",
+  "google_place_id": "ChIJCwf7CADreB4R-QFgV4O_oeQ",
+  "google_rating": 4.2,
+  "google_review_count": 51,
+  "price_level": 2,
+  "cuisine_types": [
+    "Steakhouse",
+    "Burgers",
+    "Mediterranean"
+  ],
+  "tags": [
+    "Casual",
+    "Family friendly",
+    "Good for groups",
+    "Walk-ins welcome",
+    "Takeaway"
+  ],
+  "opening_hours": {
+    "monday": "7:00 AM – 11:30 PM",
+    "tuesday": "7:00 AM – 11:30 PM",
+    "wednesday": "7:00 AM – 11:30 PM",
+    "thursday": "7:00 AM – 11:30 PM",
+    "friday": "Open 24 hours",
+    "saturday": "7:00 AM – 12:00 AM",
+    "sunday": "7:00 AM – 11:30 PM"
+  },
+  "description_short": "Casual bistro in central Knysna serving honest Western fare with warm hospitality and local charm.",
+  "description_long": "Tucked along Gray Street in the heart of Knysna, Saltwater Bistro offers a relaxed dining experience that locals and visitors alike have come to appreciate. The menu focuses on straightforward Western classics executed well, from hearty grills to comforting pasta dishes, all served in a welcoming atmosphere that feels unpretentious and genuine.\n\nThe bistro's central location makes it a convenient spot whether you're exploring Knysna's shops and galleries or need a reliable meal before heading out to the lagoon. The kitchen keeps things simple and satisfying, with generous portions that won't break the bank. It's the kind of place where you can settle in for a leisurely lunch or a casual dinner without any fuss.\n\nPart of the Rex Hotel, Saltwater Bistro benefits from attentive service and a consistent approach to cooking. The setting is comfortable rather than fancy, perfect for families, couples, or friends gathering for a straightforward meal in the centre of town.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJCwf7CADreB4R-QFgV4O_oeQ/photos/Ab43m-uDW5KMSW5i5IHuq3fXtU46q1HJ08v3aYa2XVeq6Bi1lAXfnJPITb90dQPc18zP2sHLUPwyuPvZPvFPU65d6H5-sd-XjArtgwxV7ywhbWcP0EBbNzsIx3nYliReCLZKDwHBQBLpe3hGRNfUyEV32otAcXEBGqXamUtdN4W0IDjspu8CG7JC5HvBXzYauvoqvRu8HfDUIVL724zm-fvCL_bL1zDZVbgrYKS6hvJ1BDHjdqHA059gjEppwatD1HNG1PPc1s1yhmxPadxSATtomJ03pEth9ad37eviB_tVapLk59SQhgq6RBhylMvY0s2GcavMhqnZyTgPaXjnlFsm8-RQ4LAiCUqZING71CifKjj2Tgnv02a0O7V7RplrpJWNuN3hz26ZsQYLCcUbXb2mOMiZd9KWKBEB0fq6tTcPbFY/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJCwf7CADreB4R-QFgV4O_oeQ/photos/Ab43m-tpneUHtKmZILSa1lanjNEDUlvqeBVaIP3Unnmsh3Ls8sjlrcxQMJTiXNncnEFGJshYdjx6NNqVMimeFMANYt1r9OSggWJTnKtLEDIZTAXRpJur28MH9t5bRInK8rCwSIrY_MJbhzP_2WRTd6hjQfuGj1IxrRqEk07OOXOr_KR2u3X-8zlVnN-39g7DNnUf3LmaejRJFyB6DI9iRrbrgkNDRejIqJbxr1JnewtEIhiUaVEK3sCtSJo1EWfxPyukiKcBn3lwaS_Yn_KOUHLdR5Zk1TSkZpnGIQ0IDhymuU-L2A/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJCwf7CADreB4R-QFgV4O_oeQ/photos/Ab43m-t62-oez64Ehpied1mr2wEWM75VtCjVAk8XvdHWgWY7VicQ3TXjNEdua0OvoBmmv9m2qCIg3wMFti78yEWsNK2ZhPsyeNUtnPZC7oxeRpYQ9m_pZs5wZAky6jGPFTjVt-5I5kDgdg4wyvpOpBZGpcQyUdY18TQDkN3i8sbavqFAJPkSzhHrqqUzORMy0oc7-4vLGp3QTEHHFG88VeYbL1UXp0_LcQKC9Z9fGgjlPk_2lP7eWkX7qVNU_sXgPdKxwVZ5dY_TZUOlHzGhCiBjLw4szovKplwg6NRhmNyYAxV4Kz_nvKCwQAK33dITNVtL64qW5YIOK2fQFtWgyb2M9NxgSx4PhswWzdlrmyR6yc0JbtgruWk674224KzcoK3n9i4hwLPicmeLm9dqB2JV2xCB0uc0OUHo83KNsCnCW_fCjik/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJCwf7CADreB4R-QFgV4O_oeQ/photos/Ab43m-ubGlEBGvn5SFRCZ_U8TLFrF6V-cPug3CH7lN4rjrDfNUwYoMBpinC3mTMoMi71QlFT0-lQjD2b0_NHMgJ8SFCJzgGZenSZ3cC_jaD4YehfiNbe3cAyR36tr-o6os5bxJWAmbcXpr8-LhS6-_Y9VRbWRzMJ3z2PUiQsi-oowbZ3sMeot_o7A7KCArDGuFiaRdfbxf4RFFYrWirLeSQ6NTl7FXAg1D3Vq7YtAqK48BqeJtnQ3JqWgwL_HRthDFIFDf6CQelao82rHdq7dxoD_yXHRbIOLh7WCT1b-TuPzndQVfxH7rmOmRAeOlUpnUIeeYBlU1Tr--BahnfKyi4sLiTaWNTdNuWptjYM7MagHVgKxbW-4Sk7YgKnMvuuVHs1YZWVVCDC8kHB6iJKU0D4funLtADItMNlFUqJN9cwFv8cAWZTFEIrsCBcZvtx5ZOi/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJCwf7CADreB4R-QFgV4O_oeQ/photos/Ab43m-voMhfdnKy-gnQ9X9ipzAH0EjvDjaXB7H1i23hes8CAvXtRmz_vJ-EJJh006-A0CTvwETAVdkbCUtswWw-PpyjQ5Fwt4g9E9ddSBRZccGx0j6dzGmuaJ4auGX0wMoTZe5xe2my-8SSNB5PivMo5tnOHFZ84hNR9fvKFHYBVkrBgehFMLO8vNOdvyF2Ph05UIh1Ezpf8yEBYosOkyPlMmtrtJrw1SX-DfGxR1oKQf1wAxL_w7Xbg6SNPFYziQYsDmL_S2-csWhjY5Totud7xAjdhDitQImBbFT7xZiivmX_afSIgYsrBqZUHuWYGjo9tzBAQy1Wnc1A0Y7ocKVxEdsAT4722lcv_SJXl9xo7v9fIE7rW4s4KAzYtX8XgQWFXuVtnxPOE5hn3b8iLwOiggMHAzM1dKMECv6lkvy5T_zOXDg/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:27:46.620067+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}

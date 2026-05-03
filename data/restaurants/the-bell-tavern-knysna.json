@@ -1,0 +1,79 @@
+{
+  "id": "the-bell-tavern-knysna",
+  "name": "The Bell Tavern",
+  "slug": "the-bell-tavern-knysna",
+  "town": "Knysna",
+  "region": "Garden Route",
+  "address": "169 Lower Duthie Dr, Belvidere Estate, Knysna, 6571, South Africa",
+  "coordinates": {
+    "lat": -34.0471071,
+    "lng": 22.9975891
+  },
+  "phone": "",
+  "email": "",
+  "website": "https://belvidere.co.za/bell-tavern-knysna/",
+  "menu_url": "",
+  "google_place_id": "ChIJodh2mUuVeB4R9OGNB-D9_z8",
+  "google_rating": 4.3,
+  "google_review_count": 628,
+  "price_level": 2,
+  "cuisine_types": [
+    "Pub & Grill",
+    "Burgers",
+    "Seafood"
+  ],
+  "tags": [
+    "Lagoon views",
+    "Outdoor seating",
+    "Family friendly",
+    "Dog friendly",
+    "Casual",
+    "Good for groups",
+    "Full bar",
+    "Walk-ins welcome",
+    "Open Sundays"
+  ],
+  "opening_hours": {
+    "monday": "8:00 AM – 9:30 PM",
+    "tuesday": "8:00 AM – 9:30 PM",
+    "wednesday": "8:00 AM – 9:30 PM",
+    "thursday": "8:00 AM – 9:30 PM",
+    "friday": "8:00 AM – 9:30 PM",
+    "saturday": "8:00 AM – 9:30 PM",
+    "sunday": "8:00 AM – 4:00 PM"
+  },
+  "description_short": "Historic pub on Belvidere Estate serving hearty meals, craft beers, and stunning lagoon views.",
+  "description_long": "Tucked away on the historic Belvidere Estate, The Bell Tavern is a proper Knysna institution with character to spare. The building itself has stories to tell, and the lagoon views from the deck make it clear why locals have been gathering here for decades. Inside, it's all dark wood, a well-worn bar, and that comfortable pub atmosphere that invites you to stay longer than planned.\n\nThe menu leans into classic pub fare done right — think generous burgers, fish and chips, hearty steaks, and proper Sunday roasts. They pour a decent selection of craft beers and local wines, and the staff know their regulars by name. Whether you're settling in for a lazy lunch overlooking the water or meeting friends for sundowners, the vibe is relaxed and unpretentious.\n\nThe location on the Belvidere Estate adds to the appeal — it's a short drive from central Knysna but feels like a world away. Families appreciate the spacious setting, and the outdoor seating is perfect for soaking up Garden Route sunshine. It's the kind of place where you come for a quick drink and end up staying for dinner.",
+  "photos": [
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJodh2mUuVeB4R9OGNB-D9_z8/photos/Ab43m-tGFK8UyDLFrfJ98-2XwiMVTG7poDIrc9xXQOcZEnUAfobR9RGU5Zu2216QSMwvgK4GEgdKsdSbtduH2NFrgOp-a3_Uc40Jn7eNPzYqCBVPwy89ryt9Faztig6TxpfwfxzpttyNAka5s92lV2BfANuxqpcDAYeuizErmXOwhsHmR97glx8iuBqG4vBbMGPUBK6F3_CVSje5vezdmvGBNxF90fbGg0Le4yUwA9aOc2hfovnNJwQo7f3SXy4VPE0g7g0X9koBmiXioWh35aEEpkyrdziHtmZ64Jy9JDspMqYlvw/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJodh2mUuVeB4R9OGNB-D9_z8/photos/Ab43m-ufKYwD9TglYnrD-0wUALuYTI5xgfUGPLFf_PIHDslBO3v1uy4Uu0M1jN0h9THwo3vRq7Cdx8E_t-QFVvqJz13wif_TV90hHcNkmwM7wHEhQjdSX6cv0IbEMdSy8l78jOP8oCkB7mkZCiUw5wZcWt9Tt4JdCsUBlRSsFiFpdGMl3HwiaoL4IH9hmlSOMx2AIQ8D-tDBv9tLzD1cnWwv0kBxVG_St1SUU4a9aRoFKwnF84BUpDdIoh9NvH62vaLW6IBW9pdJEwTuW53UQcYNrRg9lWRIRNA1H6xeKzLfurcE8g/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJodh2mUuVeB4R9OGNB-D9_z8/photos/Ab43m-ttV8TSg-FmAmJiIy3TLnCqayvcDuD2E9tvkwh6SiKK8Zjz8SoyoptTqEbgMB7KGtneDF_PIJAaoGVB3POtgT2YoWF3mSHUGqIHu-NMUb-n41CgDdboNpt3nuMpCToKZUVNzUyZZe4yjTWO5-kLDQ3IYkN3PH0DIrEoOcr9xF868pmuDw5DDTGoUdJePRHthf-Bll1e2PdLkGK12h_DyuH_0xZZI9dHs_n8dW64HOqC37TFglhFUmIHAsoodey9GYJB_ZibSraOfRy3Y4VVKsa2bH_aePb_1HpbbC0UO8eHACqlMjmM3qM3z88KggkMQS0PjotSNAkiux9B4KYXOLfqjaFnPLIvpFUli-_41gbD1yhhC5fu8u5ZEb-8Q1dNHqbe_XU4zYq_u7cPmfMKgY0y-ntCDOzhxcv9tXFxkAC3Eeix8L1lD_jo6ZZJGMAq/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJodh2mUuVeB4R9OGNB-D9_z8/photos/Ab43m-vlKufAvIcQutSqEz-yrk30_2UcU6OrF31pt3VxWtgdJYUJEFv6fnM5yite3RN4gqfkj5tOcbOrGWNFiroDLeieE8KWpc92X8RTPONjg05aDWmUMWDvTcrjL1F_xbGIXkTTgmYNitLK-JqZhbA1QZpiFY9b_7Ng7pq_SfnhQQCnAL3xo4j9aiXYd0hrGm0zVu59jsXE0-Mzgtw48p2k2oun58QMXXdwSszEDL3AQvxW5EJbKvy8aBdZY11dpt9D87M8XEDWtt20VqD0lJiMy7Wfap8_hqYwmXv9ue_EKK0Y7Dps8xRDj6Mjtfq-1pVPXNMvNNhjyES6VbONgshJbyL8Lemreh5Yjnr4nPHUXdG6fC5v11xhB9Mkj2BTwlN6byp2rLsT5obngsGPN8GFMoUKczip7lwil-JO6gnAqzJFdA/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    },
+    {
+      "url": "https://places.googleapis.com/v1/places/ChIJodh2mUuVeB4R9OGNB-D9_z8/photos/Ab43m-sZqpJ8JylZf2QPcm7bAlfQnW5eqlAgjKRdvQQe0qawElEEg7Z6mgTXykhu4gyQf4vDA9_twsNWllbTyiiksNQas87KEVP4fRRD-kzb7H71AHlgLDT80CkTwcfQTgyuOmdGnRhUWVxJ7aKozH9sza9xTF3cK9kwqkncFrwXYQfPZEZmGqygV8a-lTTJjeOQPUMI5HCIPLxOvVRXciAuwteLFsa2gcFdXN0ELOtOlpzdtBsHbeFo7eRz-Ab8vNynee07aFbUoCGDsHREmIbwwyF699X6y44srw2QjLTOrC_-RjXMsPuTDqy-GZ482ypMwnPtCLVm-mtGLNRuyBKIl2OhbbGr4CGu1gJ9Tg5bQqzjeG0A0x54fu47ZoZlVRlrVJicbchaNb0mxLgb76HKJM3e69Ej8fItm1BhOShIpULJww/media?maxWidthPx=1200&key=AIzaSyCfitWH62zFD8330oP9XZY2pUH6YPdD-hQ",
+      "source": "google",
+      "caption": ""
+    }
+  ],
+  "featured": false,
+  "last_updated": "2026-05-03T02:28:35.494087+00:00",
+  "data_sources": [
+    "google_places"
+  ]
+}
