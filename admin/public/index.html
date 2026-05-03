@@ -1,176 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Admin — Garden Route Restaurants</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --ocean: #0d7ec4; --ocean-dark: #0b6ca8;
-      --gold: #f59e0b; --gold-bg: #fef3c7;
-      --green: #16a34a; --green-bg: #dcfce7;
-      --red: #dc2626; --red-bg: #fee2e2;
-      --border: #e8e5e0; --bg: #f7f6f3; --sidebar-w: 220px;
-    }
-    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: #111; display: flex; min-height: 100vh; }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Admin — Garden Route Restaurants</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ocean:#0d7ec4;--ocean-dark:#0b6ca8;--ocean-light:#e0f2fe;
+  --gold:#f59e0b;--gold-bg:#fef3c7;--gold-dark:#92400e;
+  --green:#16a34a;--green-bg:#dcfce7;
+  --red:#dc2626;--red-bg:#fee2e2;
+  --purple:#7c3aed;--purple-bg:#ede9fe;
+  --border:#e8e5e0;--bg:#f7f6f3;--sidebar-w:230px;
+  --card:#fff;--text:#111;--muted:#888;
+}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh;font-size:14px}
 
-    /* ── Sidebar ── */
-    .sidebar {
-      width: var(--sidebar-w); flex-shrink: 0; background: #1a1a2e; color: #c8ccd8;
-      display: flex; flex-direction: column; padding: 0; min-height: 100vh; position: fixed; top: 0; left: 0; bottom: 0;
-    }
-    .sidebar-logo { padding: 20px 20px 16px; font-size: 15px; font-weight: 700; color: #fff; border-bottom: 1px solid #2a2a45; display: flex; align-items: center; gap: 8px; }
-    .sidebar-logo span { font-size: 18px; }
-    .sidebar-nav { flex: 1; padding: 12px 0; }
-    .nav-item {
-      display: flex; align-items: center; gap: 10px; padding: 10px 20px;
-      font-size: 13px; font-weight: 500; cursor: pointer; transition: background 0.15s, color 0.15s;
-      border-left: 3px solid transparent; color: #9ca3af;
-    }
-    .nav-item:hover { background: #252540; color: #fff; }
-    .nav-item.active { background: #252540; color: #fff; border-left-color: var(--ocean); }
-    .nav-item .icon { font-size: 15px; width: 18px; text-align: center; }
-    .sidebar-footer { padding: 16px 20px; border-top: 1px solid #2a2a45; font-size: 11px; color: #666; }
-    .sidebar-footer a { color: var(--ocean); text-decoration: none; }
+/* ── Sidebar ── */
+.sidebar{width:var(--sidebar-w);flex-shrink:0;background:#111827;color:#9ca3af;display:flex;flex-direction:column;min-height:100vh;position:fixed;top:0;left:0;bottom:0;z-index:100}
+.sidebar-logo{padding:18px 20px 16px;font-size:15px;font-weight:700;color:#fff;border-bottom:1px solid #1f2937;display:flex;align-items:center;gap:8px;letter-spacing:-.3px}
+.sidebar-logo span{font-size:20px}
+.nav-group{padding:8px 0}
+.nav-label{padding:6px 20px 4px;font-size:10px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:#4b5563}
+.nav-item{display:flex;align-items:center;gap:10px;padding:9px 20px;font-size:13px;font-weight:500;cursor:pointer;transition:background .12s,color .12s;border-left:3px solid transparent;color:#9ca3af;user-select:none}
+.nav-item:hover{background:#1f2937;color:#e5e7eb}
+.nav-item.active{background:#1f2937;color:#fff;border-left-color:var(--ocean)}
+.nav-item .icon{font-size:15px;width:18px;text-align:center;flex-shrink:0}
+.nav-badge{margin-left:auto;background:#dc2626;color:#fff;font-size:10px;font-weight:700;padding:1px 6px;border-radius:999px;min-width:18px;text-align:center}
+.sidebar-footer{padding:14px 20px;border-top:1px solid #1f2937;font-size:11px;color:#4b5563;margin-top:auto}
+.sidebar-footer a{color:var(--ocean);text-decoration:none}
 
-    /* ── Main ── */
-    .main { margin-left: var(--sidebar-w); flex: 1; display: flex; flex-direction: column; min-height: 100vh; }
-    .topbar { background: #fff; border-bottom: 1px solid var(--border); padding: 0 28px; height: 56px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 50; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-    .topbar h1 { font-size: 16px; font-weight: 700; color: #111; }
-    .topbar-actions { display: flex; align-items: center; gap: 10px; }
-    .content { padding: 28px; flex: 1; }
+/* ── Main ── */
+.main{margin-left:var(--sidebar-w);flex:1;display:flex;flex-direction:column;min-height:100vh}
+.topbar{background:#fff;border-bottom:1px solid var(--border);padding:0 28px;height:54px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:50;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.topbar h1{font-size:16px;font-weight:700}
+.topbar-right{display:flex;align-items:center;gap:10px}
+.content{padding:24px 28px;flex:1}
 
-    /* ── Tabs ── */
-    .tab-panel { display: none; }
-    .tab-panel.active { display: block; }
+/* ── Tabs ── */
+.tab-panel{display:none}
+.tab-panel.active{display:block}
 
-    /* ── Stats ── */
-    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 28px; }
-    .stat-card { background: #fff; border-radius: 12px; padding: 20px; border: 1px solid var(--border); }
-    .stat-value { font-size: 32px; font-weight: 800; color: #111; line-height: 1; margin-bottom: 4px; }
-    .stat-label { font-size: 12px; color: #888; font-weight: 500; }
-    .stat-card.gold .stat-value { color: var(--gold); }
-    .stat-card.ocean .stat-value { color: var(--ocean); }
-    .stat-card.green .stat-value { color: var(--green); }
+/* ── Stats grid ── */
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:24px}
+.stat-card{background:var(--card);border-radius:12px;padding:18px;border:1px solid var(--border)}
+.stat-value{font-size:28px;font-weight:800;line-height:1;margin-bottom:4px}
+.stat-label{font-size:11px;color:var(--muted);font-weight:500}
+.stat-sub{font-size:10px;color:#bbb;margin-top:2px}
+.stat-card.warn .stat-value{color:var(--red)}
+.stat-card.gold .stat-value{color:var(--gold)}
+.stat-card.ocean .stat-value{color:var(--ocean)}
+.stat-card.green .stat-value{color:var(--green)}
+.stat-card.purple .stat-value{color:var(--purple)}
 
-    /* ── Section headers ── */
-    .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
-    .section-header h2 { font-size: 15px; font-weight: 700; }
+/* ── Buttons ── */
+.btn{display:inline-flex;align-items:center;gap:5px;padding:8px 14px;border-radius:8px;font-size:12px;font-weight:600;font-family:inherit;cursor:pointer;border:none;transition:all .15s;white-space:nowrap}
+.btn-primary{background:var(--ocean);color:#fff}.btn-primary:hover{background:var(--ocean-dark)}
+.btn-danger{background:var(--red-bg);color:var(--red)}.btn-danger:hover{background:#fecaca}
+.btn-success{background:var(--green-bg);color:var(--green)}.btn-success:hover{background:#bbf7d0}
+.btn-ghost{background:#f5f4f0;color:#555;border:1px solid var(--border)}.btn-ghost:hover{background:#eeede9}
+.btn-gold{background:var(--gold-bg);color:var(--gold-dark)}.btn-gold:hover{background:#fde68a}
+.btn-purple{background:var(--purple-bg);color:var(--purple)}.btn-purple:hover{background:#ddd6fe}
+.btn-sm{padding:5px 10px;font-size:11px;border-radius:6px}
+.btn-xs{padding:3px 8px;font-size:10px;border-radius:5px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
 
-    /* ── Buttons ── */
-    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 8px; font-size: 12px; font-weight: 600; font-family: inherit; cursor: pointer; border: none; transition: all 0.15s; }
-    .btn-primary { background: var(--ocean); color: #fff; }
-    .btn-primary:hover { background: var(--ocean-dark); }
-    .btn-danger { background: var(--red-bg); color: var(--red); }
-    .btn-danger:hover { background: #fecaca; }
-    .btn-success { background: var(--green-bg); color: var(--green); }
-    .btn-success:hover { background: #bbf7d0; }
-    .btn-ghost { background: #f5f4f0; color: #555; border: 1px solid var(--border); }
-    .btn-ghost:hover { background: #eeede9; }
-    .btn-gold { background: var(--gold-bg); color: #92400e; }
-    .btn-gold:hover { background: #fde68a; }
-    .btn-sm { padding: 5px 10px; font-size: 11px; }
+/* ── Filter bar ── */
+.filter-bar{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.filter-bar input,.filter-bar select{padding:8px 12px;font-size:12px;font-family:inherit;border:1px solid var(--border);border-radius:8px;background:#fff;outline:none;color:var(--text)}
+.filter-bar input{flex:1;min-width:180px}
+.filter-bar input:focus,.filter-bar select:focus{border-color:var(--ocean)}
 
-    /* ── Search/filter bar ── */
-    .filter-bar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
-    .filter-bar input, .filter-bar select {
-      padding: 8px 12px; font-size: 12px; font-family: inherit;
-      border: 1px solid var(--border); border-radius: 8px; background: #fff; outline: none;
-    }
-    .filter-bar input { flex: 1; min-width: 200px; }
-    .filter-bar input:focus, .filter-bar select:focus { border-color: var(--ocean); }
+/* ── Table ── */
+.table-wrap{background:var(--card);border-radius:12px;border:1px solid var(--border);overflow:hidden}
+.table-wrap table{width:100%;border-collapse:collapse;font-size:12px}
+th{background:#f9f8f5;padding:10px 14px;text-align:left;font-size:10px;font-weight:600;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;border-bottom:1px solid var(--border)}
+td{padding:10px 14px;border-bottom:1px solid #f5f4f0;vertical-align:middle}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#faf9f7}
+.actions{display:flex;gap:5px;flex-wrap:wrap}
 
-    /* ── Table ── */
-    .table-wrap { background: #fff; border-radius: 12px; border: 1px solid var(--border); overflow: hidden; }
-    table { width: 100%; border-collapse: collapse; font-size: 12px; }
-    th { background: #f9f8f5; padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: #888; letter-spacing: 0.5px; text-transform: uppercase; border-bottom: 1px solid var(--border); }
-    td { padding: 11px 14px; border-bottom: 1px solid #f5f4f0; vertical-align: middle; }
-    tr:last-child td { border-bottom: none; }
-    tr:hover td { background: #faf9f7; }
-    .badge { display: inline-flex; align-items: center; gap: 3px; padding: 2px 8px; border-radius: 999px; font-size: 10px; font-weight: 600; }
-    .badge-gold { background: var(--gold-bg); color: #92400e; }
-    .badge-gray { background: #f3f4f6; color: #6b7280; }
-    .badge-green { background: var(--green-bg); color: var(--green); }
-    .badge-red { background: var(--red-bg); color: var(--red); }
-    .rating-cell { color: var(--gold); font-weight: 600; }
-    .actions { display: flex; gap: 6px; }
+/* ── Badges ── */
+.badge{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:999px;font-size:10px;font-weight:600}
+.badge-gold{background:var(--gold-bg);color:var(--gold-dark)}
+.badge-gray{background:#f3f4f6;color:#6b7280}
+.badge-green{background:var(--green-bg);color:var(--green)}
+.badge-red{background:var(--red-bg);color:var(--red)}
+.badge-ocean{background:var(--ocean-light);color:var(--ocean)}
+.badge-purple{background:var(--purple-bg);color:var(--purple)}
+.rating-cell{color:var(--gold);font-weight:600}
 
-    /* ── Modal ── */
-    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 1000; align-items: center; justify-content: center; }
-    .modal-overlay.open { display: flex; }
-    .modal { background: #fff; border-radius: 16px; width: 580px; max-width: 95vw; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
-    .modal-header { padding: 20px 24px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
-    .modal-header h3 { font-size: 16px; font-weight: 700; }
-    .modal-close { background: none; border: none; font-size: 20px; cursor: pointer; color: #aaa; line-height: 1; }
-    .modal-body { padding: 20px 24px; display: flex; flex-direction: column; gap: 14px; }
-    .modal-footer { padding: 16px 24px; border-top: 1px solid var(--border); display: flex; justify-content: flex-end; gap: 10px; }
-    .form-group { display: flex; flex-direction: column; gap: 5px; }
-    .form-group label { font-size: 11px; font-weight: 600; color: #555; text-transform: uppercase; letter-spacing: 0.4px; }
-    .form-group input, .form-group textarea, .form-group select {
-      padding: 9px 12px; font-size: 13px; font-family: inherit;
-      border: 1px solid var(--border); border-radius: 8px; background: #faf9f7; outline: none; color: #111;
-    }
-    .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--ocean); background: #fff; }
-    .form-group textarea { min-height: 80px; resize: vertical; }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-    .toggle-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; background: #faf9f7; border-radius: 8px; border: 1px solid var(--border); }
-    .toggle-row label { font-size: 13px; font-weight: 500; }
-    .toggle { position: relative; width: 40px; height: 22px; }
-    .toggle input { opacity: 0; width: 0; height: 0; }
-    .slider { position: absolute; inset: 0; background: #ddd; border-radius: 22px; cursor: pointer; transition: background 0.2s; }
-    .slider::before { content: ''; position: absolute; height: 16px; width: 16px; left: 3px; bottom: 3px; background: #fff; border-radius: 50%; transition: transform 0.2s; }
-    input:checked + .slider { background: var(--ocean); }
-    input:checked + .slider::before { transform: translateX(18px); }
+/* ── Modal ── */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:flex-start;justify-content:center;padding:40px 20px;overflow-y:auto}
+.modal-overlay.open{display:flex}
+.modal{background:#fff;border-radius:16px;width:680px;max-width:95vw;box-shadow:0 20px 60px rgba(0,0,0,.2);position:relative}
+.modal-header{padding:20px 24px 0;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.modal-header h3{font-size:16px;font-weight:700}
+.modal-tabs{display:flex;gap:0;padding:0 24px;margin-top:14px;border-bottom:1px solid var(--border)}
+.modal-tab{padding:8px 14px;font-size:12px;font-weight:600;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s}
+.modal-tab.active{color:var(--ocean);border-bottom-color:var(--ocean)}
+.modal-body{padding:20px 24px;display:flex;flex-direction:column;gap:14px;max-height:65vh;overflow-y:auto}
+.modal-footer{padding:14px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.modal-close{background:none;border:none;font-size:22px;cursor:pointer;color:#aaa;line-height:1;padding:0 4px}
+.modal-close:hover{color:#555}
 
-    /* ── Scraper ── */
-    .scraper-card { background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 24px; margin-bottom: 20px; }
-    .scraper-card h3 { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
-    .scraper-card p { font-size: 12px; color: #777; margin-bottom: 16px; }
-    .scraper-btns { display: flex; gap: 10px; margin-bottom: 16px; }
-    .log-box {
-      background: #0f172a; color: #94a3b8; font-family: 'SF Mono', 'Fira Code', monospace;
-      font-size: 11px; line-height: 1.6; padding: 14px; border-radius: 8px;
-      max-height: 320px; overflow-y: auto; white-space: pre-wrap; word-break: break-all;
-    }
-    .log-box .log-ok { color: #4ade80; }
-    .log-box .log-err { color: #f87171; }
-    .scraper-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 4px 12px; border-radius: 999px; }
-    .scraper-status.idle { background: #f3f4f6; color: #6b7280; }
-    .scraper-status.running { background: #dcfce7; color: #16a34a; }
-    .pulse { width: 7px; height: 7px; background: currentColor; border-radius: 50%; animation: pulse 1s infinite; }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+/* ── Forms ── */
+.form-group{display:flex;flex-direction:column;gap:5px}
+.form-group label{font-size:10px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.4px}
+.form-group input,.form-group textarea,.form-group select{padding:9px 12px;font-size:13px;font-family:inherit;border:1px solid var(--border);border-radius:8px;background:#faf9f7;outline:none;color:var(--text);transition:border-color .15s,background .15s}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{border-color:var(--ocean);background:#fff}
+.form-group textarea{min-height:80px;resize:vertical;line-height:1.55}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.toggle-row{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:#faf9f7;border-radius:8px;border:1px solid var(--border)}
+.toggle-row label:first-child{font-size:13px;font-weight:500}
+.toggle{position:relative;width:38px;height:21px;flex-shrink:0}
+.toggle input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;background:#ddd;border-radius:21px;cursor:pointer;transition:background .2s}
+.slider::before{content:'';position:absolute;height:15px;width:15px;left:3px;bottom:3px;background:#fff;border-radius:50%;transition:transform .2s;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+input:checked+.slider{background:var(--ocean)}
+input:checked+.slider::before{transform:translateX(17px)}
 
-    /* ── Empty state ── */
-    .empty-state { text-align: center; padding: 60px 20px; color: #bbb; font-size: 13px; }
-    .empty-state .icon { font-size: 40px; margin-bottom: 12px; }
+/* ── Hours editor ── */
+.hours-grid{display:grid;gap:6px}
+.hours-row{display:grid;grid-template-columns:100px 1fr;align-items:center;gap:10px;padding:6px 10px;background:#faf9f7;border-radius:7px;border:1px solid var(--border)}
+.hours-day{font-size:12px;font-weight:600;color:#555;text-transform:capitalize}
+.hours-input{padding:6px 10px;font-size:12px;font-family:inherit;border:1px solid var(--border);border-radius:6px;background:#fff;outline:none;flex:1}
+.hours-input:focus{border-color:var(--ocean)}
 
-    /* ── Toast ── */
-    #toast { position: fixed; bottom: 24px; right: 24px; background: #111; color: #fff; padding: 12px 18px; border-radius: 10px; font-size: 13px; font-weight: 500; z-index: 9999; transform: translateY(80px); opacity: 0; transition: all 0.3s; pointer-events: none; }
-    #toast.show { transform: translateY(0); opacity: 1; }
-    #toast.success { background: var(--green); }
-    #toast.error { background: var(--red); }
+/* ── Image manager ── */
+.img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
+.img-item{position:relative;border-radius:8px;overflow:hidden;border:2px solid var(--border);aspect-ratio:4/3;background:#f5f4f0;cursor:pointer}
+.img-item img{width:100%;height:100%;object-fit:cover;display:block}
+.img-item .img-del{position:absolute;top:4px;right:4px;background:rgba(220,38,38,.85);color:#fff;border:none;border-radius:5px;font-size:11px;padding:2px 6px;cursor:pointer;font-weight:700;opacity:0;transition:opacity .15s}
+.img-item:hover .img-del{opacity:1}
+.img-item.hero::after{content:'HERO';position:absolute;bottom:4px;left:4px;background:rgba(0,0,0,.6);color:#fff;font-size:9px;font-weight:700;padding:2px 5px;border-radius:4px}
+.img-upload-zone{border:2px dashed var(--border);border-radius:8px;padding:20px;text-align:center;cursor:pointer;transition:border-color .15s,background .15s;aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.img-upload-zone:hover,.img-upload-zone.drag{border-color:var(--ocean);background:var(--ocean-light)}
+.img-upload-zone .icon{font-size:24px}
+.img-upload-zone p{font-size:11px;color:var(--muted)}
+input[type=file]{display:none}
 
-    /* ── Loading ── */
-    .loading { display: flex; align-items: center; justify-content: center; padding: 60px; color: #bbb; font-size: 13px; gap: 8px; }
-    .spinner { width: 18px; height: 18px; border: 2px solid #e5e7eb; border-top-color: var(--ocean); border-radius: 50%; animation: spin 0.7s linear infinite; }
-    @keyframes spin { to { transform: rotate(360deg); } }
-  </style>
+/* ── Rich text area ── */
+.rich-toolbar{display:flex;gap:4px;padding:8px 10px;background:#f9f8f5;border:1px solid var(--border);border-bottom:none;border-radius:8px 8px 0 0;flex-wrap:wrap}
+.rich-btn{padding:4px 8px;font-size:11px;font-family:inherit;background:#fff;border:1px solid var(--border);border-radius:5px;cursor:pointer;font-weight:600}
+.rich-btn:hover{background:#f0f0f0}
+.rich-area{padding:12px;font-size:13px;font-family:inherit;border:1px solid var(--border);border-radius:0 0 8px 8px;background:#fff;outline:none;min-height:200px;resize:vertical;line-height:1.6;width:100%}
+.rich-area:focus{border-color:var(--ocean)}
+
+/* ── Priority input ── */
+.priority-input{width:60px;padding:4px 8px;font-size:12px;border:1px solid var(--border);border-radius:6px;text-align:center;font-family:inherit}
+.priority-input:focus{outline:none;border-color:var(--ocean)}
+
+/* ── Scraper ── */
+.scraper-card{background:var(--card);border-radius:12px;border:1px solid var(--border);padding:22px;margin-bottom:18px}
+.scraper-card h3{font-size:14px;font-weight:700;margin-bottom:5px}
+.scraper-card p{font-size:12px;color:var(--muted);margin-bottom:14px;line-height:1.5}
+.log-box{background:#0f172a;color:#94a3b8;font-family:'SF Mono','Fira Code',monospace;font-size:11px;line-height:1.6;padding:14px;border-radius:8px;max-height:280px;overflow-y:auto;white-space:pre-wrap;word-break:break-all}
+.log-ok{color:#4ade80}.log-err{color:#f87171}
+.scraper-status{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:4px 12px;border-radius:999px}
+.scraper-status.idle{background:#f3f4f6;color:#6b7280}
+.scraper-status.running{background:var(--green-bg);color:var(--green)}
+.pulse{width:7px;height:7px;background:currentColor;border-radius:50%;animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* ── Blog/review cards ── */
+.content-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.content-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.content-card h4{font-size:14px;font-weight:700;line-height:1.3}
+.content-card .meta{font-size:11px;color:var(--muted)}
+.content-card .excerpt{font-size:12px;color:#555;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.content-card .card-actions{display:flex;gap:6px;margin-top:auto;padding-top:8px;border-top:1px solid #f5f4f0}
+
+/* ── Empty state ── */
+.empty-state{text-align:center;padding:50px 20px;color:#bbb;font-size:13px}
+.empty-state .icon{font-size:36px;margin-bottom:10px}
+.empty-state p{font-size:12px;color:#ddd;margin-top:6px}
+
+/* ── Loading ── */
+.loading{display:flex;align-items:center;justify-content:center;padding:50px;color:#bbb;font-size:12px;gap:8px}
+.spinner{width:16px;height:16px;border:2px solid #e5e7eb;border-top-color:var(--ocean);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── Toast ── */
+#toast{position:fixed;bottom:24px;right:24px;background:#111;color:#fff;padding:11px 16px;border-radius:10px;font-size:13px;font-weight:500;z-index:9999;transform:translateY(80px);opacity:0;transition:all .25s;pointer-events:none;max-width:320px}
+#toast.show{transform:translateY(0);opacity:1}
+#toast.success{background:var(--green)}
+#toast.error{background:var(--red)}
+
+/* ── Section header ── */
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;gap:10px}
+.section-header h2{font-size:15px;font-weight:700}
+
+/* ── Confirm dialog ── */
+.confirm-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:2000;align-items:center;justify-content:center}
+.confirm-overlay.open{display:flex}
+.confirm-box{background:#fff;border-radius:14px;padding:24px;width:360px;max-width:90vw;box-shadow:0 12px 40px rgba(0,0,0,.15);text-align:center}
+.confirm-box h4{font-size:15px;font-weight:700;margin-bottom:8px}
+.confirm-box p{font-size:13px;color:var(--muted);margin-bottom:20px;line-height:1.5}
+.confirm-actions{display:flex;gap:10px;justify-content:center}
+
+/* ── Thumbnail in table ── */
+.tbl-thumb{width:44px;height:36px;object-fit:cover;border-radius:6px;background:#f0ede8;display:block;flex-shrink:0}
+.tbl-thumb-placeholder{width:44px;height:36px;border-radius:6px;background:#f0ede8;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.tbl-name{display:flex;align-items:center;gap:10px}
+</style>
 </head>
 <body>
 
 <!-- Sidebar -->
 <aside class="sidebar">
   <div class="sidebar-logo"><span>🌊</span> GR Admin</div>
-  <nav class="sidebar-nav">
-    <div class="nav-item active" data-tab="dashboard"><span class="icon">📊</span> Dashboard</div>
-    <div class="nav-item" data-tab="restaurants"><span class="icon">🍽</span> Restaurants</div>
-    <div class="nav-item" data-tab="featured"><span class="icon">★</span> Featured</div>
-    <div class="nav-item" data-tab="submissions"><span class="icon">📥</span> Submissions</div>
-    <div class="nav-item" data-tab="scraper"><span class="icon">🔄</span> Scraper</div>
+  <nav>
+    <div class="nav-group">
+      <div class="nav-label">Overview</div>
+      <div class="nav-item active" data-tab="dashboard"><span class="icon">📊</span> Dashboard</div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-label">Restaurants</div>
+      <div class="nav-item" data-tab="restaurants"><span class="icon">🍽</span> All Restaurants</div>
+      <div class="nav-item" data-tab="featured"><span class="icon">★</span> Featured & Home</div>
+      <div class="nav-item" data-tab="submissions"><span class="icon">📥</span> Submissions <span class="nav-badge" id="sub-badge" style="display:none">0</span></div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-label">Content</div>
+      <div class="nav-item" data-tab="blogs"><span class="icon">✍️</span> Blog Posts</div>
+      <div class="nav-item" data-tab="reviews"><span class="icon">⭐</span> Critic Reviews</div>
+    </div>
+    <div class="nav-group">
+      <div class="nav-label">Tools</div>
+      <div class="nav-item" data-tab="scraper"><span class="icon">🔄</span> Scraper</div>
+    </div>
   </nav>
   <div class="sidebar-footer">
-    <a href="http://localhost:4321" target="_blank">↗ View site</a><br /><br />
+    <a href="http://localhost:4321" target="_blank">↗ View site (dev)</a><br/><br/>
     gardenroute-restaurants.co.za
   </div>
 </aside>
@@ -179,102 +243,210 @@
 <div class="main">
   <div class="topbar">
     <h1 id="page-title">Dashboard</h1>
-    <div class="topbar-actions" id="topbar-actions"></div>
+    <div class="topbar-right">
+      <button class="btn btn-ghost btn-sm" onclick="refreshAll()">↻ Refresh</button>
+      <button class="btn btn-primary btn-sm" onclick="openPublish()">🚀 Publish to live site</button>
+    </div>
   </div>
   <div class="content">
 
-    <!-- Dashboard -->
+    <!-- DASHBOARD -->
     <div class="tab-panel active" id="tab-dashboard">
-      <div class="stats-grid" id="stats-grid">
-        <div class="loading"><div class="spinner"></div> Loading…</div>
-      </div>
-      <div class="section-header"><h2>Recently Added</h2></div>
-      <div class="table-wrap" id="recent-table"><div class="loading"><div class="spinner"></div></div></div>
+      <div class="stats-grid" id="stats-grid"><div class="loading"><div class="spinner"></div></div></div>
+      <div class="section-header"><h2>Data Health</h2></div>
+      <div class="table-wrap" id="health-table"><div class="loading"><div class="spinner"></div></div></div>
     </div>
 
-    <!-- Restaurants -->
+    <!-- RESTAURANTS -->
     <div class="tab-panel" id="tab-restaurants">
       <div class="filter-bar">
-        <input id="rest-search" type="text" placeholder="Search restaurants…" />
+        <input id="rest-search" type="text" placeholder="🔍 Search restaurants…" />
         <select id="rest-town"><option value="">All towns</option></select>
         <select id="rest-filter">
           <option value="">All</option>
-          <option value="featured">Featured only</option>
-          <option value="high">Rating 4.5+</option>
+          <option value="featured">★ Map featured</option>
+          <option value="home">🏠 Home featured</option>
+          <option value="nophoto">No photo</option>
+          <option value="nodesc">No description</option>
         </select>
+        <span id="rest-count" style="font-size:12px;color:var(--muted);white-space:nowrap"></span>
       </div>
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr>
-              <th>Restaurant</th>
-              <th>Town</th>
-              <th>Rating</th>
-              <th>Featured</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody id="rest-tbody"><tr><td colspan="5"><div class="loading"><div class="spinner"></div> Loading…</div></td></tr></tbody>
+          <thead><tr>
+            <th>Restaurant</th><th>Town</th><th>Rating</th><th>Priority</th><th>Status</th><th>Actions</th>
+          </tr></thead>
+          <tbody id="rest-tbody"><tr><td colspan="6"><div class="loading"><div class="spinner"></div></div></td></tr></tbody>
         </table>
       </div>
     </div>
 
-    <!-- Featured -->
+    <!-- FEATURED & HOME -->
     <div class="tab-panel" id="tab-featured">
-      <p style="font-size:13px;color:#777;margin-bottom:20px">These restaurants get gold pins on the map and appear in the featured carousel. Toggle featured status directly from the Restaurants tab, or use the toggles below.</p>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr><th>Restaurant</th><th>Town</th><th>Rating</th><th>Featured</th></tr>
-          </thead>
-          <tbody id="feat-tbody"><tr><td colspan="4"><div class="loading"><div class="spinner"></div></div></td></tr></tbody>
-        </table>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px">
+        <div>
+          <div class="section-header"><h2>★ Map Featured <span style="font-size:12px;color:var(--muted);font-weight:400">(gold pins on map)</span></h2></div>
+          <div class="table-wrap">
+            <table><thead><tr><th>Restaurant</th><th>Town</th><th>Rating</th><th>Featured</th></tr></thead>
+            <tbody id="feat-tbody"></tbody></table>
+          </div>
+        </div>
+        <div>
+          <div class="section-header"><h2>🏠 Homepage Featured <span style="font-size:12px;color:var(--muted);font-weight:400">(hero section)</span></h2></div>
+          <div class="table-wrap">
+            <table><thead><tr><th>Restaurant</th><th>Town</th><th>Rating</th><th>On Home</th></tr></thead>
+            <tbody id="home-tbody"></tbody></table>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- Submissions -->
+    <!-- SUBMISSIONS -->
     <div class="tab-panel" id="tab-submissions">
       <div class="table-wrap">
         <table>
-          <thead>
-            <tr><th>Restaurant</th><th>Town</th><th>Submitted</th><th>Status</th><th>Actions</th></tr>
-          </thead>
-          <tbody id="sub-tbody"><tr><td colspan="5"><div class="loading"><div class="spinner"></div></div></td></tr></tbody>
+          <thead><tr><th>Restaurant</th><th>Town</th><th>Contact</th><th>Submitted</th><th>Status</th><th>Actions</th></tr></thead>
+          <tbody id="sub-tbody"></tbody>
         </table>
       </div>
     </div>
 
-    <!-- Scraper -->
+    <!-- BLOGS -->
+    <div class="tab-panel" id="tab-blogs">
+      <div class="section-header">
+        <h2>Blog Posts</h2>
+        <button class="btn btn-primary" onclick="openBlogEditor()">+ New post</button>
+      </div>
+      <div id="blog-cards" class="content-cards"></div>
+    </div>
+
+    <!-- CRITIC REVIEWS -->
+    <div class="tab-panel" id="tab-reviews">
+      <div class="section-header">
+        <h2>Critic Reviews</h2>
+        <button class="btn btn-primary" onclick="openReviewEditor()">+ New review</button>
+      </div>
+      <div id="review-cards" class="content-cards"></div>
+    </div>
+
+    <!-- SCRAPER -->
     <div class="tab-panel" id="tab-scraper">
       <div class="scraper-card">
         <h3>Run Scraper</h3>
-        <p>Fetches restaurant data from Google Places API. Make sure your <code>.env</code> file has a valid <code>GOOGLE_PLACES_API_KEY</code>.</p>
-        <div class="scraper-btns">
-          <button class="btn btn-primary" id="scraper-run">▶ Run full scrape</button>
+        <p>Fetches data from Google Places API. Requires a valid <code>GOOGLE_PLACES_API_KEY</code> in <code>scraper/.env</code>. Run the full scrape monthly, or corridor-only to fill N2 gaps.</p>
+        <div style="display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap">
+          <button class="btn btn-primary" id="scraper-run">▶ Full scrape</button>
           <button class="btn btn-ghost" id="scraper-corridor">↗ Corridor only</button>
           <button class="btn btn-danger" id="scraper-stop" style="display:none">■ Stop</button>
-        </div>
-        <div style="margin-bottom:12px">
-          Status: <span class="scraper-status idle" id="scraper-status"><span class="pulse" style="display:none"></span> Idle</span>
+          <span class="scraper-status idle" id="scraper-status">Idle</span>
         </div>
         <div class="log-box" id="scraper-log">Scraper output will appear here…</div>
+      </div>
+      <div class="scraper-card">
+        <h3>Download Photos</h3>
+        <p>Re-downloads all restaurant photos from Google Places and saves them locally. Run this after a fresh scrape to get images for new restaurants.</p>
+        <button class="btn btn-ghost" id="photo-dl-btn">⬇ Download photos</button>
       </div>
     </div>
 
   </div>
 </div>
 
-<!-- Edit modal -->
+<!-- ── EDIT MODAL ── -->
 <div class="modal-overlay" id="edit-modal">
   <div class="modal">
     <div class="modal-header">
-      <h3>Edit Restaurant</h3>
-      <button class="modal-close" id="modal-close">×</button>
+      <h3 id="edit-modal-title">Edit Restaurant</h3>
+      <button class="modal-close" onclick="closeModal('edit-modal')">×</button>
     </div>
-    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-tabs" id="edit-tabs">
+      <div class="modal-tab active" data-etab="basics">Basics</div>
+      <div class="modal-tab" data-etab="seo">SEO</div>
+      <div class="modal-tab" data-etab="hours">Hours</div>
+      <div class="modal-tab" data-etab="images">Images</div>
+      <div class="modal-tab" data-etab="display">Display</div>
+    </div>
+    <div class="modal-body" id="edit-modal-body"></div>
     <div class="modal-footer">
-      <button class="btn btn-ghost" id="modal-cancel">Cancel</button>
-      <button class="btn btn-primary" id="modal-save">Save changes</button>
+      <button class="btn btn-danger btn-sm" id="delete-restaurant-btn">🗑 Delete restaurant</button>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-ghost" onclick="closeModal('edit-modal')">Cancel</button>
+        <button class="btn btn-primary" id="modal-save">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── BLOG EDITOR MODAL ── -->
+<div class="modal-overlay" id="blog-modal">
+  <div class="modal" style="width:780px">
+    <div class="modal-header">
+      <h3 id="blog-modal-title">New Blog Post</h3>
+      <button class="modal-close" onclick="closeModal('blog-modal')">×</button>
+    </div>
+    <div class="modal-body" id="blog-modal-body" style="max-height:75vh"></div>
+    <div class="modal-footer">
+      <div></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-ghost" onclick="closeModal('blog-modal')">Cancel</button>
+        <button class="btn btn-ghost" id="blog-save-draft">Save draft</button>
+        <button class="btn btn-primary" id="blog-save-publish">Save & publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── REVIEW EDITOR MODAL ── -->
+<div class="modal-overlay" id="review-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="review-modal-title">New Critic Review</h3>
+      <button class="modal-close" onclick="closeModal('review-modal')">×</button>
+    </div>
+    <div class="modal-body" id="review-modal-body"></div>
+    <div class="modal-footer">
+      <div></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-ghost" onclick="closeModal('review-modal')">Cancel</button>
+        <button class="btn btn-primary" id="review-save">Save review</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── CONFIRM DIALOG ── -->
+<div class="confirm-overlay" id="confirm-overlay">
+  <div class="confirm-box">
+    <h4 id="confirm-title">Are you sure?</h4>
+    <p id="confirm-msg"></p>
+    <div class="confirm-actions">
+      <button class="btn btn-ghost" onclick="closeConfirm(false)">Cancel</button>
+      <button class="btn btn-danger" id="confirm-ok" onclick="closeConfirm(true)">Delete</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── PUBLISH MODAL ── -->
+<div class="modal-overlay" id="publish-modal">
+  <div class="modal" style="width:520px">
+    <div class="modal-header" style="padding-bottom:16px">
+      <h3>🚀 Publish to live site</h3>
+      <button class="modal-close" onclick="closeModal('publish-modal')">×</button>
+    </div>
+    <div class="modal-body" style="max-height:none">
+      <p style="font-size:13px;color:var(--muted);line-height:1.5">This will commit all your changes and push to GitHub. Netlify will automatically deploy the updated site in ~2 minutes.</p>
+      <div class="form-group">
+        <label>Commit message</label>
+        <input id="publish-msg" value="" placeholder="Content update" />
+      </div>
+      <div class="log-box" id="publish-log" style="min-height:80px;display:none"></div>
+    </div>
+    <div class="modal-footer">
+      <div id="publish-status" style="font-size:12px;color:var(--muted)"></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn btn-ghost" onclick="closeModal('publish-modal')" id="publish-cancel">Cancel</button>
+        <button class="btn btn-primary" id="publish-btn" onclick="runPublish()">🚀 Publish now</button>
+      </div>
     </div>
   </div>
 </div>
@@ -282,292 +454,813 @@
 <div id="toast"></div>
 
 <script>
-  // ── State ─────────────────────────────────────────────────────────────────
-  var allRestaurants = [];
-  var allSubmissions = [];
-  var editSlug = null;
+// ═══════════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════════
+var allRestaurants = [];
+var allBlogs       = [];
+var allReviews     = [];
+var allSubmissions = [];
+var editSlug       = null;
+var editBlogId     = null;
+var editReviewId   = null;
+var editTab        = 'basics';
+var confirmResolve = null;
+var scraperPoll    = null;
 
-  // ── Toast ──────────────────────────────────────────────────────────────────
-  function toast(msg, type) {
-    var el = document.getElementById('toast');
-    el.textContent = msg;
-    el.className = 'show ' + (type || '');
-    clearTimeout(el._t);
-    el._t = setTimeout(function() { el.className = ''; }, 3000);
-  }
+// ═══════════════════════════════════════════════════════════
+//  UTILS
+// ═══════════════════════════════════════════════════════════
+async function api(method, url, body) {
+  var opts = { method, headers: { 'Content-Type': 'application/json' } };
+  if (body !== undefined) opts.body = JSON.stringify(body);
+  var r = await fetch(url, opts);
+  if (!r.ok) { var e = await r.json().catch(() => ({})); throw new Error(e.error || r.status); }
+  return r.json();
+}
 
-  // ── Navigation ─────────────────────────────────────────────────────────────
-  document.querySelectorAll('.nav-item').forEach(function(item) {
-    item.addEventListener('click', function() {
-      document.querySelectorAll('.nav-item').forEach(function(i) { i.classList.remove('active'); });
-      document.querySelectorAll('.tab-panel').forEach(function(p) { p.classList.remove('active'); });
-      item.classList.add('active');
-      var tab = item.dataset.tab;
-      document.getElementById('tab-' + tab).classList.add('active');
-      document.getElementById('page-title').textContent = item.textContent.trim();
-      if (tab === 'scraper') startScraperPoll();
-    });
+function toast(msg, type) {
+  var el = document.getElementById('toast');
+  el.textContent = msg; el.className = 'show ' + (type || '');
+  clearTimeout(el._t); el._t = setTimeout(() => el.className = '', 3200);
+}
+
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+function confirm2(title, msg) {
+  return new Promise(res => {
+    confirmResolve = res;
+    document.getElementById('confirm-title').textContent = title;
+    document.getElementById('confirm-msg').textContent   = msg;
+    document.getElementById('confirm-overlay').classList.add('open');
+  });
+}
+function closeConfirm(val) {
+  document.getElementById('confirm-overlay').classList.remove('open');
+  if (confirmResolve) { confirmResolve(val); confirmResolve = null; }
+}
+
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function photoSrc(p) {
+  if (!p) return '';
+  var u = typeof p === 'string' ? p : (p.url || '');
+  if (u.startsWith('/')) return u;
+  if (u.startsWith('places/')) return '/api/photo?name=' + encodeURIComponent(u) + '&w=200';
+  return u;
+}
+
+function stars(r) { if (!r) return '—'; var f=Math.floor(r); return '★'.repeat(f)+'☆'.repeat(5-f); }
+
+// ═══════════════════════════════════════════════════════════
+//  NAVIGATION
+// ═══════════════════════════════════════════════════════════
+document.querySelectorAll('.nav-item[data-tab]').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    item.classList.add('active');
+    var tab = item.dataset.tab;
+    document.getElementById('tab-' + tab).classList.add('active');
+    document.getElementById('page-title').textContent = item.textContent.trim().replace(/\d+$/, '');
+    if (tab === 'scraper') startScraperPoll();
+    if (tab === 'blogs') renderBlogs();
+    if (tab === 'reviews') renderReviews();
+    if (tab === 'submissions') renderSubmissions();
+    if (tab === 'featured') renderFeaturedTab();
+  });
+});
+
+// Edit modal tabs
+document.querySelectorAll('.modal-tab[data-etab]').forEach(t => {
+  t.addEventListener('click', () => {
+    document.querySelectorAll('.modal-tab').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    editTab = t.dataset.etab;
+    if (editSlug) renderEditTab(editSlug, editTab);
+  });
+});
+
+// ═══════════════════════════════════════════════════════════
+//  LOAD DATA
+// ═══════════════════════════════════════════════════════════
+async function loadRestaurants() {
+  allRestaurants = await api('GET', '/api/restaurants');
+  renderRestaurants();
+  renderFeaturedTab();
+  populateTownFilter();
+}
+
+async function loadStats() {
+  var s = await api('GET', '/api/stats');
+  document.getElementById('stats-grid').innerHTML = `
+    <div class="stat-card ocean"><div class="stat-value">${s.total}</div><div class="stat-label">Restaurants</div></div>
+    <div class="stat-card"><div class="stat-value">${s.towns}</div><div class="stat-label">Towns</div></div>
+    <div class="stat-card gold"><div class="stat-value">★ ${s.featured}</div><div class="stat-label">Map featured</div></div>
+    <div class="stat-card purple"><div class="stat-value">🏠 ${s.home_featured}</div><div class="stat-label">Home featured</div></div>
+    <div class="stat-card ${s.pending_submissions>0?'green':''}"><div class="stat-value">${s.pending_submissions}</div><div class="stat-label">Pending submissions</div></div>
+    <div class="stat-card ${s.no_photo>0?'warn':''}"><div class="stat-value">${s.no_photo}</div><div class="stat-label">Missing photos</div><div class="stat-sub">need attention</div></div>
+    <div class="stat-card ${s.no_description>0?'warn':''}"><div class="stat-value">${s.no_description}</div><div class="stat-label">No description</div></div>
+    <div class="stat-card"><div class="stat-value">${s.blogs}</div><div class="stat-label">Blog posts</div></div>`;
+
+  document.getElementById('health-table').innerHTML = `
+    <table><thead><tr><th>Issue</th><th>Count</th><th>Action</th></tr></thead><tbody>
+    <tr><td>Missing photos</td><td>${s.no_photo}</td><td><button class="btn btn-ghost btn-sm" onclick="filterBy('nophoto')">View →</button></td></tr>
+    <tr><td>Missing descriptions</td><td>${s.no_description}</td><td><button class="btn btn-ghost btn-sm" onclick="filterBy('nodesc')">View →</button></td></tr>
+    <tr><td>Missing opening hours</td><td>${s.no_hours}</td><td><button class="btn btn-ghost btn-sm" onclick="filterBy('nohours')">View →</button></td></tr>
+    </tbody></table>`;
+
+  // Pending badge
+  var badge = document.getElementById('sub-badge');
+  if (s.pending_submissions > 0) { badge.textContent = s.pending_submissions; badge.style.display = ''; }
+  else badge.style.display = 'none';
+}
+
+function filterBy(filter) {
+  document.querySelector('.nav-item[data-tab="restaurants"]').click();
+  document.getElementById('rest-filter').value = filter;
+  renderRestaurants();
+}
+
+async function loadBlogs() { allBlogs = await api('GET', '/api/blogs'); }
+async function loadReviews() { allReviews = await api('GET', '/api/reviews'); }
+async function loadSubmissions() { allSubmissions = await api('GET', '/api/submissions'); renderSubmissions(); }
+
+function populateTownFilter() {
+  var towns = [...new Set(allRestaurants.map(r => r.town))].sort();
+  document.getElementById('rest-town').innerHTML = '<option value="">All towns</option>' +
+    towns.map(t => `<option>${esc(t)}</option>`).join('');
+}
+
+async function refreshAll() {
+  await loadRestaurants();
+  await loadStats();
+  await loadBlogs();
+  await loadReviews();
+  await loadSubmissions();
+  toast('Refreshed');
+}
+
+// ═══════════════════════════════════════════════════════════
+//  RESTAURANTS TABLE
+// ═══════════════════════════════════════════════════════════
+function renderRestaurants() {
+  var q      = (document.getElementById('rest-search').value || '').toLowerCase();
+  var town   = document.getElementById('rest-town').value;
+  var filter = document.getElementById('rest-filter').value;
+
+  var rows = allRestaurants.filter(r => {
+    if (q && !r.name.toLowerCase().includes(q) && !r.town.toLowerCase().includes(q)) return false;
+    if (town && r.town !== town) return false;
+    if (filter === 'featured' && !r.featured) return false;
+    if (filter === 'home' && !r.home_featured) return false;
+    if (filter === 'nophoto' && r.photos?.length && r.photos[0]?.url) return false;
+    if (filter === 'nodesc' && r.description_short) return false;
+    if (filter === 'nohours') return false; // handled elsewhere
+    return true;
   });
 
-  // ── API helpers ────────────────────────────────────────────────────────────
-  async function api(method, url, body) {
-    var opts = { method: method, headers: { 'Content-Type': 'application/json' } };
-    if (body) opts.body = JSON.stringify(body);
-    var r = await fetch(url, opts);
-    return r.json();
+  document.getElementById('rest-count').textContent = rows.length + ' restaurants';
+
+  var tbody = document.getElementById('rest-tbody');
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="6"><div class="empty-state"><div class="icon">🔍</div>No matches</div></td></tr>';
+    return;
   }
 
-  // ── Load data ──────────────────────────────────────────────────────────────
-  async function loadRestaurants() {
-    var data = await api('GET', '/api/restaurants');
-    allRestaurants = data;
-    renderRestaurants();
-    renderFeatured();
-    populateTownFilter();
+  tbody.innerHTML = rows.map(r => {
+    var thumb = r.photos?.[0]?.url
+      ? `<img class="tbl-thumb" src="${esc(photoSrc(r.photos[0]))}" loading="lazy" onerror="this.style.display='none'" />`
+      : `<div class="tbl-thumb-placeholder">🍽</div>`;
+    var badges = [];
+    if (r.featured) badges.push('<span class="badge badge-gold">★ Map</span>');
+    if (r.home_featured) badges.push('<span class="badge badge-purple">🏠 Home</span>');
+    return `<tr>
+      <td><div class="tbl-name">${thumb}<div><strong>${esc(r.name)}</strong><br><small style="color:var(--muted)">${esc(r.cuisine_types?.[0]||'')}</small></div></div></td>
+      <td>${esc(r.town)}</td>
+      <td class="rating-cell">${r.google_rating ? '★ '+r.google_rating+' <small style="color:#ccc">('+r.google_review_count+')</small>' : '—'}</td>
+      <td><input class="priority-input" type="number" value="${r.sort_priority||0}" min="-99" max="999" onchange="setPriority('${r.slug}',this.value)" title="Higher = shows first" /></td>
+      <td>${badges.join(' ') || '<span class="badge badge-gray">—</span>'}</td>
+      <td><div class="actions">
+        <button class="btn btn-ghost btn-sm" onclick="openEdit('${r.slug}')">✏ Edit</button>
+        <button class="btn ${r.featured?'btn-gold':'btn-ghost'} btn-xs" onclick="toggleFeat('${r.slug}')">${r.featured?'★':'☆'}</button>
+        <button class="btn ${r.home_featured?'btn-purple':'btn-ghost'} btn-xs" onclick="toggleHome('${r.slug}')" title="Homepage">🏠</button>
+        <button class="btn btn-danger btn-xs" onclick="deleteRestaurant('${r.slug}')">🗑</button>
+      </div></td>
+    </tr>`;
+  }).join('');
+}
+
+document.getElementById('rest-search').addEventListener('input', renderRestaurants);
+document.getElementById('rest-town').addEventListener('change', renderRestaurants);
+document.getElementById('rest-filter').addEventListener('change', renderRestaurants);
+
+async function setPriority(slug, val) {
+  await api('POST', `/api/restaurants/${slug}/priority`, { priority: parseInt(val)||0 });
+  var r = allRestaurants.find(x => x.slug === slug);
+  if (r) r.sort_priority = parseInt(val)||0;
+}
+
+async function toggleFeat(slug) {
+  var res = await api('POST', `/api/restaurants/${slug}/featured`);
+  var r = allRestaurants.find(x => x.slug === slug);
+  if (r) r.featured = res.featured;
+  renderRestaurants(); renderFeaturedTab();
+  toast(res.featured ? '★ Added to map featured' : 'Removed from featured', res.featured?'success':'');
+  loadStats();
+}
+window.toggleFeat = toggleFeat;
+
+async function toggleHome(slug) {
+  var res = await api('POST', `/api/restaurants/${slug}/home_featured`);
+  var r = allRestaurants.find(x => x.slug === slug);
+  if (r) r.home_featured = res.home_featured;
+  renderRestaurants(); renderFeaturedTab();
+  toast(res.home_featured ? '🏠 Added to homepage' : 'Removed from homepage', res.home_featured?'success':'');
+  loadStats();
+}
+window.toggleHome = toggleHome;
+
+async function deleteRestaurant(slug) {
+  var r = allRestaurants.find(x => x.slug === slug);
+  var name = r ? r.name : slug;
+  var ok = await confirm2('Delete restaurant?', 'This will permanently delete "' + name + '" and all its images. This cannot be undone.');
+  if (!ok) return;
+  await api('DELETE', `/api/restaurants/${slug}`);
+  allRestaurants = allRestaurants.filter(x => x.slug !== slug);
+  renderRestaurants(); renderFeaturedTab();
+  toast('Deleted ' + name);
+  loadStats();
+}
+window.deleteRestaurant = deleteRestaurant;
+
+// ═══════════════════════════════════════════════════════════
+//  FEATURED TAB
+// ═══════════════════════════════════════════════════════════
+function renderFeaturedTab() {
+  var featRows = allRestaurants.filter(r => r.featured).map(r =>
+    `<tr><td><strong>${esc(r.name)}</strong></td><td>${esc(r.town)}</td><td class="rating-cell">${r.google_rating?'★ '+r.google_rating:'—'}</td>
+     <td><label class="toggle"><input type="checkbox" ${r.featured?'checked':''} onchange="toggleFeat('${r.slug}')"><span class="slider"></span></label></td></tr>`
+  ).join('');
+  document.getElementById('feat-tbody').innerHTML = featRows ||
+    '<tr><td colspan="4"><div class="empty-state"><div class="icon">★</div>None yet</div></td></tr>';
+
+  var homeRows = allRestaurants.filter(r => r.home_featured).map(r =>
+    `<tr><td><strong>${esc(r.name)}</strong></td><td>${esc(r.town)}</td><td class="rating-cell">${r.google_rating?'★ '+r.google_rating:'—'}</td>
+     <td><label class="toggle"><input type="checkbox" ${r.home_featured?'checked':''} onchange="toggleHome('${r.slug}')"><span class="slider"></span></label></td></tr>`
+  ).join('');
+  document.getElementById('home-tbody').innerHTML = homeRows ||
+    '<tr><td colspan="4"><div class="empty-state"><div class="icon">🏠</div>None yet</div></td></tr>';
+}
+
+// ═══════════════════════════════════════════════════════════
+//  EDIT MODAL
+// ═══════════════════════════════════════════════════════════
+async function openEdit(slug) {
+  editSlug = slug;
+  var r = await api('GET', `/api/restaurants/${slug}`);
+  document.getElementById('edit-modal-title').textContent = r.name;
+  document.querySelectorAll('.modal-tab[data-etab]').forEach(t => t.classList.toggle('active', t.dataset.etab === 'basics'));
+  editTab = 'basics';
+  renderEditTab(slug, editTab, r);
+  document.getElementById('edit-modal').classList.add('open');
+
+  document.getElementById('delete-restaurant-btn').onclick = () => {
+    closeModal('edit-modal');
+    deleteRestaurant(slug, r.name);
+  };
+}
+window.openEdit = openEdit;
+
+async function renderEditTab(slug, tab, rData) {
+  var r = rData || await api('GET', `/api/restaurants/${slug}`);
+  var body = document.getElementById('edit-modal-body');
+  var days = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+  var hours = r.opening_hours || {};
+
+  if (tab === 'basics') {
+    body.innerHTML = `
+      <div class="form-row">
+        <div class="form-group"><label>Name</label><input id="e-name" value="${esc(r.name||'')}" /></div>
+        <div class="form-group"><label>Price level</label><select id="e-price">
+          <option value="1" ${r.price_level==1?'selected':''}>R · Budget</option>
+          <option value="2" ${r.price_level==2?'selected':''}>RR · Mid-range</option>
+          <option value="3" ${r.price_level==3?'selected':''}>RRR · Upmarket</option>
+          <option value="4" ${r.price_level==4?'selected':''}>RRRR · Fine dining</option>
+        </select></div>
+      </div>
+      <div class="form-group"><label>Short description (shown in cards)</label><textarea id="e-short">${esc(r.description_short||'')}</textarea></div>
+      <div class="form-group"><label>Long description (shown on restaurant page)</label><textarea id="e-long" style="min-height:120px">${esc(r.description_long||'')}</textarea></div>
+      <div class="form-row">
+        <div class="form-group"><label>Phone</label><input id="e-phone" value="${esc(r.phone||'')}" /></div>
+        <div class="form-group"><label>Email</label><input id="e-email" value="${esc(r.email||'')}" /></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Website</label><input id="e-website" value="${esc(r.website||'')}" /></div>
+        <div class="form-group"><label>Menu URL</label><input id="e-menu" value="${esc(r.menu_url||'')}" /></div>
+      </div>
+      <div class="form-group"><label>Cuisine types (comma-separated)</label><input id="e-cuisine" value="${esc((r.cuisine_types||[]).join(', '))}" /></div>
+      <div class="form-group"><label>Tags (comma-separated)</label><input id="e-tags" value="${esc((r.tags||[]).join(', '))}" /></div>`;
+
+  } else if (tab === 'seo') {
+    var previewTitle = r.seo_title || (r.name + ' — ' + r.town + ' Restaurant | Garden Route');
+    var previewDesc  = r.seo_description || r.description_short || '';
+    body.innerHTML = `
+      <div style="background:#f9f8f5;border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:4px">
+        <div style="font-size:11px;color:var(--muted);margin-bottom:6px;font-weight:600">GOOGLE SEARCH PREVIEW</div>
+        <div style="color:#1a0dab;font-size:14px;font-weight:400;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" id="seo-preview-title">${esc(previewTitle)}</div>
+        <div style="color:#006621;font-size:12px;margin-bottom:2px">https://gardenroute-restaurants.co.za/${r.slug}</div>
+        <div style="color:#545454;font-size:13px;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden" id="seo-preview-desc">${esc(previewDesc)}</div>
+      </div>
+      <div class="form-group"><label>SEO Title <span style="color:var(--muted);font-weight:400;text-transform:none">(leave blank to auto-generate)</span></label>
+        <input id="e-seo-title" value="${esc(r.seo_title||'')}" placeholder="${esc(previewTitle)}" oninput="document.getElementById('seo-preview-title').textContent=this.value||'${esc(previewTitle)}'" />
+        <small id="seo-title-count" style="color:var(--muted);font-size:10px"></small>
+      </div>
+      <div class="form-group"><label>Meta Description <span style="color:var(--muted);font-weight:400;text-transform:none">(120-160 chars ideal)</span></label>
+        <textarea id="e-seo-desc" oninput="document.getElementById('seo-preview-desc').textContent=this.value;updateMetaCount(this,'seo-desc-count')">${esc(r.seo_description||'')}</textarea>
+        <small id="seo-desc-count" style="color:var(--muted);font-size:10px"></small>
+      </div>`;
+    setTimeout(() => {
+      var ti = document.getElementById('e-seo-title');
+      var dc = document.getElementById('e-seo-desc');
+      if (ti) updateMetaCount(ti, 'seo-title-count');
+      if (dc) updateMetaCount(dc, 'seo-desc-count');
+    }, 50);
+
+  } else if (tab === 'hours') {
+    body.innerHTML = `
+      <p style="font-size:12px;color:var(--muted);margin-bottom:10px">Enter hours like <code>9:00 AM – 5:00 PM</code> or <code>Closed</code></p>
+      <div class="hours-grid" id="hours-grid">
+        ${days.map(d => `
+          <div class="hours-row">
+            <span class="hours-day">${d}</span>
+            <input class="hours-input" data-day="${d}" value="${esc(hours[d]||'')}" placeholder="e.g. 9:00 AM – 9:00 PM or Closed" />
+          </div>`).join('')}
+      </div>`;
+
+  } else if (tab === 'images') {
+    var images = await api('GET', `/api/restaurants/${slug}/images`);
+    renderImageGrid(slug, images, r.photos || []);
+
+  } else if (tab === 'display') {
+    body.innerHTML = `
+      <div class="toggle-row"><label>★ Featured on map</label><label class="toggle"><input type="checkbox" id="e-featured" ${r.featured?'checked':''}><span class="slider"></span></label></div>
+      <div class="toggle-row" style="margin-top:8px"><label>🏠 Show on homepage</label><label class="toggle"><input type="checkbox" id="e-home" ${r.home_featured?'checked':''}><span class="slider"></span></label></div>
+      <div class="form-group" style="margin-top:8px">
+        <label>Sort priority <span style="color:var(--muted);font-weight:400;text-transform:none">(higher number = shows first, default 0)</span></label>
+        <input id="e-priority" type="number" value="${r.sort_priority||0}" />
+      </div>`;
   }
+}
 
-  async function loadStats() {
-    var stats = await api('GET', '/api/stats');
-    document.getElementById('stats-grid').innerHTML =
-      '<div class="stat-card ocean"><div class="stat-value">' + stats.total + '</div><div class="stat-label">Total restaurants</div></div>' +
-      '<div class="stat-card"><div class="stat-value">' + stats.towns + '</div><div class="stat-label">Towns covered</div></div>' +
-      '<div class="stat-card gold"><div class="stat-value">★ ' + stats.featured + '</div><div class="stat-label">Featured</div></div>' +
-      '<div class="stat-card ' + (stats.pending_submissions > 0 ? 'green' : '') + '"><div class="stat-value">' + stats.pending_submissions + '</div><div class="stat-label">Pending submissions</div></div>';
+function updateMetaCount(el, countId) {
+  var c = el.value.length;
+  var max = el.id.includes('title') ? 60 : 160;
+  var cEl = document.getElementById(countId);
+  if (cEl) cEl.textContent = c + '/' + max + ' chars' + (c > max ? ' — too long!' : '');
+}
+window.updateMetaCount = updateMetaCount;
 
-    // Recent (top 10 by last_updated would require date sorting — just show first 10)
-    var recent = allRestaurants.slice(0, 10);
-    document.getElementById('recent-table').innerHTML =
-      '<table><thead><tr><th>Name</th><th>Town</th><th>Rating</th><th>Featured</th></tr></thead><tbody>' +
-      recent.map(function(r) {
-        return '<tr><td><strong>' + r.name + '</strong></td><td>' + r.town + '</td>' +
-          '<td class="rating-cell">' + (r.google_rating ? '★ ' + r.google_rating : '—') + '</td>' +
-          '<td>' + (r.featured ? '<span class="badge badge-gold">★ Featured</span>' : '<span class="badge badge-gray">—</span>') + '</td></tr>';
-      }).join('') + '</tbody></table>';
-  }
-
-  async function loadSubmissions() {
-    allSubmissions = await api('GET', '/api/submissions');
-    renderSubmissions();
-  }
-
-  function populateTownFilter() {
-    var towns = [...new Set(allRestaurants.map(function(r) { return r.town; }))].sort();
-    var sel = document.getElementById('rest-town');
-    sel.innerHTML = '<option value="">All towns</option>' + towns.map(function(t) { return '<option>' + t + '</option>'; }).join('');
-  }
-
-  // ── Render restaurants ─────────────────────────────────────────────────────
-  function renderRestaurants() {
-    var q      = (document.getElementById('rest-search').value || '').toLowerCase();
-    var town   = document.getElementById('rest-town').value;
-    var filter = document.getElementById('rest-filter').value;
-
-    var rows = allRestaurants.filter(function(r) {
-      if (q && r.name.toLowerCase().indexOf(q) === -1) return false;
-      if (town && r.town !== town) return false;
-      if (filter === 'featured' && !r.featured) return false;
-      if (filter === 'high' && r.google_rating < 4.5) return false;
-      return true;
-    });
-
-    document.getElementById('rest-tbody').innerHTML = rows.length ? rows.map(function(r) {
-      return '<tr>' +
-        '<td><strong>' + r.name + '</strong></td>' +
-        '<td>' + r.town + '</td>' +
-        '<td class="rating-cell">' + (r.google_rating ? '★ ' + r.google_rating + ' <span style="color:#ccc;font-size:10px">(' + r.google_review_count + ')</span>' : '—') + '</td>' +
-        '<td>' + (r.featured ? '<span class="badge badge-gold">★ Featured</span>' : '<span class="badge badge-gray">—</span>') + '</td>' +
-        '<td><div class="actions">' +
-          '<button class="btn btn-ghost btn-sm" onclick="openEdit(\'' + r.slug + '\')">✏ Edit</button>' +
-          '<button class="btn ' + (r.featured ? 'btn-gold' : 'btn-ghost') + ' btn-sm" onclick="toggleFeatured(\'' + r.slug + '\', this)">' + (r.featured ? '★ Unfeature' : '☆ Feature') + '</button>' +
-        '</div></td>' +
-      '</tr>';
-    }).join('') : '<tr><td colspan="5"><div class="empty-state"><div class="icon">🔍</div>No restaurants match your filters</div></td></tr>';
-  }
-
-  // ── Render featured ────────────────────────────────────────────────────────
-  function renderFeatured() {
-    var featured = allRestaurants.filter(function(r) { return r.featured; });
-    document.getElementById('feat-tbody').innerHTML = featured.length ? featured.map(function(r) {
-      return '<tr>' +
-        '<td><strong>' + r.name + '</strong></td>' +
-        '<td>' + r.town + '</td>' +
-        '<td class="rating-cell">' + (r.google_rating ? '★ ' + r.google_rating : '—') + '</td>' +
-        '<td><label class="toggle"><input type="checkbox" checked onchange="toggleFeatured(\'' + r.slug + '\', this)"><span class="slider"></span></label></td>' +
-      '</tr>';
-    }).join('') : '<tr><td colspan="4"><div class="empty-state"><div class="icon">★</div>No featured restaurants yet. Go to Restaurants and click Feature.</div></td></tr>';
-  }
-
-  // ── Render submissions ────────────────────────────────────────────────────
-  function renderSubmissions() {
-    var tbody = document.getElementById('sub-tbody');
-    if (!allSubmissions.length) {
-      tbody.innerHTML = '<tr><td colspan="5"><div class="empty-state"><div class="icon">📥</div>No submissions yet.<br><small style="font-size:11px;color:#bbb">Submissions from the /submit form will appear here once you wire up a backend to save them to data/submissions.json</small></div></td></tr>';
-      return;
-    }
-    tbody.innerHTML = allSubmissions.map(function(s) {
-      var statusBadge = s.status === 'approved'
-        ? '<span class="badge badge-green">Approved</span>'
-        : s.status === 'rejected'
-        ? '<span class="badge badge-red">Rejected</span>'
-        : '<span class="badge badge-gold">Pending</span>';
-      return '<tr>' +
-        '<td><strong>' + (s.restaurant_name || '—') + '</strong><br><small style="color:#aaa">' + (s.website || '') + '</small></td>' +
-        '<td>' + (s.town || '—') + '</td>' +
-        '<td>' + (s.submitted_at ? new Date(s.submitted_at).toLocaleDateString() : '—') + '</td>' +
-        '<td>' + statusBadge + '</td>' +
-        '<td><div class="actions">' +
-          (s.status === 'pending' ? '<button class="btn btn-success btn-sm" onclick="reviewSub(\'' + s.id + '\',\'approved\')">✓ Approve</button><button class="btn btn-danger btn-sm" onclick="reviewSub(\'' + s.id + '\',\'rejected\')">✗ Reject</button>' : '') +
-          '<button class="btn btn-ghost btn-sm" onclick="deleteSub(\'' + s.id + '\')">🗑</button>' +
-        '</div></td>' +
-      '</tr>';
-    }).join('');
-  }
-
-  // ── Toggle featured ────────────────────────────────────────────────────────
-  async function toggleFeatured(slug, el) {
-    var result = await api('POST', '/api/restaurants/' + slug + '/featured');
-    var r = allRestaurants.find(function(x) { return x.slug === slug; });
-    if (r) r.featured = result.featured;
-    renderRestaurants();
-    renderFeatured();
-    toast(result.featured ? '★ Marked as featured' : 'Removed from featured', result.featured ? 'success' : '');
-    loadStats();
-  }
-  window.toggleFeatured = toggleFeatured;
-
-  // ── Edit modal ─────────────────────────────────────────────────────────────
-  async function openEdit(slug) {
-    editSlug = slug;
-    var r = await api('GET', '/api/restaurants/' + slug);
-    var body = document.getElementById('modal-body');
-    body.innerHTML =
-      '<div class="toggle-row"><label>★ Featured restaurant</label><label class="toggle"><input type="checkbox" id="e-featured" ' + (r.featured ? 'checked' : '') + '><span class="slider"></span></label></div>' +
-      '<div class="form-row">' +
-        '<div class="form-group"><label>Name</label><input id="e-name" value="' + esc(r.name || '') + '" /></div>' +
-        '<div class="form-group"><label>Price level</label><select id="e-price"><option value="1" ' + (r.price_level==1?'selected':'') + '>R · Budget</option><option value="2" ' + (r.price_level==2?'selected':'') + '>RR · Mid-range</option><option value="3" ' + (r.price_level==3?'selected':'') + '>RRR · Upmarket</option><option value="4" ' + (r.price_level==4?'selected':'') + '>RRRR · Fine dining</option></select></div>' +
-      '</div>' +
-      '<div class="form-group"><label>Short description</label><textarea id="e-short">' + esc(r.description_short || '') + '</textarea></div>' +
-      '<div class="form-group"><label>Long description</label><textarea id="e-long" style="min-height:120px">' + esc(r.description_long || '') + '</textarea></div>' +
-      '<div class="form-row">' +
-        '<div class="form-group"><label>Phone</label><input id="e-phone" value="' + esc(r.phone || '') + '" /></div>' +
-        '<div class="form-group"><label>Email</label><input id="e-email" value="' + esc(r.email || '') + '" /></div>' +
-      '</div>' +
-      '<div class="form-group"><label>Website</label><input id="e-website" value="' + esc(r.website || '') + '" /></div>' +
-      '<div class="form-group"><label>Menu URL</label><input id="e-menu" value="' + esc(r.menu_url || '') + '" /></div>' +
-      '<div class="form-group"><label>Cuisine types (comma-separated)</label><input id="e-cuisine" value="' + esc((r.cuisine_types || []).join(', ')) + '" /></div>';
-    document.getElementById('edit-modal').classList.add('open');
-  }
-  window.openEdit = openEdit;
-
-  function esc(s) { return String(s).replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-
-  document.getElementById('modal-close').addEventListener('click', function() { document.getElementById('edit-modal').classList.remove('open'); });
-  document.getElementById('modal-cancel').addEventListener('click', function() { document.getElementById('edit-modal').classList.remove('open'); });
-
-  document.getElementById('modal-save').addEventListener('click', async function() {
-    if (!editSlug) return;
-    var payload = {
-      name:              document.getElementById('e-name').value,
-      featured:          document.getElementById('e-featured').checked,
-      description_short: document.getElementById('e-short').value,
-      description_long:  document.getElementById('e-long').value,
-      phone:             document.getElementById('e-phone').value,
-      email:             document.getElementById('e-email').value,
-      website:           document.getElementById('e-website').value,
-      menu_url:          document.getElementById('e-menu').value,
-      price_level:       parseInt(document.getElementById('e-price').value),
-      cuisine_types:     document.getElementById('e-cuisine').value.split(',').map(function(s){return s.trim();}).filter(Boolean),
-    };
-    await api('PATCH', '/api/restaurants/' + editSlug, payload);
-    document.getElementById('edit-modal').classList.remove('open');
-    toast('Saved!', 'success');
-    await loadRestaurants();
-    await loadStats();
-  });
-
-  // ── Submissions ────────────────────────────────────────────────────────────
-  async function reviewSub(id, status) {
-    await api('PATCH', '/api/submissions/' + id, { status });
-    await loadSubmissions();
-    toast(status === 'approved' ? 'Approved ✓' : 'Rejected', status === 'approved' ? 'success' : 'error');
-  }
-  window.reviewSub = reviewSub;
-
-  async function deleteSub(id) {
-    if (!confirm('Delete this submission?')) return;
-    await api('DELETE', '/api/submissions/' + id);
-    await loadSubmissions();
-    toast('Deleted');
-  }
-  window.deleteSub = deleteSub;
-
-  // ── Scraper ────────────────────────────────────────────────────────────────
-  var scraperPollInterval = null;
-
-  function startScraperPoll() {
-    if (scraperPollInterval) return;
-    scraperPollInterval = setInterval(pollScraper, 1500);
-    pollScraper();
-  }
-
-  async function pollScraper() {
-    var status = await api('GET', '/api/scraper/status');
-    var statusEl = document.getElementById('scraper-status');
-    var logEl = document.getElementById('scraper-log');
-    var runBtn = document.getElementById('scraper-run');
-    var corrBtn = document.getElementById('scraper-corridor');
-    var stopBtn = document.getElementById('scraper-stop');
-
-    if (status.running) {
-      statusEl.className = 'scraper-status running';
-      statusEl.innerHTML = '<span class="pulse"></span> Running…';
-      runBtn.disabled = corrBtn.disabled = true;
-      stopBtn.style.display = 'inline-flex';
+function renderImageGrid(slug, images, photos) {
+  var body = document.getElementById('edit-modal-body');
+  var slots = Math.max(images.length + 1, 5);
+  var html = '<div style="margin-bottom:8px;font-size:12px;color:var(--muted)">Click an image to set as hero (first photo). Drag new images onto the + slot to upload.</div><div class="img-grid">';
+  for (var i = 0; i < slots; i++) {
+    var src = images[i];
+    if (src) {
+      var isHero = i === 0;
+      html += `<div class="img-item ${isHero?'hero':''}" data-idx="${i}">
+        <img src="${esc(src)}" loading="lazy" />
+        <button class="img-del" onclick="deleteImg('${slug}','${esc(src.split('/').pop())}',this.closest('.img-item'))">✕</button>
+      </div>`;
     } else {
-      statusEl.className = 'scraper-status idle';
-      statusEl.innerHTML = 'Idle';
-      runBtn.disabled = corrBtn.disabled = false;
-      stopBtn.style.display = 'none';
+      html += `<label class="img-upload-zone" for="img-upload-${i}">
+        <div class="icon">+</div><p>Upload photo</p>
+        <input type="file" id="img-upload-${i}" accept="image/*" onchange="uploadImg('${slug}',${i},this)" />
+      </label>`;
     }
+  }
+  html += '</div>';
+  body.innerHTML = html;
+}
 
-    if (status.log && status.log.length) {
-      logEl.innerHTML = status.log.map(function(l) {
-        if (l.startsWith('[ERR]')) return '<span class="log-err">' + l + '</span>';
-        if (l.includes('✓') || l.includes('Finished')) return '<span class="log-ok">' + l + '</span>';
-        return l;
-      }).join('');
+async function uploadImg(slug, idx, input) {
+  if (!input.files[0]) return;
+  var form = new FormData();
+  form.append('image', input.files[0]);
+  var r = await fetch(`/api/restaurants/${slug}/images/${idx}`, { method: 'POST', body: form });
+  var data = await r.json();
+  toast('Photo uploaded!', 'success');
+  var images = await api('GET', `/api/restaurants/${slug}/images`);
+  var rest = await api('GET', `/api/restaurants/${slug}`);
+  renderImageGrid(slug, images, rest.photos || []);
+  // refresh thumb in table
+  var tblR = allRestaurants.find(x => x.slug === slug);
+  if (tblR) { if (!tblR.photos) tblR.photos = []; tblR.photos[idx] = { url: data.url }; }
+  renderRestaurants();
+}
+window.uploadImg = uploadImg;
+
+async function deleteImg(slug, filename, el) {
+  var ok = await confirm2('Delete photo?', 'This will permanently remove this image.');
+  if (!ok) return;
+  await api('DELETE', `/api/restaurants/${slug}/images/${filename}`);
+  toast('Photo deleted');
+  var images = await api('GET', `/api/restaurants/${slug}/images`);
+  var rest = await api('GET', `/api/restaurants/${slug}`);
+  renderImageGrid(slug, images, rest.photos || []);
+}
+window.deleteImg = deleteImg;
+
+// Save edit modal
+document.getElementById('modal-save').addEventListener('click', async () => {
+  if (!editSlug) return;
+  var payload = {};
+  if (editTab === 'basics') {
+    payload = {
+      name:              document.getElementById('e-name')?.value,
+      description_short: document.getElementById('e-short')?.value,
+      description_long:  document.getElementById('e-long')?.value,
+      phone:             document.getElementById('e-phone')?.value,
+      email:             document.getElementById('e-email')?.value,
+      website:           document.getElementById('e-website')?.value,
+      menu_url:          document.getElementById('e-menu')?.value,
+      price_level:       parseInt(document.getElementById('e-price')?.value),
+      cuisine_types:     (document.getElementById('e-cuisine')?.value||'').split(',').map(s=>s.trim()).filter(Boolean),
+      tags:              (document.getElementById('e-tags')?.value||'').split(',').map(s=>s.trim()).filter(Boolean),
+    };
+  } else if (editTab === 'seo') {
+    payload = {
+      seo_title:       document.getElementById('e-seo-title')?.value,
+      seo_description: document.getElementById('e-seo-desc')?.value,
+    };
+  } else if (editTab === 'hours') {
+    var h = {};
+    document.querySelectorAll('.hours-input[data-day]').forEach(el => { h[el.dataset.day] = el.value; });
+    payload = { opening_hours: h };
+  } else if (editTab === 'display') {
+    payload = {
+      featured:      document.getElementById('e-featured')?.checked,
+      home_featured: document.getElementById('e-home')?.checked,
+      sort_priority: parseInt(document.getElementById('e-priority')?.value)||0,
+    };
+  }
+  await api('PATCH', `/api/restaurants/${editSlug}`, payload);
+  // Update local state
+  var r = allRestaurants.find(x => x.slug === editSlug);
+  if (r) Object.assign(r, payload);
+  toast('Saved!', 'success');
+  renderRestaurants(); renderFeaturedTab();
+  loadStats();
+});
+
+// ═══════════════════════════════════════════════════════════
+//  SUBMISSIONS
+// ═══════════════════════════════════════════════════════════
+function renderSubmissions() {
+  var tbody = document.getElementById('sub-tbody');
+  if (!allSubmissions.length) {
+    tbody.innerHTML = `<tr><td colspan="6"><div class="empty-state"><div class="icon">📥</div>No submissions yet<p>Submissions from the /submit form will appear here</p></div></td></tr>`;
+    return;
+  }
+  tbody.innerHTML = allSubmissions.map(s => {
+    var badge = s.status==='approved' ? '<span class="badge badge-green">Approved</span>'
+      : s.status==='rejected' ? '<span class="badge badge-red">Rejected</span>'
+      : '<span class="badge badge-gold">Pending</span>';
+    return `<tr>
+      <td><strong>${esc(s.restaurant_name||'—')}</strong></td>
+      <td>${esc(s.town||'—')}</td>
+      <td>${esc(s.email||'—')}</td>
+      <td>${s.submitted_at ? new Date(s.submitted_at).toLocaleDateString() : '—'}</td>
+      <td>${badge}</td>
+      <td><div class="actions">
+        ${s.status==='pending'?`<button class="btn btn-success btn-xs" onclick="reviewSub('${s.id}','approved')">✓</button><button class="btn btn-danger btn-xs" onclick="reviewSub('${s.id}','rejected')">✗</button>`:''}
+        <button class="btn btn-ghost btn-xs" onclick="deleteSub('${s.id}')">🗑</button>
+      </div></td>
+    </tr>`;
+  }).join('');
+}
+
+async function reviewSub(id, status) {
+  await api('PATCH', `/api/submissions/${id}`, { status });
+  var s = allSubmissions.find(x => x.id === id);
+  if (s) s.status = status;
+  renderSubmissions(); loadStats();
+  toast(status === 'approved' ? '✓ Approved' : 'Rejected', status==='approved'?'success':'error');
+}
+window.reviewSub = reviewSub;
+
+async function deleteSub(id) {
+  var ok = await confirm2('Delete submission?', 'This cannot be undone.');
+  if (!ok) return;
+  await api('DELETE', `/api/submissions/${id}`);
+  allSubmissions = allSubmissions.filter(s => s.id !== id);
+  renderSubmissions(); loadStats();
+}
+window.deleteSub = deleteSub;
+
+// ═══════════════════════════════════════════════════════════
+//  BLOGS
+// ═══════════════════════════════════════════════════════════
+function renderBlogs() {
+  var el = document.getElementById('blog-cards');
+  if (!allBlogs.length) {
+    el.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><div class="icon">✍️</div>No blog posts yet<p>Create your first post to attract SEO traffic</p></div>`;
+    return;
+  }
+  el.innerHTML = allBlogs.map(b => `
+    <div class="content-card">
+      <div class="meta">${b.date} · ${b.published ? '<span class="badge badge-green">Published</span>' : '<span class="badge badge-gray">Draft</span>'}</div>
+      <h4>${esc(b.title)}</h4>
+      <div class="excerpt">${esc(b.excerpt||'')}</div>
+      <div class="card-actions">
+        <button class="btn btn-ghost btn-sm" onclick="openBlogEditor('${b.id}')">✏ Edit</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteBlog('${b.id}')">🗑</button>
+      </div>
+    </div>`).join('');
+}
+
+function openBlogEditor(id) {
+  editBlogId = id || null;
+  var b = id ? allBlogs.find(x => x.id === id) : {};
+  b = b || {};
+  document.getElementById('blog-modal-title').textContent = id ? 'Edit Blog Post' : 'New Blog Post';
+  document.getElementById('blog-modal-body').innerHTML = `
+    <div class="form-group"><label>Title</label><input id="b-title" value="${esc(b.title||'')}" placeholder="e.g. Best seafood restaurants on the Garden Route" /></div>
+    <div class="form-row">
+      <div class="form-group"><label>Slug (URL)</label><input id="b-slug" value="${esc(b.slug||'')}" placeholder="best-seafood-garden-route" /></div>
+      <div class="form-group"><label>Author</label><input id="b-author" value="${esc(b.author||'Garden Route Team')}" /></div>
+    </div>
+    <div class="form-group"><label>Excerpt (shown in listings)</label><textarea id="b-excerpt" style="min-height:60px">${esc(b.excerpt||'')}</textarea></div>
+    <div class="form-group"><label>Hero image URL</label><input id="b-hero" value="${esc(b.hero_image||'')}" placeholder="https://... or /images/..." /></div>
+    <div class="form-group"><label>Tags (comma-separated)</label><input id="b-tags" value="${esc((b.tags||[]).join(', '))}" /></div>
+    <div class="form-group">
+      <label>Content (HTML or plain text)</label>
+      <div class="rich-toolbar">
+        <button class="rich-btn" onclick="wrapText('b-content','<h2>','</h2>')">H2</button>
+        <button class="rich-btn" onclick="wrapText('b-content','<h3>','</h3>')">H3</button>
+        <button class="rich-btn" onclick="wrapText('b-content','<strong>','</strong>')"><b>B</b></button>
+        <button class="rich-btn" onclick="wrapText('b-content','<em>','</em>')"><i>I</i></button>
+        <button class="rich-btn" onclick="wrapText('b-content','<p>','</p>')">¶</button>
+        <button class="rich-btn" onclick="wrapText('b-content','<ul>\\n  <li>','</li>\\n</ul>')">List</button>
+        <button class="rich-btn" onclick="wrapText('b-content','<a href=\\\"\\\">', '</a>')">Link</button>
+      </div>
+      <textarea class="rich-area" id="b-content">${esc(b.content||'')}</textarea>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>SEO title</label><input id="b-seo-title" value="${esc(b.seo_title||'')}" /></div>
+      <div class="form-group"><label>Meta description</label><input id="b-seo-desc" value="${esc(b.seo_description||'')}" /></div>
+    </div>`;
+  document.getElementById('blog-modal').classList.add('open');
+
+  // Auto-slug from title
+  document.getElementById('b-title').addEventListener('input', function() {
+    var s = document.getElementById('b-slug');
+    if (!s.dataset.manual) s.value = this.value.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  });
+  document.getElementById('b-slug').addEventListener('input', function() { this.dataset.manual = '1'; });
+}
+window.openBlogEditor = openBlogEditor;
+
+async function saveBlog(publish) {
+  var payload = {
+    title:           document.getElementById('b-title').value,
+    slug:            document.getElementById('b-slug').value,
+    author:          document.getElementById('b-author').value,
+    excerpt:         document.getElementById('b-excerpt').value,
+    hero_image:      document.getElementById('b-hero').value,
+    content:         document.getElementById('b-content').value,
+    tags:            (document.getElementById('b-tags').value||'').split(',').map(s=>s.trim()).filter(Boolean),
+    seo_title:       document.getElementById('b-seo-title').value,
+    seo_description: document.getElementById('b-seo-desc').value,
+    published:       publish,
+    date:            new Date().toISOString().split('T')[0],
+  };
+  if (editBlogId) {
+    await api('PATCH', `/api/blogs/${editBlogId}`, payload);
+    var i = allBlogs.findIndex(b => b.id === editBlogId);
+    if (i>=0) allBlogs[i] = { ...allBlogs[i], ...payload };
+  } else {
+    var nb = await api('POST', '/api/blogs', payload);
+    allBlogs.unshift(nb);
+  }
+  closeModal('blog-modal');
+  renderBlogs(); loadStats();
+  toast(publish ? 'Published!' : 'Draft saved', 'success');
+}
+
+document.getElementById('blog-save-draft').addEventListener('click', () => saveBlog(false));
+document.getElementById('blog-save-publish').addEventListener('click', () => saveBlog(true));
+
+async function deleteBlog(id) {
+  var b = allBlogs.find(x => x.id === id);
+  var title = b ? b.title : id;
+  var ok = await confirm2('Delete blog post?', '"' + title + '" will be permanently deleted.');
+  if (!ok) return;
+  await api('DELETE', `/api/blogs/${id}`);
+  allBlogs = allBlogs.filter(b => b.id !== id);
+  renderBlogs(); loadStats();
+  toast('Deleted');
+}
+window.deleteBlog = deleteBlog;
+
+// ═══════════════════════════════════════════════════════════
+//  CRITIC REVIEWS
+// ═══════════════════════════════════════════════════════════
+function renderReviews() {
+  var el = document.getElementById('review-cards');
+  if (!allReviews.length) {
+    el.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><div class="icon">⭐</div>No critic reviews yet<p>Add expert reviews to build credibility</p></div>`;
+    return;
+  }
+  el.innerHTML = allReviews.map(r => `
+    <div class="content-card">
+      <div class="meta">${r.date} · ${r.published ? '<span class="badge badge-green">Published</span>' : '<span class="badge badge-gray">Draft</span>'}</div>
+      <h4>${esc(r.title||r.restaurant_name)}</h4>
+      <div class="meta">${'★'.repeat(Math.round(r.score||0))} ${r.score}/10 · by ${esc(r.critic_name||'')}</div>
+      <div class="excerpt">${esc(r.body||'').substring(0,120)}…</div>
+      <div class="card-actions">
+        <button class="btn btn-ghost btn-sm" onclick="openReviewEditor('${r.id}')">✏ Edit</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteReview('${r.id}')">🗑</button>
+      </div>
+    </div>`).join('');
+}
+
+function openReviewEditor(id) {
+  editReviewId = id || null;
+  var r = id ? allReviews.find(x => x.id === id) : {};
+  r = r || {};
+  document.getElementById('review-modal-title').textContent = id ? 'Edit Review' : 'New Critic Review';
+  var restOpts = allRestaurants.map(x => `<option value="${x.slug}" ${r.restaurant_slug===x.slug?'selected':''}>${esc(x.name)} (${esc(x.town)})</option>`).join('');
+  document.getElementById('review-modal-body').innerHTML = `
+    <div class="form-group"><label>Restaurant</label>
+      <select id="rv-restaurant"><option value="">Select restaurant…</option>${restOpts}</select>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Critic / Author name</label><input id="rv-critic" value="${esc(r.critic_name||'')}" /></div>
+      <div class="form-group"><label>Score (out of 10)</label><input id="rv-score" type="number" min="0" max="10" step="0.5" value="${r.score||''}" /></div>
+    </div>
+    <div class="form-group"><label>Review title</label><input id="rv-title" value="${esc(r.title||'')}" placeholder="e.g. A coastal gem worth the drive" /></div>
+    <div class="form-group"><label>Review body</label><textarea id="rv-body" style="min-height:140px">${esc(r.body||'')}</textarea></div>
+    <div class="form-row">
+      <div class="form-group"><label>Date</label><input id="rv-date" type="date" value="${r.date||new Date().toISOString().split('T')[0]}" /></div>
+      <div class="toggle-row" style="align-self:flex-end"><label>Published</label><label class="toggle"><input type="checkbox" id="rv-published" ${r.published?'checked':''}><span class="slider"></span></label></div>
+    </div>`;
+  document.getElementById('review-modal').classList.add('open');
+}
+window.openReviewEditor = openReviewEditor;
+
+document.getElementById('review-save').addEventListener('click', async () => {
+  var sel = document.getElementById('rv-restaurant');
+  var payload = {
+    restaurant_slug: sel.value,
+    restaurant_name: sel.options[sel.selectedIndex]?.text.split(' (')[0] || '',
+    critic_name: document.getElementById('rv-critic').value,
+    score:       parseFloat(document.getElementById('rv-score').value)||0,
+    title:       document.getElementById('rv-title').value,
+    body:        document.getElementById('rv-body').value,
+    date:        document.getElementById('rv-date').value,
+    published:   document.getElementById('rv-published').checked,
+  };
+  if (editReviewId) {
+    await api('PATCH', `/api/reviews/${editReviewId}`, payload);
+    var i = allReviews.findIndex(r => r.id === editReviewId);
+    if (i>=0) allReviews[i] = { ...allReviews[i], ...payload };
+  } else {
+    var nr = await api('POST', '/api/reviews', payload);
+    allReviews.unshift(nr);
+  }
+  closeModal('review-modal');
+  renderReviews(); loadStats();
+  toast('Review saved', 'success');
+});
+
+async function deleteReview(id) {
+  var r = allReviews.find(x => x.id === id);
+  var title = r ? (r.title || r.restaurant_name) : id;
+  var ok = await confirm2('Delete review?', '"' + title + '" will be permanently deleted.');
+  if (!ok) return;
+  await api('DELETE', `/api/reviews/${id}`);
+  allReviews = allReviews.filter(r => r.id !== id);
+  renderReviews(); loadStats();
+  toast('Deleted');
+}
+window.deleteReview = deleteReview;
+
+// ═══════════════════════════════════════════════════════════
+//  SCRAPER
+// ═══════════════════════════════════════════════════════════
+function startScraperPoll() {
+  if (scraperPoll) return;
+  scraperPoll = setInterval(pollScraper, 1500);
+  pollScraper();
+}
+
+async function pollScraper() {
+  var s = await api('GET', '/api/scraper/status').catch(()=>({running:false,log:[]}));
+  var statusEl = document.getElementById('scraper-status');
+  var logEl    = document.getElementById('scraper-log');
+  var runBtn   = document.getElementById('scraper-run');
+  var corrBtn  = document.getElementById('scraper-corridor');
+  var stopBtn  = document.getElementById('scraper-stop');
+  if (!statusEl) return;
+  if (s.running) {
+    statusEl.className = 'scraper-status running';
+    statusEl.innerHTML = '<span class="pulse"></span> Running…';
+    runBtn.disabled = corrBtn.disabled = true;
+    stopBtn.style.display = 'inline-flex';
+  } else {
+    statusEl.className = 'scraper-status idle'; statusEl.textContent = 'Idle';
+    runBtn.disabled = corrBtn.disabled = false; stopBtn.style.display = 'none';
+  }
+  if (s.log?.length) {
+    logEl.innerHTML = s.log.map(l => l.startsWith('[ERR]') ? `<span class="log-err">${esc(l)}</span>` : l.includes('✓') ? `<span class="log-ok">${esc(l)}</span>` : esc(l)).join('');
+    logEl.scrollTop = logEl.scrollHeight;
+  }
+}
+
+document.getElementById('scraper-run').addEventListener('click', async () => { await api('POST','/api/scraper/run',{}); toast('Scraper started'); pollScraper(); });
+document.getElementById('scraper-corridor').addEventListener('click', async () => { await api('POST','/api/scraper/run',{corridor:true}); toast('Corridor scrape started'); pollScraper(); });
+document.getElementById('scraper-stop').addEventListener('click', async () => { await api('POST','/api/scraper/stop'); toast('Stopped'); });
+document.getElementById('photo-dl-btn').addEventListener('click', async () => { await api('POST','/api/scraper/run',{photosOnly:true}); toast('Photo download started'); pollScraper(); });
+
+// ═══════════════════════════════════════════════════════════
+//  RICH TEXT HELPERS
+// ═══════════════════════════════════════════════════════════
+function wrapText(id, before, after) {
+  var ta = document.getElementById(id);
+  if (!ta) return;
+  var s = ta.selectionStart, e = ta.selectionEnd;
+  var sel = ta.value.substring(s, e);
+  ta.value = ta.value.substring(0,s) + before + sel + after + ta.value.substring(e);
+  ta.focus(); ta.selectionStart = s + before.length; ta.selectionEnd = s + before.length + sel.length;
+}
+window.wrapText = wrapText;
+
+// ═══════════════════════════════════════════════════════════
+//  PUBLISH
+// ═══════════════════════════════════════════════════════════
+var publishPoll = null;
+
+function openPublish() {
+  document.getElementById('publish-msg').value = 'Content update ' + new Date().toLocaleDateString('en-ZA');
+  document.getElementById('publish-log').style.display = 'none';
+  document.getElementById('publish-log').textContent = '';
+  document.getElementById('publish-status').textContent = '';
+  document.getElementById('publish-btn').disabled = false;
+  document.getElementById('publish-cancel').textContent = 'Cancel';
+  document.getElementById('publish-modal').classList.add('open');
+}
+window.openPublish = openPublish;
+
+async function runPublish() {
+  var msg = document.getElementById('publish-msg').value || 'Content update';
+  document.getElementById('publish-btn').disabled = true;
+  document.getElementById('publish-status').textContent = 'Publishing…';
+  document.getElementById('publish-log').style.display = 'block';
+  document.getElementById('publish-log').textContent = 'Running git add, commit, push…\n';
+
+  await api('POST', '/api/publish', { message: msg });
+
+  // Poll for completion
+  clearInterval(publishPoll);
+  publishPoll = setInterval(async () => {
+    var s = await api('GET', '/api/publish/status').catch(() => ({ running: false, log: [] }));
+    var logEl = document.getElementById('publish-log');
+    if (s.log?.length) {
+      logEl.innerHTML = s.log.map(l =>
+        l.includes('✓') ? `<span class="log-ok">${esc(l)}</span>` :
+        l.includes('✗') || l.includes('error') || l.includes('Error') ? `<span class="log-err">${esc(l)}</span>` :
+        l.includes('⚠') ? `<span style="color:#fbbf24">${esc(l)}</span>` :
+        esc(l)
+      ).join('');
       logEl.scrollTop = logEl.scrollHeight;
     }
-  }
+    if (!s.running) {
+      clearInterval(publishPoll);
+      var logText = s.log.join('');
+      if (logText.includes('✓')) {
+        document.getElementById('publish-status').innerHTML = '<span style="color:var(--green);font-weight:600">✓ Published! Deploying now…</span>';
+        toast('Published! Site deploying in ~2 minutes', 'success');
+      } else if (logText.includes('NOCHANGES')) {
+        document.getElementById('publish-status').textContent = 'No changes to publish.';
+      } else {
+        document.getElementById('publish-status').innerHTML = '<span style="color:var(--red)">✗ Something went wrong — check the log</span>';
+      }
+      document.getElementById('publish-btn').disabled = false;
+      document.getElementById('publish-cancel').textContent = 'Close';
+    }
+  }, 800);
+}
+window.runPublish = runPublish;
 
-  document.getElementById('scraper-run').addEventListener('click', async function() {
-    await api('POST', '/api/scraper/run', {});
-    toast('Scraper started');
-    pollScraper();
-  });
-
-  document.getElementById('scraper-corridor').addEventListener('click', async function() {
-    await api('POST', '/api/scraper/run', { corridor: true });
-    toast('Corridor scrape started');
-    pollScraper();
-  });
-
-  document.getElementById('scraper-stop').addEventListener('click', async function() {
-    await api('POST', '/api/scraper/stop');
-    toast('Scraper stopped');
-  });
-
-  // ── Filter listeners ───────────────────────────────────────────────────────
-  document.getElementById('rest-search').addEventListener('input', renderRestaurants);
-  document.getElementById('rest-town').addEventListener('change', renderRestaurants);
-  document.getElementById('rest-filter').addEventListener('change', renderRestaurants);
-
-  // ── Init ───────────────────────────────────────────────────────────────────
-  (async function init() {
-    await loadRestaurants();
-    await loadStats();
-    await loadSubmissions();
-  })();
+// ═══════════════════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════════════════
+(async function init() {
+  await loadRestaurants();
+  await Promise.all([loadStats(), loadBlogs(), loadReviews(), loadSubmissions()]);
+})();
 </script>
 </body>
 </html>
