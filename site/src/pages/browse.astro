@@ -122,8 +122,18 @@ const data = JSON.stringify(restaurants.map(r => ({
     return '★'.repeat(full) + '☆'.repeat(5 - full);
   }
 
+  function resolvePhoto(p) {
+    if (!p) return null;
+    const url = typeof p === 'string' ? p : p.url;
+    if (!url) return null;
+    if (url.startsWith('/')) return url;
+    if (url.startsWith('places/')) return '/api/photo?name=' + encodeURIComponent(url) + '&w=600';
+    if (url.startsWith('http')) return url;
+    return null;
+  }
+
   function renderCard(r) {
-    const photo = r.photos[0]?.url || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80';
+    const photo = resolvePhoto(r.photos[0]) || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80';
     const cuisine = r.cuisine_types[0] || 'Restaurant';
     const fullStars = Math.floor(r.google_rating);
     const starsStr = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);

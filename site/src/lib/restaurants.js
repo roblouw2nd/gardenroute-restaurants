@@ -75,3 +75,19 @@ const TOWN_IMAGES = {
 export function townImage(town) {
   return TOWN_IMAGES[town] || 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80';
 }
+
+/**
+ * Returns a usable <img src> for a restaurant photo entry.
+ * - Local path  (/images/slug/0.jpg)  → returned as-is
+ * - places/...  (not yet downloaded)  → routed through /api/photo proxy
+ * - Empty / null                      → null (caller shows placeholder)
+ */
+export function photoUrl(photo) {
+  if (!photo) return null;
+  const url = typeof photo === 'string' ? photo : photo.url;
+  if (!url) return null;
+  if (url.startsWith('/')) return url;                          // local static
+  if (url.startsWith('places/')) return `/api/photo?name=${encodeURIComponent(url)}&w=800`;
+  if (url.startsWith('http')) return url;                       // external (shouldn't happen)
+  return null;
+}

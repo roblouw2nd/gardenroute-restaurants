@@ -1,8 +1,10 @@
 ---
+import { photoUrl } from '../lib/restaurants.js';
 const { restaurant, featured = false } = Astro.props;
 const { name, slug, town, cuisine_types = [], price_level, google_rating, google_review_count, photos = [], description_short } = restaurant;
 
-const photo = photos[0]?.url || `https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80`;
+const FALLBACK = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80';
+const photo = photoUrl(photos[0]) || FALLBACK;
 const cuisine = cuisine_types[0] || 'Restaurant';
 const price = ['', 'R', 'RR', 'RRR', 'RRRR'][price_level] || 'RR';
 const fullStars = Math.floor(google_rating);

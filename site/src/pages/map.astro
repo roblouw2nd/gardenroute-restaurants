@@ -1,5 +1,5 @@
 ---
-import { loadRestaurants, getUniqueTowns, getUniqueCuisines } from '../lib/restaurants.js';
+import { loadRestaurants, getUniqueTowns, getUniqueCuisines, photoUrl } from '../lib/restaurants.js';
 
 const restaurants = loadRestaurants();
 const towns = getUniqueTowns(restaurants);
@@ -18,7 +18,7 @@ const mapData = restaurants
     price:    r.price_level || 2,
     cuisine:  (r.cuisine_types || []).slice(0, 2),
     short:    r.description_short || '',
-    photo:    r.photos?.[0]?.url || '',
+    photo:    photoUrl(r.photos?.[0]) || '',
     featured: r.featured || false,
   }));
 

@@ -130,16 +130,17 @@ def parse_opening_hours(place: dict) -> dict:
 
 
 def get_photo_urls(place: dict, max_photos: int = 5) -> list:
+    """
+    Store just the Places API photo name (e.g. "places/ChIJ.../photos/Ab43m...").
+    The download_photos.py script resolves these to local /images/ paths.
+    Never embed the API key in stored data.
+    """
     photos = place.get("photos", [])[:max_photos]
     result = []
     for photo in photos:
         name = photo.get("name", "")
         if name:
-            url = (
-                f"https://places.googleapis.com/v1/{name}/media"
-                f"?maxWidthPx=1200&key={API_KEY}"
-            )
-            result.append({"url": url, "source": "google", "caption": ""})
+            result.append({"url": name, "source": "google", "caption": ""})
     return result
 
 

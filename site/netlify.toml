@@ -1,0 +1,12 @@
+[build]
+  command   = "npm run build"
+  publish   = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Environment variables — set GOOGLE_PLACES_API_KEY in the Netlify dashboard
+# (Site settings → Environment variables). Do NOT put the real key here.
+[context.production.environment]
+  NODE_VERSION = "18"
