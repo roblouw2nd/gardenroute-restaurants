@@ -88,23 +88,43 @@ def wiki_lead_image(title):
     return None, title
 
 
+# Filenames that are clearly NOT a town photo (ships, maps, crests, etc.)
+JUNK = re.compile(r"\b(imo|ship|vessel|boat|tanker|cargo|mv|ss|ferry|yacht|"
+                  r"coat[_ ]?of[_ ]?arms|wapen|map|kaart|flag|vlag|logo|seal|"
+                  r"diagram|locator|locationmap)\b", re.I)
+
+
 def commons_category_image(town):
-    """Fallback: first usable image in the town's Commons category."""
+    """Fallback: best usable image in the town's Commons category.
+    Skips ships/maps/crests and prefers files whose name mentions the town."""
+    token = town.lower().split()[0]  # e.g. "klein", "great", "victoria"
     for cat in (f"Category:{town}", f"Category:{town}, Western Cape"):
         try:
             data = _get_json(COMMONS, {
                 "action": "query", "format": "json",
                 "generator": "categorymembers", "gcmtitle": cat,
-                "gcmtype": "file", "gcmlimit": "10",
+                "gcmtype": "file", "gcmlimit": "30",
                 "prop": "imageinfo", "iiprop": "url|mime", "iiurlwidth": "1200",
             })
         except Exception:
             continue
+        candidates = []
         pages = (data.get("query") or {}).get("pages", {})
         for _, p in pages.items():
+            title = p.get("title", "")
             for ii in p.get("imageinfo", []):
-                if ii.get("mime", "").startswith("image/") and "svg" not in ii.get("mime", ""):
-                    return ii.get("thumburl") or ii.get("url")
+                mime = ii.get("mime", "")
+                if not mime.startswith("image/") or "svg" in mime:
+                    continue
+                if JUNK.search(title):
+                    continue
+                candidates.append((title, ii.get("thumburl") or ii.get("url")))
+        if candidates:
+            # prefer a file that actually names the town, else first clean image
+            for title, url in candidates:
+                if token in title.lower():
+                    return url
+            return candidates[0][1]
     return None
 
 

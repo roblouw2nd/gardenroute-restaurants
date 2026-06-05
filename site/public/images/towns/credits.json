@@ -43,10 +43,10 @@
   },
   "great-brak-river": {
     "town": "Great Brak River",
-    "source": "commons-category",
-    "file": "Great_Brak_River_Causeway_colourised_postcard.jpg",
-    "artist": "Unknown authorUnknown author",
-    "license": "Public domain"
+    "source": "user-supplied",
+    "file": "great-brak-river.jpg",
+    "artist": "",
+    "license": "Supplied by site owner"
   },
   "storms-river": {
     "town": "Storms River",
@@ -64,10 +64,10 @@
   },
   "klein-brak-river": {
     "town": "Klein Brak River",
-    "source": "commons-category",
-    "file": "Feng_Huang_Song_IMO_9416757_(23786390552).jpg",
-    "artist": "Bob Adams from Amanzimtoti, South Africa",
-    "license": "CC BY-SA 2.0"
+    "source": "user-supplied",
+    "file": "klein-brak-river.jpg",
+    "artist": "",
+    "license": "Supplied by site owner"
   },
   "victoria-bay": {
     "town": "Victoria Bay",
