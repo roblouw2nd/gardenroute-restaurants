@@ -28,7 +28,7 @@ const count    = list.length;
 const cuisines = topCuisines(list, 4);
 const rating   = avgRating(list);
 const topRated = list.filter(r => r.google_rating >= 4.5).slice(0, 3);
-const hero     = townImage(town);
+const hero     = `${siteUrl}/images/towns/${townSlug(town)}.jpg`;  // absolute for og:image
 
 // Optional richer copy from local-AI generator; else build a unique data-driven intro.
 const content  = loadTownContent();

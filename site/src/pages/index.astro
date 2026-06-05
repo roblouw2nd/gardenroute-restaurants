@@ -174,9 +174,11 @@ const topPicks = restaurants.slice(0, 6);
             <a href={`/town/${townSlug(town)}`} class="group relative rounded-2xl overflow-hidden block no-underline" style="min-height: 160px;">
               <img
                 src={townImage(town)}
-                alt={town}
+                alt={`Restaurants in ${town}, Garden Route`}
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 style="min-height: 160px;"
+                loading="lazy"
+                onerror="this.onerror=null;this.src='/images/towns/_default.svg'"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div class="absolute bottom-0 left-0 right-0 p-4">

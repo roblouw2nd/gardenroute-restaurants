@@ -1,0 +1,93 @@
+{
+  "george": {
+    "town": "George",
+    "source": "wikipedia",
+    "file": "St._Marks_Anglican_Cathedral.jpg",
+    "artist": "Lugerda",
+    "license": "CC BY-SA 4.0"
+  },
+  "mossel-bay": {
+    "town": "Mossel Bay",
+    "source": "wikipedia",
+    "file": "Mossel_Bay_(15412141375).jpg",
+    "artist": "Bob Adams from Amanzimtoti, South Africa",
+    "license": "CC BY-SA 2.0"
+  },
+  "knysna": {
+    "town": "Knysna",
+    "source": "wikipedia",
+    "file": "Knysna_waterfront.jpg",
+    "artist": "Terence27",
+    "license": "CC BY-SA 4.0"
+  },
+  "plettenberg-bay": {
+    "town": "Plettenberg Bay",
+    "source": "wikipedia",
+    "file": "Plettenbergbaai_beach.jpg",
+    "artist": "Hurkummer at English Wikipedia",
+    "license": "CC BY-SA 3.0"
+  },
+  "sedgefield": {
+    "town": "Sedgefield",
+    "source": "wikipedia",
+    "file": "Sedgefield_lagoon.jpg",
+    "artist": "Graham Bawden",
+    "license": "CC BY-SA 4.0"
+  },
+  "wilderness": {
+    "town": "Wilderness",
+    "source": "wikipedia",
+    "file": "Wilderness_WC.jpg",
+    "artist": "Andresdewet at English Wikipedia",
+    "license": "CC BY-SA 3.0"
+  },
+  "great-brak-river": {
+    "town": "Great Brak River",
+    "source": "commons-category",
+    "file": "Great_Brak_River_Causeway_colourised_postcard.jpg",
+    "artist": "Unknown authorUnknown author",
+    "license": "Public domain"
+  },
+  "storms-river": {
+    "town": "Storms River",
+    "source": "wikipedia",
+    "file": "Tsitsikamma_Park.JPG",
+    "artist": "Original uploader was Conrad88 at en.wikipedia",
+    "license": "CC BY-SA 3.0"
+  },
+  "hartenbos": {
+    "town": "Hartenbos",
+    "source": "wikipedia",
+    "file": "ATKVHartenbos.JPG",
+    "artist": "Suidpunt",
+    "license": "Public domain"
+  },
+  "klein-brak-river": {
+    "town": "Klein Brak River",
+    "source": "commons-category",
+    "file": "Feng_Huang_Song_IMO_9416757_(23786390552).jpg",
+    "artist": "Bob Adams from Amanzimtoti, South Africa",
+    "license": "CC BY-SA 2.0"
+  },
+  "victoria-bay": {
+    "town": "Victoria Bay",
+    "source": "wikipedia",
+    "file": "VictoriaBay.JPG",
+    "artist": "Zaian at English Wikipedia",
+    "license": "Public domain"
+  },
+  "natures-valley": {
+    "town": "Nature's Valley",
+    "source": "wikipedia",
+    "file": "Nature's_Valley_(S._Africa).jpg",
+    "artist": "Paul venter at English Wikipedia",
+    "license": "Public domain"
+  },
+  "herolds-bay": {
+    "town": "Herolds Bay",
+    "source": "wikipedia",
+    "file": "Heroldsbai_vanaf_uitkykpunt.JPG",
+    "artist": "Jpmeijers",
+    "license": "CC BY-SA 3.0"
+  }
+}

@@ -45,35 +45,14 @@ export function avgRating(restaurants) {
   return (rated.reduce((s, r) => s + r.google_rating, 0) / rated.length).toFixed(1);
 }
 
-// Town hero images — Unsplash (free to hotlink, no auth required)
-// Each photo-ID links to a real coastal/forest/harbour scene matching the town character
-const TOWN_IMAGES = {
-  // Knysna — lagoon/harbour teal water
-  'Knysna':          'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
-  // Plettenberg Bay — wide sandy beach
-  'Plettenberg Bay': 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
-  // Wilderness — forest meets beach
-  'Wilderness':      'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80',
-  // George — mountain/green landscape
-  'George':          'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&q=80',
-  // Mossel Bay — harbour/coastal cliffs
-  'Mossel Bay':      'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
-  // Sedgefield — calm lagoon/lake
-  'Sedgefield':      'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800&q=80',
-  // Storms River — dense forest canopy
-  'Storms River':    'https://images.unsplash.com/photo-1516026672322-bc52d61a4e1f?w=800&q=80',
-  // Smaller towns
-  'Groot Brak River':'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
-  'Hartenbos':       'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
-  "Nature's Valley": 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80',
-  'Herolds Bay':     'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
-  'Victoria Bay':    'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
-  'Keurboomstrand':  'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
-  'Brenton-on-Sea':  'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
-};
+// Town tile images — real local photos downloaded by
+// scraper/download_town_photos.py into site/public/images/towns/<slug>.jpg.
+// Until those exist, the <img> onerror falls back to TOWN_IMAGE_FALLBACK so a
+// tile never renders broken.
+export const TOWN_IMAGE_FALLBACK = '/images/towns/_default.svg';
 
 export function townImage(town) {
-  return TOWN_IMAGES[town] || 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80';
+  return `/images/towns/${townSlug(town)}.jpg`;
 }
 
 /**

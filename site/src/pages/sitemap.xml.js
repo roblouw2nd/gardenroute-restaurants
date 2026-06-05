@@ -36,6 +36,18 @@ export async function GET() {
       changefreq: 'weekly',
     }));
 
+  // Blog / guides
+  const postModules = import.meta.glob('./blog/*.md', { eager: true });
+  const blogPages = [
+    { url: '/blog', priority: '0.7', changefreq: 'weekly' },
+    ...Object.values(postModules).map(m => ({
+      url: m.url,
+      priority: '0.7',
+      changefreq: 'monthly',
+      lastmod: String(m.frontmatter.updatedDate || m.frontmatter.pubDate).slice(0, 10),
+    })),
+  ];
+
   const restaurantPages = restaurants.map(r => ({
     url: `/${r.slug}`,
     priority: '0.7',
@@ -43,7 +55,7 @@ export async function GET() {
     lastmod: r.last_updated ? r.last_updated.split('T')[0] : now,
   }));
 
-  const allPages = [...staticPages, ...townPages, ...categoryPages, ...restaurantPages];
+  const allPages = [...staticPages, ...townPages, ...categoryPages, ...blogPages, ...restaurantPages];
 
   // Normalise to a trailing slash so sitemap URLs match the canonical tags.
   const withSlash = (u) => (u === '/' ? '/' : (u.endsWith('/') ? u : `${u}/`));

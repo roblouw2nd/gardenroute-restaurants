@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+
+const posts = (await Astro.glob('./*.md'))
+  .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+
+const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Garden Route Dining Guides",
+  "url": `${siteUrl}/blog`,
+  "description": "Local guides to the best restaurants, cafés and dining experiences on the Garden Route, South Africa.",
+  "blogPost": posts.map(p => ({
+    "@type": "BlogPosting",
+    "headline": p.frontmatter.title,
+    "url": siteUrl + p.url,
+    "datePublished": new Date(p.frontmatter.pubDate).toISOString(),
+  })),
+};
+---
+
+<Base
+  title="Garden Route Dining Guides & Restaurant Tips"
+  description="Local guides to the best restaurants, cafés, seafood, sea-view spots and dining experiences across the Garden Route — Knysna, Plett, Mossel Bay, George and more."
+  schema={schema}
+>
+  <Nav />
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <nav aria-label="Breadcrumb" class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">Guides</li>
+      </ol>
+    </nav>
+
+    <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Garden Route · Dining guides</p>
+    <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Garden Route dining guides</h1>
+    <p class="text-gray-500 text-lg mb-10 max-w-2xl">
+      Where to eat along the Garden Route — honest, local guides to the best restaurants, cafés, seafood, sea-view tables and road-trip stops from Mossel Bay to Storms River.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {posts.map(p => (
+        <a href={p.url} class="group block bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all p-6 no-underline">
+          <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">{p.frontmatter.category || 'Guide'}</p>
+          <h2 class="font-display text-xl font-bold text-gray-900 mb-2 leading-snug group-hover:text-ocean-700">{p.frontmatter.title}</h2>
+          <p class="text-gray-600 text-sm leading-relaxed">{p.frontmatter.description}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-5xl mx-auto text-center text-sm text-gray-400">© 2026 gardenroute-restaurants.co.za</div>
+  </footer>
+</Base>
