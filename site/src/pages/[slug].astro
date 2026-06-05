@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
-import { loadRestaurants, priceLong, priceLabel, photoUrl } from '../lib/restaurants.js';
+import { loadRestaurants, priceLong, priceLabel, photoUrl, townSlug } from '../lib/restaurants.js';
 
 export async function getStaticPaths() {
   const restaurants = loadRestaurants();
@@ -21,7 +21,7 @@ const price     = priceLabel(r.price_level);
 const priceFull = priceLong(r.price_level);
 const days      = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
 const mapsUrl   = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' ' + r.address)}`;
-const siteUrl   = 'https://gardenroute-restaurants.co.za';
+const siteUrl   = 'https://www.gardenroute-restaurants.co.za';
 
 // SEO title and description — keyword-rich but natural
 const seoTitle = `${r.name} — ${r.town} Restaurant | Garden Route Restaurants`;
@@ -84,7 +84,7 @@ const breadcrumbSchema = {
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
     { "@type": "ListItem", "position": 2, "name": "Browse", "item": `${siteUrl}/browse` },
-    { "@type": "ListItem", "position": 3, "name": r.town, "item": `${siteUrl}/browse?town=${encodeURIComponent(r.town)}` },
+    { "@type": "ListItem", "position": 3, "name": r.town, "item": `${siteUrl}/town/${townSlug(r.town)}` },
     { "@type": "ListItem", "position": 4, "name": r.name, "item": `${siteUrl}/${r.slug}` },
   ]
 };
@@ -138,7 +138,7 @@ const breadcrumbSchema = {
         <li>›</li>
         <li><a href="/browse" class="hover:text-gray-600 no-underline">Browse</a></li>
         <li>›</li>
-        <li><a href={`/browse?town=${encodeURIComponent(r.town)}`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
+        <li><a href={`/town/${townSlug(r.town)}`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
         <li>›</li>
         <li class="text-gray-600 font-medium">{r.name}</li>
       </ol>
@@ -156,17 +156,17 @@ const breadcrumbSchema = {
         <p class="text-gray-500 text-lg mb-3">
           <span>{(r.cuisine_types || []).join(', ')}</span>
           {' · '}
-          <a href={`/browse?town=${encodeURIComponent(r.town)}`} class="hover:text-ocean-600 no-underline">{r.town}</a>
+          <a href={`/town/${townSlug(r.town)}`} class="hover:text-ocean-600 no-underline">{r.town}</a>
           {' · '}
           <span>{price}</span>
         </p>
 
-        <!-- Rating -->
+        <!-- Rating (display only — structured data is the JSON-LD Restaurant schema) -->
         {r.google_rating > 0 && (
-          <div class="flex items-center gap-2 mb-6" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+          <div class="flex items-center gap-2 mb-6">
             <span class="stars text-lg" aria-label={`${r.google_rating} out of 5 stars`}>{starsStr}</span>
-            <span class="font-semibold text-lg" itemprop="ratingValue">{r.google_rating}</span>
-            <span class="text-gray-400">(<span itemprop="reviewCount">{r.google_review_count}</span> Google reviews)</span>
+            <span class="font-semibold text-lg">{r.google_rating}</span>
+            <span class="text-gray-400">({r.google_review_count} Google reviews)</span>
           </div>
         )}
 
@@ -233,7 +233,7 @@ const breadcrumbSchema = {
             {['Knysna','Plettenberg Bay','Wilderness','George','Mossel Bay','Sedgefield','Storms River']
               .filter(t => t !== r.town)
               .map(t => (
-                <a href={`/browse?town=${encodeURIComponent(t)}`}
+                <a href={`/town/${townSlug(t)}`}
                    class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
                   {t}
                 </a>

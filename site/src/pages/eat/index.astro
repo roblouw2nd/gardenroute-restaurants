@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import { loadRestaurants, restaurantsInCategory, toSlug } from '../../lib/restaurants.js';
+import { CATEGORIES, MIN_COUNT } from '../../lib/categories.js';
+
+const restaurants = loadRestaurants();
+const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+
+const cats = CATEGORIES
+  .map(c => ({ ...c, n: restaurantsInCategory(restaurants, c.label).length, s: c.slug || toSlug(c.label) }))
+  .filter(c => c.n >= MIN_COUNT)
+  .sort((a, b) => b.n - a.n);
+
+const cuisines = cats.filter(c => c.type === 'cuisine');
+const features = cats.filter(c => c.type === 'feature');
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Browse Garden Route restaurants by cuisine & feature",
+  "url": `${siteUrl}/eat`,
+};
+
+function nice(c) { return c.h1 ? c.h1.charAt(0).toUpperCase() + c.h1.slice(1) : c.label; }
+---
+
+<Base
+  title="Browse by Cuisine & Feature — Garden Route Restaurants"
+  description="Find Garden Route restaurants by what you're craving — seafood, pizza, steakhouses, sushi, cafés — or by feature like sea views, dog-friendly and family-friendly."
+  schema={schema}
+>
+  <Nav />
+  <div class="max-w-6xl mx-auto px-6 py-12">
+    <nav aria-label="Breadcrumb" class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">By cuisine &amp; feature</li>
+      </ol>
+    </nav>
+
+    <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Browse by type</p>
+    <h1 class="font-display text-4xl font-bold mb-4">What are you in the mood for?</h1>
+    <p class="text-gray-500 text-lg mb-10 max-w-2xl">
+      Browse the Garden Route's best restaurants by cuisine or by feature — whether you're after fresh seafood, a wood-fired pizza, or a table with ocean views.
+    </p>
+
+    <h2 class="font-display text-2xl font-bold mb-4">By cuisine</h2>
+    <div class="flex flex-wrap gap-3 mb-12">
+      {cuisines.map(c => (
+        <a href={`/eat/${c.s}`}
+           class="px-4 py-2 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+          {nice(c)} <span class="text-gray-400">({c.n})</span>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="font-display text-2xl font-bold mb-4">By feature</h2>
+    <div class="flex flex-wrap gap-3">
+      {features.map(c => (
+        <a href={`/eat/${c.s}`}
+           class="px-4 py-2 rounded-full bg-white border border-gray-200 text-sm font-medium text-gray-700 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+          {nice(c)} <span class="text-gray-400">({c.n})</span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">© 2026 gardenroute-restaurants.co.za</div>
+  </footer>
+</Base>

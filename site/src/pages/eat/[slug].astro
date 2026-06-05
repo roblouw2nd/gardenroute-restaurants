@@ -1,0 +1,146 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import RestaurantCard from '../../components/RestaurantCard.astro';
+import {
+  loadRestaurants, restaurantsInCategory, getUniqueTowns,
+  toSlug, townSlug, avgRating, loadCuisineContent,
+} from '../../lib/restaurants.js';
+import { CATEGORIES, MIN_COUNT } from '../../lib/categories.js';
+
+export async function getStaticPaths() {
+  const restaurants = loadRestaurants();
+  return CATEGORIES
+    .map(cat => {
+      const matches = restaurantsInCategory(restaurants, cat.label);
+      return { cat, matches, slug: cat.slug || toSlug(cat.label) };
+    })
+    .filter(({ matches }) => matches.length >= MIN_COUNT)
+    .map(({ cat, matches, slug }) => ({
+      params: { slug },
+      props: { cat, restaurants: matches },
+    }));
+}
+
+const { cat, restaurants } = Astro.props;
+const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+const slug = cat.slug || toSlug(cat.label);
+
+const list   = [...restaurants].sort((a, b) =>
+  (b.featured === a.featured ? (b.google_rating || 0) - (a.google_rating || 0) : (b.featured ? 1 : -1))
+);
+const count  = list.length;
+const rating = avgRating(list);
+
+// Town breakdown for internal links
+const townCounts = {};
+for (const r of list) townCounts[r.town] = (townCounts[r.town] || 0) + 1;
+const townsForCat = Object.entries(townCounts).sort((a, b) => b[1] - a[1]);
+
+const h1 = cat.h1 ? cat.h1.charAt(0).toUpperCase() + cat.h1.slice(1) : `${cat.label} restaurants`;
+
+const content = loadCuisineContent();
+const aiCopy  = content[cat.label] || content[slug] || null;
+
+const introFallback = `Looking for the best ${cat.h1 || cat.label.toLowerCase()} on the Garden Route? We've gathered ${count} options across ${townsForCat.length} towns, from Mossel Bay to Storms River — averaging ${rating}★ on Google. ` +
+  `Browse the full list below with ratings, opening hours and directions, sorted with our top picks first.`;
+const intro = aiCopy?.intro || introFallback;
+
+const seoTitle = `Best ${h1} on the Garden Route (${count}) — South Africa`;
+const seoDesc  = `The best ${cat.h1 || cat.label.toLowerCase()} on the Garden Route. ${count} places across Knysna, Plett, George, Mossel Bay & more — with ratings, hours and directions.`;
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `Best ${h1} on the Garden Route`,
+  "numberOfItems": count,
+  "itemListElement": list.slice(0, 30).map((r, i) => ({
+    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}`, "name": r.name,
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Browse", "item": `${siteUrl}/browse` },
+    { "@type": "ListItem", "position": 3, "name": h1, "item": `${siteUrl}/eat/${slug}` },
+  ],
+};
+
+// Other categories that actually have pages, for cross-linking
+const allRestaurants = loadRestaurants();
+const otherCats = CATEGORIES
+  .filter(c => (c.slug || toSlug(c.label)) !== slug)
+  .map(c => ({ ...c, n: restaurantsInCategory(allRestaurants, c.label).length, s: c.slug || toSlug(c.label) }))
+  .filter(c => c.n >= MIN_COUNT)
+  .slice(0, 12);
+---
+
+<Base title={seoTitle} description={seoDesc} schema={itemListSchema}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <Nav />
+
+  <div class="max-w-7xl mx-auto px-6 py-8">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li><a href="/browse" class="hover:text-gray-600 no-underline">Browse</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">{h1}</li>
+      </ol>
+    </nav>
+
+    <header class="mb-8">
+      <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Garden Route · South Africa</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Best {h1} on the Garden Route</h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-5">
+        <span><strong class="text-gray-900">{count}</strong> places</span>
+        {rating > 0 && <span class="stars">★ <span class="text-gray-900 font-semibold">{rating}</span> avg</span>}
+        <span>{townsForCat.length} towns</span>
+      </div>
+      <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
+    </header>
+
+    <!-- Browse by town within this category -->
+    {townsForCat.length > 1 && (
+      <div class="flex flex-wrap gap-2 mb-10">
+        {townsForCat.map(([t, n]) => (
+          <a href={`/town/${townSlug(t)}`}
+             class="px-3 py-1.5 rounded-full bg-sand text-sm text-gray-600 hover:text-ocean-600 no-underline transition-colors">
+            {t} <span class="text-gray-400">({n})</span>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      {list.map(r => <RestaurantCard restaurant={r} featured={r.featured} />)}
+    </div>
+
+    <!-- Cross-link to other categories -->
+    <section class="pt-8 border-t border-gray-100">
+      <h2 class="font-semibold text-base mb-3 text-gray-500">More ways to eat on the Garden Route</h2>
+      <div class="flex flex-wrap gap-2">
+        {otherCats.map(c => (
+          <a href={`/eat/${c.s}`}
+             class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+            {c.h1 ? c.h1.charAt(0).toUpperCase() + c.h1.slice(1) : c.label}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <div class="flex items-center gap-4">
+        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/towns" class="hover:text-gray-600 no-underline">Towns</a>
+        <a href="/about" class="hover:text-gray-600 no-underline">About</a>
+      </div>
+    </div>
+  </footer>
+</Base>

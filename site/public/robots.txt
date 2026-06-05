@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://gardenroute-restaurants.co.za/sitemap.xml
+Sitemap: https://www.gardenroute-restaurants.co.za/sitemap.xml
 
 # AI crawlers — allow for GEO (Generative Engine Optimisation)
 User-agent: GPTBot

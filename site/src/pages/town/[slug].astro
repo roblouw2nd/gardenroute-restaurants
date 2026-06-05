@@ -1,0 +1,176 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import RestaurantCard from '../../components/RestaurantCard.astro';
+import {
+  loadRestaurants, getUniqueTowns, restaurantsInTown, townSlug,
+  topCuisines, avgRating, priceLong, townImage, loadTownContent,
+} from '../../lib/restaurants.js';
+
+export async function getStaticPaths() {
+  const restaurants = loadRestaurants();
+  const towns = getUniqueTowns(restaurants);
+  return towns.map(town => ({
+    params: { slug: townSlug(town) },
+    props: { town, restaurants: restaurantsInTown(restaurants, town) },
+  }));
+}
+
+const { town, restaurants } = Astro.props;
+const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+
+// Sort: featured first, then by rating
+const list = [...restaurants].sort((a, b) =>
+  (b.featured === a.featured ? (b.google_rating || 0) - (a.google_rating || 0) : (b.featured ? 1 : -1))
+);
+
+const count    = list.length;
+const cuisines = topCuisines(list, 4);
+const rating   = avgRating(list);
+const topRated = list.filter(r => r.google_rating >= 4.5).slice(0, 3);
+const hero     = townImage(town);
+
+// Optional richer copy from local-AI generator; else build a unique data-driven intro.
+const content  = loadTownContent();
+const aiCopy   = content[town] || content[townSlug(town)] || null;
+
+const introFallback = `${town} is home to ${count} ${count === 1 ? 'restaurant' : 'restaurants'} on South Africa's Garden Route, with an average rating of ${rating}★ from real Google reviews. ` +
+  (cuisines.length ? `You'll find everything from ${cuisines.slice(0, -1).join(', ')}${cuisines.length > 1 ? ' and ' : ''}${cuisines[cuisines.length - 1]} here — ` : '') +
+  `whether you're after a relaxed breakfast, a sea-view lunch or a special dinner out. Every listing below has up-to-date ratings, opening hours and contact details.`;
+
+const intro = aiCopy?.intro || introFallback;
+
+// FAQ — use AI copy if available, else generate sensible defaults
+const topPick = topRated[0];
+const faqs = aiCopy?.faqs || [
+  {
+    q: `How many restaurants are there in ${town}?`,
+    a: `Our directory lists ${count} ${count === 1 ? 'restaurant' : 'restaurants'} in ${town}, on the Garden Route, each with current ratings, opening hours and contact details.`,
+  },
+  topPick && {
+    q: `What is the best-rated restaurant in ${town}?`,
+    a: `${topPick.name} is among the highest-rated in ${town}, with ${topPick.google_rating}★ from ${topPick.google_review_count} Google reviews. ${topPick.description_short || ''}`.trim(),
+  },
+  cuisines.length && {
+    q: `What kind of food can I find in ${town}?`,
+    a: `Popular options in ${town} include ${cuisines.join(', ')}. Use the filters on our browse page to narrow by cuisine, price or features like sea views and dog-friendly.`,
+  },
+].filter(Boolean);
+
+const seoTitle = `Best Restaurants in ${town} (${count}) — Garden Route, South Africa`;
+const seoDesc  = `Discover the best places to eat in ${town} on the Garden Route. Browse ${count} restaurants with ratings, opening hours, menus and directions${cuisines.length ? ` — from ${cuisines.slice(0,3).join(', ')} and more` : ''}.`;
+
+// Schema: ItemList of restaurants + FAQPage + Breadcrumbs
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": `Restaurants in ${town}, Garden Route`,
+  "numberOfItems": count,
+  "itemListElement": list.slice(0, 30).map((r, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "url": `${siteUrl}/${r.slug}`,
+    "name": r.name,
+  })),
+};
+
+const faqSchema = faqs.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Towns", "item": `${siteUrl}/towns` },
+    { "@type": "ListItem", "position": 3, "name": town, "item": `${siteUrl}/town/${townSlug(town)}` },
+  ],
+};
+
+// Other towns for internal linking
+const allTowns = getUniqueTowns(loadRestaurants()).filter(t => t !== town);
+---
+
+<Base title={seoTitle} description={seoDesc} image={hero} schema={itemListSchema}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <Nav />
+
+  <div class="max-w-7xl mx-auto px-6 py-8">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li><a href="/towns" class="hover:text-gray-600 no-underline">Towns</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">{town}</li>
+      </ol>
+    </nav>
+
+    <!-- Header -->
+    <header class="mb-8">
+      <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Garden Route · South Africa</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Best restaurants in {town}</h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-5">
+        <span><strong class="text-gray-900">{count}</strong> restaurants</span>
+        {rating > 0 && <span class="stars">★ <span class="text-gray-900 font-semibold">{rating}</span> avg</span>}
+        {cuisines.length > 0 && <span>{cuisines.slice(0,3).join(' · ')}</span>}
+      </div>
+      <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
+    </header>
+
+    <!-- Restaurant grid -->
+    <h2 class="font-display text-2xl font-bold mb-5">All {count} restaurants in {town}</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      {list.map(r => <RestaurantCard restaurant={r} featured={r.featured} />)}
+    </div>
+
+    <!-- FAQ -->
+    {faqs.length > 0 && (
+      <section class="max-w-3xl mb-12">
+        <h2 class="font-display text-2xl font-bold mb-5">Frequently asked questions</h2>
+        <div class="space-y-4">
+          {faqs.map(f => (
+            <details class="bg-white rounded-xl border border-gray-100 p-5">
+              <summary class="font-semibold cursor-pointer">{f.q}</summary>
+              <p class="text-gray-700 leading-relaxed mt-3">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Internal links to other towns -->
+    <section class="pt-8 border-t border-gray-100">
+      <h2 class="font-semibold text-base mb-3 text-gray-500">Explore more Garden Route towns</h2>
+      <div class="flex flex-wrap gap-2">
+        {allTowns.map(t => (
+          <a href={`/town/${townSlug(t)}`}
+             class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+            {t}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <div class="flex items-center gap-4">
+        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/towns" class="hover:text-gray-600 no-underline">Towns</a>
+        <a href="/about" class="hover:text-gray-600 no-underline">About</a>
+      </div>
+    </div>
+  </footer>
+</Base>

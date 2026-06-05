@@ -15,10 +15,10 @@ Tourists visiting the Garden Route, locals looking for new dining experiences, a
 - Data updated: Weekly (every Sunday)
 
 ## Key pages
-- Homepage: https://gardenroute-restaurants.co.za
-- Browse all: https://gardenroute-restaurants.co.za/browse
-- By town: https://gardenroute-restaurants.co.za/towns
-- Sitemap: https://gardenroute-restaurants.co.za/sitemap.xml
+- Homepage: https://www.gardenroute-restaurants.co.za
+- Browse all: https://www.gardenroute-restaurants.co.za/browse
+- By town: https://www.gardenroute-restaurants.co.za/towns
+- Sitemap: https://www.gardenroute-restaurants.co.za/sitemap.xml
 
 ## Data sources
 - Google Places API (ratings, reviews, hours, contact info)

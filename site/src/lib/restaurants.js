@@ -91,3 +91,63 @@ export function photoUrl(photo) {
   if (url.startsWith('http')) return url;                       // external (shouldn't happen)
   return null;
 }
+
+// ── Slugs & lookups ────────────────────────────────────────────────────────
+
+/** URL-safe slug for a town name. "Nature's Valley" → "natures-valley" */
+export function townSlug(town) {
+  return String(town)
+    .toLowerCase()
+    .replace(/['’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+/** Same slug rule, reusable for cuisines/tags ("Pub & Grill" → "pub-grill") */
+export function toSlug(str) {
+  return townSlug(str);
+}
+
+export function restaurantsInTown(restaurants, town) {
+  return restaurants.filter(r => r.town === town);
+}
+
+/** Restaurants whose cuisine_types OR tags match a category label. */
+export function restaurantsInCategory(restaurants, label) {
+  return restaurants.filter(r =>
+    (r.cuisine_types || []).includes(label) || (r.tags || []).includes(label)
+  );
+}
+
+/** Top N cuisines by frequency within a set of restaurants. */
+export function topCuisines(restaurants, n = 3) {
+  const counts = {};
+  for (const r of restaurants) {
+    for (const c of r.cuisine_types || []) counts[c] = (counts[c] || 0) + 1;
+  }
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, n)
+    .map(([c]) => c);
+}
+
+// ── Optional AI-generated copy (from scraper/generate_content.py) ───────────
+// If data/content/<file>.json exists, pages use the richer Ollama-written copy;
+// otherwise they fall back to data-driven templated copy. Build stays static.
+
+function loadJsonFromData(relPath) {
+  try {
+    const p = join(DATA_DIR, '..', relPath);
+    return JSON.parse(readFileSync(p, 'utf-8'));
+  } catch {
+    return {};
+  }
+}
+
+export function loadTownContent() {
+  return loadJsonFromData(join('content', 'towns.json'));
+}
+
+export function loadCuisineContent() {
+  return loadJsonFromData(join('content', 'cuisines.json'));
+}
