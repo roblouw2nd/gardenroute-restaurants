@@ -2,7 +2,7 @@
   "id": "the-famiglia-mossel-bay",
   "name": "The Famiglia",
   "slug": "the-famiglia-mossel-bay",
-  "town": "Mossel Bay",
+  "town": "Great Brak River",
   "region": "Garden Route",
   "address": "3 Kort St, Bergsig, Great Brak River, 6525, South Africa",
   "coordinates": {
@@ -70,8 +70,8 @@
       "caption": ""
     }
   ],
-  "featured": true,
-  "last_updated": "2026-05-03T02:51:06.224447+00:00",
+  "featured": false,
+  "last_updated": "2026-05-03",
   "data_sources": [
     "google_places"
   ]

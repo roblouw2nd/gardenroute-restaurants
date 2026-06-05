@@ -2,7 +2,7 @@
   "id": "oom-vetkoek-mossel-bay",
   "name": "Oom Vetkoek",
   "slug": "oom-vetkoek-mossel-bay",
-  "town": "Mossel Bay",
+  "town": "Great Brak River",
   "region": "Garden Route",
   "address": "51 Lang St, Bergsig, Great Brak River, 6525, South Africa",
   "coordinates": {
@@ -73,5 +73,5 @@
   "data_sources": [
     "google_places"
   ],
-  "home_featured": true
+  "home_featured": false
 }
