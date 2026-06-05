@@ -1,10 +1,10 @@
 {
   "george": {
     "town": "George",
-    "source": "wikipedia",
-    "file": "St._Marks_Anglican_Cathedral.jpg",
-    "artist": "Lugerda",
-    "license": "CC BY-SA 4.0"
+    "source": "user-supplied",
+    "file": "george.jpg",
+    "artist": "",
+    "license": "Supplied by site owner"
   },
   "mossel-bay": {
     "town": "Mossel Bay",
