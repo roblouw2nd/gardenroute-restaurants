@@ -1,7 +1,13 @@
 ---
-const { dark = false } = Astro.props;
+import { useTranslations } from '../i18n/utils.js';
+import { LOCALE_META } from '../i18n/ui.js';
+
+const { dark = false, lang = 'en', langLinks = [] } = Astro.props;
+const t = useTranslations(lang);
 const textClass = dark ? 'text-white' : 'text-gray-700';
 const logoClass = dark ? 'text-white' : 'text-ocean-600';
+// Language switcher only renders when this page has translated versions.
+const switcher = langLinks.filter(l => l.lang !== lang);
 ---
 <nav class={`flex items-center justify-between px-6 py-4 ${dark ? 'absolute top-0 left-0 right-0 z-10' : 'border-b border-gray-100 bg-white'}`}>
   <a href="/" class={`flex items-center gap-2 font-semibold text-lg no-underline ${logoClass}`}>
@@ -10,21 +16,37 @@ const logoClass = dark ? 'text-white' : 'text-ocean-600';
   </a>
 
   <div class={`hidden md:flex items-center gap-8 text-sm font-medium ${textClass}`}>
-    <a href="/browse" class="hover:text-ocean-600 transition-colors no-underline">Browse</a>
-    <a href="/eat" class="hover:text-ocean-600 transition-colors no-underline">Cuisines</a>
-    <a href="/map" class="hover:text-ocean-600 transition-colors no-underline">Map</a>
-    <a href="/towns" class="hover:text-ocean-600 transition-colors no-underline">Towns</a>
-    <a href="/blog" class="hover:text-ocean-600 transition-colors no-underline">Guides</a>
-    <a href="/about" class="hover:text-ocean-600 transition-colors no-underline">About</a>
+    <a href="/browse" class="hover:text-ocean-600 transition-colors no-underline">{t('nav.browse')}</a>
+    <a href="/eat" class="hover:text-ocean-600 transition-colors no-underline">{t('nav.cuisines')}</a>
+    <a href="/map" class="hover:text-ocean-600 transition-colors no-underline">{t('nav.map')}</a>
+    <a href="/towns" class="hover:text-ocean-600 transition-colors no-underline">{t('nav.towns')}</a>
+    <a href="/blog" class="hover:text-ocean-600 transition-colors no-underline">{t('nav.guides')}</a>
+    <a href="/about" class="hover:text-ocean-600 transition-colors no-underline">{t('nav.about')}</a>
   </div>
 
   <div class="flex items-center gap-3">
+    {switcher.length > 0 && (
+      <details class="relative">
+        <summary class={`list-none cursor-pointer text-sm font-medium px-3 py-2 rounded-full border transition-colors select-none
+          ${dark ? 'border-white/40 text-white hover:bg-white/10' : 'border-gray-200 text-gray-700 hover:border-gray-300'}`}
+          aria-label={t('site.language')}>
+          {LOCALE_META[lang]?.flag} {lang.toUpperCase()} ▾
+        </summary>
+        <div class="absolute right-0 mt-2 bg-white rounded-xl border border-gray-100 shadow-lg py-2 z-30 min-w-[10rem]">
+          {switcher.map(l => (
+            <a href={l.path} class="block px-4 py-1.5 text-sm text-gray-700 hover:bg-sand no-underline">
+              {LOCALE_META[l.lang]?.flag} {LOCALE_META[l.lang]?.label || l.lang}
+            </a>
+          ))}
+        </div>
+      </details>
+    )}
     <a href="/submit" class={`hidden md:block text-sm font-medium px-4 py-2 rounded-full border transition-colors no-underline
       ${dark ? 'border-white/40 text-white hover:bg-white/10' : 'border-gray-200 text-gray-700 hover:border-gray-300'}`}>
-      Add restaurant
+      {t('nav.addRestaurant')}
     </a>
     <a href="/browse" class="text-sm font-medium px-4 py-2 rounded-full bg-ocean-600 text-white hover:bg-ocean-700 transition-colors no-underline">
-      Browse all
+      {t('nav.browseAll')}
     </a>
   </div>
 </nav>

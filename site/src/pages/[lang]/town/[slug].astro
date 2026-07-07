@@ -1,0 +1,157 @@
+---
+// Localized town hub pages (/de/town/knysna/ …). Listing data (names, ratings,
+// photos) is language-neutral; intro + FAQ come from data/i18n/content/towns.json
+// when translated, else from the fully-localized ui.js templates — so these
+// pages are coherent in-language either way.
+import Base from '../../../layouts/Base.astro';
+import Nav from '../../../components/Nav.astro';
+import RestaurantCard from '../../../components/RestaurantCard.astro';
+import {
+  loadRestaurants, getUniqueTowns, restaurantsInTown, townSlug,
+  avgRating, translatedLangs, loadTownContentI18n,
+} from '../../../lib/restaurants.js';
+import { useTranslations, useTemplate, LOCALES, DEFAULT_LOCALE } from '../../../i18n/utils.js';
+
+export async function getStaticPaths() {
+  const restaurants = loadRestaurants();
+  const towns = getUniqueTowns(restaurants);
+  const paths = [];
+  for (const lang of LOCALES.filter(l => l !== DEFAULT_LOCALE)) {
+    for (const town of towns) {
+      paths.push({
+        params: { lang, slug: townSlug(town) },
+        props: { lang, town, restaurants: restaurantsInTown(restaurants, town) },
+      });
+    }
+  }
+  return paths;
+}
+
+const { lang, town, restaurants } = Astro.props;
+const t  = useTranslations(lang);
+const tf = useTemplate(lang);
+const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+
+const list = [...restaurants].sort((a, b) =>
+  (b.featured === a.featured ? (b.google_rating || 0) - (a.google_rating || 0) : (b.featured ? 1 : -1))
+);
+const count   = list.length;
+const rating  = avgRating(list);
+const topPick = list.find(r => r.google_rating >= 4.5) || list[0];
+const hero    = `${siteUrl}/images/towns/${townSlug(town)}.jpg`;
+
+// Translated AI copy if translate.py has produced it, else localized templates.
+const i18nContent = loadTownContentI18n();
+const aiCopy = i18nContent[town]?.[lang] || i18nContent[townSlug(town)]?.[lang] || null;
+
+const intro = aiCopy?.intro || tf('town.intro', { town, count, rating });
+const faqs = aiCopy?.faqs || [
+  { q: tf('town.faqCountQ', { town }), a: tf('town.faqCountA', { town, count }) },
+  topPick && {
+    q: tf('town.faqBestQ', { town }),
+    a: tf('town.faqBestA', { town, name: topPick.name, rating: topPick.google_rating, reviews: topPick.google_review_count }),
+  },
+].filter(Boolean);
+
+const seoTitle = tf('seo.townTitle', { town, count });
+const seoDesc  = tf('seo.townDesc', { town, count });
+
+const alternates = LOCALES.map(l => ({
+  lang: l,
+  path: l === DEFAULT_LOCALE ? `/town/${townSlug(town)}` : `/${l}/town/${townSlug(town)}`,
+}));
+const langLinks = alternates;
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": tf('town.h1', { town }),
+  "inLanguage": lang,
+  "numberOfItems": count,
+  "itemListElement": list.slice(0, 30).map((r, i) => ({
+    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}`, "name": r.name,
+  })),
+};
+const faqSchema = faqs.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": lang,
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question", "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+
+// Restaurant cards deep-link to localized detail pages where translated.
+const cardHref = (r) => translatedLangs(r.slug).includes(lang) ? `/${lang}/${r.slug}` : `/${r.slug}`;
+
+const allTowns = getUniqueTowns(loadRestaurants()).filter(x => x !== town);
+---
+
+<Base title={seoTitle} description={seoDesc} image={hero} schema={itemListSchema} lang={lang} alternates={alternates}>
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <Nav lang={lang} langLinks={langLinks} />
+
+  <div class="max-w-7xl mx-auto px-6 py-8">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">{town}</li>
+      </ol>
+    </nav>
+
+    <header class="mb-8">
+      <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">Garden Route · {t('nav.towns')}</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">{tf('town.h1', { town })}</h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-5">
+        <span><strong class="text-gray-900">{count}</strong> {t('common.restaurants')}</span>
+        {rating > 0 && <span class="stars">★ <span class="text-gray-900 font-semibold">{rating}</span> {t('common.avg')}</span>}
+      </div>
+      <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
+    </header>
+
+    <h2 class="font-display text-2xl font-bold mb-5">{tf('town.allHeading', { town, count })}</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      {list.map(r => <RestaurantCard restaurant={r} featured={r.featured} href={cardHref(r)} />)}
+    </div>
+
+    {faqs.length > 0 && (
+      <section class="max-w-3xl mb-12">
+        <h2 class="font-display text-2xl font-bold mb-5">{t('detail.faq')}</h2>
+        <div class="space-y-4">
+          {faqs.map(f => (
+            <details class="bg-white rounded-xl border border-gray-100 p-5">
+              <summary class="font-semibold cursor-pointer">{f.q}</summary>
+              <p class="text-gray-700 leading-relaxed mt-3">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="pt-8 border-t border-gray-100">
+      <h2 class="font-semibold text-base mb-3 text-gray-500">{t('town.explore')}</h2>
+      <div class="flex flex-wrap gap-2">
+        {allTowns.map(x => (
+          <a href={`/${lang}/town/${townSlug(x)}`}
+             class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+            {x}
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <div class="flex items-center gap-4">
+        <a href="/browse" class="hover:text-gray-600 no-underline">{t('nav.browseAll')}</a>
+        <a href="/towns" class="hover:text-gray-600 no-underline">{t('nav.towns')}</a>
+        <a href="/about" class="hover:text-gray-600 no-underline">{t('nav.about')}</a>
+      </div>
+    </div>
+  </footer>
+</Base>

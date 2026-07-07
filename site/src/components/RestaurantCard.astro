@@ -1,6 +1,7 @@
 ---
 import { photoUrl } from '../lib/restaurants.js';
-const { restaurant, featured = false } = Astro.props;
+// href: optional link override (e.g. localized detail page /de/<slug>)
+const { restaurant, featured = false, href = null } = Astro.props;
 const { name, slug, town, cuisine_types = [], price_level, google_rating, google_review_count, photos = [], description_short } = restaurant;
 
 const FALLBACK = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80';
@@ -11,7 +12,7 @@ const fullStars = Math.floor(google_rating);
 const stars = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);
 ---
 
-<a href={`/${slug}`} class="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-200 no-underline text-gray-900">
+<a href={href || `/${slug}`} class="group block bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-200 no-underline text-gray-900">
   <!-- Photo -->
   <div class="relative h-48 overflow-hidden bg-gray-100">
     <img

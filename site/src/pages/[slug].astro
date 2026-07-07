@@ -1,17 +1,18 @@
 ---
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
-import { loadRestaurants, priceLong, priceLabel, photoUrl, townSlug } from '../lib/restaurants.js';
+import RestaurantCard from '../components/RestaurantCard.astro';
+import { loadRestaurants, priceLong, priceLabel, photoUrl, townSlug, similarRestaurants, translatedLangs } from '../lib/restaurants.js';
 
 export async function getStaticPaths() {
   const restaurants = loadRestaurants();
   return restaurants.map(r => ({
     params: { slug: r.slug },
-    props: { restaurant: r },
+    props: { restaurant: r, similar: similarRestaurants(restaurants, r, 6) },
   }));
 }
 
-const { restaurant: r } = Astro.props;
+const { restaurant: r, similar = [] } = Astro.props;
 const photos  = r.photos || [];
 const FALLBACK = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80';
 const heroPhoto = photoUrl(photos[0]) || FALLBACK;
@@ -82,6 +83,12 @@ const schema = {
   "hasMap": mapsUrl,
 };
 
+// hreflang alternates — only when translated versions of this page exist
+const trLangs = translatedLangs(r.slug);
+const alternates = trLangs.length
+  ? [{ lang: 'en', path: `/${r.slug}` }, ...trLangs.map(l => ({ lang: l, path: `/${l}/${r.slug}` }))]
+  : [];
+
 // BreadcrumbList for Google breadcrumbs
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -101,11 +108,12 @@ const breadcrumbSchema = {
   image={heroPhoto}
   type="restaurant"
   schema={schema}
+  alternates={alternates}
 >
   <!-- Breadcrumb schema -->
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
-  <Nav />
+  <Nav langLinks={alternates} />
 
   <!-- Photo gallery (contained; click any image to open the lightbox) -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
@@ -203,16 +211,6 @@ const breadcrumbSchema = {
           </div>
         )}
 
-        <!-- Cuisine section — keyword rich -->
-        {(r.cuisine_types || []).length > 0 && (
-          <div class="mb-8">
-            <h2 class="font-semibold text-lg mb-2">Cuisine</h2>
-            <p class="text-gray-600">
-              {r.name} serves {r.cuisine_types.join(', ')} cuisine in {r.town}, on the Garden Route.
-            </p>
-          </div>
-        )}
-
         <!-- Opening hours — structured and readable -->
         <div class="mb-8">
           <h2 class="font-semibold text-lg mb-3">Opening hours</h2>
@@ -240,21 +238,6 @@ const breadcrumbSchema = {
           </a>
         </div>
 
-        <!-- Nearby towns — internal links for SEO -->
-        <div class="mt-10 pt-8 border-t border-gray-100">
-          <h2 class="font-semibold text-base mb-3 text-gray-500">More restaurants on the Garden Route</h2>
-          <div class="flex flex-wrap gap-2">
-            {['Knysna','Plettenberg Bay','Wilderness','George','Mossel Bay','Sedgefield','Storms River']
-              .filter(t => t !== r.town)
-              .map(t => (
-                <a href={`/town/${townSlug(t)}`}
-                   class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
-                  {t}
-                </a>
-              ))
-            }
-          </div>
-        </div>
       </div>
 
       <!-- Right: Sidebar -->
@@ -329,6 +312,21 @@ const breadcrumbSchema = {
         </div>
       </div>
     </div>
+
+    <!-- Nearby & similar restaurants — real internal links, keeps visitors browsing -->
+    {similar.length > 0 && (
+      <div class="mt-12 pt-10 border-t border-gray-100">
+        <div class="flex items-end justify-between mb-6">
+          <h2 class="font-display text-2xl font-bold">More places to eat nearby</h2>
+          <a href={`/town/${townSlug(r.town)}`} class="text-sm text-ocean-600 hover:underline no-underline whitespace-nowrap">
+            All {r.town} restaurants →
+          </a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {similar.map(s => <RestaurantCard restaurant={s} />)}
+        </div>
+      </div>
+    )}
   </div>
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">

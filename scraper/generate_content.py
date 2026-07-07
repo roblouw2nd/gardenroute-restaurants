@@ -41,7 +41,8 @@ DATA_DIR = ROOT / "data" / "restaurants"
 OUT_DIR = ROOT / "data" / "content"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-MIN_COUNT = 4  # keep in sync with site/src/lib/categories.js
+MIN_COUNT = 4       # keep in sync with site/src/lib/categories.js
+TOWN_MIN_COUNT = 3  # gate for town×category pages (TOWN_MIN_COUNT in categories.js)
 
 # Category labels — must match values in towns.py CUISINE_TYPES / TAGS,
 # and the labels in site/src/lib/categories.js
@@ -52,6 +53,19 @@ CATEGORY_LABELS = [
     "Ocean views", "Waterfront", "Dog friendly", "Family friendly",
     "Live music", "Date night", "Outdoor seating",
 ]
+
+
+# Slug overrides — keep in sync with categories.js (slug: 'sea-view')
+SLUG_OVERRIDES = {"Ocean views": "sea-view"}
+
+
+def to_slug(s: str) -> str:
+    """Mirror of site/src/lib/restaurants.js toSlug()."""
+    import re
+    s = SLUG_OVERRIDES.get(s, s)
+    s = re.sub(r"['’]", "", s.lower())
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return s.strip("-")
 
 
 def load_restaurants():
@@ -162,7 +176,34 @@ def gen_category(label, restaurants):
     return _ollama_json(SYSTEM, user)
 
 
-def run(do_towns: bool, do_cuisines: bool, force: bool):
+def gen_town_category(town, label, restaurants, town_total):
+    rated = sorted(restaurants, key=lambda r: r.get("google_rating", 0), reverse=True)
+    facts = {
+        "town": town,
+        "category": label,
+        "count": len(restaurants),
+        "town_total_restaurants": town_total,
+        "top_examples": [
+            {"name": r["name"], "rating": r.get("google_rating"),
+             "reviews": r.get("google_review_count"),
+             "description": r.get("description_short")}
+            for r in rated[:4]
+        ],
+    }
+    user = (
+        "Write JSON for a landing page listing a specific kind of restaurant in ONE "
+        "Garden Route town (e.g. 'seafood restaurants in Knysna'), using ONLY these "
+        f"facts:\n{json.dumps(facts, ensure_ascii=False)}\n\n"
+        "Return an object with:\n"
+        '- "intro": 2-3 sentences (50-80 words) about this kind of eating in this '
+        "specific town. Name one or two of the top examples naturally. No hype.\n"
+        '- "faqs": array of exactly 2 objects {"q":..., "a":...}: how many options '
+        "there are in this town, and which is the best-rated (name it)."
+    )
+    return _ollama_json(SYSTEM, user)
+
+
+def run(do_towns: bool, do_cuisines: bool, force: bool, do_town_categories: bool = False):
     restaurants = load_restaurants()
     print(f"Loaded {len(restaurants)} restaurants.\n")
 
@@ -204,13 +245,47 @@ def run(do_towns: bool, do_cuisines: bool, force: bool):
                 print(f"  x  {label}: {e}")
         print(f"\nWrote {path}\n")
 
+    if do_town_categories:
+        # Copy for /town/<town>/<category> pages, keyed "<town-slug>/<cat-slug>"
+        # (read by site/src/lib/restaurants.js loadTownCategoryContent()).
+        path = OUT_DIR / "town_categories.json"
+        existing = json.loads(path.read_text()) if path.exists() else {}
+        towns = sorted({r["town"] for r in restaurants})
+        for town in towns:
+            in_town = [r for r in restaurants if r["town"] == town]
+            for label in CATEGORY_LABELS:
+                subset = [
+                    r for r in in_town
+                    if label in (r.get("cuisine_types") or []) or label in (r.get("tags") or [])
+                ]
+                if len(subset) < TOWN_MIN_COUNT:
+                    continue
+                key = f"{to_slug(town)}/{to_slug(label)}"
+                if key in existing and not force:
+                    print(f"  =  {key} (cached)")
+                    continue
+                try:
+                    existing[key] = gen_town_category(town, label, subset, len(in_town))
+                    path.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
+                    print(f"  +  {key} ({len(subset)} restaurants)")
+                except Exception as e:
+                    print(f"  x  {key}: {e}")
+        print(f"\nWrote {path}\n")
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Generate SEO landing-page copy with local Ollama")
     ap.add_argument("--towns", action="store_true", help="towns only")
     ap.add_argument("--cuisines", action="store_true", help="categories only")
+    ap.add_argument("--town-categories", action="store_true",
+                    help="town×category pages only (/town/<town>/<category>)")
     ap.add_argument("--force", action="store_true", help="regenerate even if cached")
     args = ap.parse_args()
-    # Default: do both
-    both = not (args.towns or args.cuisines)
-    run(do_towns=args.towns or both, do_cuisines=args.cuisines or both, force=args.force)
+    # Default: do all three
+    all_ = not (args.towns or args.cuisines or args.town_categories)
+    run(
+        do_towns=args.towns or all_,
+        do_cuisines=args.cuisines or all_,
+        force=args.force,
+        do_town_categories=args.town_categories or all_,
+    )

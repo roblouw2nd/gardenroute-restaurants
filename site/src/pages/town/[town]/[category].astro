@@ -1,0 +1,251 @@
+---
+// Programmatic town-scoped landing pages:
+//   /town/<town>/<category>/      e.g. /town/knysna/seafood/
+//   /town/<town>/open-on-<day>/   e.g. /town/knysna/open-on-sunday/
+// Gated (TOWN_MIN_COUNT / OPEN_MIN_COUNT) so thin pages are never built.
+import Base from '../../../layouts/Base.astro';
+import Nav from '../../../components/Nav.astro';
+import RestaurantCard from '../../../components/RestaurantCard.astro';
+import {
+  loadRestaurants, restaurantsInTown, getUniqueTowns, townSlug, toSlug,
+  avgRating, openInTownOn, loadTownCategoryContent,
+} from '../../../lib/restaurants.js';
+import { CATEGORIES, TOWN_MIN_COUNT, OPEN_DAYS, OPEN_MIN_COUNT } from '../../../lib/categories.js';
+
+export async function getStaticPaths() {
+  const restaurants = loadRestaurants();
+  const towns = getUniqueTowns(restaurants);
+  const paths = [];
+
+  for (const town of towns) {
+    const inTown = restaurantsInTown(restaurants, town);
+
+    for (const cat of CATEGORIES) {
+      const matches = inTown.filter(r =>
+        (r.cuisine_types || []).includes(cat.label) || (r.tags || []).includes(cat.label)
+      );
+      if (matches.length >= TOWN_MIN_COUNT) {
+        paths.push({
+          params: { town: townSlug(town), category: cat.slug || toSlug(cat.label) },
+          props: { mode: 'category', town, cat, list: matches, townTotal: inTown.length },
+        });
+      }
+    }
+
+    for (const day of OPEN_DAYS) {
+      const matches = openInTownOn(restaurants, town, day);
+      if (matches.length >= OPEN_MIN_COUNT) {
+        paths.push({
+          params: { town: townSlug(town), category: `open-on-${day}` },
+          props: { mode: 'day', town, day, list: matches, townTotal: inTown.length },
+        });
+      }
+    }
+  }
+  return paths;
+}
+
+const { mode, town, cat, day, list: rawList, townTotal } = Astro.props;
+const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+
+const list = [...rawList].sort((a, b) =>
+  (b.featured === a.featured ? (b.google_rating || 0) - (a.google_rating || 0) : (b.featured ? 1 : -1))
+);
+const count  = list.length;
+const rating = avgRating(list);
+const top    = list.find(r => r.google_rating >= 4.5) || list[0];
+const dayCap = day ? day.charAt(0).toUpperCase() + day.slice(1) : '';
+
+const catSlug  = mode === 'category' ? (cat.slug || toSlug(cat.label)) : `open-on-${day}`;
+const catLabel = mode === 'category'
+  ? (cat.h1 || `${cat.label} restaurants`)
+  : `restaurants open on ${dayCap}`;
+const h1 = mode === 'category'
+  ? `Best ${cat.h1 || cat.label.toLowerCase() + ' restaurants'} in ${town}`
+  : `Restaurants open on ${dayCap} in ${town}`;
+
+// Optional richer copy from the local-AI generator, else a data-driven intro.
+const aiCopy = loadTownCategoryContent()[`${townSlug(town)}/${catSlug}`] || null;
+
+const introFallback = mode === 'category'
+  ? `Looking for ${cat.h1 || cat.label.toLowerCase()} in ${town}? We list ${count} of them, averaging ${rating}★ from real Google reviews.` +
+    (top ? ` ${top.name} leads the pack with ${top.google_rating}★ from ${top.google_review_count} reviews.` : '') +
+    ` Every listing below has current opening hours, contact details and directions — top-rated places first.`
+  : `Caught out by ${dayCap} closing times? ${count} of ${town}'s ${townTotal} restaurants are open on ${dayCap}, averaging ${rating}★.` +
+    (top ? ` ${top.name} (${top.google_rating}★) is a safe bet.` : '') +
+    ` ${dayCap} hours are shown under each listing — it's still worth calling ahead on public holidays.`;
+const intro = aiCopy?.intro || introFallback;
+
+const seoTitle = mode === 'category'
+  ? `Best ${(cat.h1 || cat.label + ' restaurants').replace(/^\w/, c => c.toUpperCase())} in ${town} (${count}) — Garden Route`
+  : `Restaurants Open on ${dayCap} in ${town} (${count}) — Garden Route`;
+const seoDesc = mode === 'category'
+  ? `The ${count} best ${cat.h1 || cat.label.toLowerCase()} in ${town}, Garden Route — with Google ratings, opening hours, menus and directions.`
+  : `${count} restaurants open on ${dayCap} in ${town}, Garden Route — with ${dayCap} opening hours, ratings and directions. Updated regularly.`;
+
+const faqs = aiCopy?.faqs || (mode === 'category' ? [
+  {
+    q: `How many ${cat.h1 || cat.label.toLowerCase()} are there in ${town}?`,
+    a: `Our directory lists ${count} ${cat.h1 || cat.label.toLowerCase()} in ${town} on the Garden Route, each with current ratings, opening hours and contact details.`,
+  },
+  top && {
+    q: `What is the best ${(cat.h1 || cat.label.toLowerCase()).replace(/s$/, '')} in ${town}?`,
+    a: `${top.name} is among the highest-rated, with ${top.google_rating}★ from ${top.google_review_count} Google reviews. ${top.description_short || ''}`.trim(),
+  },
+] : [
+  {
+    q: `Which restaurants are open on ${dayCap} in ${town}?`,
+    a: `${count} of the ${townTotal} restaurants we track in ${town} open on ${dayCap}${top ? `, including ${top.name} (${top.google_rating}★)` : ''}. Each listing above shows its ${dayCap} hours.`,
+  },
+  {
+    q: `Do restaurants in ${town} close on ${dayCap}s?`,
+    a: `Some do — ${townTotal - count} of ${town}'s ${townTotal} listed restaurants are closed on ${dayCap}s, so it's worth checking hours before you go, especially on public holidays.`,
+  },
+]).filter(Boolean);
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": h1,
+  "numberOfItems": count,
+  "itemListElement": list.slice(0, 30).map((r, i) => ({
+    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}`, "name": r.name,
+  })),
+};
+const faqSchema = faqs.length ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question", "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Towns", "item": `${siteUrl}/towns` },
+    { "@type": "ListItem", "position": 3, "name": town, "item": `${siteUrl}/town/${townSlug(town)}` },
+    { "@type": "ListItem", "position": 4, "name": h1, "item": `${siteUrl}/town/${townSlug(town)}/${catSlug}` },
+  ],
+};
+
+// Cross-links: same category in other towns, and other categories in this town.
+const all = loadRestaurants();
+const inCategory = (r, c) => (r.cuisine_types || []).includes(c.label) || (r.tags || []).includes(c.label);
+
+const sameCatOtherTowns = mode === 'category'
+  ? getUniqueTowns(all)
+      .filter(t => t !== town)
+      .map(t => ({ t, n: all.filter(r => r.town === t && inCategory(r, cat)).length }))
+      .filter(x => x.n >= TOWN_MIN_COUNT)
+  : getUniqueTowns(all)
+      .filter(t => t !== town)
+      .map(t => ({ t, n: openInTownOn(all, t, day).length }))
+      .filter(x => x.n >= OPEN_MIN_COUNT);
+
+const inTownAll = restaurantsInTown(all, town);
+const otherCatsThisTown = CATEGORIES
+  .filter(c => (c.slug || toSlug(c.label)) !== catSlug)
+  .map(c => ({ c, n: inTownAll.filter(r => inCategory(r, c)).length, s: c.slug || toSlug(c.label) }))
+  .filter(x => x.n >= TOWN_MIN_COUNT);
+---
+
+<Base title={seoTitle} description={seoDesc} schema={itemListSchema}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+
+  <Nav />
+
+  <div class="max-w-7xl mx-auto px-6 py-8">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li><a href="/towns" class="hover:text-gray-600 no-underline">Towns</a></li>
+        <li>›</li>
+        <li><a href={`/town/${townSlug(town)}`} class="hover:text-gray-600 no-underline">{town}</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">{mode === 'category' ? (cat.h1 || cat.label) : `Open on ${dayCap}`}</li>
+      </ol>
+    </nav>
+
+    <header class="mb-8">
+      <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">{town} · Garden Route</p>
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">{h1}</h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-5">
+        <span><strong class="text-gray-900">{count}</strong> places</span>
+        {rating > 0 && <span class="stars">★ <span class="text-gray-900 font-semibold">{rating}</span> avg</span>}
+        <a href={`/town/${townSlug(town)}`} class="text-ocean-600 hover:underline no-underline">All {town} restaurants →</a>
+      </div>
+      <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
+    </header>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      {list.map(r => (
+        <div>
+          <RestaurantCard restaurant={r} featured={r.featured} />
+          {mode === 'day' && (
+            <p class="text-xs text-gray-500 mt-2 px-1">🕐 {dayCap}: {r.opening_hours[day]}</p>
+          )}
+        </div>
+      ))}
+    </div>
+
+    {faqs.length > 0 && (
+      <section class="max-w-3xl mb-12">
+        <h2 class="font-display text-2xl font-bold mb-5">Frequently asked questions</h2>
+        <div class="space-y-4">
+          {faqs.map(f => (
+            <details class="bg-white rounded-xl border border-gray-100 p-5">
+              <summary class="font-semibold cursor-pointer">{f.q}</summary>
+              <p class="text-gray-700 leading-relaxed mt-3">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {sameCatOtherTowns.length > 0 && (
+      <section class="pt-8 border-t border-gray-100 mb-8">
+        <h2 class="font-semibold text-base mb-3 text-gray-500">
+          {mode === 'category' ? `${(cat.h1 || cat.label).replace(/^\w/, c => c.toUpperCase())} in other towns` : `Open on ${dayCap} in other towns`}
+        </h2>
+        <div class="flex flex-wrap gap-2">
+          {sameCatOtherTowns.map(({ t, n }) => (
+            <a href={`/town/${townSlug(t)}/${catSlug}`}
+               class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+              {t} <span class="text-gray-400">({n})</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {otherCatsThisTown.length > 0 && (
+      <section class="pt-8 border-t border-gray-100">
+        <h2 class="font-semibold text-base mb-3 text-gray-500">More ways to eat in {town}</h2>
+        <div class="flex flex-wrap gap-2">
+          {otherCatsThisTown.map(({ c, n, s }) => (
+            <a href={`/town/${townSlug(town)}/${s}`}
+               class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
+              {(c.h1 || c.label).replace(/^\w/, ch => ch.toUpperCase())} <span class="text-gray-400">({n})</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <div class="flex items-center gap-4">
+        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/towns" class="hover:text-gray-600 no-underline">Towns</a>
+        <a href="/about" class="hover:text-gray-600 no-underline">About</a>
+      </div>
+    </div>
+  </footer>
+</Base>

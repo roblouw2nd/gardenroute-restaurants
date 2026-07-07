@@ -1,0 +1,279 @@
+---
+// Localized restaurant detail pages (/de/<slug>/, /fr/<slug>/ …).
+// A page is only built when scraper/translate.py has produced a translation
+// for that restaurant+language (data/i18n/restaurants/<slug>.json) — so no
+// thin English-under-foreign-URL pages ever ship.
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import RestaurantCard from '../../components/RestaurantCard.astro';
+import {
+  loadRestaurants, priceLong, priceLabel, photoUrl, townSlug,
+  similarRestaurants, restaurantTranslation, translatedLangs,
+} from '../../lib/restaurants.js';
+import { useTranslations, useTemplate, localizePath, LOCALES, DEFAULT_LOCALE } from '../../i18n/utils.js';
+
+export async function getStaticPaths() {
+  const restaurants = loadRestaurants();
+  const paths = [];
+  for (const lang of LOCALES.filter(l => l !== DEFAULT_LOCALE)) {
+    for (const r of restaurants) {
+      const tr = restaurantTranslation(r.slug, lang);
+      if (tr) {
+        paths.push({
+          params: { lang, slug: r.slug },
+          props: { restaurant: r, tr, lang, similar: similarRestaurants(restaurants, r, 6) },
+        });
+      }
+    }
+  }
+  return paths;
+}
+
+const { restaurant: r, tr, lang, similar = [] } = Astro.props;
+const t  = useTranslations(lang);
+const tf = useTemplate(lang);
+
+const photos  = r.photos || [];
+const FALLBACK = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80';
+const heroPhoto = photoUrl(photos[0]) || FALLBACK;
+const gallery = photos.map(p => photoUrl(p)).filter(Boolean);
+if (gallery.length === 0) gallery.push(FALLBACK);
+const fullStars = Math.floor(r.google_rating || 0);
+const starsStr  = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);
+const priceFull = t(`price.${r.price_level}`) || priceLong(r.price_level);
+const days      = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
+const mapsUrl   = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + ' ' + r.address)}`;
+const siteUrl   = 'https://www.gardenroute-restaurants.co.za';
+
+const descShort = tr.description_short;
+const descLong  = tr.description_long || '';
+
+const seoTitle = tf('seo.restTitle', { name: r.name, town: r.town });
+const seoDesc  = `${descShort} ${t('seo.restDescTail')}`;
+
+// hreflang alternates: English original + every translated language.
+const alternates = [
+  { lang: 'en', path: `/${r.slug}` },
+  ...translatedLangs(r.slug).map(l => ({ lang: l, path: `/${l}/${r.slug}` })),
+];
+const langLinks = alternates.map(a => ({ lang: a.lang, path: a.path }));
+
+// Schema mirrors the EN page but with localized description + inLanguage.
+const schemaHours = days
+  .filter(d => r.opening_hours?.[d] && r.opening_hours[d] !== 'Hours not available' && r.opening_hours[d].toLowerCase() !== 'closed')
+  .map(d => {
+    const dayMap = { monday:'Mo', tuesday:'Tu', wednesday:'We', thursday:'Th', friday:'Fr', saturday:'Sa', sunday:'Su' };
+    const parts = r.opening_hours[d].split('–').map(s => s.trim().replace(/\s*(AM|PM)/i, m => m.trim()));
+    return `${dayMap[d]} ${parts.join('-')}`;
+  });
+const priceRangeMap = { 1:'R', 2:'RR', 3:'RRR', 4:'RRRR' };
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": r.name,
+  "description": descShort,
+  "url": `${siteUrl}/${lang}/${r.slug}`,
+  "inLanguage": lang,
+  "image": photos.map(p => photoUrl(p)).filter(Boolean),
+  "telephone": r.phone || undefined,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": r.address,
+    "addressLocality": r.town,
+    "addressRegion": "Western Cape",
+    "addressCountry": "ZA"
+  },
+  "geo": r.coordinates?.lat ? {
+    "@type": "GeoCoordinates",
+    "latitude": r.coordinates.lat,
+    "longitude": r.coordinates.lng
+  } : undefined,
+  "servesCuisine": r.cuisine_types || [],
+  "priceRange": priceRangeMap[r.price_level] || 'RR',
+  "aggregateRating": r.google_rating > 0 ? {
+    "@type": "AggregateRating",
+    "ratingValue": r.google_rating,
+    "reviewCount": r.google_review_count,
+    "bestRating": 5,
+    "worstRating": 1
+  } : undefined,
+  "openingHours": schemaHours.length ? schemaHours : undefined,
+  "sameAs": r.website ? [r.website] : [],
+  "hasMap": mapsUrl,
+};
+
+// Similar cards link to the localized page when that translation exists.
+const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${s.slug}` : `/${s.slug}`;
+---
+
+<Base
+  title={seoTitle}
+  description={seoDesc}
+  image={heroPhoto}
+  type="restaurant"
+  schema={schema}
+  lang={lang}
+  alternates={alternates}
+>
+  <Nav lang={lang} langLinks={langLinks} />
+
+  <!-- Photo -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
+    <div class="rounded-2xl overflow-hidden h-[280px] sm:h-[360px] md:h-[440px] bg-gray-100">
+      <img
+        src={gallery[0]}
+        alt={`${r.name} — ${r.town}, Garden Route`}
+        class="w-full h-full object-cover"
+        fetchpriority="high"
+      />
+    </div>
+  </div>
+
+  <div class="relative max-w-6xl mx-auto px-6 py-10" style="z-index: 1;">
+    <nav aria-label="Breadcrumb" class="mb-6">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li><a href={`/${lang}/town/${townSlug(r.town)}`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">{r.name}</li>
+      </ol>
+    </nav>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <div class="lg:col-span-2">
+        <h1 class="font-display text-4xl font-bold mb-2">{r.name}</h1>
+        <p class="text-gray-500 text-lg mb-3">
+          <span>{(r.cuisine_types || []).join(', ')}</span>
+          {' · '}
+          <a href={`/${lang}/town/${townSlug(r.town)}`} class="hover:text-ocean-600 no-underline">{r.town}</a>
+          {' · '}
+          <span>{priceLabel(r.price_level)}</span>
+        </p>
+
+        {r.google_rating > 0 && (
+          <div class="flex items-center gap-2 mb-6">
+            <span class="stars text-lg" aria-label={`${r.google_rating}/5`}>{starsStr}</span>
+            <span class="font-semibold text-lg">{r.google_rating}</span>
+            <span class="text-gray-400">({r.google_review_count} {t('detail.googleReviews')})</span>
+          </div>
+        )}
+
+        {descLong && (
+          <div class="mb-8">
+            <h2 class="font-semibold text-lg mb-3">{t('detail.about')} {r.name}</h2>
+            {descLong.split('\n\n').map(para => (
+              <p class="text-gray-700 leading-relaxed mb-4">{para}</p>
+            ))}
+          </div>
+        )}
+
+        <div class="mb-8">
+          <h2 class="font-semibold text-lg mb-3">{t('detail.openingHours')}</h2>
+          <div class="bg-sand rounded-xl p-4 max-w-sm">
+            {days.map(day => (
+              <div class="flex justify-between py-1.5 border-b border-white last:border-0">
+                <span class="text-gray-500 capitalize text-sm">{day}</span>
+                <span class="font-medium text-sm">
+                  {r.opening_hours?.[day] && r.opening_hours[day] !== 'Hours not available'
+                    ? r.opening_hours[day]
+                    : <span class="text-gray-400">—</span>
+                  }
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="mb-8">
+          <h2 class="font-semibold text-lg mb-2">{t('detail.location')}</h2>
+          <p class="text-gray-600 mb-2">{r.address}</p>
+          <a href={mapsUrl} target="_blank" rel="noopener" class="text-sm text-ocean-600 hover:underline no-underline">
+            Google Maps →
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-1">
+        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sticky top-6">
+          <h2 class="font-semibold text-lg mb-4">{r.name}</h2>
+
+          {r.google_rating > 0 && (
+            <div class="flex items-center gap-1.5 mb-4">
+              <span class="stars">{starsStr}</span>
+              <span class="font-semibold">{r.google_rating}</span>
+              <span class="text-gray-400 text-sm">({r.google_review_count})</span>
+            </div>
+          )}
+
+          <div class="space-y-3 text-sm mb-6">
+            {r.address && (
+              <div class="flex gap-2"><span aria-hidden>📍</span><span class="text-gray-600">{r.address}</span></div>
+            )}
+            {r.phone && (
+              <div class="flex gap-2"><span aria-hidden>📞</span><a href={`tel:${r.phone}`} class="text-ocean-600 hover:underline">{r.phone}</a></div>
+            )}
+            {r.website && (
+              <div class="flex gap-2"><span aria-hidden>🌐</span><a href={r.website} target="_blank" rel="noopener" class="text-ocean-600 hover:underline truncate text-xs">{r.website.replace(/^https?:\/\//, '')}</a></div>
+            )}
+          </div>
+
+          <div class="flex gap-2 mb-6">
+            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-ocean-50 text-ocean-700">{priceFull}</span>
+            {(r.cuisine_types||[]).slice(0,1).map(c => (
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-sand text-gray-600">{c}</span>
+            ))}
+          </div>
+
+          <div class="space-y-3">
+            {r.phone && (
+              <a href={`tel:${r.phone}`}
+                class="flex items-center justify-center gap-2 w-full py-3 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-xl text-sm transition-colors no-underline">
+                📞 {t('detail.callToBook')}
+              </a>
+            )}
+            <a href={mapsUrl} target="_blank" rel="noopener"
+              class="flex items-center justify-center gap-2 w-full py-3 border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold rounded-xl text-sm transition-colors no-underline">
+              🗺 {t('detail.getDirections')}
+            </a>
+            {r.website && (
+              <a href={r.website} target="_blank" rel="noopener"
+                class="flex items-center justify-center gap-2 w-full py-3 border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold rounded-xl text-sm transition-colors no-underline">
+                🌐 {t('detail.visitWebsite')}
+              </a>
+            )}
+          </div>
+
+          <p class="text-xs text-gray-400 text-center mt-4">
+            {t('common.updated')} {new Date(r.last_updated).toLocaleDateString(lang, { month: 'long', year: 'numeric' })}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {similar.length > 0 && (
+      <div class="mt-12 pt-10 border-t border-gray-100">
+        <div class="flex items-end justify-between mb-6">
+          <h2 class="font-display text-2xl font-bold">{t('detail.moreNearby')}</h2>
+          <a href={`/${lang}/town/${townSlug(r.town)}`} class="text-sm text-ocean-600 hover:underline no-underline whitespace-nowrap">
+            {tf('detail.allTown', { town: r.town })} →
+          </a>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {similar.map(s => <RestaurantCard restaurant={s} href={similarHref(s)} />)}
+        </div>
+      </div>
+    )}
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <div class="flex items-center gap-4">
+        <a href="/browse" class="hover:text-gray-600 no-underline">{t('nav.browseAll')}</a>
+        <a href="/terms" class="hover:text-gray-600 no-underline">Terms</a>
+        <a href="/privacy" class="hover:text-gray-600 no-underline">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</Base>

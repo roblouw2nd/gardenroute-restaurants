@@ -9,6 +9,16 @@
 
 export const MIN_COUNT = 4;
 
+// Town-scoped category pages (/town/<town>/<category>) are useful with fewer
+// entries than route-wide ones — but still gated to avoid thin pages.
+export const TOWN_MIN_COUNT = 3;
+
+// Day-of-week pages are only built for the days people actually search
+// ("restaurants open on Sunday/Monday in X" — when many places close).
+// All seven days would create near-duplicates of the town page.
+export const OPEN_DAYS = ['sunday', 'monday'];
+export const OPEN_MIN_COUNT = 5;
+
 export const CATEGORIES = [
   // Cuisines
   { label: 'Seafood',            type: 'cuisine',  h1: 'seafood restaurants' },

@@ -6,7 +6,7 @@ import {
   loadRestaurants, restaurantsInCategory, getUniqueTowns,
   toSlug, townSlug, avgRating, loadCuisineContent,
 } from '../../lib/restaurants.js';
-import { CATEGORIES, MIN_COUNT } from '../../lib/categories.js';
+import { CATEGORIES, MIN_COUNT, TOWN_MIN_COUNT } from '../../lib/categories.js';
 
 export async function getStaticPaths() {
   const restaurants = loadRestaurants();
@@ -103,11 +103,11 @@ const otherCats = CATEGORIES
       <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
     </header>
 
-    <!-- Browse by town within this category -->
+    <!-- Browse by town within this category — deep-links to town×category pages where they exist -->
     {townsForCat.length > 1 && (
       <div class="flex flex-wrap gap-2 mb-10">
         {townsForCat.map(([t, n]) => (
-          <a href={`/town/${townSlug(t)}`}
+          <a href={n >= TOWN_MIN_COUNT ? `/town/${townSlug(t)}/${slug}` : `/town/${townSlug(t)}`}
              class="px-3 py-1.5 rounded-full bg-sand text-sm text-gray-600 hover:text-ocean-600 no-underline transition-colors">
             {t} <span class="text-gray-400">({n})</span>
           </a>

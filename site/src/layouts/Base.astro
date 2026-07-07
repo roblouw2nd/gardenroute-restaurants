@@ -1,18 +1,36 @@
 ---
+import { OG_LOCALES } from '../i18n/utils.js';
+
 const {
   title = 'Garden Route Restaurants — Find the Best Restaurants on the Garden Route',
   description = 'Discover the best restaurants on the Garden Route, South Africa. Browse restaurants in Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay and more — with ratings, menus, hours and contact info.',
   image = 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80',
   type = 'website',
   schema = null,
+  lang = 'en',
+  // Translated versions of THIS page: [{ lang: 'de', path: '/de/…' }, …].
+  // English self-reference + x-default are added automatically when present.
+  alternates = [],
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const siteName = 'Garden Route Restaurants';
 const siteUrl = 'https://www.gardenroute-restaurants.co.za';
+// og:image must be an absolute URL (OG spec) — resolve relative paths against the site.
+const ogImage = /^https?:\/\//.test(image) ? image : new URL(image, siteUrl).href;
+const ogLocale = OG_LOCALES[lang] || 'en_ZA';
+const htmlLang = lang === 'en' ? 'en-ZA' : lang;
+// hreflang set: only rendered when translations of this page exist.
+const withSlash = (p) => (p.endsWith('/') ? p : `${p}/`);
+const hreflangs = alternates.length
+  ? [
+      ...alternates.map(a => ({ hreflang: a.lang, href: `${siteUrl}${withSlash(a.path)}` })),
+      { hreflang: 'x-default', href: `${siteUrl}${withSlash(alternates.find(a => a.lang === 'en')?.path || Astro.url.pathname)}` },
+    ]
+  : [];
 ---
 <!DOCTYPE html>
-<html lang="en-ZA">
+<html lang={htmlLang}>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,6 +49,7 @@ const siteUrl = 'https://www.gardenroute-restaurants.co.za';
   <title>{title}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
+  {hreflangs.map(h => <link rel="alternate" hreflang={h.hreflang} href={h.href} />)}
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="author" content="Garden Route Restaurants" />
 
@@ -39,17 +58,17 @@ const siteUrl = 'https://www.gardenroute-restaurants.co.za';
   <meta property="og:site_name" content={siteName} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={image} />
+  <meta property="og:image" content={ogImage} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:url" content={canonical} />
-  <meta property="og:locale" content="en_ZA" />
+  <meta property="og:locale" content={ogLocale} />
 
   <!-- Twitter / X Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={image} />
+  <meta name="twitter:image" content={ogImage} />
 
   <!-- Geo targeting — Garden Route, South Africa -->
   <meta name="geo.region" content="ZA-WC" />

@@ -5,7 +5,10 @@ import RestaurantCard from '../../components/RestaurantCard.astro';
 import {
   loadRestaurants, getUniqueTowns, restaurantsInTown, townSlug,
   topCuisines, avgRating, priceLong, townImage, loadTownContent,
+  toSlug, openInTownOn,
 } from '../../lib/restaurants.js';
+import { CATEGORIES, TOWN_MIN_COUNT, OPEN_DAYS, OPEN_MIN_COUNT } from '../../lib/categories.js';
+import { LOCALES, DEFAULT_LOCALE } from '../../i18n/utils.js';
 
 export async function getStaticPaths() {
   const restaurants = loadRestaurants();
@@ -96,13 +99,28 @@ const breadcrumbSchema = {
 
 // Other towns for internal linking
 const allTowns = getUniqueTowns(loadRestaurants()).filter(t => t !== town);
+
+// hreflang alternates — localized town pages exist for every locale
+const alternates = LOCALES.map(l => ({
+  lang: l,
+  path: l === DEFAULT_LOCALE ? `/town/${townSlug(town)}` : `/${l}/town/${townSlug(town)}`,
+}));
+
+// Town-scoped category & open-on-day sub-pages that exist for this town
+const inCategory = (r, c) => (r.cuisine_types || []).includes(c.label) || (r.tags || []).includes(c.label);
+const subPages = [
+  ...CATEGORIES
+    .map(c => ({ label: (c.h1 || c.label).replace(/^\w/, ch => ch.toUpperCase()), s: c.slug || toSlug(c.label), n: restaurants.filter(r => inCategory(r, c)).length, min: TOWN_MIN_COUNT })),
+  ...OPEN_DAYS
+    .map(d => ({ label: `Open on ${d.charAt(0).toUpperCase() + d.slice(1)}`, s: `open-on-${d}`, n: openInTownOn(restaurants, town, d).length, min: OPEN_MIN_COUNT })),
+].filter(p => p.n >= p.min);
 ---
 
-<Base title={seoTitle} description={seoDesc} image={hero} schema={itemListSchema}>
+<Base title={seoTitle} description={seoDesc} image={hero} schema={itemListSchema} alternates={alternates}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
-  <Nav />
+  <Nav langLinks={alternates} />
 
   <div class="max-w-7xl mx-auto px-6 py-8">
     <!-- Breadcrumb -->
@@ -127,6 +145,18 @@ const allTowns = getUniqueTowns(loadRestaurants()).filter(t => t !== town);
       </div>
       <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
     </header>
+
+    <!-- Town-scoped category pages — programmatic long-tail landing pages -->
+    {subPages.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-10" aria-label={`Browse ${town} restaurants by category`}>
+        {subPages.map(p => (
+          <a href={`/town/${townSlug(town)}/${p.s}`}
+             class="px-3 py-1.5 rounded-full bg-sand text-sm text-gray-600 hover:text-ocean-600 no-underline transition-colors">
+            {p.label} <span class="text-gray-400">({p.n})</span>
+          </a>
+        ))}
+      </div>
+    )}
 
     <!-- Restaurant grid -->
     <h2 class="font-display text-2xl font-bold mb-5">All {count} restaurants in {town}</h2>

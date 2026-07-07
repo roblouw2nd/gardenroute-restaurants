@@ -1,8 +1,10 @@
 import {
   loadRestaurants, getUniqueTowns, townSlug,
-  restaurantsInCategory, toSlug,
+  restaurantsInCategory, restaurantsInTown, toSlug, openInTownOn,
+  translatedLangs,
 } from '../lib/restaurants.js';
-import { CATEGORIES, MIN_COUNT } from '../lib/categories.js';
+import { CATEGORIES, MIN_COUNT, TOWN_MIN_COUNT, OPEN_DAYS, OPEN_MIN_COUNT } from '../lib/categories.js';
+import { LOCALES, DEFAULT_LOCALE } from '../i18n/utils.js';
 
 export async function GET() {
   const restaurants = loadRestaurants();
@@ -36,6 +38,24 @@ export async function GET() {
       changefreq: 'weekly',
     }));
 
+  // Town-scoped programmatic pages (town×category + open-on-day), same gates
+  // as site/src/pages/town/[town]/[category].astro
+  const inCategory = (r, c) => (r.cuisine_types || []).includes(c.label) || (r.tags || []).includes(c.label);
+  const townCategoryPages = [];
+  for (const t of towns) {
+    const inTown = restaurantsInTown(restaurants, t);
+    for (const c of CATEGORIES) {
+      if (inTown.filter(r => inCategory(r, c)).length >= TOWN_MIN_COUNT) {
+        townCategoryPages.push({ url: `/town/${townSlug(t)}/${c.slug || toSlug(c.label)}`, priority: '0.7', changefreq: 'weekly' });
+      }
+    }
+    for (const d of OPEN_DAYS) {
+      if (openInTownOn(restaurants, t, d).length >= OPEN_MIN_COUNT) {
+        townCategoryPages.push({ url: `/town/${townSlug(t)}/open-on-${d}`, priority: '0.6', changefreq: 'weekly' });
+      }
+    }
+  }
+
   // Blog / guides
   const postModules = import.meta.glob('./blog/*.md', { eager: true });
   const blogPages = [
@@ -55,7 +75,21 @@ export async function GET() {
     lastmod: r.last_updated ? r.last_updated.split('T')[0] : now,
   }));
 
-  const allPages = [...staticPages, ...townPages, ...categoryPages, ...blogPages, ...restaurantPages];
+  // Localized pages (mirror the gates in src/pages/[lang]/…)
+  const nonDefault = LOCALES.filter(l => l !== DEFAULT_LOCALE);
+  const localizedPages = [
+    // Town hubs exist for every locale
+    ...nonDefault.flatMap(l => towns.map(t => ({
+      url: `/${l}/town/${townSlug(t)}`, priority: '0.6', changefreq: 'weekly',
+    }))),
+    // Restaurant pages only where a translation exists
+    ...restaurants.flatMap(r => translatedLangs(r.slug).map(l => ({
+      url: `/${l}/${r.slug}`, priority: '0.5', changefreq: 'weekly',
+      lastmod: r.last_updated ? r.last_updated.split('T')[0] : now,
+    }))),
+  ];
+
+  const allPages = [...staticPages, ...townPages, ...categoryPages, ...townCategoryPages, ...blogPages, ...restaurantPages, ...localizedPages];
 
   // Normalise to a trailing slash so sitemap URLs match the canonical tags.
   const withSlash = (u) => (u === '/' ? '/' : (u.endsWith('/') ? u : `${u}/`));
