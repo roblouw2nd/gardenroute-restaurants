@@ -14,7 +14,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("GOOGLE_PLACES_API_KEY")
+# Stripped: a key pasted with a trailing newline is rejected as an invalid HTTP header.
+API_KEY = (os.getenv("GOOGLE_PLACES_API_KEY") or "").strip()
 SEARCH_TEXT_URL   = "https://places.googleapis.com/v1/places:searchText"
 SEARCH_NEARBY_URL = "https://places.googleapis.com/v1/places:searchNearby"
 
