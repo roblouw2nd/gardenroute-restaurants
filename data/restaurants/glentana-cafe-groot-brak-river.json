@@ -12,7 +12,7 @@
   "phone": "+27 73 098 9817",
   "email": "",
   "website": "https://gapp-collective.co.za/glentana/",
-  "menu_url": "",
+  "menu_url": "https://gapp-collective.co.za/wp-content/uploads/2026/07/Glentana-Cafe-2026-Winter-Menu.pdf",
   "google_place_id": "ChIJuWXUAAQT1h0RXypvo_EpAps",
   "google_rating": 4.6,
   "google_review_count": 234,
@@ -73,7 +73,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:51:24.148828+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

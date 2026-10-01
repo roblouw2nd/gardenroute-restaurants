@@ -12,7 +12,7 @@
   "phone": "+27 44 868 0677",
   "email": "",
   "website": "https://www.therealhennies.co.za/",
-  "menu_url": "",
+  "menu_url": "https://firebasestorage.googleapis.com/v0/b/hennies-137ec.appspot.com/o/pdfs%2FSA%20Menu.pdf?alt=media&token=ef8f35b2-0ef3-4582-abf8-2158b93f3662",
   "google_place_id": "ChIJy-7yLzpp1h0RmsAhQzT3LZs",
   "google_rating": 4.4,
   "google_review_count": 1981,
@@ -70,7 +70,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:51:47.518240+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

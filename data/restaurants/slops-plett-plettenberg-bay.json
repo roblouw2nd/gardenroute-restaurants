@@ -12,7 +12,7 @@
   "phone": "+27 10 157 2783",
   "email": "",
   "website": "https://www.slops-sa.co.za/",
-  "menu_url": "",
+  "menu_url": "https://www.slops-sa.co.za/menu/",
   "google_place_id": "ChIJRXgjwfDjeB4RbNiJyxk6GUA",
   "google_rating": 4.2,
   "google_review_count": 139,
@@ -70,7 +70,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:32:06.429270+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

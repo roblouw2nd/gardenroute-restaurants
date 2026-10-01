@@ -12,7 +12,7 @@
   "phone": "+27 44 874 7084",
   "email": "",
   "website": "https://www.panarottis.com/za/restaurants/western-cape/panarottis-george/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
-  "menu_url": "",
+  "menu_url": "https://www.panarottis.com/za/menu",
   "google_place_id": "ChIJScmxtzAF1h0RPiaDdK0hKV0",
   "google_rating": 4.4,
   "google_review_count": 1318,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:38:14.975677+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

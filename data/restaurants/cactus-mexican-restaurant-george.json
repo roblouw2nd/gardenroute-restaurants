@@ -12,7 +12,7 @@
   "phone": "+27 44 874 7805",
   "email": "",
   "website": "http://www.cactus.bar/",
-  "menu_url": "",
+  "menu_url": "http://cactus.bar/food/",
   "google_place_id": "ChIJyao6NycF1h0REQetWJyfGg8",
   "google_rating": 4.3,
   "google_review_count": 780,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:36:09.122606+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

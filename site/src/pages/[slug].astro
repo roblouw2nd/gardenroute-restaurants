@@ -81,7 +81,14 @@ const schema = {
   "openingHours": schemaHours.length ? schemaHours : undefined,
   "sameAs": r.website ? [r.website] : [],
   "hasMap": mapsUrl,
+  "hasMenu": r.menu_url || undefined,
 };
+
+// Set by scraper/refresh.py when Google reports the place as closed
+const closedNotice = {
+  CLOSED_PERMANENTLY: 'Google reports this restaurant as permanently closed.',
+  CLOSED_TEMPORARILY: 'Google reports this restaurant as temporarily closed.',
+}[r.business_status];
 
 // hreflang alternates — only when translated versions of this page exist
 const trLangs = translatedLangs(r.slug);
@@ -175,6 +182,11 @@ const breadcrumbSchema = {
         )}
 
         <h1 class="font-display text-4xl font-bold mb-2">{r.name}</h1>
+        {closedNotice && (
+          <p class="bg-red-50 border border-red-200 text-red-800 text-sm font-semibold rounded-xl px-4 py-3 mb-3">
+            {closedNotice} Please call ahead before visiting.
+          </p>
+        )}
         <p class="text-gray-500 text-lg mb-3">
           <span>{(r.cuisine_types || []).join(', ')}</span>
           {' · '}

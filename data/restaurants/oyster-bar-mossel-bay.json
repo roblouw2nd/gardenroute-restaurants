@@ -12,7 +12,7 @@
   "phone": "+27 44 333 0202",
   "email": "",
   "website": "http://www.mosselbayoysterbar.co.za/",
-  "menu_url": "",
+  "menu_url": "https://www.mosselbayoysterbar.co.za/menu.html",
   "google_place_id": "ChIJVeKY8fVp1h0Rt7dKUF6eA8s",
   "google_rating": 3.9,
   "google_review_count": 519,
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:40:51.399742+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

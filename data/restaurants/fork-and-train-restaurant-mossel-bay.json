@@ -12,7 +12,7 @@
   "phone": "+27 44 691 1995",
   "email": "",
   "website": "http://www.forkandtrain.co.za/",
-  "menu_url": "",
+  "menu_url": "https://forkandtrain.co.za/menu/",
   "google_place_id": "ChIJ1xtTf_Rp1h0RMaz2Pw-_qAo",
   "google_rating": 3.8,
   "google_review_count": 535,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:41:01.949461+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

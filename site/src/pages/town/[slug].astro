@@ -4,8 +4,8 @@ import Nav from '../../components/Nav.astro';
 import RestaurantCard from '../../components/RestaurantCard.astro';
 import {
   loadRestaurants, getUniqueTowns, restaurantsInTown, townSlug,
-  topCuisines, avgRating, priceLong, townImage, loadTownContent,
-  toSlug, openInTownOn,
+  topCuisines, avgRating, priceLong, priceLabel, townImage, loadTownContent,
+  toSlug, openInTownOn, rankByRating,
 } from '../../lib/restaurants.js';
 import { CATEGORIES, TOWN_MIN_COUNT, OPEN_DAYS, OPEN_MIN_COUNT } from '../../lib/categories.js';
 import { LOCALES, DEFAULT_LOCALE } from '../../i18n/utils.js';
@@ -30,7 +30,15 @@ const list = [...restaurants].sort((a, b) =>
 const count    = list.length;
 const cuisines = topCuisines(list, 4);
 const rating   = avgRating(list);
-const topRated = list.filter(r => r.google_rating >= 4.5).slice(0, 3);
+// Top 10 by review-weighted rating (shown above the full grid once a town has enough places)
+const ranked   = rankByRating(list);
+const top10    = count >= 8 ? ranked.slice(0, 10) : [];
+const names    = (rs) => rs.map(r => r.name).join(', ').replace(/, ([^,]*)$/, ' and $1');
+const hasAny   = (r, labels) => labels.some(l => (r.cuisine_types || []).includes(l) || (r.tags || []).includes(l));
+const sunday   = rankByRating(openInTownOn(restaurants, town, 'sunday'));
+const breakfast = ranked.filter(r => hasAny(r, ['Breakfast & Brunch', 'Breakfast']));
+const seaView  = ranked.filter(r => hasAny(r, ['Ocean views', 'Waterfront']));
+const family   = ranked.filter(r => hasAny(r, ['Family friendly', 'Family-friendly']));
 const hero     = `${siteUrl}/images/towns/${townSlug(town)}.jpg`;  // absolute for og:image
 
 // Optional richer copy from local-AI generator; else build a unique data-driven intro.
@@ -44,7 +52,7 @@ const introFallback = `${town} is home to ${count} ${count === 1 ? 'restaurant' 
 const intro = aiCopy?.intro || introFallback;
 
 // FAQ — use AI copy if available, else generate sensible defaults
-const topPick = topRated[0];
+const topPick = ranked[0];
 const faqs = aiCopy?.faqs || [
   {
     q: `How many restaurants are there in ${town}?`,
@@ -58,10 +66,29 @@ const faqs = aiCopy?.faqs || [
     q: `What kind of food can I find in ${town}?`,
     a: `Popular options in ${town} include ${cuisines.join(', ')}. Use the filters on our browse page to narrow by cuisine, price or features like sea views and dog-friendly.`,
   },
+  sunday.length >= 3 && {
+    q: `Which restaurants in ${town} are open on Sunday?`,
+    a: `${sunday.length} of the ${count} restaurants we list in ${town} are open on Sundays, including ${names(sunday.slice(0, 3))}. Hours can change on public holidays, so call ahead.`,
+  },
+  breakfast.length >= 2 && {
+    q: `Where can I get breakfast in ${town}?`,
+    a: `${breakfast.length} places in ${town} serve breakfast or brunch. The best rated are ${names(breakfast.slice(0, 3))}.`,
+  },
+  seaView.length >= 2 && {
+    q: `Which ${town} restaurants have a sea or water view?`,
+    a: `${names(seaView.slice(0, 3))} are the best-rated ${town} restaurants with ocean or waterfront views.`,
+  },
+  family.length >= 2 && {
+    q: `Which restaurants in ${town} are good for families?`,
+    a: `${names(family.slice(0, 3))} are the best-rated family-friendly restaurants in ${town}.`,
+  },
 ].filter(Boolean);
 
 const seoTitle = `Best Restaurants in ${town} (${count}) — Garden Route, South Africa`;
-const seoDesc  = `Discover the best places to eat in ${town} on the Garden Route. Browse ${count} restaurants with ratings, opening hours, menus and directions${cuisines.length ? ` — from ${cuisines.slice(0,3).join(', ')} and more` : ''}.`;
+// Name the top places in the search snippet — as many (3, 2 or 1) as fit in ~160 characters.
+const descWith = (n) => `${count} places to eat in ${town}, Garden Route — including ${names(ranked.slice(0, n))}. Ratings, opening hours, menus and directions.`;
+const seoDesc  = (count >= 5 ? [3, 2, 1] : []).map(descWith).find(d => d.length <= 160)
+  || `Discover the best places to eat in ${town} on the Garden Route. Browse ${count} ${count === 1 ? 'restaurant' : 'restaurants'} with ratings, opening hours, menus and directions.`;
 
 // Schema: ItemList of restaurants + FAQPage + Breadcrumbs
 const itemListSchema = {
@@ -156,6 +183,31 @@ const subPages = [
           </a>
         ))}
       </div>
+    )}
+
+    <!-- Top 10 — a quick answer before the full grid -->
+    {top10.length > 0 && (
+      <section class="mb-12 max-w-3xl">
+        <h2 class="font-display text-2xl font-bold mb-2">Top {top10.length} restaurants in {town}</h2>
+        <p class="text-sm text-gray-500 mb-5">Ranked by Google rating, weighted by how many diners have reviewed each place.</p>
+        <ol class="list-none p-0 m-0 space-y-3">
+          {top10.map((r, i) => (
+            <li class="flex gap-4 bg-white rounded-xl border border-gray-100 p-4">
+              <span class="font-display text-2xl font-bold text-ocean-600 w-8 shrink-0">{i + 1}</span>
+              <div class="min-w-0">
+                <h3 class="font-semibold text-base m-0">
+                  <a href={`/${r.slug}/`} class="text-gray-900 hover:text-ocean-600 no-underline">{r.name}</a>
+                </h3>
+                <p class="text-sm text-gray-500 mt-0.5 mb-1">
+                  <span class="stars">★</span> <span class="font-medium text-gray-900">{r.google_rating}</span> ({r.google_review_count} reviews)
+                  {' · '}{(r.cuisine_types || [])[0] || 'Restaurant'}{' · '}{priceLabel(r.price_level)}
+                </p>
+                {r.description_short && <p class="text-sm text-gray-600 m-0">{r.description_short}</p>}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
     )}
 
     <!-- Restaurant grid -->

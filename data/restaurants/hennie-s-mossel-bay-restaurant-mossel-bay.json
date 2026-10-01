@@ -66,8 +66,9 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:52:08.087258+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
-  ]
+  ],
+  "menu_url": "https://firebasestorage.googleapis.com/v0/b/hennies-137ec.appspot.com/o/pdfs%2FSA%20Menu.pdf?alt=media&token=ef8f35b2-0ef3-4582-abf8-2158b93f3662"
 }

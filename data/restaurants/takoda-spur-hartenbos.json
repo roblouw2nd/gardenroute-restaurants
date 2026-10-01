@@ -12,7 +12,7 @@
   "phone": "+27 44 695 0382",
   "email": "",
   "website": "https://www.spursteakranches.com/za/restaurant/western-cape/mossel-bay/hartenbos/takoda-spur?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
-  "menu_url": "",
+  "menu_url": "https://www.spursteakranches.com/za/menu",
   "google_place_id": "ChIJo6WAEzhp1h0RQDf4hNmxwUA",
   "google_rating": 3.9,
   "google_review_count": 2460,
@@ -70,7 +70,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:52:08.083036+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

@@ -33,3 +33,6 @@ npm-debug.log*
 # Editor
 .vscode/
 .idea/
+
+# Working file from scraper/find_menus.py
+scraper/menu_candidates.csv

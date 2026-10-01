@@ -12,7 +12,7 @@
   "phone": "+27 41 023 0726",
   "email": "",
   "website": "https://www.jacksbagels.co.za/",
-  "menu_url": "",
+  "menu_url": "https://www.jacksbagels.co.za/menu",
   "google_place_id": "ChIJSS1FKHHreB4RZ13aWn9q1-Y",
   "google_rating": 4.6,
   "google_review_count": 41,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:30:00.179282+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

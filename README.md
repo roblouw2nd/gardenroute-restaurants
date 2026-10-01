@@ -8,6 +8,8 @@
 2. Each new entry gets a draft description, tags and cuisine classification, which a person reviews and edits in the admin dashboard (`admin/`) before it is published
 3. Data is stored as JSON files in `data/restaurants/`; places a curator has removed are recorded in `data/excluded_places.json` and are never re-added
 4. An Astro static site builds from the JSON files and deploys to Vercel automatically
+5. Twice a month a GitHub Action (`scraper/refresh.py`) refreshes ratings, review counts, opening hours and phone numbers on existing listings. It never adds or removes a listing or changes a description; places Google reports as closed are flagged in the run summary for a person to review
+6. `scraper/find_menus.py` looks for each restaurant's own menu page and writes a CSV for review; only rows a person approves are applied
 
 ## Stack
 
@@ -15,6 +17,7 @@
 |---|---|
 | Scraper | Python 3.11, Google Places API |
 | Curation | Local admin dashboard (`admin/`) |
+| Automation | GitHub Actions (data refresh on the 1st and 15th) |
 | Frontend | Astro + Tailwind CSS |
 | Hosting | Vercel |
 

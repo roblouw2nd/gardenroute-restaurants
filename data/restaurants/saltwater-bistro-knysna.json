@@ -12,7 +12,7 @@
   "phone": "+27 72 558 5443",
   "email": "",
   "website": "https://www.rexhotel.co.za/",
-  "menu_url": "",
+  "menu_url": "https://www.rexhotel.co.za/wp-content/uploads/2026/05/Saltwater-Bistro-Menu-May-2026.pdf",
   "google_place_id": "ChIJCwf7CADreB4R-QFgV4O_oeQ",
   "google_rating": 4.2,
   "google_review_count": 51,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:27:46.620067+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

@@ -12,7 +12,7 @@
   "phone": "+27 82 820 1925",
   "email": "",
   "website": "http://twintrees.co.za/",
-  "menu_url": "",
+  "menu_url": "https://twintrees.co.za/documents/Twin-Trees-Standard-Menu-Design-2026-Web.pdf",
   "google_place_id": "ChIJAQD85yJt1h0RWNunnGGS7Cg",
   "google_rating": 4.1,
   "google_review_count": 700,
@@ -73,7 +73,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:50:51.388198+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

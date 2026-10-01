@@ -12,7 +12,7 @@
   "phone": "+27 44 873 4279",
   "email": "",
   "website": "https://www.spursteakranches.com/za/restaurant/western-cape/george/george-central/geronimo-spur?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
-  "menu_url": "",
+  "menu_url": "https://www.spursteakranches.com/za/menu",
   "google_place_id": "ChIJW5CKfUoF1h0R2WUY30Bsq5o",
   "google_rating": 4.4,
   "google_review_count": 3321,
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:37:38.323036+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

@@ -12,7 +12,7 @@
   "phone": "+27 64 639 3395",
   "email": "",
   "website": "https://dbaytravellers.com/",
-  "menu_url": "",
+  "menu_url": "https://dbaytravellers.com/our-menu/",
   "google_place_id": "ChIJG50xe7Vp1h0RTDODuF4lJaE",
   "google_rating": 4.3,
   "google_review_count": 62,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:41:41.490722+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

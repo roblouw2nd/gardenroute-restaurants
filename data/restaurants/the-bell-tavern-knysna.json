@@ -12,7 +12,7 @@
   "phone": "",
   "email": "",
   "website": "https://belvidere.co.za/bell-tavern-knysna/",
-  "menu_url": "",
+  "menu_url": "https://belvidere.co.za/wp-content/uploads/2023/10/The-Bell-Tavern-Food-Menu.pdf",
   "google_place_id": "ChIJodh2mUuVeB4R9OGNB-D9_z8",
   "google_rating": 4.3,
   "google_review_count": 628,
@@ -72,7 +72,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:28:35.494087+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

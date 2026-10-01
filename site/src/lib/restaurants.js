@@ -39,6 +39,24 @@ export function getUniqueCuisines(restaurants) {
   return [...new Set(restaurants.flatMap(r => r.cuisine_types || []))].sort();
 }
 
+/**
+ * Restaurants ordered by a review-weighted rating, so a 4.9 from 12 reviews
+ * doesn't outrank a 4.7 from 1,500. Each rating is pulled toward the group's
+ * mean, weighted by the group's median review count (a Bayesian average).
+ */
+export function rankByRating(restaurants) {
+  const rated = restaurants.filter(r => r.google_rating > 0);
+  if (!rated.length) return [];
+  const mean = rated.reduce((s, r) => s + r.google_rating, 0) / rated.length;
+  const counts = rated.map(r => r.google_review_count || 0).sort((a, b) => a - b);
+  const minReviews = counts[Math.floor(counts.length / 2)] || 1;
+  const score = (r) => {
+    const v = r.google_review_count || 0;
+    return (v / (v + minReviews)) * r.google_rating + (minReviews / (v + minReviews)) * mean;
+  };
+  return [...rated].sort((a, b) => score(b) - score(a));
+}
+
 export function avgRating(restaurants) {
   const rated = restaurants.filter(r => r.google_rating > 0);
   if (!rated.length) return 0;

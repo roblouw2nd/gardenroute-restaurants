@@ -12,7 +12,7 @@
   "phone": "+27 71 495 1814",
   "email": "",
   "website": "http://www.wildernessbeachhouse.com/",
-  "menu_url": "",
+  "menu_url": "https://wildernessbeachhouse.com/menu/",
   "google_place_id": "ChIJ8yx4tVMc1h0R4mLiV3s3wGo",
   "google_rating": 4.5,
   "google_review_count": 782,
@@ -74,7 +74,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:35:20.382091+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

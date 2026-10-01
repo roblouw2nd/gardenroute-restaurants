@@ -12,7 +12,7 @@
   "phone": "+27 44 333 0021",
   "email": "",
   "website": "https://www.botlierskop.co.za/day-visitors/",
-  "menu_url": "",
+  "menu_url": "https://www.botlierskop.co.za/wp-content/uploads/2025/11/day-visitors-spekbos-restaurant-menu2025.pdf",
   "google_place_id": "ChIJzXJq6d5v1h0R7DuJY08asEE",
   "google_rating": 4.6,
   "google_review_count": 288,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:53:02.496171+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]

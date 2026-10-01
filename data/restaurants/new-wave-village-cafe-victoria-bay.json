@@ -12,7 +12,7 @@
   "phone": "+27 79 819 2010",
   "email": "",
   "website": "http://www.newwavevillage.co.za/",
-  "menu_url": "",
+  "menu_url": "https://newwavevillage.co.za/wp-content/uploads/2025/01/Menus-New-Wave-Dec-25.pdf",
   "google_place_id": "ChIJ8d61ZD8d1h0RWv77j4nI_aA",
   "google_rating": 4.7,
   "google_review_count": 184,
@@ -74,7 +74,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:56:18.147692+00:00",
+  "last_updated": "2026-10-01T20:38:23.716921+00:00",
   "data_sources": [
     "google_places"
   ]
