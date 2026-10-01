@@ -50,6 +50,14 @@ def fetch_details(place_id: str) -> dict:
     return response.json()
 
 
+def google_error_message(error: requests.RequestException) -> str:
+    """Google's own explanation of a failed request (e.g. a disabled API or a restricted key)."""
+    try:
+        return error.response.json()["error"]["message"]
+    except Exception:  # noqa: BLE001 — no response, or not Google's JSON error shape
+        return str(error)
+
+
 def apply_details(record: dict, place: dict) -> list[str]:
     """Copy fresh facts from a Place Details response onto a listing.
     Returns the names of the fields that changed."""
@@ -100,6 +108,7 @@ def main():
 
     now = datetime.now(timezone.utc).isoformat()
     to_write, errors, closed = [], [], []
+    first_error = None
     field_counts: dict[str, int] = {}
 
     for path in paths:
@@ -109,6 +118,8 @@ def main():
         except requests.RequestException as e:
             status = getattr(e.response, "status_code", None)
             errors.append(f"{record['slug']} ({status or type(e).__name__})")
+            if first_error is None:
+                first_error = google_error_message(e)
             continue
 
         before = json.dumps(record, sort_keys=True)
@@ -136,7 +147,7 @@ def main():
     if closed:
         lines += ["", "### Reported closed by Google — review these"] + [f"- {c}" for c in closed]
     if errors:
-        lines += ["", "### Failed lookups"] + [f"- {e}" for e in errors[:50]]
+        lines += ["", "### Failed lookups", f"First error: {first_error}"] + [f"- {e}" for e in errors[:50]]
     if aborted:
         lines += ["", f"**Nothing written: {error_rate:.0%} of lookups failed (limit {MAX_ERROR_RATE:.0%}).**"]
     elif args.dry_run:
