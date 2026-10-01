@@ -84,10 +84,10 @@ const schema = {
   "hasMenu": r.menu_url || undefined,
 };
 
-// Set by scraper/refresh.py when Google reports the place as closed
+// Set "business_status" in a listing's JSON when a curator confirms it has closed
 const closedNotice = {
-  CLOSED_PERMANENTLY: 'Google reports this restaurant as permanently closed.',
-  CLOSED_TEMPORARILY: 'Google reports this restaurant as temporarily closed.',
+  CLOSED_PERMANENTLY: 'This restaurant is reported as permanently closed.',
+  CLOSED_TEMPORARILY: 'This restaurant is reported as temporarily closed.',
 }[r.business_status];
 
 // hreflang alternates — only when translated versions of this page exist

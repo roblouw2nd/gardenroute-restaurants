@@ -34,5 +34,6 @@ npm-debug.log*
 .vscode/
 .idea/
 
-# Working file from scraper/find_menus.py
+# Working files from scraper/find_menus.py and scraper/refresh_from_web.py
 scraper/menu_candidates.csv
+scraper/web_refresh.csv
