@@ -9,7 +9,7 @@
     "lat": -33.9481325,
     "lng": 22.4328117
   },
-  "phone": "",
+  "phone": "+27 44 023 0070",
   "email": "",
   "website": "https://www.hawthorn.co.za/",
   "google_place_id": "ChIJaepY0mQF1h0RPl8JriosZ6M",
@@ -70,8 +70,9 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:11:52.212800+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
-  ]
+  ],
+  "menu_url": "https://hawthorn.co.za/wp-content/uploads/2026/06/Hawthorn-Hotel_Forester-Menu_2025.pdf"
 }

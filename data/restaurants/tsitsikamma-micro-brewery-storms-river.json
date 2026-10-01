@@ -11,7 +11,7 @@
   },
   "phone": "+27 42 281 1711",
   "email": "",
-  "website": "http://www.tsitsikammamicrobrewery.co.za/",
+  "website": "https://www.facebook.com/tsitsikammamicrobrewery",
   "google_place_id": "ChIJKcPBQ_NueR4REjfnXPGTCq0",
   "google_rating": 4.6,
   "google_review_count": 82,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:50:02.687483+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

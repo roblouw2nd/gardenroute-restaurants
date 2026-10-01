@@ -12,7 +12,7 @@
   "phone": "+27 78 415 6473",
   "email": "",
   "website": "https://www.seemeeuvisenchips.co.za/",
-  "menu_url": "",
+  "menu_url": "https://seemeeuvisenchips.co.za/#menu",
   "google_place_id": "ChIJ3bxZvzxt1h0RtU8zSvzw2ZU",
   "google_rating": 4.9,
   "google_review_count": 41,
@@ -67,7 +67,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:50:51.393211+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

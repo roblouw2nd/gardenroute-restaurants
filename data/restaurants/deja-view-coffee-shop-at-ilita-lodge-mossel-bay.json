@@ -12,7 +12,7 @@
   "phone": "+27 44 620 4143",
   "email": "",
   "website": "https://linktr.ee/ilitalodge",
-  "menu_url": "",
+  "menu_url": "https://www.ilitalodge.co.za/wp-content/uploads/2026/01/Ilita-Lodge-Menu.pdf",
   "google_place_id": "ChIJGWEYMxRt1h0RRmh1-Dlr2CA",
   "google_rating": 4.5,
   "google_review_count": 167,
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:50:57.970988+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

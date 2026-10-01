@@ -11,7 +11,7 @@
   },
   "phone": "+27 44 889 0097",
   "email": "",
-  "website": "http://www.kontreipadstal.co.za/",
+  "website": "",
   "google_place_id": "ChIJaRBdln4b1h0RpsKSIY9ofmY",
   "google_rating": 4.5,
   "google_review_count": 541,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:56:35.150749+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

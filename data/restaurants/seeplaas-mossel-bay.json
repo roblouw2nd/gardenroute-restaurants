@@ -12,7 +12,7 @@
   "phone": "+27 44 620 2409",
   "email": "",
   "website": "https://www.seeplaas.co.za/",
-  "menu_url": "",
+  "menu_url": "http://seeplaas.co.za/wp-content/uploads/2026/01/Food-Menu-September-2026.pdf",
   "google_place_id": "ChIJeaf7y_ps1h0RQxUqoCr-4e8",
   "google_rating": 4.2,
   "google_review_count": 2297,
@@ -72,7 +72,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:55:24.362764+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

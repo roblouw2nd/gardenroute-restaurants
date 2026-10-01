@@ -30,13 +30,13 @@
     "Wheelchair accessible"
   ],
   "opening_hours": {
-    "monday": "Hours not available",
-    "tuesday": "Hours not available",
-    "wednesday": "Hours not available",
-    "thursday": "Hours not available",
-    "friday": "Hours not available",
-    "saturday": "Hours not available",
-    "sunday": "Hours not available"
+    "monday": "6:00 PM – 9:00 PM",
+    "tuesday": "6:00 PM – 9:00 PM",
+    "wednesday": "6:00 PM – 9:00 PM",
+    "thursday": "6:00 PM – 9:00 PM",
+    "friday": "6:00 PM – 9:00 PM",
+    "saturday": "6:00 PM – 9:00 PM",
+    "sunday": "6:00 PM – 9:00 PM"
   },
   "description_short": "River estate restaurant serving contemporary cuisine with magnificent valley views and a tranquil garden setting.",
   "description_long": "Perched on a private river estate above the Bitou River valley, Emily Moon offers one of Plettenberg Bay's most spectacular dining settings. The restaurant's deck and garden seating overlook indigenous forest and the meandering river below, creating an atmosphere that's both elegant and relaxed. Inside, the light-filled dining room maintains that connection to nature while providing a sophisticated backdrop for leisurely meals.\n\nThe menu balances contemporary techniques with locally-sourced ingredients, from fresh line fish to Karoo lamb, presented with care but without pretension. Breakfast draws a loyal following, while lunch and dinner showcase seasonal produce in dishes that let quality ingredients speak for themselves. The wine list focuses on South African estates, with knowledgeable staff happy to guide your selection.\n\nLocated just off the N2 between Plettenberg Bay and Knysna, the estate's gardens and river setting make it worth the short detour. Whether you're stopping for morning coffee on the deck, a long lunch under the trees, or sunset drinks overlooking the valley, Emily Moon delivers a memorable Plett experience without trying too hard.",
@@ -68,8 +68,9 @@
     }
   ],
   "featured": true,
-  "last_updated": "2026-05-03T02:30:28.589573+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
-  ]
+  ],
+  "menu_url": "https://emilymoon.co.za/wp-content/uploads/2026/01/Emilys-Dinner-Menu-LH-December-2025.pdf"
 }

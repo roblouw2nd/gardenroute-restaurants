@@ -12,7 +12,7 @@
   "phone": "+27 44 501 2500",
   "email": "",
   "website": "http://www.emilymoon.co.za/simons-bar",
-  "menu_url": "",
+  "menu_url": "https://emilymoon.co.za/wp-content/uploads/2026/01/Simons-Pizza-Menu-LH-December-2025.pdf",
   "google_place_id": "ChIJVdmMZuDheB4RTl7lusW90As",
   "google_rating": 4.5,
   "google_review_count": 107,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:32:58.081947+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

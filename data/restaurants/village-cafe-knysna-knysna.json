@@ -9,7 +9,7 @@
     "lat": -34.038227899999995,
     "lng": 23.056788599999997
   },
-  "phone": "",
+  "phone": "+27 79 308 6713",
   "email": "",
   "website": "http://vcknysna.co.za/",
   "google_place_id": "ChIJYyTTHtnreB4RLBkVBt18OR8",
@@ -66,7 +66,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:27:18.274915+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

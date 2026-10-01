@@ -11,8 +11,8 @@
   },
   "phone": "+27 44 382 0631",
   "email": "",
-  "website": "https://www.issaquenaheights.co.za/pages/restaurant/",
-  "menu_url": "",
+  "website": "https://issaquenaheights.co.za/issaquena-falls-restaurant/",
+  "menu_url": "https://issaquenaheights.co.za/wp-content/uploads/2026/02/Issaquena-Falls-Menu-Summer-Menu-.pdf",
   "google_place_id": "ChIJ5Zz5I5PreB4RIRkCYI8QlMI",
   "google_rating": 5,
   "google_review_count": 2,
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:29:44.123649+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

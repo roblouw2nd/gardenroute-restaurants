@@ -9,7 +9,7 @@
     "lat": -34.0471071,
     "lng": 22.9975891
   },
-  "phone": "",
+  "phone": "+27 44 124 0170",
   "email": "",
   "website": "https://belvidere.co.za/bell-tavern-knysna/",
   "menu_url": "https://belvidere.co.za/wp-content/uploads/2023/10/The-Bell-Tavern-Food-Menu.pdf",
@@ -72,7 +72,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-10-01T20:38:23.716921+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

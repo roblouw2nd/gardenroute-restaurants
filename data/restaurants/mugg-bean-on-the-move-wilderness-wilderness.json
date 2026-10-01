@@ -12,7 +12,7 @@
   "phone": "+27 44 877 0510",
   "email": "",
   "website": "https://locations.muggandbean.co.za/restaurants-SparWildernessMilkwoodVillageBuilding1-MuggBeanOnTheMoveWilderness/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
-  "menu_url": "",
+  "menu_url": "https://muggandbean.co.za/our-menu/on-the-move-menu/",
   "google_place_id": "ChIJ05D31fsd1h0RKhg4ZKLoPUU",
   "google_rating": 4.5,
   "google_review_count": 131,
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:35:10.434065+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

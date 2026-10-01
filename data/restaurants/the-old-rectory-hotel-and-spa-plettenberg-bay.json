@@ -11,8 +11,8 @@
   },
   "phone": "+27 44 533 1201",
   "email": "",
-  "website": "https://www.rareearth.co.za/the-old-rectory-index",
-  "menu_url": "",
+  "website": "https://www.rareearth.co.za/properties/the-old-rectory/",
+  "menu_url": "https://wp.rareearth.co.za/app/uploads/2025/10/Summer-Menu-2025-26.pdf",
   "google_place_id": "ChIJcZVd7AvieB4R-ka7vUHtJ5s",
   "google_rating": 4.7,
   "google_review_count": 231,
@@ -71,7 +71,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:31:38.586495+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

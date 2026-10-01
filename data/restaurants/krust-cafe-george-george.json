@@ -11,7 +11,7 @@
   },
   "phone": "+27 44 001 1693",
   "email": "",
-  "website": "http://www.krustcafe.co.za/",
+  "website": "https://gapp-collective.co.za/krust-cafe/",
   "google_place_id": "ChIJdZiVkRQb1h0Rrd1Bhhfmb4M",
   "google_rating": 4.5,
   "google_review_count": 519,
@@ -65,7 +65,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-10-01T20:38:23.716921+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ],

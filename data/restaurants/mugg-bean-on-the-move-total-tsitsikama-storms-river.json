@@ -12,7 +12,7 @@
   "phone": "+27 42 280 3910",
   "email": "",
   "website": "https://locations.muggandbean.co.za/restaurants-TotalEnergiesPetroportTsitsikama-MuggBeanOnTheMoveTotalTsitsikama/?utm_source=google_maps&utm_medium=website_button&utm_campaign=SP&utm_content=SP",
-  "menu_url": "",
+  "menu_url": "https://muggandbean.co.za/our-menu/on-the-move-menu/",
   "google_place_id": "ChIJL7zxXGFveR4R_gz1GkR3888",
   "google_rating": 3,
   "google_review_count": 80,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:50:11.024939+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

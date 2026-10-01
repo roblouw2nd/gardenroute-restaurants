@@ -12,7 +12,7 @@
   "phone": "+27 44 606 5330",
   "email": "",
   "website": "",
-  "menu_url": "",
+  "menu_url": "https://pinnaclepointestate.co.za/wp-content/uploads/2026/05/Cliffside-Winter-Menu-2026.pdf",
   "google_place_id": "ChIJCVgOJrVD1h0RCU-IgROT5SY",
   "google_rating": 4,
   "google_review_count": 23,
@@ -70,7 +70,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:42:08.803708+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

@@ -12,7 +12,7 @@
   "phone": "+27 44 695 1503",
   "email": "",
   "website": "http://www.rivierahotelhartenbos.com/",
-  "menu_url": "",
+  "menu_url": "https://rivierahotelhartenbos.com/wp-content/uploads/2026/09/Riviera-Hotel-Menu-Mar-2026.pdf",
   "google_place_id": "ChIJ3eHSCzZp1h0R7baCaH3_F10",
   "google_rating": 4.1,
   "google_review_count": 78,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:51:47.523272+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

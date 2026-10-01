@@ -12,7 +12,7 @@
   "phone": "+27 44 873 3435",
   "email": "",
   "website": "http://texasgrill.co.za/",
-  "menu_url": "",
+  "menu_url": "https://texasgrill.co.za/menu/",
   "google_place_id": "ChIJxUR6bjQF1h0R_zwuGI9hRWE",
   "google_rating": 4.1,
   "google_review_count": 1281,
@@ -68,7 +68,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:37:25.788416+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

@@ -11,7 +11,7 @@
   },
   "phone": "+27 79 898 3764",
   "email": "",
-  "website": "https://doppio.co.za/restaurant/doppio-zero-garden-walk-mall/",
+  "website": "https://doppio.co.za/restaurant/doppio-zero-garden-walk/",
   "menu_url": "https://doppio.co.za/wp-content/uploads/2024/10/DZ_Winter_Main-Menu_National_webres.pdf",
   "google_place_id": "ChIJFZstQFJv1h0RYveU-GtXMwQ",
   "google_rating": 4.1,
@@ -70,7 +70,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-10-01T20:38:23.716921+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

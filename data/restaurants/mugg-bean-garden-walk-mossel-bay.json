@@ -12,7 +12,7 @@
   "phone": "+27 67 591 3182",
   "email": "",
   "website": "https://locations.muggandbean.co.za/restaurants-GardenWalkMall-MuggBeanGardenWalkHartenbos?utm_source=facebook_page&utm_medium=website_link&utm_campaign=SP&utm_content=SP",
-  "menu_url": "",
+  "menu_url": "https://muggandbean.co.za/our-menu/sit-down-menu/",
   "google_place_id": "ChIJw9IMS-Nv1h0RWEC-RakJ-4g",
   "google_rating": 4.7,
   "google_review_count": 25,
@@ -69,7 +69,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:52:08.084513+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

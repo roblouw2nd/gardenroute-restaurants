@@ -9,10 +9,10 @@
     "lat": -34.1245452,
     "lng": 22.1083394
   },
-  "phone": "",
+  "phone": "+27 44 333 0203",
   "email": "",
   "website": "",
-  "menu_url": "",
+  "menu_url": "https://pizaevino.co.za/menu/",
   "google_place_id": "ChIJyQboBQBp1h0RKH7YwXCLEBQ",
   "google_rating": 5,
   "google_review_count": 1,
@@ -30,19 +30,19 @@
     "BYO wine"
   ],
   "opening_hours": {
-    "monday": "Hours not available",
-    "tuesday": "Hours not available",
-    "wednesday": "Hours not available",
-    "thursday": "Hours not available",
-    "friday": "Hours not available",
-    "saturday": "Hours not available",
-    "sunday": "Hours not available"
+    "monday": "11:00 AM – 8:30 PM",
+    "tuesday": "11:00 AM – 9:30 PM",
+    "wednesday": "11:00 AM – 9:30 PM",
+    "thursday": "11:00 AM – 9:30 PM",
+    "friday": "11:00 AM – 10:00 PM",
+    "saturday": "11:00 AM – 10:00 PM",
+    "sunday": "11:00 AM – 8:30 PM"
   },
   "description_short": "Italian favourites with waterfront charm at Hartenbos, perfect for relaxed seaside dining in Mossel Bay.",
   "description_long": "Nestled in the coastal village of Hartenbos, Piza ē Vino brings authentic Italian flavours to Mossel Bay's beachside community. The name says it all – wood-fired pizzas and carefully selected wines take centre stage, served in a relaxed atmosphere that captures the easy-going spirit of the Garden Route coast.\n\nThe menu focuses on honest Italian classics done well, from stone-baked pizzas with generous toppings to pasta dishes that satisfy without pretence. It's the kind of neighbourhood spot where locals gather for a midweek meal or weekend lunch, with the sea breeze and Hartenbos charm adding to the experience. Whether you're after a quick bite after the beach or a leisurely dinner with a glass of wine, the laid-back vibe makes everyone feel welcome.",
   "photos": [],
   "featured": false,
-  "last_updated": "2026-05-03T02:52:08.086690+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

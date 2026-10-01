@@ -9,7 +9,7 @@
     "lat": -33.974444399999996,
     "lng": 23.8863889
   },
-  "phone": "",
+  "phone": "+27 42 281 1711",
   "email": "",
   "website": "",
   "google_place_id": "ChIJQdXFevRueR4RBql-DQvYNGY",
@@ -67,7 +67,7 @@
     }
   ],
   "featured": false,
-  "last_updated": "2026-05-03T02:50:02.692459+00:00",
+  "last_updated": "2026-10-01T21:28:49.731610+00:00",
   "data_sources": [
     "google_places"
   ]

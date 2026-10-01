@@ -37,3 +37,4 @@ npm-debug.log*
 # Working files from scraper/find_menus.py and scraper/refresh_from_web.py
 scraper/menu_candidates.csv
 scraper/web_refresh.csv
+scraper/web_review.csv
