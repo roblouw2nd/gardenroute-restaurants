@@ -109,7 +109,7 @@ const itemListSchema = {
   "name": h1,
   "numberOfItems": count,
   "itemListElement": list.slice(0, 30).map((r, i) => ({
-    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}`, "name": r.name,
+    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}/`, "name": r.name,
   })),
 };
 const faqSchema = faqs.length ? {
@@ -125,9 +125,9 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-    { "@type": "ListItem", "position": 2, "name": "Towns", "item": `${siteUrl}/towns` },
-    { "@type": "ListItem", "position": 3, "name": town, "item": `${siteUrl}/town/${townSlug(town)}` },
-    { "@type": "ListItem", "position": 4, "name": h1, "item": `${siteUrl}/town/${townSlug(town)}/${catSlug}` },
+    { "@type": "ListItem", "position": 2, "name": "Towns", "item": `${siteUrl}/towns/` },
+    { "@type": "ListItem", "position": 3, "name": town, "item": `${siteUrl}/town/${townSlug(town)}/` },
+    { "@type": "ListItem", "position": 4, "name": h1, "item": `${siteUrl}/town/${townSlug(town)}/${catSlug}/` },
   ],
 };
 
@@ -163,9 +163,9 @@ const otherCatsThisTown = CATEGORIES
       <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
         <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
         <li>›</li>
-        <li><a href="/towns" class="hover:text-gray-600 no-underline">Towns</a></li>
+        <li><a href="/towns/" class="hover:text-gray-600 no-underline">Towns</a></li>
         <li>›</li>
-        <li><a href={`/town/${townSlug(town)}`} class="hover:text-gray-600 no-underline">{town}</a></li>
+        <li><a href={`/town/${townSlug(town)}/`} class="hover:text-gray-600 no-underline">{town}</a></li>
         <li>›</li>
         <li class="text-gray-600 font-medium">{mode === 'category' ? (cat.h1 || cat.label) : `Open on ${dayCap}`}</li>
       </ol>
@@ -177,7 +177,7 @@ const otherCatsThisTown = CATEGORIES
       <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-5">
         <span><strong class="text-gray-900">{count}</strong> places</span>
         {rating > 0 && <span class="stars">★ <span class="text-gray-900 font-semibold">{rating}</span> avg</span>}
-        <a href={`/town/${townSlug(town)}`} class="text-ocean-600 hover:underline no-underline">All {town} restaurants →</a>
+        <a href={`/town/${townSlug(town)}/`} class="text-ocean-600 hover:underline no-underline">All {town} restaurants →</a>
       </div>
       <p class="text-gray-700 leading-relaxed max-w-3xl">{intro}</p>
     </header>
@@ -214,7 +214,7 @@ const otherCatsThisTown = CATEGORIES
         </h2>
         <div class="flex flex-wrap gap-2">
           {sameCatOtherTowns.map(({ t, n }) => (
-            <a href={`/town/${townSlug(t)}/${catSlug}`}
+            <a href={`/town/${townSlug(t)}/${catSlug}/`}
                class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
               {t} <span class="text-gray-400">({n})</span>
             </a>
@@ -228,7 +228,7 @@ const otherCatsThisTown = CATEGORIES
         <h2 class="font-semibold text-base mb-3 text-gray-500">More ways to eat in {town}</h2>
         <div class="flex flex-wrap gap-2">
           {otherCatsThisTown.map(({ c, n, s }) => (
-            <a href={`/town/${townSlug(town)}/${s}`}
+            <a href={`/town/${townSlug(town)}/${s}/`}
                class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
               {(c.h1 || c.label).replace(/^\w/, ch => ch.toUpperCase())} <span class="text-gray-400">({n})</span>
             </a>
@@ -240,11 +240,11 @@ const otherCatsThisTown = CATEGORIES
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>© 2026 gardenroute-restaurants.co.za · Curated by humans</p>
       <div class="flex items-center gap-4">
-        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
-        <a href="/towns" class="hover:text-gray-600 no-underline">Towns</a>
-        <a href="/about" class="hover:text-gray-600 no-underline">About</a>
+        <a href="/browse/" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/towns/" class="hover:text-gray-600 no-underline">Towns</a>
+        <a href="/about/" class="hover:text-gray-600 no-underline">About</a>
       </div>
     </div>
   </footer>

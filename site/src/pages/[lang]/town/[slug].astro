@@ -58,7 +58,7 @@ const seoDesc  = tf('seo.townDesc', { town, count });
 
 const alternates = LOCALES.map(l => ({
   lang: l,
-  path: l === DEFAULT_LOCALE ? `/town/${townSlug(town)}` : `/${l}/town/${townSlug(town)}`,
+  path: l === DEFAULT_LOCALE ? `/town/${townSlug(town)}/` : `/${l}/town/${townSlug(town)}/`,
 }));
 const langLinks = alternates;
 
@@ -69,7 +69,7 @@ const itemListSchema = {
   "inLanguage": lang,
   "numberOfItems": count,
   "itemListElement": list.slice(0, 30).map((r, i) => ({
-    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}`, "name": r.name,
+    "@type": "ListItem", "position": i + 1, "url": `${siteUrl}/${r.slug}/`, "name": r.name,
   })),
 };
 const faqSchema = faqs.length ? {
@@ -83,7 +83,7 @@ const faqSchema = faqs.length ? {
 } : null;
 
 // Restaurant cards deep-link to localized detail pages where translated.
-const cardHref = (r) => translatedLangs(r.slug).includes(lang) ? `/${lang}/${r.slug}` : `/${r.slug}`;
+const cardHref = (r) => translatedLangs(r.slug).includes(lang) ? `/${lang}/${r.slug}/` : `/${r.slug}/`;
 
 const allTowns = getUniqueTowns(loadRestaurants()).filter(x => x !== town);
 ---
@@ -135,7 +135,7 @@ const allTowns = getUniqueTowns(loadRestaurants()).filter(x => x !== town);
       <h2 class="font-semibold text-base mb-3 text-gray-500">{t('town.explore')}</h2>
       <div class="flex flex-wrap gap-2">
         {allTowns.map(x => (
-          <a href={`/${lang}/town/${townSlug(x)}`}
+          <a href={`/${lang}/town/${townSlug(x)}/`}
              class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
             {x}
           </a>
@@ -146,11 +146,11 @@ const allTowns = getUniqueTowns(loadRestaurants()).filter(x => x !== town);
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>© 2026 gardenroute-restaurants.co.za · Curated by humans</p>
       <div class="flex items-center gap-4">
-        <a href="/browse" class="hover:text-gray-600 no-underline">{t('nav.browseAll')}</a>
-        <a href="/towns" class="hover:text-gray-600 no-underline">{t('nav.towns')}</a>
-        <a href="/about" class="hover:text-gray-600 no-underline">{t('nav.about')}</a>
+        <a href="/browse/" class="hover:text-gray-600 no-underline">{t('nav.browseAll')}</a>
+        <a href="/towns/" class="hover:text-gray-600 no-underline">{t('nav.towns')}</a>
+        <a href="/about/" class="hover:text-gray-600 no-underline">{t('nav.about')}</a>
       </div>
     </div>
   </footer>

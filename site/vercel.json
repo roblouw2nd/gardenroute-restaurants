@@ -1,0 +1,134 @@
+{
+  "redirects": [
+    {
+      "source": "/dis-chem-pharmacy-george-victoria-bay",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/dis-chem-pharmacy-george-victoria-bay/",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(af|de|fr|es|pt)/dis-chem-pharmacy-george-victoria-bay",
+      "destination": "/:lang/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(af|de|fr|es|pt)/dis-chem-pharmacy-george-victoria-bay/",
+      "destination": "/:lang/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/sasol-george-highway-victoria-bay",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/sasol-george-highway-victoria-bay/",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/totalenergies-klein-brak-glentana",
+      "destination": "/town/klein-brak-river/",
+      "permanent": true
+    },
+    {
+      "source": "/totalenergies-klein-brak-glentana/",
+      "destination": "/town/klein-brak-river/",
+      "permanent": true
+    },
+    {
+      "source": "/asian-supermarket-george",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/asian-supermarket-george/",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(af|de|fr|es|pt)/asian-supermarket-george",
+      "destination": "/:lang/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(af|de|fr|es|pt)/asian-supermarket-george/",
+      "destination": "/:lang/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/pacaltsdorp-hypersave-george",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/pacaltsdorp-hypersave-george/",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-route-mall-george",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/garden-route-mall-george/",
+      "destination": "/town/george/",
+      "permanent": true
+    },
+    {
+      "source": "/hartenbos-bayview-centre-hartenbos",
+      "destination": "/town/mossel-bay/",
+      "permanent": true
+    },
+    {
+      "source": "/hartenbos-bayview-centre-hartenbos/",
+      "destination": "/town/mossel-bay/",
+      "permanent": true
+    },
+    {
+      "source": "/at-the-woods-guest-house-tsitsikamma-storms-river-storms-river",
+      "destination": "/town/storms-river/",
+      "permanent": true
+    },
+    {
+      "source": "/at-the-woods-guest-house-tsitsikamma-storms-river-storms-river/",
+      "destination": "/town/storms-river/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(af|de|fr|es|pt)/at-the-woods-guest-house-tsitsikamma-storms-river-storms-river",
+      "destination": "/:lang/town/storms-river/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(af|de|fr|es|pt)/at-the-woods-guest-house-tsitsikamma-storms-river-storms-river/",
+      "destination": "/:lang/town/storms-river/",
+      "permanent": true
+    },
+    {
+      "source": "/emily-moon-restaurant-emily-moon-river-lodge-plettenberg-bay",
+      "destination": "/emily-moon-plettenberg-bay/",
+      "permanent": true
+    },
+    {
+      "source": "/emily-moon-restaurant-emily-moon-river-lodge-plettenberg-bay/",
+      "destination": "/emily-moon-plettenberg-bay/",
+      "permanent": true
+    },
+    {
+      "source": "/humble-crumble-sedgefield",
+      "destination": "/cafe-humble-crumble-sedgefield/",
+      "permanent": true
+    },
+    {
+      "source": "/humble-crumble-sedgefield/",
+      "destination": "/cafe-humble-crumble-sedgefield/",
+      "permanent": true
+    }
+  ]
+}

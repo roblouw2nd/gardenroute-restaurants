@@ -54,7 +54,7 @@ const schema = {
   "@type": "Restaurant",
   "name": r.name,
   "description": r.description_short || seoDesc,
-  "url": `${siteUrl}/${r.slug}`,
+  "url": `${siteUrl}/${r.slug}/`,
   "image": photos.map(p => photoUrl(p)).filter(Boolean),
   "telephone": r.phone || undefined,
   "address": {
@@ -86,7 +86,7 @@ const schema = {
 // hreflang alternates — only when translated versions of this page exist
 const trLangs = translatedLangs(r.slug);
 const alternates = trLangs.length
-  ? [{ lang: 'en', path: `/${r.slug}` }, ...trLangs.map(l => ({ lang: l, path: `/${l}/${r.slug}` }))]
+  ? [{ lang: 'en', path: `/${r.slug}/` }, ...trLangs.map(l => ({ lang: l, path: `/${l}/${r.slug}/` }))]
   : [];
 
 // BreadcrumbList for Google breadcrumbs
@@ -95,9 +95,9 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-    { "@type": "ListItem", "position": 2, "name": "Browse", "item": `${siteUrl}/browse` },
-    { "@type": "ListItem", "position": 3, "name": r.town, "item": `${siteUrl}/town/${townSlug(r.town)}` },
-    { "@type": "ListItem", "position": 4, "name": r.name, "item": `${siteUrl}/${r.slug}` },
+    { "@type": "ListItem", "position": 2, "name": "Browse", "item": `${siteUrl}/browse/` },
+    { "@type": "ListItem", "position": 3, "name": r.town, "item": `${siteUrl}/town/${townSlug(r.town)}/` },
+    { "@type": "ListItem", "position": 4, "name": r.name, "item": `${siteUrl}/${r.slug}/` },
   ]
 };
 ---
@@ -158,9 +158,9 @@ const breadcrumbSchema = {
       <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
         <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
         <li>›</li>
-        <li><a href="/browse" class="hover:text-gray-600 no-underline">Browse</a></li>
+        <li><a href="/browse/" class="hover:text-gray-600 no-underline">Browse</a></li>
         <li>›</li>
-        <li><a href={`/town/${townSlug(r.town)}`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
+        <li><a href={`/town/${townSlug(r.town)}/`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
         <li>›</li>
         <li class="text-gray-600 font-medium">{r.name}</li>
       </ol>
@@ -178,7 +178,7 @@ const breadcrumbSchema = {
         <p class="text-gray-500 text-lg mb-3">
           <span>{(r.cuisine_types || []).join(', ')}</span>
           {' · '}
-          <a href={`/town/${townSlug(r.town)}`} class="hover:text-ocean-600 no-underline">{r.town}</a>
+          <a href={`/town/${townSlug(r.town)}/`} class="hover:text-ocean-600 no-underline">{r.town}</a>
           {' · '}
           <span>{price}</span>
         </p>
@@ -309,6 +309,14 @@ const breadcrumbSchema = {
           <p class="text-xs text-gray-400 text-center mt-4">
             Updated {new Date(r.last_updated).toLocaleDateString('en-ZA', { month: 'long', year: 'numeric' })}
           </p>
+
+          <!-- Owner claim: set "claimed": true in the listing's JSON once verified -->
+          <p class="text-xs text-center mt-3 pt-3 border-t border-gray-100">
+            {r.claimed
+              ? <span class="text-green-700 font-semibold">✓ Verified by owner</span>
+              : <a href={`/claim/?restaurant=${r.slug}`} rel="nofollow" class="text-ocean-600 hover:underline">Own this restaurant? Claim this listing</a>
+            }
+          </p>
         </div>
       </div>
     </div>
@@ -318,7 +326,7 @@ const breadcrumbSchema = {
       <div class="mt-12 pt-10 border-t border-gray-100">
         <div class="flex items-end justify-between mb-6">
           <h2 class="font-display text-2xl font-bold">More places to eat nearby</h2>
-          <a href={`/town/${townSlug(r.town)}`} class="text-sm text-ocean-600 hover:underline no-underline whitespace-nowrap">
+          <a href={`/town/${townSlug(r.town)}/`} class="text-sm text-ocean-600 hover:underline no-underline whitespace-nowrap">
             All {r.town} restaurants →
           </a>
         </div>
@@ -331,12 +339,13 @@ const breadcrumbSchema = {
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>© 2026 gardenroute-restaurants.co.za · Curated by humans</p>
       <div class="flex items-center gap-4">
-        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
-        <a href="/terms" class="hover:text-gray-600 no-underline">Terms</a>
-        <a href="/privacy" class="hover:text-gray-600 no-underline">Privacy</a>
-        <a href="/submit" class="hover:text-gray-600 no-underline">Add a restaurant</a>
+        <a href="/browse/" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/terms/" class="hover:text-gray-600 no-underline">Terms</a>
+        <a href="/privacy/" class="hover:text-gray-600 no-underline">Privacy</a>
+        <a href="/submit/" class="hover:text-gray-600 no-underline">Add a restaurant</a>
+        <a href="/claim/" class="hover:text-gray-600 no-underline">Claim your listing</a>
       </div>
     </div>
   </footer>

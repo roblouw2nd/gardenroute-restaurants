@@ -4,18 +4,20 @@ import Nav from '../../components/Nav.astro';
 
 const posts = (await Astro.glob('./*.md'))
   .sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate));
+// Post URLs with a trailing slash, to match each post's canonical tag.
+const postUrl = (p) => (p.url.endsWith('/') ? p.url : `${p.url}/`);
 
 const siteUrl = 'https://www.gardenroute-restaurants.co.za';
 const schema = {
   "@context": "https://schema.org",
   "@type": "Blog",
   "name": "Garden Route Dining Guides",
-  "url": `${siteUrl}/blog`,
+  "url": `${siteUrl}/blog/`,
   "description": "Local guides to the best restaurants, cafés and dining experiences on the Garden Route, South Africa.",
   "blogPost": posts.map(p => ({
     "@type": "BlogPosting",
     "headline": p.frontmatter.title,
-    "url": siteUrl + p.url,
+    "url": siteUrl + postUrl(p),
     "datePublished": new Date(p.frontmatter.pubDate).toISOString(),
   })),
 };
@@ -44,7 +46,7 @@ const schema = {
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {posts.map(p => (
-        <a href={p.url} class="group block bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all p-6 no-underline">
+        <a href={postUrl(p)} class="group block bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all p-6 no-underline">
           <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-2">{p.frontmatter.category || 'Guide'}</p>
           <h2 class="font-display text-xl font-bold text-gray-900 mb-2 leading-snug group-hover:text-ocean-700">{p.frontmatter.title}</h2>
           <p class="text-gray-600 text-sm leading-relaxed">{p.frontmatter.description}</p>
@@ -54,6 +56,6 @@ const schema = {
   </div>
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
-    <div class="max-w-5xl mx-auto text-center text-sm text-gray-400">© 2026 gardenroute-restaurants.co.za</div>
+    <div class="max-w-5xl mx-auto text-center text-sm text-gray-400">© 2026 gardenroute-restaurants.co.za · Curated by humans</div>
   </footer>
 </Base>

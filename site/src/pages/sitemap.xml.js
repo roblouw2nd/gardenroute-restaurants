@@ -20,6 +20,7 @@ export async function GET() {
     { url: '/map',     priority: '0.6', changefreq: 'monthly' },
     { url: '/about',   priority: '0.5', changefreq: 'monthly' },
     { url: '/submit',  priority: '0.4', changefreq: 'monthly' },
+    { url: '/claim',   priority: '0.4', changefreq: 'monthly' },
   ];
 
   // Real, indexable town landing pages (replaces old /browse?town= query URLs)

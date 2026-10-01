@@ -1,0 +1,72 @@
+[
+  {
+    "google_place_id": "ChIJd5d0CCsb1h0RmW-ACIXfSRQ",
+    "name": "Dis-Chem Pharmacy George",
+    "slug": "dis-chem-pharmacy-george-victoria-bay",
+    "reason": "pharmacy",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJf0KFKO0a1h0RX1pN_Q7i9Yk",
+    "name": "Sasol George Highway",
+    "slug": "sasol-george-highway-victoria-bay",
+    "reason": "fuel station",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJA2Cp0yVs1h0RWkEoBUorh5w",
+    "name": "TotalEnergies Klein Brak",
+    "slug": "totalenergies-klein-brak-glentana",
+    "reason": "fuel station",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJ9YJCVAAF1h0RKQSE9GovEyY",
+    "name": "Asian supermarket",
+    "slug": "asian-supermarket-george",
+    "reason": "supermarket",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJA_C1FnEb1h0RQmIjWIIpVno",
+    "name": "Pacaltsdorp Hypersave",
+    "slug": "pacaltsdorp-hypersave-george",
+    "reason": "supermarket",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJxfrBqW0b1h0RGxowsbnu7i8",
+    "name": "Garden Route Mall",
+    "slug": "garden-route-mall-george",
+    "reason": "shopping mall",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJM48jST5p1h0Rp73b4l6GH9I",
+    "name": "Hartenbos Bayview Centre",
+    "slug": "hartenbos-bayview-centre-hartenbos",
+    "reason": "shopping centre",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJk90gjPNueR4RyOpT0oaIRDw",
+    "name": "At the Woods Guest House Tsitsikamma Storms River",
+    "slug": "at-the-woods-guest-house-tsitsikamma-storms-river-storms-river",
+    "reason": "guest house",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJHZDmbn3heB4RIhdn1MiYib8",
+    "name": "Emily Moon Restaurant @ Emily Moon River Lodge",
+    "slug": "emily-moon-restaurant-emily-moon-river-lodge-plettenberg-bay",
+    "reason": "duplicate of emily-moon-plettenberg-bay",
+    "removed": "2026-10-01"
+  },
+  {
+    "google_place_id": "ChIJLeXgnhK9eB4RIwKXpfp271A",
+    "name": "Humble Crumble",
+    "slug": "humble-crumble-sedgefield",
+    "reason": "duplicate of cafe-humble-crumble-sedgefield",
+    "removed": "2026-10-01"
+  }
+]

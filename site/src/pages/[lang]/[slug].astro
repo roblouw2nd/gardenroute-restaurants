@@ -53,8 +53,8 @@ const seoDesc  = `${descShort} ${t('seo.restDescTail')}`;
 
 // hreflang alternates: English original + every translated language.
 const alternates = [
-  { lang: 'en', path: `/${r.slug}` },
-  ...translatedLangs(r.slug).map(l => ({ lang: l, path: `/${l}/${r.slug}` })),
+  { lang: 'en', path: `/${r.slug}/` },
+  ...translatedLangs(r.slug).map(l => ({ lang: l, path: `/${l}/${r.slug}/` })),
 ];
 const langLinks = alternates.map(a => ({ lang: a.lang, path: a.path }));
 
@@ -72,7 +72,7 @@ const schema = {
   "@type": "Restaurant",
   "name": r.name,
   "description": descShort,
-  "url": `${siteUrl}/${lang}/${r.slug}`,
+  "url": `${siteUrl}/${lang}/${r.slug}/`,
   "inLanguage": lang,
   "image": photos.map(p => photoUrl(p)).filter(Boolean),
   "telephone": r.phone || undefined,
@@ -103,7 +103,7 @@ const schema = {
 };
 
 // Similar cards link to the localized page when that translation exists.
-const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${s.slug}` : `/${s.slug}`;
+const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${s.slug}/` : `/${s.slug}/`;
 ---
 
 <Base
@@ -134,7 +134,7 @@ const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${
       <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
         <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
         <li>›</li>
-        <li><a href={`/${lang}/town/${townSlug(r.town)}`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
+        <li><a href={`/${lang}/town/${townSlug(r.town)}/`} class="hover:text-gray-600 no-underline">{r.town}</a></li>
         <li>›</li>
         <li class="text-gray-600 font-medium">{r.name}</li>
       </ol>
@@ -146,7 +146,7 @@ const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${
         <p class="text-gray-500 text-lg mb-3">
           <span>{(r.cuisine_types || []).join(', ')}</span>
           {' · '}
-          <a href={`/${lang}/town/${townSlug(r.town)}`} class="hover:text-ocean-600 no-underline">{r.town}</a>
+          <a href={`/${lang}/town/${townSlug(r.town)}/`} class="hover:text-ocean-600 no-underline">{r.town}</a>
           {' · '}
           <span>{priceLabel(r.price_level)}</span>
         </p>
@@ -255,7 +255,7 @@ const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${
       <div class="mt-12 pt-10 border-t border-gray-100">
         <div class="flex items-end justify-between mb-6">
           <h2 class="font-display text-2xl font-bold">{t('detail.moreNearby')}</h2>
-          <a href={`/${lang}/town/${townSlug(r.town)}`} class="text-sm text-ocean-600 hover:underline no-underline whitespace-nowrap">
+          <a href={`/${lang}/town/${townSlug(r.town)}/`} class="text-sm text-ocean-600 hover:underline no-underline whitespace-nowrap">
             {tf('detail.allTown', { town: r.town })} →
           </a>
         </div>
@@ -268,11 +268,11 @@ const similarHref = (s) => translatedLangs(s.slug).includes(lang) ? `/${lang}/${
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>© 2026 gardenroute-restaurants.co.za · Curated by humans</p>
       <div class="flex items-center gap-4">
-        <a href="/browse" class="hover:text-gray-600 no-underline">{t('nav.browseAll')}</a>
-        <a href="/terms" class="hover:text-gray-600 no-underline">Terms</a>
-        <a href="/privacy" class="hover:text-gray-600 no-underline">Privacy</a>
+        <a href="/browse/" class="hover:text-gray-600 no-underline">{t('nav.browseAll')}</a>
+        <a href="/terms/" class="hover:text-gray-600 no-underline">Terms</a>
+        <a href="/privacy/" class="hover:text-gray-600 no-underline">Privacy</a>
       </div>
     </div>
   </footer>

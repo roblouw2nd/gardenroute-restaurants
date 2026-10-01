@@ -72,7 +72,7 @@ const itemListSchema = {
   "itemListElement": list.slice(0, 30).map((r, i) => ({
     "@type": "ListItem",
     "position": i + 1,
-    "url": `${siteUrl}/${r.slug}`,
+    "url": `${siteUrl}/${r.slug}/`,
     "name": r.name,
   })),
 };
@@ -92,8 +92,8 @@ const breadcrumbSchema = {
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-    { "@type": "ListItem", "position": 2, "name": "Towns", "item": `${siteUrl}/towns` },
-    { "@type": "ListItem", "position": 3, "name": town, "item": `${siteUrl}/town/${townSlug(town)}` },
+    { "@type": "ListItem", "position": 2, "name": "Towns", "item": `${siteUrl}/towns/` },
+    { "@type": "ListItem", "position": 3, "name": town, "item": `${siteUrl}/town/${townSlug(town)}/` },
   ],
 };
 
@@ -103,7 +103,7 @@ const allTowns = getUniqueTowns(loadRestaurants()).filter(t => t !== town);
 // hreflang alternates — localized town pages exist for every locale
 const alternates = LOCALES.map(l => ({
   lang: l,
-  path: l === DEFAULT_LOCALE ? `/town/${townSlug(town)}` : `/${l}/town/${townSlug(town)}`,
+  path: l === DEFAULT_LOCALE ? `/town/${townSlug(town)}/` : `/${l}/town/${townSlug(town)}/`,
 }));
 
 // Town-scoped category & open-on-day sub-pages that exist for this town
@@ -128,7 +128,7 @@ const subPages = [
       <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
         <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
         <li>›</li>
-        <li><a href="/towns" class="hover:text-gray-600 no-underline">Towns</a></li>
+        <li><a href="/towns/" class="hover:text-gray-600 no-underline">Towns</a></li>
         <li>›</li>
         <li class="text-gray-600 font-medium">{town}</li>
       </ol>
@@ -150,7 +150,7 @@ const subPages = [
     {subPages.length > 0 && (
       <div class="flex flex-wrap gap-2 mb-10" aria-label={`Browse ${town} restaurants by category`}>
         {subPages.map(p => (
-          <a href={`/town/${townSlug(town)}/${p.s}`}
+          <a href={`/town/${townSlug(town)}/${p.s}/`}
              class="px-3 py-1.5 rounded-full bg-sand text-sm text-gray-600 hover:text-ocean-600 no-underline transition-colors">
             {p.label} <span class="text-gray-400">({p.n})</span>
           </a>
@@ -184,7 +184,7 @@ const subPages = [
       <h2 class="font-semibold text-base mb-3 text-gray-500">Explore more Garden Route towns</h2>
       <div class="flex flex-wrap gap-2">
         {allTowns.map(t => (
-          <a href={`/town/${townSlug(t)}`}
+          <a href={`/town/${townSlug(t)}/`}
              class="px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-ocean-400 hover:text-ocean-600 no-underline transition-colors">
             {t}
           </a>
@@ -195,11 +195,11 @@ const subPages = [
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>© 2026 gardenroute-restaurants.co.za · Curated by humans</p>
       <div class="flex items-center gap-4">
-        <a href="/browse" class="hover:text-gray-600 no-underline">Browse all</a>
-        <a href="/towns" class="hover:text-gray-600 no-underline">Towns</a>
-        <a href="/about" class="hover:text-gray-600 no-underline">About</a>
+        <a href="/browse/" class="hover:text-gray-600 no-underline">Browse all</a>
+        <a href="/towns/" class="hover:text-gray-600 no-underline">Towns</a>
+        <a href="/about/" class="hover:text-gray-600 no-underline">About</a>
       </div>
     </div>
   </footer>

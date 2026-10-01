@@ -188,11 +188,11 @@ const featuredJson = JSON.stringify(featured).replace(/</g, '\\u003c');
   <header class="topbar">
     <a href="/" class="logo">🌊 gardenroute</a>
     <nav class="topnav">
-      <a href="/browse">Browse</a>
-      <a href="/map" class="active">Map</a>
-      <a href="/towns">Towns</a>
-      <a href="/about">About</a>
-      <a href="/submit" class="btn-add">Add restaurant</a>
+      <a href="/browse/">Browse</a>
+      <a href="/map/" class="active">Map</a>
+      <a href="/towns/">Towns</a>
+      <a href="/about/">About</a>
+      <a href="/submit/" class="btn-add">Add restaurant</a>
     </nav>
   </header>
 
@@ -307,7 +307,7 @@ const featuredJson = JSON.stringify(featured).replace(/</g, '\\u003c');
         '<div class="popup-meta">' + (r.cuisine.join(' · ') || '') + (r.cuisine.length ? ' · ' : '') + r.town + ' · ' + (PRICE[r.price] || 'RR') + '</div>' +
         (r.rating ? '<div class="popup-rating">' + stars(r.rating) + ' ' + r.rating + ' <span style="color:#bbb;font-weight:400;font-size:10px">(' + r.reviews + ' reviews)</span></div>' : '') +
         (r.short ? '<div class="popup-short">' + r.short + '</div>' : '') +
-        '<a class="popup-link" href="/' + r.slug + '">View restaurant →</a>' +
+        '<a class="popup-link" href="/' + r.slug + '/">View restaurant →</a>' +
       '</div>';
   }
 

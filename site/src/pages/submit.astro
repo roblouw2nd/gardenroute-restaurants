@@ -21,24 +21,27 @@ import Nav from '../components/Nav.astro';
     <h1 class="font-display text-4xl font-bold mb-3">Add a restaurant</h1>
     <p class="text-gray-500 text-lg mb-10">Know a great spot that isn't listed yet? Fill in the details below and we'll review it for inclusion.</p>
 
-    <!-- Success message (shown after Netlify form submit) -->
+    <!-- Result banners (shown when /api/form redirects back) -->
     <div id="success-msg" class="hidden bg-green-50 border border-green-200 rounded-xl p-6 text-center mb-8">
       <p class="text-green-800 font-semibold text-lg mb-1">Thanks! We've received your submission.</p>
       <p class="text-green-700 text-sm">We'll review it and add the listing within a few days. If we need more info we'll be in touch.</p>
+    </div>
+    <div id="error-msg" class="hidden bg-red-50 border border-red-200 rounded-xl p-6 text-center mb-8">
+      <p class="text-red-800 font-semibold text-lg mb-1">Sorry, that didn't go through.</p>
+      <p class="text-red-700 text-sm">Please check the form and try again, or email us at
+        <a href="mailto:info@gardenroute-restaurants.co.za" class="underline">info@gardenroute-restaurants.co.za</a>.</p>
     </div>
 
     <form
       name="add-restaurant"
       method="POST"
-      action="/submit?success=true"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
+      action="/api/form"
       id="submit-form"
       class="space-y-6"
     >
-      <!-- Netlify honeypot -->
+      <!-- Honeypot -->
       <p class="hidden">
-        <label>Don't fill this out: <input name="bot-field" /></label>
+        <label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
       </p>
       <input type="hidden" name="form-name" value="add-restaurant" />
 
@@ -158,18 +161,20 @@ import Nav from '../components/Nav.astro';
 
   <footer class="border-t border-gray-100 py-8 px-6 mt-8">
     <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
-      © 2026 gardenroute-restaurants.co.za · <a href="/browse" class="hover:underline no-underline">Browse all restaurants</a>
+      © 2026 gardenroute-restaurants.co.za · Curated by humans · <a href="/browse/" class="hover:underline no-underline">Browse all restaurants</a>
     </div>
   </footer>
 </Base>
 
 <script>
-  // Show success banner if redirected back with ?success=true
+  // Show the result banner if redirected back with ?success=true / ?error=true
   const params = new URLSearchParams(window.location.search);
   if (params.get('success') === 'true') {
     const msg = document.getElementById('success-msg');
     const form = document.getElementById('submit-form');
     if (msg) msg.classList.remove('hidden');
     if (form) form.classList.add('hidden');
+  } else if (params.get('error') === 'true') {
+    document.getElementById('error-msg')?.classList.remove('hidden');
   }
 </script>

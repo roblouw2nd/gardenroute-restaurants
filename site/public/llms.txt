@@ -1,28 +1,30 @@
 # Garden Route Restaurants
-> The most complete restaurant directory for the Garden Route, South Africa.
+> The most complete human-curated restaurant directory for the Garden Route, South Africa.
 
 ## What this site is
-gardenroute-restaurants.co.za is a restaurant directory covering the Garden Route region of the Western Cape, South Africa. It lists restaurants across Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield, and Storms River.
+gardenroute-restaurants.co.za is a restaurant directory covering the Garden Route region of the Western Cape, South Africa. It lists restaurants across Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield, Storms River and the smaller towns in between.
 
-All data is sourced from Google Places and enriched with AI-written descriptions. Listings include ratings, reviews, opening hours, cuisine type, price range, contact information, and directions.
+Every listing is curated by humans: people choose which places are included, review each listing's description and details before it goes live, and remove anything that isn't a genuine place to eat. Listings include ratings, review counts, opening hours, cuisine type, price range, contact information, and directions.
 
 ## Who this is for
 Tourists visiting the Garden Route, locals looking for new dining experiences, and travellers planning road trips along the N2.
 
 ## Coverage
-- Towns: Knysna, Plettenberg Bay, Wilderness, George, Mossel Bay, Sedgefield, Storms River
+- Towns: George, Mossel Bay, Knysna, Plettenberg Bay, Sedgefield, Wilderness, Great Brak River, Storms River, Hartenbos, Klein Brak River, Nature's Valley, Victoria Bay, Herolds Bay
 - Region: Garden Route, Western Cape, South Africa
-- Data updated: Weekly (every Sunday)
 
 ## Key pages
-- Homepage: https://www.gardenroute-restaurants.co.za
-- Browse all: https://www.gardenroute-restaurants.co.za/browse
-- By town: https://www.gardenroute-restaurants.co.za/towns
+- Homepage: https://www.gardenroute-restaurants.co.za/
+- Browse all: https://www.gardenroute-restaurants.co.za/browse/
+- By town: https://www.gardenroute-restaurants.co.za/towns/
+- By cuisine: https://www.gardenroute-restaurants.co.za/eat/
+- Dining guides: https://www.gardenroute-restaurants.co.za/blog/
 - Sitemap: https://www.gardenroute-restaurants.co.za/sitemap.xml
 
 ## Data sources
-- Google Places API (ratings, reviews, hours, contact info)
-- Claude AI (descriptions, cuisine classification, tags)
+- Google Places (ratings, review counts, hours, contact info)
+- Human curation (which places are listed, descriptions, cuisine classification, tags)
+- Restaurant owners, who can claim and correct their own listing: https://www.gardenroute-restaurants.co.za/claim/
 
 ## Licensing
 Restaurant information is factual and sourced from public data. Free to reference and cite.

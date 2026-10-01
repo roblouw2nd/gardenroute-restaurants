@@ -37,7 +37,7 @@ const topPicks = restaurants.slice(0, 6);
       </p>
 
       <!-- Search -->
-      <form action="/browse" method="get" class="flex gap-2 mb-8 max-w-lg">
+      <form action="/browse/" method="get" class="flex gap-2 mb-8 max-w-lg">
         <div class="flex-1 relative">
           <span class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">🔍</span>
           <input
@@ -56,7 +56,7 @@ const topPicks = restaurants.slice(0, 6);
       <div class="flex flex-wrap gap-2">
         {towns.map(town => (
           <a
-            href={`/town/${townSlug(town)}`}
+            href={`/town/${townSlug(town)}/`}
             class="px-4 py-2 rounded-full bg-white/15 hover:bg-white/25 text-white text-sm font-medium transition-colors border border-white/20 no-underline"
           >
             {town}
@@ -94,7 +94,7 @@ const topPicks = restaurants.slice(0, 6);
       {topPicks.length > 0 && (
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           {/* Large card — first item */}
-          <a href={`/${topPicks[0].slug}`} class="group relative md:col-span-1 md:row-span-2 rounded-2xl overflow-hidden block no-underline min-h-64">
+          <a href={`/${topPicks[0].slug}/`} class="group relative md:col-span-1 md:row-span-2 rounded-2xl overflow-hidden block no-underline min-h-64">
             <img
               src={photoUrl(topPicks[0].photos[0]) || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80'}
               alt={topPicks[0].name}
@@ -117,7 +117,7 @@ const topPicks = restaurants.slice(0, 6);
 
           {/* Smaller cards */}
           {topPicks.slice(1, 5).map(r => (
-            <a href={`/${r.slug}`} class="group relative rounded-2xl overflow-hidden block no-underline min-h-40">
+            <a href={`/${r.slug}/`} class="group relative rounded-2xl overflow-hidden block no-underline min-h-40">
               <img
                 src={photoUrl(r.photos[0]) || 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80'}
                 alt={r.name}
@@ -144,7 +144,7 @@ const topPicks = restaurants.slice(0, 6);
           <p class="text-xs font-semibold tracking-widest uppercase text-ocean-600 mb-1">Explore</p>
           <h2 class="font-display text-3xl font-bold">{restaurants.length} restaurants across the Garden Route</h2>
         </div>
-        <a href="/browse" class="hidden md:block text-sm font-medium text-ocean-600 hover:underline no-underline">View all →</a>
+        <a href="/browse/" class="hidden md:block text-sm font-medium text-ocean-600 hover:underline no-underline">View all →</a>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -154,7 +154,7 @@ const topPicks = restaurants.slice(0, 6);
       </div>
 
       <div class="text-center mt-10">
-        <a href="/browse" class="inline-block px-8 py-3 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-full text-sm transition-colors no-underline">
+        <a href="/browse/" class="inline-block px-8 py-3 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-full text-sm transition-colors no-underline">
           Browse all restaurants →
         </a>
       </div>
@@ -171,7 +171,7 @@ const topPicks = restaurants.slice(0, 6);
         {towns.map(town => {
           const count = restaurants.filter(r => r.town === town).length;
           return (
-            <a href={`/town/${townSlug(town)}`} class="group relative rounded-2xl overflow-hidden block no-underline" style="min-height: 160px;">
+            <a href={`/town/${townSlug(town)}/`} class="group relative rounded-2xl overflow-hidden block no-underline" style="min-height: 160px;">
               <img
                 src={townImage(town)}
                 alt={`Restaurants in ${town}, Garden Route`}
@@ -198,12 +198,13 @@ const topPicks = restaurants.slice(0, 6);
   <!-- FOOTER -->
   <footer class="border-t border-gray-100 bg-white py-8 px-6">
     <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
-      <p>© 2026 gardenroute-restaurants.co.za</p>
+      <p>© 2026 gardenroute-restaurants.co.za · Curated by humans</p>
       <div class="flex items-center gap-4">
-        <a href="/terms" class="hover:text-gray-700 no-underline">Terms</a>
-        <a href="/privacy" class="hover:text-gray-700 no-underline">Privacy</a>
-        <a href="/about" class="hover:text-gray-700 no-underline">About</a>
-        <a href="/submit" class="hover:text-gray-700 no-underline">Add a restaurant</a>
+        <a href="/terms/" class="hover:text-gray-700 no-underline">Terms</a>
+        <a href="/privacy/" class="hover:text-gray-700 no-underline">Privacy</a>
+        <a href="/about/" class="hover:text-gray-700 no-underline">About</a>
+        <a href="/submit/" class="hover:text-gray-700 no-underline">Add a restaurant</a>
+        <a href="/claim/" class="hover:text-gray-700 no-underline">Claim your listing</a>
       </div>
     </div>
   </footer>

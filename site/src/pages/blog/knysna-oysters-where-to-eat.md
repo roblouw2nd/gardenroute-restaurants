@@ -14,7 +14,7 @@ You'll see two kinds on menus. **Cultivated (Pacific) oysters** are farmed in th
 
 ## Where to eat them
 
-[East Head Café](/east-head-cafe-knysna-knysna) at the lagoon mouth is the classic spot — oysters with a view of the sea pushing through the Heads. On Thesen Island, [Nest Food Bar](/nest-food-bar-knysna) does oysters with cocktails over the water. For something more casual, many spots around [Knysna](/town/knysna) serve them fresh — and just up the road in [Wilderness](/town/wilderness), [Oysters R Us](/oysters-r-us-wilderness-garden-route-wilderness) is a dedicated roadside oyster-and-seafood stop.
+[East Head Café](/east-head-cafe-knysna-knysna/) at the lagoon mouth is the classic spot — oysters with a view of the sea pushing through the Heads. On Thesen Island, [Nest Food Bar](/nest-food-bar-knysna/) does oysters with cocktails over the water. For something more casual, many spots around [Knysna](/town/knysna/) serve them fresh — and just up the road in [Wilderness](/town/wilderness/), [Oysters R Us](/oysters-r-us-wilderness-garden-route-wilderness/) is a dedicated roadside oyster-and-seafood stop.
 
 ## The Knysna Oyster Festival
 
@@ -26,4 +26,4 @@ Purists take them naked or with just a squeeze of lemon. A dash of Tabasco or a 
 
 ## Pair it with a trip
 
-Make a day of it: read our [Knysna restaurant guide](/blog/best-restaurants-knysna), browse [seafood](/eat/seafood) and [sea-view](/eat/sea-view) spots, or see the [full Garden Route guide](/blog/best-restaurants-garden-route).
+Make a day of it: read our [Knysna restaurant guide](/blog/best-restaurants-knysna/), browse [seafood](/eat/seafood/) and [sea-view](/eat/sea-view/) spots, or see the [full Garden Route guide](/blog/best-restaurants-garden-route/).

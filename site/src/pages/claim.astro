@@ -1,0 +1,141 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import { loadRestaurants } from '../lib/restaurants.js';
+
+const listings = loadRestaurants()
+  .map(r => ({ slug: r.slug, label: `${r.name} — ${r.town}` }))
+  .sort((a, b) => a.label.localeCompare(b.label));
+
+const inputClass = 'w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-ocean-400 focus:ring-2 focus:ring-ocean-100 outline-none text-gray-800 transition';
+---
+
+<Base
+  title="Claim Your Listing — Garden Route Restaurants"
+  description="Own or manage a restaurant on the Garden Route? Claim your free listing to correct your details, add your menu and get a verified badge."
+>
+  <Nav />
+
+  <div class="max-w-2xl mx-auto px-6 py-16">
+    <nav aria-label="Breadcrumb" class="mb-8">
+      <ol class="flex items-center gap-2 text-sm text-gray-400 list-none p-0 m-0">
+        <li><a href="/" class="hover:text-gray-600 no-underline">Home</a></li>
+        <li>›</li>
+        <li class="text-gray-600 font-medium">Claim your listing</li>
+      </ol>
+    </nav>
+
+    <h1 class="font-display text-4xl font-bold mb-3">Claim your listing</h1>
+    <p class="text-gray-500 text-lg mb-8">Own or manage a restaurant on the Garden Route? Claiming your listing is free and puts you in control of what diners see.</p>
+
+    <ul class="bg-sand rounded-xl p-6 mb-10 space-y-2 text-gray-700 list-none m-0">
+      <li>✓ Correct your hours, phone number, website and description</li>
+      <li>✓ Add a link to your menu</li>
+      <li>✓ Get a "Verified by owner" badge on your page</li>
+    </ul>
+
+    <!-- Result banners (shown when /api/form redirects back) -->
+    <div id="success-msg" class="hidden bg-green-50 border border-green-200 rounded-xl p-6 text-center mb-8">
+      <p class="text-green-800 font-semibold text-lg mb-1">Thanks! We've received your claim.</p>
+      <p class="text-green-700 text-sm">We'll be in touch within a few days to verify that you represent the restaurant, then apply your changes.</p>
+    </div>
+    <div id="error-msg" class="hidden bg-red-50 border border-red-200 rounded-xl p-6 text-center mb-8">
+      <p class="text-red-800 font-semibold text-lg mb-1">Sorry, that didn't go through.</p>
+      <p class="text-red-700 text-sm">Please check the form and try again, or email us at
+        <a href="mailto:info@gardenroute-restaurants.co.za" class="underline">info@gardenroute-restaurants.co.za</a>.</p>
+    </div>
+
+    <form name="claim" method="POST" action="/api/form" id="claim-form" class="space-y-6">
+      <!-- Honeypot -->
+      <p class="hidden">
+        <label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+      </p>
+      <input type="hidden" name="form-name" value="claim" />
+
+      <div>
+        <label for="restaurant" class="block text-sm font-semibold text-gray-700 mb-1.5">
+          Your restaurant <span class="text-red-500">*</span>
+        </label>
+        <select id="restaurant" name="restaurant" required class={`${inputClass} bg-white`}>
+          <option value="" disabled selected>Select your restaurant…</option>
+          {listings.map(l => <option value={l.slug}>{l.label}</option>)}
+        </select>
+        <p class="text-xs text-gray-400 mt-1.5">Not in the list? <a href="/submit/" class="text-ocean-600 hover:underline">Add your restaurant</a> first.</p>
+      </div>
+
+      <div>
+        <label for="name" class="block text-sm font-semibold text-gray-700 mb-1.5">
+          Your name <span class="text-red-500">*</span>
+        </label>
+        <input type="text" id="name" name="name" required autocomplete="name" class={inputClass} />
+      </div>
+
+      <div>
+        <label for="role" class="block text-sm font-semibold text-gray-700 mb-1.5">
+          Your role <span class="text-red-500">*</span>
+        </label>
+        <select id="role" name="role" required class={`${inputClass} bg-white`}>
+          <option value="" disabled selected>Select a role…</option>
+          <option>Owner</option>
+          <option>Manager</option>
+          <option>Marketing / agency</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-semibold text-gray-700 mb-1.5">
+          Work email <span class="text-red-500">*</span>
+        </label>
+        <p class="text-xs text-gray-400 mb-1.5">An address at the restaurant's own domain lets us verify you fastest.</p>
+        <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@yourrestaurant.co.za" class={inputClass} />
+      </div>
+
+      <div>
+        <label for="phone" class="block text-sm font-semibold text-gray-700 mb-1.5">Phone</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+27" class={inputClass} />
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm font-semibold text-gray-700 mb-1.5">What would you like to change?</label>
+        <textarea id="message" name="message" rows="4" placeholder="Correct hours, menu link, a better description…" class={`${inputClass} resize-none`}></textarea>
+      </div>
+
+      <label class="flex items-start gap-3 text-sm text-gray-700">
+        <input type="checkbox" name="authorised" value="yes" required class="mt-1" />
+        <span>I confirm that I am authorised to represent this restaurant. <span class="text-red-500">*</span></span>
+      </label>
+
+      <button type="submit" class="w-full py-4 bg-ocean-600 hover:bg-ocean-700 text-white font-semibold rounded-xl text-sm transition-colors">
+        Claim listing
+      </button>
+
+      <p class="text-xs text-gray-400 text-center">
+        We verify every claim before changing a listing, by replying to an email address at the restaurant's domain or calling the number on the listing.
+        See our <a href="/privacy/" class="text-ocean-600 hover:underline">privacy policy</a>.
+      </p>
+    </form>
+  </div>
+
+  <footer class="border-t border-gray-100 py-8 px-6 mt-8">
+    <div class="max-w-6xl mx-auto text-center text-sm text-gray-400">
+      © 2026 gardenroute-restaurants.co.za · Curated by humans · <a href="/browse/" class="hover:underline no-underline">Browse all restaurants</a>
+    </div>
+  </footer>
+</Base>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const form = document.getElementById('claim-form');
+
+  if (params.get('success') === 'true') {
+    document.getElementById('success-msg')?.classList.remove('hidden');
+    form?.classList.add('hidden');
+  } else if (params.get('error') === 'true') {
+    document.getElementById('error-msg')?.classList.remove('hidden');
+  }
+
+  // Arriving from a listing page: /claim/?restaurant=<slug> preselects it.
+  const select = document.getElementById('restaurant') as HTMLSelectElement | null;
+  const slug = params.get('restaurant');
+  if (select && slug && [...select.options].some(o => o.value === slug)) select.value = slug;
+</script>

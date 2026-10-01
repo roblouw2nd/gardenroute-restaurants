@@ -21,6 +21,15 @@ from enricher import enrich
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "restaurants"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
+EXCLUDED_FILE = Path(__file__).parent.parent / "data" / "excluded_places.json"
+
+
+def load_excluded() -> set[str]:
+    """Place IDs a curator has removed (non-restaurants, duplicates). Never re-add these."""
+    if not EXCLUDED_FILE.exists():
+        return set()
+    with open(EXCLUDED_FILE) as f:
+        return {entry["google_place_id"] for entry in json.load(f)}
 
 
 def load_existing() -> dict[str, dict]:
@@ -97,9 +106,12 @@ def update_existing_record(existing: dict, raw: dict) -> dict:
 
 def process_places(raw_places: list, existing: dict, stats: dict):
     """Enrich new places and update existing ones. Mutates existing and stats."""
+    excluded = load_excluded()
     for raw in raw_places:
         place_id = raw["google_place_id"]
         name = raw["name"]
+        if place_id in excluded:
+            continue
         try:
             if place_id in existing:
                 record = update_existing_record(existing[place_id], raw)
