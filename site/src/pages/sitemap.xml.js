@@ -90,7 +90,10 @@ export async function GET() {
     }))),
   ];
 
-  const allPages = [...staticPages, ...townPages, ...categoryPages, ...townCategoryPages, ...blogPages, ...restaurantPages, ...localizedPages];
+  // Localized pages are noindex for now (keep in step with Base.astro).
+  const TRANSLATIONS_INDEXED = false;
+  const allPages = [...staticPages, ...townPages, ...categoryPages, ...townCategoryPages, ...blogPages, ...restaurantPages,
+    ...(TRANSLATIONS_INDEXED ? localizedPages : [])];
 
   // Normalise to a trailing slash so sitemap URLs match the canonical tags.
   const withSlash = (u) => (u === '/' ? '/' : (u.endsWith('/') ? u : `${u}/`));

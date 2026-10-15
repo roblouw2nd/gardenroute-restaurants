@@ -20,9 +20,17 @@ const siteUrl = 'https://www.gardenroute-restaurants.co.za';
 const ogImage = /^https?:\/\//.test(image) ? image : new URL(image, siteUrl).href;
 const ogLocale = OG_LOCALES[lang] || 'en_ZA';
 const htmlLang = lang === 'en' ? 'en-ZA' : lang;
-// hreflang set: only rendered when translations of this page exist.
+// Machine-translated pages stay live for visitors but are kept out of the
+// index: they earned almost no search traffic and read as scaled content to
+// AdSense's "low-value content" review. Set TRANSLATIONS_INDEXED back to true
+// (and restore them in sitemap.xml.js) if they are ever reviewed by people.
+const TRANSLATIONS_INDEXED = false;
+const indexable = lang === 'en' || TRANSLATIONS_INDEXED;
+const robots = indexable
+  ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+  : 'noindex, follow';
 const withSlash = (p) => (p.endsWith('/') ? p : `${p}/`);
-const hreflangs = alternates.length
+const hreflangs = TRANSLATIONS_INDEXED && alternates.length
   ? [
       ...alternates.map(a => ({ hreflang: a.lang, href: `${siteUrl}${withSlash(a.path)}` })),
       { hreflang: 'x-default', href: `${siteUrl}${withSlash(alternates.find(a => a.lang === 'en')?.path || Astro.url.pathname)}` },
@@ -50,7 +58,7 @@ const hreflangs = alternates.length
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
   {hreflangs.map(h => <link rel="alternate" hreflang={h.hreflang} href={h.href} />)}
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="robots" content={robots} />
   <meta name="author" content="Garden Route Restaurants" />
 
   <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
